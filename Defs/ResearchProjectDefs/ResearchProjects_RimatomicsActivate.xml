@@ -4,8 +4,9 @@
   <ResearchProjectDef>
     <defName>RimatomicsActivate</defName>
     <label>Rimatomics</label>
+    <discoveredLetterTitle>Rimatomics Unlocked!</discoveredLetterTitle>
     <description>A probe has been detected in orbit, it seems to be sending signals to the surface, maybe we can decipher the message</description>
-    <descriptionDiscovered>You open a connection to the probe and a recorded message starts to play\n\nSomeone with the slimey demeanour of a used bionics salesman claims to represent a trading faction known as Rimatomics.\n\nAs he makes his sales pitch giglebits of data begin flooding into the console, he explains that these are blueprints to construct a Rimatomics research bench which you can use to purchase plans for some of their technology or request trade ships.\n\nCheck the Rimatomics tab in the architect menu.</descriptionDiscovered>
+    <discoveredLetterText>You open a connection to the probe and a recorded message starts to play\n\nSomeone with the slimey demeanour of a used bionics salesman claims to represent a trading faction known as Rimatomics.\n\nAs he makes his sales pitch giglebits of data begin flooding into the console, he explains that these are blueprints to construct a Rimatomics research bench which you can use to purchase plans for some of their technology or request trade ships.\n\nCheck the Rimatomics tab in the architect menu.</discoveredLetterText>
     <baseCost>537</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>Rimatomics</tab>

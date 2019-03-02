@@ -6,12 +6,11 @@
     <label>Rocket Engine</label>
     <description>Engines for building ICBM's.</description>
     <graphicData>
-      <texPath>Things/Resources/RocketEngine</texPath>
+      <texPath>Rimatomics/Things/Resources/RocketEngine</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <passability>PassThroughOnly</passability>
     <fillPercent>0.8</fillPercent>
     <stackLimit>1</stackLimit>
     <drawGUIOverlay>false</drawGUIOverlay>
@@ -38,8 +37,8 @@
     </recipeMaker>
     <costList>
       <Steel>25</Steel>
-      <Plasteel>15</Plasteel>
-      <Component>1</Component>
+      <Plasteel>10</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
   </ThingDef>
 
@@ -48,12 +47,11 @@
     <label>Missile Fuselage</label>
     <description>Fuselage for building ICBM's.</description>
     <graphicData>
-      <texPath>Things/Resources/fuselage</texPath>
+      <texPath>Rimatomics/Things/Resources/fuselage</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <passability>PassThroughOnly</passability>
     <fillPercent>0.8</fillPercent>
     <stackLimit>1</stackLimit>
     <drawGUIOverlay>false</drawGUIOverlay>
@@ -85,7 +83,7 @@
 
   <ThingDef  Name="BasedWarhead" Abstract="True">
     <graphicData>
-      <texPath>Things/Resources/warhead</texPath>
+      <texPath>Rimatomics/Things/Resources/warhead</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(2,2)</drawSize>
     </graphicData>
@@ -95,7 +93,6 @@
     <soundDrop>ChunkSlag_Drop</soundDrop>
     <category>Item</category>
     <altitudeLayer>Item</altitudeLayer>
-    <passability>PassThroughOnly</passability>
     <fillPercent>0.3</fillPercent>
     <statBases>
       <MaxHitPoints>300</MaxHitPoints>
@@ -132,7 +129,7 @@
     <costList>
       <Plutonium>5</Plutonium>
       <Steel>100</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
   </ThingDef>
 
@@ -142,7 +139,7 @@
     <label>Nuclear Warhead</label>
     <description>An explosive device that derives its destructive force from nuclear reactions.</description>
     <graphicData>
-      <texPath>Things/Resources/warhead</texPath>
+      <texPath>Rimatomics/Things/Resources/warhead</texPath>
     </graphicData>
     <thingClass>Rimatomics.Item_FissionWarhead</thingClass>
     <statBases>
@@ -163,11 +160,11 @@
     <costList>
       <Plutonium>240</Plutonium>
       <Steel>100</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
-    <itemGeneratorTags>
-      <li>SpecialReward</li>
-    </itemGeneratorTags>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
   </ThingDef>
 
 
@@ -187,7 +184,7 @@
     <defName>ICBM_Fission</defName>
     <label>ICBM</label>
     <graphicData>
-      <texPath>Things/Projectile/ShellHighExplosive</texPath>
+      <texPath>Rimatomics/Things/Projectile/Warhead</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
@@ -195,31 +192,33 @@
   </ThingDef>
 
 
-  <!--<ThingDef ParentName="SkyfallerBase">
-    <defName>ICBMIncoming</defName>
-    <label>missile incoming</label>
-    <size>(2, 2)</size>
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>NuclearWarheadIncoming</defName>
+    <label>warhead incoming</label>
     <graphicData>
-      <texPath>Things/Projectile/icbm</texPath>
+      <texPath>Rimatomics/Things/Projectile/Warhead</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
-      <drawSize>(10, 10)</drawSize>
+      <drawSize>(2, 2)</drawSize>
     </graphicData>
     <skyfaller>
-      <shadowSize>(3, 3)</shadowSize>
-      <explosionRadius>4</explosionRadius>
-      <explosionDamage>Bomb</explosionDamage>
+      <shadowSize>(1, 1)</shadowSize>
+      <anticipationSound>IncomingArty</anticipationSound>
+      <anticipationSoundTicks>180</anticipationSoundTicks>
       <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
-      <speed>1.2</speed>
+      <cameraShake>6</cameraShake>
+      <speed>0.8</speed>
     </skyfaller>
   </ThingDef>
-  
+
+
+
   <ThingDef ParentName="SkyfallerBase">
     <defName>SCUDIncoming</defName>
     <label>missile incoming</label>
     <size>(2, 2)</size>
     <graphicData>
-      <texPath>Things/Projectile/icbm</texPath>
+      <texPath>Rimatomics/Things/Projectile/icbm</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
       <drawSize>(10, 10)</drawSize>
@@ -229,7 +228,7 @@
       <explosionRadius>4</explosionRadius>
       <explosionDamage>Bomb</explosionDamage>
       <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
-      <speed>1.2</speed>
+      <speed>1</speed>
     </skyfaller>
   </ThingDef>
 
@@ -238,7 +237,7 @@
     <label>missile incoming</label>
     <size>(2, 2)</size>
     <graphicData>
-      <texPath>Things/Projectile/icbm</texPath>
+      <texPath>Rimatomics/Things/Projectile/icbm</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
       <drawSize>(10, 10)</drawSize>
@@ -250,6 +249,28 @@
       <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
       <speed>1.2</speed>
     </skyfaller>
-  </ThingDef>-->
+  </ThingDef>
 
+
+  <ThingDef ParentName="EtherealThingBase">
+    <defName>ICBMStrike</defName>
+    <label>ICBM Strike</label>
+    <thingClass>Rimatomics.NuclearStrike</thingClass>
+    <tickerType>Normal</tickerType>
+    <drawerType>RealtimeOnly</drawerType>
+    <drawOffscreen>true</drawOffscreen>
+    <seeThroughFog>true</seeThroughFog>
+    <comps>
+      <li Class="CompProperties_AffectsSky">
+        <skyColors>
+          <sky>(175, 78, 0)</sky>
+          <shadow>(213, 173, 87)</shadow>
+          <overlay>(213, 173, 87)</overlay>
+          <saturation>1.5</saturation>
+        </skyColors>
+      </li>
+    </comps>
+  </ThingDef>
+
+  
 </Defs>

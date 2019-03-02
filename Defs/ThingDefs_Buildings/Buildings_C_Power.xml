@@ -1,17 +1,20 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BasedPower">
-    <defName>Radioisotope_thermoelectric_generator</defName>
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
+    <defName>RimatomicsRTG</defName>
     <thingClass>Rimatomics.Building_RTG</thingClass>
     <label>R.T.G</label>
     <description>An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity.</description>
     <tradeTags>
       <li>Rimatomics</li>
     </tradeTags>
-    <iconDrawScale>1.7</iconDrawScale>
+    <thingCategories>
+      <li>Nuclear</li>
+    </thingCategories>
+    <uiIconScale>0.8</uiIconScale>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/RTG</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/RTG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(2,2)</drawSize>
@@ -27,35 +30,34 @@
     <selectable>true</selectable>
     <fillPercent>0.20</fillPercent>
     <canOverlapZones>false</canOverlapZones>
-    <pathCost>200</pathCost>
+    <pathCost>70</pathCost>
     <size>(1,1)</size>
     <costList>
       <Steel>250</Steel>
       <Silver>250</Silver>
       <Plutonium>120</Plutonium>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <rotatable>false</rotatable>
     <statBases>
       <MarketValue>2600</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
       <Mass>20</Mass>
-      <WorkToBuild>15000</WorkToBuild>
-      <Flammability>0.0</Flammability>
+      <WorkToBuild>20000</WorkToBuild>
+      <Flammability>1.0</Flammability>
       <Beauty>-12</Beauty>
     </statBases>
-    <itemGeneratorTags>
-      <li>SpecialReward</li>
-    </itemGeneratorTags>
-    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <thingSetMakerTags>
+      <li>RewardSpecial</li>
+    </thingSetMakerTags>
+    <minifiedDef>MinifiedThing</minifiedDef>
     <tradeability>Sellable</tradeability>
-    <designationHotKey>Misc11</designationHotKey>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerPlant</compClass>
-        <basePowerConsumption>-1000</basePowerConsumption>
+        <basePowerConsumption>-1200</basePowerConsumption>
         <transmitsPower>true</transmitsPower>
       </li>
       <li Class="CompProperties_HeatPusher">
@@ -66,7 +68,7 @@
     <rimatomicsPrerequisites>
       <li>RTG3</li>
     </rimatomicsPrerequisites>
-    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
 
   <ThingDef Name="BaseReactor" ParentName="BasedPower" Abstract="true">
@@ -94,7 +96,7 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>1337</basePowerConsumption>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
@@ -103,15 +105,6 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="Rimatomics.CompProperties_Upgradable">
         <upgrades>
-          <li>
-            <project>ResearchReactorConductors</project>
-          </li>
-          <li>
-            <project>ResearchNeutronReflectors</project>
-          </li>
-          <li>
-            <project>ResearchReactorShielding</project>
-          </li>
           <li>
             <project>ResearchControlRodActuators</project>
           </li>
@@ -127,13 +120,13 @@
     </placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="BaseReactor">
+  <ThingDef ParentName="BaseReactor"  Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorCoreA</defName>
     <label>Reactor Type A</label>
     <description>Rimatomics thermal reactor core with 21 fuel assembly capacity with 250kw. A nuclear reactor core is the portion of a nuclear reactor containing the nuclear fuel components where the nuclear reactions take place and the heat is generated</description>
     <thingClass>Rimatomics.CoreA</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/CoreA</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/CoreA</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(5,5)</drawSize>
@@ -147,21 +140,21 @@
     </statBases>
     <costList>
       <Steel>350</Steel>
-      <ReactorComponents>21</ReactorComponents>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
     <rimatomicsPrerequisites>
-      <li>NuclearReactor6</li>
+      <li>NuclearReactor3</li>
     </rimatomicsPrerequisites>
-    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
   </ThingDef>
 
-  <ThingDef ParentName="BaseReactor">
+  <ThingDef ParentName="BaseReactor"  Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorCoreB</defName>
     <label>Reactor Type X</label>
     <description>An advanced breeder reactor design which can generate more fissile material than it consumes.</description>
     <thingClass>Rimatomics.CoreB</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/CoreB</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/CoreB</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(6,6)</drawSize>
@@ -169,27 +162,28 @@
     <size>(6,6)</size>
     <statBases>
       <MaxHitPoints>700</MaxHitPoints>
-      <WorkToBuild>15000</WorkToBuild>
+      <WorkToBuild>35000</WorkToBuild>
       <Flammability>1.0</Flammability>
       <Beauty>-40</Beauty>
     </statBases>
     <costList>
-      <Steel>500</Steel>
-      <ReactorComponents>37</ReactorComponents>
-    </costList>
+      <Steel>350</Steel>
+      <Plasteel>50</Plasteel>
+      <ComponentIndustrial>16</ComponentIndustrial>  
+  </costList>
     <rimatomicsPrerequisites>
       <li>AdvReactor3</li>
     </rimatomicsPrerequisites>
-    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
 
-  <ThingDef ParentName="BaseReactor">
+  <ThingDef ParentName="BaseReactor"  Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorCoreC</defName>
     <label>Reactor Type V</label>
     <description>A massive advanced breeder reactor design which can generate more fissile material than it consumes.</description>
     <thingClass>Rimatomics.CoreC</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/CoreC</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/CoreC</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(9, 9)</drawSize>
@@ -197,30 +191,31 @@
     <size>(9,9)</size>
     <statBases>
       <MaxHitPoints>1600</MaxHitPoints>
-      <WorkToBuild>20000</WorkToBuild>
+      <WorkToBuild>85000</WorkToBuild>
       <Flammability>1.0</Flammability>
       <Beauty>-40</Beauty>
     </statBases>
     <costList>
-      <Steel>1000</Steel>
-      <ReactorComponents>89</ReactorComponents>
+      <Steel>500</Steel>
+      <Plasteel>150</Plasteel>
+      <ComponentIndustrial>24</ComponentIndustrial>
     </costList>
     <rimatomicsPrerequisites>
       <li>AdvReactor3</li>
     </rimatomicsPrerequisites>
-    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
   
   <!-- COOLING -->
 
-  <ThingDef ParentName="BasedPower">
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>CoolingRadiator</defName>
     <label>Radiator</label>
-    <description>A radiator system designed to heat very large bases while also cooling a nuclear reactor</description>
+    <description>Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited</description>
     <thingClass>Rimatomics.Radiator</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/nukeRadiator</texPath>
-      <graphicClass>Graphic_Multi</graphicClass>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/nukeRadiator</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(4,4)</drawSize>
       <shadowData>
@@ -229,7 +224,7 @@
       </shadowData>
       <allowFlip>false</allowFlip>
     </graphicData>
-    <rotatable>true</rotatable>
+    <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
     <canOverlapZones>false</canOverlapZones>
@@ -240,14 +235,14 @@
     <holdsRoof>true</holdsRoof>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
-      <WorkToBuild>22800</WorkToBuild>
+      <WorkToBuild>8000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <pathCost>250</pathCost>
     <size>(3,3)</size>
     <costList>
       <Steel>350</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <tickerType>Normal</tickerType>
     <comps>
@@ -258,7 +253,7 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>950</basePowerConsumption>
-        <startElectricalFires>false</startElectricalFires>
+        <shortCircuitInRain>false</shortCircuitInRain>
       </li>
       <li Class="Rimatomics.CompProperties_Upgradable"/>
     </comps>
@@ -278,17 +273,18 @@
   </ThingDef>
 
 
-  <ThingDef ParentName="BasedPower">
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>CoolingWater</defName>
-    <label>Water Cooling Station</label>
+    <label>Water Cooling</label>
     <description>Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans</description>
     <thingClass>Rimatomics.WaterStation</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/waterStation</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/waterStation</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(5,6)</drawSize>
     </graphicData>
+    <uiIconScale>0.8</uiIconScale>
     <rotatable>true</rotatable>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
@@ -302,13 +298,13 @@
     <holdsRoof>true</holdsRoof>
     <statBases>
       <MaxHitPoints>450</MaxHitPoints>
-      <WorkToBuild>2800</WorkToBuild>
+      <WorkToBuild>20000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <size>(3,4)</size>
     <costList>
       <Steel>500</Steel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <tickerType>Normal</tickerType>
     <comps>
@@ -319,7 +315,7 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>550</basePowerConsumption>
-        <startElectricalFires>false</startElectricalFires>
+        <shortCircuitInRain>false</shortCircuitInRain>
       </li>
       <li Class="Rimatomics.CompProperties_Upgradable"/>
     </comps>
@@ -335,17 +331,17 @@
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
   </ThingDef>
 
-  <ThingDef ParentName="BasedPower">
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>CoolingTower</defName>
-    <label>Dry Cooling Tower</label>
+    <label>Cooling Tower</label>
     <description>Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available</description>
     <thingClass>Rimatomics.CoolingTower</thingClass>
-    <iconDrawScale>1.3</iconDrawScale>
+    <uiIconScale>0.9</uiIconScale>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/coolingTower</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/coolingTower</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(7,11)</drawSize>
+      <drawSize>(8,12)</drawSize>
       <shadowData>
         <volume>(0.9, 0.9, 0.9)</volume>
         <offset>(0,0,0)</offset>
@@ -360,14 +356,14 @@
     <pathCost>250</pathCost>
     <canOverlapZones>false</canOverlapZones>
     <statBases>
-      <MaxHitPoints>750</MaxHitPoints>
-      <WorkToBuild>22800</WorkToBuild>
+      <MaxHitPoints>1050</MaxHitPoints>
+      <WorkToBuild>30000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
-    <size>(7,7)</size>
+    <size>(8,8)</size>
     <costList>
       <Steel>1000</Steel>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
     <tickerType>Normal</tickerType>
     <comps>
@@ -378,10 +374,14 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>550</basePowerConsumption>
-        <startElectricalFires>false</startElectricalFires>
+        <shortCircuitInRain>false</shortCircuitInRain>
       </li>
       <li Class="Rimatomics.CompProperties_Upgradable"/>
     </comps>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <allowAutoroof>false</allowAutoroof>
+    </building>
     <placeWorkers>
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
       <li>PlaceWorker_NotUnderRoof</li>
@@ -390,18 +390,19 @@
       <li>NuclearReactor3</li>
     </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
-  </ThingDef>
+  
+</ThingDef>
 
   <!-- HEAT EXCHANGE -->
 
 
-  <ThingDef ParentName="BasedPower">
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>Turbine</defName>
-    <label>Thor Turbine</label>
-    <description>A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts</description>
+    <label>Little Turbine</label>
+    <description>A turbine driven by steam which turns a generator to produce electricity. The little turbine has a maximum power output of 100 Kilowatts</description>
     <thingClass>Rimatomics.Thor</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/MiniTurbine</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/MiniTurbine</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(5,8)</drawSize>
@@ -418,16 +419,16 @@
     <staticSunShadowHeight>0.35</staticSunShadowHeight>
     <statBases>
       <MaxHitPoints>700</MaxHitPoints>
-      <WorkToBuild>9000</WorkToBuild>
+      <WorkToBuild>25000</WorkToBuild>
       <Flammability>0</Flammability>
       <Beauty>-40</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
     <size>(4,7)</size>
     <costList>
-      <Steel>250</Steel>
+      <Steel>200</Steel>
       <turbineBlade>250</turbineBlade>
-      <Component>12</Component>
+      <ComponentIndustrial>12</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
@@ -446,7 +447,7 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>500</basePowerConsumption>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
@@ -462,18 +463,18 @@
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
     </placeWorkers>
     <rimatomicsPrerequisites>
-      <li>NuclearReactor4</li>
+      <li>NuclearReactor3</li>
     </rimatomicsPrerequisites>
-    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
   </ThingDef>
 
-  <ThingDef ParentName="BasedPower">
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>BigTurbine</defName>
-    <label>Zeus Turbine</label>
-    <description>A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt</description>
+    <label>Big Turbine</label>
+    <description>A turbine driven by steam which turns a generator to produce electricity. The big turbine has a maximum power output of 1 Megawatt</description>
     <thingClass>Rimatomics.Zeus</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/Turbine</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/Turbine</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(7,11)</drawSize>
@@ -490,16 +491,16 @@
     <staticSunShadowHeight>0.35</staticSunShadowHeight>
     <statBases>
       <MaxHitPoints>2000</MaxHitPoints>
-      <WorkToBuild>22000</WorkToBuild>
+      <WorkToBuild>65000</WorkToBuild>
       <Flammability>0</Flammability>
       <Beauty>-40</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>
     <size>(6,10)</size>
     <costList>
-      <Steel>1500</Steel>
-      <turbineBlade>1500</turbineBlade>
-      <Component>40</Component>
+      <Steel>500</Steel>
+      <turbineBlade>1000</turbineBlade>
+      <ComponentIndustrial>20</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
@@ -518,7 +519,7 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>1000</basePowerConsumption>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
       </li>
       <li Class="CompProperties_HeatPusher">
         <compClass>CompHeatPusherPowered</compClass>
@@ -536,20 +537,20 @@
     <rimatomicsPrerequisites>
       <li>AdvReactor3</li>
     </rimatomicsPrerequisites>
-    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
 
 
   <!-- TRANNY -->
 
-  <ThingDef ParentName="BasedPower">
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>Transformer</defName>
     <label>High Voltage Transformer</label>
     <description>Provides the final voltage transformation from the Turbine Generators, stepping down the voltage used in the high voltage lines to the level used by power conduits</description>
     <thingClass>Rimatomics.Transformer</thingClass>
-    <iconDrawScale>1.3</iconDrawScale>
+    <uiIconScale>0.8</uiIconScale>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/transformer</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/transformer</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(3,3)</drawSize>
@@ -569,13 +570,13 @@
     <blockLight>false</blockLight>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
-      <WorkToBuild>3800</WorkToBuild>
+      <WorkToBuild>7000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
     <size>(2,2)</size>
     <costList>
       <Steel>350</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <tickerType>Normal</tickerType>
     <comps>
@@ -596,6 +597,7 @@
       <li>NuclearReactor7</li>
     </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+
   </ThingDef>
 
 
@@ -603,13 +605,13 @@
 
   <!-- CONTROLLERS -->
 
-  <ThingDef ParentName="BasedPower">
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorControl</defName>
     <label>reactor console</label>
     <description>Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time</description>
     <thingClass>Rimatomics.ReactorControl</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/ReactorControl</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/ReactorControl</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(6,3)</drawSize>
@@ -631,16 +633,17 @@
     <staticSunShadowHeight>0.35</staticSunShadowHeight>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
-      <WorkToBuild>2800</WorkToBuild>
+      <WorkToBuild>8000</WorkToBuild>
       <Flammability>1.0</Flammability>
     </statBases>
+    <interactionCellIcon>DiningChair</interactionCellIcon>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <rotatable>true</rotatable>
     <size>(5,2)</size>
     <costList>
       <Steel>175</Steel>
-      <Component>3</Component>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <tickerType>Normal</tickerType>
     <comps>
@@ -651,7 +654,7 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>175</basePowerConsumption>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
@@ -664,16 +667,16 @@
   
   
 
-  <ThingDef ParentName="BasedPower">
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>storagePool</defName>
     <label>Storage Pool</label>
     <description>A storage pool for safely storing nuclear fuel rods. Right click with a selected pawn to interact and designate fuel for removal</description>
     <thingClass>Rimatomics.Building_storagePool</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/storagePool</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/storagePool</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(6,6)</drawSize>
+      <drawSize>(7,7)</drawSize>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <castEdgeShadows>true</castEdgeShadows>
@@ -685,21 +688,22 @@
     <canOverlapZones>false</canOverlapZones>
     <statBases>
       <MaxHitPoints>350</MaxHitPoints>
-      <WorkToBuild>1800</WorkToBuild>
+      <WorkToBuild>18000</WorkToBuild>
       <Flammability>0.0</Flammability>
     </statBases>
     <size>(5,5)</size>
-    <rotatable>false</rotatable>
+    <rotatable>true</rotatable>
     <costList>
       <Steel>450</Steel>
-      <Component>6</Component>
+      <ComponentIndustrial>6</ComponentIndustrial>
     </costList>
     <tickerType>Normal</tickerType>
     <comps>
+      <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>175</basePowerConsumption>
-        <startElectricalFires>false</startElectricalFires>
+        <shortCircuitInRain>false</shortCircuitInRain>
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
@@ -732,16 +736,19 @@
     <rimatomicsPrerequisites>
       <li>NuclearReactor10</li>
     </rimatomicsPrerequisites>
-    <constructionSkillPrerequisite>9</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+        <placeWorkers>
+      <li>Rimatomics.PlaceWorker_StoragePool</li>
+    </placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="BasedPower">
+  <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>RadiationDetector</defName>
     <label>Radiation Detector</label>
     <description>Radiation Detector</description>
     <thingClass>Rimatomics.Building_RadDetector</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/RadDetector</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/RadDetector</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
     </graphicData>
@@ -761,14 +768,14 @@
     <drawGUIOverlay>True</drawGUIOverlay>
     <costList>
       <Steel>25</Steel>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <tickerType>Normal</tickerType>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>75</basePowerConsumption>
-        <startElectricalFires>false</startElectricalFires>
+        <shortCircuitInRain>false</shortCircuitInRain>
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>

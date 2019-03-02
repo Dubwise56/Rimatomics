@@ -4,24 +4,21 @@
 
   <ThingDef ParentName="RimatomicResourceBase" Name="UpgradePart" Abstract="True" Class="Rimatomics.RimatomicsThingDef">
     <graphicData>
-      <texPath>Things/Item/Resource/Component</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <color>(160,178,181)</color>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
     <soundDrop>Standard_Drop</soundDrop>
-    <passability>PassThroughOnly</passability>
     <fillPercent>0.1</fillPercent>
-    <drawGUIOverlay>false</drawGUIOverlay>
-    <stackLimit>1</stackLimit>
+    <drawGUIOverlay>true</drawGUIOverlay>
+    <stackLimit>25</stackLimit>
     <statBases>
       <Flammability>10</Flammability>
       <MarketValue>40</MarketValue>
-      <Mass>5</Mass>
+      <Mass>3</Mass>
       <DeteriorationRate>2.0</DeteriorationRate>
     </statBases>
     <thingCategories>
-      <li>Manufactured</li>
+      <li>RimatomicsProduct</li>
     </thingCategories>
     <intricate>true</intricate>
     <recipeMaker>
@@ -36,52 +33,12 @@
   </ThingDef>
 
 
-  <!--CORE-->
-
-  <ThingDef ParentName="UpgradePart">
-    <defName>ReactorConductors</defName>
-    <label>Reactor Conductors</label>
-    <description>Upgrade parts for the Rimatomics nuclear reactor</description>
-    <graphicData>
-      <texPath>Things/Resources/conductors</texPath>
-    </graphicData>
-    <recipeMaker>
-      <workAmount>10000</workAmount>
-      <recipeUsers>
-        <li>TableRimatomicsMachining</li>
-      </recipeUsers>
-    </recipeMaker>
-    <costList>
-      <Plasteel>100</Plasteel>
-      <Component>4</Component>
-    </costList>
-  </ThingDef>
-
-  <ThingDef ParentName="UpgradePart">
-    <defName>ReactorShielding</defName>
-    <label>Reactor Shielding</label>
-    <description>Upgrade parts for the Rimatomics nuclear reactor</description>
-    <graphicData>
-      <texPath>Things/Resources/shielding</texPath>
-    </graphicData>
-    <recipeMaker>
-      <workAmount>10000</workAmount>
-      <recipeUsers>
-        <li>TableRimatomicsMachining</li>
-      </recipeUsers>
-    </recipeMaker>
-    <costList>
-      <Plasteel>100</Plasteel>
-      <Silver>20</Silver>
-    </costList>
-  </ThingDef>
-
   <ThingDef ParentName="UpgradePart">
     <defName>ControlRodActuator</defName>
     <label>Control Rod Actuator</label>
     <description>Upgrade parts for the Rimatomics nuclear reactor</description>
     <graphicData>
-      <texPath>Things/Resources/rodMechanism</texPath>
+      <texPath>Rimatomics/Things/Resources/rodMechanism</texPath>
     </graphicData>
     <recipeMaker>
       <workAmount>10000</workAmount>
@@ -90,16 +47,16 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Component>4</Component>
+      <ComponentIndustrial>4</ComponentIndustrial>
     </costList>
   </ThingDef>
 
-  <ThingDef ParentName="UpgradePart">
+  <!--<ThingDef ParentName="UpgradePart">
     <defName>NeutronReflectors</defName>
     <label>Neutron Reflectors</label>
     <description>Upgrade parts for the Rimatomics nuclear reactor</description>
     <graphicData>
-      <texPath>Things/Resources/Reflectors</texPath>
+      <texPath>Rimatomics/Things/Resources/Reflectors</texPath>
     </graphicData>
     <recipeMaker>
       <workAmount>10000</workAmount>
@@ -110,17 +67,39 @@
     <costList>
       <Plasteel>200</Plasteel>
     </costList>
+  </ThingDef>-->
+
+  
+  
+  
+  
+  
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>SCAD</defName>
+    <label>SCAD</label>
+    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <graphicData>
+      <texPath>Rimatomics/Things/Resources/SCAD</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>20000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
+    </costList>
   </ThingDef>
-
-
-
 
   <ThingDef ParentName="UpgradePart">
     <defName>MEPS</defName>
     <label>MEPS</label>
     <description>Upgrade parts for Rimatomics energy weapons</description>
     <graphicData>
-      <texPath>Things/Resources/MEPS</texPath>
+      <texPath>Rimatomics/Things/Resources/MEPS</texPath>
     </graphicData>
     <recipeMaker>
       <workAmount>10000</workAmount>
@@ -129,7 +108,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Component>2</Component>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
   </ThingDef>
 
@@ -138,7 +118,7 @@
     <label>ALC</label>
     <description>Upgrade parts for Rimatomics energy weapons</description>
     <graphicData>
-      <texPath>Things/Resources/heatsink</texPath>
+      <texPath>Rimatomics/Things/Resources/heatsink</texPath>
     </graphicData>
     <recipeMaker>
       <workAmount>10000</workAmount>
@@ -147,8 +127,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Plasteel>50</Plasteel>
-      <Component>1</Component>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
   </ThingDef>
 
@@ -159,7 +139,7 @@
     <label>ERS</label>
     <description>Upgrade parts for Rimatomics energy weapons</description>
     <graphicData>
-      <texPath>Things/Resources/ERS</texPath>
+      <texPath>Rimatomics/Things/Resources/ERS</texPath>
     </graphicData>
     <recipeMaker>
       <workAmount>10000</workAmount>
@@ -168,7 +148,8 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Component>2</Component>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
   </ThingDef>
 
@@ -178,16 +159,17 @@
     <label>Drive Actuator</label>
     <description>Upgrade parts for Rimatomics energy weapons</description>
     <graphicData>
-      <texPath>Things/Resources/actuator</texPath>
+      <texPath>Rimatomics/Things/Resources/actuator</texPath>
     </graphicData>
     <recipeMaker>
-      <workAmount>10000</workAmount>
+      <workAmount>7000</workAmount>
       <recipeUsers>
         <li>TableRimatomicsMachining</li>
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Component>2</Component>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
   </ThingDef>
 
@@ -198,16 +180,16 @@
     <label>Targeting Chip</label>
     <description>Upgrade parts for the Rimatomics Railgun</description>
     <graphicData>
-      <texPath>Things/Resources/chip</texPath>
+      <texPath>Rimatomics/Things/Resources/chip</texPath>
     </graphicData>
     <recipeMaker>
-      <workAmount>1000</workAmount>
+      <workAmount>6000</workAmount>
       <recipeUsers>
         <li>TableRimatomicsMachining</li>
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Component>2</Component>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
   </ThingDef>
 
@@ -218,17 +200,17 @@
     <label>Beam Splitter</label>
     <description>Upgrade parts for the Rimatomics Obelisk.</description>
     <graphicData>
-      <texPath>Things/Resources/splitter</texPath>
+      <texPath>Rimatomics/Things/Resources/splitter</texPath>
     </graphicData>
     <recipeMaker>
-      <workAmount>10000</workAmount>
+      <workAmount>15000</workAmount>
       <recipeUsers>
         <li>TableRimatomicsMachining</li>
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Plasteel>50</Plasteel>
-      <Component>2</Component>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
   </ThingDef>
 
@@ -237,17 +219,17 @@
     <label>Lense Module</label>
     <description>Upgrade parts for the Rimatomics Obelisk.</description>
     <graphicData>
-      <texPath>Things/Resources/focus</texPath>
+      <texPath>Rimatomics/Things/Resources/focus</texPath>
     </graphicData>
     <recipeMaker>
-      <workAmount>10000</workAmount>
+      <workAmount>20000</workAmount>
       <recipeUsers>
         <li>TableRimatomicsMachining</li>
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Plasteel>50</Plasteel>
-      <Component>2</Component>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
   </ThingDef>
 

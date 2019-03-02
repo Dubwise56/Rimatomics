@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+  
+  <SiteCoreDef>
+    <defName>MissileBase</defName>
+    <label>MissileBase</label>
+		<description>MissileBase.</description>
+    <siteTexture>World/WorldObjects/Sites/GenericSite</siteTexture>
+    <expandingIconTexture>Rimatomics/UI/icbmBase</expandingIconTexture>
+  </SiteCoreDef>
+
+  
+  <SitePartDef>
+    <defName>MissileBasePart</defName>
+    <label>Missile Base</label>
+    <description>A guarded missile base.</description>
+    <descriptionDialogue>there is an enemy outpost at the site guarded by {0} enemies</descriptionDialogue>
+    <workerClass>SitePartWorker_Outpost</workerClass>
+    <siteTexture>World/WorldObjects/Sites/Outpost</siteTexture>
+    <expandingIconTexture>Rimatomics/UI/icbmBase</expandingIconTexture>
+    <applyFactionColorToSiteTexture>true</applyFactionColorToSiteTexture>
+    <showFactionInInspectString>true</showFactionInInspectString>
+    <requiresFaction>true</requiresFaction>
+    <approachOrderString>Attack {0}</approachOrderString>
+    <approachingReportString>Attacking {0}</approachingReportString>
+    <arrivedLetter>There is an enemy outpost in this area.</arrivedLetter>
+    <arrivedLetterLabel>Enemy outpost</arrivedLetterLabel>
+    <arrivedLetterDef>NegativeEvent</arrivedLetterDef>
+    <tags>
+      <li>MissileBase</li>
+    </tags>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>MissileOutpost</defName>
+    <linkWithSite>MissileBasePart</linkWithSite>
+    <order>450</order>
+    <genStep Class="GenStep_Outpost"/>
+  </GenStepDef>
+
+  <GenStepDef>
+    <defName>MissileOutpostPower</defName>
+    <linkWithSite>MissileBasePart</linkWithSite>
+    <order>451</order>
+    <genStep Class="GenStep_Power"/>
+  </GenStepDef>
+
+
+</Defs>

@@ -46,7 +46,7 @@
     <label>Sabot Round</label>
     <description>A kinetic energy projectile fired from a railgun.</description>
     <graphicData>
-      <texPath>Things/Resources/sabot</texPath>
+      <texPath>Rimatomics/Things/Resources/sabot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <projectileWhenLoaded>Bullet_Sabot</projectileWhenLoaded>
@@ -57,9 +57,9 @@
 
   <ThingDef ParentName="BaseBullet">
     <defName>Bullet_Sabot</defName>
-    <label>high-explosive shell</label>
+    <label>Sabot Round</label>
     <graphicData>
-      <texPath>Things/Projectile/SabotRound</texPath>
+      <texPath>Rimatomics/Things/Projectile/SabotRound</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
@@ -68,9 +68,9 @@
       <damageDef>Bomb</damageDef>
       <damageAmountBase>65</damageAmountBase>
       <speed>150</speed>
-      <explosionRadius>3.5</explosionRadius>
+      <explosionRadius>5.9</explosionRadius>
       <flyOverhead>true</flyOverhead>
-      <soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <soundExplode>MortarBomb_Explode</soundExplode>
       <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
       <soundAmbient>MortarRound_Ambient</soundAmbient>
@@ -83,14 +83,14 @@
   <ThingDef ParentName="MakeableSabotBase">
     <defName>RailgunSabotDU</defName>
     <label>DU Sabot Round</label>
-    <description>A kinetic energy projectile fired from a railgun.</description>
+    <description>A kinetic energy projectile fired from a railgun, inert and safe to stockpile.</description>
     <graphicData>
-      <texPath>Things/Resources/sabot</texPath>
+      <texPath>Rimatomics/Things/Resources/sabot</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <tradeability>Sellable</tradeability>
     <statBases>
-      <MarketValue>1500</MarketValue>
+      <MarketValue>50</MarketValue>
     </statBases>
     <projectileWhenLoaded>Bullet_Sabot_DU</projectileWhenLoaded>
     <costList>
@@ -102,7 +102,7 @@
     <defName>Bullet_Sabot_DU</defName>
     <label>DU Sabot Round</label>
     <graphicData>
-      <texPath>Things/Projectile/SabotRound</texPath>
+      <texPath>Rimatomics/Things/Projectile/SabotRound</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
@@ -111,16 +111,59 @@
       <damageDef>Bomb</damageDef>
       <damageAmountBase>100</damageAmountBase>
       <speed>150</speed>
-      <explosionRadius>15</explosionRadius>
+      <explosionRadius>7.9</explosionRadius>
       <explosionChanceToStartFire>0.22</explosionChanceToStartFire>
-      <explosionDealMoreDamageAtCenter>true</explosionDealMoreDamageAtCenter>
       <explosionEffect>GiantExplosion</explosionEffect>
       <flyOverhead>true</flyOverhead>
-      <soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
+      <soundHitThickRoof>Artillery_HitThickRoof</soundHitThickRoof>
       <soundExplode>Explosion_GiantBomb</soundExplode>
       <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
       <soundAmbient>MortarRound_Ambient</soundAmbient>
     </projectile>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>SabotRoundIncoming</defName>
+    <label>sabot incoming</label>
+    <size>(1, 1)</size>
+    <graphicData>
+      <texPath>Rimatomics/Things/Projectile/SabotRound</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+    </graphicData>
+    <skyfaller>
+      <anticipationSound>IncomingArty</anticipationSound>
+      <anticipationSoundTicks>180</anticipationSoundTicks>
+      <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
+      <explosionRadius>5.9</explosionRadius>
+      <explosionDamage>Bomb</explosionDamage>
+      <speed>1.1</speed>
+      <explosionDamageFactor>1</explosionDamageFactor>
+    </skyfaller>
+  </ThingDef>
+
+
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>DUSabotRoundIncoming</defName>
+    <label>DU sabot incoming</label>
+    <size>(1, 1)</size>
+    <graphicData>
+      <texPath>Rimatomics/Things/Projectile/SabotRound</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+    </graphicData>
+    <skyfaller>
+      <anticipationSound>IncomingArty</anticipationSound>
+      <anticipationSoundTicks>180</anticipationSoundTicks>
+      <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
+      <explosionRadius>7.9</explosionRadius>
+      <explosionDamage>Bomb</explosionDamage>
+      <cameraShake>1</cameraShake>
+      <speed>1.1</speed>
+      <explosionDamageFactor>2</explosionDamageFactor>
+    </skyfaller>
   </ThingDef>
 
 </Defs>

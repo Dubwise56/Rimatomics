@@ -1,6 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <DesignatorDropdownGroupDef>
+    <defName>RimatomicsValves</defName>
+  </DesignatorDropdownGroupDef>
+
+  <DesignatorDropdownGroupDef>
+    <defName>RimatomicsSarc</defName>
+  </DesignatorDropdownGroupDef>
+  
   <DesignationCategoryDef>
     <defName>Rimatomics</defName>
     <label>Rimatomics</label>
@@ -9,11 +17,7 @@
     <specialDesignatorClasses>
       <li>Designator_Cancel</li>
       <li>Designator_Deconstruct</li>
-      <li>Rimatomics.Designator_RemoveColdWater</li>
-      <li>Rimatomics.Designator_RemoveCooling</li>
-      <li>Rimatomics.Designator_RemoveHighVoltage</li>
-      <li>Rimatomics.Designator_RemoveLoom</li>
-      <li>Rimatomics.Designator_RemoveSteam</li>
+      <li>Rimatomics.Designator_RemovePipe</li>
     </specialDesignatorClasses>
   </DesignationCategoryDef>
   

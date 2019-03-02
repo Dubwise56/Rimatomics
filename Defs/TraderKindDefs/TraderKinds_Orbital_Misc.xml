@@ -16,7 +16,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>Component</thingDef>
+        <thingDef>ComponentIndustrial</thingDef>
         <price>Expensive</price>
         <countRange>
           <min>10</min>
@@ -24,7 +24,7 @@
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
-        <thingDef>ReactorComponents</thingDef>
+        <thingDef>ComponentSpacer</thingDef>
         <price>Expensive</price>
         <countRange>
           <min>1</min>

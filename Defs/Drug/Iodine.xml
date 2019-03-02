@@ -6,7 +6,7 @@
     <label>Potassium iodide</label>
      <description>Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake.</description>
     <graphicData>
-          <texPath>Things/Resources/iodine</texPath>
+          <texPath>Rimatomics/Things/Resources/iodine</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>

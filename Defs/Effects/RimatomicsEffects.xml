@@ -2,7 +2,7 @@
 <Defs>
 
   <EffecterDef>
-    <defName>RimatomicsResearch</defName>
+    <defName>RimatomicsResearchEffect</defName>
     <children>
       <li>
         <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
@@ -14,7 +14,7 @@
   <ThingDef ParentName="MoteBase">
     <defName>Mote_MeltdownFlash</defName>
     <graphicData>
-      <texPath>FX/nukeblast</texPath>
+      <texPath>Rimatomics/FX/flash</texPath>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <thingClass>MoteThrownAttached</thingClass>
@@ -59,7 +59,7 @@
   <ThingDef ParentName="MoteBase">
     <defName>Mote_Upgraded</defName>
     <graphicData>
-      <texPath>UI/Upgraded</texPath>
+      <texPath>Rimatomics/UI/Upgraded</texPath>
     </graphicData>
     <thingClass>MoteThrownAttached</thingClass>
     <altitudeLayer>MetaOverlays</altitudeLayer>
@@ -74,7 +74,7 @@
   <ThingDef ParentName="MoteBase">
     <defName>Mote_NukeFlash</defName>
     <graphicData>
-      <texPath>FX/nukeblast</texPath>
+      <texPath>Rimatomics/FX/flash</texPath>
       <shaderType>MoteGlow</shaderType>
     </graphicData>
     <thingClass>MoteThrownAttached</thingClass>
@@ -82,58 +82,132 @@
     <drawOffscreen>true</drawOffscreen>
     <mote>
       <fadeInTime>0</fadeInTime>
-      <solidTime>15</solidTime>
-      <fadeOutTime>30</fadeOutTime>
-    </mote>
-  </ThingDef>
-
-  <ThingDef ParentName="MoteBase">
-    <defName>Mote_NukeShock</defName>
-    <graphicData>
-      <texPath>FX/nukeshock</texPath>
-      <shaderType>MoteGlow</shaderType>
-    </graphicData>
-    <thingClass>MoteThrownAttached</thingClass>
-    <altitudeLayer>Weather</altitudeLayer>
-    <drawOffscreen>true</drawOffscreen>
-    <mote>
-      <growthRate>0.01</growthRate>
-      <fadeInTime>0</fadeInTime>
-      <fadeOutTime>0.4</fadeOutTime>
-    </mote>
-  </ThingDef>
-
-  <ThingDef ParentName="MoteBase">
-    <defName>Mote_NukeFire</defName>
-    <graphicData>
-      <texPath>FX/nukefire</texPath>
-      <shaderType>MoteGlow</shaderType>
-    </graphicData>
-    <thingClass>MoteThrownAttached</thingClass>
-    <altitudeLayer>Weather</altitudeLayer>
-    <drawOffscreen>true</drawOffscreen>
-    <mote>
-      <growthRate>1</growthRate>
-      <fadeInTime>10</fadeInTime>
-      <solidTime>20</solidTime>
-      <fadeOutTime>5</fadeOutTime>
+      <solidTime>0</solidTime>
+      <fadeOutTime>10</fadeOutTime>
     </mote>
   </ThingDef>
 
   <ThingDef ParentName="MoteBase">
     <defName>Mote_NukeCloud</defName>
     <graphicData>
-      <texPath>FX/nukecloud</texPath>
-      <shaderType>MoteGlow</shaderType>
+      <texPath>Rimatomics/FX/nukecloud</texPath>
+      <shaderType>Transparent</shaderType>
     </graphicData>
     <thingClass>MoteThrownAttached</thingClass>
-    <altitudeLayer>Weather</altitudeLayer>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
     <drawOffscreen>true</drawOffscreen>
     <mote>
       <growthRate>1</growthRate>
-      <fadeInTime>10</fadeInTime>
-      <solidTime>20</solidTime>
-      <fadeOutTime>5</fadeOutTime>
+      <fadeInTime>3</fadeInTime>
+      <solidTime>3</solidTime>
+      <fadeOutTime>20</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_ArcFlash</defName>
+    <thingClass>Rimatomics.Mote_ArcFlash</thingClass>
+    <graphicData>
+      <texPath>Things/Mote/PowerBeam</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.25</fadeInTime>
+      <solidTime>0.25</solidTime>
+      <fadeOutTime>1.5</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_Beam</defName>
+    <thingClass>Rimatomics.Mote_Beam</thingClass>
+    <graphicData>
+      <texPath>Things/Mote/PowerBeam</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.25</fadeInTime>
+      <solidTime>0.25</solidTime>
+      <fadeOutTime>1.0</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_RailgunMuzzleFlash</defName>
+    <graphicData>
+      <texPath>Rimatomics/FX/muzzleFlash</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.1</fadeInTime>
+      <solidTime>0</solidTime>
+      <fadeOutTime>0.15</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_SiloFlash</defName>
+    <graphicData>
+      <texPath>Rimatomics/FX/silo-Flash</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0.2</fadeInTime>
+      <solidTime>0</solidTime>
+      <fadeOutTime>0.75</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_CoolingTowerSteamA</defName>
+    <graphicData>
+      <texPath>Rimatomics/Mote/CoolingTowerSteamA</texPath>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>2</fadeInTime>
+      <solidTime>0</solidTime>
+      <fadeOutTime>3</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_CoolingTowerSteamB</defName>
+    <graphicData>
+      <texPath>Rimatomics/Mote/CoolingTowerSteamB</texPath>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>2</fadeInTime>
+      <solidTime>0</solidTime>
+      <fadeOutTime>3</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_CoolingTowerSteamC</defName>
+    <graphicData>
+      <texPath>Rimatomics/Mote/CoolingTowerSteamC</texPath>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>2</fadeInTime>
+      <solidTime>0</solidTime>
+      <fadeOutTime>3</fadeOutTime>
     </mote>
   </ThingDef>
 </Defs>

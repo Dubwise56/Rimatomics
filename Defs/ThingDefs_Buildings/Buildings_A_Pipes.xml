@@ -1,20 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef Name="BasedMom" Abstract="True"  Class="Rimatomics.RimatomicsThingDef">
+  <ThingDef Name="BasedRimatomicsMom"  Class="Rimatomics.RimatomicsThingDef" Abstract="True" >
     <category>Building</category>
     <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
     <designationCategory>Rimatomics</designationCategory>
+    <statBases>
+      <SellPriceFactor>0.70</SellPriceFactor>
+    </statBases>
   </ThingDef>
 
-  <ThingDef Name="BasedPower" ParentName="BasedMom" Abstract="True">
+  <ThingDef Name="BasedPower" ParentName="BasedRimatomicsMom" Abstract="True">
     <category>Building</category>
     <designationCategory>Rimatomics</designationCategory>
   </ThingDef>
@@ -23,11 +26,11 @@
     <thingClass>Rimatomics.Building_Pipe</thingClass>
     <category>Building</category>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/WaterPipe_Atlas</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/PipeOverlay_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <linkType>Basic</linkType>
       <linkFlags>
-        <li>Custom5</li>
+        <li>Custom7</li>
       </linkFlags>
       <damageData>
         <rect>(0,0.35,1,0.3)</rect>
@@ -52,10 +55,9 @@
     <rotatable>false</rotatable>
     <selectable>true</selectable>
     <neverMultiSelect>true</neverMultiSelect>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <constructEffect>ConstructMetal</constructEffect>
-    <designationHotKey>Misc1</designationHotKey>
     <placeWorkers>
       <li>Rimatomics.PlaceWorker_Pipe</li>
     </placeWorkers>
@@ -74,7 +76,7 @@
       <isEdifice>false</isEdifice>
     </building>
     <graphicData>
-      <texPath>Things/Building/WaterValve</texPath>
+      <texPath>Rimatomics/Things/Building/WaterValve</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <statBases>
@@ -94,79 +96,37 @@
     </placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="RimatomicsPipeBase">
-    <defName>HighVoltage</defName>
-    <label>High Voltage</label>
-    <description>Cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.</description>
-    <graphicData>
-      <texPath>Things/RimatomicsBuildings/HighVoltage_Atlas</texPath>
-    </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/RimatomicsBuildings/HighVoltage_Atlas</texPath>
-    </blueprintGraphicData>
-    <uiIconPath>UI/HighVoltage</uiIconPath>
-    <comps>
-      <li Class="Rimatomics.CompProperties_Pipe">
-        <mode>HighVoltage</mode>
-        <cached>false</cached>
-      </li>
-    </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor7</li>
-    </rimatomicsPrerequisites>
-  </ThingDef>
-
-  <ThingDef ParentName="RimatomicsPipeBase">
-    <defName>controllerLoom</defName>
-    <label>Console Loom</label>
-    <description>Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.</description>
-    <graphicData>
-      <texPath>Things/RimatomicsBuildings/Loom_Atlas</texPath>
-    </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/RimatomicsBuildings/Loom_Atlas</texPath>
-    </blueprintGraphicData>
-    <uiIconPath>UI/Loom_Atlas</uiIconPath>
-    <comps>
-      <li Class="Rimatomics.CompProperties_Pipe">
-        <mode>Loom</mode>
-        <cached>false</cached>
-      </li>
-    </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor8</li>
-    </rimatomicsPrerequisites>
-  </ThingDef>
-
-  <ThingDef ParentName="RimatomicsPipeBase">
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>coolingPipe</defName>
     <label>Coolant pipe</label>
-    <description>Pipes for pumping coolant from the reactor to cooling systems. Can be placed under walls and other buildings.</description>
+    <description>Pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/coolingPipe_Atlas</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/coolingPipe_Atlas</texPath>
     </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/RimatomicsBuildings/coolingPipe_Atlas</texPath>
-    </blueprintGraphicData>
-    <uiIconPath>UI/CoolingPipe</uiIconPath>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Rimatomics/Things/RimatomicsBuildings/coolingPipe_AtlasBP</texPath>
+      </blueprintGraphicData>
+    </building>
+    <uiIconPath>Rimatomics/UI/CoolingPipe</uiIconPath>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
         <mode>Cooling</mode>
-        <cached>false</cached>
       </li>
     </comps>
-        <rimatomicsPrerequisites>
+    <rimatomicsPrerequisites>
       <li>NuclearReactor5</li>
     </rimatomicsPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="ValveBase">
+  <ThingDef ParentName="ValveBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>coolantValve</defName>
     <label>Coolant valve</label>
+    <designatorDropdown>RimatomicsValves</designatorDropdown>
     <pathCost>75</pathCost>
     <description>Opens or closes connections between coolant pipes.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/CoolantValve</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/CoolantValve</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
@@ -175,7 +135,7 @@
         <mode>Cooling</mode>
       </li>
       <li Class="CompProperties_Flickable">
-        <commandTexture>Things/RimatomicsBuildings/CoolantValve</commandTexture>
+        <commandTexture>Rimatomics/Things/RimatomicsBuildings/CoolantValve</commandTexture>
         <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
         <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
       </li>
@@ -185,34 +145,37 @@
     </rimatomicsPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="RimatomicsPipeBase">
+
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>steamPipe</defName>
     <label>Steam pipe</label>
-    <description>Pipes for pumping high pressure steam from the reactor to turbines or heat exchangers. Can be placed under walls and other buildings.</description>
+    <description>Pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/steamPipe_Atlas</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/steamPipe_Atlas</texPath>
     </graphicData>
+    <building>
     <blueprintGraphicData>
-      <texPath>Things/RimatomicsBuildings/steamPipe_Atlas</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/steamPipe_AtlasBP</texPath>
     </blueprintGraphicData>
-    <uiIconPath>UI/HeatPipe</uiIconPath>
+    </building>
+    <uiIconPath>Rimatomics/UI/HeatPipe</uiIconPath>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
         <mode>Steam</mode>
-        <cached>false</cached>
       </li>
     </comps>
     <rimatomicsPrerequisites>
-      <li>NuclearReactor6</li>
+      <li>NuclearReactor5</li>
     </rimatomicsPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="ValveBase">
+  <ThingDef ParentName="ValveBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>steamValve</defName>
     <label>Steam valve</label>
+    <designatorDropdown>RimatomicsValves</designatorDropdown>
     <description>Opens or closes connections between steam pipes.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/SteamValve</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/SteamValve</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
@@ -221,44 +184,46 @@
         <mode>Steam</mode>
       </li>
       <li Class="CompProperties_Flickable">
-        <commandTexture>Things/RimatomicsBuildings/SteamValve</commandTexture>
+        <commandTexture>Rimatomics/Things/RimatomicsBuildings/SteamValve</commandTexture>
         <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
         <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
       </li>
     </comps>
     <rimatomicsPrerequisites>
-      <li>NuclearReactor6</li>
+      <li>NuclearReactor5</li>
     </rimatomicsPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="RimatomicsPipeBase">
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>waterPipe</defName>
     <label>Cold water pipe</label>
     <description>Pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/coldWaterPipe_Atlas</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/coldWaterPipe_Atlas</texPath>
     </graphicData>
+    <building>
     <blueprintGraphicData>
-      <texPath>Things/RimatomicsBuildings/coldWaterPipe_Atlas</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/coldWaterPipe_AtlasBP</texPath>
     </blueprintGraphicData>
-    <uiIconPath>UI/WaterPipe</uiIconPath>
+    </building>
+    <uiIconPath>Rimatomics/UI/WaterPipe</uiIconPath>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
         <mode>ColdWater</mode>
-        <cached>false</cached>
       </li>
     </comps>
     <rimatomicsPrerequisites>
-      <li>NuclearReactor6</li>
+      <li>NuclearReactor5</li>
     </rimatomicsPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="ValveBase">
+  <ThingDef ParentName="ValveBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>waterValve</defName>
     <label>Cold water valve</label>
+    <designatorDropdown>RimatomicsValves</designatorDropdown>
     <description>Opens or closes connections between cold water pipes.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/WaterValve</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/WaterValve</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
@@ -267,13 +232,61 @@
         <mode>ColdWater</mode>
       </li>
       <li Class="CompProperties_Flickable">
-        <commandTexture>Things/RimatomicsBuildings/WaterValve</commandTexture>
+        <commandTexture>Rimatomics/Things/RimatomicsBuildings/WaterValve</commandTexture>
         <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
         <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
       </li>
     </comps>
     <rimatomicsPrerequisites>
-      <li>NuclearReactor6</li>
+      <li>NuclearReactor5</li>
     </rimatomicsPrerequisites>
   </ThingDef>
+
+
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
+    <defName>HighVoltage</defName>
+    <label>High Voltage</label>
+    <description>Cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.</description>
+    <graphicData>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/HighVoltage_Atlas</texPath>
+    </graphicData>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Rimatomics/Things/RimatomicsBuildings/HighVoltage_AtlasBP</texPath>
+      </blueprintGraphicData>
+    </building>
+    <uiIconPath>Rimatomics/UI/HighVoltage</uiIconPath>
+    <comps>
+      <li Class="Rimatomics.CompProperties_Pipe">
+        <mode>HighVoltage</mode>
+      </li>
+    </comps>
+    <rimatomicsPrerequisites>
+      <li>NuclearReactor5</li>
+    </rimatomicsPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
+    <defName>controllerLoom</defName>
+    <label>Console Loom</label>
+    <description>Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.</description>
+    <graphicData>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/Loom_Atlas</texPath>
+    </graphicData>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Rimatomics/Things/RimatomicsBuildings/Loom_AtlasBP</texPath>
+      </blueprintGraphicData>
+    </building>
+    <uiIconPath>Rimatomics/UI/Loom_Atlas</uiIconPath>
+    <comps>
+      <li Class="Rimatomics.CompProperties_Pipe">
+        <mode>Loom</mode>
+      </li>
+    </comps>
+    <rimatomicsPrerequisites>
+      <li>NuclearReactor5</li>
+    </rimatomicsPrerequisites>
+  </ThingDef>
+
 </Defs>

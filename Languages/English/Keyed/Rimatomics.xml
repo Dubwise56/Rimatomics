@@ -22,8 +22,9 @@
   <ReactorAlerts>Reactor Alerts:</ReactorAlerts>
   <RADIATIONLEAK>    ::RADIATION LEAK::</RADIATIONLEAK>
   <RADIATIONLEAKSYSTEM>    ::RADIATION IN SYSTEM::</RADIATIONLEAKSYSTEM>
-  
+
   <!--CONSOLE-->
+  <Dragtoincreasefluxlevel>Drag to increase flux level</Dragtoincreasefluxlevel>
   <MOX>MOX</MOX>
   <Used>Used</Used>
   <AbortTest>ABORT</AbortTest>
@@ -35,7 +36,7 @@
   <StartingUp>Starting up</StartingUp>
   <ShuttingDown>Shutting down</ShuttingDown>
   <Active>Active</Active>
-  <ReactorBreakdown>ID: {0}\nStatus: {1}\nMax power: {2}W\nTotal fuel: {3}\nConversion ratio: {4}\nRadiation: {5}\n\n{6}</ReactorBreakdown>
+  <ReactorBreakdown>ID: {0}\nStatus: {1}\nMax power: {2}W\nConversion ratio: {3}\n\n{4}</ReactorBreakdown>
   <SlotBreakdown>Max Power: {1}W\nCurrent Power: {2}W\nUsage: {3}\nRatio: {4}\nCan Process Now: {5}</SlotBreakdown>
   <cycleScreensDesc>Monitor all reactors on this network</cycleScreensDesc>
   <cycleScreens>Monitor All</cycleScreens>
@@ -57,26 +58,20 @@
   <NoChemfuel>No chemfuel</NoChemfuel>
 
   <!--ENERGY WEAPONS-->
+  <Detonating>Detonating...</Detonating>
+  <KillCounter>Kills: {0}</KillCounter>
   <energyWepLoadedShell>Loaded: {0}</energyWepLoadedShell>
-  <RailgunBarrage>Fire Mission</RailgunBarrage>
-  <RailgunBarrageDesc>Fire all railguns at an area</RailgunBarrageDesc>
-  <needsRadar>Needs target acquisition system</needsRadar>
-  <ICBMNeedMissile>Missile is required for launch</ICBMNeedMissile>
+  <MessageRailgunCantTargetMyMap>Cannot target your own map.</MessageRailgunCantTargetMyMap>
+  <needsRadar>Needs TACS</needsRadar>
+  <ICBMNeedConsole>Requires a manned SACS weapon console</ICBMNeedConsole>
+  <ICBMNeedMissile>A missile is required for launch</ICBMNeedMissile>
   <ICBMAlreadyLaunching>Already Launching</ICBMAlreadyLaunching>
   <MissileRangeBad>Target not within range</MissileRangeBad>
   <MissileTargetInvalid>Missile target is not valid</MissileTargetInvalid>
-  <ICBMNeedConsole>Requires a manned weapons console</ICBMNeedConsole>
-  <critrangeMinus>range-</critrangeMinus>
-  <critrangePlus>range+</critrangePlus>
-  <critCommandLowerRangeDesc>Reduce the maximum range, reduces pulse size</critCommandLowerRangeDesc>
-  <critCommandRaiseRangeDesc>Increase the maximum range, increases pulse size</critCommandRaiseRangeDesc>
-  <critdmgMinus>dmg-</critdmgMinus>
-  <critdmgPlus>dmg+</critdmgPlus>
-  <critCommandLowerDmgDesc>Reduce the maximum per shot, reduces pulse size</critCommandLowerDmgDesc>
-  <critCommandRaiseDmgDesc>Increase the damage per shot, increases pulse size</critCommandRaiseDmgDesc>
-  <critMissingPPC>Missing Pulsed Power Container</critMissingPPC>
-  <critNRGWEPPOOWA>Power: {0} / Range: {1}-{2}</critNRGWEPPOOWA>
-  <LastPulseSize>Last Pulse Size: {0} Wd</LastPulseSize>
+  <EnergyWeaponNeedsMannedConsole>Requires a manned weapons console</EnergyWeaponNeedsMannedConsole>
+  <EnergyWeaponNeedConsole>Weapons console connection required</EnergyWeaponNeedConsole>
+  <MissingPPC>Missing Pulsed Power Container</MissingPPC>
+  <PulseSize>Pulse: {0} Wd / Damage: {1}</PulseSize>
   <critCommandFireMission>Fire Mission</critCommandFireMission>
   <critCommandFireMissionDesc>Long range artillery shot</critCommandFireMissionDesc>
   <critCommandLaunchICBM>Launch ICBM</critCommandLaunchICBM>
@@ -88,17 +83,21 @@
   <critBombDetFac>The bomb detonated and {0} has been destroyed</critBombDetFac>
   <SetCamoMode>Set Camo</SetCamoMode>
   <critCountdown>Countdown: {0}</critCountdown>
-  <mp15>15m</mp15>
-  <mm15>15m</mm15>
   <critArm>Arm</critArm>
   <MessageRailgunNeedsMap>Map not generated, send colonists to scout</MessageRailgunNeedsMap>
   <MessageRailgunTargetInvalid>Target is not valid</MessageRailgunTargetInvalid>
   <NextPart>Next Part: {0}, {1} Needed</NextPart>
   <SiloFull>Silo Full</SiloFull>
   <SiloMagazine>Missiles: {0}/{1}</SiloMagazine>
-  <ICBMReady>ICBM Ready.</ICBMReady>
-  <!--REACTOR BUILDINGS-->
+  <ICBMReady>ICBM Ready</ICBMReady>
+  <TestFireHELSOnOwnShells>Shoot down our own morter shells for data gathering.</TestFireHELSOnOwnShells>
+  <OpenRadar>Open target tracking display</OpenRadar>
+  <NoSabotToExtract>No sabot rounds to extract</NoSabotToExtract>
 
+  <!--REACTOR BUILDINGS-->
+  <ReactorUptime>Uptime: {0}</ReactorUptime>
+  <PuCreated>Pu: {0}</PuCreated>
+  <fuelCracked>Cracked!</fuelCracked>
   <Managefuel>Manage</Managefuel>
   <RoofedTower>Tower blocked by roofed</RoofedTower>
   <TurbineRPM>RPM: {0} ({1}%)</TurbineRPM>
@@ -131,12 +130,12 @@
   <critCloseValve>Close Valve</critCloseValve>
   <critToggleValve>Operate the valve</critToggleValve>
   <critTempBoost>Temp Boost</critTempBoost>
+  <critXE>Xe-135</critXE>
   <critTemp>Temp</critTemp>
   <critCooling>Cooling</critCooling>
   <critTurbine>Turbine</critTurbine>
-  <critCoreIntegrity>Core Integrity</critCoreIntegrity>
-  <critNeutronFlux>Neutron Flux</critNeutronFlux>
-  <critTargetFlux>Target Flux</critTargetFlux>
+  <critControlRod>Control Rods</critControlRod>
+  <critTargetRod>Control Rods To</critTargetRod>
   <critFuelRemaining2>Fuel Remaining: {0}</critFuelRemaining2>
   <Empty>Empty</Empty>
   <Activated>Activated</Activated>
@@ -149,7 +148,7 @@
 
 
   <critPlaceOnCore>Must be placed on a molten core of correct type</critPlaceOnCore>
-  <NeedsRiver>Needs to be placed next to a river lake or ocean</NeedsRiver>
+  <NeedsRiver>Needs to be placed next to a river, lake or ocean</NeedsRiver>
   <critMoreWater>Requires a larger body of water</critMoreWater>
   <critActiveCore>Core is still active</critActiveCore>
   <critCrackedcore>Core is cracked</critCrackedcore>
@@ -164,7 +163,9 @@
 
   <TradeShipPrice>Send trade ship ({0} silver)</TradeShipPrice>
   <TradeShipPriceNeed>Need {0} silver to send trade ship</TradeShipPriceNeed>
-
+  <TradeShipCooldown>Trade Ship Cooldown: {0}</TradeShipCooldown>
+  <TradeShipArrival>Trade Ship Arrival: {0}</TradeShipArrival>
+  
   <TradeShipReq>A Rimatomics trade ship has been dispached to your planet.\n\nIt will take 2 days to arrive.</TradeShipReq>
 
   <LowerPowerLimit>Lower Power Limit</LowerPowerLimit>
@@ -172,12 +173,10 @@
   <PowerLimitDesc>Change the power limit for this transformer, used for changing power distribution over multiple powernets\n\nHold Shift for finer control</PowerLimitDesc>
   <TrannyLimit>Power Limit: {0}kW</TrannyLimit>
   <TurbinePower>Turbine Power: {0}kW</TurbinePower>
-  
-  <!--WEAPONS CONSOLE-->
-  <TestFireHELSOnOwnShells>Shoot down our own morter shells for data gathering.</TestFireHELSOnOwnShells>
-  <OpenRadar>Open target tracking display</OpenRadar>
+
 
   <!--RESEARCH-->
+
   <Free>Free</Free>
   <Purchase>Purchase</Purchase>
   <Price>Price</Price>
@@ -201,6 +200,12 @@
   <StartProject>Start Project</StartProject>
   <StopProject>Stop Project</StopProject>
 
+  <DesignatorRemoveRimatomicsPipes>Deconstruct Pipes</DesignatorRemoveRimatomicsPipes>
+  <DesignatorRemoveRimatomicsPipesDesc>Designate pipes for deconstruction</DesignatorRemoveRimatomicsPipesDesc>
+  
+  <Alert_ResearchFacility>Research Facility Missing</Alert_ResearchFacility>
+  <RequiresFacility>{0} required for current step</RequiresFacility>
+
   <DesignatorRemoveColdWater>Remove Cold Water</DesignatorRemoveColdWater>
   <DesignatorRemoveColdWaterDesc>Remove Cold water pipes</DesignatorRemoveColdWaterDesc>
 
@@ -221,7 +226,6 @@
 
   <RimatomicResearchCompleteDialog>{0} - complete\n\n{1}</RimatomicResearchCompleteDialog>
 
-  <TradeShipCooldown>Trade Ship Cooldown: {0}</TradeShipCooldown>
-  <TradeShipArrival>Trade Ship Arrival: {0}</TradeShipArrival>
+
   <rimatomicsProto> Prototype</rimatomicsProto>
 </LanguageData>

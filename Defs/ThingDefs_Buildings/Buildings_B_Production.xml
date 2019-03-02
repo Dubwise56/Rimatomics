@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-  <ThingDef ParentName="BasedMom">
+  <ThingDef ParentName="BasedRimatomicsMom">
     <defName>NuclearResearchBench</defName>
     <label>Rimatomics research bench</label>
     <description>Contains Rimatomics research projects. Requires power.</description>
     <thingClass>Rimatomics.Building_RimatomicsResearchBench</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/Research</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/Research</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(6,3)</drawSize>
@@ -21,7 +21,7 @@
     <size>(5,2)</size>
     <costList>
       <Steel>250</Steel>
-      <Component>10</Component>
+      <ComponentIndustrial>10</ComponentIndustrial>
     </costList>
     <canOverlapZones>false</canOverlapZones>
     <castEdgeShadows>false</castEdgeShadows>
@@ -36,7 +36,7 @@
     <tickerType>Normal</tickerType>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
-      <WorkToBuild>5000</WorkToBuild>
+      <WorkToBuild>8000</WorkToBuild>
       <Flammability>1.0</Flammability>
       <ResearchSpeedFactor>1.0</ResearchSpeedFactor>
     </statBases>
@@ -47,7 +47,7 @@
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>250</basePowerConsumption>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
       </li>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Flickable"/>
@@ -63,6 +63,7 @@
       </li>
     </comps>
     <fillPercent>0.5</fillPercent>
+    <interactionCellIcon>DiningChair</interactionCellIcon>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <hasInteractionCell>true</hasInteractionCell>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -78,13 +79,13 @@
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
 
-  <ThingDef ParentName="BasedMom">
+  <ThingDef ParentName="BasedRimatomicsMom">
     <defName>TableRimatomicsMachining</defName>
     <label>Rimatomics machining table</label>
     <thingClass>Rimatomics.Building_RimatomicsWorkbench</thingClass>
     <description>A work station for assembling Rimatomics technologies</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/TableWeapons</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/TableWeapons</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <drawSize>(6,3)</drawSize>
       <damageData>
@@ -104,13 +105,13 @@
     </building>
     <costList>
       <Steel>150</Steel>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
-      <WorkToBuild>3000</WorkToBuild>
+      <WorkToBuild>10000</WorkToBuild>
       <MaxHitPoints>180</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <Cleanliness>-2</Cleanliness>
@@ -118,16 +119,17 @@
     <size>(5,2)</size>
     <passability>PassThroughOnly</passability>
     <pathCost>150</pathCost>
+    <interactionCellIcon>DiningChair</interactionCellIcon>
     <hasInteractionCell>True</hasInteractionCell>
     <interactionCellOffset>(0,0,-1)</interactionCellOffset>
     <surfaceType>Item</surfaceType>
     <inspectorTabs>
-      <li>Rimatomics.ITab_RimatomicsBills</li>
+      <li>ITab_Bills</li>
     </inspectorTabs>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
         <basePowerConsumption>350</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
@@ -160,13 +162,13 @@
   
   
 
-  <ThingDef ParentName="BasedMom">
+  <ThingDef ParentName="BasedRimatomicsMom"  Class="Rimatomics.RimatomicsThingDef">
     <defName>ResearchReactor</defName>
     <label>Research Reactor</label>
     <description>Research reactor.</description>
     <thingClass>Rimatomics.Building_ResearchReactor</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/researchReactor</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/researchReactor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(5,5)</drawSize>
@@ -181,7 +183,7 @@
     <staticSunShadowHeight>0.00</staticSunShadowHeight>
     <statBases>
       <MaxHitPoints>550</MaxHitPoints>
-      <WorkToBuild>8000</WorkToBuild>
+      <WorkToBuild>16000</WorkToBuild>
       <Flammability>1.0</Flammability>
       <Beauty>-40</Beauty>
     </statBases>
@@ -189,16 +191,16 @@
     <canOverlapZones>false</canOverlapZones>
     <size>(4,4)</size>
     <costList>
-      <Steel>400</Steel>
+      <Steel>200</Steel>
       <Silver>400</Silver>
       <Uranium>35</Uranium>
-      <Component>8</Component>
+      <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>450</basePowerConsumption>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
@@ -219,17 +221,17 @@
     <rimatomicsPrerequisites>
       <li>NuclearResearch3</li>
     </rimatomicsPrerequisites>
-    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 
   </ThingDef>
 
-  <ThingDef ParentName="BasedMom">
+  <ThingDef ParentName="BasedRimatomicsMom"  Class="Rimatomics.RimatomicsThingDef">
     <defName>WeaponsBench</defName>
     <label>Weapons Research Bench</label>
     <description>Weapons research bench.</description>
     <thingClass>Rimatomics.Building_WeaponsBench</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/WeaponResearch</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponResearch</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(5,4)</drawSize>
@@ -245,22 +247,21 @@
     <canOverlapZones>false</canOverlapZones>
     <statBases>
       <MaxHitPoints>550</MaxHitPoints>
-      <WorkToBuild>8000</WorkToBuild>
+      <WorkToBuild>16000</WorkToBuild>
       <Flammability>1.0</Flammability>
       <Beauty>-40</Beauty>
     </statBases>
     <tickerType>Normal</tickerType>   
     <size>(4,3)</size>
     <costList>
-      <Steel>300</Steel>
-      <Plasteel>250</Plasteel>
-      <Component>12</Component>
+      <Steel>100</Steel>
+      <ComponentIndustrial>15</ComponentIndustrial>
     </costList>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>900</basePowerConsumption>
-        <startElectricalFires>true</startElectricalFires>
+        <shortCircuitInRain>true</shortCircuitInRain>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
@@ -287,13 +288,13 @@
 
 
 
-  <ThingDef ParentName="BasedMom">
+  <ThingDef ParentName="BasedRimatomicsMom"  Class="Rimatomics.RimatomicsThingDef">
 		<defName>PlutoniumProcessor</defName>
 		<label>Plutonium Processor</label>
     <description>A machine that uses chemicals to separate fissionable plutonium from spent nuclear fuel.</description>
 		<thingClass>Rimatomics.Building_PlutoniumProc</thingClass>
 		<graphicData>
-			<texPath>Things/RimatomicsBuildings/plutoniumProc</texPath>
+			<texPath>Rimatomics/Things/RimatomicsBuildings/plutoniumProc</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
 			<drawSize>(5,5)</drawSize>
@@ -310,16 +311,16 @@
 		<staticSunShadowHeight>0.35</staticSunShadowHeight>
 		<statBases>
 			<MaxHitPoints>450</MaxHitPoints>
-			<WorkToBuild>12000</WorkToBuild>
+			<WorkToBuild>24000</WorkToBuild>
 			<Flammability>1.0</Flammability>
 			<Beauty>-20</Beauty>
 		</statBases>	
 		<size>(4,4)</size>
 		<costList>
-			<Steel>400</Steel>
+			<Steel>200</Steel>
 			<Silver>350</Silver>
-      <Plasteel>175</Plasteel>
-			<Component>8</Component>
+      <Plasteel>50</Plasteel>
+			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
 		<comps>
 			<li Class="CompProperties_Flickable"/>
@@ -327,7 +328,7 @@
 			<li Class="CompProperties_Power">
 				<compClass>CompPowerTrader</compClass>
 				<basePowerConsumption>3000</basePowerConsumption>
-				<startElectricalFires>true</startElectricalFires>
+				<shortCircuitInRain>true</shortCircuitInRain>
 			</li>
 		</comps>
 		<rotatable>false</rotatable>
@@ -337,7 +338,7 @@
     <rimatomicsPrerequisites>
       <li>Plutonium3</li>
     </rimatomicsPrerequisites>
-    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+    <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
 
   </ThingDef>
 

@@ -12,11 +12,13 @@
       <onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
     </graphicData>
     <drawGUIOverlay>true</drawGUIOverlay>
+    <generateCommonality>0.1</generateCommonality>
     <statBases>
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <DeteriorationRate>2</DeteriorationRate>
       <Beauty>-6</Beauty>
+      <SellPriceFactor>0.70</SellPriceFactor>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
     <alwaysHaulable>True</alwaysHaulable>
@@ -51,11 +53,12 @@
     </costList>
     <equippedStatOffsets>
       <MoveSpeed>-0.07</MoveSpeed>
-      <WorkSpeedGlobal>-0.10</WorkSpeedGlobal>
+      <WorkSpeedGlobal>-0.07</WorkSpeedGlobal>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
         <li>Torso</li>
+        <li>Neck</li>
         <li>Shoulders</li>
         <li>Arms</li>
         <li>Legs</li>
@@ -66,6 +69,11 @@
       <defaultOutfitTags>
         <li>Radiation</li>
       </defaultOutfitTags>
+      <tags>
+        <li>IndustrialMilitaryBasic</li>
+        <li>IndustrialMilitaryAdvanced</li>
+        <li>SpacerMilitary</li>
+      </tags>
     </apparel>
   </ThingDef>
 
@@ -77,6 +85,7 @@
     </costList>
     <equippedStatOffsets>
       <MoveSpeed>-0.04</MoveSpeed>
+      <PsychicSensitivity>-0.45</PsychicSensitivity>
     </equippedStatOffsets>
     <apparel>
       <bodyPartGroups>
@@ -97,16 +106,19 @@
       <Cloth>35</Cloth>
     </costList>
     <graphicData>
-      <texPath>Things/RadiationMask/RadiationMask</texPath>
+      <texPath>Rimatomics/Things/RadiationMask/RadiationMask</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/RadiationMask/RadiationMask</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/RadiationMask/RadiationMask</wornGraphicPath>
     </apparel>
     <statBases>
       <WorkToMake>15000</WorkToMake>
-      <Mass>0.24</Mass>
-      <ArmorRating_Heat>0.23</ArmorRating_Heat>
-      <Insulation_Cold>-15</Insulation_Cold>
+      <Mass>1.24</Mass>
+      <ArmorRating_Sharp>0.09</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.27</ArmorRating_Heat>
+      <Insulation_Cold>15</Insulation_Cold>
+      <EquipDelay>3.5</EquipDelay>
     </statBases>
     <thingCategories>
       <li>Hazmat</li>
@@ -116,13 +128,13 @@
   <ThingDef Name="MopSuitMaskBase" ParentName="RadSuitMaskBase" Abstract="True">
     <description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas. Combat version made with tougher materials for increased durability.</description>
     <costList>
-      <Cloth>45</Cloth>
+      <Cloth>55</Cloth>
     </costList>
     <graphicData>
-      <texPath>Things/MopMask/MopMask</texPath>
+      <texPath>Rimatomics/Things/MopMask/MopMask</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/MopMask/MopMask</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/MopMask/MopMask</wornGraphicPath>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
@@ -132,9 +144,10 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Mass>1.6</Mass>
       <MarketValue>300</MarketValue>
-      <ArmorRating_Blunt>0.1</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.35</ArmorRating_Sharp>
-      <Insulation_Cold>-15</Insulation_Cold>
+      <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+      <Insulation_Cold>4</Insulation_Cold>
     </statBases>
     <thingCategories>
       <li>Mopp</li>
@@ -146,10 +159,10 @@
     <defName>Apparel_MoppMaskDesert</defName>
     <label>MOPP mask(Desert)</label>
     <graphicData>
-      <texPath>Things/MopMaskDesert/MopMask</texPath>
+      <texPath>Rimatomics/Things/MopMaskDesert/MopMask</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/MopMaskDesert/MopMask</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/MopMaskDesert/MopMask</wornGraphicPath>
     </apparel>
   </ThingDef>
 
@@ -157,10 +170,10 @@
     <defName>Apparel_MoppMaskWoodland</defName>
     <label>MOPP mask(Woodland)</label>
     <graphicData>
-      <texPath>Things/MopMaskWoodland/MopMask</texPath>
+      <texPath>Rimatomics/Things/MopMaskWoodland/MopMask</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/MopMaskWoodland/MopMask</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/MopMaskWoodland/MopMask</wornGraphicPath>
     </apparel>
   </ThingDef>
 
@@ -168,10 +181,10 @@
     <defName>Apparel_MoppMaskSnow</defName>
     <label>MOPP mask(Snow)</label>
     <graphicData>
-      <texPath>Things/MopMaskSnow/MopMask</texPath>
+      <texPath>Rimatomics/Things/MopMaskSnow/MopMask</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/MopMaskSnow/MopMask</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/MopMaskSnow/MopMask</wornGraphicPath>
     </apparel>
   </ThingDef>
 
@@ -183,20 +196,21 @@
     <label>radiation suit</label>
     <description>A suit that protects against radiation through shielding in the lining.</description>
     <graphicData>
-      <texPath>Things/RadiationSuit/Duster</texPath>
+      <texPath>Rimatomics/Things/RadiationSuit/Duster</texPath>
     </graphicData>
     <statBases>
       <MaxHitPoints>90</MaxHitPoints>
-      <WorkToMake>42000</WorkToMake>
-      <Mass>2.2</Mass>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>3.8</Mass>
       <ArmorRating_Heat>0.23</ArmorRating_Heat>
-      <Insulation_Cold>-15</Insulation_Cold>
+      <Insulation_Cold>15</Insulation_Cold>
+      <EquipDelay>4.5</EquipDelay>
     </statBases>
     <apparel>
-      <wornGraphicPath>Things/RadiationSuit/Duster</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/RadiationSuit/Duster</wornGraphicPath>
     </apparel>
     <costList>
-      <Cloth>105</Cloth>
+      <Cloth>70</Cloth>
     </costList>
     <thingCategories>
       <li>Hazmat</li>
@@ -212,22 +226,22 @@
     <description>A suit that protects against radiation through shielding in the lining. Combat version made with tougher materials for increased durability.</description>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
-      <MarketValue>600</MarketValue>
-      <WorkToMake>40000</WorkToMake>
+      <WorkToMake>50000</WorkToMake>
       <Mass>5</Mass>
-      <ArmorRating_Sharp>0.06</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
       <ArmorRating_Heat>0.23</ArmorRating_Heat>
-      <Insulation_Cold>-25</Insulation_Cold>
-      <Insulation_Heat>-6</Insulation_Heat>
+      <Insulation_Cold>25</Insulation_Cold>
+      <Insulation_Heat>6</Insulation_Heat>
     </statBases>
     <apparel>
-      <wornGraphicPath>Things/MopSuit/Mop</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/MopSuit/Mop</wornGraphicPath>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <costList>
-      <Cloth>105</Cloth>
+      <Cloth>170</Cloth>
     </costList>
     <thingCategories>
       <li>Mopp</li>
@@ -238,10 +252,10 @@
     <defName>Apparel_MoppSuitDesert</defName>
     <label>MOPP suit(Desert)</label>
     <graphicData>
-      <texPath>Things/MopSuitDesert/Mop</texPath>
+      <texPath>Rimatomics/Things/MopSuitDesert/Mop</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/MopSuitDesert/Mop</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/MopSuitDesert/Mop</wornGraphicPath>
     </apparel>
   </ThingDef>
 
@@ -249,10 +263,10 @@
     <defName>Apparel_MoppSuitWoodland</defName>
     <label>MOPP suit(Woodland)</label>
     <graphicData>
-      <texPath>Things/MopSuitWoodland/Mop</texPath>
+      <texPath>Rimatomics/Things/MopSuitWoodland/Mop</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/MopSuitWoodland/Mop</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/MopSuitWoodland/Mop</wornGraphicPath>
     </apparel>
   </ThingDef>
 
@@ -260,10 +274,10 @@
     <defName>Apparel_MoppSuitSnow</defName>
     <label>MOPP suit(Snow)</label>
     <graphicData>
-      <texPath>Things/MopSuitSnow/Mop</texPath>
+      <texPath>Rimatomics/Things/MopSuitSnow/Mop</texPath>
     </graphicData>
     <apparel>
-      <wornGraphicPath>Things/MopSuitSnow/Mop</wornGraphicPath>
+      <wornGraphicPath>Rimatomics/Things/MopSuitSnow/Mop</wornGraphicPath>
     </apparel>
   </ThingDef>
 

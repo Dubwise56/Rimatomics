@@ -20,55 +20,13 @@
     <rotatable>false</rotatable>
     <pathCost>15</pathCost>
   </ThingDef>
-
-  <ThingDef ParentName="RimatomicResourceBase">
-    <defName>ReactorComponents</defName>
-    <label>Reactor Components</label>
-    <description>Special hardened and shielded components for use in reactors.</description>
-    <graphicData>
-      <texPath>Things/Item/Resource/AdvancedComponent</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <color>(160,178,181)</color>
-    </graphicData>
-    <soundInteract>Metal_Drop</soundInteract>
-    <soundDrop>Standard_Drop</soundDrop>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.1</fillPercent>
-    <stackLimit>50</stackLimit>
-    <statBases>
-      <Flammability>10</Flammability>
-      <MarketValue>40</MarketValue>
-      <Mass>4</Mass>
-      <DeteriorationRate>2.0</DeteriorationRate>
-    </statBases>
-    <thingCategories>
-      <li>RimatomicsProduct</li>
-    </thingCategories>
-    <intricate>true</intricate>
-    <recipeMaker>
-      <productCount>1</productCount>
-      <workAmount>11000</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-      <recipeUsers>
-        <li>TableRimatomicsMachining</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-    </recipeMaker>
-    <costList>
-      <Plasteel>10</Plasteel>
-      <Silver>1</Silver>
-    </costList>
-  </ThingDef>
   
   <ThingDef ParentName="RimatomicResourceBase">
     <defName>turbineBlade</defName>
     <label>Turbine Blades</label>
     <description>Used to construct generators.</description>
     <graphicData>
-      <texPath>Things/Resources/turbineBlade</texPath>
+      <texPath>Rimatomics/Things/Resources/turbineBlade</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundInteract>Metal_Drop</soundInteract>
@@ -95,17 +53,16 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Plasteel>10</Plasteel>
+      <Steel>10</Steel>
     </costList>
   </ThingDef>
-
 
   <ThingDef ParentName="RimatomicResourceBase">
     <defName>UraniumPellets</defName>
     <label>Uranium Pellets</label>
     <description>Pellets of uranium used in the construction of nuclear fuel rods.</description>
     <graphicData>
-      <texPath>Things/Resources/uo2Drum</texPath>
+      <texPath>Rimatomics/Things/Resources/uo2Drum</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
@@ -135,7 +92,7 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Uranium>1</Uranium>
+      <Uranium>10</Uranium>
     </costList>
   </ThingDef>
 
@@ -145,7 +102,7 @@
     <description>A case of plutonium, can be used to create nuclear weapons or nuclear fuel rods.</description>
     <useHitPoints>false</useHitPoints>
     <graphicData>
-      <texPath>Things/Resources/plutonium</texPath>
+      <texPath>Rimatomics/Things/Resources/plutonium</texPath>
       <graphicClass>Graphic_Single</graphicClass>
     </graphicData>
     <soundDrop>ChunkSlag_Drop</soundDrop>
@@ -171,7 +128,7 @@
     <label>Depleted Uranium</label>
     <description>Pellets of depleted uranium used in the construction of nuclear fuel rods.</description>
     <graphicData>
-      <texPath>Things/Resources/DuDrum</texPath>
+      <texPath>Rimatomics/Things/Resources/DuDrum</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1,1)</drawSize>
     </graphicData>
@@ -193,17 +150,8 @@
 
   
   <!-- Fuel Rods -->
-
-  <ThingDef>
-    <defName>FuelRods</defName>
-    <label>fuel rods</label>
-    <description>A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine.</description>
-        <thingClass>Rimatomics.Item_FuelStandard</thingClass>
-    <graphicData>
-      <texPath>Things/Resources/fuelRod</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(1.2,1.2)</drawSize>
-    </graphicData>
+  <ThingDef  Name="FuelRodBase" Abstract="True" Class="Rimatomics.RimatomicsThingDef">
+    <thingClass>Rimatomics.Item_NuclearFuel</thingClass>
     <tradeTags>
       <li>Rimatomics</li>
     </tradeTags>
@@ -215,7 +163,6 @@
       <MaxHitPoints>100</MaxHitPoints>
       <Flammability>10</Flammability>
       <Beauty>-10</Beauty>
-      <Cleanliness>-2</Cleanliness>
       <MarketValue>1200</MarketValue>
       <Mass>25</Mass>
     </statBases>
@@ -234,48 +181,83 @@
     </thingCategories>
     <alwaysHaulable>true</alwaysHaulable>
   </ThingDef>
+  
+  <ThingDef ParentName="FuelRodBase" Class="Rimatomics.RimatomicsThingDef">
+    <defName>FuelRods</defName>
+    <label>fuel rods</label>
+    <graphicData>
+      <texPath>Rimatomics/Things/Resources/fuelRod</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1.2,1.2)</drawSize>
+    </graphicData>
+    <description>A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine.</description>
+    <tradeTags>
+      <li>Rimatomics</li>
+    </tradeTags>
+    <statBases>
+      <MarketValue>1200</MarketValue>
+    </statBases>
+    <nuclearFuel>
+      <IsFuel>true</IsFuel>
+      <mox>false</mox>
+      <Du>99</Du>
+      <Pu>0</Pu>
+      <thermalCurve>
+        <points>
+          <li>(0, 20)</li>
+          <li>(0.1, 500)</li>
+          <li>(1, 1650)</li>
+        </points>
+      </thermalCurve>
+      <fastCurve>
+        <points>
+          <li>(0, 20)</li>
+          <li>(0.1, 2000)</li>
+          <li>(1, 1650)</li>
+        </points>
+      </fastCurve>
+    </nuclearFuel>
+  </ThingDef>
 
-  <ThingDef>
+  <ThingDef ParentName="FuelRodBase" Class="Rimatomics.RimatomicsThingDef">
     <defName>FuelRodsMOX</defName>
     <label>fuel rods MOX</label>
     <description>A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine.</description>
-    <thingClass>Rimatomics.Item_FuelMox</thingClass>
+    <thingClass>Rimatomics.Item_NuclearFuel</thingClass>
     <graphicData>
-      <texPath>Things/Resources/fuelRod</texPath>
+      <texPath>Rimatomics/Things/Resources/fuelRodMox</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.2,1.2)</drawSize>
     </graphicData>
     <tradeTags>
       <li>Rimatomics</li>
     </tradeTags>
-    <soundDrop>ChunkSlag_Drop</soundDrop>
-    <category>Item</category>
-    <altitudeLayer>Item</altitudeLayer>
-    <fillPercent>0.2</fillPercent>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>10</Flammability>
-      <Beauty>-10</Beauty>
-      <Cleanliness>-2</Cleanliness>
       <MarketValue>2500</MarketValue>
-      <Mass>25</Mass>
     </statBases>
-    <comps>
-      <li Class="CompProperties_Forbiddable" />
-    </comps>
-    <selectable>true</selectable>
-    <pathCost>155</pathCost>
-    <pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
-    <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
-    <stackLimit>1</stackLimit>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <tickerType>Normal</tickerType>
-    <thingCategories>
-      <li>NuclearFuel</li>
-    </thingCategories>
-    <alwaysHaulable>true</alwaysHaulable>
+    <nuclearFuel>
+      <IsFuel>true</IsFuel>
+      <mox>true</mox>
+      <Du>98</Du>
+      <Pu>20</Pu>
+      <thermalCurve>
+        <points>
+          <li>(0, 20)</li>
+          <li>(0.1, 1150)</li>
+          <li>(1, 2000)</li>
+        </points>
+      </thermalCurve>
+      <fastCurve>
+        <points>
+          <li>(0, 20)</li>
+          <li>(0.1, 2400)</li>
+          <li>(1, 2000)</li>
+        </points>
+      </fastCurve>
+    </nuclearFuel>
   </ThingDef>
-
+ 
+  
   <!-- Nuclear Waste  -->
 
   <ThingDef Name="BasedNukeWaste" Abstract="True">
@@ -308,7 +290,7 @@
       <li>NuclearWaste</li>
     </thingCategories>
     <alwaysHaulable>true</alwaysHaulable>
-    <tradeability>Never</tradeability>
+    <tradeability>None</tradeability>
   </ThingDef>
 
   <ThingDef ParentName="BasedNukeWaste">
@@ -323,7 +305,7 @@
     <description>A drum of nuclear waste.</description>
     <thingClass>Rimatomics.Item_NuclearWaste</thingClass>
     <graphicData>
-      <texPath>Things/Resources/NuclearWaste</texPath>
+      <texPath>Rimatomics/Things/Resources/NuclearWaste</texPath>
       <graphicClass>Graphic_Random</graphicClass>
     </graphicData>
     <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
@@ -343,7 +325,7 @@
     </graphicData>
     <skyfaller>
       <movementType>Accelerate</movementType>
-      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadow>Rimatomics/Things/Skyfaller/SkyfallerShadowDropPod</shadow>
       <shadowSize>(2, 2)</shadowSize>
       <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
       <speed>0.1</speed>

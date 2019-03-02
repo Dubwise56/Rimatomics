@@ -21,7 +21,7 @@
     <category>Item</category>
     <randomizeRotationOnSpawn>true</randomizeRotationOnSpawn>
     <stackLimit>1</stackLimit>
-    <tradeability>Never</tradeability>
+    <tradeability>None</tradeability>
     <statBases>
       <Beauty>-40</Beauty>
       <Cleanliness>-25</Cleanliness>

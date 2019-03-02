@@ -3,10 +3,10 @@
 
   <ThingDef ParentName="BuildingBase" Class="Rimatomics.RimatomicsThingDef">
     <defName>RadiationShielding</defName>
-    <label>Radiation Shielding</label>
+    <label>Reinforced DU Wall</label>
     <thingClass>Building</thingClass>
     <category>Building</category>
-    <description>An impassable wall. Capable of holding up a roof. And with increased shielding against radiation</description>
+    <description>Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation</description>
     <graphicData>
       <texPath>Things/Building/Linked/Wall</texPath>
       <graphicClass>Graphic_Appearances</graphicClass>
@@ -26,16 +26,12 @@
         <edgeRight>Damage/Edge</edgeRight>
       </damageData>
     </graphicData>
-    <blueprintGraphicData>
-      <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
-    </blueprintGraphicData>
     <uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
     <statBases>
-      <MaxHitPoints>350</MaxHitPoints>
-      <WorkToBuild>150</WorkToBuild>
+      <MaxHitPoints>1000</MaxHitPoints>
+      <WorkToBuild>1250</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
-    <costStuffCount>5</costStuffCount>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
@@ -53,29 +49,31 @@
     <designationCategory>Rimatomics</designationCategory>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
     <blockLight>true</blockLight>
-    <stuffCategories>
-      <li>Metallic</li>
-    </stuffCategories>
     <costList>
-      <Silver>15</Silver>
+      <DepletedUraniumPellets>10</DepletedUraniumPellets>
+      <Steel>5</Steel>
     </costList>
     <building>
       <isInert>true</isInert>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+      </blueprintGraphicData>
     </building>
-    <designationHotKey>Misc3</designationHotKey>
     <rimatomicsPrerequisites>
       <li>NuclearReactor3</li>
     </rimatomicsPrerequisites>
   </ThingDef>
 
-  <ThingDef Name="BaseSarc" ParentName="BasedPower" Abstract="true">  
+  <ThingDef Name="BaseSarc" ParentName="BasedPower" Abstract="true">
     <description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/coreContainment</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/coreContainment</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(7,7)</drawSize>
     </graphicData>
+    <designationCategory>Rimatomics</designationCategory>
+    <menuHidden>true</menuHidden>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <pathCost>250</pathCost>
@@ -104,20 +102,19 @@
       </li>
     </comps>
     <rotatable>false</rotatable>
-    <designationCategory>Rimatomics</designationCategory>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <constructEffect>ConstructMetal</constructEffect>
-    <designationHotKey>Misc6</designationHotKey>
     <rimatomicsPrerequisites>
       <li>NuclearReactor10</li>
     </rimatomicsPrerequisites>
   </ThingDef>
 
-  <ThingDef ParentName="BaseSarc">
+  <ThingDef ParentName="BaseSarc"   Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorSacrophagus</defName>
     <label>Sarcophagus Type A</label>
+    <designatorDropdown>RimatomicsSarc</designatorDropdown>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/ReactorSacrophagus</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/ReactorSacrophagus</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(8,8)</drawSize>
@@ -128,11 +125,12 @@
     </placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="BaseSarc">
+  <ThingDef ParentName="BaseSarc"   Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorSacrophagusB</defName>
     <label>Sarcophagus Type X</label>
+    <designatorDropdown>RimatomicsSarc</designatorDropdown>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/ReactorSacrophagus</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/ReactorSacrophagus</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(9,9)</drawSize>
@@ -143,11 +141,12 @@
     </placeWorkers>
   </ThingDef>
 
-  <ThingDef ParentName="BaseSarc">
+  <ThingDef ParentName="BaseSarc"   Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorSacrophagusC</defName>
     <label>Sarcophagus Type V</label>
+    <designatorDropdown>RimatomicsSarc</designatorDropdown>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/ReactorSacrophagus</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/ReactorSacrophagus</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(14,14)</drawSize>
@@ -159,7 +158,7 @@
   </ThingDef>
 
 
-  <ThingDef Abstract="true" Name="BasePoppedCore">
+  <ThingDef Abstract="true" Name="BasePoppedCore"  Class="Rimatomics.RimatomicsThingDef">
     <thingClass>Rimatomics.Building_PoppedCore</thingClass>
     <label>molten core</label>
     <fillPercent>0</fillPercent>
@@ -172,7 +171,7 @@
     <destroyable>false</destroyable>
     <useHitPoints>false</useHitPoints>
     <tickerType>Normal</tickerType>
-    <selectable>false</selectable>
+    <selectable>true</selectable>
     <neverOverlapFloors>false</neverOverlapFloors>
     <blockPlants>true</blockPlants>
     <building>
@@ -188,91 +187,127 @@
     </comps>
     <category>Building</category>
     <drawerType>MapMeshAndRealTime</drawerType>
-    <filthLeaving>RockRubble</filthLeaving>
     <scatterableOnMapGen>false</scatterableOnMapGen>
   </ThingDef>
 
-  <ThingDef ParentName="BasePoppedCore">
+  <ThingDef ParentName="BasePoppedCore" Class="Rimatomics.RimatomicsThingDef">
     <defName>PoppedReactorCoreA</defName>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/poppedCore_A</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/poppedCore_A</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(5,5)</drawSize>
     </graphicData>
     <size>(5,5)</size>
+    <Bilderbergs>
+      <li>ReactorSacrophagus</li>
+    </Bilderbergs>
   </ThingDef>
 
-  <ThingDef ParentName="BasePoppedCore">
+  <ThingDef ParentName="BasePoppedCore" Class="Rimatomics.RimatomicsThingDef">
     <defName>PoppedReactorCoreB</defName>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/poppedCore_B</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/poppedCore_B</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(6,6)</drawSize>
     </graphicData>
     <size>(6,6)</size>
+    <Bilderbergs>
+      <li>ReactorSacrophagusB</li>
+    </Bilderbergs>
   </ThingDef>
 
-  <ThingDef ParentName="BasePoppedCore">
+  <ThingDef ParentName="BasePoppedCore" Class="Rimatomics.RimatomicsThingDef">
     <defName>PoppedReactorCoreC</defName>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/poppedCore_C</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/poppedCore_C</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(9,9)</drawSize>
     </graphicData>
     <size>(9,9)</size>
+    <Bilderbergs>
+      <li>ReactorSacrophagusC</li>
+    </Bilderbergs>
   </ThingDef>
 
-  <ThingDef>
-    <defName>CrashedRadioactiveShipPart</defName>
-    <label>crashed radioactive ship part</label>
-    <description>A mysterious crashed piece of a spaceship. It may contain exotic materials, computers, even AI personas. This one seems to be emitting high levels of radiation.</description>
-    <thingClass>Rimatomics.Building_RadioactiveShipPart</thingClass>
+
+  <ThingDef ParentName="BuildingBase" Name="BlastDoorBase" Abstract="True">
+    <thingClass>Building_Door</thingClass>
     <category>Building</category>
-    <filthLeaving>BuildingRubble</filthLeaving>
-    <altitudeLayer>Building</altitudeLayer>
-    <pathCost>150</pathCost>
-    <blockWind>true</blockWind>
-    <passability>Impassable</passability>
-    <fillPercent>1.0</fillPercent>
-    <size>(6,3)</size>
+    <altitudeLayer>DoorMoveable</altitudeLayer>
+    <fillPercent>1</fillPercent>
+    <useHitPoints>true</useHitPoints>
     <statBases>
-      <MaxHitPoints>1200</MaxHitPoints>
-      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>140</MaxHitPoints>
       <Flammability>0</Flammability>
-      <Beauty>-100</Beauty>
     </statBases>
-    <tickerType>Normal</tickerType>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
-    <rotatable>true</rotatable>
     <selectable>true</selectable>
-    <neverMultiSelect>true</neverMultiSelect>
+    <tickerType>Normal</tickerType>
+    <rotatable>false</rotatable>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
-    <drawerType>MapMeshOnly</drawerType>
-    <repairEffect>ConstructMetal</repairEffect>
-    <castEdgeShadows>false</castEdgeShadows>
+    <designationCategory>Structure</designationCategory>
+    <holdsRoof>true</holdsRoof>
     <staticSunShadowHeight>1.0</staticSunShadowHeight>
-    <forceDebugSpawnable>true</forceDebugSpawnable>
+    <blockLight>true</blockLight>
+    <drawerType>RealtimeOnly</drawerType>
     <building>
-      <claimable>true</claimable>
-      <soundAmbient>CrashedShipPart_Ambience</soundAmbient>
-      <roofCollapseDamageMultiplier>0.2</roofCollapseDamageMultiplier>
+      <isInert>true</isInert>
+      <canPlaceOverWall>true</canPlaceOverWall>
+      <soundDoorOpenPowered>DuBlastDoorOpenPowered</soundDoorOpenPowered>
+      <soundDoorClosePowered>DuBlastDoorClosePowered</soundDoorClosePowered>
+      <soundDoorOpenManual>Door_OpenManual</soundDoorOpenManual>
+      <soundDoorCloseManual>Door_CloseManual</soundDoorCloseManual>
+      <blueprintClass>Blueprint_Door</blueprintClass>
+      <blueprintGraphicData>
+        <texPath>Things/Building/Door/Door_Blueprint</texPath>
+      </blueprintGraphicData>
     </building>
+    <comps>
+      <li Class="CompProperties_Forbiddable"/>
+    </comps>
+    <placeWorkers>
+      <li>PlaceWorker_DoorLearnOpeningSpeed</li>
+    </placeWorkers>
+  </ThingDef>
+
+
+  <ThingDef ParentName="BlastDoorBase">
+    <defName>DU_Blastdoor</defName>
+    <label>DU Blast door</label>
+    <description>Very strong blast doors that are reinforced with depleted uranium, providing full shielding against radiation.</description>
+    <statBases>
+      <WorkToBuild>10000</WorkToBuild>
+      <MaxHitPoints>1000</MaxHitPoints>
+    </statBases>
     <graphicData>
-      <texPath>Things/Building/Exotic/CrashedPoisonShipPart</texPath>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/Airlock_Mover</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(6,3)</drawSize>
+      <damageData>
+        <!--  no damage marks because they don't move with the door
+        <rect>(0,0.12,1,0.76)</rect>-->
+        <enabled>false</enabled>
+      </damageData>
     </graphicData>
+    <uiIconPath>Rimatomics/Things/RimatomicsBuildings/Airlock_MenuIcon</uiIconPath>
     <costList>
-      <Plutonium>2</Plutonium>
-      <NuclearWaste>4</NuclearWaste>
-      <Steel>230</Steel>
-      <Component>6</Component>
+      <DepletedUraniumPellets>25</DepletedUraniumPellets>
+      <Steel>40</Steel>
+      <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
-    <killedLeavings>
-      <ChunkRadioactiveSlag>4</ChunkRadioactiveSlag>
-      <ChunkSlagSteel>2</ChunkSlagSteel>
-    </killedLeavings>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>150</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <researchPrerequisites>
+      <li>Autodoors</li>
+    </researchPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+    <designationCategory>Rimatomics</designationCategory>
+
   </ThingDef>
   
 </Defs>

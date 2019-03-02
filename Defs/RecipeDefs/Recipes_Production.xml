@@ -26,7 +26,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Plasteel>1</Plasteel>
+      <Steel>1</Steel>
     </products>
     <recipeUsers>
       <li>ElectricSmelter</li>
@@ -68,16 +68,25 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>UraniumPellets</li>
-        <li>Plasteel</li>
+        <li>Steel</li>
+        <li>Silver</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>
@@ -110,17 +119,26 @@
       <li>
         <filter>
           <thingDefs>
-            <li>Plasteel</li>
+            <li>Steel</li>
           </thingDefs>
         </filter>
         <count>15</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
       </li>
     </ingredients>
     <fixedIngredientFilter>
       <thingDefs>
         <li>Plutonium</li>
         <li>DepletedUraniumPellets</li>
-        <li>Plasteel</li>
+        <li>Steel</li>
+        <li>Silver</li>
       </thingDefs>
     </fixedIngredientFilter>
   </RecipeDef>

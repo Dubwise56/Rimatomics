@@ -6,10 +6,10 @@
     <label>ICBM</label>
     <description>An intercontinental ballistic missile (ICBM) is a guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead.</description>
     <worldObjectClass>Rimatomics.WorldObject_ICBMfission</worldObjectClass>
-    <texture>UI/Nuke</texture>
+    <texture>Rimatomics/UI/Nuke</texture>
     <useDynamicDrawer>true</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/Nuke</expandingIconTexture>
+    <expandingIconTexture>Rimatomics/UI/Nuke</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
   </WorldObjectDef>
 
@@ -18,10 +18,10 @@
     <label>Sabot</label>
     <description>Railgun Sabot Round</description>
     <worldObjectClass>Rimatomics.WorldObject_Sabot</worldObjectClass>
-    <texture>UI/Sabot</texture>
+    <texture>Rimatomics/UI/Sabot</texture>
     <useDynamicDrawer>true</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/Sabot</expandingIconTexture>
+    <expandingIconTexture>Rimatomics/UI/Sabot</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
   </WorldObjectDef>
 
@@ -30,10 +30,10 @@
     <label>Nuclear Fallout</label>
     <description>Nuclear fallout is the residual radioactive material propelled into the air by nuclear blasts or a nuclear reactor meltdown.</description>
     <worldObjectClass>Rimatomics.WorldObject_Fallout</worldObjectClass>
-    <texture>UI/Fallout</texture>
+    <texture>Rimatomics/UI/Fallout</texture>
     <useDynamicDrawer>true</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/Fallout</expandingIconTexture>
+    <expandingIconTexture>Rimatomics/UI/Fallout</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
   </WorldObjectDef>
 
@@ -42,10 +42,10 @@
     <label>Rimatomics Probe</label>
     <description>Rimatomics trading probe.</description>
     <worldObjectClass>Rimatomics.WorldObject_Sat</worldObjectClass>
-    <texture>UI/MAVEN</texture>
+    <texture>Rimatomics/UI/MAVEN</texture>
     <useDynamicDrawer>true</useDynamicDrawer>
     <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/MAVEN</expandingIconTexture>
+    <expandingIconTexture>Rimatomics/UI/MAVEN</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
   </WorldObjectDef>
 </Defs>
