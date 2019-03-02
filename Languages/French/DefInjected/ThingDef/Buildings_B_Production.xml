@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <NuclearResearchBench.label>Banc de recherche Rimatomics</NuclearResearchBench.label>
+  <NuclearResearchBench.description>Permet de mener les recherches de Rimatomics</NuclearResearchBench.description>
+  <NuclearResearchBench_Blueprint.label>Banc de recherche Rimatomics(Plan)</NuclearResearchBench_Blueprint.label>
+  <NuclearResearchBench_Frame.label>Banc de recherche Rimatomics(En construction)</NuclearResearchBench_Frame.label>
+  <NuclearResearchBench_Frame.description>Permet de mener les recherches de Rimatomics</NuclearResearchBench_Frame.description>
+
+  <TableRimatomicsMachining.label>Table d'assemblage Rimatomics</TableRimatomicsMachining.label>
+  <TableRimatomicsMachining.description>Table d'assemblage des produits Rimatomics</TableRimatomicsMachining.description>
+  <TableRimatomicsMachining_Blueprint.label>Table d'assemblage Rimatomics(Plan)</TableRimatomicsMachining_Blueprint.label>
+  <TableRimatomicsMachining_Frame.label>Table d'assemblage Rimatomics(En construction)</TableRimatomicsMachining_Frame.label>
+  <TableRimatomicsMachining_Frame.description>Table d'assemblage des produits Rimatomics</TableRimatomicsMachining_Frame.description>
+
+  <ResearchReactor.label>Réacteur de recherche</ResearchReactor.label>
+  <ResearchReactor.description>Réacteur de recherche</ResearchReactor.description>
+  <ResearchReactor_Blueprint.label>Réacteur de recherche(Plan)</ResearchReactor_Blueprint.label>
+  <ResearchReactor_Frame.label>Réacteur de recherche(En construction)</ResearchReactor_Frame.label>
+  <ResearchReactor_Frame.description>Réacteur de recherche</ResearchReactor_Frame.description>
+  
+  <WeaponsBench.label>Banc de recherche des armes à énergies</WeaponsBench.label>
+  <WeaponsBench.description>Banc de recherche des armes à énergies</WeaponsBench.description>
+  <WeaponsBench_Blueprint.label>Banc de recherche des armes à énergies(Plan)</WeaponsBench_Blueprint.label>
+  <WeaponsBench_Frame.label>Banc de recherche des armes à énergies(En construction)</WeaponsBench_Frame.label>
+  <WeaponsBench_Frame.description>Banc de recherche des armes à énergies</WeaponsBench_Frame.description>
+
+  <PlutoniumProcessor.label>Séparateur de plutonium</PlutoniumProcessor.label>
+  <PlutoniumProcessor.description>En utilisant la chimie; les déchets nucléaires et le plutonium sont séparés.</PlutoniumProcessor.description>
+  <PlutoniumProcessor_Blueprint.label>Séparateur de plutonium(Plan)</PlutoniumProcessor_Blueprint.label>
+  <PlutoniumProcessor_Frame.label>Séparateur de plutonium(En construction)</PlutoniumProcessor_Frame.label>
+  <PlutoniumProcessor_Frame.description>En utilisant des produits chimiques les déchets nucléaires et le plutonium sont séparés.</PlutoniumProcessor_Frame.description>
+
+</LanguageData>

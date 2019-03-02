@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Nuclear.label>核能</Nuclear.label>
+  <NuclearWaste.label>核废料</NuclearWaste.label>
+  <NuclearFuel.label>核燃料</NuclearFuel.label>
+  <RimatomicsProduct.label>核产物</RimatomicsProduct.label>
+  <Hazmat.label>危险品</Hazmat.label>
+  <Mopp.label>防辐射服装</Mopp.label>
+
+
+</LanguageData>

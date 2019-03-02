@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RimatomicsActivate.label>邊緣核能</RimatomicsActivate.label>
+  <RimatomicsActivate.description>已檢測到在軌道上的探測器，似乎有信號發送到地面，或許我們可以破譯它。</RimatomicsActivate.description>
+  <RimatomicsActivate.descriptionDiscovered>你連接上了探測器，通訊已開啟。\n\n一個使用變音器的的仿生學推銷者聲稱他正代表一個名為為“邊緣核能”的交易方\n\n他將推銷數據傳送到控制台並解釋說，這些是構建邊緣核能研究台的藍圖，您可以使用它來購買某些技術或請求交易。\n\n請查看建築規劃菜單中的核能選項卡。</RimatomicsActivate.descriptionDiscovered>
+
+
+</LanguageData>

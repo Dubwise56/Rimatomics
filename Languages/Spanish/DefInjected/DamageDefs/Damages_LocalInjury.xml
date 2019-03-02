@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <CoreBlast.label>Explosión del núcleo</CoreBlast.label>
+    <CoreBlast.deathMessage>{0} ha muerto en una explosión.</CoreBlast.deathMessage>
+    
+</LanguageData>

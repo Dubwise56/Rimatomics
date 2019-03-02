@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <NuclearResearchBench.label>Mesa de investigación de Rimatomics</NuclearResearchBench.label>
+    <NuclearResearchBench.Description>Contiene los proyectos de investigación de Rimatomics. Requiere energía eléctrica.</NuclearResearchBench.Description>	
+    
+    <TableRimatomicsMachining.label>Mesa de maquinado de Rimatomics</TableRimatomicsMachining.label>
+    <TableRimatomicsMachining.description>Una estación de trabajo para ensamblar tecnologías de Rimatomics</TableRimatomicsMachining.description>
+     
+    <ResearchReactor.label>Reactor de investigación</ResearchReactor.label>
+    <ResearchReactor.description>Reactor de investigación.</ResearchReactor.description>
+     
+    <WeaponsBench.label>Mesa de investigación de armas</WeaponsBench.label>
+    <WeaponsBench.description>Mesa de investigación de armas.</WeaponsBench.description>
+     
+    <TableNuclearMachining.label>Mesa de maquinado nuclear</TableNuclearMachining.label>
+    <TableNuclearMachining.Description>Una estación de trabajo para ensamblar tecnologías nucleares.</TableNuclearMachining.Description>
+    
+    <PlutoniumProcessor.label>Procesador de Plutonio</PlutoniumProcessor.label>
+    <PlutoniumProcessor.Description>Una máquina que usa químicos para separar el Plutonio fisionable del material nuclear gastado.</PlutoniumProcessor.Description>
+    
+</LanguageData>

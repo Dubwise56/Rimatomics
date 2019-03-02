@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <Radioisotope_thermoelectric_generator.label>R.T.G</Radioisotope_thermoelectric_generator.label>
+    <Radioisotope_thermoelectric_generator.description>Un generador eléctrico que usa un arreglo de termocuplas para convertir el calor liberado por la desintegración radioactiva de un material apropiado en electricidad. La potencia máxima de salida es de 50OW</Radioisotope_thermoelectric_generator.description>
+    
+    <ReactorCore.label>Núcleo de reactor</ReactorCore.label>
+    <ReactorCore.description>El núcleo del reactor nuclear es la porción de un reactor nuclear que contiene los componentes de combustible en donde las reacciones nucleares tienen lugar y el donde se genera el calor.</ReactorCore.description>
+    
+    <ReactorControl.label>Consola de reactor</ReactorControl.label>
+    <ReactorControl.description>Sistema computacional diseñado para controlar reactores nucleares. Mande a un colono a operar la estación y acceder a los controles, múltiples consolas pueden estar abiertas al mismo tiempo</ReactorControl.description>	
+    
+    <Turbine.label>Thor</Turbine.label>
+    <Turbine.description>Una turbina impulsada por vapor que a su vez hace girar un generador para producir electricidad. La Thor tiene una energia máxima de salida de 100 KW.</Turbine.description>
+    
+    <BigTurbine.label>Zeus</BigTurbine.label>
+    <BigTurbine.description>Una turbina impulsada por vapor que a su vez hace girar un generador para producir electricidad. La Zeus tiene una energía máxima de salida de 250 KW.</BigTurbine.description>
+    
+<!--     <HeatExchanger.label>Intercambiador de calor</HeatExchanger.label>
+    <HeatExchanger.description>Un sistema intercambiador de calor que le permite al reactor ser enfriado por sistemas de enfriamiento sin requerir una turbina. Los usos incluyen generar calefacción y producción de Plutonio.</HeatExchanger.description> -->
+    
+    <CoolingRadiator.label>Radiador</CoolingRadiator.label>
+    <CoolingRadiator.description>Un sistema de radiadores diseñado para calentar bases muy grandes mientras que tambien enfría un reactor nuclear.</CoolingRadiator.description>
+    
+    <CoolingWater.label>Estación de enfriamiento por agua</CoolingWater.label>
+    <CoolingWater.description>Provee grandes cantidades de enfriamiento a los reactores nucleares al usar agua fría de ríos u océanos.</CoolingWater.description>
+    
+    <CoolingTower.label>Torre de enfriamiento seca</CoolingTower.label>
+    <CoolingTower.description>Enfriadores de aire muy grandes diseñados para proveer grandes cantidades de enfriamiento para reactores nucleares, para cuando no hay cuerpos de agua naturales disponibles.</CoolingTower.description>
+    
+    <Transformer.label>Transformador</Transformer.label>
+    <Transformer.description>Provee la transformación final de voltaje desde los generadores de turbina, reduciendo el voltaje usado en las lineas de alto voltaje a los niveles usados en los conductos eléctricos.</Transformer.description>
+    
+    <storagePool.label>Piscina de almacenamiento</storagePool.label>
+    <storagePool.description>Una piscina de almacenamiento para almacenar de forma segura barras de combustible nuclear. De clic derecho con un colono seleccionado para interactuar y designar combustible para su remoción.</storagePool.description>
+    
+    <RadiationDetector.label>Detector de radiación</RadiationDetector.label>
+    <RadiationDetector.description>Detector de radiación.</RadiationDetector.description>
+    
+</LanguageData>

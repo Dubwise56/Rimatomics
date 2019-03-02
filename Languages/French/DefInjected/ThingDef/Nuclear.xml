@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+   <RocketEngine.label>Moteur de fusée</RocketEngine.label>
+  <RocketEngine.description>Moteur de fusée utilisé pour les ICBM</RocketEngine.description>
+
+  <ReactorComponents.label>Composant de réacteur</ReactorComponents.label>
+  <ReactorComponents.description>Composant utilisé pour construire les réacteurs nucléaires</ReactorComponents.description>
+
+  <turbineBlade.label>Pale de turbine</turbineBlade.label>
+  <turbineBlade.description>Pale de turbine utilisé pour construire les turbine</turbineBlade.description>
+
+  <UraniumPellets.label>Pastille d'uranium</UraniumPellets.label>
+  <UraniumPellets.description>Pastille d'uranium pour faire des barres de combustible</UraniumPellets.description>
+
+   <Plutonium.label>Plutonium (Pu)</Plutonium.label>
+  <Plutonium.description>Utilisé pour la fabrication de barres de combustible MOX et les ogive nucléaires.</Plutonium.description>
+
+  <DepletedUraniumPellets.label>Uranium appauvrit</DepletedUraniumPellets.label>
+  <DepletedUraniumPellets.description>Pastille d'uranium appauvrit pour faire des barres de combustible.</DepletedUraniumPellets.description>
+
+  <FissionWarhead.label>tête nucléaire（fission）</FissionWarhead.label>
+  <FissionWarhead.description>Son pouvoir destructeur provient des réactions de fission nucléaire.</FissionWarhead.description>
+
+  <RailgunSabot.label>Obus d'artillerie magnétique</RailgunSabot.label>
+  <RailgunSabot.description>Un obus d'artillerie utilisé par le canon magnétique.</RailgunSabot.description>
+
+
+
+  <!-- Fuel Rods -->
+
+<FuelRods.label>Combustible nucléaire</FuelRods.label>
+  <FuelRods.description>Une barre de combustible remplie de pastilles d'uranium, qui lorsqu'elle est chargée dans un réacteur nucléaire, génère de l'énergie pour actionner une turbine.</FuelRods.description>
+
+  <FuelRodsMOX.label>Conbustible MOX</FuelRodsMOX.label>
+  <FuelRodsMOX.description>Barres de combustible remplies avec un mix d'uranium et de plutonium, qui lorsqu'elle sont chargées dans un réacteur nucléaire, génèrent de l'énergie pour actionner une turbine.</FuelRodsMOX.description>
+
+
+  <!-- Nuclear Waste -->
+
+  <ChunkRadioactiveSlag.label>Blocs de déchets radioactifs</ChunkRadioactiveSlag.label>
+
+  <NuclearWaste.label>Déchets nucléaires</NuclearWaste.label>
+  <NuclearWaste.description>Baril de déchets nucléaires.</NuclearWaste.description>
+
+  <ThrownSlag.label>Jeter les Déchets</ThrownSlag.label>
+
+</LanguageData>

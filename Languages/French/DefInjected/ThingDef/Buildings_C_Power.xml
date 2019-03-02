@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Radioisotope_thermoelectric_generator.label>G.R.I</Radioisotope_thermoelectric_generator.label>
+  <Radioisotope_thermoelectric_generator.description>Le générateur radio-isotopique Utilise des désintégration nucléaire d'isotopes stable pour produire de l'energie.Fournit 500W</Radioisotope_thermoelectric_generator.description>
+  <Radioisotope_thermoelectric_generator_Blueprint.label>G.R.I(plan)</Radioisotope_thermoelectric_generator_Blueprint.label>
+  <Radioisotope_thermoelectric_generator_Blueprint_Install.label>G.R.I(plan)</Radioisotope_thermoelectric_generator_Blueprint_Install.label>
+  <Radioisotope_thermoelectric_generator_Frame.label>GRI(en construction)</Radioisotope_thermoelectric_generator_Frame.label>
+  <Radioisotope_thermoelectric_generator_Frame.description>Utilise des désintégration nucléaire d'isotpoes stable pour produire de l'energie.Fournit 500W</Radioisotope_thermoelectric_generator_Frame.description>
+
+  <ReactorCore.label>Réacteur à eau légère</ReactorCore.label>
+  <ReactorCore.description>Le réacteur est un assemblage de combustible nucléaire à température élevée où des fission ont lieu produissant de l'énergie</ReactorCore.description>
+  <ReactorCore_Blueprint.label>réacteur nucléaire(plan)</ReactorCore_Blueprint.label>
+  <ReactorCore_Frame.label>réacteur nucléaire(en construction)</ReactorCore_Frame.label>
+  <ReactorCore_Frame.description>Le réacteur est un assemblage de combustible nucléaire à température élevée où des fission ont lieu produissant de l'énergie</ReactorCore_Frame.description>
+
+
+  <BigReactorCore.label>Grand réacteur</BigReactorCore.label>
+  <BigReactorCore.description>Le réacteur est un assemblage de combustible nucléaire à température élevée où des fission ont lieu produissant de l'énergie</BigReactorCore.description>
+  <BigReactorCore_Blueprint.label>Grand réacteur (plan)</BigReactorCore_Blueprint.label>
+  <BigReactorCore_Frame.label>Grand réacteur (construction)</BigReactorCore_Frame.label>
+  <BigReactorCore_Frame.description>Le réacteur est un assemblage de combustible nucléaire à température élevée où des fission ont lieu produissant de l'énergie</BigReactorCore_Frame.description>
+
+
+  <!-- COOLING -->
+
+  <CoolingRadiator.description>Le radiateur n'est pas le système de refroidissement le plus éfficace cepandant la chaleur qu'il dégage permet de réchauffer de grandes bases</CoolingRadiator.description>
+  <CoolingRadiator_Blueprint.label>Radiateur(plan)</CoolingRadiator_Blueprint.label>
+  <CoolingRadiator_Frame.label>Radiateur(en construction)</CoolingRadiator_Frame.label>
+  <CoolingRadiator_Frame.description>Le radiateur n'est pas le système de refroidissement le plus éfficace cepandant la chaleur qu'il dégage permet de réchauffer de grandes bases</CoolingRadiator_Frame.description>
+
+  <CoolingWater.label>Pompe de refroidissement</CoolingWater.label>
+  <CoolingWater.description>Grâce à l'utilisation de rivières, de lacs ou de grandes quantités d'eau froide dans l'océan elle dissipae la chaleur des réacteurs nucléaires.</CoolingWater.description>
+  <CoolingWater_Blueprint.label>>Pompe de refroidissement(plan)</CoolingWater_Blueprint.label>
+  <CoolingWater_Frame.label>>Pompe de refroidissement(en construction)</CoolingWater_Frame.label>
+  <CoolingWater_Frame.description>Grâce à l'utilisation de rivières, de lacs ou de grandes quantités d'eau froide dans l'océan elle dissipae la chaleur des réacteurs nucléaires.</CoolingWater_Frame.description>
+
+  <CoolingTower.label>Tour aéroréfrigirée</CoolingTower.label>
+  <CoolingTower.description>Très grandes tours de refroidissement à sec, aux fins de refroidissement d'un réacteur nucléaire dans le cas où il n'y a pas d'eau.</CoolingTower.description>
+  <CoolingTower_Blueprint.label>Tour aéroréfrigirée(plan)</CoolingTower_Blueprint.label>
+  <CoolingTower_Frame.label>v(en construction)</CoolingTower_Frame.label>
+  <CoolingTower_Frame.description>Très grandes tours de refroidissement à sec, aux fins de refroidissement d'un réacteur nucléaire dans le cas où il n'y a pas d'eau.</CoolingTower_Frame.description>
+
+
+  <!-- HEAT EXCHANGE -->
+
+    <Turbine.label>Turbine "Thor"</Turbine.label>
+  <Turbine.description>Utilise la vapeur générée par le réacteur pour propulser la turbine pour générer de l'électricité. Puissance de sortie maximale de 100KiloWatts.</Turbine.description>
+  <Turbine_Blueprint.label>Turbine "Thor"(plan)</Turbine_Blueprint.label>
+  <Turbine_Frame.label>v(en construction)</Turbine_Frame.label>
+  <Turbine_Frame.description>Utilise la vapeur générée par le réacteur pour propulser la turbine pour générer de l'électricité. Puissance de sortie maximale de 100KiloWatts.</Turbine_Frame.description>
+
+  <BigTurbine.label>Turbine "Zeus"</BigTurbine.label>
+  <BigTurbine.description>Utilise la vapeur générée par le réacteur pour propulser la turbine pour générer de l'électricité. Puissance de sortie maximale de 1MégaWatts</BigTurbine.description>
+  <BigTurbine_Blueprint.label>Turbine "Zeus"(plan)</BigTurbine_Blueprint.label>
+  <BigTurbine_Frame.label>Turbine "Zeus"(en construction)</BigTurbine_Frame.label>
+  <BigTurbine_Frame.description>Utilise la vapeur générée par le réacteur pour propulser la turbine pour générer de l'électricité. Puissance de sortie maximale de 1MégaWatts</BigTurbine_Frame.description>
+
+
+  <!-- TRANNY -->
+
+  <Transformer.label>Transformateur haute tension</Transformer.label>
+  <Transformer.description>La tension fournie par la turbine est réduite au niveau auquel le réseau peut être chargée.</Transformer.description>
+  <Transformer_Blueprint.label>Transformateur haute tension(plan)</Transformer_Blueprint.label>
+  <Transformer_Frame.label>Transformateur haute tension(en construction)</Transformer_Frame.label>
+  <Transformer_Frame.description>La tension fournie par la turbine est réduite au niveau auquel le réseau peut être chargée.</Transformer_Frame.description>
+
+
+  <!-- CONTROLLERS -->
+
+  <ReactorControl.label>Console du réacteur</ReactorControl.label>
+  <ReactorControl.description>Un système informatique pour contrôler les réacteurs nucléaires. Peut controller plusieur réacteur à la fois</ReactorControl.description>
+  <ReactorControl_Blueprint.label>Console du réacteur(plan)</ReactorControl_Blueprint.label>
+  <ReactorControl_Frame.label>Console du réacteur(en construction)</ReactorControl_Frame.label>
+  <ReactorControl_Frame.description>Un système informatique pour contrôler les réacteurs nucléaires. Peut controller plusieur réacteur à la fois</ReactorControl_Frame.description>
+
+  <storagePool.label>Piscine de stockage</storagePool.label>
+  <storagePool.description>Lieux d'entreposage sécurisé des barres de combustible nucléaire. Sélectionnez les colons avec le bouton droit de la souris pour retirer la barre de combustible nucléaire spécifié.</storagePool.description>
+  <storagePool_Blueprint.label>Piscine de stockage(plan)</storagePool_Blueprint.label>
+  <storagePool_Frame.label>Piscine de stockage(en construction)</storagePool_Frame.label>
+  <storagePool_Frame.description>Lieux d'entreposage sécurisé des barres de combustible nucléaire. Sélectionnez les colons avec le bouton droit de la souris pour retirer la barre de combustible nucléaire spécifié.</storagePool_Frame.description>
+
+  <RadiationDetector.label>Détecteur de rayonnement</RadiationDetector.label>
+  <RadiationDetector.description>Détecte les radiations</RadiationDetector.description>
+  <RadiationDetector_Blueprint.label>Détecteur de rayonnement(plan)</RadiationDetector_Blueprint.label>
+  <RadiationDetector_Frame.label>Détecteur de rayonnement(en construction)</RadiationDetector_Frame.label>
+  <RadiationDetector_Frame.description>Détecte les radiations</RadiationDetector_Frame.description>
+
+
+</LanguageData>

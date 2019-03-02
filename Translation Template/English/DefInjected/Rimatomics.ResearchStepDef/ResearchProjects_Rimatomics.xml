@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Geigercounter1.StepLabel>Research radiation detectors (Lvl 5 Intellectual)</Geigercounter1.StepLabel>
+  <Geigercounter1.StepDesc>A skilled researcher needs to study the designs and learn how the radiation detectors work</Geigercounter1.StepDesc>
+
+  <Geigercounter2.StepLabel>Evaluate components (Lvl 5 Crafting)</Geigercounter2.StepLabel>
+  <Geigercounter2.StepDesc>A skilled crafter needs to figure out how to build and maintain radiation detectors for all colonists using the resources and tools available</Geigercounter2.StepDesc>
+
+
+  <!-- /////////////// -->
+
+  <RadiationSuits1.StepLabel>Research radiation suits (Lvl 5 Intellectual)</RadiationSuits1.StepLabel>
+  <RadiationSuits1.StepDesc>A skilled researcher needs to study the designs and learn how the radiation suits work before we can start making our own</RadiationSuits1.StepDesc>
+
+  <RadiationSuits2.StepLabel>Evaluate components (Lvl 5 Crafting)</RadiationSuits2.StepLabel>
+  <RadiationSuits2.StepDesc>A skilled crafter needs to draw up plans for tailoring radiation suits using the resources and tools available to us</RadiationSuits2.StepDesc>
+
+  <NuclearResearch1.StepLabel>Research reactor technology (Lvl 7 Intellectual)</NuclearResearch1.StepLabel>
+  <NuclearResearch1.StepDesc>A skilled researcher needs to study the designs and learn how the research reactor works before we can build our own</NuclearResearch1.StepDesc>
+
+  <NuclearResearch2.StepLabel>Evaluate components (Lvl 10 Crafting)</NuclearResearch2.StepLabel>
+  <NuclearResearch2.StepDesc>A skilled crafter needs to plan how we can make the components required for the research reactors from the resources available to us</NuclearResearch2.StepDesc>
+
+  <NuclearResearch3.StepLabel>Examine construction blueprints (Lvl 10 Construction)</NuclearResearch3.StepLabel>
+  <NuclearResearch3.StepDesc>A skilled constructor needs to make the final plans for constructing the research reactor using available tools</NuclearResearch3.StepDesc>
+
+  <NuclearResearch4.StepLabel>Construct a research reactor</NuclearResearch4.StepLabel>
+  <NuclearResearch4.StepDesc>Construct a research reactor with a facility connection to the Rimatomics research bench</NuclearResearch4.StepDesc>
+
+  <NuclearResearch5.StepLabel>Research and train (Lvl 7 Intellectual)</NuclearResearch5.StepLabel>
+  <NuclearResearch5.StepDesc>Install reactor control software and perform training exercises while testing the reactors capabilities</NuclearResearch5.StepDesc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <NuclearReactor1.StepLabel>Research nuclear reactors (Lvl 7 Intellectual)</NuclearReactor1.StepLabel>
+  <NuclearReactor1.StepDesc>A skilled researcher needs to study the designs and learn how the nuclear power system works before we can build our own</NuclearReactor1.StepDesc>
+
+  <NuclearReactor2.StepLabel>Evaluate components (Lvl 10 Crafting)</NuclearReactor2.StepLabel>
+  <NuclearReactor2.StepDesc>A skilled crafter needs to plan how we can make the components required for the nuclear power system from the resources available to us</NuclearReactor2.StepDesc>
+
+  <NuclearReactor3.StepLabel>Examine construction blueprints (Lvl 10 Construction)</NuclearReactor3.StepLabel>
+  <NuclearReactor3.StepDesc>A skilled constructor needs to make the final plans for constructing the nuclear power system using available tools</NuclearReactor3.StepDesc>
+
+  <NuclearReactor4.StepLabel>Build a cooling system</NuclearReactor4.StepLabel>
+  <NuclearReactor4.StepDesc>Build one of the available cooling systems, water cooling requires rivers or large bodies of water, cooling towers require a lot of power and space and must be placed outside, radiators provide smaller amounts of cooling but can be placed inside for heating</NuclearReactor4.StepDesc>
+
+  <NuclearReactor5.StepLabel>Build a turbine generator</NuclearReactor5.StepLabel>
+  <NuclearReactor5.StepDesc>Build a turbine generator, this will need to be connected to the cooling system. The turbine requires a large quantity of turbine blades which can be manufactured at a Rimatomics machining table</NuclearReactor5.StepDesc>
+
+  <NuclearReactor6.StepLabel>Connect the cooling system</NuclearReactor6.StepLabel>
+  <NuclearReactor6.StepDesc>Use coolant pipes to connect the cooling system to the turbine generator</NuclearReactor6.StepDesc>
+
+  <NuclearReactor7.StepLabel>Build a reactor core</NuclearReactor7.StepLabel>
+  <NuclearReactor7.StepDesc>Build a nuclear reactor core and connect both steam and cold water pipes to the turbine. It is highly recommended that the core be built in a shielded containment room to protect colonists during fuel transfer. Reactor components can be manufactured at a Rimatomics machining table</NuclearReactor7.StepDesc>
+
+  <NuclearReactor8.StepLabel>Build a power transformer</NuclearReactor8.StepLabel>
+  <NuclearReactor8.StepDesc>Build a power transformer and connect it to the turbine using high voltage cables. If the total power output from the turbines exceeds 150% of the current usage on the powernet connected to the transformer then you will see sparking and an overvoltage explosion may occur</NuclearReactor8.StepDesc>
+
+  <NuclearReactor9.StepLabel>Build a reactor control computer</NuclearReactor9.StepLabel>
+  <NuclearReactor9.StepDesc>Build a reactor control computer and connect it to the nuclear reactor core using the controller loom. This console is used to control reactor cores, they can be paired with specific cores by assigning an ID, allowing you to chain connections from core to core. Send a colonist to man the station to access the controls, multiple controls can be open at the same time</NuclearReactor9.StepDesc>
+
+  <NuclearReactor10.StepLabel>Test the nuclear reactor</NuclearReactor10.StepLabel>
+  <NuclearReactor10.StepDesc>Construct or purchase nuclear fuel rods, load them into the reactor core using the reactor console to designate slots for loading. Once at least 1 fuel rod assembly is loaded use the reactor console to start the core and raise the neutron flux to 100% to gather data</NuclearReactor10.StepDesc>
+
+  <Plutonium1.StepLabel>Research plutonium processing (Lvl 14 Intellectual)</Plutonium1.StepLabel>
+  <Plutonium1.StepDesc>A skilled researcher needs to study the designs and learn how plutonium processing works before we can begin constructing our own processors</Plutonium1.StepDesc>
+
+  <Plutonium2.StepLabel>Evaluate components (Lvl 16 Crafting)</Plutonium2.StepLabel>
+  <Plutonium2.StepDesc>A skilled crafter needs to plan how we can make the components required for the plutonium processing from the resources available to us</Plutonium2.StepDesc>
+
+  <Plutonium3.StepLabel>Examine construction blueprints (Lvl 16 Construction)</Plutonium3.StepLabel>
+  <Plutonium3.StepDesc>A skilled constructor needs to make the final plans for constructing the plutonium processor using available tools</Plutonium3.StepDesc>
+
+  <Plutonium4.StepLabel>Construct a Plutonium Processor</Plutonium4.StepLabel>
+  <Plutonium4.StepDesc>Construct a Plutonium Processor, it is advised that you locate the plutonium processor a short distance from reactors or spent fuel storage, to reduce the duration of exposure while handling the radioactive fuel, radiation suits will be required for workers</Plutonium4.StepDesc>
+
+  <RTG1.StepLabel>Research R.T.G's (Lvl 11 Intellectual)</RTG1.StepLabel>
+  <RTG1.StepDesc>A skilled researcher needs to study the designs and learn how Radioisotope Thermoelectric Generators work before we can start making our own</RTG1.StepDesc>
+
+  <RTG2.StepLabel>Evaluate components (Lvl 15 Crafting)</RTG2.StepLabel>
+  <RTG2.StepDesc>A skilled crafter needs to plan how we can make the components required for a Radioisotope Thermoelectric Generator from the resources available to us</RTG2.StepDesc>
+
+  <RTG3.StepLabel>Examine construction blueprints (Lvl 15 Construction)</RTG3.StepLabel>
+  <RTG3.StepDesc>A skilled constructor needs to draw up plans for constructing a Radioisotope Thermoelectric Generator using the resources and tools available to us</RTG3.StepDesc>
+
+  <ICBM1.StepLabel>Research nuclear weapons (Lvl 15 Intellectual)</ICBM1.StepLabel>
+  <ICBM1.StepDesc>A skilled researcher needs to study the designs and learn how nuclear weapons work before we can start making our own</ICBM1.StepDesc>
+
+  <ICBM2.StepLabel>Evaluate components (Lvl 16 Crafting)</ICBM2.StepLabel>
+  <ICBM2.StepDesc>A skilled crafter needs to draw up plans for constructing ICBM's using the resources and tools available to us</ICBM2.StepDesc>
+
+  <ICBM3.StepLabel>Examine construction blueprints (Lvl 16 Construction)</ICBM3.StepLabel>
+  <ICBM3.StepDesc>A skilled constructor needs to draw up plans for constructing ICBM's using the resources and tools available to us</ICBM3.StepDesc>
+
+  <ICBM4.StepLabel>Construct a launch pad</ICBM4.StepLabel>
+  <ICBM4.StepDesc>Construct a missile launch pad, it must be connected via power conduit to a weapons console to control the launch systems</ICBM4.StepDesc>
+
+  <ICBM5.StepLabel>Construct an ICBM</ICBM5.StepLabel>
+  <ICBM5.StepDesc>Construct an ICBM on the launch pad, rocket engines and fission warheads can be constructed at a Rimatomics machining table</ICBM5.StepDesc>
+
+  <ICBM6.StepLabel>Gather weapons data</ICBM6.StepLabel>
+  <ICBM6.StepDesc>Launch the ICBM at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum</ICBM6.StepDesc>
+
+  <EnergyWeapons1.StepLabel>Research energy weapons (Lvl 5 Intellectual)</EnergyWeapons1.StepLabel>
+  <EnergyWeapons1.StepDesc>A skilled researcher needs to study how Rimatomics energy weapons work and how we can develop and build our own</EnergyWeapons1.StepDesc>
+
+  <EnergyWeapons2.StepLabel>Evaluate components (Lvl 5 Crafting)</EnergyWeapons2.StepLabel>
+  <EnergyWeapons2.StepDesc>A skilled crafter needs to plan how we can make the components required for building Rimatomics energy weapons from the resources available to us</EnergyWeapons2.StepDesc>
+
+  <EnergyWeapons3.StepLabel>Examine construction blueprints (Lvl 5 Construction)</EnergyWeapons3.StepLabel>
+  <EnergyWeapons3.StepDesc>A skilled constructor needs to make the final plans for constructing Rimatomics energy weapons using available tools</EnergyWeapons3.StepDesc>
+
+  <EnergyWeapons4.StepLabel>Construct a Weapons Research Bench</EnergyWeapons4.StepLabel>
+  <EnergyWeapons4.StepDesc>Construct a Weapons Research Bench, equipped with specialized equipment for prototyping and testing a wide range of energy weapons, it is a required facility for most energy weapons research and testing</EnergyWeapons4.StepDesc>
+
+  <EnergyWeapons5.StepLabel>Construct a Weapons console</EnergyWeapons5.StepLabel>
+  <EnergyWeapons5.StepDesc>Construct a weapons console, the Weapons Console is a manned target acquisition computer required by all energy weapons, it networks to any Rimatomics energy weapons that share the same power net, then detects enemies using the onboard sensors of the weapons and the Target Acquisition System to assign targets. The main display features real time ground and air target tracking and a PPC capacity gauge displays the total stored PPC energy on the net</EnergyWeapons5.StepDesc>
+
+  <EnergyWeapons6.StepLabel>Construct a Target Acquisition System</EnergyWeapons6.StepLabel>
+  <EnergyWeapons6.StepDesc>Construct a Target Acquisition System. the system uses a combination of technologies to track land and air based targets, this includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long range tracking of ballistic missiles</EnergyWeapons6.StepDesc>
+
+  <EnergyWeapons7.StepLabel>Construct a prototype PPC</EnergyWeapons7.StepLabel>
+  <EnergyWeapons7.StepDesc>Construct a Pulsed Power Container (PPC) and connect it to the same power net as the weapons console, charge the PPC and man the weapons console to test that all of the systems work. These ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. Housed in a waterproof container, and charged by excess power like a standard battery, it is recommended that you isolate them from standard batteries to increase efficiency, if power generation is lost the PPC will quickly dissipate its charge for safety</EnergyWeapons7.StepDesc>
+
+
+  <!-- ADS -->
+
+  <ADS1.StepLabel>Research the ADS (Lvl 5 Intellectual)</ADS1.StepLabel>
+  <ADS1.StepDesc>A skilled researcher needs to study the designs and learn how the ADS works before we can build our own</ADS1.StepDesc>
+
+  <ADS2.StepLabel>Evaluate components (Lvl 5 Crafting)</ADS2.StepLabel>
+  <ADS2.StepDesc>A skilled crafter needs to plan how we can make the components required for the ADS from the resources available to us</ADS2.StepDesc>
+
+  <ADS3.StepLabel>Examine construction blueprints (Lvl 5 Construction)</ADS3.StepLabel>
+  <ADS3.StepDesc>A skilled constructor needs to make the final plans for constructing the ADS using available tools</ADS3.StepDesc>
+
+  <ADS4.StepLabel>Construct a prototype ADS</ADS4.StepLabel>
+  <ADS4.StepDesc>Construct a prototype version of the Active Denial System (ADS). The prototype has very limited range and high power usage. It requires a direct connection to a weapons console and a charged PPC</ADS4.StepDesc>
+
+  <ADS5.StepLabel>Gather weapons data</ADS5.StepLabel>
+  <ADS5.StepDesc>Test fire the ADS on any living targets to gather weapons data</ADS5.StepDesc>
+
+
+  <!-- Tesla Coil -->
+
+  <TeslaCoil1.StepLabel>Research tesla coils (Lvl 6 Intellectual)</TeslaCoil1.StepLabel>
+  <TeslaCoil1.StepDesc>A skilled researcher needs to study the designs and learn how the tesla coil works before we can build our own</TeslaCoil1.StepDesc>
+
+  <TeslaCoil2.StepLabel>Evaluate components (Lvl 6 Crafting)</TeslaCoil2.StepLabel>
+  <TeslaCoil2.StepDesc>A skilled crafter needs to plan how we can make the components required for the tesla coil from the resources available to us</TeslaCoil2.StepDesc>
+
+  <TeslaCoil3.StepLabel>Examine construction blueprints (Lvl 6 Construction)</TeslaCoil3.StepLabel>
+  <TeslaCoil3.StepDesc>A skilled constructor needs to make the final plans for constructing the tesla coil using available tools</TeslaCoil3.StepDesc>
+
+  <TeslaCoil4.StepLabel>Construct a prototype Tesla Coil</TeslaCoil4.StepLabel>
+  <TeslaCoil4.StepDesc>Construct a prototype version of the Tesla Coil. The prototype has very limited range and high power usage.It requires a direct connection to a weapons console and a charged PPC</TeslaCoil4.StepDesc>
+
+  <TeslaCoil5.StepLabel>Gather weapons data</TeslaCoil5.StepLabel>
+  <TeslaCoil5.StepDesc>Test fire the Tesla coil on any living targets to gather weapons data</TeslaCoil5.StepDesc>
+
+
+  <!-- HEL -->
+
+  <HEL1.StepLabel>Research the HEL (Lvl 8 Intellectual)</HEL1.StepLabel>
+  <HEL1.StepDesc>A skilled researcher needs to study the designs and learn how the HEL works before we can build our own</HEL1.StepDesc>
+
+  <HEL2.StepLabel>Evaluate components (Lvl 12 Crafting)</HEL2.StepLabel>
+  <HEL2.StepDesc>A skilled crafter needs to plan how we can make the components required for the HEL from the resources available to us</HEL2.StepDesc>
+
+  <HEL3.StepLabel>Examine construction blueprints (Lvl 12 Construction)</HEL3.StepLabel>
+  <HEL3.StepDesc>A skilled constructor needs to make the final plans for constructing the HEL using available tools</HEL3.StepDesc>
+
+  <HEL4.StepLabel>Construct a prototype HEL</HEL4.StepLabel>
+  <HEL4.StepDesc>Construct a prototype version of the HEL. The prototype has limited turn speed and high power usage. It requires a direct connection to a weapons console and a charged PPC, and requires the presence of a Target Acquisition System</HEL4.StepDesc>
+
+  <HEL5.StepLabel>Gather weapons data</HEL5.StepLabel>
+  <HEL5.StepDesc>Test fire the HEL on artillary targets to gather weapons data, you can use the weapons console to change its target aquisition to include friendly shells</HEL5.StepDesc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <Railgun1.StepLabel>Research the railgun (Lvl 12 Intellectual)</Railgun1.StepLabel>
+  <Railgun1.StepDesc>A skilled researcher needs to study the designs and learn how the railgun works before we can build our own</Railgun1.StepDesc>
+
+  <Railgun2.StepLabel>Evaluate components (Lvl 15 Crafting)</Railgun2.StepLabel>
+  <Railgun2.StepDesc>A skilled crafter needs to plan how we can make the components required for the railgun from the resources available to us</Railgun2.StepDesc>
+
+  <Railgun3.StepLabel>Examine construction blueprints (Lvl 15 Construction)</Railgun3.StepLabel>
+  <Railgun3.StepDesc>A skilled constructor needs to make the final plans for constructing the railgun using available tools</Railgun3.StepDesc>
+
+  <Railgun4.StepLabel>Construct a prototype Railgun</Railgun4.StepLabel>
+  <Railgun4.StepDesc>Construct a prototype version of the Railgun. The prototype has limited turn speed and high power usage, It requires a direct connection to a weapons console and a charged PPC, and requires the presence of a Target Acquisition System</Railgun4.StepDesc>
+
+  <Railgun5.StepLabel>Gather weapons data</Railgun5.StepLabel>
+  <Railgun5.StepDesc>Test fire the Railgun on any targets to gather weapons data. You can craft Railgun Sabot rounds at a Rimatomics machining table</Railgun5.StepDesc>
+
+  <Obelisk1.StepLabel>Research the Obelisk (Lvl 15 Intellectual)</Obelisk1.StepLabel>
+  <Obelisk1.StepDesc>A skilled researcher needs to study the designs and learn how the Obelisk works before we can build our own</Obelisk1.StepDesc>
+
+  <Obelisk2.StepLabel>Evaluate components (Lvl 18 Crafting)</Obelisk2.StepLabel>
+  <Obelisk2.StepDesc>A skilled crafter needs to plan how we can make the components required for the Obelisk from the resources available to us</Obelisk2.StepDesc>
+
+  <Obelisk3.StepLabel>Examine construction blueprints (Lvl 18 Construction)</Obelisk3.StepLabel>
+  <Obelisk3.StepDesc>A skilled constructor needs to make the final plans for constructing the Obelisk using available tools</Obelisk3.StepDesc>
+
+  <Obelisk4.StepLabel>Construct an Obelisk</Obelisk4.StepLabel>
+  <Obelisk4.StepDesc>Construct a prototype version of the Obelisk, the prototype has limited range and power and requires a direct connection to a weapons console and charged PPC to function.</Obelisk4.StepDesc>
+
+  <Obelisk5.StepLabel>Gather weapons data</Obelisk5.StepLabel>
+  <Obelisk5.StepDesc>Test fire the Obelisk on any living targets to collect data, the amount of data obtained scales based on the power used for each burst</Obelisk5.StepDesc>
+
+
+</LanguageData>

@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RocketEngine.label>火箭引擎</RocketEngine.label>
+  <RocketEngine.description>主体使用了高强度隔离材料的核动力火箭引擎。</RocketEngine.description>
+
+  <ReactorComponents.label>反应堆组件</ReactorComponents.label>
+  <ReactorComponents.description>主体使用了高强度隔离材料以保证反应堆的稳定性。</ReactorComponents.description>
+
+  <turbineBlade.label>涡轮叶片</turbineBlade.label>
+  <turbineBlade.description>用于制造涡轮机。</turbineBlade.description>
+
+  <UraniumPellets.label>铀颗粒</UraniumPellets.label>
+  <UraniumPellets.description>用于制造核燃料棒。</UraniumPellets.description>
+
+  <Plutonium.label>钚</Plutonium.label>
+  <Plutonium.description>一种用于制造核武器和核燃料棒材料。</Plutonium.description>
+
+  <DepletedUraniumPellets.label>贫铀</DepletedUraniumPellets.label>
+  <DepletedUraniumPellets.description>贫铀颗粒可用于制作核燃料棒。</DepletedUraniumPellets.description>
+
+  <FissionWarhead.label>核弹头(裂变)</FissionWarhead.label>
+  <FissionWarhead.description>其破坏力来自核裂变反应。</FissionWarhead.description>
+
+  <RailgunSabot.label>磁轨炮弹</RailgunSabot.label>
+  <RailgunSabot.description>磁轨炮炮使用的高爆炮弹。</RailgunSabot.description>
+
+
+  <!-- Fuel Rods -->
+
+  <FuelRods.label>铀燃料棒</FuelRods.label>
+  <FuelRods.description>填充有铀颗粒的燃料棒，当装载在轻水反应堆时产生能量，用来驱动涡轮机。</FuelRods.description>
+
+  <FuelRodsMOX.label>混合氧化物核燃料棒</FuelRodsMOX.label>
+  <FuelRodsMOX.description>填充有铀和钚混合物的燃料棒，当装载在轻水反应堆时产生能量，用来驱动涡轮机。</FuelRodsMOX.description>
+
+
+  <!-- Nuclear Waste -->
+
+  <ChunkRadioactiveSlag.label>放射性废渣块</ChunkRadioactiveSlag.label>
+
+  <NuclearWaste.label>核废料</NuclearWaste.label>
+  <NuclearWaste.description>核废料桶。</NuclearWaste.description>
+
+  <ThrownSlag.label>废渣</ThrownSlag.label>
+
+
+</LanguageData>

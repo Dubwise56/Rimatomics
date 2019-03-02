@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Radioisotope_thermoelectric_generator.label>R.T.G</Radioisotope_thermoelectric_generator.label>
+  <Radioisotope_thermoelectric_generator.description>An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity. Maximum power output is 500W</Radioisotope_thermoelectric_generator.description>
+  <Radioisotope_thermoelectric_generator_Blueprint.label>R.T.G (blueprint)</Radioisotope_thermoelectric_generator_Blueprint.label>
+  <Radioisotope_thermoelectric_generator_Blueprint_Install.label>R.T.G (blueprint)</Radioisotope_thermoelectric_generator_Blueprint_Install.label>
+  <Radioisotope_thermoelectric_generator_Frame.label>R.T.G (building)</Radioisotope_thermoelectric_generator_Frame.label>
+  <Radioisotope_thermoelectric_generator_Frame.description>An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity. Maximum power output is 500W</Radioisotope_thermoelectric_generator_Frame.description>
+
+  <ReactorCore.label>Reactor Core</ReactorCore.label>
+  <ReactorCore.description>A nuclear reactor core is the portion of a nuclear reactor containing the nuclear fuel components where the nuclear reactions take place and the heat is generated</ReactorCore.description>
+  <ReactorCore_Blueprint.label>Reactor Core (blueprint)</ReactorCore_Blueprint.label>
+  <ReactorCore_Frame.label>Reactor Core (building)</ReactorCore_Frame.label>
+  <ReactorCore_Frame.description>A nuclear reactor core is the portion of a nuclear reactor containing the nuclear fuel components where the nuclear reactions take place and the heat is generated</ReactorCore_Frame.description>
+
+
+  <!-- COOLING -->
+
+  <CoolingRadiator.label>Radiator</CoolingRadiator.label>
+  <CoolingRadiator.description>A radiator system designed to heat very large bases while also cooling a nuclear reactor</CoolingRadiator.description>
+  <CoolingRadiator_Blueprint.label>Radiator (blueprint)</CoolingRadiator_Blueprint.label>
+  <CoolingRadiator_Frame.label>Radiator (building)</CoolingRadiator_Frame.label>
+  <CoolingRadiator_Frame.description>A radiator system designed to heat very large bases while also cooling a nuclear reactor</CoolingRadiator_Frame.description>
+
+  <CoolingWater.label>Water Cooling Station</CoolingWater.label>
+  <CoolingWater.description>Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans</CoolingWater.description>
+  <CoolingWater_Blueprint.label>Water Cooling Station (blueprint)</CoolingWater_Blueprint.label>
+  <CoolingWater_Frame.label>Water Cooling Station (building)</CoolingWater_Frame.label>
+  <CoolingWater_Frame.description>Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans</CoolingWater_Frame.description>
+
+  <CoolingTower.label>Dry Cooling Tower</CoolingTower.label>
+  <CoolingTower.description>Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available</CoolingTower.description>
+  <CoolingTower_Blueprint.label>Dry Cooling Tower (blueprint)</CoolingTower_Blueprint.label>
+  <CoolingTower_Frame.label>Dry Cooling Tower (building)</CoolingTower_Frame.label>
+  <CoolingTower_Frame.description>Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available</CoolingTower_Frame.description>
+
+
+  <!-- HEAT EXCHANGE -->
+
+  <Turbine.label>Thor</Turbine.label>
+  <Turbine.description>A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts</Turbine.description>
+  <Turbine_Blueprint.label>Thor (blueprint)</Turbine_Blueprint.label>
+  <Turbine_Frame.label>Thor (building)</Turbine_Frame.label>
+  <Turbine_Frame.description>A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts</Turbine_Frame.description>
+
+  <BigTurbine.label>Zeus</BigTurbine.label>
+  <BigTurbine.description>A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt</BigTurbine.description>
+  <BigTurbine_Blueprint.label>Zeus (blueprint)</BigTurbine_Blueprint.label>
+  <BigTurbine_Frame.label>Zeus (building)</BigTurbine_Frame.label>
+  <BigTurbine_Frame.description>A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt</BigTurbine_Frame.description>
+
+
+  <!-- TRANNY -->
+
+  <Transformer.label>High Voltage Transformer</Transformer.label>
+  <Transformer.description>Provides the final voltage transformation from the Turbine Generators, stepping down the voltage used in the high voltage lines to the level used by power conduits</Transformer.description>
+  <Transformer_Blueprint.label>High Voltage Transformer (blueprint)</Transformer_Blueprint.label>
+  <Transformer_Frame.label>High Voltage Transformer (building)</Transformer_Frame.label>
+  <Transformer_Frame.description>Provides the final voltage transformation from the Turbine Generators, stepping down the voltage used in the high voltage lines to the level used by power conduits</Transformer_Frame.description>
+
+
+  <!-- CONTROLLERS -->
+
+  <ReactorControl.label>reactor console</ReactorControl.label>
+  <ReactorControl.description>Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time</ReactorControl.description>
+  <ReactorControl_Blueprint.label>reactor console (blueprint)</ReactorControl_Blueprint.label>
+  <ReactorControl_Frame.label>reactor console (building)</ReactorControl_Frame.label>
+  <ReactorControl_Frame.description>Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time</ReactorControl_Frame.description>
+
+  <storagePool.label>Storage Pool</storagePool.label>
+  <storagePool.description>A storage pool for safely storing nuclear fuel rods. Right click with a selected pawn to interact and designate fuel for removal</storagePool.description>
+  <storagePool_Blueprint.label>Storage Pool (blueprint)</storagePool_Blueprint.label>
+  <storagePool_Frame.label>Storage Pool (building)</storagePool_Frame.label>
+  <storagePool_Frame.description>A storage pool for safely storing nuclear fuel rods. Right click with a selected pawn to interact and designate fuel for removal</storagePool_Frame.description>
+
+  <RadiationDetector.label>Radiation Detector</RadiationDetector.label>
+  <RadiationDetector.description>Radiation Detector</RadiationDetector.description>
+  <RadiationDetector_Blueprint.label>Radiation Detector (blueprint)</RadiationDetector_Blueprint.label>
+  <RadiationDetector_Frame.label>Radiation Detector (building)</RadiationDetector_Frame.label>
+  <RadiationDetector_Frame.description>Radiation Detector</RadiationDetector_Frame.description>
+
+
+</LanguageData>

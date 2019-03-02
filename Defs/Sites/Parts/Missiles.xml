@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SitePartDef>
+    <defName>FactionBaseICBM</defName>
+    <label>Missiles</label>
+    <description>A missile launcher.</description>
+    <siteTexture>UI/icbmBase</siteTexture>
+    <expandingIconTexture>UI/icbmBase</expandingIconTexture>
+    <applyFactionColorToSiteTexture>true</applyFactionColorToSiteTexture>
+    <showFactionInInspectString>true</showFactionInInspectString>
+    <knownDanger>true</knownDanger>
+    <requiresFaction>true</requiresFaction>
+    <minFactionTechLevel>Industrial</minFactionTechLevel>
+  </SitePartDef>
+
+  <GenStepDef>
+    <defName>FactionBaseICBM</defName>
+    <linkWithSite>FactionBaseICBM</linkWithSite>
+    <order>470</order>
+    <genStep Class="Rimatomics.GenStep_ICBM">
+    </genStep>
+  </GenStepDef>
+
+</Defs>

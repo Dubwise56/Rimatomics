@@ -1,0 +1,345 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase" Class="Rimatomics.RimatomicsThingDef">
+		<defName>RadiationShielding</defName>
+		<label>Radiation Shielding</label>
+		<thingClass>Building</thingClass>
+		<category>Building</category>
+		<description>An impassable wall. Capable of holding up a roof. And with increased shielding against radiation</description>
+		<graphicData>
+			<texPath>Things/Building/Linked/Wall</texPath>
+			<graphicClass>Graphic_Appearances</graphicClass>
+			<linkType>CornerFiller</linkType>
+			<linkFlags>
+				<li>Wall</li>
+				<li>Rock</li>
+			</linkFlags>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL> 
+				<cornerBR>Damage/Corner</cornerBR>
+				<edgeTop>Damage/Edge</edgeTop>
+				<edgeBot>Damage/Edge</edgeBot>
+				<edgeLeft>Damage/Edge</edgeLeft>
+				<edgeRight>Damage/Edge</edgeRight>
+			</damageData>
+		</graphicData>
+		<blueprintGraphicData>
+			<texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
+		</blueprintGraphicData>
+		<uiIconPath>Things/Building/Linked/WallSmooth_MenuIcon</uiIconPath>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>150</WorkToBuild>
+			<Flammability>0</Flammability>
+		</statBases>
+		<costStuffCount>5</costStuffCount>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>Impassable</passability>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+		<coversFloor>true</coversFloor>
+		<placingDraggableDimensions>1</placingDraggableDimensions>
+		<tickerType>Never</tickerType>
+		<rotatable>false</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<holdsRoof>true</holdsRoof>
+    <designationCategory>Rimatomics</designationCategory>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<blockLight>true</blockLight>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costList>
+			<Silver>15</Silver>
+		</costList>
+		<building>
+			<isInert>true</isInert>
+			<ignoreNeedsPower>true</ignoreNeedsPower>
+		</building>
+		<designationHotKey>Misc3</designationHotKey>
+    <rimatomicsPrerequisites>
+      <li>NuclearReactor3</li>
+    </rimatomicsPrerequisites>
+	</ThingDef>
+
+	<ThingDef ParentName="BasedPower">
+		<defName>ReactorSacrophagus</defName>
+		<label>Reactor Sarcophagus</label>
+    <description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</description>
+    <graphicData>
+			<texPath>Things/RimatomicsBuildings/coreContainment</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+    <pathCost>250</pathCost>
+		<blockWind>true</blockWind>
+		<castEdgeShadows>true</castEdgeShadows>
+		<blockLight>true</blockLight>
+		<staticSunShadowHeight>0.00</staticSunShadowHeight>
+    <fillPercent>0.5</fillPercent>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<statBases>
+			<MaxHitPoints>850</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-400</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<size>(5,5)</size>
+		<costList>
+			<Steel>350</Steel>
+		</costList>
+		<comps>
+			<li Class="CompProperties_HeatPusher">
+				<compClass>CompHeatPusher</compClass>
+				<heatPerSecond>250</heatPerSecond>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>Rimatomics.PlaceWorker_Sarcophagus</li>
+		</placeWorkers>
+		<rotatable>false</rotatable>
+		<designationCategory>Rimatomics</designationCategory>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotkey>Misc6</designationHotkey>
+    <rimatomicsPrerequisites>
+      <li>NuclearReactor10</li>
+    </rimatomicsPrerequisites>
+	</ThingDef>
+
+	<ThingDef>
+		<defName>PoppedReactorCore</defName>
+		<thingClass>Rimatomics.Building_PoppedCore</thingClass>
+		<label>molten core</label>
+    <fillPercent>0</fillPercent>
+		<description>Molten reactor core.</description>
+		<graphicData>
+			<texPath>Things/RimatomicsBuildings/poppedCore</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(7,7)</drawSize>
+		</graphicData>
+		<passability>PassThroughOnly</passability>
+    <pathCost>250</pathCost>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<rotatable>false</rotatable>
+		<destroyable>false</destroyable>
+		<useHitPoints>false</useHitPoints>
+		<tickerType>Normal</tickerType>
+		<selectable>false</selectable>
+		<size>(5,5)</size>
+		<neverOverlapFloors>false</neverOverlapFloors>
+		<blockPlants>true</blockPlants>
+		<building>
+			<isEdifice>false</isEdifice>
+			<claimable>false</claimable>
+			<deconstructible>false</deconstructible>
+		</building>
+		<comps>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusher</compClass>
+        <heatPerSecond>250</heatPerSecond>
+      </li>
+		</comps>
+		<category>Building</category>
+		<drawerType>MapMeshOnly</drawerType>
+		<filthLeaving>RockRubble</filthLeaving>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+	</ThingDef>
+
+
+	<ThingDef>
+		<defName>CrashedRadioactiveShipPart</defName>
+		<label>crashed radioactive ship part</label>
+		<description>A mysterious crashed piece of a spaceship. It may contain exotic materials, computers, even AI personas. This one seems to be emitting high levels of radiation.</description>
+		<thingClass>Rimatomics.Building_RadioactiveShipPart</thingClass>
+		<category>Building</category>
+		<filthLeaving>BuildingRubble</filthLeaving>
+		<altitudeLayer>Building</altitudeLayer>
+		<pathCost>150</pathCost>
+		<blockWind>true</blockWind>
+		<passability>Impassable</passability>
+		<fillPercent>1.0</fillPercent>
+		<size>(6,3)</size>
+		<statBases>
+			<MaxHitPoints>1200</MaxHitPoints>
+			<WorkToBuild>10000</WorkToBuild>
+			<Flammability>0</Flammability>
+			<Beauty>-100</Beauty>
+		</statBases>
+		<tickerType>Normal</tickerType>
+		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+		<rotatable>true</rotatable>
+		<selectable>true</selectable>
+		<neverMultiSelect>true</neverMultiSelect>
+		<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<drawerType>MapMeshOnly</drawerType>
+		<repairEffect>ConstructMetal</repairEffect>
+		<castEdgeShadows>false</castEdgeShadows>
+		<staticSunShadowHeight>1.0</staticSunShadowHeight>
+		<forceDebugSpawnable>true</forceDebugSpawnable>
+		<building>
+			<claimable>true</claimable>
+			<soundAmbient>CrashedShipPart_Ambience</soundAmbient>
+			<roofCollapseDamageMultiplier>0.2</roofCollapseDamageMultiplier>
+		</building>
+		<graphicData>
+			<texPath>Things/Building/Exotic/CrashedPoisonShipPart</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<drawSize>(6,3)</drawSize>
+		</graphicData>
+		<costList>
+			<Plutonium>2</Plutonium>
+			<NuclearWaste>4</NuclearWaste>
+			<Steel>230</Steel>
+			<Component>6</Component>
+		</costList>
+		<killedLeavings>
+      <ChunkRadioactiveSlag>4</ChunkRadioactiveSlag>
+			<ChunkSlagSteel>2</ChunkSlagSteel>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<!--<ThingDef ParentName="BasedMom">
+		<defName>SuitStation</defName>
+		<label>Radiation Suit Locker</label>
+		<description>Stores a single Radiation suit, can be assigned or reserved.</description>
+		<thingClass>Rimatomics.Building_suitStation</thingClass>
+		<graphicData>
+			<texPath>Things/RimatomicsBuildings/locker</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<category>Building</category>
+		<tickerType>Normal</tickerType>
+		<altitudeLayer>Building</altitudeLayer>
+		<passability>PassThroughOnly</passability>
+		<selectable>true</selectable>
+		<fillPercent>1</fillPercent>
+		<pathCost>8</pathCost>
+		<Size>(1,1)</Size>
+		<costList>
+			<Steel>50</Steel>
+			<Component>6</Component>
+		</costList>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+		<rotatable>true</rotatable>
+		<statBases>
+			<MaxHitPoints>350</MaxHitPoints>
+			<WorkToBuild>1000</WorkToBuild>
+			<Flammability>0.0</Flammability>
+			<Beauty>-12</Beauty>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+		</comps>
+		<designationHotKey>Misc11</designationHotKey>
+		<DrawGUIOverlay>True</DrawGUIOverlay>
+		<building>
+			<isInert>true</isInert>
+			<preventDeterioration>true</preventDeterioration>
+			<fixedStorageSettings>
+				<filter>
+					<categories>
+						<li>Hazmat</li>
+						<li>Mopp</li>
+					</categories>
+				</filter>
+			</fixedStorageSettings>
+			<defaultStorageSettings>
+				<priority>Important</priority>
+				<filter>
+					<exceptedCategories>
+						<li>Mopp</li>
+					</exceptedCategories>
+					<categories>
+						<li>Hazmat</li>
+					</categories>
+				</filter>
+			</defaultStorageSettings>
+		</building>
+		<inspectorTabs>
+			<li>ITab_Storage</li>
+		</inspectorTabs>
+		<designationCategory>Rimatomics</designationCategory> 
+	</ThingDef>
+  
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>RimatomicsVitalsMonitor</defName>
+    <label>Advanced vitals monitor</label>
+    <description>Increases patients treatment quality using advanced radioisotope disease detection technology. Needs to be placed adjacent to a medical bed. One medical bed can be linked to only one vitals monitor.</description>
+    <graphicData>
+      <texPath>Things/Building/Misc/VitalsMonitor</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shadowData>
+        <offset>(0,0,-0.3)</offset>
+        <volume>(0.3, 0.3, 0.4)</volume>
+      </shadowData>
+      <damageData>
+        <rectN>(0.078125,0.46875,0.859375,0.53125)</rectN>
+        <rectS>(0.078125,0.46875,0.859375,0.53125)</rectS>
+        <rectE>(0.125,0.46875,0.625,0.296875)</rectE>
+        <rectW>(0.25,0.46875,0.625,0.296875)</rectW>
+        <cornerTR>Damage/Corner</cornerTR>
+      </damageData>
+    </graphicData>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <rimatomicsPrerequisites>
+      <li>VitalsMonitor</li>
+    </rimatomicsPrerequisites>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.2</fillPercent>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>4000</WorkToBuild>
+      <Mass>20</Mass>
+      <Flammability>1.0</Flammability>
+    </statBases>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>180</Steel>
+    </costList>
+    <designationCategory>Misc</designationCategory>
+    <minifiedDef>MinifiedFurniture</minifiedDef>
+    <building>
+      <ai_chillDestination>false</ai_chillDestination>
+    </building>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>150</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <MedicalTendQualityOffset>0.10</MedicalTendQualityOffset>
+          <ImmunityGainSpeedFactor>0.05</ImmunityGainSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+        <mustBePlacedAdjacent>true</mustBePlacedAdjacent>
+        <canLinkToMedBedsOnly>true</canLinkToMedBedsOnly>
+      </li>
+    </comps>
+    <designationHotkey>Misc5</designationHotkey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>-->
+</Defs>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RadiationShielding.label>辐射屏障</RadiationShielding.label>
+  <RadiationShielding.description>具有屏蔽辐射功能的不可逾越墙体，可支撑屋顶。</RadiationShielding.description>
+  <RadiationShielding_Blueprint.label>辐射屏障(蓝图)</RadiationShielding_Blueprint.label>
+  <RadiationShielding_Frame.label>辐射屏障(建造中)</RadiationShielding_Frame.label>
+  <RadiationShielding_Frame.description>具有屏蔽辐射功能的不可逾越墙体，可支撑屋顶。</RadiationShielding_Frame.description>
+
+  <ReactorSacrophagus.label>封闭式反应炉</ReactorSacrophagus.label>
+  <ReactorSacrophagus.description>一种混凝土结构，用于容纳由于堆芯熔毁事故所产生的熔化了的反应堆芯。</ReactorSacrophagus.description>
+  <ReactorSacrophagus_Blueprint.label>封闭式反应炉(蓝图)</ReactorSacrophagus_Blueprint.label>
+  <ReactorSacrophagus_Frame.label>封闭式反应炉(建造中)</ReactorSacrophagus_Frame.label>
+  <ReactorSacrophagus_Frame.description>一种混凝土结构，用于容纳由于堆芯熔毁事故所产生的熔化了的反应堆芯。</ReactorSacrophagus_Frame.description>
+
+  <PoppedReactorCore.label>熔化的堆芯</PoppedReactorCore.label>
+  <PoppedReactorCore.description>熔化的堆芯。</PoppedReactorCore.description>
+
+  <CrashedRadioactiveShipPart.label>坠毁的辐射飞船零件</CrashedRadioactiveShipPart.label>
+  <CrashedRadioactiveShipPart.description>一块从坠毁的飞船上掉下来的神秘残骸。它可能包含稀有材料、电脑、甚至AI角色核心。它似乎在向四周的土地释放高强度辐射。</CrashedRadioactiveShipPart.description>
+
+
+</LanguageData>

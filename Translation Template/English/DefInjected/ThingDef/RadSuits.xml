@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Apparel_RadiationMask.label>radiation mask</Apparel_RadiationMask.label>
+  <Apparel_RadiationMask.description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas.</Apparel_RadiationMask.description>
+
+  <Apparel_MoppMaskDesert.label>MOPP mask(Desert)</Apparel_MoppMaskDesert.label>
+  <Apparel_MoppMaskDesert.description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas. Combat version made with tougher materials for increased durability.</Apparel_MoppMaskDesert.description>
+
+  <Apparel_MoppMaskWoodland.label>MOPP mask(Woodland)</Apparel_MoppMaskWoodland.label>
+  <Apparel_MoppMaskWoodland.description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas. Combat version made with tougher materials for increased durability.</Apparel_MoppMaskWoodland.description>
+
+  <Apparel_MoppMaskSnow.label>MOPP mask(Snow)</Apparel_MoppMaskSnow.label>
+  <Apparel_MoppMaskSnow.description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas. Combat version made with tougher materials for increased durability.</Apparel_MoppMaskSnow.description>
+
+  <Apparel_RadiationSuit.label>radiation suit</Apparel_RadiationSuit.label>
+  <Apparel_RadiationSuit.description>A suit that protects against radiation through shielding in the lining.</Apparel_RadiationSuit.description>
+
+  <Apparel_MoppSuitDesert.label>MOPP suit(Desert)</Apparel_MoppSuitDesert.label>
+  <Apparel_MoppSuitDesert.description>A suit that protects against radiation through shielding in the lining. Combat version made with tougher materials for increased durability.</Apparel_MoppSuitDesert.description>
+
+  <Apparel_MoppSuitWoodland.label>MOPP suit(Woodland)</Apparel_MoppSuitWoodland.label>
+  <Apparel_MoppSuitWoodland.description>A suit that protects against radiation through shielding in the lining. Combat version made with tougher materials for increased durability.</Apparel_MoppSuitWoodland.description>
+
+  <Apparel_MoppSuitSnow.label>MOPP suit(Snow)</Apparel_MoppSuitSnow.label>
+  <Apparel_MoppSuitSnow.description>A suit that protects against radiation through shielding in the lining. Combat version made with tougher materials for increased durability.</Apparel_MoppSuitSnow.description>
+
+
+</LanguageData>

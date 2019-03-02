@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Flicker -->
+
+  <OperateValve.label>开关阀门</OperateValve.label>
+  <OperateValve.verb>开关</OperateValve.verb>
+  <OperateValve.gerund>开关</OperateValve.gerund>
+
+  <LoadRailgunMagazine.label>装填磁轨炮弹</LoadRailgunMagazine.label>
+  <LoadRailgunMagazine.verb>装填</LoadRailgunMagazine.verb>
+  <LoadRailgunMagazine.gerund>装填</LoadRailgunMagazine.gerund>
+
+  <LoadFuelModule.label>装载燃料模块</LoadFuelModule.label>
+  <LoadFuelModule.verb>装载</LoadFuelModule.verb>
+  <LoadFuelModule.gerund>装载</LoadFuelModule.gerund>
+
+  <LoadSpentFuel.label>装载燃料残渣</LoadSpentFuel.label>
+  <LoadSpentFuel.verb>装载</LoadSpentFuel.verb>
+  <LoadSpentFuel.gerund>装载</LoadSpentFuel.gerund>
+
+  <LoadProcChemFuel.label>装载化合燃料</LoadProcChemFuel.label>
+  <LoadProcChemFuel.verb>装载</LoadProcChemFuel.verb>
+  <LoadProcChemFuel.gerund>装载</LoadProcChemFuel.gerund>
+
+  <UnloadPlutonium.label>分离钚</UnloadPlutonium.label>
+  <UnloadPlutonium.verb>分离</UnloadPlutonium.verb>
+  <UnloadPlutonium.gerund>分离</UnloadPlutonium.gerund>
+
+  <RemoveFuelModule.label>卸装燃料模块</RemoveFuelModule.label>
+  <RemoveFuelModule.verb>卸装</RemoveFuelModule.verb>
+  <RemoveFuelModule.gerund>卸装</RemoveFuelModule.gerund>
+
+  <UpgradeBuilding.label>升级建筑</UpgradeBuilding.label>
+  <UpgradeBuilding.verb>升级</UpgradeBuilding.verb>
+  <UpgradeBuilding.gerund>升级</UpgradeBuilding.gerund>
+
+  <RepairCore.label>修复堆芯</RepairCore.label>
+  <RepairCore.verb>修复</RepairCore.verb>
+  <RepairCore.gerund>修复</RepairCore.gerund>
+
+  <DoBillsTableNuclear.label>完成边缘核能加工台的清单</DoBillsTableNuclear.label>
+  <DoBillsTableNuclear.verb>制作</DoBillsTableNuclear.verb>
+  <DoBillsTableNuclear.gerund>制作于</DoBillsTableNuclear.gerund>
+
+  <RimatomicsCrafting.label>研究科技</RimatomicsCrafting.label>
+  <RimatomicsCrafting.verb>研究</RimatomicsCrafting.verb>
+  <RimatomicsCrafting.gerund>研究于</RimatomicsCrafting.gerund>
+
+  <RimatomicsConstruction.label>研究科技</RimatomicsConstruction.label>
+  <RimatomicsConstruction.verb>研究</RimatomicsConstruction.verb>
+  <RimatomicsConstruction.gerund>研究于</RimatomicsConstruction.gerund>
+
+  <RimatomicsResearch.label>研究科技</RimatomicsResearch.label>
+  <RimatomicsResearch.verb>研究</RimatomicsResearch.verb>
+  <RimatomicsResearch.gerund>研究于</RimatomicsResearch.gerund>
+
+
+</LanguageData>

@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Geigercounter.ResearchLabel>Portable radiation detectors</Geigercounter.ResearchLabel>
+  <Geigercounter.ResearchDesc>It is important to protect colonists from exposure to dangerous levels of radiation, Rimatomics offers portable devices which can be used for detecting ionizing radiation, all colonists will be equipped with radiation detectors, ionizing events produce audible clicks and the dose rate is displayed as text</Geigercounter.ResearchDesc>
+  <Geigercounter.ResearchDescDisc>All colonists are now equipped with radiation detectors, ionizing events produce audible clicks and the dose rate is displayed as text</Geigercounter.ResearchDescDisc>
+
+
+  <!-- /////////////// -->
+
+  <RadSuits.ResearchLabel>Radiation suits</RadSuits.ResearchLabel>
+  <RadSuits.ResearchDesc>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas</RadSuits.ResearchDesc>
+  <RadSuits.ResearchDescDisc>You can now produce your own radiation suits and MOPP suits at a tailoring bench</RadSuits.ResearchDescDisc>
+
+  <NuclearResearch.ResearchLabel>Nuclear Research Reactor</NuclearResearch.ResearchLabel>
+  <NuclearResearch.ResearchDesc>Before your colonists can build full scale Rimatomics nuclear reactors or other nuclear based technologies they must first train and research these technologies using a research reactor</NuclearResearch.ResearchDesc>
+  <NuclearResearch.ResearchDescDisc>More advanced research is now available</NuclearResearch.ResearchDescDisc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <NuclearReactor.ResearchLabel>Nuclear Power</NuclearReactor.ResearchLabel>
+  <NuclearReactor.ResearchDesc>The Rimatomics nuclear power plant is a scalable design with the ability to run multiple reactors, turbine generators and cooling solutions in a single system, each reactor is capable of producing more than 80kW of power when fully fueled. Reactors can also be used for production of weapons-grade plutonium.</NuclearReactor.ResearchDesc>
+  <NuclearReactor.ResearchDescDisc>You are no longer limited to building 1 of each part of the reactor system and can expand by adding more cores, turbines, and coolers, and perform research using the Rimatomics research bench to improve upon the design</NuclearReactor.ResearchDescDisc>
+
+  <Plutonium.ResearchLabel>Plutonium Processing</Plutonium.ResearchLabel>
+  <Plutonium.ResearchDesc>Plutonium is produced within used nuclear fuel can be processed and used to create MOX fuel, Radioisotope thermoelectric generators, and nuclear weapons. The process requires chemfuel and produces drums of depleted uranium and nuclear waste.</Plutonium.ResearchDesc>
+  <Plutonium.ResearchDescDisc>You can now reprocess spent nuclear fuel.\n\nThe amount of material that will result from reprocessing is based on the conversion ratio stat of the fuel, with a maximum of x0.6 using normal reactors, and x1.2 using upgraded breeder reactors, this stat can be viewed by rolling over fuel slots in the reactor console.\n\nThe process of loading used fuel into the processor will require protective radiation suits and shielding from the rest of the colony, plutonium is stored in a protective case which is safe to handle.</Plutonium.ResearchDescDisc>
+
+  <RTG.ResearchLabel>RTG</RTG.ResearchLabel>
+  <RTG.ResearchDesc>A Radioisotope Thermoelectric Generator (RTG) is portable electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity by the Seebeck effect. This generator has no moving parts</RTG.ResearchDesc>
+  <RTG.ResearchDescDisc>RTG's can be reinstalled when built and provide 500w of constant power</RTG.ResearchDescDisc>
+
+  <ICBM.ResearchLabel>ICBM</ICBM.ResearchLabel>
+  <ICBM.ResearchDesc>An intercontinental ballistic missile (ICBM) is a guided ballistic missile primarily designed for nuclear weapons delivery, this design is tipped with a fission warhead</ICBM.ResearchDesc>
+  <ICBM.ResearchDescDisc>You may now stockpile nuclear arms</ICBM.ResearchDescDisc>
+
+  <EnergyWeapons.ResearchLabel>Energy Weapons</EnergyWeapons.ResearchLabel>
+  <EnergyWeapons.ResearchDesc>Rimatomics defines the future for high energy weapons systems, Gain a dominant battlefield advantage with our combat proven target designators and next generation energy weapons featuring modular, scalable designs, with 360 degree coverage that identifies, tracks, and defends against enemy troops, missiles, mortars, and and long range targets</EnergyWeapons.ResearchDesc>
+  <EnergyWeapons.ResearchDescDisc>All of the required technology for using Rimatomics energy weapons is available and weapon systems are now available for purchase at the research bench</EnergyWeapons.ResearchDescDisc>
+
+
+  <!-- ADS -->
+
+  <ADS.ResearchLabel>ADS</ADS.ResearchLabel>
+  <ADS.ResearchDesc>The Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial, perimeter security and crowd control. It heats the surface of targets, such as the skin of targeted human subjects, this causes them to break rank and flee. Requires a Weapons Console, Target Acquisition System and a PPC for power</ADS.ResearchDesc>
+  <ADS.ResearchDescDisc>You are no longer limited to building 1 ADS and existing ADS's are now running at full power</ADS.ResearchDescDisc>
+
+
+  <!-- Tesla Coil -->
+
+  <TeslaCoil.ResearchLabel>Tesla Coil</TeslaCoil.ResearchLabel>
+  <TeslaCoil.ResearchDesc>The tesla coil is a simple but effective energy weapon that can rapidly deliver lethal electrical discharges to targets within a short range. Requires a Weapons Console, Target Acquisition System and a PPC for power</TeslaCoil.ResearchDesc>
+  <TeslaCoil.ResearchDescDisc>You are no longer limited to building 1 Tesla coil and existing Tesla coils are now running at full power</TeslaCoil.ResearchDescDisc>
+
+
+  <!-- HEL -->
+
+  <HEL.ResearchLabel>HEL</HEL.ResearchLabel>
+  <HEL.ResearchDesc>The High Energy Laser (HEL) uses directed energy in the form of a highly focused solid state laser to destroy incoming airborne projectiles. Advanced versions are capable of shooting down large rockets. Requires a Weapons Console, Target Acquisition System and a PPC for power</HEL.ResearchDesc>
+  <HEL.ResearchDescDisc>You are no longer limited to building 1 HEL and existing HEL's are now running at full power</HEL.ResearchDescDisc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <Railgun.ResearchLabel>Railgun</Railgun.ResearchLabel>
+  <Railgun.ResearchDesc>The Railgun uses a large electromagnetic pulse to launch a projectile to extreme ranges. Fires railgun sabot rounds fed from a 25 round magazine, Requires a Weapons Console, Target Acquisition System and a PPC for power</Railgun.ResearchDesc>
+  <Railgun.ResearchDescDisc>You are no longer limited to building 1 Railgun and existing Railguns are now running at full power</Railgun.ResearchDescDisc>
+
+  <Obelisk.ResearchLabel>Obelisk</Obelisk.ResearchLabel>
+  <Obelisk.ResearchDesc>The Obelisk uses directed energy in the form of a highly focused solid state laser to burn its targets. While its maximum power usage is very high it is also extremely accurate with long range and devastating power, the maximum range and power is fully adjustable for varied application. Requires a Weapons Console, Target Acquisition System and a Pulsed Power Container (PPC)</Obelisk.ResearchDesc>
+  <Obelisk.ResearchDescDisc>You are no longer limited to building 1 Obelisk and existing Obelisks are now running at full power</Obelisk.ResearchDescDisc>
+
+
+</LanguageData>

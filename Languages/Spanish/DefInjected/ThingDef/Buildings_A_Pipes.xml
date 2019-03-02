@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <HighVoltage.label>Alto voltaje</HighVoltage.label>
+    <HighVoltage.description>Cable para transportar alto voltaje desde las turbinas a los transformadores. Pueden ser colocadas bajo paredes y otros edificios.</HighVoltage.description>
+    
+    <controllerLoom.label>Cableado de consola</controllerLoom.label>
+    <controllerLoom.description>Cableado para transmitir señales entre un núcleo y una consola de control. Puede ser colocado bajo las paredes y otros edificios.</controllerLoom.description>
+    
+    <coolingPipe.label>Tubería de enfriamiento</coolingPipe.label>
+    <coolingPipe.description>Tuberías para bombear refrigerante desde el reactor a los sistemas de enfriamiento. Pueden ser colocadas bajo paredes y otros edificios.</coolingPipe.description>	
+    
+    <coolantValve.label>Válvula de enfriamiento</coolantValve.label>
+    <coolantValve.description>Abre o cierra las conexiones entre las tuberías de enfriamiento.</coolantValve.description>
+    
+    <steamPipe.label>Tubería de vapor</steamPipe.label>
+    <steamPipe.description>Tubería para bombear vapor a alta presión desde el reactor a las turbinas o intercambiadores de calor. Pueden ser colocadas bajo paredes y otros edificios.</steamPipe.description>
+    
+    <steamValve.label>Válvula de vapor</steamValve.label>
+    <steamValve.description>Abre o cierra las conexiones entre tuberías de vapor.</steamValve.description>
+    
+    <waterPipe.label>Tubería de agua fría</waterPipe.label>
+    <waterPipe.description>Tubería para bombear agua fría desde las turbinas o intercambiadores de calor de vuelta al núcleo. Pueden ser colocadas bajo paredes y otros edificios.</waterPipe.description>
+    
+    <waterValve.label>Válvula de agua fría</waterValve.label>
+    <waterValve.description>Abre o cierra las conexiones entre tuberías de agua fría.</waterValve.description>
+    
+</LanguageData>

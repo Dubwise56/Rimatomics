@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--ALERTS-->
+
+ <AlertNeedsTurbine>Turbine Nécessaire</AlertNeedsTurbine>
+  <AlertNeedsTurbineDesc>Le réacteur à besoin d'une turbine, car l'absence de turbine vas conduire en une fusion du réacteur</AlertNeedsTurbineDesc>
+  <AlertNeedsCooling>Refroidissement néessaire</AlertNeedsCooling>
+  <AlertNeedsCoolingDesc>La turbine à besoin de refroidissement, car l'absence de refroidissement vas conduire en une fusion du réacteur</AlertNeedsCoolingDesc>
+  <AlertCoreMelt>Fusion réacteur</AlertCoreMelt>
+  <AlertCoreMeltDesc>Un réacteur entre en fusion évacuez immédiatement</AlertCoreMeltDesc>
+  <AlertCoreOverheat>Temp réacteur</AlertCoreOverheat>
+  <AlertCoreOverheatDesc>Un réacteur est endommagé à cause d'une surchaffe</AlertCoreOverheatDesc>
+  <AlertCracked>Réacteur fissuré</AlertCracked>
+  <AlertCrackedDesc>Les effort qu'a subit le réacteur après avoir fonctionné à de hautes température sur une longue durée l'ont fissuré, il a besoin d'être démonté et reconstruit ou il va continuer à émettre des radiation léthales, produire moins d'énergie et endommager les barres de combustible.</AlertCrackedDesc>
+
+  <!--CONSOLE-->
+
+   <AbortTest>Annuler</AbortTest>
+  <reactorSCRAM>SCRAM</reactorSCRAM>
+  <reactorSTART>Démarrer</reactorSTART>
+  <BreederTest>Test surgénérateur</BreederTest>
+  <InstallAll>Tout installer</InstallAll>
+  <ShutdownCold>Arrété et froid</ShutdownCold>
+  <StartingUp>Démarre</StartingUp>
+  <ShuttingDown>S'arrete</ShuttingDown>
+  <Active>Actif</Active>
+  <ReactorBreakdown>Statut: {1}\nPuissance max : {2}W\nCombustible total: {3}\nConversion ratio: {4}\nRadiation: {5}\n\n{6}</ReactorBreakdown>
+  <SlotBreakdown>Usage:{0}\nRatio:{1}</SlotBreakdown>
+  <cycleScreensDesc>Surveille tout les réacteurs sur ce réseau</cycleScreensDesc>
+  <cycleScreens>Contrôler tous</cycleScreens>
+
+  <!--PROCESSING-->
+
+  <ProcessingProgress>Progression: {0} {1}</ProcessingProgress>
+  <ContainsFuel>Contient {0} / {1} combustible.</ContainsFuel>
+  <ContainsChemfuel>Contient {0} / {1} Chemfuel.</ContainsChemfuel>
+ <critSpentfuelonly>Combistible vide seulement</critSpentfuelonly>
+  <critAnyfuel>Tout combustible</critAnyfuel>
+  <critProg>Progression: {0}</critProg>
+  <critRemovePlutonium>Traitement complet, enlever le materiel</critRemovePlutonium>
+  <critEnouPU>Peut être retraité</critEnouPU>
+  <NoChemfuel>Aucun chemfuel</NoChemfuel>
+
+  <!--ENERGY WEAPONS-->
+
+   <RailgunBarrage>Mission de tir</RailgunBarrage>
+  <RailgunBarrageDesc>Faire tirer tout les canon magnétiques sur une zone</RailgunBarrageDesc>
+  <needsRadar>RADAR Nécessaire</needsRadar>
+  <ICBMNeedMissile>Un missile est nécéssaire pour le lancement</ICBMNeedMissile>
+  <MissileRangeBad>Cible hors de portée</MissileRangeBad>
+  <MissileTargetInvalid>La cible du missile est invalide</MissileTargetInvalid>
+  <ICBMNeedConsole>Nécessite une console d'arme</ICBMNeedConsole>
+  <critrangeMinus>Portée-</critrangeMinus>
+  <critrangePlus>Portée+</critrangePlus>
+  <RailgunBarrage>Mission de tir</RailgunBarrage>
+  <RailgunBarrageDesc>Faire tirer tout les canon magnétiques sur une zone</RailgunBarrageDesc>
+  <needsRadar>RADAR Nécessaire</needsRadar>
+  <ICBMNeedMissile>Un missile est nécéssaire pour le lancement</ICBMNeedMissile>
+  <MissileRangeBad>Cible hors de portée</MissileRangeBad>
+  <MissileTargetInvalid>La cible du missile est invalide</MissileTargetInvalid>
+  <ICBMNeedConsole>Nécessite une console d'arme</ICBMNeedConsole>
+  <critrangeMinus>Portée-</critrangeMinus>
+  <critrangePlus>Portée+</critrangePlus>
+  <critCommandLowerRangeDesc>Reduit la portée maximale, reduit la taille de l'impulsion</critCommandLowerRangeDesc>
+  <critCommandRaiseRangeDesc>Augmente la portée maximale, augmente la taille de l'impulsion</critCommandRaiseRangeDesc>
+  <critdmgMinus>dmg-</critdmgMinus>
+  <critdmgPlus>dmg+</critdmgPlus>
+  <critCommandLowerDmgDesc>Reduit les dégats maximum par tir, reduit la taille de l'impulsion</critCommandLowerDmgDesc>
+  <critCommandRaiseDmgDesc>Augmente les dégats par tir, augmente la taille de l'impulsion</critCommandRaiseDmgDesc>
+  <critMissingPPC>Batterie à Impulsion manquante</critMissingPPC>
+  <critNRGWEPPOOWA>Puissance: {0} / Portée: {1}-{2}</critNRGWEPPOOWA>
+  <critNRGWEPPULSE>Implusion: {0} / DMG: {1} / Portée:{2}</critNRGWEPPULSE>
+  <critCommandFireMission>Mission de tir</critCommandFireMission>
+  <critCommandFireMissionDesc>Tir d'artillerie longue portée</critCommandFireMissionDesc>
+  <critCommandLaunchICBM>Lancer ICBM</critCommandLaunchICBM>
+  <critCommandLaunchICBMDesc>Lancer l'ICBM sur une cible de cette planète</critCommandLaunchICBMDesc>
+  <criticbmAttack>La faction enemie {0} prépare une attaque nucléaire depuis une base proche, vous avez {1} jours avant le lancement.</criticbmAttack>
+  <critMagazine>Chargeur: {0}</critMagazine>
+  <critNoSabotRounds>Pas d'obus magnétique</critNoSabotRounds>
+  <critBombDet>La bombe a explosé</critBombDet>
+  <critBombDetFac>La bombe a explosée et {0} à été(e) détruit</critBombDetFac>
+  <critCountdown>Compte à rebour: {0}</critCountdown>
+  <mp15>15m</mp15>
+  <mm15>15m</mm15>
+  <critArm>Armer</critArm>
+  <MessageRailgunNeedsMap>la carte n'est pas générée envoyer des colonistes en éclaireurs</MessageRailgunNeedsMap>
+  <MessageRailgunTargetInvalid>Cible invalide</MessageRailgunTargetInvalid>
+
+  <!--REACTOR BUILDINGS-->
+
+  <Managefuel>Gérer</Managefuel>
+  <NeedsRiver>Doit être sur une rivière; un lac ou un océan</NeedsRiver>
+  <RoofedTower>Tower blocked by roofed</RoofedTower>
+  <TurbineRPM>RPM: {0} ({1}%)</TurbineRPM>
+  <TradeShipWait>Vaisseau Rimatomics prêt dans {0}</TradeShipWait>
+  <critsetid>Choisir ID</critsetid>
+  <critCoolingCapShare>Capacité de refroidissement partagée: {0} avec {1} Turbines</critCoolingCapShare>
+  <critinUse>Déjà en utilisation</critinUse>
+  <critremoveRadSuit>Enlever tenue NBC</critremoveRadSuit>
+
+
+  <critCoreTemp>Temp Coeur: {0}C</critCoreTemp>
+  <critCoreEnergy>Energie: {0}kW</critCoreEnergy>
+  <critCoreCooling>Refroidissement: {0}</critCoreCooling>
+  <critCoreFlux>Flux Neutrons: {0}</critCoreFlux>
+  <critscramDesc>Remet la temperature et le Flux des neutron au minimun, mais laisse le réacteur allumé</critscramDesc>
+  <critStartup>Démmarage</critStartup>
+  <critShutdown>Arret</critShutdown>
+  <critStartupDesc>Démarre le réacteur, permettant aux niveaux de temperature et flux d'augmenter</critStartupDesc>
+  <critShutdownDesc>Coupe le réacteur, le laissant alimenté mais froid, pour le ravitailler et le réparer.</critShutdownDesc>
+  <critManageReactor>Gérer le réacteur</critManageReactor>
+  <critreactorcritical>Réacteur dans un état critique</critreactorcritical>
+  <critreactorleaking>Le réacteur fuit</critreactorleaking>
+  <critreactionstable>Réacteur stable</critreactionstable>
+  <critStorageCapacity>Capacité de stockage: {0} / {1}</critStorageCapacity>
+  <critManageStoragePool>Gérer piscine à combustible</critManageStoragePool>
+  <critGenerated>Generé: {0} W</critGenerated>
+  <critConsumed>Consumé: {0} W</critConsumed>
+  <critPnetPct>Charge réseau: {0}</critPnetPct>
+  <critPowerGeneration>Generation d'énergie: {0} W</critPowerGeneration>
+  <critValveOpen>Valve: Ouverte</critValveOpen>
+  <critValveClosed>Valve: Fermé</critValveClosed>
+  <critOpenValve>Ouvrir Valve</critOpenValve>
+  <critCloseValve>Fermer Valve</critCloseValve>
+  <critToggleValve>Manier la valve</critToggleValve>
+  <critTempBoost>Temp Boost</critTempBoost>
+  <critTemp>Temp</critTemp>
+  <critCooling>Refroidissement</critCooling>
+  <critTurbine>Turbine</critTurbine>
+  <critCoreIntegrity>Integrité Coeur</critCoreIntegrity>
+  <critNeutronFlux>Flux Neutron</critNeutronFlux>
+  <critTargetFlux>Flux voulu</critTargetFlux>
+  <critFuelRemaining2>Combustible restant: {0}</critFuelRemaining2>
+  <Empty>Vide</Empty>
+  <Activated>Actif</Activated>
+  <Cracked>Fissuré</Cracked>
+  <Spent>Vide</Spent>
+  <New>Nouveau</New>
+  <Remove>enlever</Remove>
+  <Store>Stocker</Store>
+
+
+
+  <critNoreserveSuit>Aucun casier libre avec une tenue NBC</critNoreserveSuit>
+  <critPlaceOnCore>Doit être placé su un réacteur qui est entré en fusion</critPlaceOnCore>
+  <critMoreWater>Requiert plan d'eau plus grand</critMoreWater>
+  <critActiveCore>Le réacteur est encore actif</critActiveCore>
+  <critCrackedcore>Le réacteur est fissuré</critCrackedcore>
+  <critNoSlotDes>Aucun emplacement désigné</critNoSlotDes>
+  <critnoFuelRods>Aucun assamblage de combustible disponible</critnoFuelRods>
+  <critNoSpace>Aucun espace</critNoSpace>
+  <critSpentOnly>Configuré pour du combustible usagée, aucun disponible</critSpentOnly>
+  <critNoPool>Aucune piscine de stockage disponible</critNoPool>
+
+   <critCoreIntegrityDesc>L'intégrité de ce réacteur est si basse qu'il pourrait ce fissurer.</critCoreIntegrityDesc>
+
+
+  <TradeShipPrice>Envoyer un vaisseau de commerce ({0} argent)</TradeShipPrice>
+  <TradeShipPriceNeed>{0} Argent nécessaire pour envoyer le vaisseau de commerce</TradeShipPriceNeed>
+
+ <TradeShipReq>Un vaisseau de commerce Rimatomics a été déployé vers votre planète trade.\n\nIl lui faut 2 jours pour arriver.</TradeShipReq>
+  <!--WEAPONS CONSOLE-->
+
+
+ <TestFireHELSOnOwnShells>Abattez vos obus de mortier pour collecter des données.</TestFireHELSOnOwnShells>
+  <OpenRadar>Ovrir l'interface Radar</OpenRadar>
+  <!--RESEARCH-->
+  <Free>Gratuit</Free>
+  <Purchase>Acheter</Purchase>
+  <Price>Prix</Price>
+  <Unlocks>Débloque</Unlocks>
+  <openResearchPanel>Ovrir le menu de recherche</openResearchPanel>
+  <ResearchProg>{0}/{1}</ResearchProg>
+  <ResearchPrice>Acheter pour {0} Argent</ResearchPrice>
+  <ResearchPriceNeed>Requiert {0} Argent près d'une balise de commerce orbitale</ResearchPriceNeed>
+  <RimUnlocked>Sonde détectée.</RimUnlocked>
+  <RimatomicsResearchAlert>Recherche Rimatomics</RimatomicsResearchAlert>
+  <RimatomicResearchAlertMess>Projet: {0}\nétape: {1}\nTâche: {2}</RimatomicResearchAlertMess>
+  <thingsUnlocked>Débloqué(e) - </thingsUnlocked>
+  <RimatomStepComplete>étape complète</RimatomStepComplete>
+  <RequiresFac> Requiert: </RequiresFac>
+  <StepInspect>étape: {0}</StepInspect>
+  <ResearchComplete>Researche complète</ResearchComplete>
+  <StillTestingDef>Test du prototype en cours</StillTestingDef>
+  <TabResearch>Recherche</TabResearch>
+   <CurProj>Projet: {0}</CurProj>
+  <CurStep>étape: {0}</CurStep>
+  <SkillLevel>{0} Requiert Niveau {1} {2}</SkillLevel>
+  <StartProject>Démarrer Projet</StartProject>
+  <StopProject>Arreter Projet</StopProject>
+
+  <DesignatorRemoveColdWater>Enlever Eau froide</DesignatorRemoveColdWater>
+  <DesignatorRemoveColdWaterDesc>Enlève les tuyaux d'eau froide</DesignatorRemoveColdWaterDesc>
+
+  <DesignatorRemoveCooling>Enlever refroidissement</DesignatorRemoveCooling>
+  <DesignatorRemoveCoolingDesc>Enlève les tuyaux de refroidissement</DesignatorRemoveCoolingDesc>
+
+  <DesignatorRemoveHighVoltage>Enlever haute tension</DesignatorRemoveHighVoltage>
+  <DesignatorRemoveHighVoltageDesc>Enlève les cables haute tension</DesignatorRemoveHighVoltageDesc>
+
+  <DesignatorRemoveLoom>Enlever Cable</DesignatorRemoveLoom>
+  <DesignatorRemoveLoomDesc>Enlève les cables de contrôle</DesignatorRemoveLoomDesc>
+
+  <DesignatorRemoveSteam>Enlever Tuyaux Vapeur</DesignatorRemoveSteam>
+  <DesignatorRemoveSteamDesc>Enlève les tuyaux de vapeur</DesignatorRemoveSteamDesc>
+
+  <coreUpgradeFail>Impossible d'améliorer quand le réacteur est actif</coreUpgradeFail>
+  <powerUpgradeFail>L'installation doit étre coupé pour l'améliorer</powerUpgradeFail>
+
+
+
+  <RimatomicResearchCompleteDialog>{0} - terminée\n\n{1}</RimatomicResearchCompleteDialog>
+
+
+
+  <!--UPGRADE STATS-->
+
+  <Conductors>Augmente la conductivité de la chaleur dans le coeur  du réacteur augmentant l'energie produite de 15%</Conductors>
+  <NeutronReflectors>Agmente le flux maximum de neutron, augmentant l'energie produite de 25%</NeutronReflectors>
+  <Breeder>Transforme le réacteur thermique en Surgénérateur, qui est capable de créer plus de combustible qu'il en consome</Breeder>
+  <ReactorShielding>Réduit la quantité de radiation que peut émettre le réacteur</ReactorShielding>
+  <ControlRodActuator>Réduit le temps de réponse des barres de controles</ControlRodActuator>
+
+  <ADSMEPS>Zone d'effet +10\nPortée +10\n\Puissance minimale +50wd\nPuissance maximale +200wd</ADSMEPS>
+  <ADSALC>Rechargement -1s</ADSALC>
+  <ADSERS>Puissance minimale -50wd\Puissance maximale -200wd</ADSERS>
+  <ADSActuator>Vitesse de rotation +100%</ADSActuator>
+
+  <TeslaMEPS>Portée +10\n\Puissance minimale +50wd\nPuissance maximale +200wd</TeslaMEPS>
+  <TeslaALC>Rechargement -10s</TeslaALC>
+  <TeslaERS>Puissance minimale -50wd\nPuissance maximale -200wd</TeslaERS>
+
+  <HELMEPS>Efficacité +50%\n\nRechargement +2.5s\nPuissance minimale +500wd\nPuissance maximale +1000wd</HELMEPS>
+  <HELALC>Rechargement -2.5s</HELALC>
+  <HELERS>Puissance minimale -250wd\nPuissance maximale -500wd</HELERS>
+  <HELActuator>Vitesse de rotation +100%</HELActuator>
+
+
+  <RailgunMEPS>Portée +10 Cases\n\nRechargement +5s\nPuissance minimale +500wd\nPuissance maximale +1000wd</RailgunMEPS>
+  <RailgunALC>Rechargement -10s</RailgunALC>
+  <RailgunERS>Puissance minimale -250wd\nPuissance maximale -500wd</RailgunERS>
+  <RailgunActuator>Vitesse de rotation +100%</RailgunActuator>
+  <RailgunTargetChip>Dispersion -50%\nPortée +10 Cases</RailgunTargetChip>
+
+  <ObeliskMEPS>Dégats maximun +40\nDégat minimun +10\n\Puissance minimale +500wd\nPuissance maximale +2000wd</ObeliskMEPS>
+  <ObeliskALC>Rechargement -10s</ObeliskALC>
+  <ObeliskERS>Puissance minimale -500wd\nPuissance maximale -2000wd</ObeliskERS>
+  <ObeliskLenseModule>Portée maximale +15\nPortée minimale +3</ObeliskLenseModule>
+  <ObeliskBeamSplitter>Détruit les boucliers tout en faisant des dégats</ObeliskBeamSplitter>
+  
+  <RimUnlockedDesc>Vous vous connectez avec la sonde et un méssage pré-enregistré se lance\n\nQuelqu'un avec le comportement d'un vendeur d'augmentation bioniques revendique qu'il represente une société commerciale nommée Rimatomics.\n\nAlors qu'il fait son discours commercial des gigabits de donnée se télcharge dans la console, Il explique que ce sont des plans pour construire le banc de recherche Rimatomics qui peux être utilisé pour acheter des plan de quelques-unes de leurs technologies ou demander une sonde de commerce.\n\nRegarder l'onglet Rimatomics dans le menu de construction.</RimUnlockedDesc>
+  <RimatomicsUpdate>Mise à jour!\n\n La recherche Rimatomics à été modifié pour que celle-ci n'apparaisse plus dans l'onglet de recherche standard ou dans les onglet de recherche moddé \n\nSi vous avez chargé une ancienne sauvegarde Vous devrez recommencer tous vos projets de recherche mais les étapes complétée(s) et l'historique des achats sont conservés, les étapes ont just besoin de revérifier que leurs conditions ont été remplies et vous pouvez continuer de jouer normalement\n\nSteam possède la derniere version de research overhaul which qui peut dans certaines situations peut corrompre les sauvegardes des versions précédentes, la dernière version était sur steam avant le 9/9/17 c'était la 1.0.5 qui peut être télécharger depyuis la page du forum (lien dans la description) \n\nDésolé pour la gène ocassionée</RimatomicsUpdate>
+
+</LanguageData>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Nuclear.label>nuclear</Nuclear.label>
+  <NuclearWaste.label>nuclear waste</NuclearWaste.label>
+  <NuclearFuel.label>nuclear fuel</NuclearFuel.label>
+  <RimatomicsProduct.label>Rimatomics Product</RimatomicsProduct.label>
+  <Hazmat.label>hazmat</Hazmat.label>
+  <Mopp.label>mopp</Mopp.label>
+
+
+</LanguageData>

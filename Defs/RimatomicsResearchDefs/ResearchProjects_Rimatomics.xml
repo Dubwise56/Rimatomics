@@ -1,0 +1,982 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>Geigercounter</defName>
+    <ResearchLabel>Portable radiation detectors</ResearchLabel>
+    <ProjTypeLabel>Passive Ability</ProjTypeLabel>
+    <ResearchDesc>It is important to protect colonists from exposure to dangerous levels of radiation, Rimatomics offers portable devices which can be used for detecting ionizing radiation, all colonists will be equipped with radiation detectors, ionizing events produce audible clicks and the dose rate is displayed as text</ResearchDesc>
+    <ResearchDescDisc>All colonists are now equipped with radiation detectors, ionizing events produce audible clicks and the dose rate is displayed as text</ResearchDescDisc>
+    <price>250</price>
+    <Screenshot>Research/detectors</Screenshot>
+    <previewImageURL>UI/Fallout</previewImageURL>
+    <Steps>
+      <li>Geigercounter1</li>
+      <li>Geigercounter2</li>
+    </Steps>
+    <activate>RimatomicsActivate</activate>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Geigercounter1</defName>
+    <PointCost>350</PointCost>
+    <StepLabel>Research radiation detectors (Lvl 5 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how the radiation detectors work</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>5</SkillLevel>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Geigercounter2</defName>
+    <PointCost>350</PointCost>
+    <StepLabel>Evaluate components (Lvl 5 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to figure out how to build and maintain radiation detectors for all colonists using the resources and tools available</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>5</SkillLevel>
+  </Rimatomics.ResearchStepDef>
+
+
+  <!--///////////////-->
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>RadSuits</defName>
+    <ResearchLabel>Radiation suits</ResearchLabel>
+    <ProjTypeLabel>Apparel</ProjTypeLabel>
+    <ResearchDesc>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas</ResearchDesc>
+    <ResearchDescDisc>You can now produce your own radiation suits and MOPP suits at a tailoring bench</ResearchDescDisc>
+    <price>250</price>
+    <Screenshot>Research/RadSuits</Screenshot>
+    <previewImageURL>Things/RadiationMask/RadiationMask_front</previewImageURL>
+    <Steps>
+      <li>RadiationSuits1</li>
+      <li>RadiationSuits2</li>
+    </Steps>
+    <activate>RimatomicsActivate</activate>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>RadiationSuits1</defName>
+    <PointCost>350</PointCost>
+    <StepLabel>Research radiation suits (Lvl 5 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how the radiation suits work before we can start making our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>5</SkillLevel>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>RadiationSuits2</defName>
+    <PointCost>350</PointCost>
+    <StepLabel>Evaluate components (Lvl 5 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to draw up plans for tailoring radiation suits using the resources and tools available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>5</SkillLevel>
+    <RecipeUnlocks>
+      <li>Make_Apparel_RadiationMask</li>
+      <li>Make_Apparel_MoppMaskDesert</li>
+      <li>Make_Apparel_MoppMaskWoodland</li>
+      <li>Make_Apparel_MoppMaskSnow</li>
+      <li>Make_Apparel_RadiationSuit</li>
+      <li>Make_Apparel_MoppSuitDesert</li>
+      <li>Make_Apparel_MoppSuitWoodland</li>
+      <li>Make_Apparel_MoppSuitSnow</li>
+    </RecipeUnlocks>
+  </Rimatomics.ResearchStepDef>
+
+
+
+  <!--///////////////-->
+
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>NuclearResearch</defName>
+    <ResearchLabel>Nuclear Research Reactor</ResearchLabel>
+    <ProjTypeLabel>Research Facility</ProjTypeLabel>
+    <ResearchDesc>Before your colonists can build full scale Rimatomics nuclear reactors or other nuclear based technologies they must first train and research these technologies using a research reactor</ResearchDesc>
+    <ResearchDescDisc>More advanced research is now available</ResearchDescDisc>
+    <price>550</price>
+    <Screenshot>Research/researchreactor</Screenshot>
+    <previewImageURL>Things/RimatomicsBuildings/researchReactor</previewImageURL>
+    <Steps>
+      <li>NuclearResearch1</li>
+      <li>NuclearResearch2</li>
+      <li>NuclearResearch3</li>
+      <li>NuclearResearch4</li>
+      <li>NuclearResearch5</li>
+    </Steps>
+    <activate>RimatomicsActivate</activate>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>NuclearResearch1</defName>
+    <PointCost>500</PointCost>
+    <StepLabel>Research reactor technology (Lvl 7 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how the research reactor works before we can build our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>7</SkillLevel>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>NuclearResearch2</defName>
+    <PointCost>700</PointCost>
+    <StepLabel>Evaluate components (Lvl 10 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for the research reactors from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>10</SkillLevel>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>NuclearResearch3</defName>
+    <PointCost>700</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 10 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to make the final plans for constructing the research reactor using available tools</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>10</SkillLevel>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef Class="Rimatomics.TestForReactor">
+    <defName>NuclearResearch4</defName>
+    <StepLabel>Construct a research reactor</StepLabel>
+    <StepDesc>Construct a research reactor with a facility connection to the Rimatomics research bench</StepDesc>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>NuclearResearch5</defName>
+    <PointCost>2000</PointCost>
+    <StepLabel>Research and train (Lvl 7 Intellectual)</StepLabel>
+    <StepDesc>Install reactor control software and perform training exercises while testing the reactors capabilities</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>7</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+
+
+
+  <!--///////////////////////////////////////////////////////-->
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>NuclearReactor</defName>
+    <ResearchLabel>Nuclear Power</ResearchLabel>
+    <ProjTypeLabel>Power</ProjTypeLabel>
+    <ResearchDesc>The Rimatomics nuclear power plant is a scalable design with the ability to run multiple reactors, turbine generators and cooling solutions in a single system, each reactor is capable of producing more than 80kW of power when fully fueled. Reactors can also be used for production of weapons-grade plutonium.</ResearchDesc>
+    <ResearchDescDisc>You are no longer limited to building 1 of each part of the reactor system and can expand by adding more cores, turbines, and coolers, and perform research using the Rimatomics research bench to improve upon the design</ResearchDescDisc>
+    <price>1000</price>
+    <Screenshot>Research/reactor</Screenshot>
+    <previewImageURL>Things/RimatomicsBuildings/reactorCore</previewImageURL>
+    <Steps>
+      <li>NuclearReactor1</li>
+      <li>NuclearReactor2</li>
+      <li>NuclearReactor3</li>
+      <li>NuclearReactor4</li>
+      <li>NuclearReactor5</li>
+      <li>NuclearReactor6</li>
+      <li>NuclearReactor7</li>
+      <li>NuclearReactor8</li>
+      <li>NuclearReactor9</li>
+      <li>NuclearReactor10</li>
+    </Steps>
+    <prerequisites>
+      <li>NuclearResearch</li>
+    </prerequisites>
+  </Rimatomics.RimatomicResearchDef>
+
+
+  <Rimatomics.ResearchStepDef>
+    <defName>NuclearReactor1</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Research nuclear reactors (Lvl 7 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how the nuclear power system works before we can build our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>7</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>NuclearReactor2</defName>
+    <PointCost>1000</PointCost>
+    <StepLabel>Evaluate components (Lvl 10 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for the nuclear power system from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>10</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>NuclearReactor3</defName>
+    <PointCost>1000</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 10 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to make the final plans for constructing the nuclear power system using available tools</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>10</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+    <RecipeUnlocks>
+      <li>MakeFuelRods</li>
+      <li>MakeMoxFuelRods</li>
+      <li>Make_UraniumPellets</li>
+    </RecipeUnlocks>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef Class="Rimatomics.TestForCoolingPipe">
+    <defName>NuclearReactor4</defName>
+    <StepLabel>Build a cooling system</StepLabel>
+    <StepDesc>Build one of the available cooling systems, water cooling requires rivers or large bodies of water, cooling towers require a lot of power and space and must be placed outside, radiators provide smaller amounts of cooling but can be placed inside for heating</StepDesc>
+    <RecipeUnlocks>
+      <li>Make_turbineBlade</li>
+    </RecipeUnlocks>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef Class="Rimatomics.TestForHeatexchanger">
+    <defName>NuclearReactor5</defName>
+    <StepLabel>Build a turbine generator</StepLabel>
+    <StepDesc>Build a turbine generator, this will need to be connected to the cooling system. The turbine requires a large quantity of turbine blades which can be manufactured at a Rimatomics machining table</StepDesc>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef Class="Rimatomics.TestForCoolingSystem">
+    <defName>NuclearReactor6</defName>
+    <StepLabel>Connect the cooling system</StepLabel>
+    <StepDesc>Use coolant pipes to connect the cooling system to the turbine generator</StepDesc>
+    <RecipeUnlocks>
+      <li>Make_ReactorComponents</li>
+    </RecipeUnlocks>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef Class="Rimatomics.TestForCore">
+    <defName>NuclearReactor7</defName>
+    <StepLabel>Build a reactor core</StepLabel>
+    <StepDesc>Build a nuclear reactor core and connect both steam and cold water pipes to the turbine. It is highly recommended that the core be built in a shielded containment room to protect colonists during fuel transfer. Reactor components can be manufactured at a Rimatomics machining table</StepDesc>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef Class="Rimatomics.TestForTranny">
+    <defName>NuclearReactor8</defName>
+    <StepLabel>Build a power transformer</StepLabel>
+    <StepDesc>Build a power transformer and connect it to the turbine using high voltage cables. If the total power output from the turbines exceeds 150% of the current usage on the powernet connected to the transformer then you will see sparking and an overvoltage explosion may occur</StepDesc>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef Class="Rimatomics.TestForReactorControl">
+    <defName>NuclearReactor9</defName>
+    <StepLabel>Build a reactor control computer</StepLabel>
+    <StepDesc>Build a reactor control computer and connect it to the nuclear reactor core using the controller loom. This console is used to control reactor cores, they can be paired with specific cores by assigning an ID, allowing you to chain connections from core to core. Send a colonist to man the station to access the controls, multiple controls can be open at the same time</StepDesc>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef Class="Rimatomics.TestForFueledCore">
+    <defName>NuclearReactor10</defName>
+    <StepLabel>Test the nuclear reactor</StepLabel>
+    <StepDesc>Construct or purchase nuclear fuel rods, load them into the reactor core using the reactor console to designate slots for loading. Once at least 1 fuel rod assembly is loaded use the reactor console to start the core and raise the neutron flux to 100% to gather data</StepDesc>
+    <PointCost>200</PointCost>
+    <GatherDataFor>PrototypeFluxTest</GatherDataFor>
+  </Rimatomics.ResearchStepDef>
+
+
+  <!--///////////////////////////////////////////////////////-->
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>Plutonium</defName>
+    <ResearchLabel>Plutonium Processing</ResearchLabel>
+    <ProjTypeLabel>Production</ProjTypeLabel>
+    <ResearchDesc>Plutonium is produced within used nuclear fuel can be processed and used to create MOX fuel, Radioisotope thermoelectric generators, and nuclear weapons. The process requires chemfuel and produces drums of depleted uranium and nuclear waste.</ResearchDesc>
+    <ResearchDescDisc>You can now reprocess spent nuclear fuel.\n\nThe amount of material that will result from reprocessing is based on the conversion ratio stat of the fuel, with a maximum of x0.6 using normal reactors, and x1.2 using upgraded breeder reactors, this stat can be viewed by rolling over fuel slots in the reactor console.\n\nThe process of loading used fuel into the processor will require protective radiation suits and shielding from the rest of the colony, plutonium is stored in a protective case which is safe to handle.</ResearchDescDisc>
+    <price>2500</price>
+    <Screenshot>Research/plutonium</Screenshot>
+    <previewImageURL>Things/RimatomicsBuildings/plutoniumProc</previewImageURL>
+    <Steps>
+      <li>Plutonium1</li>
+      <li>Plutonium2</li>
+      <li>Plutonium3</li>
+      <li>Plutonium4</li>
+    </Steps>
+    <prerequisites>
+      <li>NuclearReactor</li>
+    </prerequisites>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Plutonium1</defName>
+    <PointCost>2000</PointCost>
+    <StepLabel>Research plutonium processing (Lvl 14 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how plutonium processing works before we can begin constructing our own processors</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>14</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Plutonium2</defName>
+    <PointCost>2000</PointCost>
+    <StepLabel>Evaluate components (Lvl 16 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for the plutonium processing from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>16</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Plutonium3</defName>
+    <PointCost>2000</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 16 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to make the final plans for constructing the plutonium processor using available tools</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>16</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Plutonium4</defName>
+    <StepLabel>Construct a Plutonium Processor</StepLabel>
+    <StepDesc>Construct a Plutonium Processor, it is advised that you locate the plutonium processor a short distance from reactors or spent fuel storage, to reduce the duration of exposure while handling the radioactive fuel, radiation suits will be required for workers</StepDesc>
+    <RequiredThings>
+      <li>PlutoniumProcessor</li>
+    </RequiredThings>
+  </Rimatomics.ResearchStepDef>
+
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>RTG</defName>
+    <ResearchLabel>RTG</ResearchLabel>
+    <ProjTypeLabel>Power</ProjTypeLabel>
+    <ResearchDesc>A Radioisotope Thermoelectric Generator (RTG) is portable electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity by the Seebeck effect. This generator has no moving parts</ResearchDesc>
+    <ResearchDescDisc>RTG's can be reinstalled when built and provide 500w of constant power</ResearchDescDisc>
+    <price>1250</price>
+    <Screenshot>Research/rtg</Screenshot>
+    <previewImageURL>Things/RimatomicsBuildings/RTG</previewImageURL>
+    <Steps>
+      <li>RTG1</li>
+      <li>RTG2</li>
+      <li>RTG3</li>
+    </Steps>
+    <prerequisites>
+      <li>Plutonium</li>
+    </prerequisites>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>RTG1</defName>
+    <PointCost>1000</PointCost>
+    <StepLabel>Research R.T.G's (Lvl 11 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how Radioisotope Thermoelectric Generators work before we can start making our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>11</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>RTG2</defName>
+    <PointCost>2000</PointCost>
+    <StepLabel>Evaluate components (Lvl 15 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for a Radioisotope Thermoelectric Generator from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>15</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>RTG3</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 15 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to draw up plans for constructing a Radioisotope Thermoelectric Generator using the resources and tools available to us</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>15</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+
+  <!--///////////////////////////////////////////////////////-->
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>ICBM</defName>
+    <ResearchLabel>ICBM</ResearchLabel>
+    <ProjTypeLabel>Super Weapon</ProjTypeLabel>
+    <ResearchDesc>An intercontinental ballistic missile (ICBM) is a guided ballistic missile primarily designed for nuclear weapons delivery, this design is tipped with a fission warhead</ResearchDesc>
+    <ResearchDescDisc>You may now stockpile nuclear arms</ResearchDescDisc>
+    <price>6000</price>
+    <Screenshot>Research/icbm</Screenshot>
+    <previewImageURL>Things/RimatomicsBuildings/icbm</previewImageURL>
+    <Steps>
+      <li>ICBM1</li>
+      <li>ICBM2</li>
+      <li>ICBM3</li>
+      <li>ICBM4</li>
+      <li>ICBM5</li>
+      <li>ICBM6</li>
+    </Steps>
+    <prerequisites>
+      <li>Plutonium</li>
+    </prerequisites>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ICBM1</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Research nuclear weapons (Lvl 15 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how nuclear weapons work before we can start making our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>10</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ICBM2</defName>
+    <PointCost>2000</PointCost>
+    <StepLabel>Evaluate components (Lvl 16 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to draw up plans for constructing ICBM's using the resources and tools available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>16</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ICBM3</defName>
+    <PointCost>1000</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 16 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to draw up plans for constructing ICBM's using the resources and tools available to us</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>16</SkillLevel>
+    <requiredResearchFacilities>
+      <li>ResearchReactor</li>
+    </requiredResearchFacilities>
+    <RecipeUnlocks>
+      <li>Make_FissionWarhead</li>
+      <li>Make_RocketEngine</li>
+    </RecipeUnlocks>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ICBM4</defName>
+    <StepLabel>Construct a launch pad</StepLabel>
+    <StepDesc>Construct a missile launch pad, it must be connected via power conduit to a weapons console to control the launch systems</StepDesc>
+    <RequiredThings>
+      <li>LaunchPad</li>
+    </RequiredThings>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ICBM5</defName>
+    <StepLabel>Construct an ICBM</StepLabel>
+    <StepDesc>Construct an ICBM on the launch pad, rocket engines and fission warheads can be constructed at a Rimatomics machining table</StepDesc>
+    <RequiredThings>
+      <li>ICBMfission</li>
+    </RequiredThings>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ICBM6</defName>
+    <PointCost>100</PointCost>
+    <StepLabel>Gather weapons data</StepLabel>
+    <StepDesc>Launch the ICBM at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum</StepDesc>
+    <GatherDataFor>ICBMfission</GatherDataFor>
+  </Rimatomics.ResearchStepDef>
+
+  <!--///////////////////////////////////////////////////////-->
+
+
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>EnergyWeapons</defName>
+    <ResearchLabel>Energy Weapons</ResearchLabel>
+    <ProjTypeLabel>Research Facility</ProjTypeLabel>
+    <ResearchDesc>Rimatomics defines the future for high energy weapons systems, Gain a dominant battlefield advantage with our combat proven target designators and next generation energy weapons featuring modular, scalable designs, with 360 degree coverage that identifies, tracks, and defends against enemy troops, missiles, mortars, and and long range targets</ResearchDesc>
+    <ResearchDescDisc>All of the required technology for using Rimatomics energy weapons is available and weapon systems are now available for purchase at the research bench</ResearchDescDisc>
+    <price>1000</price>
+    <Screenshot>Research/energyWeapon</Screenshot>
+    <previewImageURL>Things/RimatomicsBuildings/WeaponResearch_back</previewImageURL>
+    <Steps>
+      <li>EnergyWeapons1</li>
+      <li>EnergyWeapons2</li>
+      <li>EnergyWeapons3</li>
+      <li>EnergyWeapons4</li>
+      <li>EnergyWeapons5</li>
+      <li>EnergyWeapons6</li>
+      <li>EnergyWeapons7</li>
+    </Steps>
+    <activate>RimatomicsActivate</activate>
+  </Rimatomics.RimatomicResearchDef>
+
+
+  <Rimatomics.ResearchStepDef>
+    <defName>EnergyWeapons1</defName>
+    <PointCost>800</PointCost>
+    <StepLabel>Research energy weapons (Lvl 5 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study how Rimatomics energy weapons work and how we can develop and build our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>5</SkillLevel>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>EnergyWeapons2</defName>
+    <PointCost>500</PointCost>
+    <StepLabel>Evaluate components (Lvl 5 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for building Rimatomics energy weapons from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>5</SkillLevel>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>EnergyWeapons3</defName>
+    <PointCost>500</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 5 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to make the final plans for constructing Rimatomics energy weapons using available tools</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>5</SkillLevel>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>EnergyWeapons4</defName>
+    <StepLabel>Construct a Weapons Research Bench</StepLabel>
+    <StepDesc>Construct a Weapons Research Bench, equipped with specialized equipment for prototyping and testing a wide range of energy weapons, it is a required facility for most energy weapons research and testing</StepDesc>
+    <RequiredThings>
+      <li>WeaponsBench</li>
+    </RequiredThings>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>EnergyWeapons5</defName>
+    <StepLabel>Construct a Weapons console</StepLabel>
+    <StepDesc>Construct a weapons console, the Weapons Console is a manned target acquisition computer required by all energy weapons, it networks to any Rimatomics energy weapons that share the same power net, then detects enemies using the onboard sensors of the weapons and the Target Acquisition System to assign targets. The main display features real time ground and air target tracking and a PPC capacity gauge displays the total stored PPC energy on the net</StepDesc>
+    <RequiredThings>
+      <li>PPCWeaponsConsole</li>
+    </RequiredThings>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>EnergyWeapons6</defName>
+    <StepLabel>Construct a Target Acquisition System</StepLabel>
+    <StepDesc>Construct a Target Acquisition System. the system uses a combination of technologies to track land and air based targets, this includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long range tracking of ballistic missiles</StepDesc>
+    <RequiredThings>
+      <li>RadarDish</li>
+    </RequiredThings>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef Class="Rimatomics.TestForWeaponsConsole">
+    <defName>EnergyWeapons7</defName>
+    <StepLabel>Construct a prototype PPC</StepLabel>
+    <StepDesc>Construct a Pulsed Power Container (PPC) and connect it to the same power net as the weapons console, charge the PPC and man the weapons console to test that all of the systems work. These ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. Housed in a waterproof container, and charged by excess power like a standard battery, it is recommended that you isolate them from standard batteries to increase efficiency, if power generation is lost the PPC will quickly dissipate its charge for safety</StepDesc>
+  </Rimatomics.ResearchStepDef>
+
+
+  <!--ADS-->
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>ADS</defName>
+    <ResearchLabel>ADS</ResearchLabel>
+    <ProjTypeLabel>Energy Weapon</ProjTypeLabel>
+    <ResearchDesc>The Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial, perimeter security and crowd control. It heats the surface of targets, such as the skin of targeted human subjects, this causes them to break rank and flee. Requires a Weapons Console, Target Acquisition System and a PPC for power</ResearchDesc>
+    <ResearchDescDisc>You are no longer limited to building 1 ADS and existing ADS's are now running at full power</ResearchDescDisc>
+    <price>1500</price>
+    <Screenshot>Research/ads</Screenshot>
+    <previewImageURL>UI/ADS</previewImageURL>
+    <Steps>
+      <li>ADS1</li>
+      <li>ADS2</li>
+      <li>ADS3</li>
+      <li>ADS4</li>
+      <li>ADS5</li>
+    </Steps>
+    <prerequisites>
+      <li>EnergyWeapons</li>
+    </prerequisites>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ADS1</defName>
+    <PointCost>1000</PointCost>
+    <StepLabel>Research the ADS (Lvl 5 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how the ADS works before we can build our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>5</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ADS2</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Evaluate components (Lvl 5 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for the ADS from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>5</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ADS3</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 5 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to make the final plans for constructing the ADS using available tools</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>5</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ADS4</defName>
+    <StepLabel>Construct a prototype ADS</StepLabel>
+    <StepDesc>Construct a prototype version of the Active Denial System (ADS). The prototype has very limited range and high power usage. It requires a direct connection to a weapons console and a charged PPC</StepDesc>
+    <RequiredThings>
+      <li>PPCADS</li>
+    </RequiredThings>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>ADS5</defName>
+    <StepLabel>Gather weapons data</StepLabel>
+    <StepDesc>Test fire the ADS on any living targets to gather weapons data</StepDesc>
+    <GatherDataFor>PPCADS</GatherDataFor>
+    <PointCost>50</PointCost>
+  </Rimatomics.ResearchStepDef>
+
+
+  <!--Tesla Coil-->
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>TeslaCoil</defName>
+    <ResearchLabel>Tesla Coil</ResearchLabel>
+    <ProjTypeLabel>Energy Weapon</ProjTypeLabel>
+    <ResearchDesc>The tesla coil is a simple but effective energy weapon that can rapidly deliver lethal electrical discharges to targets within a short range. Requires a Weapons Console, Target Acquisition System and a PPC for power</ResearchDesc>
+    <ResearchDescDisc>You are no longer limited to building 1 Tesla coil and existing Tesla coils are now running at full power</ResearchDescDisc>
+    <price>2000</price>
+    <Screenshot>Research/tesla</Screenshot>
+    <previewImageURL>UI/teslaCoil</previewImageURL>
+    <Steps>
+      <li>TeslaCoil1</li>
+      <li>TeslaCoil2</li>
+      <li>TeslaCoil3</li>
+      <li>TeslaCoil4</li>
+      <li>TeslaCoil5</li>
+    </Steps>
+    <prerequisites>
+      <li>EnergyWeapons</li>
+    </prerequisites>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>TeslaCoil1</defName>
+    <PointCost>1000</PointCost>
+    <StepLabel>Research tesla coils (Lvl 6 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how the tesla coil works before we can build our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>6</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>TeslaCoil2</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Evaluate components (Lvl 6 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for the tesla coil from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>6</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>TeslaCoil3</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 6 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to make the final plans for constructing the tesla coil using available tools</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>6</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>TeslaCoil4</defName>
+    <StepLabel>Construct a prototype Tesla Coil</StepLabel>
+    <StepDesc>Construct a prototype version of the Tesla Coil. The prototype has very limited range and high power usage.It requires a direct connection to a weapons console and a charged PPC</StepDesc>
+    <RequiredThings>
+      <li>PPCTeslaCoil</li>
+    </RequiredThings>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>TeslaCoil5</defName>
+    <StepLabel>Gather weapons data</StepLabel>
+    <StepDesc>Test fire the Tesla coil on any living targets to gather weapons data</StepDesc>
+    <GatherDataFor>PPCTeslaCoil</GatherDataFor>
+    <PointCost>50</PointCost>
+  </Rimatomics.ResearchStepDef>
+
+
+
+
+  <!--HEL-->
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>HEL</defName>
+    <ResearchLabel>HEL</ResearchLabel>
+    <ProjTypeLabel>Energy Weapon</ProjTypeLabel>
+    <ResearchDesc>The High Energy Laser (HEL) uses directed energy in the form of a highly focused solid state laser to destroy incoming airborne projectiles. Advanced versions are capable of shooting down large rockets. Requires a Weapons Console, Target Acquisition System and a PPC for power</ResearchDesc>
+    <ResearchDescDisc>You are no longer limited to building 1 HEL and existing HEL's are now running at full power</ResearchDescDisc>
+    <price>5000</price>
+    <Screenshot>Research/hel</Screenshot>
+    <previewImageURL>UI/HEL</previewImageURL>
+    <Steps>
+      <li>HEL1</li>
+      <li>HEL2</li>
+      <li>HEL3</li>
+      <li>HEL4</li>
+      <li>HEL5</li>
+    </Steps>
+    <prerequisites>
+      <li>EnergyWeapons</li>
+    </prerequisites>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>HEL1</defName>
+    <PointCost>1000</PointCost>
+    <StepLabel>Research the HEL (Lvl 8 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how the HEL works before we can build our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>8</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>HEL2</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Evaluate components (Lvl 12 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for the HEL from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>12</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>HEL3</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 12 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to make the final plans for constructing the HEL using available tools</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>12</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>HEL4</defName>
+    <StepLabel>Construct a prototype HEL</StepLabel>
+    <StepDesc>Construct a prototype version of the HEL. The prototype has limited turn speed and high power usage. It requires a direct connection to a weapons console and a charged PPC, and requires the presence of a Target Acquisition System</StepDesc>
+    <RequiredThings>
+      <li>PPCHEL</li>
+    </RequiredThings>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>HEL5</defName>
+    <StepLabel>Gather weapons data</StepLabel>
+    <StepDesc>Test fire the HEL on artillary targets to gather weapons data, you can use the weapons console to change its target aquisition to include friendly shells</StepDesc>
+    <GatherDataFor>PPCHEL</GatherDataFor>
+    <PointCost>50</PointCost>
+  </Rimatomics.ResearchStepDef>
+
+
+  <!--///////////////////////////////////////////////////////-->
+
+
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>Railgun</defName>
+    <ResearchLabel>Railgun</ResearchLabel>
+    <ProjTypeLabel>Energy Weapon</ProjTypeLabel>
+    <ResearchDesc>The Railgun uses a large electromagnetic pulse to launch a projectile to extreme ranges. Fires railgun sabot rounds fed from a 25 round magazine, Requires a Weapons Console, Target Acquisition System and a PPC for power</ResearchDesc>
+    <ResearchDescDisc>You are no longer limited to building 1 Railgun and existing Railguns are now running at full power</ResearchDescDisc>
+    <price>7000</price>
+    <Screenshot>Research/railgun</Screenshot>
+    <previewImageURL>UI/Railgun</previewImageURL>
+    <Steps>
+      <li>Railgun1</li>
+      <li>Railgun2</li>
+      <li>Railgun3</li>
+      <li>Railgun4</li>
+      <li>Railgun5</li>
+    </Steps>
+    <prerequisites>
+      <li>EnergyWeapons</li>
+    </prerequisites>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Railgun1</defName>
+    <PointCost>1000</PointCost>
+    <StepLabel>Research the railgun (Lvl 12 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how the railgun works before we can build our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>12</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Railgun2</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Evaluate components (Lvl 15 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for the railgun from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>15</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Railgun3</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 15 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to make the final plans for constructing the railgun using available tools</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>15</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Railgun4</defName>
+    <StepLabel>Construct a prototype Railgun</StepLabel>
+    <StepDesc>Construct a prototype version of the Railgun. The prototype has limited turn speed and high power usage, It requires a direct connection to a weapons console and a charged PPC, and requires the presence of a Target Acquisition System</StepDesc>
+    <RequiredThings>
+      <li>PPCRailgun</li>
+    </RequiredThings>
+    <RecipeUnlocks>
+      <li>Make_RailgunSabot</li>
+      <li>MakeSabotDU</li>
+    </RecipeUnlocks>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Railgun5</defName>
+    <StepLabel>Gather weapons data</StepLabel>
+    <StepDesc>Test fire the Railgun on any targets to gather weapons data. You can craft Railgun Sabot rounds at a Rimatomics machining table</StepDesc>
+    <GatherDataFor>PPCRailgun</GatherDataFor>
+    <PointCost>50</PointCost>
+  </Rimatomics.ResearchStepDef>
+
+
+  <!--///////////////////////////////////////////////////////-->
+
+  <Rimatomics.RimatomicResearchDef>
+    <defName>Obelisk</defName>
+    <ResearchLabel>Obelisk</ResearchLabel>
+    <ProjTypeLabel>Energy Weapon</ProjTypeLabel>
+    <ResearchDesc>The Obelisk uses directed energy in the form of a highly focused solid state laser to burn its targets. While its maximum power usage is very high it is also extremely accurate with long range and devastating power, the maximum range and power is fully adjustable for varied application. Requires a Weapons Console, Target Acquisition System and a Pulsed Power Container (PPC)</ResearchDesc>
+    <ResearchDescDisc>You are no longer limited to building 1 Obelisk and existing Obelisks are now running at full power</ResearchDescDisc>
+    <price>8000</price>
+    <Screenshot>Research/obelisk</Screenshot>
+    <previewImageURL>UI/obelisk</previewImageURL>
+    <Steps>
+      <li>Obelisk1</li>
+      <li>Obelisk2</li>
+      <li>Obelisk3</li>
+      <li>Obelisk4</li>
+      <li>Obelisk5</li>
+    </Steps>
+    <prerequisites>
+      <li>EnergyWeapons</li>
+    </prerequisites>
+  </Rimatomics.RimatomicResearchDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Obelisk1</defName>
+    <PointCost>1000</PointCost>
+    <StepLabel>Research the Obelisk (Lvl 15 Intellectual)</StepLabel>
+    <StepDesc>A skilled researcher needs to study the designs and learn how the Obelisk works before we can build our own</StepDesc>
+    <WorkType>Research</WorkType>
+    <SkillLevel>15</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Obelisk2</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Evaluate components (Lvl 18 Crafting)</StepLabel>
+    <StepDesc>A skilled crafter needs to plan how we can make the components required for the Obelisk from the resources available to us</StepDesc>
+    <WorkType>Crafting</WorkType>
+    <SkillLevel>18</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Obelisk3</defName>
+    <PointCost>1500</PointCost>
+    <StepLabel>Examine construction blueprints (Lvl 18 Construction)</StepLabel>
+    <StepDesc>A skilled constructor needs to make the final plans for constructing the Obelisk using available tools</StepDesc>
+    <WorkType>Construction</WorkType>
+    <SkillLevel>18</SkillLevel>
+    <requiredResearchFacilities>
+      <li>WeaponsBench</li>
+    </requiredResearchFacilities>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Obelisk4</defName>
+    <RequiredThings>
+      <li>PPCObelisk</li>
+    </RequiredThings>
+    <StepLabel>Construct an Obelisk</StepLabel>
+    <StepDesc>Construct a prototype version of the Obelisk, the prototype has limited range and power and requires a direct connection to a weapons console and charged PPC to function.</StepDesc>
+  </Rimatomics.ResearchStepDef>
+
+  <Rimatomics.ResearchStepDef>
+    <defName>Obelisk5</defName>
+    <PointCost>50</PointCost>
+    <StepLabel>Gather weapons data</StepLabel>
+    <StepDesc>Test fire the Obelisk on any living targets to collect data, the amount of data obtained scales based on the power used for each burst</StepDesc>
+    <GatherDataFor>PPCObelisk</GatherDataFor>
+  </Rimatomics.ResearchStepDef>
+
+
+</Defs>

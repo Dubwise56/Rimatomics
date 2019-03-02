@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ICBMfission.label>洲际弹道导弹</ICBMfission.label>
+  <ICBMfission.description>携带有核弹头的洲际弹道导弹，用于远程打击。</ICBMfission.description>
+
+
+  <!-- <WorldObjectDef>
+    <defName>ICBMfusion</defName>
+    <label>ICBM</label>
+    <description>An intercontinental ballistic missile (ICBM) is a guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fusion warhead.</description>
+    <worldObjectClass>Rimatomics.WorldObject_ICBMfusion</worldObjectClass>
+    <texture>UI/Nuke</texture>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>UI/Nuke</expandingIconTexture>
+    <expandingIconPriority>6</expandingIconPriority>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>SCUD</defName>
+    <label>ICBM</label>
+    <description>A short range tactical ballistic missile loaded with an explosive warhead.</description>
+    <worldObjectClass>Rimatomics.WorldObject_Missile</worldObjectClass>
+    <texture>UI/Nuke</texture>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>UI/Nuke</expandingIconTexture>
+    <expandingIconPriority>6</expandingIconPriority>
+  </WorldObjectDef>
+
+  <WorldObjectDef>
+    <defName>SCUDchem</defName>
+    <label>ICBM</label>
+    <description>A short range tactical ballistic missile loaded with chemical agents that creates a toxic fallout apon detonation.</description>
+    <worldObjectClass>Rimatomics.WorldObject_Missile</worldObjectClass>
+    <texture>UI/Nuke</texture>
+    <useDynamicDrawer>true</useDynamicDrawer>
+    <expandingIcon>true</expandingIcon>
+    <expandingIconTexture>UI/Nuke</expandingIconTexture>
+    <expandingIconPriority>6</expandingIconPriority>
+  </WorldObjectDef> -->
+
+  <Sabot.label>炮弹</Sabot.label>
+  <Sabot.description>磁轨炮弹</Sabot.description>
+
+  <Fallout.label>核辐射</Fallout.label>
+  <Fallout.description>辐射尘埃是由核爆炸或核反应堆熔毁而喷射到空气中的残余放射性物质。</Fallout.description>
+
+  <FactionBaseICBM.label>洲际弹道导弹发射台</FactionBaseICBM.label>
+  <FactionBaseICBM.description>一个派别在该地点建造了洲际弹道导弹台。</FactionBaseICBM.description>
+
+  <RimatomicsProbe.label>探测到核辐射</RimatomicsProbe.label>
+  <RimatomicsProbe.description>该地点探测到核辐射。</RimatomicsProbe.description>
+
+
+</LanguageData>

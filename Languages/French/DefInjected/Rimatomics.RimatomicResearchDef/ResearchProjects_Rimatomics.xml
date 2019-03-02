@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+   <Geigercounter.ResearchLabel>Détecteurs de rayonnement</Geigercounter.ResearchLabel>
+  <Geigercounter.ResearchDesc>La protection des colons contre l'exposition aux rayonnements dangereux est essentielle et Rimatomics fournit un équipement portable qui peut être utilisé pour détecter les rayonnements ionisants. Tous les colons seront équipés d'un détecteur de rayonnement qui, produira un clic sonore si des radiations sont détectées, L'équivalent de rayonnement s'affiche comme texte.</Geigercounter.ResearchDesc>
+  <Geigercounter.ResearchDescDisc>Tous les colons sont maintenant équipés de détecteurs de rayonnement, et une fois que le rayonnement détecté produira un clic sonore, l'équivalent de radiation s'affiche comme texte.</Geigercounter.ResearchDescDisc>
+
+
+  <!-- /////////////// -->
+
+  <RadSuits.ResearchLabel>Protection contre les rayonnements</RadSuits.ResearchLabel>
+  <RadSuits.ResearchDesc>Protège l'utilisateur de l'exposition aux rayonnements nucléaires par des doublures de protection contre les rayonnements et empêche l'utilisateur de contact direct ou d'inhalation de poussières ou gaz de radioactif.</RadSuits.ResearchDesc>
+  <RadSuits.ResearchDescDisc>Vous pouvez maintenant produire des tenue NBC et NRBC</RadSuits.ResearchDescDisc>
+
+  <NuclearResearch.ResearchLabel>Réacteurs de recherche</NuclearResearch.ResearchLabel>
+  <NuclearResearch.ResearchDesc>Avant que vos colons aient le contrôle total des réacteurs nucléaires et d'autres technologies nucléaires, ils doivent utiliser pleinement les réacteurs nucléaires de recherche pour des expériences et des observations pour résumer les technologies d'énergie nucléaire qui peuvent être utilisées pour la production réelle.</NuclearResearch.ResearchDesc>
+  <NuclearResearch.ResearchDescDisc>Maintenant, une recherche approfondie sur l'énergie nucléaire peut être menée</NuclearResearch.ResearchDescDisc>
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <NuclearReactor.ResearchLabel>L'énergie nucléaire</NuclearReactor.ResearchLabel>
+  <NuclearReactor.ResearchDesc>La centrale nucléaire "Rimatomics" est conçue comme une architecture extensible qui peut contenir de multiples réacteurs, turbines et installations de refroidissement dans un système unique avec plus de 80 kW d'énergie produite lorsque chaque réacteur est complètement chargé. Les réacteurs peuvent également être utilisés pour produire des armes avec du plutonium.</NuclearReactor.ResearchDesc>
+  <NuclearReactor.ResearchDescDisc>Votre centrale nucléaire n'est plus limitée par le nombre de composants de production d'énergie et peut être agrandie en ajoutant plus de réacteurs, de turbines et d'installations de refroidissement. Des recherches supplémentaires peuvent être effectuées à l'aide du banc de recherche Rimatomics pour améliorer la conception.</NuclearReactor.ResearchDescDisc>
+
+  <Plutonium.ResearchLabel>Extraction du plutonium</Plutonium.ResearchLabel>
+  <Plutonium.ResearchDesc>Le plutonium contenu dans le combustible nucléaire utilisé dans la production d'énergie nucléaire peut être utilisé pour fabriquer des combustibles nucléaires à oxyde mixte, des générateurs radio-isotopiques et des armes nucléaires.</Plutonium.ResearchDesc>
+  <Plutonium.ResearchDescDisc>Tout ensemble de barre de combustible qui a été partiellement ou complètement utilisée avec la marque -PU peut être rempli dans un séparateur de plutonium qui nécessitera un kit de radioprotection et une barrière contre le rayonnement. Lorsque le plutonium est séparé, il peut être retiré et stocké dans un récipient d'isolement sûr.</Plutonium.ResearchDescDisc>
+
+  <RTG.ResearchLabel>Générateur radio-isotopique</RTG.ResearchLabel>
+  <RTG.ResearchDesc>Un générateur de radio-isotopes est un générateur portable qui utilise un réseau de thermocouples pour convertir l'énergie thermique libérée par la désintégration des radio-isotopes en énergie électrique.</RTG.ResearchDesc>
+  <RTG.ResearchDescDisc>Le générateur radio-isotopique peut être réinstallé avec une puissance de sortie maximale de 500W.</RTG.ResearchDescDisc>
+ 
+  <ICBM.ResearchLabel>Missiles balistiques</ICBM.ResearchLabel>
+  <ICBM.ResearchDesc>Les missiles balistiques intercontinentaux sont principalement utilisés pour transporter des armes nucléaires pour la guerre à longue portée, ce design est équipé d'ogives à fission nucléaire.</ICBM.ResearchDesc>
+  <ICBM.ResearchDescDisc>Vous pouvez maintenant fabriquer des armes nucléaires.</ICBM.ResearchDescDisc>
+ 
+  <EnergyWeapons.ResearchLabel>Arme à énergie</EnergyWeapons.ResearchLabel>
+  <EnergyWeapons.ResearchDesc>"Les armes à énergie" définissent le modèle futur des systèmes avancés d'armement, grâce à des fonctions de conception modulaires et évolutives pour aider les utilisateurs à obtenir l'avantage du champ de bataille à 360 degrés sans exopsition directe , Identification intelligente, suivi et défense des missiles ennemis, des obus, contre des cibles distantes.</EnergyWeapons.ResearchDesc>
+  <EnergyWeapons.ResearchDescDisc>Toutes les "technologies de Rimatomics" sur les armes à énergie sont disponibles, des systèmes d'armes peuvent être achetés au bord de la station de recherche sur l'énergie nucléaire.</EnergyWeapons.ResearchDescDisc>
+ 
+  <!-- ADS -->
+
+  <ADS.ResearchLabel>Arme à énergie dirigée</ADS.ResearchLabel>
+  <ADS.ResearchDesc>Le système d'énergie dirigée est une arme d'énergie non létale et ciblée conçue pour le contrôle régional, la sécurité périmétrique et le contrôle de la foule. Il lance des micro-ondes pouvant rendre l'eau de peau cible ébullition, ce qui entraîne une douleur insupportable. Nécessite une console d'armes d'énergie, le radar d'avertissement et des batteries à impulsions pour fonctionner.</ADS.ResearchDesc>
+  <ADS.ResearchDescDisc>Vous ne serez plus limité au nombre de système actif, plusieurs peuvent fonctionner en même temps.</ADS.ResearchDescDisc>
+
+
+
+  <!-- Tesla Coil -->
+
+  <TeslaCoil.ResearchLabel>Bobine tesla</TeslaCoil.ResearchLabel>
+  <TeslaCoil.ResearchDesc>Une bobine tesla est une arme d'énergie simple mais efficace qui peut rapidement générer un courant mortel à une cible dans une courte distance. Nécessite une console d'armes d'énergie, le radar d'avertissement et des batteries à impulsions pour fonctionner.</TeslaCoil.ResearchDesc>
+  <TeslaCoil.ResearchDescDisc>Vous ne serez plus limité par le nombre de bobines tesla,plusieures peuvent fonctionner en même temps.</TeslaCoil.ResearchDescDisc>
+
+
+  <!-- HEL -->
+
+  <HEL.ResearchLabel>Défense laser</HEL.ResearchLabel>
+  <HEL.ResearchDesc>La défense laser utilisent des lasers à haute énergie pour détruire des obusd'artillerie , des versions avancées peuvent abattre des missiles balistiques. Nécessite une console d'armes d'énergie, le radar d'avertissement et des batteries à impulsions pour fonctionner. </HEL.ResearchDesc>
+  <HEL.ResearchDescDisc>Vous ne serez plus limité par le nombre de défense laser, toute la défense laser peut fonctionner en même temps.</HEL.ResearchDescDisc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <Railgun.ResearchLabel>Canons magnétiques</Railgun.ResearchLabel>
+  <Railgun.ResearchDesc>Les canons magnétiques utilisent une impulsion électromagnétique de haute énergie pour tirer des obus sur de très grandes portées, avec une large gamme de possibilités différentes.(25 obus dans un chargeur).Nécessite une console d'armes d'énergie, le radar d'avertissement et des batteries à impulsions pour fonctionner. </Railgun.ResearchDesc>
+  <Railgun.ResearchDescDisc>Vous ne serez plus limité par le nombre de canons magnétiques, plusieurs peuvent fonctionner en même temps.</Railgun.ResearchDescDisc>
+
+
+  <Obelisk.ResearchLabel>Obelisque</Obelisk.ResearchLabel>
+  <Obelisk.ResearchDesc>L'obélisque utilise un laser de combustion convergent, d'une forte consommation d'énergie, de haute précision, de longue portée, de portée et d'énergie réglables. Nécessite une console d'armes d'énergie, le radar d'avertissement et des batteries à impulsions pour fonctionner.</Obelisk.ResearchDesc>
+  <Obelisk.ResearchDescDisc>Vous ne serez plus limité par le nombre d'oblesique, plusieurs peuvent fonctionner en même temps.</Obelisk.ResearchDescDisc>
+
+
+</LanguageData>

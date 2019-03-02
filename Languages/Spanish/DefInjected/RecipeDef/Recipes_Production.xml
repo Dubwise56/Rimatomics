@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <SmeltBlades.label>fundir cuchillas de turbinas</SmeltBlades.label>
+    <SmeltBlades.description>Usa el calor y fuertes electromagnetos para romper las cuchillas de turbinas a materiales útiles.</SmeltBlades.description>
+    <SmeltBlades.jobString>Fundiendo cuchillas de turbina</SmeltBlades.jobString>
+    
+    <MakeFuelRods.label>hacer barras de combustible de Uranio</MakeFuelRods.label>
+    <MakeFuelRods.description>Construir barras de combustible de Uranio.</MakeFuelRods.description>
+    <MakeFuelRods.jobString>Haciendo barras de combustible nuclear.</MakeFuelRods.jobString>
+    
+    <MakeMoxFuelRods.label>hacer barras de combustible de MOX</MakeMoxFuelRods.label>
+    <MakeMoxFuelRods.description>Construir barras de combustible de Mezcla de Óxidos (MOX).</MakeMoxFuelRods.description>
+    <MakeMoxFuelRods.jobString>Haciendo barras de combustible de MOX.</MakeMoxFuelRods.jobString>
+    
+</LanguageData>

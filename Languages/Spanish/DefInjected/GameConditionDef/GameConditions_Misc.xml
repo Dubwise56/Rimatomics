@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <RadioactiveFallout.label>Lluvia radiactiva</RadioactiveFallout.label>
+    <RadioactiveFallout.description>Una columna de humo y ceniza radiactiva se está elevando a la atmósfera y se asentará en los alrededores.</RadioactiveFallout.description>
+    <RadioactiveFallout.endMessage>Lo peor del polvo radiactivo se ha disipado.</RadioactiveFallout.endMessage>    
+
+    <NuclearFallout.label>Lluvia nuclear</NuclearFallout.label>
+    <NuclearFallout.description>Una columna de humo y ceniza radiactiva proveniente de una explosion nuclear se está elevando en la atmósfera se asentará en los alrededores.</NuclearFallout.description>
+    <NuclearFallout.endMessage>Lo peor del polvo radiactivo se ha disipado.</NuclearFallout.endMessage>
+    
+</LanguageData>

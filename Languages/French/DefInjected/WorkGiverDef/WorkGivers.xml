@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Flicker -->
+
+ <OperateValve.label>Manipuler Vanne</OperateValve.label>
+  <OperateValve.verb>opérer</OperateValve.verb>
+  <OperateValve.gerund>opére</OperateValve.gerund>
+
+  <LoadRailgunMagazine.label>Charger les obus</LoadRailgunMagazine.label>
+  <LoadRailgunMagazine.verb>charger</LoadRailgunMagazine.verb>
+  <LoadRailgunMagazine.gerund>chargement</LoadRailgunMagazine.gerund>
+
+  <LoadFuelModule.label>Charger le combustible</LoadFuelModule.label>
+  <LoadFuelModule.verb>intaller</LoadFuelModule.verb>
+  <LoadFuelModule.gerund>intalle</LoadFuelModule.gerund>
+
+  <LoadSpentFuel.label>Cherger combustible usagé</LoadSpentFuel.label>
+  <LoadSpentFuel.verb>installer</LoadSpentFuel.verb>
+  <LoadSpentFuel.gerund>intalle</LoadSpentFuel.gerund>
+
+  <LoadProcChemFuel.label>Charger chemfuel</LoadProcChemFuel.label>
+  <LoadProcChemFuel.verb>Charger</LoadProcChemFuel.verb>
+  <LoadProcChemFuel.gerund>Charge</LoadProcChemFuel.gerund>
+
+  <UnloadPlutonium.label>Décharger le plutonium</UnloadPlutonium.label>
+  <UnloadPlutonium.verb>retirer</UnloadPlutonium.verb>
+  <UnloadPlutonium.gerund>retire</UnloadPlutonium.gerund>
+
+  <RemoveFuelModule.label>Enlever le combustible</RemoveFuelModule.label>
+  <RemoveFuelModule.verb>enlever</RemoveFuelModule.verb>
+  <RemoveFuelModule.gerund>enleve</RemoveFuelModule.gerund>
+
+  <UpgradeBuilding.label>Améliorer</UpgradeBuilding.label>
+  <UpgradeBuilding.verb>améliorer</UpgradeBuilding.verb>
+  <UpgradeBuilding.gerund>améliore</UpgradeBuilding.gerund>
+
+  <RepairCore.label>Réparer le réacteur</RepairCore.label>
+  <RepairCore.verb>réparer</RepairCore.verb>
+  <RepairCore.gerund>répare</RepairCore.gerund>
+
+  <DoBillsTableNuclear.label>Traviller à la table d'assemblage</DoBillsTableNuclear.label>
+  <DoBillsTableNuclear.verb>travailler</DoBillsTableNuclear.verb>
+  <DoBillsTableNuclear.gerund>travaille</DoBillsTableNuclear.gerund>
+
+  <RimatomicsCrafting.label>faire des recherches</RimatomicsCrafting.label>
+  <RimatomicsCrafting.verb>rechercher</RimatomicsCrafting.verb>
+  <RimatomicsCrafting.gerund>recherche</RimatomicsCrafting.gerund>
+
+  <RimatomicsConstruction.label>faire des recherches</RimatomicsConstruction.label>
+  <RimatomicsConstruction.verb>rechercher</RimatomicsConstruction.verb>
+  <RimatomicsConstruction.gerund>recherche</RimatomicsConstruction.gerund>
+
+  <RimatomicsResearch.label>faire des recherches</RimatomicsResearch.label>
+  <RimatomicsResearch.verb>rechercher<RimatomicsResearch.verb>
+  <RimatomicsResearch.gerund>recherche</RimatomicsResearch.gerund>
+
+</LanguageData>

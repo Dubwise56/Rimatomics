@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- These are Mote ThingDefs. Remain the same, DO NOT translate them. -->
+
+  <Mote_FireGlowRocket.label>尘埃</Mote_FireGlowRocket.label>
+  <Mote_SmokeRocket.label>尘埃</Mote_SmokeRocket.label>
+  <Mote_ColonistFleeingADS.label>尘埃</Mote_ColonistFleeingADS.label>
+  <Mote_Upgraded.label>尘埃</Mote_Upgraded.label>
+
+
+</LanguageData>

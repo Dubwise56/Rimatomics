@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RectalCoring.label>rectal core</RectalCoring.label>
+  <RectalCoring.stages.0.label>extreme</RectalCoring.stages.0.label>
+
+  <Exsanguination.label>exsanguination</Exsanguination.label>
+  <Exsanguination.stages.0.label>extreme</Exsanguination.stages.0.label>
+
+  <FatalRad.label>Fatal Radiation Exposure</FatalRad.label>
+  <FatalRad.stages.0.label>initial</FatalRad.stages.0.label>
+  <FatalRad.stages.1.label>advanced</FatalRad.stages.1.label>
+  <FatalRad.stages.2.label>near death</FatalRad.stages.2.label>
+  <FatalRad.stages.3.label>dead</FatalRad.stages.3.label>
+
+  <RimatomicsRadiation.label>radiation sickness</RimatomicsRadiation.label>
+  <RimatomicsRadiation.stages.0.label>initial-hidden</RimatomicsRadiation.stages.0.label>
+  <RimatomicsRadiation.stages.1.label>initial</RimatomicsRadiation.stages.1.label>
+  <RimatomicsRadiation.stages.2.label>minor</RimatomicsRadiation.stages.2.label>
+  <RimatomicsRadiation.stages.3.label>moderate</RimatomicsRadiation.stages.3.label>
+  <RimatomicsRadiation.stages.4.label>serious</RimatomicsRadiation.stages.4.label>
+  <RimatomicsRadiation.stages.5.label>extreme</RimatomicsRadiation.stages.5.label>
+
+  <RadiationIncurable.label>radiation buildup</RadiationIncurable.label>
+  <RadiationIncurable.stages.0.label>initial-hidden</RadiationIncurable.stages.0.label>
+  <RadiationIncurable.stages.1.label>initial</RadiationIncurable.stages.1.label>
+  <RadiationIncurable.stages.2.label>minor</RadiationIncurable.stages.2.label>
+  <RadiationIncurable.stages.3.label>moderate</RadiationIncurable.stages.3.label>
+  <RadiationIncurable.stages.4.label>serious</RadiationIncurable.stages.4.label>
+  <RadiationIncurable.stages.5.label>extreme</RadiationIncurable.stages.5.label>
+
+  <RadiationMechanoid.label>radiation damage</RadiationMechanoid.label>
+  <RadiationMechanoid.stages.0.label>initial-hidden</RadiationMechanoid.stages.0.label>
+  <RadiationMechanoid.stages.1.label>initial</RadiationMechanoid.stages.1.label>
+  <RadiationMechanoid.stages.2.label>minor</RadiationMechanoid.stages.2.label>
+  <RadiationMechanoid.stages.3.label>moderate</RadiationMechanoid.stages.3.label>
+  <RadiationMechanoid.stages.4.label>serious</RadiationMechanoid.stages.4.label>
+  <RadiationMechanoid.stages.5.label>extreme</RadiationMechanoid.stages.5.label>
+
+
+</LanguageData>

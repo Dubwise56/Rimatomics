@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+	
+    <ReactorConductors1.StepLabel>Investigue los reactores nucleares (Intelectual Nvl 12)</ReactorConductors1.StepLabel>
+    <ReactorConductors1.StepDesc>Un investigador con la habilidad apropiada debe planear una serie de pruebas las cuales deben ser realizadas en el núcleo del reactor para recopilar información para su análisis.</ReactorConductors1.StepDesc>
+	
+    <ReactorConductors2.StepLabel>Pruebe el reactor completamente cargado con un flujo de neutrones al 20%</ReactorConductors2.StepLabel>
+    <ReactorConductors2.StepDesc>Cargue el reactor con 24 ensambles de combustible nuclear, luego entonces ajuste el flujo de neutrones entre el 10 y el 20%, los datos serán recopilados por la consola de investigación</ReactorConductors2.StepDesc>
+	
+    <ReactorConductors3.StepLabel>Pruebe completamente cargado con un 100% de flujo de neutrones.</ReactorConductors3.StepLabel>
+    <ReactorConductors3.StepDesc>Cargue completamente de combustible el reactor con 24 ensambles de combustible nuclear, luego ajuste el flujo de neutrones al 100%, la información será entonces recopilada por la consola de investigación.</ReactorConductors3.StepDesc>
+	
+    <ReactorConductors4.StepLabel>Investigue los reactores nucleares (Intelectual Nvl 12)</ReactorConductors4.StepLabel>
+    <ReactorConductors4.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular hipótesis y experimentar usando el reactor de investigación.</ReactorConductors4.StepDesc>
+	
+    <ReactorConductors5.StepLabel>Evalúe los componentes (Manufactura Nvl 12)</ReactorConductors5.StepLabel>
+    <ReactorConductors5.StepDesc>Un artesano con la habilidad apropiada deberá inventar los componentes requeridos para armar el reactor.</ReactorConductors5.StepDesc>
+	
+  <!--///////////////-->
+	
+    <NeutronReflectors1.StepLabel>Investigue los reactores nucleares (Intelectual Nvl 12)</NeutronReflectors1.StepLabel>
+    <NeutronReflectors1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales pueden ser llevadas a cabo en el núcleo de reactor para recopilar información para análisis.</NeutronReflectors1.StepDesc>
+	
+    <NeutronReflectors2.StepLabel>Pruebe completamente cargado con un 100% de flujo de neutrones</NeutronReflectors2.StepLabel>
+    <NeutronReflectors2.StepDesc>Cargue completamente de combustible el reactor con 24 ensambles de combustible nuclear, luego ajuste el flujo de neutrones al 100%, la información será entonces recopilada por la consola de investigación.</NeutronReflectors2.StepDesc>
+	
+    <NeutronReflectors3.StepLabel>Investigue los reactores nucleares(Intelectual Nvl 12)</NeutronReflectors3.StepLabel>
+    <NeutronReflectors3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular hipótesis y experimentar usando el reactor de investigación.</NeutronReflectors3.StepDesc>
+	
+    <NeutronReflectors4.StepLabel>Evalúe los componentes (Manufactura Nvl 12)</NeutronReflectors4.StepLabel>
+    <NeutronReflectors4.StepDesc>Un artesano con la habilidad apropiada deberá inventar una solución práctica que funcione.</NeutronReflectors4.StepDesc>
+	
+  <!--///////////////-->
+	
+    <Breeder1.StepLabel>Investigue los reactores nucleares (Intelectual Nvl 12)</Breeder1.StepLabel>
+    <Breeder1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales pueden ser llevadas a cabo en el núcleo de reactor para recopilar información para análisis.</Breeder1.StepDesc>
+	
+    <Breeder2.StepLabel>Prueba del reactor, completamente cargado, 100% de flujo, @ 374°C.</Breeder2.StepLabel>
+    <Breeder2.StepDesc>Cargue completamente el reactor con 24 ensambles de combustible nuclear, luego force el reactor a una temperatura de 374°C aproximadamente al limitar la capacidad de enfriamiento y balanceando cuidadosamente el flujo de neutrones, se debe alcanzar un flujo de neutrones del 50% mínimo., la información será recopilada por la consola de investigación.</Breeder2.StepDesc>
+	
+    <Breeder3.StepLabel>Investigue los reactores nucleares (Intelectual Nvl 12)</Breeder3.StepLabel>
+    <Breeder3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular hipótesis y experimentar usando el reactor de investigación.</Breeder3.StepDesc>
+	
+    <Breeder4.StepLabel>Evalúe los componentes (Manufactura Nvl 12)</Breeder4.StepLabel>
+    <Breeder4.StepDesc>Un artesano con la habilidad apropiada deberá inventar una solución práctica que funcione.</Breeder4.StepDesc>
+	
+  <!--///////////////-->
+	
+    <ReactorShielding1.StepLabel>Investigue los reactores nucleares (Intelectual Nvl 12)</ReactorShielding1.StepLabel>
+    <ReactorShielding1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales pueden ser llevadas a cabo en el núcleo de reactor para recopilar información para análisis.</ReactorShielding1.StepDesc>
+	
+    <ReactorShielding2.StepLabel>Genere radiación nivel 1 desde un núcleo</ReactorShielding2.StepLabel>
+    <ReactorShielding2.StepDesc>Pruebe el reactor al crear condiciones que resulten en fugas de radiación de nivel 1 o mayor, después de que la prueba se haya completado puede que se necesiten reparaciones.</ReactorShielding2.StepDesc>
+	
+    <ReactorShielding3.StepLabel>Investigue los reactores nucleares (Intelectual Nvl 12)</ReactorShielding3.StepLabel>
+    <ReactorShielding3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular hipótesis y experimentar usando el reactor de investigación.</ReactorShielding3.StepDesc>
+	
+    <ReactorShielding4.StepLabel>Evalúe los componentes (Nvl 12 manufactura)</ReactorShielding4.StepLabel>
+    <ReactorShielding4.StepDesc>Un artesano con la habilidad apropiada deberá inventar una solución práctica que funcione.</ReactorShielding4.StepDesc>
+	
+  <!--///////////////-->
+	
+    <ControlRodActuators1.StepLabel>Investigue los reactores nucleares (Intelectual Nvl 8)</ControlRodActuators1.StepLabel>
+    <ControlRodActuators1.StepDesc>serie de pruebas las cuales pueden ser llevadas a cabo en el núcleo de reactor para recopilar información para análisis.</ControlRodActuators1.StepDesc>
+	
+    <ControlRodActuators2.StepLabel>Realice 2 SCRAMs de reactor</ControlRodActuators2.StepLabel>
+    <ControlRodActuators2.StepDesc>Pruebe el sistema de barras de control la realizar 2 SCRAM de reactor cuando esté completamente lleno y con un flujo de neutrones al 100%.</ControlRodActuators2.StepDesc>
+	
+    <ControlRodActuators3.StepLabel>Investigue los reactores nucleares (Intelectual Nvl 10)</ControlRodActuators3.StepLabel>
+    <ControlRodActuators3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular hipótesis y experimentar usando el reactor de investigación.</ControlRodActuators3.StepDesc>
+	
+    <ControlRodActuators4.StepLabel>Evalúe los componentes (Manufactura Nvl 10).</ControlRodActuators4.StepLabel>
+    <ControlRodActuators4.StepDesc>Un artesano con la habilidad apropiada deberá usar el resultado de la investigación para inventar una solución práctica que funcione.</ControlRodActuators4.StepDesc>
+	
+  <!--///////////////-->
+	
+    <GuidenceSystem1.StepLabel>Investigue los Sistemas de Guiado (Intelectual Nvl 12)</GuidenceSystem1.StepLabel>
+    <GuidenceSystem1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales pueden ser llevadas a cabo en las armas de energía de Rimatomics para recopilar información para análisis.</GuidenceSystem1.StepDesc>
+	
+    <GuidenceSystem2.StepLabel>Recopile información de las armas</GuidenceSystem2.StepLabel>
+    <GuidenceSystem2.StepDesc>Lance un ICBM a cualquier objetivo para recopilar información, la cantidad de datos recopilados dependerá del éxito del lanzamiento, siendo la detonación exitosa en el blanco la que mas recopilará.</GuidenceSystem2.StepDesc>
+	
+    <GuidenceSystem3.StepLabel>Evalúe los componentes (Manufactura Nvl 12)</GuidenceSystem3.StepLabel>
+    <GuidenceSystem3.StepDesc>Un artesano con la habilidad apropiada deberá inventar una solución práctica que funcione.</GuidenceSystem3.StepDesc>
+	
+  <!--///////////////-->
+	
+    <MEPS1.StepLabel>Investigue los MEPSs (Intelectual Nvl 12)</MEPS1.StepLabel>
+    <MEPS1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales pueden ser llevadas a cabo en las armas de energía de Rimatomics para recopilar información para análisis.</MEPS1.StepDesc>
+	
+    <MEPS2.StepLabel>Recopile información de las armas</MEPS2.StepLabel>
+    <MEPS2.StepDesc>Dispare cualquier arma de energía de Rimatomics para recopilar información.</MEPS2.StepDesc>
+	
+    <MEPS3.StepLabel>Investigue los MEPSs (Intelectual Nvl 10)</MEPS3.StepLabel>
+    <MEPS3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular hipótesis y experimentar usando la mesa de investigación de armas</MEPS3.StepDesc>
+	
+    <MEPS4.StepLabel>Evalúe los componentes (Manufactura Nvl 10)</MEPS4.StepLabel>
+    <MEPS4.StepDesc>Un artesano con la habilidad apropiada deberá inventar una solución práctica que funcione.</MEPS4.StepDesc>
+	
+  <!--///////////////-->
+	
+    <ALC1.StepLabel>Investigue los ALC (Intelectual Nvl 12)</ALC1.StepLabel>
+    <ALC1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales pueden ser llevadas a cabo en las armas de energía de Rimatomics para recopilar información para su análisis.</ALC1.StepDesc>
+	
+    <ALC2.StepLabel>Recopile información de las armas</ALC2.StepLabel>
+    <ALC2.StepDesc>Dispare cualquier arma de energía de Rimatomics a su máxima potencia para recopilar datos.</ALC2.StepDesc>
+	
+    <ALC3.StepLabel>Investigue los ALC (Intelectual Nvl 10)</ALC3.StepLabel>
+    <ALC3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular hipótesis y experimentar usando la mesa de investigación de Rimatomics.</ALC3.StepDesc>
+	
+    <ALC4.StepLabel>Evalúe los componentes (Manufactura Nvl 10)</ALC4.StepLabel>
+    <ALC4.StepDesc>Un artesano con la habilidad apropiada deberá inventar una solución práctica que funcione.</ALC4.StepDesc>
+	
+  <!--///////////////-->
+	
+    <ERS1.StepLabel>Investigue los ERS (Intelectual Nvl 12).</ERS1.StepLabel>
+    <ERS1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales pueden ser llevadas a cabo en las armas de energía de Rimatomics para recopilar información para su análisis.</ERS1.StepDesc>
+	
+    <ERS2.StepLabel>Recopile información de las armas.</ERS2.StepLabel>
+    <ERS2.StepDesc>Dispare cualquier arma de energía de Rimatomics a toda potencia para recopilar información.</ERS2.StepDesc>
+	
+    <ERS3.StepLabel>Investigue los ERS (Intelectual Nvl 10).</ERS3.StepLabel>
+    <ERS3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular hipótesis y experimentar usando la mesa de investigación de armas.</ERS3.StepDesc>
+	
+    <ERS4.StepLabel>Evalúe los componentes (Manufactura Nvl 10).</ERS4.StepLabel>
+    <ERS4.StepDesc>Un artesano con la habilidad apropiada deberá usar la investigación para inventar una solución práctica que funcione.</ERS4.StepDesc>
+	
+  <!--///////////////-->
+	
+    <DriveActuator1.StepLabel>Investigue los Actuadores de Manejo (Intelectual Nvl 10).</DriveActuator1.StepLabel>
+    <DriveActuator1.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular una hipótesis y experimentar usando la mesa de investigación de armas.</DriveActuator1.StepDesc>
+	
+    <DriveActuator2.StepLabel>Evalúe los componentes (Manufactura Nvl 10).</DriveActuator2.StepLabel>
+    <DriveActuator2.StepDesc>Un artesano con la habilidad apropiada deberá usar la investigación para inventar una solución práctica que funcione.</DriveActuator2.StepDesc>
+	
+  <!--///////////////-->
+	
+    <Railgun_TargetingChip1.StepLabel>Investigue los Chips Seleccionadores de Objetivos (Intelectual Nvl 12).</Railgun_TargetingChip1.StepLabel>
+    <Railgun_TargetingChip1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales podrán ser realizadas en un caños de tren para recopilar información para su análisis.</Railgun_TargetingChip1.StepDesc>
+	
+    <Railgun_TargetingChip2.StepLabel>Recopile información de las armas</Railgun_TargetingChip2.StepLabel>
+    <Railgun_TargetingChip2.StepDesc>Use el cañón de tren para recopilar información.</Railgun_TargetingChip2.StepDesc>
+	
+    <Railgun_TargetingChip3.StepLabel>Investigue los Chips Seleccionadores de Objetivos (Intelectual Nvl 12).</Railgun_TargetingChip3.StepLabel>
+    <Railgun_TargetingChip3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la informaicón.</Railgun_TargetingChip3.StepDesc>
+	
+    <Railgun_TargetingChip4.StepLabel>Evalúe los componentes (Manufactura Nvl 15)</Railgun_TargetingChip4.StepLabel>
+    <Railgun_TargetingChip4.StepDesc>Un artesano con la habilidad apropiada deberá usar la investigación para inventar una solución práctica que funcione.</Railgun_TargetingChip4.StepDesc>
+	
+  <!--///////////////-->
+	
+    <LenseModule1.StepLabel>Investigue el Módulo de Lentes (Intelectual Nvl 16)</LenseModule1.StepLabel>
+    <LenseModule1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales podrán ser llevadas a cabo en un obelisco para recopilar información para su análisis.</LenseModule1.StepDesc>
+	
+    <LenseModule2.StepLabel>Recopile información de las armas.</LenseModule2.StepLabel>
+    <LenseModule2.StepDesc>Use el obelisco en cualquier objetivo viviente para recopilar información, la cantidad de datos obtenidos se escala basado en el porcentaje de daño usado en cada disparo.</LenseModule2.StepDesc>
+	
+    <LenseModule3.StepLabel>Investigue los Módulos de Lentes (Intelectual Nvl 18)</LenseModule3.StepLabel>
+    <LenseModule3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular una hipótesis y experimentar usando la mesa de investigación de armas.</LenseModule3.StepDesc>
+	
+    <LenseModule4.StepLabel>Evalúe los Componentes (Manufactura Nvl 18)</LenseModule4.StepLabel>
+    <LenseModule4.StepDesc>Un artesano habilidoso deberá usar el resultado de la investigación para inventar una solución práctica que funcione.</LenseModule4.StepDesc>
+	
+  <!--///////////////-->
+	
+    <BeamSplitter1.StepLabel>Investigue los Divisores de Haz (Intelectual Nvl 16)</BeamSplitter1.StepLabel>
+    <BeamSplitter1.StepDesc>Un investigador con la habilidad apropiada deberá planear una serie de pruebas las cuales deberán ser realizadas en el obelisco para recopilar información para su análisis.</BeamSplitter1.StepDesc>
+	
+    <BeamSplitter2.StepLabel>Recopile información de las armas.</BeamSplitter2.StepLabel>
+    <BeamSplitter2.StepDesc>Use el obelisco en cualquier objetivo viviente para recopilar información de las armas, la cantidad de datos obtenidos se escala basado en el porcentaje de daño usado para cada descarga.</BeamSplitter2.StepDesc>
+	
+    <BeamSplitter3.StepLabel>Investigue los Divisores de Haz (Intelectual Nvl 10).</BeamSplitter3.StepLabel>
+    <BeamSplitter3.StepDesc>Un investigador con la habilidad apropiada deberá analizar la información, formular una hipótesis experimentar usando la mesa de investigación de armas.</BeamSplitter3.StepDesc>
+	
+    <BeamSplitter4.StepLabel>Evalúe los componentes (Manufactura Nvl 10)</BeamSplitter4.StepLabel>
+    <BeamSplitter4.StepDesc>Un artesano habilidoso deberá usar los resultados de la investigación para inventar una solución práctica que funcione.</BeamSplitter4.StepDesc>
+	
+</LanguageData>

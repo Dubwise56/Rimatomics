@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RectalCoring.label>Cancer colorectal</RectalCoring.label>
+  <RectalCoring.stages.0.label>Extrème</RectalCoring.stages.0.label>
+
+  <Exsanguination.label>Hémoragies</Exsanguination.label>
+  <Exsanguination.stages.0.label>Extrème</Exsanguination.stages.0.label>
+
+  <FatalRad.label>Irradiation mortelle</FatalRad.label>
+  <FatalRad.stages.0.label>Mineure</FatalRad.stages.0.label>
+  <FatalRad.stages.1.label>Sévère</FatalRad.stages.1.label>
+  <FatalRad.stages.2.label>Phase terminale</FatalRad.stages.2.label>
+  <FatalRad.stages.3.label>Mort</FatalRad.stages.3.label>
+
+  <RimatomicsRadiation.label>Exposition radioactive</RimatomicsRadiation.label>
+  <RimatomicsRadiation.stages.0.label>Début-cachée</RimatomicsRadiation.stages.0.label>
+  <RimatomicsRadiation.stages.1.label>Début</RimatomicsRadiation.stages.1.label>
+  <RimatomicsRadiation.stages.2.label>Mineure</RimatomicsRadiation.stages.2.label>
+  <RimatomicsRadiation.stages.3.label>Modérée</RimatomicsRadiation.stages.3.label>
+  <RimatomicsRadiation.stages.4.label>Sérieuse</RimatomicsRadiation.stages.4.label>
+  <RimatomicsRadiation.stages.5.label>Extrème</RimatomicsRadiation.stages.5.label>
+
+  <RadiationIncurable.label>Irradiation</RadiationIncurable.label>
+  <RadiationIncurable.stages.0.label>Début-cachée</RadiationIncurable.stages.0.label>
+  <RadiationIncurable.stages.1.label>Début</RadiationIncurable.stages.1.label>
+  <RadiationIncurable.stages.2.label>Mineure</RadiationIncurable.stages.2.label>
+  <RadiationIncurable.stages.3.label>Modérée</RadiationIncurable.stages.3.label>
+  <RadiationIncurable.stages.4.label>Sérieuse</RadiationIncurable.stages.4.label>
+  <RadiationIncurable.stages.5.label>Extrème</RadiationIncurable.stages.5.label>
+
+  <RadiationMechanoid.label>Radiation-Méchanoide</RadiationMechanoid.label>
+  <RadiationMechanoid.stages.0.label>Début-cachée</RadiationMechanoid.stages.0.label>
+  <RadiationMechanoid.stages.1.label>Début</RadiationMechanoid.stages.1.label>
+  <RadiationMechanoid.stages.2.label>Mineure</RadiationMechanoid.stages.2.label>
+  <RadiationMechanoid.stages.3.label>Modérée</RadiationMechanoid.stages.3.label>
+  <RadiationMechanoid.stages.4.label>Sévère</RadiationMechanoid.stages.4.label>
+  <RadiationMechanoid.stages.5.label>Extrème</RadiationMechanoid.stages.5.label>
+
+
+
+</LanguageData>

@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingDefs>
+
+  <ThingDef ParentName="BasedMom">
+    <defName>NuclearResearchBench</defName>
+    <label>Rimatomics research bench</label>
+    <description>Contains Rimatomics research projects. Requires power.</description>
+    <thingClass>Rimatomics.Building_RimatomicsResearchBench</thingClass>
+    <graphicData>
+      <texPath>Things/RimatomicsBuildings/Research</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(7,4)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <size>(5,2)</size>
+    <costList>
+      <Steel>250</Steel>
+      <Component>10</Component>
+    </costList>
+    <canOverlapZones>false</canOverlapZones>
+    <castEdgeShadows>false</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <building>
+      <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+      <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+    </building>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <tickerType>Normal</tickerType>
+    <statBases>
+      <MaxHitPoints>250</MaxHitPoints>
+      <WorkToBuild>5000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <ResearchSpeedFactor>1.0</ResearchSpeedFactor>
+    </statBases>
+    <inspectorTabs>
+      <li>Rimatomics.ITab_RimatomicsResearch</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>250</basePowerConsumption>
+        <startElectricalFires>true</startElectricalFires>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>WeaponsBench</li>
+          <li>ResearchReactor</li>
+          <li>MultiAnalyzer</li>
+        </linkableFacilities>
+      </li>
+      <li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
+    </comps>
+    <fillPercent>0.5</fillPercent>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <hasInteractionCell>true</hasInteractionCell>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <surfaceType>Item</surfaceType>
+    <designationHotKey>Misc4</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>RimatomicsActivate</li>
+    </researchPrerequisites>
+</ThingDef>
+
+  <ThingDef ParentName="BasedMom">
+    <DefName>TableRimatomicsMachining</DefName>
+    <label>Rimatomics machining table</label>
+    <ThingClass>Building_WorkTable</ThingClass>
+    <Description>A work station for assembling Rimatomics technologies</Description>
+    <graphicData>
+      <texPath>Things/RimatomicsBuildings/TableWeapons</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(7,4)</drawSize>
+      <damageData>
+        <cornerTL>Damage/Corner</cornerTL>
+        <cornerTR>Damage/Corner</cornerTR>
+        <cornerBL>Damage/Corner</cornerBL>
+        <cornerBR>Damage/Corner</cornerBR>
+      </damageData>
+    </graphicData>
+    <castEdgeShadows>true</castEdgeShadows>
+    <staticSunShadowHeight>0.20</staticSunShadowHeight>
+    <canOverlapZones>false</canOverlapZones>
+    <building>
+      <workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+      <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <CostList>
+      <Steel>150</Steel>
+      <Component>5</Component>
+    </CostList>
+    <AltitudeLayer>Building</AltitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <useHitPoints>True</useHitPoints>
+    <statBases>
+      <WorkToBuild>3000</WorkToBuild>
+      <MaxHitPoints>180</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Cleanliness>-2</Cleanliness>
+    </statBases>
+    <Size>(5,2)</Size>
+    <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <inspectorTabs>
+      <li>Rimatomics.ITab_RimatomicsBills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <startElectricalFires>true</startElectricalFires>
+        <basePowerConsumption>350</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Glower">
+        <glowRadius>5</glowRadius>
+        <glowColor>(73,123,138,0)</glowColor>
+      </li>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+      <li Class="CompProperties_Breakdownable"/>
+      <li>
+        <compClass>CompReportWorkSpeed</compClass>
+      </li>
+    </comps>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotKey>Misc7</designationHotKey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+      <li>PlaceWorker_ReportWorkSpeedPenalties</li>
+    </placeWorkers>
+    <researchPrerequisites>
+      <li>RimatomicsActivate</li>
+    </researchPrerequisites>
+  
+</ThingDef>
+  
+  
+
+  <ThingDef ParentName="BasedMom">
+    <defName>ResearchReactor</defName>
+    <label>Research Reactor</label>
+    <description>Research reactor.</description>
+    <thingClass>Rimatomics.Building_ResearchReactor</thingClass>
+    <graphicData>
+      <texPath>Things/RimatomicsBuildings/researchReactor</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(6,6)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <pathCost>150</pathCost>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.5</fillPercent>
+    <blockLight>false</blockLight>
+    <staticSunShadowHeight>0.00</staticSunShadowHeight>
+    <statBases>
+      <MaxHitPoints>550</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-40</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>    
+    <canOverlapZones>false</canOverlapZones>
+    <size>(4,4)</size>
+    <costList>
+      <Steel>400</Steel>
+      <Silver>400</Silver>
+      <Uranium>35</Uranium>
+      <Component>8</Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>450</basePowerConsumption>
+        <startElectricalFires>true</startElectricalFires>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>0.1</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </comps>
+    <rotatable>false</rotatable>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotkey>Misc6</designationHotkey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <rimatomicsPrerequisites>
+      <li>NuclearResearch3</li>
+    </rimatomicsPrerequisites>
+  </ThingDef>
+
+  <ThingDef ParentName="BasedMom">
+    <defName>WeaponsBench</defName>
+    <label>Weapons Research Bench</label>
+    <description>Weapons research bench.</description>
+    <thingClass>Rimatomics.Building_WeaponsBench</thingClass>
+    <graphicData>
+      <texPath>Things/RimatomicsBuildings/WeaponResearch</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(6,5)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <blockWind>false</blockWind>
+    <castEdgeShadows>true</castEdgeShadows>
+        <passability>PassThroughOnly</passability>
+    <pathCost>150</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <blockLight>false</blockLight>
+    <staticSunShadowHeight>0.00</staticSunShadowHeight>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <MaxHitPoints>550</MaxHitPoints>
+      <WorkToBuild>8000</WorkToBuild>
+      <Flammability>1.0</Flammability>
+      <Beauty>-40</Beauty>
+    </statBases>
+    <tickerType>Normal</tickerType>   
+    <size>(4,3)</size>
+    <costList>
+      <Steel>300</Steel>
+      <Plasteel>250</Plasteel>
+      <Component>12</Component>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>900</basePowerConsumption>
+        <startElectricalFires>true</startElectricalFires>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+      <li Class="CompProperties_Facility">
+        <statOffsets>
+          <ResearchSpeedFactor>0.1</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
+    </comps>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <constructEffect>ConstructMetal</constructEffect>
+    <designationHotkey>Misc6</designationHotkey>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+    <rimatomicsPrerequisites>
+      <li>EnergyWeapons3</li>
+    </rimatomicsPrerequisites>
+  </ThingDef>
+
+
+
+
+  <ThingDef ParentName="BasedMom">
+		<defName>PlutoniumProcessor</defName>
+		<label>Plutonium Processor</label>
+    <description>A machine that uses chemicals to separate fissionable plutonium from spent nuclear fuel.</description>
+		<thingClass>Rimatomics.Building_PlutoniumProc</thingClass>
+		<graphicData>
+			<texPath>Things/RimatomicsBuildings/plutoniumProc</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
+			<drawSize>(6,6)</drawSize>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+    <passability>Impassable</passability>
+    <pathCost>150</pathCost>
+		<blockWind>true</blockWind>
+    <canOverlapZones>false</canOverlapZones>
+		<castEdgeShadows>true</castEdgeShadows>
+		<fillPercent>1</fillPercent>
+    <tickerType>Rare</tickerType>
+		<blockLight>false</blockLight>
+		<staticSunShadowHeight>0.35</staticSunShadowHeight>
+		<statBases>
+			<MaxHitPoints>450</MaxHitPoints>
+			<WorkToBuild>12000</WorkToBuild>
+			<Flammability>1.0</Flammability>
+			<Beauty>-20</Beauty>
+		</statBases>	
+		<size>(4,4)</size>
+		<costList>
+			<Steel>400</Steel>
+			<Silver>350</Silver>
+      <Plasteel>175</Plasteel>
+			<Component>8</Component>
+		</costList>
+		<comps>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Breakdownable"/>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>3000</basePowerConsumption>
+				<startElectricalFires>true</startElectricalFires>
+			</li>
+		</comps>
+		<rotatable>false</rotatable>
+		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+		<constructEffect>ConstructMetal</constructEffect>
+		<designationHotkey>Misc6</designationHotkey>
+    <rimatomicsPrerequisites>
+      <li>Plutonium3</li>
+    </rimatomicsPrerequisites>
+	</ThingDef>
+
+</ThingDefs>

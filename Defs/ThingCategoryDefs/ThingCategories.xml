@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ThingCategoryDefs>
+
+  <ThingCategoryDef>
+    <defName>Nuclear</defName>
+    <label>nuclear</label>
+    <parent>Root</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>NuclearWaste</defName> 
+    <label>nuclear waste</label>
+    <parent>Nuclear</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>NuclearFuel</defName>
+    <label>nuclear fuel</label>
+    <parent>Nuclear</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>RimatomicsProduct</defName>
+    <label>Rimatomics Product</label>
+    <parent>Nuclear</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>Hazmat</defName>
+    <label>hazmat</label>
+    <parent>Apparel</parent>
+  </ThingCategoryDef>
+
+  <ThingCategoryDef>
+    <defName>Mopp</defName>
+    <label>mopp</label>
+    <parent>Hazmat</parent>
+  </ThingCategoryDef>
+</ThingCategoryDefs>

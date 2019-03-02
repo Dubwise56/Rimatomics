@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RadiationShielding.label>Radiation Shielding</RadiationShielding.label>
+  <RadiationShielding.description>An impassable wall. Capable of holding up a roof. And with increased shielding against radiation</RadiationShielding.description>
+  <RadiationShielding_Blueprint.label>Radiation Shielding (blueprint)</RadiationShielding_Blueprint.label>
+  <RadiationShielding_Frame.label>Radiation Shielding (building)</RadiationShielding_Frame.label>
+  <RadiationShielding_Frame.description>An impassable wall. Capable of holding up a roof. And with increased shielding against radiation</RadiationShielding_Frame.description>
+
+  <ReactorSacrophagus.label>Reactor Sarcophagus</ReactorSacrophagus.label>
+  <ReactorSacrophagus.description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</ReactorSacrophagus.description>
+  <ReactorSacrophagus_Blueprint.label>Reactor Sarcophagus (blueprint)</ReactorSacrophagus_Blueprint.label>
+  <ReactorSacrophagus_Frame.label>Reactor Sarcophagus (building)</ReactorSacrophagus_Frame.label>
+  <ReactorSacrophagus_Frame.description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</ReactorSacrophagus_Frame.description>
+
+  <PoppedReactorCore.label>molten core</PoppedReactorCore.label>
+  <PoppedReactorCore.description>Molten reactor core.</PoppedReactorCore.description>
+
+  <CrashedRadioactiveShipPart.label>crashed radioactive ship part</CrashedRadioactiveShipPart.label>
+  <CrashedRadioactiveShipPart.description>A mysterious crashed piece of a spaceship. It may contain exotic materials, computers, even AI personas. This one seems to be emitting high levels of radiation.</CrashedRadioactiveShipPart.description>
+
+
+</LanguageData>

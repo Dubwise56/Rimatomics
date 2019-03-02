@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+ <PPC.label>BAI</PPC.label>
+  <PPC.description>Peut stocker beaucoup de puissance, assez pour alimenter les armes à énergie.</PPC.description>
+  <PPC_Blueprint.label>BAI(Plan)</PPC_Blueprint.label>
+  <PPC_Frame.label>BAI(En construction)</PPC_Frame.label>
+  <PPC_Frame.description>Peut stocker beaucoup de puissance, assez pour alimenter les armes à énergie.</PPC_Frame.description>
+
+  <PPCWeaponsConsole.label>console d'armes à énergie</PPCWeaponsConsole.label>
+  <PPCWeaponsConsole.description>Utilisé pour détecter des cibles et controler des armes d'énergie.</PPCWeaponsConsole.description>
+  <PPCWeaponsConsole_Blueprint.label>console d'armes à énergie(Plan)</PPCWeaponsConsole_Blueprint.label>
+  <PPCWeaponsConsole_Frame.label>console d'armes à énergie(En construction)</PPCWeaponsConsole_Frame.label>
+  <PPCWeaponsConsole_Frame.description>Utilisé pour détecter des cibles et controler des armes d'énergie.</PPCWeaponsConsole_Frame.description>
+
+  <RadarDish.label>Radar</RadarDish.label>
+  <RadarDish.description>Le radar est utilisé pour repérer les cibles terrestre et aérienne</RadarDish.description>
+  <RadarDish_Blueprint.label>Radar(Plan)</RadarDish_Blueprint.label>
+  <RadarDish_Frame.label>Radar(En construction)</RadarDish_Frame.label>
+  <RadarDish_Frame.description>Le radar est utilisé pour repérer les cibles terrestre et aérienne</RadarDish_Frame.description>
+
+  <PPCADS.label>AED</PPCADS.label>
+  <PPCADS.description>L'AED émmet des micro-onde qui font chauffer l'eau contenue dans la peau de la cible causants des brûlures très douloureuses. Nécéssite une console d'arme à énergie</PPCADS.description>
+  <PPCADS_Blueprint.label>AED(Plan)</PPCADS_Blueprint.label>
+  <PPCADS_Frame.label>AED(En construction)</PPCADS_Frame.label>
+  <PPCADS_Frame.description>L'AED émmet des micro-onde qui font chauffer l'eau contenue dans la peau de la cible causants des brûlures très douloureuses. Nécéssite une console d'arme à énergie</PPCADS_Frame.description>
+
+  <PPCTeslaCoil.label>bobine tesla</PPCTeslaCoil.label>
+  <PPCTeslaCoil.description>électrocute les cible à portée nécéssite une console d'armes à énergie</PPCTeslaCoil.description>
+  <PPCTeslaCoil_Blueprint.label>bobine tesla(Plan)</PPCTeslaCoil_Blueprint.label>
+  <PPCTeslaCoil_Frame.label>bobine tesla(En construction)</PPCTeslaCoil_Frame.label>
+  <PPCTeslaCoil_Frame.description>électrocute les cible à portée nécéssite une console d'armes à énergie</PPCTeslaCoil_Frame.description>
+
+  <PPCHEL.label>Défence laser</PPCHEL.label>
+  <PPCHEL.description>La défence laser utilise un laser à haute énergie pour détruire les obus d'artillerie aéroportées. Nécéssite une console d'arme à énergie</PPCHEL.description>
+  <PPCHEL_Blueprint.label>Défence laser(Plan)</PPCHEL_Blueprint.label>
+  <PPCHEL_Frame.label>Défence laser(En construction)</PPCHEL_Frame.label>
+  <PPCHEL_Frame.description>La défence laser utilise un laser à haute énergie pour détruire les obus d'artillerie aéroportées. Nécéssite une console d'arme à énergie</PPCHEL_Frame.description>
+
+  <PPCRailgun.label>Canon magnétique</PPCRailgun.label>
+  <PPCRailgun.description>Utilise une impulsion électromagnétique à haute énergie pour tirer des projectiles très loin, il a une grande variétée de mission de tir. Nécéssite une console d'arme à énergie</PPCRailgun.description>
+  <PPCRailgun_Blueprint.label>Canon magnétique(Plan)</PPCRailgun_Blueprint.label>
+  <PPCRailgun_Frame.label>Canon magnétique(En construction)</PPCRailgun_Frame.label>
+  <PPCRailgun_Frame.description>Utilise une impulsion électromagnétique à haute énergie pour tirer des projectiles très loin, il a une grande variétée de mission de tir. Nécéssite une console d'arme à énergie</PPCRailgun_Frame.description>
+
+  <Artillery_PPCRailgun.label>Obus d'artillerie magnétique</Artillery_PPCRailgun.label>
+  <Artillery_PPCRailgun.description>Ignore les obstacles, la précision n'est pas élevé, mais la couverture est très large.</Artillery_PPCRailgun.description>
+
+  <Bullet_PPCRailgun.label>Obus magnétique</Bullet_PPCRailgun.label>
+
+  <PPCObelisk.label>Obélisque</PPCObelisk.label>
+  <PPCObelisk.description>Utilisez de l'énergie directionnelle pour brûler des cibles avec de l'énergie. La précision est élevée, nécessite une console d'armes et une BAI pour l'énergie.</PPCObelisk.description>
+  <PPCObelisk_Blueprint.label>Obélisque(Plan)</PPCObelisk_Blueprint.label>
+  <PPCObelisk_Frame.label>Obélisque(En construction)</PPCObelisk_Frame.label>
+  <PPCObelisk_Frame.description>Utilisez de l'énergie directionnelle pour brûler des cibles avec de l'énergie. La précision est élevée, nécessite une console d'armes et une BAI pour l'énergie.</PPCObelisk_Frame.description>
+
+
+  <!-- ICBM -->
+
+  <ICBMfission.label>missile nucléaire balistique intercontinental</ICBMfission.label>
+  <ICBMfission.description>Un missile balistique intercontinental portant des ogives nucléaires pour les frappes à longue portée.</ICBMfission.description>
+  <ICBMfission_Blueprint.label>missile nucléaire balistique intercontinental(Plan)</ICBMfission_Blueprint.label>
+  <ICBMfission_Frame.label>missile nucléaire balistique intercontinental(En construction)</ICBMfission_Frame.label>
+  <ICBMfission_Frame.description>Un missile balistique intercontinental portant des ogives nucléaires pour les frappes à longue portée.</ICBMfission_Frame.description>
+
+  <LaunchPad.label>Lanceur de missiles</LaunchPad.label>
+  <LaunchPad.description>Une plate-forme de lancement pour le lancement de missiles balistiques intercontinentaux.</LaunchPad.description>
+  <LaunchPad_Blueprint.label>Lanceur de missiles(Plan)</LaunchPad_Blueprint.label>
+  <LaunchPad_Frame.label>Lanceur de missiles(En construction)</LaunchPad_Frame.label>
+  <LaunchPad_Frame.description>Une plate-forme de lancement pour le lancement de missiles balistiques intercontinentaux.</LaunchPad_Frame.description>
+
+  <notReal.label>non réel</notReal.label>
+
+</LanguageData>

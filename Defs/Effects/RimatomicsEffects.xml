@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <EffecterDef>
+    <defName>RimatomicsResearch</defName>
+    <children>
+      <li>
+        <subEffecterClass>SubEffecter_Sustainer</subEffecterClass>
+        <soundDef>Interact_RimatomicsResearch</soundDef>
+      </li>
+    </children>
+  </EffecterDef>
+  
+    <ThingDef ParentName="MoteBase">
+    <defName>Mote_FireGlowRocket</defName>
+    <graphicData>
+      <texPath>Things/Mote/FireGlow</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <altitudeLayer>MoteOverhead</altitudeLayer>
+    <mote>
+      <fadeInTime>0.75</fadeInTime>
+      <solidTime>1.08</solidTime>
+      <fadeOutTime>0.8</fadeOutTime>
+    </mote>
+  </ThingDef>
+  
+    <ThingDef ParentName="MoteBase">
+    <defName>Mote_SmokeRocket</defName>
+    <graphicData>
+      <texPath>Things/Mote/Smoke</texPath>
+    </graphicData>
+    <altitudeLayer>Weather</altitudeLayer>
+    <mote>
+      <fadeInTime>0.50</fadeInTime>
+      <solidTime>6</solidTime>
+      <fadeOutTime>3.2</fadeOutTime>
+      <growthRate>0.005</growthRate>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_ColonistFleeingADS</defName>
+    <graphicData>
+      <texPath>Mote/microwaves</texPath>
+    </graphicData>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <mote>
+      <fadeInTime>0.25</fadeInTime>
+      <solidTime>1</solidTime>
+      <fadeOutTime>1.4</fadeOutTime>
+      <attachedDrawOffset>(0.45, 0, 0.45)</attachedDrawOffset>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_Upgraded</defName>
+    <graphicData>
+      <texPath>UI/Upgraded</texPath>
+    </graphicData>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>MetaOverlays</altitudeLayer>
+    <mote>
+      <fadeInTime>0.25</fadeInTime>
+      <solidTime>1</solidTime>
+      <fadeOutTime>0.25</fadeOutTime>
+      <acceleration>(0, 0, 1)</acceleration>
+    </mote>
+  </ThingDef>
+</Defs>

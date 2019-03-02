@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+  <ThingDef ParentName="RimatomicResourceBase" Name="UpgradePart" Abstract="True" Class="Rimatomics.RimatomicsThingDef">
+    <graphicData>
+      <texPath>Things/Item/Resource/Component</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <color>(160,178,181)</color>
+    </graphicData>
+    <soundInteract>Metal_Drop</soundInteract>
+    <soundDrop>Standard_Drop</soundDrop>
+    <passability>PassThroughOnly</passability>
+    <fillPercent>0.1</fillPercent>
+    <drawGUIOverlay>false</drawGUIOverlay>
+    <stackLimit>1</stackLimit>
+    <statBases>
+      <Flammability>10</Flammability>
+      <MarketValue>40</MarketValue>
+      <Mass>5</Mass>
+      <DeteriorationRate>2.0</DeteriorationRate>
+    </statBases>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <intricate>true</intricate>
+    <recipeMaker>
+      <productCount>1</productCount>
+      <workAmount>11000</workAmount>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <effectWorking>Smith</effectWorking>
+      <soundWorking>Recipe_Machining</soundWorking>
+      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>     
+    </recipeMaker>
+  </ThingDef>
+
+
+  <!--CORE-->
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>ReactorConductors</defName>
+    <label>Reactor Conductors</label>
+    <description>Upgrade parts for the Rimatomics nuclear reactor</description>
+    <graphicData>
+      <texPath>Things/Resources/conductors</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <Component>4</Component>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>ReactorShielding</defName>
+    <label>Reactor Shielding</label>
+    <description>Upgrade parts for the Rimatomics nuclear reactor</description>
+    <graphicData>
+      <texPath>Things/Resources/shielding</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>100</Plasteel>
+      <Silver>20</Silver>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>ControlRodActuator</defName>
+    <label>Control Rod Actuator</label>
+    <description>Upgrade parts for the Rimatomics nuclear reactor</description>
+    <graphicData>
+      <texPath>Things/Resources/rodMechanism</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>4</Component>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>BreederComponents</defName>
+    <label>Breeder Components</label>
+    <description>Upgrade parts for the Rimatomics nuclear reactor</description>
+    <graphicData>
+      <texPath>Things/Resources/plutoniumSeeder</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>10</Component>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>NeutronReflectors</defName>
+    <label>Neutron Reflectors</label>
+    <description>Upgrade parts for the Rimatomics nuclear reactor</description>
+    <graphicData>
+      <texPath>Things/Resources/Reflectors</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>200</Plasteel>
+    </costList>
+  </ThingDef>
+
+
+
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>MEPS</defName>
+    <label>MEPS</label>
+    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <graphicData>
+      <texPath>Things/Resources/MEPS</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>3</Component>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>ALC</defName>
+    <label>ALC</label>
+    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <graphicData>
+      <texPath>Things/Resources/heatsink</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Plasteel>150</Plasteel>
+      <Component>2</Component>
+    </costList>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>ERS</defName>
+    <label>ERS</label>
+    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <graphicData>
+      <texPath>Things/Resources/ERS</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>3</Component>
+    </costList>
+  </ThingDef>
+
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>DriveActuator</defName>
+    <label>Drive Actuator</label>
+    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <graphicData>
+      <texPath>Things/Resources/actuator</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>3</Component>
+    </costList>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>TargetingChip</defName>
+    <label>Targeting Chip</label>
+    <description>Upgrade parts for the Rimatomics Railgun</description>
+    <graphicData>
+      <texPath>Things/Resources/chip</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>1000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>2</Component>
+    </costList>
+  </ThingDef>
+
+
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>BeamSplitter</defName>
+    <label>Beam Splitter</label>
+    <description>Upgrade parts for the Rimatomics Obelisk.</description>
+    <graphicData>
+      <texPath>Things/Resources/splitter</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>5</Component>
+    </costList>
+  </ThingDef>
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>LenseModule</defName>
+    <label>Lense Module</label>
+    <description>Upgrade parts for the Rimatomics Obelisk.</description>
+    <graphicData>
+      <texPath>Things/Resources/focus</texPath>
+    </graphicData>
+    <recipeMaker>
+      <workAmount>10000</workAmount>
+      <recipeUsers>
+        <li>TableRimatomicsMachining</li>
+      </recipeUsers>
+    </recipeMaker>
+    <costList>
+      <Component>5</Component>
+    </costList>
+  </ThingDef>
+
+</Defs>

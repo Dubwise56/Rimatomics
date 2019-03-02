@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+   <Apparel_RadiationMask.label>Masque NBC</Apparel_RadiationMask.label>
+  <Apparel_RadiationMask.description>Protége l'utilisateur de l'exposition au radiation par des doublures de protection contre les rayonnements et empêche l'utilisateur d'avoir un contact direct ou une inhalation de poussières ou de gaz radioactif.</Apparel_RadiationMask.description>
+
+  <Apparel_MoppMaskDesert.label>Masque NRBC(désert)</Apparel_MoppMaskDesert.label>
+  <Apparel_MoppMaskDesert.description>Protége l'utilisateur de l'exposition au radiation par des doublures de protection contre les rayonnements et empêche l'utilisateur d'avoir un contact direct ou une inhalation de poussières ou de gaz radioactif de plus cette tenue est adapté pour le combat</Apparel_MoppMaskDesert.description>
+
+  <Apparel_MoppMaskWoodland.label>Masque NRBC(foret)</Apparel_MoppMaskWoodland.label>
+  <Apparel_MoppMaskWoodland.description>Protége l'utilisateur de l'exposition au radiation par des doublures de protection contre les rayonnements et empêche l'utilisateur d'avoir un contact direct ou une inhalation de poussières ou de gaz radioactif de plus cette tenue est adapté pour le combat</Apparel_MoppMaskWoodland.description>
+
+  <Apparel_MoppMaskneige.label>Masque NRBC(neige)</Apparel_MoppMaskneige.label>
+  <Apparel_MoppMaskneige.description>Protége l'utilisateur de l'exposition au radiation par des doublures de protection contre les rayonnements et empêche l'utilisateur d'avoir un contact direct ou une inhalation de poussières ou de gaz radioactif de plus ce masque est adapté pour le combat</Apparel_MoppMaskneige.description>
+
+  <Apparel_RadiationSuit.label>Tenue NBC</Apparel_RadiationSuit.label>
+  <Apparel_RadiationSuit.description>Protége l'utilisateur de l'exposition au radiation par des doublures de protection contre les rayonnements et empêche l'utilisateur d'avoir un contact direct avec des poussières ou des gaz radioactif</Apparel_RadiationSuit.description>
+
+  <Apparel_MoppSuitDesert.label>Tenue NRBC(désert)</Apparel_MoppSuitDesert.label>
+  <Apparel_MoppSuitDesert.description>Protége l'utilisateur de l'exposition au radiation par des doublures de protection contre les rayonnements et empêche l'utilisateur d'avoir un contact direct avec des poussières ou des gaz radioactif de plus cette tenue est adaptée pour le combat</Apparel_MoppSuitDesert.description>
+
+  <Apparel_MoppSuitWoodland.label>Tenue NRBC(foret)</Apparel_MoppSuitWoodland.label>
+  <Apparel_MoppSuitWoodland.description>Protége l'utilisateur de l'exposition au radiation par des doublures de protection contre les rayonnements et empêche l'utilisateur d'avoir un contact direct avec des poussières ou des gaz radioactif de plus cette tenue est adaptée pour le combat</Apparel_MoppSuitWoodland.description>
+
+  <Apparel_MoppSuitneige.label>Tenue NRBC(neige)</Apparel_MoppSuitneige.label>
+  <Apparel_MoppSuitneige.description>Protége l'utilisateur de l'exposition au radiation par des doublures de protection contre les rayonnements et empêche l'utilisateur d'avoir un contact direct avec des poussières ou des gaz radioactif de plus cette tenue est adaptée pour le combat</Apparel_MoppSuitneige.description>
+
+
+
+</LanguageData>

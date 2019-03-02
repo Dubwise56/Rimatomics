@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Radiation.label>radiation sensitivity</Radiation.label>
+  <Radiation.description>Multiplier on the impact of radiation buildup on this character.</Radiation.description>
+
+  <CraftingResearchSpeed.label>Crafting research speed</CraftingResearchSpeed.label>
+  <CraftingResearchSpeed.description>This person does Crafting research at this speed.</CraftingResearchSpeed.description>
+
+  <ConstructionResearchSpeed.label>Construction research speed</ConstructionResearchSpeed.label>
+  <ConstructionResearchSpeed.description>This person does Construction research at this speed.</ConstructionResearchSpeed.description>
+
+
+</LanguageData>

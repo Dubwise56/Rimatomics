@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <Apparel_RadiationMask.label>Máscara de radiación</Apparel_RadiationMask.label>
+    <Apparel_RadiationMask.description>Protege contra la radiación gracias al blindaje en su revestimiento, pero lo mas importante, al prevenir el contacto directo con o por inhalación de partículas o gas radiactivo.</Apparel_RadiationMask.description>
+    
+    <Apparel_MoppMaskDesert.label>Máscara MOPP (Desierto)</Apparel_MoppMaskDesert.label>
+    
+    <Apparel_MoppMaskWoodland.label>Máscara MOPP (Bosque)</Apparel_MoppMaskWoodland.label>
+    
+    <Apparel_MoppMaskSnow.label>Máscara MOPP (Nieve)</Apparel_MoppMaskSnow.label>
+    
+    <Apparel_RadiationSuit.label>Traje de radiación</Apparel_RadiationSuit.label>
+    <Apparel_RadiationSuit.description>Un traje que protege contra la radiación gracias al blindaje en su revestimiento.</Apparel_RadiationSuit.description>
+    
+    <Apparel_MoppSuitDesert.label>Traje MOPP (Desierto)</Apparel_MoppSuitDesert.label>
+    
+    <Apparel_MoppSuitWoodland.label>Traje MOPP (Bosque)</Apparel_MoppSuitWoodland.label>
+    
+    <Apparel_MoppSuitSnow.label>Traje MOPP (Nieve)</Apparel_MoppSuitSnow.label>
+    
+</LanguageData>

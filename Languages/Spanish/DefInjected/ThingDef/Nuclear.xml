@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <RocketEngine.label>Motor de cohete</RocketEngine.label>
+    <RocketEngine.description>Motor de cohete.</RocketEngine.description>
+    
+    <ReactorComponents.label>Componentes de reactor</ReactorComponents.label>
+    <ReactorComponents.description>Componentes especiales reforzados y blindados para uso en reactores.</ReactorComponents.description>
+    
+    <turbineBlade.label>Cuchilla de turbina</turbineBlade.label>
+    <turbineBlade.description>Usada en la construcción de generadores.</turbineBlade.description>
+    
+    <Plutonium.label>Plutonio</Plutonium.label>
+    <Plutonium.description>Una caja de plutonio, puede ser usada para crear armas nucleares o barras de combustible nuclear.</Plutonium.description>
+    
+    <UraniumPellets.label>Bolitas de Uranio</UraniumPellets.label>
+    <UraniumPellets.description>Bolitas de uranio usadas en la construcción de barras de combustible nuclear.</UraniumPellets.description>
+    
+    <FissionWarhead.label>Cabeza nuclear (fisión)</FissionWarhead.label>
+    <FissionWarhead.description>Un artefacto explosivo que debe su fuerza destructiva a reacciones nucleares, este diseño usa fisión y genera una explosión mas pequeña.</FissionWarhead.description>
+    
+    <RailgunSabot.label>Sabot de cañon de tren</RailgunSabot.label>
+    <RailgunSabot.description>Un proyectil de energía cinética disparado desde un cañon de tren.</RailgunSabot.description>
+    
+    <FuelRods.label>Barras de combustible</FuelRods.label>
+    <FuelRods.description>Un grupo de barras llenas con bolitas de uranio, cuando se cargan en el núcleo de un reactor generan calor el cual puede ser usado para impulsar una turbina.</FuelRods.description>
+    
+    <ChunkRadioactiveSlag.label>Escombro radiactivo</ChunkRadioactiveSlag.label>
+    
+    <ChunkRadioactiveSlagSmolder.label>Escombro radiactivo</ChunkRadioactiveSlagSmolder.label>
+    
+    <NuclearWaste.label>Desecho radiactivo</NuclearWaste.label>
+    <NuclearWaste.description>Un barril con desecho radiactivo.</NuclearWaste.description>
+    
+    <ThrownSlag.label>Escombro lanzado</ThrownSlag.label>
+    
+</LanguageData>

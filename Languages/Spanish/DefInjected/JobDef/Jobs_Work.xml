@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <RimatomicsResearch.reportString>Investigando en la TargetA.</RimatomicsResearch.reportString>
+    
+    <UpgradeBuilding.reportString>Mejorando TargetA.</UpgradeBuilding.reportString>
+    
+    <FleeADS.reportString>Huyendo del TargetA.</FleeADS.reportString>
+    
+    <OperateValve.reportString>Operando TargetA.</OperateValve.reportString>
+    
+    <FlickReactorConsole.reportString>Accionando TargetA.</FlickReactorConsole.reportString>
+    
+    <LoadRailgunMagazine.reportString>Cargando proveedores para el TargetA.</LoadRailgunMagazine.reportString>
+    
+<!--     <UseStoragePoolConsole.reportString>Usando la TargetA.</UseStoragePoolConsole.reportString> -->
+    
+    <UseReactorConsole.reportString>Usando la TargetA.</UseReactorConsole.reportString>
+    
+    <HaulModuletoCore.reportString>Acarreando TargetB a TargetA.</HaulModuletoCore.reportString>
+    
+    <RemoveFuelModule.reportString>Retirando barras de combustible del TargetA.</RemoveFuelModule.reportString>
+    
+    <LoadSpentFuel.reportString>Acarreando TargetB en TargetA.</LoadSpentFuel.reportString>
+    
+    <UnloadPlutonium.reportString>Retirando Plutonio del TargetA.</UnloadPlutonium.reportString>
+    
+    <RepairCore.reportString>Reparando el TargetA.</RepairCore.reportString>
+    
+</LanguageData>

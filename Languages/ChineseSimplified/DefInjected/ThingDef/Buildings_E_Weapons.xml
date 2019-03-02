@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PPC.label>脉冲电池</PPC.label>
+  <PPC.description>可以存储大量的电能，足以应付能量武器的高强度电能消耗。</PPC.description>
+  <PPC_Blueprint.label>脉冲电池(蓝图)</PPC_Blueprint.label>
+  <PPC_Frame.label>脉冲电池(建造中)</PPC_Frame.label>
+  <PPC_Frame.description>可以存储大量的电能，足以应付能量武器的高强度电能消耗。</PPC_Frame.description>
+
+  <PPCWeaponsConsole.label>能量武器控制台</PPCWeaponsConsole.label>
+  <PPCWeaponsConsole.description>用于探测目标和操控能量武器的智能计算机。</PPCWeaponsConsole.description>
+  <PPCWeaponsConsole_Blueprint.label>能量武器控制台(蓝图)</PPCWeaponsConsole_Blueprint.label>
+  <PPCWeaponsConsole_Frame.label>能量武器控制台(建造中)</PPCWeaponsConsole_Frame.label>
+  <PPCWeaponsConsole_Frame.description>用于探测目标和操控能量武器的智能计算机。</PPCWeaponsConsole_Frame.description>
+
+  <RadarDish.label>警戒雷达</RadarDish.label>
+  <RadarDish.description>警戒雷达采用了一系列先进技术来跟踪地面和空中目标。</RadarDish.description>
+  <RadarDish_Blueprint.label>警戒雷达(蓝图)</RadarDish_Blueprint.label>
+  <RadarDish_Frame.label>警戒雷达(建造中)</RadarDish_Frame.label>
+  <RadarDish_Frame.description>警戒雷达采用了一系列先进技术来跟踪地面和空中目标。</RadarDish_Frame.description>
+
+  <PPCADS.label>主动御敌系统</PPCADS.label>
+  <PPCADS.description>主动御敌系统是一种针对性能量武器，它发射的毫米波能让目标皮肤水份沸腾，产生无法忍受的痛苦，需要能量武器控制台操纵和脉冲电池供能。</PPCADS.description>
+  <PPCADS_Blueprint.label>主动御敌系统(蓝图)</PPCADS_Blueprint.label>
+  <PPCADS_Frame.label>主动御敌系统(建造中)</PPCADS_Frame.label>
+  <PPCADS_Frame.description>主动御敌系统是一种针对性能量武器，它发射的毫米波能让目标皮肤水份沸腾，产生无法忍受的痛苦，需要能量武器控制台操纵和脉冲电池供能。</PPCADS_Frame.description>
+
+  <PPCTeslaCoil.label>磁暴线圈</PPCTeslaCoil.label>
+  <PPCTeslaCoil.description>瞬间向范围内的任一目标释放强大的电弧，近距离武器。需要能量武器控制台操纵和脉冲电池供能。</PPCTeslaCoil.description>
+  <PPCTeslaCoil_Blueprint.label>磁暴线圈(蓝图)</PPCTeslaCoil_Blueprint.label>
+  <PPCTeslaCoil_Frame.label>磁暴线圈(建造中)</PPCTeslaCoil_Frame.label>
+  <PPCTeslaCoil_Frame.description>瞬间向范围内的任一目标释放强大的电弧，近距离武器。需要能量武器控制台操纵和脉冲电池供能。</PPCTeslaCoil_Frame.description>
+
+  <PPCHEL.label>激光点防御</PPCHEL.label>
+  <PPCHEL.description>激光点防御炮台使用高能激光来摧毁空中来袭的炮弹。需要能量武器控制台操纵和脉冲电池供能。</PPCHEL.description>
+  <PPCHEL_Blueprint.label>激光点防御(蓝图)</PPCHEL_Blueprint.label>
+  <PPCHEL_Frame.label>激光点防御(建造中)</PPCHEL_Frame.label>
+  <PPCHEL_Frame.description>激光点防御炮台使用高能激光来摧毁空中来袭的炮弹。需要能量武器控制台操纵和脉冲电池供能。</PPCHEL_Frame.description>
+
+  <PPCRailgun.label>磁轨炮</PPCRailgun.label>
+  <PPCRailgun.description>使用高能电磁脉冲将炮弹发射到极远处，拥有极大范围的火力覆盖。需要能量武器控制台操纵和脉冲电池供能。</PPCRailgun.description>
+  <PPCRailgun_Blueprint.label>磁轨炮(蓝图)</PPCRailgun_Blueprint.label>
+  <PPCRailgun_Frame.label>磁轨炮(建造中)</PPCRailgun_Frame.label>
+  <PPCRailgun_Frame.description>使用高能电磁脉冲将炮弹发射到极远处，拥有极大范围的火力覆盖。需要能量武器控制台操纵和脉冲电池供能。</PPCRailgun_Frame.description>
+
+  <Artillery_PPCRailgun.label>磁轨炮弹</Artillery_PPCRailgun.label>
+  <Artillery_PPCRailgun.description>无视障碍物，精度不高但覆盖范围很广。</Artillery_PPCRailgun.description>
+
+  <Bullet_PPCRailgun.label>磁轨炮弹</Bullet_PPCRailgun.label>
+
+  <PPCObelisk.label>光棱塔</PPCObelisk.label>
+  <PPCObelisk.description>使用聚能激光灼烧目标的定向能量武器。精度高射程远，需要能量武器控制台操纵和脉冲电池供能。</PPCObelisk.description>
+  <PPCObelisk_Blueprint.label>光棱塔(蓝图)</PPCObelisk_Blueprint.label>
+  <PPCObelisk_Frame.label>光棱塔(建造中)</PPCObelisk_Frame.label>
+  <PPCObelisk_Frame.description>使用聚能激光灼烧目标的定向能量武器。精度高射程远，需要能量武器控制台操纵和脉冲电池供能。</PPCObelisk_Frame.description>
+
+
+  <!-- ICBM -->
+
+  <ICBMfission.label>洲际弹道核导弹</ICBMfission.label>
+  <ICBMfission.description>携带有核弹头的洲际弹道导弹，用于远程打击。</ICBMfission.description>
+  <ICBMfission_Blueprint.label>洲际弹道核导弹(蓝图)</ICBMfission_Blueprint.label>
+  <ICBMfission_Frame.label>洲际弹道核导弹(建造中)</ICBMfission_Frame.label>
+  <ICBMfission_Frame.description>携带有核弹头的洲际弹道导弹，用于远程打击。</ICBMfission_Frame.description>
+
+  <LaunchPad.label>导弹发射台</LaunchPad.label>
+  <LaunchPad.description>用于发射洲际弹道导弹的垂直地基发射平台。</LaunchPad.description>
+  <LaunchPad_Blueprint.label>导弹发射台(蓝图)</LaunchPad_Blueprint.label>
+  <LaunchPad_Frame.label>导弹发射台(建造中)</LaunchPad_Frame.label>
+  <LaunchPad_Frame.description>用于发射洲际弹道导弹的垂直地基发射平台。</LaunchPad_Frame.description>
+
+
+  <!-- <ThingDef ParentName="BasedWeapon">
+    <defName>MissileSilo</defName>
+    <label>Missile Silo</label>
+    <thingClass>Rimatomics.MissileSilo</thingClass>
+    <fillPercent>0.2</fillPercent>
+    <description>A launch pad is an above-ground platform from which a rocket-powered missile is vertically launched.</description>
+    <graphicData>
+      <texPath>Things/RimatomicsBuildings/silo</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(10,7)</drawSize>
+    </graphicData>
+    <category>Building</category>
+    <passability>Standable</passability>
+    <surfaceType>Item</surfaceType>
+    <altitudeLayer>Building</altitudeLayer>
+    <rotatable>false</rotatable>
+    <tickerType>Normal</tickerType>
+    <selectable>true</selectable>
+    <size>(8,5)</size>
+    <castEdgeShadows>true</castEdgeShadows>
+    <blockWind>false</blockWind>
+    <constructEffect>ConstructMetal</constructEffect>
+    <staticSunShadowHeight>0.2</staticSunShadowHeight>
+    <drawOffscreen>true</drawOffscreen>
+    <costList>
+      <Steel>400</Steel>
+      <Component>4</Component>
+    </costList>
+    <statBases>
+      <MaxHitPoints>500</MaxHitPoints>
+      <WorkToBuild>1000</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>-30</Beauty>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+      <li Class="CompProperties_Breakdownable"/>
+    </comps>
+    <placeWorkers>
+      <li>Rimatomics.PlaceWorker_LaunchPad</li>
+      <li>PlaceWorker_NotUnderRoof</li>
+    </placeWorkers>
+    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rimatomicsPrerequisites>
+      <li>ICBM3</li>
+    </rimatomicsPrerequisites>
+  </ThingDef> -->
+
+  <notReal.label>不真实的</notReal.label>
+
+
+</LanguageData>

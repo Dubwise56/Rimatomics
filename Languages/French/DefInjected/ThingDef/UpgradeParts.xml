@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CORE -->
+
+   <ReactorConductors.label>Conducteur de chaleur</ReactorConductors.label>
+  <ReactorConductors.description>Amélioration du réacteur</ReactorConductors.description>
+
+  <ReactorShielding.label>Plaques de plomb</ReactorShielding.label>
+  <ReactorShielding.description>Amélioration du réacteur</ReactorShielding.description>
+
+  <ControlRodActuator.label>Actionneur barre de controle</ControlRodActuator.label>
+  <ControlRodActuator.description>Amélioration de réacteur</ControlRodActuator.description>
+
+  <BreederComponents.label>Surgénérateur</BreederComponents.label>
+  <BreederComponents.description>Amélioration du réacteur</BreederComponents.description>
+
+  <NeutronReflectors.label>Réflecteur à neutron</NeutronReflectors.label>
+  <NeutronReflectors.description>Amélioration du réacteur</NeutronReflectors.description>
+
+  <MEPS.label>SAM</MEPS.label>
+  <MEPS.description>Le SAM(Système d'Alimentation Modulaire) est une amélioration pour les armes</MEPS.description>
+
+  <ALC.label>SRA</ALC.label>
+  <ALC.description>Le SRA(Système de Refroidissement Avancé) est une amélioration pour les armes</ALC.description>
+
+  <ERS.label>SRE</ERS.label>
+  <ERS.description>Le SRE(Système de Récupération d'Energie) est une amélioration pour les armes</ERS.description>
+
+  <DriveActuator.label>Actionneur</DriveActuator.label>
+  <DriveActuator.description>L'Actionneur est une amélioration pour les armes</DriveActuator.description>
+
+  <TargetingChip.label>Puce de visée</TargetingChip.label>
+  <TargetingChip.description>La puce de visée est une amélioration pour les armes</TargetingChip.description>
+
+  <BeamSplitter.label>Séparateur de rayon</BeamSplitter.label>
+  <BeamSplitter.description>Le séparateur de rayon est une amélioration pour l'obélisque</BeamSplitter.description>
+
+  <LenseModule.label>Module Optique</LenseModule.label>
+  <LenseModule.description>Le module optique est une amélioration pour l'obélisque</LenseModule.description>
+
+
+
+</LanguageData>

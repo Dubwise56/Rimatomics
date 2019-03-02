@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- <IncidentDef>
+    <defName>QuestMissileCamp</defName>
+    <label>missile base</label>
+    <targetType>World</targetType>
+    <workerClass>Rimatomics.IncidentWorker_QuestICBM</workerClass>
+    <letterLabel>Bandit camp opportunity</letterLabel>
+    <letterText>{0}, {1} of {2}, has sent us a message.\n\nApparently bandits based in a nearby camp have been raiding their caravans. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}</letterText>
+    <letterDef>BadUrgent</letterDef>
+    <baseChance>1.3</baseChance>
+    <minRefireDays>5</minRefireDays>
+    <chanceFactorByPopulationCurve>
+      <points>
+        <li>(3,0)</li>
+        <li>(7,1)</li>
+      </points>
+    </chanceFactorByPopulationCurve>
+    <category>ThreatBig</category>
+    <pointsScaleable>true</pointsScaleable>
+    <minThreatPoints>450</minThreatPoints>
+  </IncidentDef>
+
+ <IncidentDef>
+    <defName>RimatomicsTraderActivated</defName>
+    <label>rimatomics trader activated</label>
+    <targetType>MapPlayerHome</targetType>
+    <workerClass>Rimatomics.IncidentWorker_RimatomicsTraderActivate</workerClass>
+    <baseChance>10</baseChance>
+    <earliestDay>30</earliestDay>
+    <category>Misc</category>
+  </IncidentDef> -->
+
+  <Overcurrent.label>Overcurrent</Overcurrent.label>
+  <Overcurrent.letterText>Overcurrent in the powerlines has caused an electrical fire.</Overcurrent.letterText>
+  <Overcurrent.letterLabel>Electrical Fire</Overcurrent.letterLabel>
+
+  <TransformerExplosion.label>Transformer Explosion</TransformerExplosion.label>
+  <TransformerExplosion.letterText>Overcurrent in a transformer has caused the circuits to fry.</TransformerExplosion.letterText>
+  <TransformerExplosion.letterLabel>Transformer Explosion</TransformerExplosion.letterLabel>
+
+  <CrackedFuel.label>Cracked Fuel Rods</CrackedFuel.label>
+  <CrackedFuel.letterText>Stress on the reactor core has caused a fuel assembly to crack.</CrackedFuel.letterText>
+  <CrackedFuel.letterLabel>Cracked Fuel Rods</CrackedFuel.letterLabel>
+
+  <SteamBurst.label>Steam Burst</SteamBurst.label>
+  <SteamBurst.letterText>Extreme pressure has caused a steam pipe to burst.</SteamBurst.letterText>
+  <SteamBurst.letterLabel>Steam Burst</SteamBurst.letterLabel>
+
+  <notNothing.label>?</notNothing.label>
+  <notNothing.letterText>?</notNothing.letterText>
+  <notNothing.letterLabel>?</notNothing.letterLabel>
+
+
+</LanguageData>

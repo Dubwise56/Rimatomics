@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Radiation.label>Sensibilité au rayonnement</Radiation.label>
+  <Radiation.description>Le multiplicateur qui affecte la personne.</Radiation.description>
+
+  <CraftingResearchSpeed.label>Vitesse de fabrication (recherche)</CraftingResearchSpeed.label>
+  <CraftingResearchSpeed.description>Ce colon éffectue les fabrications pour la recherche à cette vitesse.</CraftingResearchSpeed.description>
+
+  <ConstructionResearchSpeed.label>Vitesse de construction (recherche)</ConstructionResearchSpeed.label>
+  <ConstructionResearchSpeed.description>Ce colon éffectue les construction pour la recherche à cette vitesse.</ConstructionResearchSpeed.description>
+
+
+</LanguageData>

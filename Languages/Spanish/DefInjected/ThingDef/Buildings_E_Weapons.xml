@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    
+    <PPC.label>PPC</PPC.label>    
+    <PPC.description>El Contenedor de Energía por Pulsos (PPC por sus siglas en Inglés) almacena grandes cantidades de energía que puede ser descargada en un solo pulso por armas de energía.</PPC.description>
+    
+    <PPCWeaponsConsole.label>Consola de armas</PPCWeaponsConsole.label>
+    <PPCWeaponsConsole.description>La consola de armas es una computadora de adquisición de objetivos tripulada que requieren todas las armas de energía.</PPCWeaponsConsole.description>
+    
+    <RadarDish.label>Sistema de adquisición de objetivos</RadarDish.label>
+    <RadarDish.description>El sistema de adquisición de objetivos usa una combinación de tecnologías para rastrear objetivos terrestres y aéreos.</RadarDish.description>
+    
+    <PPCADS.label>ADS</PPCADS.label>
+    <PPCADS.description>El Sistema de Negación Activa (ADS por sus siglas en Inglés) es un arma de energía dirigida que usa microondas para quemar grupos de enemigos forzandolos a huir. Requiere una consola de armas y un PPC para energía.</PPCADS.description>
+   
+    <PPCTeslaCoil.label>Bobina de Tesla</PPCTeslaCoil.label>
+    <PPCTeslaCoil.description>Lanza una enorme descarga eléctrica a cualquier cosa dentro del rango. Rango reducido. Requiere de una consola de armas y un PPC para energía.</PPCTeslaCoil.description>
+    
+    <PPCHEL.label>HEL</PPCHEL.label>
+    <PPCHEL.description>El Láser de Alta Energía (HEL por sus siglas en Inglés), es un arma que usa laser para destruir proyectiles en el aire. Requiere de una consola de armas y un PPC para energía.</PPCHEL.description>
+    
+    <PPCRailgun.label>Cañon de tren</PPCRailgun.label>
+    <PPCRailgun.description>Un arma que usa un gran pulso electromagnético para lanzar un proyectil a rangos extremos. Requiere de una consola de armas y un PPC para energía.</PPCRailgun.description>
+    
+    <Artillery_PPCRailgun.label>Mortero explosivo</Artillery_PPCRailgun.label>
+    <Artillery_PPCRailgun.description>Lanzador de morteros. Manda bombas por sobre las paredes. Muy impreciso pero de rango muy alto.</Artillery_PPCRailgun.description>
+    
+    <Bullet_PPCRailgun.label>Proyectíl de mortero explosivo</Bullet_PPCRailgun.label>
+    
+    <PPCObelisk.label>Obelisco</PPCObelisk.label>
+    <PPCObelisk.description>Un arma de energía dirigida que usa un láser enfocado para quemar los objetivos. Altamente preciso y con largo alcance. Requiere de una consola de armas y un PPC para energía.</PPCObelisk.description>
+    
+    <ICBMfission.label>ICBM de fisión</ICBMfission.label>
+    <ICBMfission.description>Un misíl balístico intercontinental (ICBM por sus siglas en Inglés) es un misíl balístico guiado diseñado primordialmente para el lanzamiento de armas nucleares, este está acondicionado con una cabeza de fisión nuclear.</ICBMfission.description>
+    
+    <LaunchPad.label>Plataforma de lanzamiento</LaunchPad.label>
+    <LaunchPad.description>Una plataforma de lanzamiento es una plataforma por encima del suelo desde donde un cohete puede ser lanzado verticalmente.</LaunchPad.description>
+    
+</LanguageData>

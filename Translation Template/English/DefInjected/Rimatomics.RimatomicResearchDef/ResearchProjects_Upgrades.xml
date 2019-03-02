@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ResearchReactorConductors.ResearchLabel>Reactor Conductors</ResearchReactorConductors.ResearchLabel>
+  <ResearchReactorConductors.ResearchDesc>Increase the power output from the the core by improving the heat conductivity between the fuel and water, increases power output by up to 15%.</ResearchReactorConductors.ResearchDesc>
+  <ResearchReactorConductors.ResearchDescDisc>You can now produce the conductor parts at the Rimatomics machining table, to install them into a reactor core select the core and designate the reactor Conductors for installation, the reactor must then be shut down before they can be installed</ResearchReactorConductors.ResearchDescDisc>
+
+  <ResearchNeutronReflectors.ResearchLabel>Neutron reflectors</ResearchNeutronReflectors.ResearchLabel>
+  <ResearchNeutronReflectors.ResearchDesc>Improve the flux rate by using redesigned neutron reflectors to trap more neutrons and also improve the flux shape, this increases the maximum flux by 25%, fuel usage still scales with increased flux.</ResearchNeutronReflectors.ResearchDesc>
+  <ResearchNeutronReflectors.ResearchDescDisc>You can now produce the neutron reflector parts at the Rimatomics machining table, to install them into a reactor core select the core and designate the neutron reflectors for installation, the reactor must then be shut down before it can be installed</ResearchNeutronReflectors.ResearchDescDisc>
+
+  <ResearchBreeder.ResearchLabel>Breeder Conversion</ResearchBreeder.ResearchLabel>
+  <ResearchBreeder.ResearchDesc>Convert the reactor into a breeder reactor, This increases the conversion rate of fissile material to produce more fuel than is consumed, this is achieved by converting the core from moderated thermal neutrons to unmoderated fast neutrons. Beware the power output will increase as the fuel breeds and cooling capacity or flux rate may need to be adjusted</ResearchBreeder.ResearchDesc>
+  <ResearchBreeder.ResearchDescDisc>You can now produce the components required for the breeder conversion at the Rimatomics machining table, to convert a reactor core select the core and designate the breeder conversion for installation, the reactor must then be shut down before it can be installed</ResearchBreeder.ResearchDescDisc>
+
+  <ResearchReactorShielding.ResearchLabel>Reactor Shielding</ResearchReactorShielding.ResearchLabel>
+  <ResearchReactorShielding.ResearchDesc>Increase the amount of radiation shielding around the reactor core to reduce the risk of radiation exposure to workers.</ResearchReactorShielding.ResearchDesc>
+  <ResearchReactorShielding.ResearchDescDisc>You can now produce the reactor shielding parts at the Rimatomics machining table, to install them into a reactor core select the core and designate the reactor shielding for installation, the reactor must then be shut down before it can be installed</ResearchReactorShielding.ResearchDescDisc>
+
+  <ResearchControlRodActuators.ResearchLabel>Control Rod Actuators</ResearchControlRodActuators.ResearchLabel>
+  <ResearchControlRodActuators.ResearchDesc>Increase the speed of the control rods, this increases the responsiveness of flux level changes, and increases the shutdown speed</ResearchControlRodActuators.ResearchDesc>
+  <ResearchControlRodActuators.ResearchDescDisc>You can now produce the Control Rod Actuators at the Rimatomics machining table, to install them into a reactor core select the core and designate the Control Rod Actuators for installation, the reactor must then be shut down before it can be installed</ResearchControlRodActuators.ResearchDescDisc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <ResearchGuidenceSystem.ResearchLabel>Guidence System</ResearchGuidenceSystem.ResearchLabel>
+  <ResearchGuidenceSystem.ResearchDesc>Increase the range and reliability of the ICBM's, Test the system by test launching missiles on any target to gather data for analysis.</ResearchGuidenceSystem.ResearchDesc>
+  <ResearchGuidenceSystem.ResearchDescDisc>The Guidence system upgrades are now complete, all ICBM's are now automatically equipped with these upgrades and the maximum range has been increased to 120 world tiles.</ResearchGuidenceSystem.ResearchDescDisc>
+
+  <ResearchMEPS.ResearchLabel>MEPS</ResearchMEPS.ResearchLabel>
+  <ResearchMEPS.ResearchDesc>The Modular Electric Power System (MEPS) is an ultra-capacitor that can interface with the power delivery system of any Rimatomics energy weapon to boost its maximum power, the extra power may be handled differently by each energy weapon</ResearchMEPS.ResearchDesc>
+  <ResearchMEPS.ResearchDescDisc>You can now produce MEPS modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon, select the weapon and designate the MEPS module for installation</ResearchMEPS.ResearchDescDisc>
+
+  <ResearchALC.ResearchLabel>ALC</ResearchALC.ResearchLabel>
+  <ResearchALC.ResearchDesc>The Advanced Liquid Cooler (ALC) is a universal cooling system designed to work with all Rimatomics energy weapons, by increasing the cooling capacity of the weapon and its power deliver systems, cooldown times can be dramatically reduced and fire rates increased.</ResearchALC.ResearchDesc>
+  <ResearchALC.ResearchDescDisc>You can now produce ALC modules the Rimatomics machining table, to install them into a Rimatomics energy weapon, select the weapon and designate the ALC module for installation</ResearchALC.ResearchDescDisc>
+
+  <ResearchERS.ResearchLabel>ERS</ResearchERS.ResearchLabel>
+  <ResearchERS.ResearchDesc>The Energy Recovery System (ERS) uses a combination of energy recovery techniques to harvest waste kinetic and heat energy and return it to PPC's after a weapon has been fired.</ResearchERS.ResearchDesc>
+  <ResearchERS.ResearchDescDisc>You can now produce ERS modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon, select the weapon and designate the ERS Module for installation</ResearchERS.ResearchDescDisc>
+
+  <ResearchDriveActuator.ResearchLabel>Drive Actuator</ResearchDriveActuator.ResearchLabel>
+  <ResearchDriveActuator.ResearchDesc>Improve stabilization accuracy and slew rates for turret based Rimatomics energy weapons. This high torque motor eliminates the need for a gearbox between the motor and load and provides low drive inertia for superior stabilization performance and high stiffness with a backlash free coupling</ResearchDriveActuator.ResearchDesc>
+  <ResearchDriveActuator.ResearchDescDisc>You can now produce Drive Actuators at the Rimatomics machining table, to install them into a turret based energy weapon, select the weapon and designate the Drive Actuator for installation</ResearchDriveActuator.ResearchDescDisc>
+
+  <ResearchRailgun_TargetingChip.ResearchLabel>Targeting Chip</ResearchRailgun_TargetingChip.ResearchLabel>
+  <ResearchRailgun_TargetingChip.ResearchDesc>Increase the range and accuracy of the Railgun, Test the system on any targets to gather data for analysis.</ResearchRailgun_TargetingChip.ResearchDesc>
+  <ResearchRailgun_TargetingChip.ResearchDescDisc>You can now produce Targeting chips at the Rimatomics machining table, to install them into a Railgun, select a Railgun and designate the Targeting chip for installation</ResearchRailgun_TargetingChip.ResearchDescDisc>
+
+  <ResearchObelisk_LenseModule.ResearchLabel>Obelisk Lense Module</ResearchObelisk_LenseModule.ResearchLabel>
+  <ResearchObelisk_LenseModule.ResearchDesc>The effective range of the Obelisk can be increased by improving the focusing and collimating of the main beam</ResearchObelisk_LenseModule.ResearchDesc>
+  <ResearchObelisk_LenseModule.ResearchDescDisc>You can now produce Lense Module's at the Rimatomics machining table, to install them into an Obelisk, select the Obelisk and designate the Lense Module for installation</ResearchObelisk_LenseModule.ResearchDescDisc>
+
+  <ResearchObelisk_BeamSplitter.ResearchLabel>Obelisk Beam Splitter</ResearchObelisk_BeamSplitter.ResearchLabel>
+  <ResearchObelisk_BeamSplitter.ResearchDesc>The Obelisks laser can be split using a beam splitter, the secondary beam is tuned to a particular wavelength and polarization state which disables personal shields, the primary beam is delayed by a fraction of a second and then delivered with full power to the target</ResearchObelisk_BeamSplitter.ResearchDesc>
+  <ResearchObelisk_BeamSplitter.ResearchDescDisc>You can now produce Beam splitters's at the Rimatomics machining table, to install them into an Obelisk, select the Obelisk and designate the Beam splitter for installation</ResearchObelisk_BeamSplitter.ResearchDescDisc>
+
+
+</LanguageData>

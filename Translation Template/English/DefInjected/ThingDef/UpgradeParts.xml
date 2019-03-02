@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CORE -->
+
+  <ReactorConductors.label>Reactor Conductors</ReactorConductors.label>
+  <ReactorConductors.description>Upgrade parts for the Rimatomics nuclear reactor</ReactorConductors.description>
+
+  <ReactorShielding.label>Reactor Shielding</ReactorShielding.label>
+  <ReactorShielding.description>Upgrade parts for the Rimatomics nuclear reactor</ReactorShielding.description>
+
+  <ControlRodActuator.label>Control Rod Actuator</ControlRodActuator.label>
+  <ControlRodActuator.description>Upgrade parts for the Rimatomics nuclear reactor</ControlRodActuator.description>
+
+  <BreederComponents.label>Breeder Components</BreederComponents.label>
+  <BreederComponents.description>Upgrade parts for the Rimatomics nuclear reactor</BreederComponents.description>
+
+  <NeutronReflectors.label>Neutron Reflectors</NeutronReflectors.label>
+  <NeutronReflectors.description>Upgrade parts for the Rimatomics nuclear reactor</NeutronReflectors.description>
+
+  <MEPS.label>MEPS</MEPS.label>
+  <MEPS.description>Upgrade parts for Rimatomics energy weapons</MEPS.description>
+
+  <ALC.label>ALC</ALC.label>
+  <ALC.description>Upgrade parts for Rimatomics energy weapons</ALC.description>
+
+  <ERS.label>ERS</ERS.label>
+  <ERS.description>Upgrade parts for Rimatomics energy weapons</ERS.description>
+
+  <DriveActuator.label>Drive Actuator</DriveActuator.label>
+  <DriveActuator.description>Upgrade parts for Rimatomics energy weapons</DriveActuator.description>
+
+  <TargetingChip.label>Targeting Chip</TargetingChip.label>
+  <TargetingChip.description>Upgrade parts for the Rimatomics Railgun</TargetingChip.description>
+
+  <BeamSplitter.label>Beam Splitter</BeamSplitter.label>
+  <BeamSplitter.description>Upgrade parts for the Rimatomics Obelisk.</BeamSplitter.description>
+
+  <LenseModule.label>Lense Module</LenseModule.label>
+  <LenseModule.description>Upgrade parts for the Rimatomics Obelisk.</LenseModule.description>
+
+
+</LanguageData>
