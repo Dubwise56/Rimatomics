@@ -3,6 +3,6 @@
 <Manifest>
   <identifier>Rimatomics</identifier>
   <version>1.6.716</version>
-  <manifestUri>https://github.com/Dubwise56/Rimatomics/master/About/Manifest.xml</manifestUri>
+  <manifestUri>https://raw.githubusercontent.com/Dubwise56/Rimatomics/master/About/Manifest.xml</manifestUri>
   <downloadUri>https://github.com/Dubwise56/Rimatomics/releases/latest</downloadUri>
 </Manifest>
