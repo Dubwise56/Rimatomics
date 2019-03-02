@@ -2,50 +2,6 @@
 <Defs>
 
   <IncidentDef>
-    <defName>Quest_SCUD_Camp</defName>
-    <label>missile base</label>
-    <category>WorldQuest</category>
-    <targetTags>
-      <li>World</li>
-    </targetTags>
-    <workerClass>Rimatomics.IncidentWorker_Quest_SCUD</workerClass>
-    <letterLabel>Missile Base</letterLabel>
-    <letterText>{0}, {1} of {2}, has sent us a message.\n\nApparently pirates from {3} based in a nearby camp have built a missile base. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}</letterText>
-    <letterDef>NeutralEvent</letterDef>
-    <baseChance>1</baseChance>
-  
-</IncidentDef>
-
-  <IncidentDef>
-    <defName>Quest_SCUD_Chem_Camp</defName>
-    <label>chemical weapons base</label>
-    <category>WorldQuest</category>
-    <targetTags>
-      <li>World</li>
-    </targetTags>
-    <workerClass>Rimatomics.IncidentWorker_Quest_SCUD_Chem</workerClass>
-    <letterLabel>Missile Base</letterLabel>
-    <letterText>{0}, {1} of {2}, has sent us a message.\n\nApparently pirates from {3} based in a nearby camp have build a missile base. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}</letterText>
-    <letterDef>NeutralEvent</letterDef>
-    <baseChance>1</baseChance>
-
-  </IncidentDef>
-  
-  <IncidentDef>
-    <defName>Quest_ICBM_Base</defName>
-    <label>ICBM base</label>
-    <category>WorldQuest</category>
-    <targetTags>
-      <li>World</li>
-    </targetTags>
-    <workerClass>Rimatomics.IncidentWorker_Quest_ICBM</workerClass>
-    <letterLabel>Missile Base</letterLabel>
-    <letterText>{0}, {1} of {2}, has sent us a message.\n\nApparently pirates from {3} based in a nearby base have been setting up a large missile of some kind. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}</letterText>
-    <letterDef>NeutralEvent</letterDef>
-    <baseChance>1</baseChance>
-  </IncidentDef>
-
-  <IncidentDef>
     <defName>TransformerExplosion</defName>
     <label>Transformer Explosion</label>
     <letterLabel>Transformer Explosion</letterLabel>

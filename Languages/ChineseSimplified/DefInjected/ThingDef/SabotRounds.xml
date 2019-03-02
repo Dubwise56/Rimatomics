@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- STANDARD -->
+
+  <RailgunSabot.label>轨道炮弹(高爆)</RailgunSabot.label>
+  <RailgunSabot.description>轨道炮所发射的的高爆炮弹。</RailgunSabot.description>
+
+  <Bullet_Sabot.label>轨道炮弹(高爆)</Bullet_Sabot.label>
+
+
+  <!-- DU Sabot -->
+
+  <RailgunSabotDU.label>轨道炮弹(贫铀)</RailgunSabotDU.label>
+  <RailgunSabotDU.description>轨道炮所发射的的贫铀炮弹。</RailgunSabotDU.description>
+
+  <Bullet_Sabot_DU.label>轨道炮弹(贫铀)</Bullet_Sabot_DU.label>
+
+  <SabotRoundIncoming.label>轨道炮弹(高爆)即将抵达</SabotRoundIncoming.label>
+  <DUSabotRoundIncoming.label>轨道炮弹(贫铀)即将抵达</DUSabotRoundIncoming.label>
+
+
+</LanguageData>

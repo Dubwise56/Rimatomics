@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SmeltBlades.label>переплавить лопасти турбины</SmeltBlades.label>
+  <SmeltBlades.description>Используйте тепло и сильные электромагниты для переплавки лопастей турбины в полезные ресурсы.</SmeltBlades.description>
+  <SmeltBlades.jobString>переплавляет лопасти турбины.</SmeltBlades.jobString>
+
+  <MakeFuelRods.label>сделать урановые топливные стержни</MakeFuelRods.label>
+  <MakeFuelRods.description>Создать урановые топливные стержни</MakeFuelRods.description>
+  <MakeFuelRods.jobString>делает ядерные топливные стержни.</MakeFuelRods.jobString>
+
+  <MakeMoxFuelRods.label>сделать топливные стержни МОКС</MakeMoxFuelRods.label>
+  <MakeMoxFuelRods.description>Создать топливные стержни МОКС.</MakeMoxFuelRods.description>
+  <MakeMoxFuelRods.jobString>делает топливные стержни МОКС.</MakeMoxFuelRods.jobString>
+
+
+</LanguageData>

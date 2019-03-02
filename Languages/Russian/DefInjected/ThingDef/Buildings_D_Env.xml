@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RadiationShielding.label>радиационная защита</RadiationShielding.label>
+  <RadiationShielding.description>Непроходимая стена. Способная удерживать крышу. И с усиленной защитой от радиации.</RadiationShielding.description>
+  <RadiationShielding_Blueprint.label>радиационная защита (проект)</RadiationShielding_Blueprint.label>
+  <RadiationShielding_Frame.label>радиационная защита (постройка)</RadiationShielding_Frame.label>
+
+  <ReactorSacrophagus.label>саркофаг Тип А</ReactorSacrophagus.label>
+  <ReactorSacrophagus.description>Бетонная структура, предназначенная для содержания расплавленного ядра ядерного реактора, который подвергся инциденту расплавления ядра.</ReactorSacrophagus.description>
+  <ReactorSacrophagus_Blueprint.label>саркофаг Тип А (проект)</ReactorSacrophagus_Blueprint.label>
+  <ReactorSacrophagus_Frame.label>саркофаг Тип А (постройка)</ReactorSacrophagus_Frame.label>
+
+  <ReactorSacrophagusB.label>саркофаг Тип Х</ReactorSacrophagusB.label>
+  <ReactorSacrophagusB.description>Бетонная структура, предназначенная для содержания расплавленного ядра ядерного реактора, который подвергся инциденту расплавления ядра.</ReactorSacrophagusB.description>
+  <ReactorSacrophagusB_Blueprint.label>саркофаг Тип Х (проект)</ReactorSacrophagusB_Blueprint.label>
+  <ReactorSacrophagusB_Frame.label>саркофаг Тип Х (постройка)</ReactorSacrophagusB_Frame.label>
+
+  <ReactorSacrophagusC.label>саркофаг Тип V</ReactorSacrophagusC.label>
+  <ReactorSacrophagusC.description>Бетонная структура, предназначенная для содержания расплавленного ядра ядерного реактора, который подвергся инциденту расплавления ядра.</ReactorSacrophagusC.description>
+  <ReactorSacrophagusC_Blueprint.label>саркофаг Тип V (проект)</ReactorSacrophagusC_Blueprint.label>
+  <ReactorSacrophagusC_Frame.label>саркофаг Тип V (постройка)</ReactorSacrophagusC_Frame.label>
+
+  <PoppedReactorCoreA.label>расплавленное ядро</PoppedReactorCoreA.label>
+  <PoppedReactorCoreA.description>Расплавленное ядро реактора.</PoppedReactorCoreA.description>
+
+  <PoppedReactorCoreB.label>расплавленное ядро</PoppedReactorCoreB.label>
+  <PoppedReactorCoreB.description>Расплавленное ядро реактора.</PoppedReactorCoreB.description>
+
+  <PoppedReactorCoreC.label>расплавленное ядро</PoppedReactorCoreC.label>
+  <PoppedReactorCoreC.description>Расплавленное ядро реактора.</PoppedReactorCoreC.description>
+
+  <CrashedRadioactiveShipPart.label>разбитая радиоактивная часть корабля</CrashedRadioactiveShipPart.label>
+  <CrashedRadioactiveShipPart.description>Таинственный кусок разбитого космического корабля. Он может содержать экзотические материалы, компьютеры, ИИ. Кажется, что он излучает высокий уровень радиации.</CrashedRadioactiveShipPart.description>
+
+
+</LanguageData>

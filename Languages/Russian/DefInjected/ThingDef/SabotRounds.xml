@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- STANDARD -->
+
+  <RailgunSabot.label>БПС снаряд</RailgunSabot.label>
+  <RailgunSabot.description>Кинетический энергетический снаряд выстеленный из рельсотрона.</RailgunSabot.description>
+
+  <Bullet_Sabot.label>фугасный снаряд</Bullet_Sabot.label>
+
+
+  <!-- DU Sabot -->
+
+  <RailgunSabotDU.label>ОФ БПС снаряд</RailgunSabotDU.label>
+  <RailgunSabotDU.description>Кинетический энергетический снаряд выстеленный из рельсотрона.</RailgunSabotDU.description>
+
+  <Bullet_Sabot_DU.label>ОФ БПС снаряд</Bullet_Sabot_DU.label>
+
+
+</LanguageData>

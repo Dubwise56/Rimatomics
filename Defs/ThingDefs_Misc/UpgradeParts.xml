@@ -51,12 +51,13 @@
     </costList>
   </ThingDef>
 
-  <!--<ThingDef ParentName="UpgradePart">
-    <defName>NeutronReflectors</defName>
-    <label>Neutron Reflectors</label>
-    <description>Upgrade parts for the Rimatomics nuclear reactor</description>
+
+  <ThingDef ParentName="UpgradePart">
+    <defName>ATOM</defName>
+    <label>ATOM</label>
+    <description>Upgrade module for TACS</description>
     <graphicData>
-      <texPath>Rimatomics/Things/Resources/Reflectors</texPath>
+      <texPath>Rimatomics/Things/Resources/GenericModule</texPath>
     </graphicData>
     <recipeMaker>
       <workAmount>10000</workAmount>
@@ -65,13 +66,10 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Plasteel>200</Plasteel>
+      <Plasteel>25</Plasteel>
+      <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
-  </ThingDef>-->
-
-  
-  
-  
+  </ThingDef>
   
   
 
@@ -89,7 +87,7 @@
       </recipeUsers>
     </recipeMaker>
     <costList>
-      <Plasteel>25</Plasteel>
+      <Plasteel>50</Plasteel>
       <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
   </ThingDef>
@@ -216,7 +214,7 @@
 
   <ThingDef ParentName="UpgradePart">
     <defName>LenseModule</defName>
-    <label>Lense Module</label>
+    <label>Lens Module</label>
     <description>Upgrade parts for the Rimatomics Obelisk.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/focus</texPath>

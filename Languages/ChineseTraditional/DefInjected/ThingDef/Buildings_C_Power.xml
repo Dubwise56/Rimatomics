@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RimatomicsRTG.label>R.T.G</RimatomicsRTG.label>
+  <RimatomicsRTG.description>An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity.</RimatomicsRTG.description>
+  <RimatomicsRTG_Blueprint.label>R.T.G (blueprint)</RimatomicsRTG_Blueprint.label>
+  <RimatomicsRTG_Blueprint_Install.label>R.T.G (blueprint)</RimatomicsRTG_Blueprint_Install.label>
+  <RimatomicsRTG_Frame.label>R.T.G (building)</RimatomicsRTG_Frame.label>
+  <RimatomicsRTG_Frame.description>An electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity.</RimatomicsRTG_Frame.description>
+
+  <ReactorCoreA.label>Reactor Type A</ReactorCoreA.label>
+  <ReactorCoreA.description>Rimatomics thermal reactor core with 21 fuel assembly capacity with 250kw. A nuclear reactor core is the portion of a nuclear reactor containing the nuclear fuel components where the nuclear reactions take place and the heat is generated</ReactorCoreA.description>
+  <ReactorCoreA_Blueprint.label>Reactor Type A (blueprint)</ReactorCoreA_Blueprint.label>
+  <ReactorCoreA_Frame.label>Reactor Type A (building)</ReactorCoreA_Frame.label>
+  <ReactorCoreA_Frame.description>Rimatomics thermal reactor core with 21 fuel assembly capacity with 250kw. A nuclear reactor core is the portion of a nuclear reactor containing the nuclear fuel components where the nuclear reactions take place and the heat is generated</ReactorCoreA_Frame.description>
+
+  <ReactorCoreB.label>Reactor Type X</ReactorCoreB.label>
+  <ReactorCoreB.description>An advanced breeder reactor design which can generate more fissile material than it consumes.</ReactorCoreB.description>
+  <ReactorCoreB_Blueprint.label>Reactor Type X (blueprint)</ReactorCoreB_Blueprint.label>
+  <ReactorCoreB_Frame.label>Reactor Type X (building)</ReactorCoreB_Frame.label>
+  <ReactorCoreB_Frame.description>An advanced breeder reactor design which can generate more fissile material than it consumes.</ReactorCoreB_Frame.description>
+
+  <ReactorCoreC.label>Reactor Type V</ReactorCoreC.label>
+  <ReactorCoreC.description>A massive advanced breeder reactor design which can generate more fissile material than it consumes.</ReactorCoreC.description>
+  <ReactorCoreC_Blueprint.label>Reactor Type V (blueprint)</ReactorCoreC_Blueprint.label>
+  <ReactorCoreC_Frame.label>Reactor Type V (building)</ReactorCoreC_Frame.label>
+  <ReactorCoreC_Frame.description>A massive advanced breeder reactor design which can generate more fissile material than it consumes.</ReactorCoreC_Frame.description>
+
+
+  <!-- HEAT EXCHANGE -->
+
+  <Turbine.label>Thor Turbine</Turbine.label>
+  <Turbine.description>A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts</Turbine.description>
+  <Turbine_Blueprint.label>Thor Turbine (blueprint)</Turbine_Blueprint.label>
+  <Turbine_Frame.label>Thor Turbine (building)</Turbine_Frame.label>
+  <Turbine_Frame.description>A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts</Turbine_Frame.description>
+
+  <BigTurbine.label>Zeus Turbine</BigTurbine.label>
+  <BigTurbine.description>A turbine driven by steam which turns a generator to produce electricity. The big turbine has a maximum power output of 1 Megawatt</BigTurbine.description>
+  <BigTurbine_Blueprint.label>Zeus Turbine (blueprint)</BigTurbine_Blueprint.label>
+  <BigTurbine_Frame.label>Zeus Turbine (building)</BigTurbine_Frame.label>
+  <BigTurbine_Frame.description>A turbine driven by steam which turns a generator to produce electricity. The big turbine has a maximum power output of 1 Megawatt</BigTurbine_Frame.description>
+
+
+  <!-- COOLING -->
+
+  <CoolingRadiator.label>Radiator</CoolingRadiator.label>
+  <CoolingRadiator.description>Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited</CoolingRadiator.description>
+  <CoolingRadiator_Blueprint.label>Radiator (blueprint)</CoolingRadiator_Blueprint.label>
+  <CoolingRadiator_Frame.label>Radiator (building)</CoolingRadiator_Frame.label>
+  <CoolingRadiator_Frame.description>Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited</CoolingRadiator_Frame.description>
+
+  <CoolingWater.label>Water Cooling</CoolingWater.label>
+  <CoolingWater.description>Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans</CoolingWater.description>
+  <CoolingWater_Blueprint.label>Water Cooling (blueprint)</CoolingWater_Blueprint.label>
+  <CoolingWater_Frame.label>Water Cooling (building)</CoolingWater_Frame.label>
+  <CoolingWater_Frame.description>Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans</CoolingWater_Frame.description>
+
+  <CoolingTower.label>Cooling Tower</CoolingTower.label>
+  <CoolingTower.description>Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available</CoolingTower.description>
+  <CoolingTower_Blueprint.label>Cooling Tower (blueprint)</CoolingTower_Blueprint.label>
+  <CoolingTower_Frame.label>Cooling Tower (building)</CoolingTower_Frame.label>
+  <CoolingTower_Frame.description>Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available</CoolingTower_Frame.description>
+
+
+  <!-- TRANNY -->
+
+  <Transformer.label>High Voltage Transformer</Transformer.label>
+  <Transformer.description>Provides the final voltage transformation from the Turbine Generators, stepping down the voltage used in the high voltage lines to the level used by power conduits</Transformer.description>
+  <Transformer_Blueprint.label>High Voltage Transformer (blueprint)</Transformer_Blueprint.label>
+  <Transformer_Frame.label>High Voltage Transformer (building)</Transformer_Frame.label>
+  <Transformer_Frame.description>Provides the final voltage transformation from the Turbine Generators, stepping down the voltage used in the high voltage lines to the level used by power conduits</Transformer_Frame.description>
+
+
+  <!-- CONTROLLERS -->
+
+  <ReactorControl.label>reactor console</ReactorControl.label>
+  <ReactorControl.description>Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time</ReactorControl.description>
+  <ReactorControl_Blueprint.label>reactor console (blueprint)</ReactorControl_Blueprint.label>
+  <ReactorControl_Frame.label>reactor console (building)</ReactorControl_Frame.label>
+  <ReactorControl_Frame.description>Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time</ReactorControl_Frame.description>
+
+  <storagePool.label>Storage Pool</storagePool.label>
+  <storagePool.description>A storage pool for safely storing nuclear fuel rods. Right click with a selected pawn to interact and designate fuel for removal</storagePool.description>
+  <storagePool_Blueprint.label>Storage Pool (blueprint)</storagePool_Blueprint.label>
+  <storagePool_Frame.label>Storage Pool (building)</storagePool_Frame.label>
+  <storagePool_Frame.description>A storage pool for safely storing nuclear fuel rods. Right click with a selected pawn to interact and designate fuel for removal</storagePool_Frame.description>
+
+  <RadiationDetector.label>Radiation Detector</RadiationDetector.label>
+  <RadiationDetector.description>Radiation Detector</RadiationDetector.description>
+  <RadiationDetector_Blueprint.label>Radiation Detector (blueprint)</RadiationDetector_Blueprint.label>
+  <RadiationDetector_Frame.label>Radiation Detector (building)</RadiationDetector_Frame.label>
+  <RadiationDetector_Frame.description>Radiation Detector</RadiationDetector_Frame.description>
+
+
+</LanguageData>

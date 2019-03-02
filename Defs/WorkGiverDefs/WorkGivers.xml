@@ -90,6 +90,7 @@
     <priorityInType>140</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
+      <li>Sight</li>
     </requiredCapacities>
   </WorkGiverDef>
 
@@ -103,21 +104,9 @@
     <priorityInType>75</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
+      <li>Sight</li>
     </requiredCapacities>
   </WorkGiverDef>
-
-  <!--<WorkGiverDef>
-    <defName>RepairCore</defName>
-    <label>repair core</label>
-    <giverClass>Rimatomics.WorkGiver_RepairCore</giverClass>
-    <workType>Construction</workType>
-    <priorityInType>85</priorityInType>
-    <verb>repair</verb>
-    <gerund>repairing</gerund>
-    <requiredCapacities>
-      <li>Manipulation</li>
-    </requiredCapacities>
-  </WorkGiverDef>-->
 
   <WorkGiverDef>
     <defName>DoBillsTableNuclear</defName>
@@ -132,6 +121,7 @@
     <gerund>working at</gerund>
     <requiredCapacities>
       <li>Manipulation</li>
+      <li>Sight</li>
     </requiredCapacities>
     <prioritizeSustains>true</prioritizeSustains>
   </WorkGiverDef>
@@ -144,27 +134,52 @@
     <verb>research</verb>
     <gerund>researching at</gerund>
     <priorityInType>105</priorityInType>
-  </WorkGiverDef>
-
-  <WorkGiverDef>
-    <defName>RimatomicsConstruction</defName>
-    <label>do research</label>
-    <giverClass>Rimatomics.WorkGiver_RimatomicsResearcher</giverClass>
-    <workType>Construction</workType>
-    <verb>research</verb>
-    <gerund>researching at</gerund>
-    <priorityInType>100</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Sight</li>
+    </requiredCapacities>
   </WorkGiverDef>
 
   <WorkGiverDef>
     <defName>RimatomicsResearch</defName>
-    <label>do research</label>
+    <label>do rimatomics research</label>
     <giverClass>Rimatomics.WorkGiver_RimatomicsResearcher</giverClass>
     <workType>Research</workType>
-    <verb>research</verb>
+    <verb>rimatomics research</verb>
     <gerund>researching at</gerund>
-    <priorityInType>100</priorityInType>
+    <priorityInType>110</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Sight</li>
+    </requiredCapacities>
   </WorkGiverDef>
 
+  <WorkGiverDef>
+    <defName>RimatomicsSuperviseResearch</defName>
+    <label>do Supervise research</label>
+    <giverClass>Rimatomics.WorkGiver_SuperviseResearch</giverClass>
+    <workType>Research</workType>
+    <verb>Supervise research</verb>
+    <gerund>researching at</gerund>
+    <priorityInType>120</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Sight</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
+    <defName>RimatomicsConstruction</defName>
+    <label>construct</label>
+    <giverClass>Rimatomics.WorkGiver_SuperviseResearch</giverClass>
+    <workType>Construction</workType>
+    <verb>Construct</verb>
+    <gerund>Constructing</gerund>
+    <priorityInType>100</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+      <li>Sight</li>
+    </requiredCapacities>
+  </WorkGiverDef>
 
 </Defs>

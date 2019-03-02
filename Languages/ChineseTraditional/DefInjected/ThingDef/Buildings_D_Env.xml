@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RadiationShielding.label>Reinforced DU Wall</RadiationShielding.label>
+  <RadiationShielding.description>Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation</RadiationShielding.description>
+  <RadiationShielding_Blueprint.label>Reinforced DU Wall (blueprint)</RadiationShielding_Blueprint.label>
+  <RadiationShielding_Frame.label>Reinforced DU Wall (building)</RadiationShielding_Frame.label>
+  <RadiationShielding_Frame.description>Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation</RadiationShielding_Frame.description>
+
+  <ReactorSacrophagus.label>Sarcophagus Type A</ReactorSacrophagus.label>
+  <ReactorSacrophagus.description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</ReactorSacrophagus.description>
+  <ReactorSacrophagus_Blueprint.label>Sarcophagus Type A (blueprint)</ReactorSacrophagus_Blueprint.label>
+  <ReactorSacrophagus_Frame.label>Sarcophagus Type A (building)</ReactorSacrophagus_Frame.label>
+  <ReactorSacrophagus_Frame.description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</ReactorSacrophagus_Frame.description>
+
+  <ReactorSacrophagusB.label>Sarcophagus Type X</ReactorSacrophagusB.label>
+  <ReactorSacrophagusB.description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</ReactorSacrophagusB.description>
+  <ReactorSacrophagusB_Blueprint.label>Sarcophagus Type X (blueprint)</ReactorSacrophagusB_Blueprint.label>
+  <ReactorSacrophagusB_Frame.label>Sarcophagus Type X (building)</ReactorSacrophagusB_Frame.label>
+  <ReactorSacrophagusB_Frame.description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</ReactorSacrophagusB_Frame.description>
+
+  <ReactorSacrophagusC.label>Sarcophagus Type V</ReactorSacrophagusC.label>
+  <ReactorSacrophagusC.description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</ReactorSacrophagusC.description>
+  <ReactorSacrophagusC_Blueprint.label>Sarcophagus Type V (blueprint)</ReactorSacrophagusC_Blueprint.label>
+  <ReactorSacrophagusC_Frame.label>Sarcophagus Type V (building)</ReactorSacrophagusC_Frame.label>
+  <ReactorSacrophagusC_Frame.description>A concrete structure designed to contain the molten core of a nuclear reactor that has undergone a core melt incident.</ReactorSacrophagusC_Frame.description>
+
+  <PoppedReactorCoreA.label>molten core</PoppedReactorCoreA.label>
+  <PoppedReactorCoreA.description>Molten reactor core.</PoppedReactorCoreA.description>
+
+  <PoppedReactorCoreB.label>molten core</PoppedReactorCoreB.label>
+  <PoppedReactorCoreB.description>Molten reactor core.</PoppedReactorCoreB.description>
+
+  <PoppedReactorCoreC.label>molten core</PoppedReactorCoreC.label>
+  <PoppedReactorCoreC.description>Molten reactor core.</PoppedReactorCoreC.description>
+
+  <DU_Blastdoor.label>DU Blast door</DU_Blastdoor.label>
+  <DU_Blastdoor.description>Very strong blast doors that are reinforced with depleted uranium, providing full shielding against radiation.</DU_Blastdoor.description>
+  <DU_Blastdoor_Blueprint.label>DU Blast door (blueprint)</DU_Blastdoor_Blueprint.label>
+  <DU_Blastdoor_Frame.label>DU Blast door (building)</DU_Blastdoor_Frame.label>
+  <DU_Blastdoor_Frame.description>Very strong blast doors that are reinforced with depleted uranium, providing full shielding against radiation.</DU_Blastdoor_Frame.description>
+
+
+</LanguageData>

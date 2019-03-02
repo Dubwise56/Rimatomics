@@ -1,7 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  
 
+  <SoundDef>
+    <defName>BulletImpact_SCAD</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <grains>
+          <li Class="AudioGrain_Folder">
+            <clipFolderPath>Misc/SCAD</clipFolderPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>22.956522</min>
+          <max>44.82609</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9152174</min>
+          <max>1.084783</max>
+        </pitchRange>
+        <repeatMode>Any</repeatMode>
+      </li>
+    </subSounds>
+  </SoundDef>
   
   <SoundDef>
     <defName>Sizzle</defName>

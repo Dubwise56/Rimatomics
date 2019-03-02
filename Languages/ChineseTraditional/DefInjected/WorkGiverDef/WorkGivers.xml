@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <LoadRailgunMagazine.label>Load Sabot rounds</LoadRailgunMagazine.label>
+  <LoadRailgunMagazine.verb>load</LoadRailgunMagazine.verb>
+  <LoadRailgunMagazine.gerund>loading</LoadRailgunMagazine.gerund>
+
+  <LoadSilo.label>Load Silo</LoadSilo.label>
+  <LoadSilo.verb>load</LoadSilo.verb>
+  <LoadSilo.gerund>loading</LoadSilo.gerund>
+
+  <LoadFuelModule.label>Load Fuel</LoadFuelModule.label>
+  <LoadFuelModule.verb>load fuel into</LoadFuelModule.verb>
+  <LoadFuelModule.gerund>loading fuel into</LoadFuelModule.gerund>
+
+  <LoadSpentFuel.label>load spent fuel</LoadSpentFuel.label>
+  <LoadSpentFuel.verb>load</LoadSpentFuel.verb>
+  <LoadSpentFuel.gerund>loading</LoadSpentFuel.gerund>
+
+  <LoadProcChemFuel.label>load chemfuel</LoadProcChemFuel.label>
+  <LoadProcChemFuel.verb>load</LoadProcChemFuel.verb>
+  <LoadProcChemFuel.gerund>loading</LoadProcChemFuel.gerund>
+
+  <UnloadPlutonium.label>remove plutonium</UnloadPlutonium.label>
+  <UnloadPlutonium.verb>unload</UnloadPlutonium.verb>
+  <UnloadPlutonium.gerund>unloading</UnloadPlutonium.gerund>
+
+  <RemoveFuelModule.label>Remove Fuel</RemoveFuelModule.label>
+  <RemoveFuelModule.verb>remove fuel from</RemoveFuelModule.verb>
+  <RemoveFuelModule.gerund>removing fuel from</RemoveFuelModule.gerund>
+
+  <UpgradeBuilding.label>UpgradeBuilding</UpgradeBuilding.label>
+  <UpgradeBuilding.verb>Upgrade</UpgradeBuilding.verb>
+  <UpgradeBuilding.gerund>upgrading</UpgradeBuilding.gerund>
+
+  <DoBillsTableNuclear.label>do bills at nuclear machining table</DoBillsTableNuclear.label>
+  <DoBillsTableNuclear.verb>work</DoBillsTableNuclear.verb>
+  <DoBillsTableNuclear.gerund>working at</DoBillsTableNuclear.gerund>
+
+  <RimatomicsCrafting.label>do research</RimatomicsCrafting.label>
+  <RimatomicsCrafting.verb>research</RimatomicsCrafting.verb>
+  <RimatomicsCrafting.gerund>researching at</RimatomicsCrafting.gerund>
+
+  <RimatomicsResearch.label>do research</RimatomicsResearch.label>
+  <RimatomicsResearch.verb>research</RimatomicsResearch.verb>
+  <RimatomicsResearch.gerund>researching at</RimatomicsResearch.gerund>
+
+  <RimatomicsSuperviseResearch.label>do research</RimatomicsSuperviseResearch.label>
+  <RimatomicsSuperviseResearch.verb>research</RimatomicsSuperviseResearch.verb>
+  <RimatomicsSuperviseResearch.gerund>researching at</RimatomicsSuperviseResearch.gerund>
+
+  <RimatomicsConstruction.label>construct</RimatomicsConstruction.label>
+  <RimatomicsConstruction.verb>Constructing</RimatomicsConstruction.verb>
+  <RimatomicsConstruction.gerund>Constructing</RimatomicsConstruction.gerund>
+
+
+</LanguageData>

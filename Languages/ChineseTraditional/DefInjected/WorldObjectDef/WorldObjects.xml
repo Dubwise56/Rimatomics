@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ICBMfission.label>ICBM</ICBMfission.label>
+  <ICBMfission.description>An intercontinental ballistic missile (ICBM) is a guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead.</ICBMfission.description>
+
+  <Sabot.label>Sabot</Sabot.label>
+  <Sabot.description>Railgun Sabot Round</Sabot.description>
+
+  <Fallout.label>Nuclear Fallout</Fallout.label>
+  <Fallout.description>Nuclear fallout is the residual radioactive material propelled into the air by nuclear blasts or a nuclear reactor meltdown.</Fallout.description>
+
+  <RimatomicsProbe.label>Rimatomics Probe</RimatomicsProbe.label>
+  <RimatomicsProbe.description>Rimatomics trading probe.</RimatomicsProbe.description>
+
+
+</LanguageData>

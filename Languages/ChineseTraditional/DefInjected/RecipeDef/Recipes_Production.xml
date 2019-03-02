@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <SmeltBlades.label>smelt turbine blades</SmeltBlades.label>
+  <SmeltBlades.description>Use heat and strong electromagnets to break turbine blades into useful resources.</SmeltBlades.description>
+  <SmeltBlades.jobString>Smelting turbine blade.</SmeltBlades.jobString>
+
+  <MakeFuelRods.label>Make Uranium Fuelrods</MakeFuelRods.label>
+  <MakeFuelRods.description>Construct Uranium Fuelrods.</MakeFuelRods.description>
+  <MakeFuelRods.jobString>Making nuclear fuel rods.</MakeFuelRods.jobString>
+
+  <MakeMoxFuelRods.label>Make MOX Fuel rods</MakeMoxFuelRods.label>
+  <MakeMoxFuelRods.description>Construct MOX Fuelrods.</MakeMoxFuelRods.description>
+  <MakeMoxFuelRods.jobString>Making MOX fuel rods.</MakeMoxFuelRods.jobString>
+
+
+</LanguageData>

@@ -1,8 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <CoreBlast.label>核爆</CoreBlast.label>
-  <CoreBlast.deathMessage>{0}死于核爆。</CoreBlast.deathMessage>
-
-
-</LanguageData>

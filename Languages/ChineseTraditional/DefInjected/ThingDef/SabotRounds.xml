@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- STANDARD -->
+
+  <RailgunSabot.label>Sabot Round</RailgunSabot.label>
+  <RailgunSabot.description>A kinetic energy projectile fired from a railgun.</RailgunSabot.description>
+
+  <Bullet_Sabot.label>Sabot Round</Bullet_Sabot.label>
+
+
+  <!-- DU Sabot -->
+
+  <RailgunSabotDU.label>DU Sabot Round</RailgunSabotDU.label>
+  <RailgunSabotDU.description>A kinetic energy projectile fired from a railgun, inert and safe to stockpile.</RailgunSabotDU.description>
+
+  <Bullet_Sabot_DU.label>DU Sabot Round</Bullet_Sabot_DU.label>
+  <SabotRoundIncoming.label>sabot incoming</SabotRoundIncoming.label>
+  <DUSabotRoundIncoming.label>DU sabot incoming</DUSabotRoundIncoming.label>
+
+
+</LanguageData>

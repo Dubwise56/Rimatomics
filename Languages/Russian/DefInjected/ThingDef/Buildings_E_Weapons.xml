@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PPC.label>импульсный контейнер энергии</PPC.label>
+  <PPC.description>ИКЭ хранит большое количество энергии, которая может быть разряжена одним импульсом энергетического оружия.</PPC.description>
+  <PPC_Blueprint.label>импульсный контейнер энергии (проект)</PPC_Blueprint.label>
+  <PPC_Frame.label>импульсный контейнер энергии (постройка)</PPC_Frame.label>
+
+  <PPCWeaponsConsole.label>оружейная консоль</PPCWeaponsConsole.label>
+  <PPCWeaponsConsole.description>Управляемый персоналом компьютер, требуемый всем энергетическим оружием.</PPCWeaponsConsole.description>
+  <PPCWeaponsConsole_Blueprint.label>оружейная консоль (проект)</PPCWeaponsConsole_Blueprint.label>
+  <PPCWeaponsConsole_Frame.label>оружейная консоль (постройка)</PPCWeaponsConsole_Frame.label>
+
+  <RadarDish.label>СОЦИС</RadarDish.label>
+  <RadarDish.description>Система определения цели и связи использует комбинацию технологий для отслеживания наземных воздушных целей, и связи с оружейными системами.</RadarDish.description>
+  <RadarDish_Blueprint.label>СОЦИС (проект)</RadarDish_Blueprint.label>
+  <RadarDish_Frame.label>СОЦИС (постройка)</RadarDish_Frame.label>
+
+  <PPCADS.label>САС</PPCADS.label>
+  <PPCADS.description>САС (Система Активного Сдерживания) - это направленное энергетическое оружие, которое использует микроволны для сжигания групп врагов, вынуждающих бежать. Требуется оружейная консоль и ИКЭ для питания.</PPCADS.description>
+  <PPCADS_Blueprint.label>САС (проект)</PPCADS_Blueprint.label>
+  <PPCADS_Frame.label>САС (постройка)</PPCADS_Frame.label>
+
+  <PPCTeslaCoil.label>катушка тесла</PPCTeslaCoil.label>
+  <PPCTeslaCoil.description>Выпускает большой электрический разряд в что-угодно в пределах дальности. Малая дальность. Требуется оружейная консоль и ИКЭ для питания.</PPCTeslaCoil.description>
+  <PPCTeslaCoil_Blueprint.label>катушка тесла (проект)</PPCTeslaCoil_Blueprint.label>
+  <PPCTeslaCoil_Frame.label>катушка тесла (постройка)</PPCTeslaCoil_Frame.label>
+
+  <PPCHEL.label>ВЭЛ</PPCHEL.label>
+  <PPCHEL.description>ВЭЛ (Высокоэнергетический лазер) - это оружие, которое использует лазер для уничтожения входящих в воздушное пространство снарядов. Требуется оружейная консоль и ИКЭ для питания.</PPCHEL.description>
+  <PPCHEL_Blueprint.label>ВЭЛ (проект)</PPCHEL_Blueprint.label>
+  <PPCHEL_Frame.label>ВЭЛ (постройка)</PPCHEL_Frame.label>
+
+  <PPCRailgun.label>рельсотрон</PPCRailgun.label>
+  <PPCRailgun.description>Оружие, которое использует большой электромагнитный импульс для запуска снаряда на экстремальные дистанции. Требуется оружейная консоль и ИКЭ для питания.</PPCRailgun.description>
+  <PPCRailgun_Blueprint.label>рельсотрон (проект)</PPCRailgun_Blueprint.label>
+  <PPCRailgun_Frame.label>рельсотрон (постройка)</PPCRailgun_Frame.label>
+
+  <Railgun_Cannon.label>миномёт</Railgun_Cannon.label>
+  <Railgun_Cannon.description>Миномёт. Стреляет через стены. Очень неточный, но дальнобойный.</Railgun_Cannon.description>
+
+  <PPCObelisk.label>обелиск</PPCObelisk.label>
+  <PPCObelisk.description>Направленное энергетическое оружие, которое использует сфокусированный лазер для сжигания целей. Высокая точность с большой дальностью, Требуется оружейная консоль и ИКЭ для питания.</PPCObelisk.description>
+  <PPCObelisk_Blueprint.label>обелиск (проект)</PPCObelisk_Blueprint.label>
+  <PPCObelisk_Frame.label>обелиск (постройка)</PPCObelisk_Frame.label>
+
+
+  <!-- ICBM -->
+
+  <MissileSilo.label>пусковая шахта</MissileSilo.label>
+  <MissileSilo.description>Пусковая шахта - это наземная платформа, с которой вертикально запускается ракета.</MissileSilo.description>
+  <MissileSilo_Blueprint.label>пусковая шахта (проект)</MissileSilo_Blueprint.label>
+  <MissileSilo_Frame.label>пусковая шахта (постройка)</MissileSilo_Frame.label>
+
+  <notReal.label>не реальное</notReal.label>
+
+
+</LanguageData>

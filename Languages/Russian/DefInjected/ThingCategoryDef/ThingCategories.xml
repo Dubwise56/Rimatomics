@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Nuclear.label>ядерное</Nuclear.label>
+  <NuclearWaste.label>ядерные отходы</NuclearWaste.label>
+  <NuclearFuel.label>ядерное топливо</NuclearFuel.label>
+  <RimatomicsProduct.label>Продукты Rimatomics</RimatomicsProduct.label>
+  <SabotRounds.label>БПС снаряды</SabotRounds.label>
+  <Hazmat.label>химзащита</Hazmat.label>
+  <Mopp.label>MOPP</Mopp.label>
+
+
+</LanguageData>

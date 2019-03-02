@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <turbineBlade.label>Turbine Blades</turbineBlade.label>
+  <turbineBlade.description>Used to construct generators.</turbineBlade.description>
+
+  <UraniumPellets.label>Uranium Pellets</UraniumPellets.label>
+  <UraniumPellets.description>Pellets of uranium used in the construction of nuclear fuel rods.</UraniumPellets.description>
+
+  <Plutonium.label>plutonium</Plutonium.label>
+  <Plutonium.description>A case of plutonium, can be used to create nuclear weapons or nuclear fuel rods.</Plutonium.description>
+
+  <DepletedUraniumPellets.label>Depleted Uranium</DepletedUraniumPellets.label>
+  <DepletedUraniumPellets.description>Pellets of depleted uranium used in the construction of nuclear fuel rods.</DepletedUraniumPellets.description>
+
+
+  <!-- Fuel Rods -->
+
+  <FuelRods.label>fuel rods</FuelRods.label>
+  <FuelRods.description>A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine.</FuelRods.description>
+
+  <FuelRodsMOX.label>fuel rods MOX</FuelRodsMOX.label>
+  <FuelRodsMOX.description>A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine.</FuelRodsMOX.description>
+
+
+  <!-- Nuclear Waste -->
+
+  <ChunkRadioactiveSlag.label>radioactive slag chunk</ChunkRadioactiveSlag.label>
+
+  <NuclearWaste.label>Nuclear Waste</NuclearWaste.label>
+  <NuclearWaste.description>A drum of nuclear waste.</NuclearWaste.description>
+
+  <ThrownSlag.label>ThrownSlag</ThrownSlag.label>
+
+
+</LanguageData>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <coolingPipe.label>Coolant pipe</coolingPipe.label>
+  <coolingPipe.description>Pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.</coolingPipe.description>
+  <coolingPipe_Blueprint.label>Coolant pipe (blueprint)</coolingPipe_Blueprint.label>
+  <coolingPipe_Frame.label>Coolant pipe (building)</coolingPipe_Frame.label>
+  <coolingPipe_Frame.description>Pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.</coolingPipe_Frame.description>
+
+  <coolantValve.label>Coolant valve</coolantValve.label>
+  <coolantValve.description>Opens or closes connections between coolant pipes.</coolantValve.description>
+  <coolantValve_Blueprint.label>Coolant valve (blueprint)</coolantValve_Blueprint.label>
+  <coolantValve_Frame.label>Coolant valve (building)</coolantValve_Frame.label>
+  <coolantValve_Frame.description>Opens or closes connections between coolant pipes.</coolantValve_Frame.description>
+
+  <steamPipe.label>Steam pipe</steamPipe.label>
+  <steamPipe.description>Pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.</steamPipe.description>
+  <steamPipe_Blueprint.label>Steam pipe (blueprint)</steamPipe_Blueprint.label>
+  <steamPipe_Frame.label>Steam pipe (building)</steamPipe_Frame.label>
+  <steamPipe_Frame.description>Pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.</steamPipe_Frame.description>
+
+  <steamValve.label>Steam valve</steamValve.label>
+  <steamValve.description>Opens or closes connections between steam pipes.</steamValve.description>
+  <steamValve_Blueprint.label>Steam valve (blueprint)</steamValve_Blueprint.label>
+  <steamValve_Frame.label>Steam valve (building)</steamValve_Frame.label>
+  <steamValve_Frame.description>Opens or closes connections between steam pipes.</steamValve_Frame.description>
+
+  <waterPipe.label>Cold water pipe</waterPipe.label>
+  <waterPipe.description>Pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.</waterPipe.description>
+  <waterPipe_Blueprint.label>Cold water pipe (blueprint)</waterPipe_Blueprint.label>
+  <waterPipe_Frame.label>Cold water pipe (building)</waterPipe_Frame.label>
+  <waterPipe_Frame.description>Pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.</waterPipe_Frame.description>
+
+  <waterValve.label>Cold water valve</waterValve.label>
+  <waterValve.description>Opens or closes connections between cold water pipes.</waterValve.description>
+  <waterValve_Blueprint.label>Cold water valve (blueprint)</waterValve_Blueprint.label>
+  <waterValve_Frame.label>Cold water valve (building)</waterValve_Frame.label>
+  <waterValve_Frame.description>Opens or closes connections between cold water pipes.</waterValve_Frame.description>
+
+  <HighVoltage.label>High Voltage</HighVoltage.label>
+  <HighVoltage.description>Cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.</HighVoltage.description>
+  <HighVoltage_Blueprint.label>High Voltage (blueprint)</HighVoltage_Blueprint.label>
+  <HighVoltage_Frame.label>High Voltage (building)</HighVoltage_Frame.label>
+  <HighVoltage_Frame.description>Cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.</HighVoltage_Frame.description>
+
+  <controllerLoom.label>Console Loom</controllerLoom.label>
+  <controllerLoom.description>Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.</controllerLoom.description>
+  <controllerLoom_Blueprint.label>Console Loom (blueprint)</controllerLoom_Blueprint.label>
+  <controllerLoom_Frame.label>Console Loom (building)</controllerLoom_Frame.label>
+  <controllerLoom_Frame.description>Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.</controllerLoom_Frame.description>
+
+
+</LanguageData>

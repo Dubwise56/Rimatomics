@@ -23,6 +23,11 @@
   <RADIATIONLEAK>    ::RADIATION LEAK::</RADIATIONLEAK>
   <RADIATIONLEAKSYSTEM>    ::RADIATION IN SYSTEM::</RADIATIONLEAKSYSTEM>
 
+  <PodsScrambledOK>Enemy drop pods scrambled by TACS</PodsScrambledOK>
+  <PodsScrambledDesc>The enemy drop pod guidance systems were scrambled by the TACS using a {0}kw pulse</PodsScrambledDesc>
+  <ScrambleDropPods>Scramble Drop Pods</ScrambleDropPods>
+  <ScrambleDropPodsDesc>Use a large pulse of energy from PPC's to scramble the guidance systems of incoming enemy drop pods</ScrambleDropPodsDesc>
+
   <!--CONSOLE-->
   <Dragtoincreasefluxlevel>Drag to increase flux level</Dragtoincreasefluxlevel>
   <MOX>MOX</MOX>
@@ -37,7 +42,7 @@
   <ShuttingDown>Shutting down</ShuttingDown>
   <Active>Active</Active>
   <ReactorBreakdown>ID: {0}\nStatus: {1}\nMax power: {2}W\nConversion ratio: {3}\n\n{4}</ReactorBreakdown>
-  <SlotBreakdown>Max Power: {1}W\nCurrent Power: {2}W\nUsage: {3}\nRatio: {4}\nCan Process Now: {5}</SlotBreakdown>
+  <SlotBreakdown>Estimated Life: {0}\nMax Power: {1}W\nCurrent Power: {2}W\nUsage: {3}\nRatio: {4}\nCan Process Now: {5}</SlotBreakdown>
   <cycleScreensDesc>Monitor all reactors on this network</cycleScreensDesc>
   <cycleScreens>Monitor All</cycleScreens>
   <AutoScram>Auto Scram</AutoScram>
@@ -58,6 +63,12 @@
   <NoChemfuel>No chemfuel</NoChemfuel>
 
   <!--ENERGY WEAPONS-->
+  <AnUnknownForce>an unknown force</AnUnknownForce>
+  <ATOMattackGround>via land</ATOMattackGround>
+  <ATOMattackPods>via drop pods</ATOMattackPods>
+  <ATOMdetection>Threat Detected!</ATOMdetection>
+  <ATOMdetectionDesc>The TACS has detected a possible threat, it is estimated that {0} will attack {1} in approximately {2}</ATOMdetectionDesc>
+  <ScadLivesMatter>SCAD HP: {0}</ScadLivesMatter>
   <Detonating>Detonating...</Detonating>
   <KillCounter>Kills: {0}</KillCounter>
   <energyWepLoadedShell>Loaded: {0}</energyWepLoadedShell>
@@ -93,6 +104,9 @@
   <TestFireHELSOnOwnShells>Shoot down our own morter shells for data gathering.</TestFireHELSOnOwnShells>
   <OpenRadar>Open target tracking display</OpenRadar>
   <NoSabotToExtract>No sabot rounds to extract</NoSabotToExtract>
+  <CancelICBMLaunch>Abort Launch</CancelICBMLaunch>
+  <CancelICBMLaunchDesc>Abort Launch</CancelICBMLaunchDesc>
+  <ICBMLaunchCancelled>ICBM launch aborted</ICBMLaunchCancelled>
 
   <!--REACTOR BUILDINGS-->
   <ReactorUptime>Uptime: {0}</ReactorUptime>
@@ -100,11 +114,12 @@
   <fuelCracked>Cracked!</fuelCracked>
   <Managefuel>Manage</Managefuel>
   <RoofedTower>Tower blocked by roofed</RoofedTower>
-  <TurbineRPM>RPM: {0} ({1}%)</TurbineRPM>
+  <TurbineRPM>RPM: {0} ({1})</TurbineRPM>
   <TradeShipWait>Rimatomics trade ship ready in {0}</TradeShipWait>
   <critsetid>Set ID</critsetid>
   <critCoolingCapShare>Cooling capacity share: {0} with {1} Turbines</critCoolingCapShare>
 
+  <ControlRod>Control Rods</ControlRod>
   <crackedRemoveNow>\nCRACKED! Remove Now</crackedRemoveNow>
   <critCoreTemp>Core Temp: {0}C</critCoreTemp>
   <critCoreEnergy>Energy: {0}kW</critCoreEnergy>
@@ -130,7 +145,6 @@
   <critCloseValve>Close Valve</critCloseValve>
   <critToggleValve>Operate the valve</critToggleValve>
   <critTempBoost>Temp Boost</critTempBoost>
-  <critXE>Xe-135</critXE>
   <critTemp>Temp</critTemp>
   <critCooling>Cooling</critCooling>
   <critTurbine>Turbine</critTurbine>
@@ -144,8 +158,10 @@
   <New>New</New>
   <Remove>Remove</Remove>
   <Store>Store</Store>
-
-
+  <UnsafeFacility>Unsafe Facility</UnsafeFacility>
+  <FacilityNoPower>No Power</FacilityNoPower>
+  <NoActiveBenchWithProject>No active bench with required project</NoActiveBenchWithProject>
+  <NoStandableCell>No adjacent standable cell</NoStandableCell>
 
   <critPlaceOnCore>Must be placed on a molten core of correct type</critPlaceOnCore>
   <NeedsRiver>Needs to be placed next to a river, lake or ocean</NeedsRiver>
@@ -174,13 +190,14 @@
   <TrannyLimit>Power Limit: {0}kW</TrannyLimit>
   <TurbinePower>Turbine Power: {0}kW</TurbinePower>
 
-
+  
   <!--RESEARCH-->
-
+  <NonBlueprintUpgrade></NonBlueprintUpgrade>
+  <BlueprintUpgradeDesc>This is a blueprint upgrade, new constructions will have this upgrade built in as standard, existing buildings will need to be manually upgraded using the crafted module</BlueprintUpgradeDesc>
   <Free>Free</Free>
   <Purchase>Purchase</Purchase>
   <Price>Price</Price>
-  <Unlocks>Unlocks</Unlocks>
+  <Unlocks>Unlocks Research</Unlocks>
   <openResearchPanel>Open Research Panel</openResearchPanel>
   <ResearchProg>{0}/{1}</ResearchProg>
   <ResearchPriceNeed>Requires {0} Silver near a trade beacon</ResearchPriceNeed>
@@ -197,8 +214,7 @@
   <CurProj>Project: {0}</CurProj>
   <CurStep>Step: {0}</CurStep>
   <SkillLevel>{0} Requires Level {1} {2}</SkillLevel>
-  <StartProject>Start Project</StartProject>
-  <StopProject>Stop Project</StopProject>
+
 
   <DesignatorRemoveRimatomicsPipes>Deconstruct Pipes</DesignatorRemoveRimatomicsPipes>
   <DesignatorRemoveRimatomicsPipesDesc>Designate pipes for deconstruction</DesignatorRemoveRimatomicsPipesDesc>
@@ -226,6 +242,12 @@
 
   <RimatomicResearchCompleteDialog>{0} - complete\n\n{1}</RimatomicResearchCompleteDialog>
 
-
   <rimatomicsProto> Prototype</rimatomicsProto>
+
+  <StartProject>Start Project</StartProject>
+  <ProjectInitiated>Project initiated</ProjectInitiated>
+  <StopProject>Stop Project</StopProject>
+  <ProjectTerminated>Project terminated</ProjectTerminated>
+  <NoBenchAvailable>No Rimatomics research bench available</NoBenchAvailable>
+  <ResearchPurchased>Research Purchased!</ResearchPurchased>
 </LanguageData>

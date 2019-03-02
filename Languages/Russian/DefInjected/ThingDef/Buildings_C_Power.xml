@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Radioisotope_thermoelectric_generator.label>Р.И.Т.Э.Г</Radioisotope_thermoelectric_generator.label>
+  <Radioisotope_thermoelectric_generator.description>Электрический генератор, который использует массив термоэлементов для преобразования тепла, выделяемого при распаде соответствующего радиоактивного материала в электричество</Radioisotope_thermoelectric_generator.description>
+  <Radioisotope_thermoelectric_generator_Blueprint.label>Р.И.Т.Э.Г (проект)</Radioisotope_thermoelectric_generator_Blueprint.label>
+  <Radioisotope_thermoelectric_generator_Blueprint_Install.label>Р.И.Т.Э.Г (проект)</Radioisotope_thermoelectric_generator_Blueprint_Install.label>
+  <Radioisotope_thermoelectric_generator_Frame.label>Р.И.Т.Э.Г (постройка)</Radioisotope_thermoelectric_generator_Frame.label>
+
+  <ReactorCoreA.label>реактор Тип A</ReactorCoreA.label>
+  <ReactorCoreA.description>Ядро теплового реактора Rimatomics с 21 топливной ёмкостью мощностью 250 кВт. Ядро ядерного реактора представляет собой часть ядерного реактора, содержащего компоненты ядерного топлива, где происходят ядерные реакции, и выделяется тепло</ReactorCoreA.description>
+  <ReactorCoreA_Blueprint.label>реактор Тип A (проект)</ReactorCoreA_Blueprint.label>
+  <ReactorCoreA_Frame.label>реактор Тип A (постройка)</ReactorCoreA_Frame.label>
+
+  <ReactorCoreB.label>реактор Тип X</ReactorCoreB.label>
+  <ReactorCoreB.description>Передовая конструкция реактора-размножителя, которая может производить больше расщепляемого материала, чем потребляет.</ReactorCoreB.description>
+  <ReactorCoreB_Blueprint.label>реактор Тип X (проект)</ReactorCoreB_Blueprint.label>
+  <ReactorCoreB_Frame.label>реактор Тип X (постройка)</ReactorCoreB_Frame.label>
+
+  <ReactorCoreC.label>реактор Тип V</ReactorCoreC.label>
+  <ReactorCoreC.description>Массивный комплексный реактор-размножитель, который может производить больше расщепляемого материала, чем потребляет.</ReactorCoreC.description>
+  <ReactorCoreC_Blueprint.label>реактор Тип V (проект)</ReactorCoreC_Blueprint.label>
+  <ReactorCoreC_Frame.label>реактор Тип V (постройка)</ReactorCoreC_Frame.label>
+
+
+  <!-- COOLING -->
+
+  <CoolingRadiator.label>радиатор</CoolingRadiator.label>
+  <CoolingRadiator.description>Радиаторная система, предназначенная для нагрева очень больших баз, а также охлаждения ядерного реактора</CoolingRadiator.description>
+  <CoolingRadiator_Blueprint.label>радиатор (проект)</CoolingRadiator_Blueprint.label>
+  <CoolingRadiator_Frame.label>радиатор (постройка)</CoolingRadiator_Frame.label>
+
+  <CoolingWater.label>водоохлаждающая станция</CoolingWater.label>
+  <CoolingWater.description>Обеспечивает хорошее охлаждение для ядерных реакторов, используя холодную воду из рек, озер или океанов</CoolingWater.description>
+  <CoolingWater_Blueprint.label>водоохлаждающая станция (проект)</CoolingWater_Blueprint.label>
+  <CoolingWater_Frame.label>водоохлаждающая станция (постройка)</CoolingWater_Frame.label>
+
+  <CoolingTower.label>сухая градирня</CoolingTower.label>
+  <CoolingTower.description>Очень большие воздушные охладители, предназначенные для обеспечения сильного охлаждения для ядерных реакторов, когда нет естественных водоемов</CoolingTower.description>
+  <CoolingTower_Blueprint.label>сухая градирня (проект)</CoolingTower_Blueprint.label>
+  <CoolingTower_Frame.label>сухая градирня (постройка)</CoolingTower_Frame.label>
+
+
+  <!-- HEAT EXCHANGE -->
+
+  <Turbine.label>турбина Тор</Turbine.label>
+  <Turbine.description>Турбина, приводимая в движение паром, которая превращается генератором в электрическую энергию. Тор имеет максимальную выходную мощность 100 киловатт</Turbine.description>
+  <Turbine_Blueprint.label>турбина Тор (проект)</Turbine_Blueprint.label>
+  <Turbine_Frame.label>турбина Тор (постройка)</Turbine_Frame.label>
+
+  <BigTurbine.label>турбина Зевс</BigTurbine.label>
+  <BigTurbine.description>Турбина, приводимая в движение паром, которая превращается генератором в электрическую энергию. Максимальная выходная мощность Зевса составляет 1 мегаватт</BigTurbine.description>
+  <BigTurbine_Blueprint.label>турбина Зевс (проект)</BigTurbine_Blueprint.label>
+  <BigTurbine_Frame.label>турбина Зевс (постройка)</BigTurbine_Frame.label>
+
+
+  <!-- TRANNY -->
+
+  <Transformer.label>высоковольтный трансформатор</Transformer.label>
+  <Transformer.description>Предусматривает окончательное преобразование напряжения тока из турбинных генераторов, понижая напряжение, используемое в линиях высокого напряжения, до уровня, используемого силовыми кабелями</Transformer.description>
+  <Transformer_Blueprint.label>высоковольтный трансформатор (проект)</Transformer_Blueprint.label>
+  <Transformer_Frame.label>высоковольтный трансформатор (постройка)</Transformer_Frame.label>
+
+
+  <!-- CONTROLLERS -->
+
+  <ReactorControl.label>консоль реактора</ReactorControl.label>
+  <ReactorControl.description>Компьютерная система, предназначенная для управления ядерными реакторами. Отправьте колониста, для управления станцией и доступа к элементам управления, одновременно можно открывать несколько элементов управления</ReactorControl.description>
+  <ReactorControl_Blueprint.label>консоль реактора (проект)</ReactorControl_Blueprint.label>
+  <ReactorControl_Frame.label>консоль реактора (постройка)</ReactorControl_Frame.label>
+
+  <storagePool.label>бассейн хранилище</storagePool.label>
+  <storagePool.description>Бассейн хранилище для безопасного хранения стержней ядерного топлива. Щелкните по кнопке "Управлять", чтобы взаимодействовать и обозначать топливо для удаления</storagePool.description>
+  <storagePool_Blueprint.label>бассейн хранилище (проект)</storagePool_Blueprint.label>
+  <storagePool_Frame.label>бассейн хранилище (постройка)</storagePool_Frame.label>
+
+  <RadiationDetector.label>детектор излучения</RadiationDetector.label>
+  <RadiationDetector.description>Детектор излучения.</RadiationDetector.description>
+  <RadiationDetector_Blueprint.label>детектор излучения (проект)</RadiationDetector_Blueprint.label>
+  <RadiationDetector_Frame.label>детектор излучения (постройка)</RadiationDetector_Frame.label>
+
+
+</LanguageData>

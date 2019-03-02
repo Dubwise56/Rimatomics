@@ -1,0 +1,228 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--ALERTS-->
+  <AlertNeedsTurbine>Ядру нужны турбины</AlertNeedsTurbine>
+  <AlertNeedsTurbineDesc>Реактор необходимо подключить к турбине, неспособность сделать это может привести к перегреву и расплавлению</AlertNeedsTurbineDesc>
+  <AlertNeedsCooling>Турбина нуждается в охлаждении</AlertNeedsCooling>
+  <AlertNeedsCoolingDesc>Турбина должна быть подключена к системе охлаждения, неспособность сделать это может привести к перегреву и расплавлению</AlertNeedsCoolingDesc>
+  <AlertCoreMelt>ПЛАВЛЕНИЕ ЯДРА</AlertCoreMelt>
+  <AlertCoreMeltDesc>Реактор страдает от инцидента плавления ядра, немедленно эвакуируйтесь</AlertCoreMeltDesc>
+  <AlertCoreOverheat>Температура реактора</AlertCoreOverheat>
+  <AlertCoreOverheatDesc>Реактор поврежден из-за перегрева</AlertCoreOverheatDesc>
+  <AlertCracked>Треснутое ядро</AlertCracked>
+  <AlertCrackedDesc>Напряжение от запуска ядра при высоких температурах в течение длительного периода времени привело к тому, что ядро раскололось, его нужно будет разобрать и перестроить или оно будет продолжать излучать смертельное излучение, производить меньше энергии и повреждать топливные стержни.</AlertCrackedDesc>
+
+  <CRACKEDFUEL>    ::ТРЕСНУЛО ТОПЛИВО::</CRACKEDFUEL>
+  <NOCOOLING>    ::НЕТ ОХЛАЖДЕНИЯ::</NOCOOLING>
+  <OVERHEATING>    ::ПЕРЕГРЕВ:: {0}</OVERHEATING>
+  <COREMELT>    ::УГРОЗА ПЛАВЛЕНИЯ ЯДРА::</COREMELT>
+  <EVACUATE>    ::ЭВАКУИРОВАТЬСЯ::</EVACUATE>
+  <CONTROLRODJAM>    ::УПРАВЛЕНИЕ СТЕРЖНЯМИ ЗАКЛИНИЛО::</CONTROLRODJAM>
+  <ReactorAlerts>Предупреждения о реакторе:</ReactorAlerts>
+  <RADIATIONLEAK>    ::УТЕЧКА РАДИАЦИИ::</RADIATIONLEAK>
+  <RADIATIONLEAKSYSTEM>    ::РАДИАЦИЯ В СИСТЕМЕ::</RADIATIONLEAKSYSTEM>
+
+  <!--CONSOLE-->
+  <MOX>МОКС</MOX>
+  <Used>Используется</Used>
+  <AbortTest>ПРЕРВАТЬ</AbortTest>
+  <reactorSCRAM>СТОП</reactorSCRAM>
+  <reactorSTART>НАЧАТЬ</reactorSTART>
+  <BreederTest>Тест множителя</BreederTest>
+  <InstallAll>Установить все</InstallAll>
+  <ShutdownCold>Выключение и охлаждение</ShutdownCold>
+  <StartingUp>Пуск</StartingUp>
+  <ShuttingDown>Отключение</ShuttingDown>
+  <Active>Активный</Active>
+  <ReactorBreakdown>ID: {0}\nСтатус: {1}\nМакс энергия: {2}W\nОбщее кол-во топлива: {3}\nКоэффициент конверсии: {4}\nРадиация: {5}\n\n{6}</ReactorBreakdown>
+  <SlotBreakdown>Макс энергия: {1}W\nТекущая мощность: {2}W\nВыроботка: {3}\nКонверсия: {4}\nВозможность обработки: {5}</SlotBreakdown>
+  <cycleScreensDesc>Мониторинг всех реакторов в этой сети</cycleScreensDesc>
+  <cycleScreens>Мониторинг всех</cycleScreens>
+  <AutoScram>Авто-стоп</AutoScram>
+  <AutoScramDesc>ОСТАНОВКА активной зоны реактора, когда температура достигает небезопасных уровней или обнаруживается солнечная вспышка</AutoScramDesc>
+  <FlareSCRAMletterText>Солнечная вспышка вызвала ОСТАНОВКУ реактора</FlareSCRAMletterText>
+  <SCRAMletterText>Небезопасная температура ядра вызвала ОСТАНОВКУ реактора</SCRAMletterText>
+  <CantUseReactorConsole>Требуется 8 умственной работы</CantUseReactorConsole>
+  <!--PROCESSING-->
+
+  <ProcessingProgress>Прогресс: {0} {1}</ProcessingProgress>
+  <ContainsFuel>Содержит {0} / {1} Ядерного топлива.</ContainsFuel>
+  <ContainsChemfuel>Содержит {0} / {1} Химического топлива.</ContainsChemfuel>
+  <critSpentfuelonly>Только отработанное топливо</critSpentfuelonly>
+  <critAnyfuel>Любое топливо</critAnyfuel>
+  <critProg>Прогресс: {0}</critProg>
+  <critRemovePlutonium>Обработка завершена, извлеките материал</critRemovePlutonium>
+  <critEnouPU>Может быть переработан</critEnouPU>
+  <NoChemfuel>Нет химического топлива</NoChemfuel>
+
+  <!--ENERGY WEAPONS-->
+  <energyWepLoadedShell>Загружено: {0}</energyWepLoadedShell>
+  <RailgunBarrage>Задание Огонь</RailgunBarrage>
+  <RailgunBarrageDesc>Огонь из всех рельсотронов по площади</RailgunBarrageDesc>
+  <needsRadar>Требуется система система захвата цели</needsRadar>
+  <ICBMNeedMissile>Для запуска требуется ракета</ICBMNeedMissile>
+  <ICBMAlreadyLaunching>Уже запущена</ICBMAlreadyLaunching>
+  <MissileRangeBad>Цель не в пределах досягаемости</MissileRangeBad>
+  <MissileTargetInvalid>Недопустимая цель</MissileTargetInvalid>
+  <ICBMNeedConsole>Требуется управляемая оружейная консоль</ICBMNeedConsole>
+  <critrangeMinus>диапазон-</critrangeMinus>
+  <critrangePlus>диапазон+</critrangePlus>
+  <critCommandLowerRangeDesc>Уменьшить максимальный диапазон, уменьшив размер импульса</critCommandLowerRangeDesc>
+  <critCommandRaiseRangeDesc>Увеличить максимальный диапазон, увеличив размер импульса</critCommandRaiseRangeDesc>
+  <critdmgMinus>урон-</critdmgMinus>
+  <critdmgPlus>урон+</critdmgPlus>
+  <critCommandLowerDmgDesc>Уменьшить максимальное количество выстрелов, уменьшив размер импульса</critCommandLowerDmgDesc>
+  <critCommandRaiseDmgDesc>Увеличьте урон за выстрел, увеличением размер импульса</critCommandRaiseDmgDesc>
+  <critMissingPPC>Отсутствует импульсный контейнер энергии</critMissingPPC>
+  <critNRGWEPPOOWA>Мощность: {0} / Диапазон: {1} - {2}</critNRGWEPPOOWA>
+  <LastPulseSize>Последний размер пульса: {0} Wd</LastPulseSize>
+  <critCommandFireMission>Задание Огонь</critCommandFireMission>
+  <critCommandFireMissionDesc>Дальний артиллерийский выстрел</critCommandFireMissionDesc>
+  <critCommandLaunchICBM>Запустить МБР</critCommandLaunchICBM>
+  <critCommandLaunchICBMDesc>Запустить МБР в цель на этом Rimworld</critCommandLaunchICBMDesc>
+  <criticbmAttack>Фракция противника {0} готовится к запуску МБР с близлежащей базы, у вас есть {1} дней до запуска.</criticbmAttack>
+  <critMagazine>Магазин: {0}</critMagazine>
+  <critNoSabotRounds>Нет БПС снарядов</critNoSabotRounds>
+  <critBombDet>Бомба взорвалась</critBombDet>
+  <critBombDetFac>Бомба взорвалась и {0} был уничтожен</critBombDetFac>
+  <SetCamoMode>Выбрать камуфляж</SetCamoMode>
+  <critCountdown>Обратный отсчет: {0}</critCountdown>
+  <mp15>15м</mp15>
+  <mm15>15м</mm15>
+  <critArm>Взвести</critArm>
+  <MessageRailgunNeedsMap>Карта не создана, отправьте колонистов в разведку</MessageRailgunNeedsMap>
+  <MessageRailgunTargetInvalid>Недействительный объект</MessageRailgunTargetInvalid>
+  <NextPart>Следующая часть: {0}, {1} необходимо</NextPart>
+  <SiloFull>Шахта заполнена</SiloFull>
+  <SiloMagazine>Ракеты: {0}/{1}</SiloMagazine>
+  <ICBMReady>МБР готова.</ICBMReady>
+  <!--REACTOR BUILDINGS-->
+
+  <Managefuel>Управлять</Managefuel>
+  <RoofedTower>Башня перекрыта крышей</RoofedTower>
+  <TurbineRPM>RPM: {0} ({1}%)</TurbineRPM>
+  <TradeShipWait>Торговое судно Rimatomics готово в {0}</TradeShipWait>
+  <critsetid>Выбрать ID</critsetid>
+  <critCoolingCapShare>Доля мощности охлаждения: {0} с {1} турбинами</critCoolingCapShare>
+
+  <crackedRemoveNow>\nТРЕЩИНА! Удалите сейчас</crackedRemoveNow>
+  <critCoreTemp>Температура ядра: {0}C</critCoreTemp>
+  <critCoreEnergy>Энергия: {0}кВт</critCoreEnergy>
+  <critCoreCooling>Охлаждение: {0}</critCoreCooling>
+  <critCoreFlux>Нейтронный поток: {0}</critCoreFlux>
+  <critscramDesc>Возвращение температуры и потока нейтронов до базовых значений, но оставить ядро включённым</critscramDesc>
+  <critStartup>Запустить</critStartup>
+  <critShutdown>Остановить</critShutdown>
+  <critStartupDesc>Запускает ядро, позволяя поднимать уровни температуры и потока</critStartupDesc>
+  <critShutdownDesc>Останавливает ядро, оставляя его включенным, но холодным, для дозаправки и ремонта.</critShutdownDesc>
+  <critManageReactor>Управление реактором</critManageReactor>
+  <critreactorcritical>Опасный реактор</critreactorcritical>
+  <critreactorleaking>Утечка в реакторе</critreactorleaking>
+  <critreactionstable>Стабильность реактора</critreactionstable>
+  <critStorageCapacity>Вместимость склада: {0} / {1}</critStorageCapacity>
+  <critGenerated>Выработка: {0} W</critGenerated>
+  <critConsumed>Потребление: {0} W</critConsumed>
+  <critPnetPct>Загрузка энергосети: {0}</critPnetPct>
+  <critPowerGeneration>Выработка энергии: {0} W</critPowerGeneration>
+  <critValveOpen>Клапан: открыт</critValveOpen>
+  <critValveClosed>Клапан: закрыт</critValveClosed>
+  <critOpenValve>Открытый клапан</critOpenValve>
+  <critCloseValve>Закрытый клапан</critCloseValve>
+  <critToggleValve>Переключить клапан</critToggleValve>
+  <critTempBoost>Повышение температуры</critTempBoost>
+  <critTemp>Температура</critTemp>
+  <critCooling>Охлаждение</critCooling>
+  <critTurbine>Турбина</critTurbine>
+  <critCoreIntegrity>Целостность ядра</critCoreIntegrity>
+  <critNeutronFlux>Нейтронный поток</critNeutronFlux>
+  <critTargetFlux>Целевой поток</critTargetFlux>
+  <critFuelRemaining2>Остаток топлива: {0}</critFuelRemaining2>
+  <Empty>Пусто</Empty>
+  <Activated>Активированный</Activated>
+  <Cracked>Треснувший</Cracked>
+  <Spent>Истощен</Spent>
+  <New>Новый</New>
+  <Remove>Удалить</Remove>
+  <Store>Хранить</Store>
+
+
+
+  <critPlaceOnCore>Должно быть размещено на расплавленном ядре  правильного типа</critPlaceOnCore>
+  <NeedsRiver>Необходимо разместить рядом с рекой, озером или океаном</NeedsRiver>
+  <critMoreWater>Требуется больший объем воды</critMoreWater>
+  <critActiveCore>Ядро все еще активно</critActiveCore>
+  <critCrackedcore>Ядро треснуло</critCrackedcore>
+  <critNoSlotDes>Нет выделенных слотов</critNoSlotDes>
+  <critnoFuelRods>Нет доступного топлива</critnoFuelRods>
+  <critNoSpace>Нет места</critNoSpace>
+  <critSpentOnly>Набор только для отработанного топлива, нет доступного</critSpentOnly>
+  <critNoPool>Нет доступных хранилищ</critNoPool>
+
+  <critCoreIntegrityDesc>Целостность этого ядра настолько мала, что оно может треснуть.</critCoreIntegrityDesc>
+
+
+  <TradeShipPrice>Заказать торговое судно ({0} серебра)</TradeShipPrice>
+  <TradeShipPriceNeed>Нужно {0} серебра, чтобы заказать торговый корабль</TradeShipPriceNeed>
+
+  <TradeShipReq>Торговое судно Rimatomics отправлено на вашу планету.\n\nПотребуется 2 дня.</TradeShipReq>
+
+  <LowerPowerLimit>Понижение предела мощности</LowerPowerLimit>
+  <RaisePowerLimit>Повышение предела мощности</RaisePowerLimit>
+  <PowerLimitDesc>Измените предел мощности для этого трансформатора, используемый для изменения распределения мощности по нескольким энергосетям\n\nУдерживайте Shift для более точного управления</PowerLimitDesc>
+  <TrannyLimit>Предел мощности: {0} кВт</TrannyLimit>
+  <TurbinePower>Мощность турбины: {0} кВт</TurbinePower>
+
+  <!--WEAPONS CONSOLE-->
+  <TestFireHELSOnOwnShells>Сбейте наши собственные минометные снаряды для сбора данных.</TestFireHELSOnOwnShells>
+  <OpenRadar>Открыть экран отслеживания цели</OpenRadar>
+
+  <!--RESEARCH-->
+  <Free>Бесплатно</Free>
+  <Purchase>Приобрести</Purchase>
+  <Price>Цена</Price>
+  <Unlocks>Открывает</Unlocks>
+  <openResearchPanel>Открыть панель исследований</openResearchPanel>
+  <ResearchProg>{0}/{1}</ResearchProg>
+  <ResearchPriceNeed>Требуется {0} серебра рядом с торговым маяком</ResearchPriceNeed>
+  <RimUnlocked>Обнаружен зонд.</RimUnlocked>
+  <RimatomicsResearchAlert>Исследования Rimatomics</RimatomicsResearchAlert>
+  <RimatomicResearchAlertMess>Проект: {0}\nШаг: {1}\nЗадача: {2}</RimatomicResearchAlertMess>
+  <thingsUnlocked>Разблокировано - </thingsUnlocked>
+  <RimatomStepComplete>Шаг завершен</RimatomStepComplete>
+  <RequiresFac> Требуется: </RequiresFac>
+  <StepInspect>Шаг: {0}</StepInspect>
+  <ResearchComplete>Исследование завершено</ResearchComplete>
+  <StillTestingDef>Все еще испытывается прототип</StillTestingDef>
+  <TabResearch>Проекты</TabResearch>
+  <CurProj>Проект: {0}</CurProj>
+  <CurStep>Шаг: {0}</CurStep>
+  <SkillLevel>{0} Требуется уровень {1} {2}</SkillLevel>
+  <StartProject>Начать проект</StartProject>
+  <StopProject>Остановить проект</StopProject>
+
+  <DesignatorRemoveColdWater>Удалить холодную воду</DesignatorRemoveColdWater>
+  <DesignatorRemoveColdWaterDesc>Удалить трубы холодной воды</DesignatorRemoveColdWaterDesc>
+
+  <DesignatorRemoveCooling>Удалить охлаждение</DesignatorRemoveCooling>
+  <DesignatorRemoveCoolingDesc>Удалить трубы с охлаждением</DesignatorRemoveCoolingDesc>
+
+  <DesignatorRemoveHighVoltage>Удалить высоковольтные линии</DesignatorRemoveHighVoltage>
+  <DesignatorRemoveHighVoltageDesc>Удалить высоковольтные линии</DesignatorRemoveHighVoltageDesc>
+
+  <DesignatorRemoveLoom>Удалить кабель консоли</DesignatorRemoveLoom>
+  <DesignatorRemoveLoomDesc>Удалить кабель консоли</DesignatorRemoveLoomDesc>
+
+  <DesignatorRemoveSteam>Удалить паровые трубы</DesignatorRemoveSteam>
+  <DesignatorRemoveSteamDesc>Удалить паровые трубы</DesignatorRemoveSteamDesc>
+
+  <coreUpgradeFail>Не удается обновить, когда активно ядро</coreUpgradeFail>
+  <powerUpgradeFail>Перед модернизацией здания необходимо отключить питание</powerUpgradeFail>
+
+  <RimatomicResearchCompleteDialog>{0} - завершено\n\n{1}</RimatomicResearchCompleteDialog>
+
+  <TradeShipCooldown>Охлаждение торгового корабля: {0}</TradeShipCooldown>
+  <TradeShipArrival>Прибытие торгового корабля: {0}</TradeShipArrival>
+  <rimatomicsProto> Прототип</rimatomicsProto>
+
+</LanguageData>

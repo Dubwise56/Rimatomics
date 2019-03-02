@@ -32,6 +32,11 @@
       <WorkToBuild>1250</WorkToBuild>
       <Flammability>0</Flammability>
     </statBases>
+    <comps>
+      <li>
+        <compClass>CompColorable</compClass>
+      </li>
+      </comps>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
@@ -59,9 +64,6 @@
         <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
     </building>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor3</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
   <ThingDef Name="BaseSarc" ParentName="BasedPower" Abstract="true">
@@ -104,9 +106,6 @@
     <rotatable>false</rotatable>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
     <constructEffect>ConstructMetal</constructEffect>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor10</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="BaseSarc"   Class="Rimatomics.RimatomicsThingDef">
@@ -296,6 +295,9 @@
       <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <comps>
+        <li>
+          <compClass>CompColorable</compClass>
+        </li>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>150</basePowerConsumption>

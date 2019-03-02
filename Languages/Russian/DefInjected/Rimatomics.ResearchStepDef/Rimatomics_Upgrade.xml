@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ReactorConductors1.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 12)</ReactorConductors1.StepLabel>
+  <ReactorConductors1.StepDesc>Квалифицированный исследователь должен спланировать серию испытаний, которые могут быть выполнены на ядре реактора для сбора данных и анализа</ReactorConductors1.StepDesc>
+
+  <ReactorConductors2.StepLabel>Тест полной заправки &lt; 20% нейтронного потока.</ReactorConductors2.StepLabel>
+  <ReactorConductors2.StepDesc>Полностью заправьте реактор, затем установите нейтронный поток на уровень между 10% и 20%, затем данные будут собраны исследовательской консолью.</ReactorConductors2.StepDesc>
+
+  <ReactorConductors3.StepLabel>Тест полной заправки с 100% нейтронным потоком.</ReactorConductors3.StepLabel>
+  <ReactorConductors3.StepDesc>Полностью заправьте реактор, затем установите поток нейтронов на 100%, затем данные будут собраны исследовательской консолью.</ReactorConductors3.StepDesc>
+
+  <ReactorConductors4.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 12)</ReactorConductors4.StepLabel>
+  <ReactorConductors4.StepDesc>Квалифицированный исследователь должен анализировать данные, сформулировать гипотезу и эксперимент с использованием исследовательского реактора</ReactorConductors4.StepDesc>
+
+  <ReactorConductors5.StepLabel>Оценка компонентов (Уровень ремесла 12)</ReactorConductors5.StepLabel>
+  <ReactorConductors5.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</ReactorConductors5.StepDesc>
+
+  <NeutronReflectors1.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 12)</NeutronReflectors1.StepLabel>
+  <NeutronReflectors1.StepDesc>Квалифицированный исследователь должен спланировать серию испытаний, которые могут быть выполнены на ядре реактора для сбора данных и анализа</NeutronReflectors1.StepDesc>
+
+  <NeutronReflectors2.StepLabel>Тест полной заправки с 100% нейтронным потоком.</NeutronReflectors2.StepLabel>
+  <NeutronReflectors2.StepDesc>Полностью заправьте реактор, затем установите поток нейтронов на 100%, затем данные будут собраны исследовательской консолью.</NeutronReflectors2.StepDesc>
+
+  <NeutronReflectors3.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 12)</NeutronReflectors3.StepLabel>
+  <NeutronReflectors3.StepDesc>Квалифицированный исследователь должен анализировать данные, сформулировать гипотезу и эксперимент с использованием исследовательского реактора</NeutronReflectors3.StepDesc>
+
+  <NeutronReflectors4.StepLabel>Оценка компонентов (Уровень ремесла 12)</NeutronReflectors4.StepLabel>
+  <NeutronReflectors4.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</NeutronReflectors4.StepDesc>
+
+  <ReactorShielding1.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 12)</ReactorShielding1.StepLabel>
+  <ReactorShielding1.StepDesc>Квалифицированный исследователь должен спланировать серию испытаний, которые могут быть выполнены на ядре реактора для сбора данных и анализа</ReactorShielding1.StepDesc>
+
+  <ReactorShielding2.StepLabel>Создайте 1 уровень радиации из ядра</ReactorShielding2.StepLabel>
+  <ReactorShielding2.StepDesc>Испытайте реактор, создав условия, которые приводят к уровню радиационной утечки 1 или выше, после завершения испытания может потребоваться ремонт.</ReactorShielding2.StepDesc>
+
+  <ReactorShielding3.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 12)</ReactorShielding3.StepLabel>
+  <ReactorShielding3.StepDesc>Квалифицированный исследователь должен анализировать данные, сформулировать гипотезу и эксперимент с использованием исследовательского реактора</ReactorShielding3.StepDesc>
+
+  <ReactorShielding4.StepLabel>Оценка компонентов (Уровень ремесла 12)</ReactorShielding4.StepLabel>
+  <ReactorShielding4.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</ReactorShielding4.StepDesc>
+
+  <ControlRodActuators1.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 8)</ControlRodActuators1.StepLabel>
+  <ControlRodActuators1.StepDesc>Квалифицированный исследователь должен спланировать серию испытаний, которые могут быть выполнены на ядре реактора для сбора данных и анализа</ControlRodActuators1.StepDesc>
+
+  <ControlRodActuators2.StepLabel>Выполните остановку 2 реакторов</ControlRodActuators2.StepLabel>
+  <ControlRodActuators2.StepDesc>Испытайте систему управления стержнем, выполнив остановку реактора, пока он полностью заправлен топливом и установлен на 100% нейтронный поток.</ControlRodActuators2.StepDesc>
+
+  <ControlRodActuators3.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 10)</ControlRodActuators3.StepLabel>
+  <ControlRodActuators3.StepDesc>Квалифицированный исследователь должен анализировать данные, сформулировать гипотезу и эксперимент с использованием исследовательского реактора</ControlRodActuators3.StepDesc>
+
+  <ControlRodActuators4.StepLabel>Оценка компонентов (Уровень ремесла 10)</ControlRodActuators4.StepLabel>
+  <ControlRodActuators4.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</ControlRodActuators4.StepDesc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <GuidenceSystem1.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 12)</GuidenceSystem1.StepLabel>
+  <GuidenceSystem1.StepDesc>Квалифицированный исследователь должен спланировать серию испытаний, которые могут быть выполнены на МБР для сбора данных и анализа</GuidenceSystem1.StepDesc>
+
+  <GuidenceSystem2.StepLabel>Сбор данных об оружии.</GuidenceSystem2.StepLabel>
+  <GuidenceSystem2.StepDesc>Запустите МБР по любой цели для сбора данных, объем собранных данных зависит от успеха запуска с успешной детонацией на цели, дающей максимум.</GuidenceSystem2.StepDesc>
+
+  <GuidenceSystem3.StepLabel>Исследовать ядерные реакторы (Уровень умственного труда 12)</GuidenceSystem3.StepLabel>
+  <GuidenceSystem3.StepDesc>Квалифицированный исследователь должен спланировать серию испытаний, которые могут быть выполнены на МБР для сбора данных и анализа</GuidenceSystem3.StepDesc>
+
+  <MEPS1.StepLabel>Исследовать МСЭ (Уровень умственного труда 12)</MEPS1.StepLabel>
+  <MEPS1.StepDesc>Квалифицированный исследователь должен спланировать серию испытаний, которые могут быть выполнены на энергетическом оружии Rimatomics для сбора данных для анализа</MEPS1.StepDesc>
+
+  <MEPS2.StepLabel>Сбор данных об оружии.</MEPS2.StepLabel>
+  <MEPS2.StepDesc>Стреляйте из любого энергетического оружия Rimatomics на полную мощность для сбора данных.</MEPS2.StepDesc>
+
+  <MEPS3.StepLabel>Исследовать МСЭ (Уровень умственного труда 10)</MEPS3.StepLabel>
+  <MEPS3.StepDesc>Квалифицированный исследователь должен проанализировать данные, сформулировать гипотезу и эксперимент с помощью верстака исследования оружия</MEPS3.StepDesc>
+
+  <MEPS4.StepLabel>Оценка компонентов (Уровень ремесла 10)</MEPS4.StepLabel>
+  <MEPS4.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</MEPS4.StepDesc>
+
+  <ALC1.StepLabel>Исследовать ПЖО (Уровень умственного труда 12)</ALC1.StepLabel>
+  <ALC1.StepDesc>Квалифицированный исследователь должен спланировать серию испытаний, которые могут быть выполнены на энергетическом оружии Rimatomics для сбора данных для анализа</ALC1.StepDesc>
+
+  <ALC2.StepLabel>Сбор данных об оружии.</ALC2.StepLabel>
+  <ALC2.StepDesc>Стреляйте из любого энергетического оружия Rimatomics на полную мощность для сбора данных.</ALC2.StepDesc>
+
+  <ALC3.StepLabel>Исследовать ПЖО (Уровень умственного труда 10)</ALC3.StepLabel>
+  <ALC3.StepDesc>Квалифицированный исследователь должен проанализировать данные, сформулировать гипотезу и эксперимент с помощью верстака исследования оружия</ALC3.StepDesc>
+
+  <ALC4.StepLabel>Оценка компонентов (Уровень ремесла 10)</ALC4.StepLabel>
+  <ALC4.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</ALC4.StepDesc>
+
+  <ERS1.StepLabel>Исследовать СРЭ (Уровень умственного труда 12)</ERS1.StepLabel>
+  <ERS1.StepDesc>Квалифицированный исследователь должен спланировать серию испытаний, которые могут быть выполнены на энергетическом оружии Rimatomics для сбора данных для анализа</ERS1.StepDesc>
+
+  <ERS2.StepLabel>Сбор данных об оружии.</ERS2.StepLabel>
+  <ERS2.StepDesc>Стреляйте из любого энергетического оружия Rimatomics на полную мощность для сбора данных.</ERS2.StepDesc>
+
+  <ERS3.StepLabel>Исследовать СРЭ (Уровень умственного труда 10)</ERS3.StepLabel>
+  <ERS3.StepDesc>Квалифицированный исследователь должен проанализировать данные, сформулировать гипотезу и эксперимент с помощью верстака исследования оружия</ERS3.StepDesc>
+
+  <ERS4.StepLabel>Оценка компонентов (Уровень ремесла 10)</ERS4.StepLabel>
+  <ERS4.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</ERS4.StepDesc>
+
+  <DriveActuator1.StepLabel>Исследовать приводы управления (Уровень умственного труда 10)</DriveActuator1.StepLabel>
+  <DriveActuator1.StepDesc>Квалифицированный исследователь должен проанализировать данные, сформулировать гипотезу и эксперимент с помощью верстака исследования оружия</DriveActuator1.StepDesc>
+
+  <DriveActuator2.StepLabel>Оценка компонентов (Уровень ремесла 10)</DriveActuator2.StepLabel>
+  <DriveActuator2.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</DriveActuator2.StepDesc>
+
+  <Railgun_TargetingChip1.StepLabel>Исследовать чипа наведения (Уровень умственного труда 12)</Railgun_TargetingChip1.StepLabel>
+  <Railgun_TargetingChip1.StepDesc>Квалифицированный исследователь должен спланировать серию тестов, которые могут быть выполнены на рельсотроне для сбора данных и анализа</Railgun_TargetingChip1.StepDesc>
+
+  <Railgun_TargetingChip2.StepLabel>Сбор данных об оружии.</Railgun_TargetingChip2.StepLabel>
+  <Railgun_TargetingChip2.StepDesc>Используйте рельсотрон по любым целям для сбора данных</Railgun_TargetingChip2.StepDesc>
+
+  <Railgun_TargetingChip3.StepLabel>Исследовать чипа наведения (Уровень умственного труда 12)</Railgun_TargetingChip3.StepLabel>
+  <Railgun_TargetingChip3.StepDesc>Квалифицированный исследователь должен проанализировать данные</Railgun_TargetingChip3.StepDesc>
+
+  <Railgun_TargetingChip4.StepLabel>Оценка компонентов (Уровень ремесла 15)</Railgun_TargetingChip4.StepLabel>
+  <Railgun_TargetingChip4.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</Railgun_TargetingChip4.StepDesc>
+
+  <LenseModule1.StepLabel>Исследовать модули линзы (Уровень умственного труда 16)</LenseModule1.StepLabel>
+  <LenseModule1.StepDesc>Квалифицированный исследователь должен спланировать серию тестов, которые могут быть выполнены на обелиске для сбора данных и анализа</LenseModule1.StepDesc>
+
+  <LenseModule2.StepLabel>Сбор данных об оружии.</LenseModule2.StepLabel>
+  <LenseModule2.StepDesc>Используйте обелиск на любых живых объектах для сбора данных, количество полученных данных зависит от процента урона, используемого для каждого выстрела</LenseModule2.StepDesc>
+
+  <LenseModule3.StepLabel>Исследовать модули линзы (Уровень умственного труда 18)</LenseModule3.StepLabel>
+  <LenseModule3.StepDesc>Квалифицированный исследователь должен проанализировать данные, сформулировать гипотезу и эксперимент с помощью верстака исследования оружия</LenseModule3.StepDesc>
+
+  <LenseModule4.StepLabel>Оценка компонентов (Уровень ремесла 16)</LenseModule4.StepLabel>
+  <LenseModule4.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</LenseModule4.StepDesc>
+
+  <BeamSplitter1.StepLabel>Исследовать делитель луча (Уровень умственного труда 16)</BeamSplitter1.StepLabel>
+  <BeamSplitter1.StepDesc>Квалифицированный исследователь должен спланировать серию тестов, которые могут быть выполнены на обелиске для сбора данных и анализа</BeamSplitter1.StepDesc>
+
+  <BeamSplitter2.StepLabel>Сбор данных об оружии.</BeamSplitter2.StepLabel>
+  <BeamSplitter2.StepDesc>Используйте обелиск на любых живых объектах для сбора данных, количество полученных данных зависит от процента урона, используемого для каждой вспышки.</BeamSplitter2.StepDesc>
+
+  <BeamSplitter3.StepLabel>Исследовать делитель луча (Уровень умственного труда 18)</BeamSplitter3.StepLabel>
+  <BeamSplitter3.StepDesc>Квалифицированный исследователь должен проанализировать данные, сформулировать гипотезу и эксперимент с помощью верстака исследования оружия</BeamSplitter3.StepDesc>
+
+  <BeamSplitter4.StepLabel>Оценка компонентов (Уровень ремесла 16)</BeamSplitter4.StepLabel>
+  <BeamSplitter4.StepDesc>Квалифицированный ремесленник должен использовать исследование для разработки практического рабочего решения</BeamSplitter4.StepDesc>
+
+
+</LanguageData>

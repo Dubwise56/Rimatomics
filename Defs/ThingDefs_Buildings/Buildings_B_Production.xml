@@ -205,6 +205,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Facility">
+        <compClass>Rimatomics.CompResearchFacility</compClass>
         <statOffsets>
           <ResearchSpeedFactor>0.1</ResearchSpeedFactor>
         </statOffsets>
@@ -218,9 +219,6 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
-    <rimatomicsPrerequisites>
-      <li>NuclearResearch3</li>
-    </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
 
   </ThingDef>
@@ -266,6 +264,7 @@
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
       <li Class="CompProperties_Facility">
+        <compClass>Rimatomics.CompResearchFacility</compClass>
         <statOffsets>
           <ResearchSpeedFactor>0.1</ResearchSpeedFactor>
         </statOffsets>
@@ -278,9 +277,6 @@
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
-    <rimatomicsPrerequisites>
-      <li>EnergyWeapons3</li>
-    </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
 
   </ThingDef>
@@ -330,16 +326,19 @@
 				<basePowerConsumption>3000</basePowerConsumption>
 				<shortCircuitInRain>true</shortCircuitInRain>
 			</li>
+      <li Class="CompProperties_Facility">
+        <compClass>Rimatomics.CompResearchFacility</compClass>
+        <statOffsets>
+          <ResearchSpeedFactor>0.1</ResearchSpeedFactor>
+        </statOffsets>
+        <maxSimultaneous>1</maxSimultaneous>
+      </li>
 		</comps>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<constructEffect>ConstructMetal</constructEffect>
-    <rimatomicsPrerequisites>
-      <li>Plutonium3</li>
-    </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
-
   </ThingDef>
 
 </Defs>

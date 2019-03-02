@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RocketEngine.label>Rocket Engine</RocketEngine.label>
+  <RocketEngine.description>Engines for building ICBM's.</RocketEngine.description>
+
+  <MissileFuselage.label>Missile Fuselage</MissileFuselage.label>
+  <MissileFuselage.description>Fuselage for building ICBM's.</MissileFuselage.description>
+
+  <FissionWarhead.label>Nuclear Warhead</FissionWarhead.label>
+  <FissionWarhead.description>An explosive device that derives its destructive force from nuclear reactions.</FissionWarhead.description>
+
+  <ICBM_Fission.label>ICBM</ICBM_Fission.label>
+  <NuclearWarheadIncoming.label>warhead incoming</NuclearWarheadIncoming.label>
+  <SCUDIncoming.label>missile incoming</SCUDIncoming.label>
+  <CHEMSCUDIncoming.label>missile incoming</CHEMSCUDIncoming.label>
+  <ICBMStrike.label>ICBM Strike</ICBMStrike.label>
+
+
+</LanguageData>

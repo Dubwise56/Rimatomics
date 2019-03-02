@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RadioactiveFallout.label>放射性尘埃</RadioactiveFallout.label>
+  <RadioactiveFallout.description>一缕放射性烟尘和灰烬已经喷射到空气中，并将沉降在周围地区。</RadioactiveFallout.description>
+  <RadioactiveFallout.endMessage>放射性尘埃已基本消散。</RadioactiveFallout.endMessage>
+
+  <NuclearFallout.label>核辐射</NuclearFallout.label>
+  <NuclearFallout.description>核爆炸产生的放射性烟尘和灰烬已经喷射到空中，并将沉降在周围地区。</NuclearFallout.description>
+  <NuclearFallout.endMessage>核辐射已基本消散。</NuclearFallout.endMessage>
+
+</LanguageData>

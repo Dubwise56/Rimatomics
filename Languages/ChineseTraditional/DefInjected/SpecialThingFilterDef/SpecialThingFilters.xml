@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NuclearFuelCracked.label>Allow Cracked</NuclearFuelCracked.label>
+  <NuclearFuelCracked.description>Allow cracked fuel rods to be stored here.</NuclearFuelCracked.description>
+
+  <NuclearFuelNotCracked.label>Allow Non Cracked</NuclearFuelNotCracked.label>
+  <NuclearFuelNotCracked.description>Allow non cracked fuel rods to be stored here.</NuclearFuelNotCracked.description>
+
+  <NuclearFuelProcessable.label>Allow Processable</NuclearFuelProcessable.label>
+  <NuclearFuelProcessable.description>Allow processable fuel to be stored here.</NuclearFuelProcessable.description>
+
+  <NuclearFuelNotProcessable.label>Allow Non Processable</NuclearFuelNotProcessable.label>
+  <NuclearFuelNotProcessable.description>Allow non processable fuel to be stored here.</NuclearFuelNotProcessable.description>
+
+
+</LanguageData>

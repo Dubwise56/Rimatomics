@@ -4,6 +4,8 @@
 	<name>Rimatomics</name>
 	<author>Dubwise</author>
 	<url>https://ludeon.com/forums/index.php?topic=25124.0</url>
-	<targetVersion>0.19.2009</targetVersion>
-	<description>Nuclear power | Energy weapons | Nuclear weapons 1.5.569</description>
+	  <supportedVersions>
+    <li>1.0</li>
+  </supportedVersions>
+	<description>Nuclear power | Energy weapons | Nuclear weapons 1.6.716\n\nMultiplayer Ready</description>
 </ModMetaData>

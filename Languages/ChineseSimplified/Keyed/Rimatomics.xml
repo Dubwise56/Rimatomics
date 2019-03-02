@@ -1,0 +1,244 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--ALERTS-->
+  <AlertNeedsTurbine>反应堆需要连通涡轮机</AlertNeedsTurbine>
+  <AlertNeedsTurbineDesc>反应堆必须连接涡轮发电机，否则会导致反应堆过热熔毁。</AlertNeedsTurbineDesc>
+  <AlertNeedsCooling>涡轮机需要连通冷却系统</AlertNeedsCooling>
+  <AlertNeedsCoolingDesc>涡轮发电机必须连接冷却系统，否则会导致涡轮发电机过热熔毁。</AlertNeedsCoolingDesc>
+  <AlertCoreMelt>堆芯熔化</AlertCoreMelt>
+  <AlertCoreMeltDesc>灾难性的堆芯熔化事故，请立即撤离此地！</AlertCoreMeltDesc>
+  <AlertCoreOverheat>反应堆故障</AlertCoreOverheat>
+  <AlertCoreOverheatDesc>反应堆因过热而损坏。</AlertCoreOverheatDesc>
+  <AlertCracked>反应堆损坏</AlertCracked>
+  <AlertCrackedDesc>反应堆在高温下的长时间运行导致其堆芯破裂，需要解构和重建，否则将持续发射致命的辐射，产生较少的电力并损坏燃料棒。</AlertCrackedDesc>
+
+  <CRACKEDFUEL>    ::燃料棒破裂::</CRACKEDFUEL>
+  <NOCOOLING>    ::没有冷却系统::</NOCOOLING>
+  <OVERHEATING>    ::过热:: {0}</OVERHEATING>
+  <COREMELT>    ::堆芯融化::</COREMELT>
+  <EVACUATE>    ::撤离::</EVACUATE>
+  <CONTROLRODJAM>    ::控制棒故障::</CONTROLRODJAM>
+  <ReactorAlerts>反应堆警报：</ReactorAlerts>
+  <RADIATIONLEAK>    ::辐射泄漏::</RADIATIONLEAK>
+  <RADIATIONLEAKSYSTEM>    ::系统辐射::</RADIATIONLEAKSYSTEM>
+
+  <!--CONSOLE-->
+  <Dragtoincreasefluxlevel>拖动以增加中子通量水平</Dragtoincreasefluxlevel>
+  <MOX>金属氧化物</MOX>
+  <Used>已使用过</Used>
+  <AbortTest>中止</AbortTest>
+  <reactorSCRAM>关闭</reactorSCRAM>
+  <reactorSTART>启动</reactorSTART>
+  <BreederTest>反应堆测试</BreederTest>
+  <InstallAll>全部安装</InstallAll>
+  <ShutdownCold>关机并冷却</ShutdownCold>
+  <StartingUp>启动</StartingUp>
+  <ShuttingDown>关机</ShuttingDown>
+  <Active>激活</Active>
+  <ReactorBreakdown>ID: {0}\n状态: {1}\n最大功率: {2}W\n总燃料量: {3}\n{4}\n</ReactorBreakdown>
+  <SlotBreakdown>燃料棒最大功率: {1}W\n当前功率: {2}W\n完好度: {3}\n使用率: {4}\n是否可以操作: {5}</SlotBreakdown>
+  <cycleScreensDesc>监控连接的的所有反应堆</cycleScreensDesc>
+  <cycleScreens>监控所有</cycleScreens>
+  <AutoScram>自动关闭</AutoScram>
+  <AutoScramDesc>当堆芯温度达到危险阈值或发生太阳耀斑时自动关闭反应堆</AutoScramDesc>
+  <FlareSCRAMletterText>监测到太阳耀斑，反应堆自动关闭</FlareSCRAMletterText>
+  <SCRAMletterText>监测到堆心温度过高，反应堆自动关闭</SCRAMletterText>
+  <CantUseReactorConsole>需要8智识</CantUseReactorConsole>
+  <!--PROCESSING-->
+
+  <ProcessingProgress>进度: {0} 完成剩余时间:{1}</ProcessingProgress>
+  <ContainsFuel>含有 {0} / {1} 的核燃料</ContainsFuel>
+  <ContainsChemfuel>含有 {0} / {1} 化合燃料</ContainsChemfuel>
+  <critSpentfuelonly>仅核废料</critSpentfuelonly>
+  <critAnyfuel>允许任何燃料</critAnyfuel>
+  <critProg>进度：{0}</critProg>
+  <critRemovePlutonium>加工完毕，取出材料</critRemovePlutonium>
+  <critEnouPU>未完成</critEnouPU>
+  <NoChemfuel>没有化合燃料</NoChemfuel>
+
+  <!--ENERGY WEAPONS-->
+  <AnUnknownForce>一个未知势力</AnUnknownForce>
+  <ATOMattackGround>通过陆地</ATOMattackGround>
+  <ATOMattackPods>通过空投</ATOMattackPods>
+  <ATOMdetection>检测到威胁！</ATOMdetection>
+  <ATOMdetectionDesc>雷达系统检测到即将到来的威胁，{0}预计{2}后将{1}进攻基地</ATOMdetectionDesc>
+  <ScadLivesMatter>电容保护系统耗损度: {0}</ScadLivesMatter>
+  <Detonating>爆炸中...</Detonating>
+  <KillCounter>击杀: {0}</KillCounter>
+  <energyWepLoadedShell>已装载: {0}</energyWepLoadedShell>
+  <MessageRailgunCantTargetMyMap>不能瞄准自己的基地</MessageRailgunCantTargetMyMap>
+  <needsRadar>需要搭配雷达系统</needsRadar>
+  <ICBMNeedConsole>需要操作能量武器控制台</ICBMNeedConsole>
+  <ICBMNeedMissile>需要装载核弹才能发射</ICBMNeedMissile>
+  <ICBMAlreadyLaunching>发射成功</ICBMAlreadyLaunching>
+  <MissileRangeBad>目标不在射程范围内</MissileRangeBad>
+  <MissileTargetInvalid>核弹目标无效</MissileTargetInvalid>
+  <EnergyWeaponNeedsMannedConsole>需要操作能量武器控制台</EnergyWeaponNeedsMannedConsole>
+  <EnergyWeaponNeedConsole>必须连接能量武器控制台</EnergyWeaponNeedConsole>
+  <MissingPPC>缺少脉冲电池</MissingPPC>
+  <PulseSize>脉冲能级: {0} Wd / 伤害: {1}</PulseSize>
+  <critCommandFireMission>攻击指令</critCommandFireMission>
+  <critCommandFireMissionDesc>远程聚变打击</critCommandFireMissionDesc>
+  <critCommandLaunchICBM>发射核弹</critCommandLaunchICBM>
+  <critCommandLaunchICBMDesc>选择目标发动远程聚变打击</critCommandLaunchICBMDesc>
+  <criticbmAttack>警告！已侦测到敌对派系{0}在途的聚变打击 ，您还有{1}天的准备时间。</criticbmAttack>
+  <critMagazine>弹药: {0}</critMagazine>
+  <critNoSabotRounds>没有核弹头</critNoSabotRounds>
+  <critBombDet>聚变打击中。。。</critBombDet>
+  <critBombDetFac>聚变打击完成，{0}已被摧毁</critBombDetFac>
+  <SetCamoMode>保护迷彩</SetCamoMode>
+  <critCountdown>倒计时: {0}</critCountdown>
+  <critArm>引爆</critArm>
+  <MessageRailgunNeedsMap>没有地图数据，需要侦察</MessageRailgunNeedsMap>
+  <MessageRailgunTargetInvalid>目标无效</MessageRailgunTargetInvalid>
+  <NextPart>发射井当前需要装填{1}个{0}</NextPart>
+  <SiloFull>发射井已满</SiloFull>
+  <SiloMagazine>核弹: {0}/{1}</SiloMagazine>
+  <ICBMReady>聚变打击准备就绪。</ICBMReady>
+  <TestFireHELSOnOwnShells>可以攻击己方</TestFireHELSOnOwnShells>
+  <OpenRadar>打开目标追踪界面</OpenRadar>
+  <NoSabotToExtract>没有轨道炮弹</NoSabotToExtract>
+
+  <!--REACTOR BUILDINGS-->
+  <ReactorUptime>运行周期: {0}</ReactorUptime>
+  <PuCreated>钚含量: {0}</PuCreated>
+  <fuelCracked>破裂了!</fuelCracked>
+  <Managefuel>管控</Managefuel>
+  <RoofedTower>炮台被屋顶挡住了</RoofedTower>
+  <TurbineRPM>转速: {0} ({1})</TurbineRPM>
+  <TradeShipWait>边缘核能贸易船已在{0}处准备完毕</TradeShipWait>
+  <critsetid>设置ID</critsetid>
+  <critCoolingCapShare>当前冷却限度:  {0} / 涡轮机数量: {1}</critCoolingCapShare>
+
+  <ControlRod>中子通量</ControlRod>
+  <crackedRemoveNow>已泄露！立即撤离</crackedRemoveNow>
+  <critCoreTemp>堆芯温度: {0}°C</critCoreTemp>
+  <critCoreEnergy>发电量: {0}kW</critCoreEnergy>
+  <critCoreCooling>冷却: {0}</critCoreCooling>
+  <critCoreFlux>中子通量: {0}</critCoreFlux>
+  <critscramDesc>将温度和中子通量的降低到基本值，但保持堆芯运行。</critscramDesc>
+  <critStartup>启动</critStartup>
+  <critShutdown>关闭</critShutdown>
+  <critStartupDesc>启动堆芯，提高温度和中子通量。</critStartupDesc>
+  <critShutdownDesc>关闭堆芯，并冷却，以便添加核燃料和维修。</critShutdownDesc>
+  <critManageReactor>操控反应堆控制台</critManageReactor>
+  <critreactorcritical>反应堆危险</critreactorcritical>
+  <critreactorleaking>反应堆泄漏</critreactorleaking>
+  <critreactionstable>反应堆稳定</critreactionstable>
+  <critStorageCapacity>存储容量: {0} / {1}</critStorageCapacity>
+  <critGenerated>已发电量: {0} W</critGenerated>
+  <critConsumed>已消耗电量: {0} W</critConsumed>
+  <critPnetPct>电网负载: {0}</critPnetPct>
+  <critPowerGeneration>发电: {0} W</critPowerGeneration>
+  <critValveOpen>阀门：打开</critValveOpen>
+  <critValveClosed>阀门：关闭</critValveClosed>
+  <critOpenValve>打开阀门</critOpenValve>
+  <critCloseValve>关闭阀门</critCloseValve>
+  <critToggleValve>操作阀门</critToggleValve>
+  <critTempBoost>温度上升</critTempBoost>
+  <critTemp>堆芯温度</critTemp>
+  <critCooling>剩余冷却限度</critCooling>
+  <critTurbine>反应堆涡轮</critTurbine>
+  <critControlRod>控制棒</critControlRod>
+  <critTargetRod>控制棒用于</critTargetRod>
+  <critFuelRemaining2>剩余燃料: {0}</critFuelRemaining2>
+  <Empty>清空</Empty>
+  <Activated>激活</Activated>
+  <Cracked>破裂</Cracked>
+  <Spent>废弃</Spent>
+  <New>新的</New>
+  <Remove>拔出</Remove>
+  <Store>贮存</Store>
+
+
+
+  <critPlaceOnCore>必须建造在熔化的堆芯上</critPlaceOnCore>
+  <NeedsRiver>需要邻近河流、湖泊或者海洋建造。</NeedsRiver>
+  <critMoreWater>需要大量的水</critMoreWater>
+  <critActiveCore>堆芯正在运行中</critActiveCore>
+  <critCrackedcore>堆芯泄漏</critCrackedcore>
+  <critNoSlotDes>没有指定可用插槽</critNoSlotDes>
+  <critnoFuelRods>没有燃料可用</critnoFuelRods>
+  <critNoSpace>没有存储空间</critNoSpace>
+  <critSpentOnly>单纯消耗燃料，没有产生效益</critSpentOnly>
+  <critNoPool>没有可用的存储池</critNoPool>
+
+  <critCoreIntegrityDesc>这个堆芯损坏严重，可能会泄漏。</critCoreIntegrityDesc>
+
+
+  <TradeShipPrice>呼叫贸易飞船（花费{0}白银）</TradeShipPrice>
+  <TradeShipPriceNeed>需要支付{0}白银呼叫贸易飞船</TradeShipPriceNeed>
+  <TradeShipCooldown>贸易飞船冷却时间: {0}</TradeShipCooldown>
+  <TradeShipArrival>贸易飞船到达: {0}</TradeShipArrival>
+
+  <TradeShipReq>一艘"边缘核能"的贸易飞船已经被派往你所在的星球。\n\n它将需要花费两天时间到达。</TradeShipReq>
+
+  <LowerPowerLimit>降低输出功率上限</LowerPowerLimit>
+  <RaisePowerLimit>提高输出功率上限</RaisePowerLimit>
+  <PowerLimitDesc>更改此变压器的输出功率，用于控制电力在不同电网的输出量\n\n按住Shift以微调。</PowerLimitDesc>
+  <TrannyLimit>输出功率上限: {0}kW</TrannyLimit>
+  <TurbinePower>涡轮机功率: {0}kW</TurbinePower>
+
+
+  <!--RESEARCH-->
+  <NonBlueprintUpgrade></NonBlueprintUpgrade>
+  <BlueprintUpgradeDesc>这是一个蓝图升级，新的建筑将内置升级，现有的建筑需要手动升级模块。</BlueprintUpgradeDesc>
+  <Free>免费</Free>
+  <Purchase>购买</Purchase>
+  <Price>价格</Price>
+  <Unlocks>解锁</Unlocks>
+  <openResearchPanel>打开研究面板</openResearchPanel>
+  <ResearchProg>{0}/{1}</ResearchProg>
+  <ResearchPriceNeed>需要在轨道贸易信标附近放置{0}白银</ResearchPriceNeed>
+  <RimUnlocked>检测到探测器。</RimUnlocked>
+  <RimatomicsResearchAlert>"边缘核能"研究项目</RimatomicsResearchAlert>
+  <RimatomicResearchAlertMess>研究项目: {0}\n进度: {1}\n任务: {2}</RimatomicResearchAlertMess>
+  <thingsUnlocked>解锁 - </thingsUnlocked>
+  <RimatomStepComplete>阶段目标达成</RimatomStepComplete>
+  <RequiresFac>需要: </RequiresFac>
+  <StepInspect>进度: {0}</StepInspect>
+  <ResearchComplete>研究完成</ResearchComplete>
+  <StillTestingDef>仍在测试原型</StillTestingDef>
+  <TabResearch>研究</TabResearch>
+  <CurProj>项目：{0}</CurProj>
+  <CurStep>进度：{ 0 }</CurStep>
+  <SkillLevel>{0} 需要等级 {1} {2}</SkillLevel>
+
+
+  <DesignatorRemoveRimatomicsPipes>拆除管道</DesignatorRemoveRimatomicsPipes>
+  <DesignatorRemoveRimatomicsPipesDesc>拆除指定管道</DesignatorRemoveRimatomicsPipesDesc>
+
+  <Alert_ResearchFacility>缺少研究设施</Alert_ResearchFacility>
+  <RequiresFacility>当前进度需要 {0}</RequiresFacility>
+
+  <DesignatorRemoveColdWater>拆除冷水导管</DesignatorRemoveColdWater>
+  <DesignatorRemoveColdWaterDesc>拆除指定冷水导管</DesignatorRemoveColdWaterDesc>
+
+  <DesignatorRemoveCooling>拆除冷却剂导管</DesignatorRemoveCooling>
+  <DesignatorRemoveCoolingDesc>拆除指定冷却剂导管</DesignatorRemoveCoolingDesc>
+
+  <DesignatorRemoveHighVoltage>拆除高压电缆</DesignatorRemoveHighVoltage>
+  <DesignatorRemoveHighVoltageDesc>拆除指定高压电缆</DesignatorRemoveHighVoltageDesc>
+
+  <DesignatorRemoveLoom>拆除数据电缆</DesignatorRemoveLoom>
+  <DesignatorRemoveLoomDesc>拆除指定数据电缆</DesignatorRemoveLoomDesc>
+
+  <DesignatorRemoveSteam>拆除蒸汽导管</DesignatorRemoveSteam>
+  <DesignatorRemoveSteamDesc>拆除指定蒸汽导管</DesignatorRemoveSteamDesc>
+
+  <coreUpgradeFail>堆芯运行时无法升级</coreUpgradeFail>
+  <powerUpgradeFail>升级前必须关闭建筑物电源</powerUpgradeFail>
+
+  <RimatomicResearchCompleteDialog>{0} - 完成\n\n{1}</RimatomicResearchCompleteDialog>
+
+  <rimatomicsProto>原型</rimatomicsProto>
+
+  <StartProject>启动项目</StartProject>
+  <ProjectInitiated>项目已启动</ProjectInitiated>
+  <StopProject>终止项目</StopProject>
+  <ProjectTerminated>项目已终止</ProjectTerminated>
+  <NoBenchAvailable>缺少「边缘核能」研究台</NoBenchAvailable>
+  <ResearchPurchased>研究项目已购买！</ResearchPurchased>
+
+</LanguageData>

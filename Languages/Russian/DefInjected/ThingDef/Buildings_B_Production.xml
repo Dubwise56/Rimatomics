@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <NuclearResearchBench.label>стол исследований Rimatomics</NuclearResearchBench.label>
+  <NuclearResearchBench.description>Содержит исследовательские проекты Rimatomics. Требуется энергия.</NuclearResearchBench.description>
+  <NuclearResearchBench_Blueprint.label>стол исследований Rimatomics (проект)</NuclearResearchBench_Blueprint.label>
+  <NuclearResearchBench_Frame.label>стол исследований Rimatomics (постройка)</NuclearResearchBench_Frame.label>
+
+  <TableRimatomicsMachining.label>верстак Rimatomics</TableRimatomicsMachining.label>
+  <TableRimatomicsMachining.description>Рабочее место для сборки технологий Rimatomics</TableRimatomicsMachining.description>
+  <TableRimatomicsMachining_Blueprint.label>верстак Rimatomics (проект)</TableRimatomicsMachining_Blueprint.label>
+  <TableRimatomicsMachining_Frame.label>верстак Rimatomics (постройка)</TableRimatomicsMachining_Frame.label>
+
+  <ResearchReactor.label>исследовательский реактор</ResearchReactor.label>
+  <ResearchReactor.description>Исследовательский реактор.</ResearchReactor.description>
+  <ResearchReactor_Blueprint.label>исследовательский реактор (проект)</ResearchReactor_Blueprint.label>
+  <ResearchReactor_Frame.label>исследовательский реактор (постройка)</ResearchReactor_Frame.label>
+
+  <WeaponsBench.label>верстак исследования оружия</WeaponsBench.label>
+  <WeaponsBench.description>Верстак исследования оружия.</WeaponsBench.description>
+  <WeaponsBench_Blueprint.label>верстак исследования оружия (проект)</WeaponsBench_Blueprint.label>
+  <WeaponsBench_Frame.label>верстак исследования оружия (постройка)</WeaponsBench_Frame.label>
+
+  <PlutoniumProcessor.label>обработчик плутония</PlutoniumProcessor.label>
+  <PlutoniumProcessor.description>Машина, которая использует химические вещества для отделения расщепляемого плутония от отработанного ядерного топлива.</PlutoniumProcessor.description>
+  <PlutoniumProcessor_Blueprint.label>обработчик плутония (проект)</PlutoniumProcessor_Blueprint.label>
+  <PlutoniumProcessor_Frame.label>обработчик плутония (постройка)</PlutoniumProcessor_Frame.label>
+
+
+</LanguageData>

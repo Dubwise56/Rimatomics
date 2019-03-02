@@ -13,7 +13,6 @@
     <passability>PassThroughOnly</passability>
     <pathCost>150</pathCost>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <!--<constructEffect>ConstructMetal</constructEffect>-->
     <staticSunShadowHeight>0</staticSunShadowHeight>
     <canOverlapZones>false</canOverlapZones>
     <statBases>
@@ -90,9 +89,6 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <rimatomicsPrerequisites>
-      <li>EnergyWeapons6</li>
-    </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
 
@@ -138,10 +134,6 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
     </building>
-    <rimatomicsPrerequisites>
-      <li>EnergyWeapons4</li>
-      <li>ICBM3</li>
-    </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
 
@@ -169,6 +161,16 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
+      <li Class="Rimatomics.CompProperties_Upgradable">
+        <upgrades>
+          <li>
+            <project>ATOMProject</project>
+            <stats>
+              <li>Adds Threat Detection</li>
+            </stats>
+          </li>
+        </upgrades>
+      </li>
     </comps>
     <size>(3,3)</size>
     <fillPercent>0.8</fillPercent>
@@ -191,10 +193,6 @@
       <li>PlaceWorker_NotUnderRoof</li>
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
     </placeWorkers>
-    <rimatomicsPrerequisites>
-      <li>EnergyWeapons5</li>
-      <li>ICBM4</li>
-    </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
 
@@ -207,7 +205,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCADS</defName>
     <label>ADS</label>
-    <description>The RA-22 Active Denial System, is a crowd control weapon which uses microwaves to directly heat the skin of living targets in a designated area causing them to flee.</description>
+    <description>The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial, perimeter security and crowd control. It heats the surface of targets, such as the skin of targeted human subjects, this causes them to break rank and flee. Requires a manned SACS to function.</description>
     <thingClass>Rimatomics.Building_ADS</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
@@ -233,7 +231,7 @@
           <li>
             <project>ResearchMEPS</project>
             <stats>
-              <li>Area of effect +10</li>
+              <li>AOE +10</li>
             </stats>
           </li>
           <li>
@@ -273,9 +271,6 @@
       <li>PlaceWorker_TurretTop</li>
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
     </placeWorkers>
-    <rimatomicsPrerequisites>
-      <li>ADS3</li>
-    </rimatomicsPrerequisites>
     <Bilderbergs>
       <li>PPC</li>
       <li>RadarDish</li>
@@ -293,6 +288,7 @@
         <hasStandardCommand>true</hasStandardCommand>
         <ai_AvoidFriendlyFireRadius>15</ai_AvoidFriendlyFireRadius>
         <range>31</range>
+        <requireLineOfSight>false</requireLineOfSight>
         <ticksBetweenBurstShots>30</ticksBetweenBurstShots>
         <burstShotCount>16</burstShotCount>
         <onlyManualCast>true</onlyManualCast>
@@ -303,6 +299,7 @@
       </li>
     </verbs>
     <EnergyWep>
+      <range>31</range>
       <PulseSize>75</PulseSize>
       <turretSpeed>80</turretSpeed>
       <TurretAimSnapAngle>1.5</TurretAimSnapAngle>
@@ -324,7 +321,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCTeslaCoil</defName>
     <label>Tesla Coil</label>
-    <description>The RA-42T Tesla Coil Delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing with a TACS. Manned SACS required for manual targeting. Requires SACS with connected PPC.</description>
+    <description>The RA-42T Tesla Coil Delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing with a TACS. Manned SACS required for manual targeting. Works with unmanned SACS</description>
     <thingClass>Rimatomics.Building_TeslaCoil</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
@@ -353,8 +350,9 @@
           <li>
             <project>ResearchMEPS</project>
             <stats>
-              <li>Damage +100%</li>
-              <li>Power +100%</li>
+              <li>Damage +15%</li>
+              <li>Range +10</li>
+              <li>Pulse Size +15%</li>
             </stats>
           </li>
           <li>
@@ -388,9 +386,6 @@
       <li>PlaceWorker_TurretTop</li>
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
     </placeWorkers>
-    <rimatomicsPrerequisites>
-      <li>TeslaCoil3</li>
-    </rimatomicsPrerequisites>
     <Bilderbergs>
       <li>PPC</li>
       <li>RadarDish</li>
@@ -415,8 +410,9 @@
       </li>
     </verbs>
     <EnergyWep>
+      <range>19.9</range>
       <PulseSize>500</PulseSize>
-      <Damage>65</Damage>
+      <Damage>60</Damage>
       <NeedsRadar>true</NeedsRadar>
       <HasTurret>false</HasTurret>
       <NeedsManning>false</NeedsManning>
@@ -435,7 +431,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCHEL</defName>
     <label>HEL</label>
-    <description>The RA-702 High Energy Laser uses a laser to destroy incoming airborne projectiles such as mortar shells. Requires a weapons console and a PPC for power.</description>
+    <description>The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, if the trajectory through the radius is long enough for a shoot down attempt then a HEL will track the target and fire once it's in range. Works with unmanned SACS</description>
     <thingClass>Rimatomics.Building_HEL</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
@@ -505,9 +501,6 @@
       <Steel>100</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
-    <rimatomicsPrerequisites>
-      <li>HEL3</li>
-    </rimatomicsPrerequisites>
     <Bilderbergs>
       <li>PPC</li>
       <li>RadarDish</li>
@@ -526,12 +519,13 @@
         <hasStandardCommand>true</hasStandardCommand>
         <range>55</range>
         <ticksBetweenBurstShots>12</ticksBetweenBurstShots>
-        <burstShotCount>7</burstShotCount>
+        <burstShotCount>8</burstShotCount>
         <requireLineOfSight>false</requireLineOfSight>
         <warmupTime>0.1</warmupTime>
       </li>
     </verbs>
     <EnergyWep>
+      <range>55</range>
       <PulseSize>75</PulseSize>
       <turretSpeed>240</turretSpeed>
       <TurretAimSnapAngle>10</TurretAimSnapAngle>
@@ -557,7 +551,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCRailgun</defName>
     <label>Punisher</label>
-    <description>The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges.</description>
+    <description>The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Manned SACS required for manual targeting. Requires a manned SACS to function.</description>
     <thingClass>Rimatomics.Building_Railgun</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
@@ -601,6 +595,7 @@
             <project>ResearchMEPS</project>
             <stats>
               <li>Range +10 Tiles</li>
+              <li>Pulse Size +15%</li>
             </stats>
           </li>
           <li>
@@ -640,9 +635,6 @@
       <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <uiIconPath>Rimatomics/UI/Railgun</uiIconPath>
-    <rimatomicsPrerequisites>
-      <li>Railgun3</li>
-    </rimatomicsPrerequisites>
     <Bilderbergs>
       <li>PPC</li>
       <li>RadarDish</li>
@@ -657,8 +649,8 @@
     <label>Punisher Railgun</label>
     <description>Railgun Railgun.</description>
     <statBases>
-      <AccuracyTouch>0.25</AccuracyTouch>
-      <AccuracyShort>0.70</AccuracyShort>
+      <AccuracyTouch>0.99</AccuracyTouch>
+      <AccuracyShort>0.99</AccuracyShort>
       <AccuracyMedium>0.99</AccuracyMedium>
       <AccuracyLong>0.99</AccuracyLong>
       <RangedWeapon_Cooldown>1.7</RangedWeapon_Cooldown>
@@ -708,6 +700,8 @@
       </defaultStorageSettings>
     </building>
     <EnergyWep>
+      <minRange>9.8</minRange>
+      <range>400</range>
       <WorldRange>30</WorldRange>
       <PulseSize>1000</PulseSize>
       <turretSpeed>40</turretSpeed>
@@ -734,7 +728,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCObelisk</defName>
     <label>Obelisk</label>
-    <description>The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power, but with large pulse size and long cooldown. Automatic targeting and firing. Manned SACS required for manual targeting. Requires SACS with connected PPC, and a TACS.</description>
+    <description>The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power, but with large pulse size and long cooldown. Automatic targeting and firing. Manned SACS required for manual targeting. Works with unmanned SACS</description>
     <thingClass>Rimatomics.Building_Obelisk</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/obelisk</texPath>
@@ -762,8 +756,8 @@
           <li>
             <project>ResearchMEPS</project>
             <stats>
-              <li>Damage +50%</li>
-              <li>Power +50%</li>
+              <li>Damage +15%</li>
+              <li>Pulse Size +15%</li>
             </stats>
           </li>
           <li>
@@ -791,8 +785,9 @@
     <costList>
       <Steel>100</Steel>
       <ComponentIndustrial>10</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
     </costList>
-    <specialDisplayRadius>40</specialDisplayRadius>
+    <specialDisplayRadius>44.9</specialDisplayRadius>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
       <turretGunDef>Obelisk_Laser</turretGunDef>
@@ -800,9 +795,6 @@
     <placeWorkers>
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
     </placeWorkers>
-    <rimatomicsPrerequisites>
-      <li>Obelisk3</li>
-    </rimatomicsPrerequisites>
     <Bilderbergs>
       <li>PPC</li>
       <li>RadarDish</li>
@@ -820,7 +812,7 @@
       <li>
         <verbClass>Rimatomics.Verb_Obelisk</verbClass>
         <hasStandardCommand>true</hasStandardCommand>
-        <range>40</range>
+        <range>45</range>
         <requireLineOfSight>true</requireLineOfSight>
         <burstShotCount>1</burstShotCount>
         <soundCast>obeliskDischarge</soundCast>
@@ -828,6 +820,7 @@
       </li>
     </verbs>
     <EnergyWep>
+      <range>45</range>
       <PulseSize>1000</PulseSize>
       <Damage>90</Damage>
       <NeedsRadar>true</NeedsRadar>
@@ -850,7 +843,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCMarauder</defName>
     <label>Marauder</label>
-    <description>The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, which uses large electromagnetic pulses to fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Manned SACS required with manual targeting only. Requires SACS with connected PPC, and a TACS.</description>
+    <description>The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, which uses large electromagnetic pulses to fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Manned SACS required with manual targeting only. Requires a manned SACS to function.</description>
     <thingClass>Rimatomics.Building_Marauder</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
@@ -921,12 +914,10 @@
     <costStuffCount>350</costStuffCount>
     <costList>
       <Steel>200</Steel>
-      <ComponentIndustrial>10</ComponentIndustrial>   
+      <ComponentIndustrial>8</ComponentIndustrial>
+      <ComponentSpacer>1</ComponentSpacer>
   </costList>
     <uiIconPath>Rimatomics/UI/Marauder</uiIconPath>
-    <rimatomicsPrerequisites>
-      <li>Marauder3</li>
-    </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
     <specialDisplayRadius>55</specialDisplayRadius>
     <Bilderbergs>
@@ -974,6 +965,8 @@
       </li>
     </verbs>
     <EnergyWep>
+              <minRange>10.9</minRange>
+        <range>55</range>
       <PulseSize>400</PulseSize>
       <turretSpeed>40</turretSpeed>
       <TurretAimSnapAngle>2</TurretAimSnapAngle>
@@ -1000,17 +993,23 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>Bomb</damageDef>
+      <damageDef>Bomb_PlasmaToroid</damageDef>
       <damageAmountBase>50</damageAmountBase>
       <speed>200</speed>
       <stoppingPower>1.5</stoppingPower>
-      <explosionRadius>2.9</explosionRadius>
+      <explosionRadius>2.7</explosionRadius>
       <flyOverhead>false</flyOverhead>
       <soundExplode>MortarBomb_Explode</soundExplode>
     </projectile>
   </ThingDef>
 
-
+  <DamageDef ParentName="Bomb">
+    <defName>Bomb_PlasmaToroid</defName>
+    <workerClass>Rimatomics.GibbingWorker</workerClass>
+    <defaultDamage>63</defaultDamage>
+    <defaultStoppingPower>0.91</defaultStoppingPower>
+    <defaultArmorPenetration>0.72</defaultArmorPenetration>
+  </DamageDef>
 
 
 
@@ -1021,7 +1020,7 @@
     <label>Liberator</label>
     <thingClass>Rimatomics.MissileSilo</thingClass>
     <fillPercent>0.2</fillPercent>
-    <description>The RA-1776b Liberator is a self contained all-in-one ICBM manufacturing and launching facility with a 5 missile magazine capacity.</description>
+    <description>The RA-1776b Liberator is a self contained all-in-one ICBM manufacturing and launching facility with a 5 missile magazine capacity. Requires a manned SACS to function.</description>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/silo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -1050,6 +1049,7 @@
     <costList>
       <Steel>300</Steel>
       <ComponentIndustrial>15</ComponentIndustrial>
+      <ComponentSpacer>2</ComponentSpacer>
     </costList>
     <statBases>
       <MaxHitPoints>900</MaxHitPoints>
@@ -1067,9 +1067,6 @@
       <li>PlaceWorker_NotUnderRoof</li>
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <rimatomicsPrerequisites>
-      <li>ICBM3</li>
-    </rimatomicsPrerequisites>
     <constructionSkillPrerequisite>7</constructionSkillPrerequisite>
     <Bilderbergs>
       <li>RadarDish</li>

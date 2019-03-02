@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Quest_SCUD_Camp.label>missile base</Quest_SCUD_Camp.label>
+  <Quest_SCUD_Camp.letterText>{0}, {1} of {2}, has sent us a message.\n\nApparently pirates from {3} based in a nearby camp have built a missile base. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}</Quest_SCUD_Camp.letterText>
+  <Quest_SCUD_Camp.letterLabel>Missile Base</Quest_SCUD_Camp.letterLabel>
+
+  <Quest_SCUD_Chem_Camp.label>chemical weapons base</Quest_SCUD_Chem_Camp.label>
+  <Quest_SCUD_Chem_Camp.letterText>{0}, {1} of {2}, has sent us a message.\n\nApparently pirates from {3} based in a nearby camp have build a missile base. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}</Quest_SCUD_Chem_Camp.letterText>
+  <Quest_SCUD_Chem_Camp.letterLabel>Missile Base</Quest_SCUD_Chem_Camp.letterLabel>
+
+  <Quest_ICBM_Base.label>ICBM base</Quest_ICBM_Base.label>
+  <Quest_ICBM_Base.letterText>{0}, {1} of {2}, has sent us a message.\n\nApparently pirates from {3} based in a nearby base have been setting up a large missile of some kind. They've asked us to destroy it, which means eliminating all enemies and turrets.\n\nIf we succeed, their relations will improve, and they'll send us this reward:\n\n{3}</Quest_ICBM_Base.letterText>
+  <Quest_ICBM_Base.letterLabel>Missile Base</Quest_ICBM_Base.letterLabel>
+
+  <TransformerExplosion.label>Transformer Explosion</TransformerExplosion.label>
+  <TransformerExplosion.letterText>Overcurrent in a transformer has caused the circuits to fry.</TransformerExplosion.letterText>
+  <TransformerExplosion.letterLabel>Transformer Explosion</TransformerExplosion.letterLabel>
+
+  <notNothing.label>?</notNothing.label>
+  <notNothing.letterText>?</notNothing.letterText>
+  <notNothing.letterLabel>?</notNothing.letterLabel>
+
+
+</LanguageData>

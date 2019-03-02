@@ -6,6 +6,16 @@
     <driverClass>Rimatomics.JobDriver_RimatomicsResearch</driverClass>
     <reportString>Researching at TargetA.</reportString>
   </JobDef>
+  <JobDef>
+    <defName>SuperviseConstruction</defName>
+    <driverClass>Rimatomics.JobDriver_SuperviseConstruction</driverClass>
+    <reportString>Constructing TargetA.</reportString>
+  </JobDef>
+  <JobDef>
+    <defName>SuperviseResearch</defName>
+    <driverClass>Rimatomics.JobDriver_SuperviseResearch</driverClass>
+    <reportString>Researching at TargetA.</reportString>
+  </JobDef>
   
   <JobDef>
     <defName>UpgradeBuilding</defName>
@@ -61,10 +71,5 @@
 		<reportString>removing plutonium from TargetA.</reportString>
 	</JobDef>
 	
-	<JobDef>
-		<defName>RepairCore</defName>
-		<driverClass>Rimatomics.JobDriver_RepairCore</driverClass>
-		<reportString>repairing reactor.</reportString>
-	</JobDef>
   
 </Defs>

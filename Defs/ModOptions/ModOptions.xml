@@ -1,6 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+  <Rimatomics.DefExtensions>
+    <defName>RimatomicsExtensions</defName>
+  </Rimatomics.DefExtensions>
+  
   <Rimatomics.DubsModOptions>
     <defName>FuelBurnRate</defName>
     <label>Fuel Burn Rate</label>
@@ -87,4 +91,5 @@
     </options>
   </Rimatomics.DubsModOptions>
   
+
 </Defs>

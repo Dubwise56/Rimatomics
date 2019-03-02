@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- CORE -->
+
+  <ReactorConductors.label>проводники реактора</ReactorConductors.label>
+  <ReactorConductors.description>Части для модернизации ядерного реактора Rimatomics.</ReactorConductors.description>
+
+  <ReactorShielding.label>экраны реактора</ReactorShielding.label>
+  <ReactorShielding.description>Части для модернизации ядерного реактора Rimatomics.</ReactorShielding.description>
+
+  <ControlRodActuator.label>привод управления стержнем</ControlRodActuator.label>
+  <ControlRodActuator.description>Части для модернизации ядерного реактора Rimatomics.</ControlRodActuator.description>
+
+  <NeutronReflectors.label>отражатели нейтронов</NeutronReflectors.label>
+  <NeutronReflectors.description>Части для модернизации ядерного реактора Rimatomics.</NeutronReflectors.description>
+
+  <MEPS.label>МСЭ</MEPS.label>
+  <MEPS.description>Части для модернизации энергетического оружия Rimatomics.</MEPS.description>
+
+  <ALC.label>ПЖО</ALC.label>
+  <ALC.description>Части для модернизации энергетического оружия Rimatomics.</ALC.description>
+
+  <ERS.label>СРЭ</ERS.label>
+  <ERS.description>Части для модернизации энергетического оружия Rimatomics.</ERS.description>
+
+  <DriveActuator.label>привод управления</DriveActuator.label>
+  <DriveActuator.description>Части для модернизации энергетического оружия Rimatomics.</DriveActuator.description>
+
+  <TargetingChip.label>чип наведения</TargetingChip.label>
+  <TargetingChip.description>Части для модернизации рельсотрона Rimatomics.</TargetingChip.description>
+
+  <BeamSplitter.label>делитель луча</BeamSplitter.label>
+  <BeamSplitter.description>Части для модернизации обелиска Rimatomics.</BeamSplitter.description>
+
+  <LenseModule.label>модуль линзы</LenseModule.label>
+  <LenseModule.description>Части для модернизации обелиска Rimatomics</LenseModule.description>
+
+
+</LanguageData>

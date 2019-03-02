@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <CoreBlast.label>взрыв Ядра</CoreBlast.label>
+  <CoreBlast.deathMessage>{0} умер во время взрыва.</CoreBlast.deathMessage>
+
+
+</LanguageData>

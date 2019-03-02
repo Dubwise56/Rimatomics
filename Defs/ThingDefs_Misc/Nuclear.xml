@@ -72,7 +72,7 @@
     <statBases>
       <Flammability>0</Flammability>
       <Beauty>-10</Beauty>
-      <MarketValue>8</MarketValue>
+      <MarketValue>2</MarketValue>
       <Mass>0.1</Mass>
     </statBases>
     <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
@@ -160,8 +160,8 @@
     <altitudeLayer>Item</altitudeLayer>
     <fillPercent>0.2</fillPercent>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
-      <Flammability>10</Flammability>
+      <MaxHitPoints>300</MaxHitPoints>
+      <Flammability>0</Flammability>
       <Beauty>-10</Beauty>
       <MarketValue>1200</MarketValue>
       <Mass>25</Mass>
@@ -205,15 +205,15 @@
       <thermalCurve>
         <points>
           <li>(0, 20)</li>
-          <li>(0.1, 500)</li>
-          <li>(1, 1650)</li>
+          <li>(0.1, 600)</li>
+          <li>(1, 1750)</li>
         </points>
       </thermalCurve>
       <fastCurve>
         <points>
           <li>(0, 20)</li>
-          <li>(0.1, 2000)</li>
-          <li>(1, 1650)</li>
+          <li>(0.1, 2100)</li>
+          <li>(1, 1750)</li>
         </points>
       </fastCurve>
     </nuclearFuel>
@@ -243,15 +243,15 @@
       <thermalCurve>
         <points>
           <li>(0, 20)</li>
-          <li>(0.1, 1150)</li>
-          <li>(1, 2000)</li>
+          <li>(0.1, 1250)</li>
+          <li>(1, 2100)</li>
         </points>
       </thermalCurve>
       <fastCurve>
         <points>
           <li>(0, 20)</li>
-          <li>(0.1, 2400)</li>
-          <li>(1, 2000)</li>
+          <li>(0.1, 2500)</li>
+          <li>(1, 2100)</li>
         </points>
       </fastCurve>
     </nuclearFuel>
@@ -289,7 +289,7 @@
     <thingCategories>
       <li>NuclearWaste</li>
     </thingCategories>
-    <alwaysHaulable>true</alwaysHaulable>
+    <designateHaulable>true</designateHaulable>
     <tradeability>None</tradeability>
   </ThingDef>
 
@@ -325,7 +325,7 @@
     </graphicData>
     <skyfaller>
       <movementType>Accelerate</movementType>
-      <shadow>Rimatomics/Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
       <shadowSize>(2, 2)</shadowSize>
       <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
       <speed>0.1</speed>

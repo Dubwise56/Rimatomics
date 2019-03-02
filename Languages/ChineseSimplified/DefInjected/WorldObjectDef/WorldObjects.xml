@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+   <ICBMfission.label>核弹(ICBM)</ICBMfission.label>
+   <ICBMfission.description>核弹（ICBM）是一种装有核弹头的弹道导弹。</ICBMfission.description>
+
+  <Sabot.label>轨道炮弹</Sabot.label>
+  <Sabot.description>轨道炮弹</Sabot.description>
+
+  <Fallout.label>核辐射</Fallout.label>
+  <Fallout.description>核辐射是由核爆炸或核反应堆熔毁而排放到空气中的放射性残余物质。</Fallout.description>
+
+  <RimatomicsProbe.label>「边缘核能」在轨卫星</RimatomicsProbe.label>
+  <RimatomicsProbe.description>「边缘核能」在轨卫星</RimatomicsProbe.description>
+
+
+</LanguageData>

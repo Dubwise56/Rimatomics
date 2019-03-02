@@ -65,8 +65,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>65</damageAmountBase>
+      <damageDef>Bomb_Sabot</damageDef>
       <speed>150</speed>
       <explosionRadius>5.9</explosionRadius>
       <flyOverhead>true</flyOverhead>
@@ -77,7 +76,14 @@
     </projectile>
   </ThingDef>
 
-
+  <DamageDef ParentName="Bomb">
+    <defName>Bomb_Sabot</defName>
+    <workerClass>Rimatomics.GibbingWorker</workerClass>
+    <defaultDamage>65</defaultDamage>
+    <defaultStoppingPower>1.21</defaultStoppingPower>
+    <defaultArmorPenetration>1.12</defaultArmorPenetration>
+  </DamageDef>
+  
   <!-- DU Sabot -->
 
   <ThingDef ParentName="MakeableSabotBase">
@@ -108,8 +114,7 @@
     </graphicData>
     <thingClass>Projectile_Explosive</thingClass>
     <projectile>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>100</damageAmountBase>
+      <damageDef>Bomb_DUSabot</damageDef>
       <speed>150</speed>
       <explosionRadius>7.9</explosionRadius>
       <explosionChanceToStartFire>0.22</explosionChanceToStartFire>
@@ -122,6 +127,14 @@
     </projectile>
   </ThingDef>
 
+
+  <DamageDef ParentName="Bomb">
+    <defName>Bomb_DUSabot</defName>
+    <workerClass>Rimatomics.GibbingWorker</workerClass>
+    <defaultDamage>86</defaultDamage>
+    <defaultStoppingPower>2.41</defaultStoppingPower>
+    <defaultArmorPenetration>2.32</defaultArmorPenetration>
+  </DamageDef>
 
 
   <ThingDef ParentName="SkyfallerBase">

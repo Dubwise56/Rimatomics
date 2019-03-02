@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PPC.label>PPC</PPC.label>
+  <PPC.description>The RA-P3 Pulsed Power Capacitor, stores a large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons</PPC.description>
+  <PPC_Blueprint.label>PPC (blueprint)</PPC_Blueprint.label>
+  <PPC_Frame.label>PPC (building)</PPC_Frame.label>
+  <PPC_Frame.description>The RA-P3 Pulsed Power Capacitor, stores a large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons</PPC_Frame.description>
+
+  <PPCWeaponsConsole.label>SACS</PPCWeaponsConsole.label>
+  <PPCWeaponsConsole.description>The RA-c85 Semi Automated Command Station, is required by all Rimatomics energy weapons, may require manning for certain weapons to function fully.</PPCWeaponsConsole.description>
+  <PPCWeaponsConsole_Blueprint.label>SACS (blueprint)</PPCWeaponsConsole_Blueprint.label>
+  <PPCWeaponsConsole_Frame.label>SACS (building)</PPCWeaponsConsole_Frame.label>
+  <PPCWeaponsConsole_Frame.description>The RA-c85 Semi Automated Command Station, is required by all Rimatomics energy weapons, may require manning for certain weapons to function fully.</PPCWeaponsConsole_Frame.description>
+
+  <RadarDish.label>TACS</RadarDish.label>
+  <RadarDish.description>The RA-92 Target Acquisition and Communication System, uses a combination of technologies to track land and air based targets and communicate with weapon systems.</RadarDish.description>
+  <RadarDish_Blueprint.label>TACS (blueprint)</RadarDish_Blueprint.label>
+  <RadarDish_Frame.label>TACS (building)</RadarDish_Frame.label>
+  <RadarDish_Frame.description>The RA-92 Target Acquisition and Communication System, uses a combination of technologies to track land and air based targets and communicate with weapon systems.</RadarDish_Frame.description>
+
+  <PPCADS.label>ADS</PPCADS.label>
+  <PPCADS.description>The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial, perimeter security and crowd control. It heats the surface of targets, such as the skin of targeted human subjects, this causes them to break rank and flee. Requires a manned SACS to function.</PPCADS.description>
+  <PPCADS_Blueprint.label>ADS (blueprint)</PPCADS_Blueprint.label>
+  <PPCADS_Frame.label>ADS (building)</PPCADS_Frame.label>
+  <PPCADS_Frame.description>The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial, perimeter security and crowd control. It heats the surface of targets, such as the skin of targeted human subjects, this causes them to break rank and flee. Requires a manned SACS to function.</PPCADS_Frame.description>
+
+  <ADS_Dish.label>ADS Dish</ADS_Dish.label>
+  <ADS_Dish.description>ADS Dish.</ADS_Dish.description>
+
+  <PPCTeslaCoil.label>Tesla Coil</PPCTeslaCoil.label>
+  <PPCTeslaCoil.description>The RA-42T Tesla Coil Delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing with a TACS. Manned SACS required for manual targeting. Works with unmanned SACS</PPCTeslaCoil.description>
+  <PPCTeslaCoil_Blueprint.label>Tesla Coil (blueprint)</PPCTeslaCoil_Blueprint.label>
+  <PPCTeslaCoil_Frame.label>Tesla Coil (building)</PPCTeslaCoil_Frame.label>
+  <PPCTeslaCoil_Frame.description>The RA-42T Tesla Coil Delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing with a TACS. Manned SACS required for manual targeting. Works with unmanned SACS</PPCTeslaCoil_Frame.description>
+
+  <Tesla_Coil_Arc_Discharger.label>Tesla Coil Arc Discharger</Tesla_Coil_Arc_Discharger.label>
+  <Tesla_Coil_Arc_Discharger.description>Tesla Coil Arc Discharger.</Tesla_Coil_Arc_Discharger.description>
+
+  <PPCHEL.label>HEL</PPCHEL.label>
+  <PPCHEL.description>The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, if the trajectory through the radius is long enough for a shoot down attempt then a HEL will track the target and fire once it's in range. Works with unmanned SACS</PPCHEL.description>
+  <PPCHEL_Blueprint.label>HEL (blueprint)</PPCHEL_Blueprint.label>
+  <PPCHEL_Frame.label>HEL (building)</PPCHEL_Frame.label>
+  <PPCHEL_Frame.description>The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, if the trajectory through the radius is long enough for a shoot down attempt then a HEL will track the target and fire once it's in range. Works with unmanned SACS</PPCHEL_Frame.description>
+
+  <HEL_Laser.label>HEL Laser</HEL_Laser.label>
+  <HEL_Laser.description>HEL Laser.</HEL_Laser.description>
+
+  <PPCRailgun.label>Punisher</PPCRailgun.label>
+  <PPCRailgun.description>The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Manned SACS required for manual targeting. Requires a manned SACS to function.</PPCRailgun.description>
+  <PPCRailgun_Blueprint.label>Punisher (blueprint)</PPCRailgun_Blueprint.label>
+  <PPCRailgun_Frame.label>Punisher (building)</PPCRailgun_Frame.label>
+  <PPCRailgun_Frame.description>The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Manned SACS required for manual targeting. Requires a manned SACS to function.</PPCRailgun_Frame.description>
+
+  <Railgun_Cannon.label>Punisher Railgun</Railgun_Cannon.label>
+  <Railgun_Cannon.description>Railgun Railgun.</Railgun_Cannon.description>
+
+  <PPCObelisk.label>Obelisk</PPCObelisk.label>
+  <PPCObelisk.description>The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power, but with large pulse size and long cooldown. Automatic targeting and firing. Manned SACS required for manual targeting. Works with unmanned SACS</PPCObelisk.description>
+  <PPCObelisk_Blueprint.label>Obelisk (blueprint)</PPCObelisk_Blueprint.label>
+  <PPCObelisk_Frame.label>Obelisk (building)</PPCObelisk_Frame.label>
+  <PPCObelisk_Frame.description>The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power, but with large pulse size and long cooldown. Automatic targeting and firing. Manned SACS required for manual targeting. Works with unmanned SACS</PPCObelisk_Frame.description>
+
+  <Obelisk_Laser.label>Obelisk Laser</Obelisk_Laser.label>
+  <Obelisk_Laser.description>Obelisk Laser.</Obelisk_Laser.description>
+
+  <PPCMarauder.label>Marauder</PPCMarauder.label>
+  <PPCMarauder.description>The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, which uses large electromagnetic pulses to fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Manned SACS required with manual targeting only. Requires a manned SACS to function.</PPCMarauder.description>
+  <PPCMarauder_Blueprint.label>Marauder (blueprint)</PPCMarauder_Blueprint.label>
+  <PPCMarauder_Frame.label>Marauder (building)</PPCMarauder_Frame.label>
+  <PPCMarauder_Frame.description>The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, which uses large electromagnetic pulses to fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Manned SACS required with manual targeting only. Requires a manned SACS to function.</PPCMarauder_Frame.description>
+
+  <Marauder_Railgun.label>Marauder Railgun</Marauder_Railgun.label>
+  <Marauder_Railgun.description>Marauder Railgun.</Marauder_Railgun.description>
+
+  <Bullet_PlasmaToroid.label>Plasma Toroid</Bullet_PlasmaToroid.label>
+
+
+  <!-- Liberator -->
+
+  <MissileSilo.label>Liberator</MissileSilo.label>
+  <MissileSilo.description>The RA-1776b Liberator is a self contained all-in-one ICBM manufacturing and launching facility with a 5 missile magazine capacity. Requires a manned SACS to function.</MissileSilo.description>
+  <MissileSilo_Blueprint.label>Liberator (blueprint)</MissileSilo_Blueprint.label>
+  <MissileSilo_Frame.label>Liberator (building)</MissileSilo_Frame.label>
+  <MissileSilo_Frame.description>The RA-1776b Liberator is a self contained all-in-one ICBM manufacturing and launching facility with a 5 missile magazine capacity. Requires a manned SACS to function.</MissileSilo_Frame.description>
+
+  <notReal.label>notReal</notReal.label>
+
+
+</LanguageData>

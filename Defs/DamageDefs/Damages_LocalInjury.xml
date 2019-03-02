@@ -15,8 +15,8 @@
     <armorCategory>Blunt</armorCategory>
     <minDamageToFragment>15</minDamageToFragment>
     <defaultDamage>300</defaultDamage>
-    <explosionBuildingDamageFactor>2</explosionBuildingDamageFactor>
-    <explosionPlantDamageFactor>2</explosionPlantDamageFactor>
+    <buildingDamageFactor>2</buildingDamageFactor>
+    <plantDamageFactor>2</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
     <explosionHeatEnergyPerCell>200</explosionHeatEnergyPerCell>
     <explosionCellMote>Mote_BlastFlame</explosionCellMote>

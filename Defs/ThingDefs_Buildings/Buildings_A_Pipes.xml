@@ -114,9 +114,6 @@
         <mode>Cooling</mode>
       </li>
     </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor5</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="ValveBase"  Class="Rimatomics.RimatomicsThingDef">
@@ -140,9 +137,6 @@
         <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
       </li>
     </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor5</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
 
@@ -164,9 +158,6 @@
         <mode>Steam</mode>
       </li>
     </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor5</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="ValveBase"  Class="Rimatomics.RimatomicsThingDef">
@@ -189,9 +180,6 @@
         <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
       </li>
     </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor5</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
@@ -212,9 +200,6 @@
         <mode>ColdWater</mode>
       </li>
     </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor5</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="ValveBase"  Class="Rimatomics.RimatomicsThingDef">
@@ -237,9 +222,6 @@
         <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
       </li>
     </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor5</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
 
@@ -261,9 +243,6 @@
         <mode>HighVoltage</mode>
       </li>
     </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor5</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
   <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
@@ -284,9 +263,6 @@
         <mode>Loom</mode>
       </li>
     </comps>
-    <rimatomicsPrerequisites>
-      <li>NuclearReactor5</li>
-    </rimatomicsPrerequisites>
   </ThingDef>
 
 </Defs>

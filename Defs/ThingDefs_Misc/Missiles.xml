@@ -189,6 +189,7 @@
       <shaderType>TransparentPostLight</shaderType>
     </graphicData>
     <thingClass>Rimatomics.ICBM_Fission</thingClass>
+    <seeThroughFog>true</seeThroughFog>
   </ThingDef>
 
 

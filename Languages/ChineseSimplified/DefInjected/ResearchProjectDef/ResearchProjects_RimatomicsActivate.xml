@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RimatomicsActivate.label>「边缘核能」</RimatomicsActivate.label>
+  <RimatomicsActivate.discoveredLetterTitle>「边缘核能」解锁！</RimatomicsActivate.discoveredLetterTitle>
+  <RimatomicsActivate.description>在轨道上探测到一个探测器，它似乎正在向地面发送信号，也许我们可以破译这个信息。</RimatomicsActivate.description>
+  <RimatomicsActivate.discoveredLetterText>你已连接到探测器，里面记录了「边缘核能」贸易船的信息。你可以呼叫贸易船l。</RimatomicsActivate.discoveredLetterText>
+
+</LanguageData>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <RimatomicsResearch.reportString>Researching at TargetA.</RimatomicsResearch.reportString>
+  <SuperviseConstruction.reportString>Constructing TargetA.</SuperviseConstruction.reportString>
+  <SuperviseResearch.reportString>Researching at TargetA.</SuperviseResearch.reportString>
+  <UpgradeBuilding.reportString>Upgrading TargetA.</UpgradeBuilding.reportString>
+  <FleeADS.reportString>Fleeing TargetA.</FleeADS.reportString>
+  <LoadRailgunMagazine.reportString>Loading railgun magazine.</LoadRailgunMagazine.reportString>
+  <LoadSilo.reportString>Loading Silo.</LoadSilo.reportString>
+  <UseReactorConsole.reportString>Using reactor console.</UseReactorConsole.reportString>
+  <HaulModuletoCore.reportString>Hauling TargetB to TargetA.</HaulModuletoCore.reportString>
+  <RemoveFuelModule.reportString>removing fuel rods from TargetA.</RemoveFuelModule.reportString>
+  <LoadSpentFuel.reportString>hauling TargetB to TargetA.</LoadSpentFuel.reportString>
+  <UnloadPlutonium.reportString>removing plutonium from TargetA.</UnloadPlutonium.reportString>
+
+
+</LanguageData>

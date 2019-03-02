@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <RimatomicsActivate.label>边缘核能</RimatomicsActivate.label>
-  <RimatomicsActivate.description>已检测到在轨道上的探测器，似乎有信号发送到地面，或许我们可以破译它。</RimatomicsActivate.description>
-  <RimatomicsActivate.descriptionDiscovered>你连接上了探测器，通讯已开启。\n\n一个使用变音器的的仿生学推销者声称他正代表一个名为为“边缘核能”的交易方\n\n他将推销数据传送到控制台并解释说，这些是构建边缘核能研究台的蓝图，您可以使用它来购买某些技术或请求交易。\n\n请查看建筑规划菜单中的核能选项卡。</RimatomicsActivate.descriptionDiscovered>
-
-
-</LanguageData>
