@@ -2,7 +2,6 @@
 <LanguageData>
 
   <!--ALERTS-->
-
   <AlertNeedsTurbine>反应堆需要连通涡轮机</AlertNeedsTurbine>
   <AlertNeedsTurbineDesc>轻水反应堆需要连通到涡轮机，如果不这样做，可能会导致反应堆过热熔毁。</AlertNeedsTurbineDesc>
   <AlertNeedsCooling>涡轮机需要连通冷却系统</AlertNeedsCooling>
@@ -13,6 +12,16 @@
   <AlertCoreOverheatDesc>反应堆因过热而损坏。</AlertCoreOverheatDesc>
   <AlertCracked>反应堆损坏</AlertCracked>
   <AlertCrackedDesc>轻水反应堆在高温下的长时间运行导致其堆芯破裂，需要解构和重建，否则将持续发射致命的辐射，产生较少的电力并损坏燃料棒。</AlertCrackedDesc>
+
+  <CRACKEDFUEL>    ::燃料破裂::</CRACKEDFUEL>
+  <NOCOOLING>    ::没有冷却系统::</NOCOOLING>
+  <OVERHEATING>    ::过热:: {0}</OVERHEATING>
+  <COREMELT>    ::堆芯即将熔化::</COREMELT>
+  <EVACUATE>    ::泄漏::</EVACUATE>
+  <CONTROLRODJAM>    ::控制棒故障::</CONTROLRODJAM>
+  <ReactorAlerts>反应堆的警报:</ReactorAlerts>
+  <RADIATIONLEAK>    ::辐射泄漏::</RADIATIONLEAK>
+  <RADIATIONLEAKSYSTEM>    ::系统辐射::</RADIATIONLEAKSYSTEM>
 
   <!--CONSOLE-->
   <MOX>混合</MOX>
@@ -27,16 +36,19 @@
   <ShuttingDown>关闭</ShuttingDown>
   <Active>激活</Active>
   <ReactorBreakdown>ID: {0}\n状态: {1}\n最大电流: {2}W\n总燃料量: {3}\n转换率: {4}\n辐射: {5}\n\n{6}</ReactorBreakdown>
-  <SlotBreakdown>使用:{0}</SlotBreakdown>
+  <SlotBreakdown>最大功率: {1}W\n当前功率: {2}W\n使用: {3}\n比率: {4}\n现在可以处理: {5}</SlotBreakdown>
   <cycleScreensDesc>监控连接的的所有反应堆</cycleScreensDesc>
   <cycleScreens>监控所有</cycleScreens>
-
-
+  <AutoScram>自动关闭</AutoScram>
+  <AutoScramDesc>当堆芯温度达到危险阈值或发生太阳耀斑时自动关闭反应堆</AutoScramDesc>
+  <FlareSCRAMletterText>太阳耀斑使得反应堆自动关闭</FlareSCRAMletterText>
+  <SCRAMletterText>堆心温度超过警戒线使得反应堆自动关闭</SCRAMletterText>
+  <CantUseReactorConsole>需要8智识</CantUseReactorConsole>
   <!--PROCESSING-->
 
   <ProcessingProgress>进展: {0} {1}</ProcessingProgress>
-  <ContainsFuel>含有 {0} / {1} 的燃料。</ContainsFuel>
-  <ContainsChemfuel>含有 {0} / {1} 化合燃料。</ContainsChemfuel>
+  <ContainsFuel>含有 {0} / {1} 的燃料</ContainsFuel>
+  <ContainsChemfuel>含有 {0} / {1} 化合燃料</ContainsChemfuel>
   <critSpentfuelonly>只允许燃料残渣</critSpentfuelonly>
   <critAnyfuel>允许所有燃料</critAnyfuel>
   <critProg>进度: {0}</critProg>
@@ -45,11 +57,12 @@
   <NoChemfuel>没有化合燃料</NoChemfuel>
 
   <!--ENERGY WEAPONS-->
-
+  <energyWepLoadedShell>已装载: {0}</energyWepLoadedShell>
   <RailgunBarrage>开火指令</RailgunBarrage>
   <RailgunBarrageDesc>所有磁轨炮向同一区域开火</RailgunBarrageDesc>
   <needsRadar>需要搭配警戒雷达</needsRadar>
-  <ICBMNeedMissile>需要装载导弹才能发射</ICBMNeedMissile>
+  <ICBMNeedMissile>需要装载洲际弹道导弹才能发射</ICBMNeedMissile>
+  <ICBMAlreadyLaunching>已发射</ICBMAlreadyLaunching>
   <MissileRangeBad>目标不在射程范围内</MissileRangeBad>
   <MissileTargetInvalid>导弹目标无效</MissileTargetInvalid>
   <ICBMNeedConsole>需要有人操作能量武器控制台</ICBMNeedConsole>
@@ -63,7 +76,7 @@
   <critCommandRaiseDmgDesc>脉冲能量强度随单发耗能的增大而增大</critCommandRaiseDmgDesc>
   <critMissingPPC>需要搭配脉冲电池</critMissingPPC>
   <critNRGWEPPOOWA>耗能: {0} / 射程: {1}-{2}</critNRGWEPPOOWA>
-  <critNRGWEPPULSE>脉冲能量强度: {0} / 造成伤害: {1} / 射击距离: {2}</critNRGWEPPULSE>
+  <LastPulseSize>上一次脉冲强度: {0} Wd</LastPulseSize>
   <critCommandFireMission>开火指令</critCommandFireMission>
   <critCommandFireMissionDesc>远程动能打击</critCommandFireMissionDesc>
   <critCommandLaunchICBM>发射洲际弹道导弹</critCommandLaunchICBM>
@@ -73,26 +86,27 @@
   <critNoSabotRounds>没有磁轨炮弹</critNoSabotRounds>
   <critBombDet>核弹已引爆</critBombDet>
   <critBombDetFac>核弹爆炸，{0}已被摧毁</critBombDetFac>
+  <SetCamoMode>保护色涂层</SetCamoMode>
   <critCountdown>倒计时: {0}</critCountdown>
   <mp15>15m</mp15>
   <mm15>15m</mm15>
   <critArm>引爆</critArm>
   <MessageRailgunNeedsMap>没有地图数据，需要派出殖民者侦察</MessageRailgunNeedsMap>
   <MessageRailgunTargetInvalid>目标无效</MessageRailgunTargetInvalid>
-
+  <NextPart>下一步: 需要{0},{1}</NextPart>
+  <SiloFull>发射井已满</SiloFull>
+  <SiloMagazine>导弹: {0}/{1}</SiloMagazine>
+  <ICBMReady>洲际弹道导弹已准备就绪。</ICBMReady>
   <!--REACTOR BUILDINGS-->
 
   <Managefuel>管控</Managefuel>
-  <NeedsRiver>需要放置在河流、湖泊或者海洋上。</NeedsRiver>
   <RoofedTower>炮台被屋顶挡住了</RoofedTower>
   <TurbineRPM>转速: {0} ({1}%)</TurbineRPM>
   <TradeShipWait>边缘核能贸易船已在{0}处准备完毕</TradeShipWait>
   <critsetid>设置ID</critsetid>
   <critCoolingCapShare>所能维持冷却的限度: 限度: {0} / 涡轮机已使用: {1}</critCoolingCapShare>
-  <critinUse>已经在使用</critinUse>
-  <critremoveRadSuit>脱掉防辐射服</critremoveRadSuit>
 
-
+  <crackedRemoveNow>\n已破裂！立即撤离</crackedRemoveNow>
   <critCoreTemp>堆芯温度: {0}C</critCoreTemp>
   <critCoreEnergy>能量: {0}kW</critCoreEnergy>
   <critCoreCooling>冷却: {0}</critCoreCooling>
@@ -107,7 +121,6 @@
   <critreactorleaking>反应堆泄漏</critreactorleaking>
   <critreactionstable>反应器稳定</critreactionstable>
   <critStorageCapacity>存储容量: {0} / {1}</critStorageCapacity>
-  <critManageStoragePool>管控存储池</critManageStoragePool>
   <critGenerated>已发电量: {0} W</critGenerated>
   <critConsumed>已消耗电量: {0} W</critConsumed>
   <critPnetPct>电网负荷: {0}</critPnetPct>
@@ -135,8 +148,8 @@
 
 
 
-  <critNoreserveSuit>没有放入保险箱的防辐射服</critNoreserveSuit>
-  <critPlaceOnCore>必须放在熔化的堆芯上</critPlaceOnCore>
+  <critPlaceOnCore>必须建造在熔化的堆芯上</critPlaceOnCore>
+  <NeedsRiver>需要邻近河流、湖泊或者海洋建造。</NeedsRiver>
   <critMoreWater>需要大量的水</critMoreWater>
   <critActiveCore>堆芯依然在运行</critActiveCore>
   <critCrackedcore>堆芯破裂</critCrackedcore>
@@ -154,10 +167,14 @@
 
   <TradeShipReq>一艘“边缘核能”的贸易飞船已经被派往你所在的星球。\n\n它将需要花费两天时间到达。</TradeShipReq>
 
+  <LowerPowerLimit>降低输出功率上限</LowerPowerLimit>
+  <RaisePowerLimit>提高输出功率上限</RaisePowerLimit>
+  <PowerLimitDesc>更改此变压器的输出功率上限，用于控制电力在不同电网的输出量\n\n按住Shift以微调。</PowerLimitDesc>
+  <TrannyLimit>输出功率上限: {0}kW</TrannyLimit>
+  <TurbinePower>涡轮机功率: {0}kW</TurbinePower>
+
   <!--WEAPONS CONSOLE-->
-
-
-  <TestFireHELSOnOwnShells>拍下我方的炮弹飞行轨迹以收集数据。</TestFireHELSOnOwnShells>
+  <TestFireHELSOnOwnShells>击落我方的炮弹以收集数据。</TestFireHELSOnOwnShells>
   <OpenRadar>打开目标追踪界面</OpenRadar>
 
   <!--RESEARCH-->
@@ -202,63 +219,16 @@
   <coreUpgradeFail>堆芯运行时不能升级</coreUpgradeFail>
   <powerUpgradeFail>升级前必须关闭建筑物电源</powerUpgradeFail>
 
-
   <RimatomicResearchCompleteDialog>{0} - 完成\n\n{1}</RimatomicResearchCompleteDialog>
 
+  <TradeShipCooldown>贸易飞船冷却时间: {0}</TradeShipCooldown>
+  <TradeShipArrival>贸易飞船到达: {0}</TradeShipArrival>
+  <rimatomicsProto>原型</rimatomicsProto>
 
-
-
-  <!--UPGRADE STATS-->
-
-  <Conductors>通过提高核心的导热率，以提高15%的功率。</Conductors>
-  <NeutronReflectors>通过提高中子通量率上限，以提高25%的功率。</NeutronReflectors>
-  <Breeder>将热反应堆升级成增殖反应堆，能够使用更多的燃料。</Breeder>
-  <ReactorShielding>减少可能从反应堆泄漏的辐射量</ReactorShielding>
-  <ControlRodActuator>增加控制棒的调节能力</ControlRodActuator>
-
-  <ADSMEPS>影响区域范围 +10\n射程 +10\n\n最小耗能 +50wd\n最大耗能 +200wd</ADSMEPS>
-  <ADSALC>冷却时间 -1s</ADSALC>
-  <ADSERS>最小耗能 -50wd\n最大耗能 -200wd</ADSERS>
-  <ADSActuator>攻击速度 +100%</ADSActuator>
-
-  <TeslaMEPS>射程 +10\n\n最小耗能 +50wd\n最大耗能 +200wd</TeslaMEPS>
-  <TeslaALC>冷却时间 -10s</TeslaALC>
-  <TeslaERS>最小耗能 -50wd\n最大耗能 -200wd</TeslaERS>
-
-  <HELMEPS>击落时间 -50%\n\n冷却时间 +2.5s\n最小耗能 +500wd\n最大耗能 +1000wd</HELMEPS>
-  <HELALC>冷却时间 -2.5s</HELALC>
-  <HELERS>最小耗能 -250wd\n最大耗能 -500wd</HELERS>
-  <HELActuator>攻击速度 +100%</HELActuator>
-
-  <RailgunMEPS>射程 +10 地图格\n\n冷却时间 +5s\n最小耗能 +500wd\n最大耗能 +1000wd</RailgunMEPS>
-  <RailgunALC>冷却时间 -10s</RailgunALC>
-  <RailgunERS>最小耗能 -250wd\n最大耗能 -500wd</RailgunERS>
-  <RailgunActuator>攻击速度 +100%</RailgunActuator>
-  <RailgunTargetChip>偏差 -10\n射程 +10 地图格</RailgunTargetChip>
-
-  <ObeliskMEPS>最大伤害 +40\n最小伤害 +10\n\n最小耗能 +500wd\n最大耗能 +2000wd</ObeliskMEPS>
-  <ObeliskALC>冷却时间 -10s</ObeliskALC>
-  <ObeliskERS>最小耗能 -500wd\n最大耗能 -2000wd</ObeliskERS>
-  <ObeliskLenseModule>最大射程 +15\n最小射程 +3</ObeliskLenseModule>
-  <ObeliskBeamSplitter>击破护盾的同时仍然造成伤害</ObeliskBeamSplitter>
-
-  <RimUnlockedDesc>你连接上了探测器，通讯已开启。\n\n一个使用变音器的的仿生学推销者声称他正代表一个名为为“边缘核能”的交易方\n\n他将推销数据传送到控制台并解释说，这些是构建边缘核能研究台的蓝图，您可以使用它来购买某些技术或请求交易。\n\n请查看建筑规划菜单中的核能选项卡。</RimUnlockedDesc>
-  <RimatomicsUpdate>更新！\n\n“边缘核能”系列研究项目将不会在出现在原版研究标签中，因此将兼容研究项目排序MOD。\n\n不兼容此MOD上一版本的存档，你的研究将被全部重置。\n\n很抱歉给您带来不便。</RimatomicsUpdate>
-
-  <!--<critSetLockerOwner>设置所有者</critSetLockerOwner>-->
-  <!--<critSetLockerOwnerDesc>设置此储物柜的所有者</critSetLockerOwnerDesc>-->
-  <!--<StepResearchRequiredBuilding></StepResearchRequiredBuilding>-->
-  <!--<StepResearchRequiredBuildingDesc></StepResearchRequiredBuildingDesc>-->
-  <!--<StepReaserchRequiredResearch>需要研究</StepReaserchRequiredResearch>-->
-  <!--<StepReaserchRequiredResearchDesc>必须完成以下研究，才能进行下一步研究。</StepReaserchRequiredResearchDesc>-->
-  <!--<ChipBuildProto>构建{0}的样板。</ChipBuildProto>-->
-  <!--<ChipBuildProtoDesc>构建{0}的样板。一次只能构建1个样板，其能力有限。</ChipBuildProtoDesc>-->
-  <!--<ChipDescDisc>您现在可以通过为此设备购买边缘核能升级数据库来进行升级以进一步提高性能。以下殖民者参与了这个项目：\n\n</ChipDescDisc>-->
-  <!--<ResearchPrice>花费{0}白银购买</ResearchPrice>-->
-  <!--<StepDataGathering>从样板收集数据。</StepDataGathering>-->
-  <!--<StepDataGatherProtoWeaponDesc>使用样板{0}在任何有效的目标上收集数据。</StepDataGatherProtoWeaponDesc>-->
-  <!--<ChipUpgradeDescDisc>升级项目已完成，您现在可以升级此类型的所有建筑物。</ChipUpgradeDescDisc>-->
-  <!--<CrackedletterLabel>堆芯已破裂</CrackedletterLabel>-->
-  <!--<CrackedletterText>长时间在高温压力下运行导致堆芯破裂，需要解构和重建，否则将会持续发射致命的辐射，产生较少的电力并损坏燃料棒。</CrackedletterText>-->
+  <!--<critNRGWEPPULSE>脉冲能量强度: {0} / 造成伤害: {1} / 射击距离: {2}</critNRGWEPPULSE>-->
+  <!--<critinUse>已经在使用</critinUse>-->
+  <!--<critremoveRadSuit>脱掉防辐射服</critremoveRadSuit>-->
+  <!--<critManageStoragePool>管控存储池</critManageStoragePool>-->
+  <!--<critNoreserveSuit>没有放入保险箱的防辐射服</critNoreserveSuit>-->
 
 </LanguageData>

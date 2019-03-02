@@ -17,6 +17,14 @@
   <Make_RocketEngine.description>制作火箭引擎。</Make_RocketEngine.description>
   <Make_RocketEngine.jobString>正在制作火箭引擎。</Make_RocketEngine.jobString>
 
+  <Make_MissileFuselage.label>制作导弹外壳</Make_MissileFuselage.label>
+  <Make_MissileFuselage.description>制作导弹外壳。</Make_MissileFuselage.description>
+  <Make_MissileFuselage.jobString>正在制作导弹外壳。</Make_MissileFuselage.jobString>
+
+  <Make_FissionWarhead.label>制作核弹头</Make_FissionWarhead.label>
+  <Make_FissionWarhead.description>制作核弹头。</Make_FissionWarhead.description>
+  <Make_FissionWarhead.jobString>正在制作核弹头。</Make_FissionWarhead.jobString>
+
   <Make_ReactorComponents.label>制作反应堆组件</Make_ReactorComponents.label>
   <Make_ReactorComponents.description>制作反应堆组件。</Make_ReactorComponents.description>
   <Make_ReactorComponents.jobString>正在制作反应堆组件。</Make_ReactorComponents.jobString>
@@ -29,14 +37,6 @@
   <Make_UraniumPellets.description>制作铀颗粒。</Make_UraniumPellets.description>
   <Make_UraniumPellets.jobString>正在制作铀颗粒。</Make_UraniumPellets.jobString>
 
-  <Make_FissionWarhead.label>制作核弹头(裂变)</Make_FissionWarhead.label>
-  <Make_FissionWarhead.description>制作核弹头(裂变)。</Make_FissionWarhead.description>
-  <Make_FissionWarhead.jobString>正在制作核弹头(裂变)。</Make_FissionWarhead.jobString>
-
-  <Make_RailgunSabot.label>制作磁轨炮弹</Make_RailgunSabot.label>
-  <Make_RailgunSabot.description>制作磁轨炮弹。</Make_RailgunSabot.description>
-  <Make_RailgunSabot.jobString>正在制作磁轨炮弹。</Make_RailgunSabot.jobString>
-  
   <Make_Apparel_RadiationMask.label>制作防辐射面罩</Make_Apparel_RadiationMask.label>
   <Make_Apparel_RadiationMask.description>制作辐射面罩。</Make_Apparel_RadiationMask.description>
   <Make_Apparel_RadiationMask.jobString>正在制作辐射面罩。</Make_Apparel_RadiationMask.jobString>
@@ -69,6 +69,14 @@
   <Make_Apparel_MoppSuitSnow.description>制作作战用防辐射服(雪地)。</Make_Apparel_MoppSuitSnow.description>
   <Make_Apparel_MoppSuitSnow.jobString>正在制作作战用防辐射服(雪地)。</Make_Apparel_MoppSuitSnow.jobString>
 
+  <Make_RailgunSabot.label>制作磁轨炮弹(高爆)</Make_RailgunSabot.label>
+  <Make_RailgunSabot.description>制作磁轨炮弹(高爆)。</Make_RailgunSabot.description>
+  <Make_RailgunSabot.jobString>正在制作磁轨炮弹(高爆)。</Make_RailgunSabot.jobString>
+
+  <Make_RailgunSabotDU.label>制作磁轨炮弹(贫铀)</Make_RailgunSabotDU.label>
+  <Make_RailgunSabotDU.description>制作磁轨炮弹(贫铀)。</Make_RailgunSabotDU.description>
+  <Make_RailgunSabotDU.jobString>正在制作磁轨炮弹(贫铀)。</Make_RailgunSabotDU.jobString>
+
   <Make_ReactorConductors.label>制作反应堆导管</Make_ReactorConductors.label>
   <Make_ReactorConductors.description>制作反应堆导管。</Make_ReactorConductors.description>
   <Make_ReactorConductors.jobString>正在制作反应堆导管。</Make_ReactorConductors.jobString>
@@ -80,10 +88,6 @@
   <Make_ControlRodActuator.label>制作控制棒传动器</Make_ControlRodActuator.label>
   <Make_ControlRodActuator.description>制作控制棒传动器。</Make_ControlRodActuator.description>
   <Make_ControlRodActuator.jobString>正在制作控制棒传动器。</Make_ControlRodActuator.jobString>
-
-  <Make_BreederComponents.label>制作增殖反应堆组件</Make_BreederComponents.label>
-  <Make_BreederComponents.description>制作增殖反应堆组件。</Make_BreederComponents.description>
-  <Make_BreederComponents.jobString>正在制作增殖反应堆组件。</Make_BreederComponents.jobString>
 
   <Make_NeutronReflectors.label>制作中子反射层</Make_NeutronReflectors.label>
   <Make_NeutronReflectors.description>制作中子反射层。</Make_NeutronReflectors.description>
@@ -116,7 +120,6 @@
   <Make_LenseModule.label>制作棱镜模块</Make_LenseModule.label>
   <Make_LenseModule.description>制作棱镜模块。</Make_LenseModule.description>
   <Make_LenseModule.jobString>正在制作棱镜模块。</Make_LenseModule.jobString>
-
 
 
 </LanguageData>

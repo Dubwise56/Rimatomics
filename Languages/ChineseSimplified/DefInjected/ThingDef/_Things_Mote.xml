@@ -3,10 +3,14 @@
 
   <!-- These are Mote ThingDefs. Remain the same, DO NOT translate them. -->
 
+  <Mote_MeltdownFlash.label>尘埃</Mote_MeltdownFlash.label>
   <Mote_FireGlowRocket.label>尘埃</Mote_FireGlowRocket.label>
   <Mote_SmokeRocket.label>尘埃</Mote_SmokeRocket.label>
-  <Mote_ColonistFleeingADS.label>尘埃</Mote_ColonistFleeingADS.label>
   <Mote_Upgraded.label>尘埃</Mote_Upgraded.label>
+  <Mote_NukeFlash.label>尘埃</Mote_NukeFlash.label>
+  <Mote_NukeShock.label>尘埃</Mote_NukeShock.label>
+  <Mote_NukeFire.label>尘埃</Mote_NukeFire.label>
+  <Mote_NukeCloud.label>尘埃</Mote_NukeCloud.label>
 
 
 </LanguageData>

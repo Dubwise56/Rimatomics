@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingCategoryDefs>
+<Defs>
 
   <ThingCategoryDef>
     <defName>Nuclear</defName>
@@ -24,7 +24,13 @@
     <label>Rimatomics Product</label>
     <parent>Nuclear</parent>
   </ThingCategoryDef>
-
+  
+  <ThingCategoryDef>
+    <defName>SabotRounds</defName>
+    <label>Sabot Rounds</label>
+    <parent>RimatomicsProduct</parent>
+  </ThingCategoryDef>
+  
   <ThingCategoryDef>
     <defName>Hazmat</defName>
     <label>hazmat</label>
@@ -36,4 +42,4 @@
     <label>mopp</label>
     <parent>Hazmat</parent>
   </ThingCategoryDef>
-</ThingCategoryDefs>
+</Defs>

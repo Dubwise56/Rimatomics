@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-    
-	<PotassiumIodide.label>Ioduro de potasio</PotassiumIodide.label>
-	<PotassiumIodide.description>Se suministran tabletas de ioduro de potasio en casos de emergencia con el propósito de bloquear la asimilación de iodo radiactivo.</PotassiumIodide.description>
-	<PotassiumIodide.ingestible.ingestCommandString>{0} está tomando</PotassiumIodide.ingestible.ingestCommandString>
-	<PotassiumIodide.ingestible.ingestReportString>{0} está tomando</PotassiumIodide.ingestible.ingestReportString>
-    
-</LanguageData>

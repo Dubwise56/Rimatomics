@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<Iodine>
+<Defs>
 
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>PotassiumIodide</defName>
@@ -66,4 +66,4 @@
       </stages>
   </HediffDef>
   
-</Iodine>
+</Defs>

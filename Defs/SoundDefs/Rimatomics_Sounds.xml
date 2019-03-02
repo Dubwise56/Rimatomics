@@ -1,10 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefPackage-SoundDef>
+<Defs>
   <SoundDef>
 
     <defName>rocketEngineLaunch</defName>
     <context>MapOnly</context>
-    <sustain>False</sustain>
     <eventNames />
     <priorityMode>PrioritizeNearest</priorityMode>
     <subSounds>
@@ -16,17 +15,59 @@
           </li>
         </grains>
         <volumeRange>
-          <min>30</min>
-          <max>30</max>
+          <min>60</min>
+          <max>60</max>
         </volumeRange>
-		<pitchRange>
-          <min>1</min>
-          <max>1.055</max>
-        </pitchRange>
         <distRange>
           <min>40</min>
           <max>90</max>
         </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>siloDoor</defName>
+    <context>MapOnly</context>
+    <eventNames />
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>missile/hatch</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>60</min>
+          <max>60</max>
+        </volumeRange>
+        <distRange>
+          <min>0</min>
+          <max>70</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>distantRumble</defName>
+    <eventNames />
+    <maxVoices>1</maxVoices>
+    <maxSimultaneous>1</maxSimultaneous>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/rumble</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>90</min>
+          <max>90</max>
+        </volumeRange>
       </li>
     </subSounds>
   </SoundDef>
@@ -177,8 +218,8 @@
           </li>
         </grains>
         <volumeRange>
-          <min>50</min>
-          <max>50</max>
+          <min>40</min>
+          <max>40</max>
         </volumeRange>
         <pitchRange>
           <min>1</min>
@@ -659,6 +700,38 @@
   </SoundDef>
 
   <SoundDef>
+    <defName>core_hum</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <eventNames />
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <sustainStartSound></sustainStartSound>
+    <sustainStopSound></sustainStopSound>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>hums/core_hum</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>25</min>
+          <max>25</max>
+        </volumeRange>
+        <pitchRange>
+          <min>1</min>
+          <max>1.015</max>
+        </pitchRange>
+        <distRange>
+          <min>0</min>
+          <max>20</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
     <defName>transformer</defName>
     <sustain>True</sustain>
     <context>MapOnly</context>
@@ -684,7 +757,7 @@
         </pitchRange>
         <distRange>
           <min>0</min>
-          <max>30</max>
+          <max>20</max>
         </distRange>
       </li>
     </subSounds>
@@ -715,4 +788,4 @@
   </SoundDef>
 
 
-</DefPackage-SoundDef>
+</Defs>

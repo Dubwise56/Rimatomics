@@ -10,6 +10,22 @@
       </li>
     </children>
   </EffecterDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_MeltdownFlash</defName>
+    <graphicData>
+      <texPath>FX/nukeblast</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>Weather</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <solidTime>0.5</solidTime>
+      <fadeOutTime>2</fadeOutTime>
+    </mote>
+  </ThingDef>
   
     <ThingDef ParentName="MoteBase">
     <defName>Mote_FireGlowRocket</defName>
@@ -39,20 +55,6 @@
     </mote>
   </ThingDef>
 
-  <ThingDef ParentName="MoteBase">
-    <defName>Mote_ColonistFleeingADS</defName>
-    <graphicData>
-      <texPath>Mote/microwaves</texPath>
-    </graphicData>
-    <thingClass>MoteThrownAttached</thingClass>
-    <altitudeLayer>MetaOverlays</altitudeLayer>
-    <mote>
-      <fadeInTime>0.25</fadeInTime>
-      <solidTime>1</solidTime>
-      <fadeOutTime>1.4</fadeOutTime>
-      <attachedDrawOffset>(0.45, 0, 0.45)</attachedDrawOffset>
-    </mote>
-  </ThingDef>
 
   <ThingDef ParentName="MoteBase">
     <defName>Mote_Upgraded</defName>
@@ -66,6 +68,72 @@
       <solidTime>1</solidTime>
       <fadeOutTime>0.25</fadeOutTime>
       <acceleration>(0, 0, 1)</acceleration>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_NukeFlash</defName>
+    <graphicData>
+      <texPath>FX/nukeblast</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>Weather</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <fadeInTime>0</fadeInTime>
+      <solidTime>15</solidTime>
+      <fadeOutTime>30</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_NukeShock</defName>
+    <graphicData>
+      <texPath>FX/nukeshock</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>Weather</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <growthRate>0.01</growthRate>
+      <fadeInTime>0</fadeInTime>
+      <fadeOutTime>0.4</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_NukeFire</defName>
+    <graphicData>
+      <texPath>FX/nukefire</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>Weather</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <growthRate>1</growthRate>
+      <fadeInTime>10</fadeInTime>
+      <solidTime>20</solidTime>
+      <fadeOutTime>5</fadeOutTime>
+    </mote>
+  </ThingDef>
+
+  <ThingDef ParentName="MoteBase">
+    <defName>Mote_NukeCloud</defName>
+    <graphicData>
+      <texPath>FX/nukecloud</texPath>
+      <shaderType>MoteGlow</shaderType>
+    </graphicData>
+    <thingClass>MoteThrownAttached</thingClass>
+    <altitudeLayer>Weather</altitudeLayer>
+    <drawOffscreen>true</drawOffscreen>
+    <mote>
+      <growthRate>1</growthRate>
+      <fadeInTime>10</fadeInTime>
+      <solidTime>20</solidTime>
+      <fadeOutTime>5</fadeOutTime>
     </mote>
   </ThingDef>
 </Defs>

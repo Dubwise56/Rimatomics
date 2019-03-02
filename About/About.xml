@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 
 <ModMetaData>
-	<name>Rimatomics</name>
+	<name>Rimatomics - Beta Test</name>
 	<author>Dubwise</author>
 	<url>https://ludeon.com/forums/index.php?topic=25124.0</url>
-	<targetVersion>0.17.1527</targetVersion>
-	<description>Rimatomics adds the science and power of nuclear energy to Rimworld\n\nScalable power plants | Energy weapons | Nuclear weapons | Research and development\n\nv1.0.8\n\nChinese translation by leafzxg\nFrench translation by nohima\nSpanish translation by faltonico</description>
+	<targetVersion>0.18.1722</targetVersion>
+	<description>Rimatomics adds the science and power of nuclear energy to Rimworld\n\nScalable power plants | Energy weapons | Nuclear weapons | Research and development\n\nv1.2.3</description>
 </ModMetaData>

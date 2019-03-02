@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- STANDARD -->
+
+  <RailgunSabot.label>磁轨炮弹(高爆)</RailgunSabot.label>
+  <RailgunSabot.description>磁轨炮所发射的的高爆炮弹。</RailgunSabot.description>
+
+  <Bullet_Sabot.label>磁轨炮弹(高爆)</Bullet_Sabot.label>
+
+
+  <!-- DU Sabot -->
+
+  <RailgunSabotDU.label>磁轨炮弹(贫铀)</RailgunSabotDU.label>
+  <RailgunSabotDU.description>磁轨炮所发射的的贫铀炮弹。</RailgunSabotDU.description>
+
+  <Bullet_Sabot_DU.label>磁轨炮弹(贫铀)</Bullet_Sabot_DU.label>
+
+
+</LanguageData>

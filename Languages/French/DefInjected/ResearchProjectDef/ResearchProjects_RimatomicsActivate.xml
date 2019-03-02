@@ -1,9 +1,0 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<LanguageData>
-
-  <RimatomicsActivate.label>Rimatomics</RimatomicsActivate.label>
-  <RimatomicsActivate.description>Une sonde à été détectée en orbite, il semble nous envoyer des signaux, nous pouvons peut-être déchiffrer le message</RimatomicsActivate.description>
-  <RimatomicsActivate.descriptionDiscovered>Vous vous connectez avec la sonde et un méssage pré-enregistré se lance\n\nQuelqu'un avec le comportement d'un vendeur d'augmentation bioniques revendique qu'il represente une société commerciale nommée Rimatomics.\n\nAlors qu'il fait son discours commercial des gigabits de donnée se télcharge dans la console, Il explique que ce sont des plans pour construire le banc de recherche Rimatomics qui peux être utilisé pour acheter des plan de quelques-unes de leurs technologies ou demander une sonde de commerce.\n\nRegarder l'onglet Rimatomics dans le menu de construction.</RimatomicsActivate.descriptionDiscovered>
-
-
-</LanguageData>

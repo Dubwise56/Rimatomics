@@ -22,53 +22,11 @@
   </ThingDef>
 
   <ThingDef ParentName="RimatomicResourceBase">
-    <defName>RocketEngine</defName>
-    <label>Rocket Engine</label>
-    <description>Engines for building ICBM's.</description>
-    <graphicData>
-      <texPath>Things/Resources/RocketEngine</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-    </graphicData>
-    <soundInteract>Metal_Drop</soundInteract>
-    <soundDrop>Standard_Drop</soundDrop>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.8</fillPercent>
-    <stackLimit>1</stackLimit>
-    <drawGUIOverlay>false</drawGUIOverlay>
-    <statBases>
-      <Flammability>0</Flammability>
-      <MarketValue>40</MarketValue>
-      <Mass>24</Mass>
-      <DeteriorationRate>2.0</DeteriorationRate>
-    </statBases>
-    <thingCategories>
-      <li>RimatomicsProduct</li>
-    </thingCategories>
-    <recipeMaker>
-      <productCount>1</productCount>
-      <workAmount>11000</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>Smith</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-      <recipeUsers>
-        <li>TableRimatomicsMachining</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
-    </recipeMaker>
-    <costList>
-      <Steel>50</Steel>
-      <Plasteel>25</Plasteel>
-      <Component>2</Component>
-    </costList>
-  </ThingDef>
-
-  <ThingDef ParentName="RimatomicResourceBase">
     <defName>ReactorComponents</defName>
     <label>Reactor Components</label>
     <description>Special hardened and shielded components for use in reactors.</description>
     <graphicData>
-      <texPath>Things/Item/Resource/Component</texPath>
+      <texPath>Things/Item/Resource/AdvancedComponent</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <color>(160,178,181)</color>
     </graphicData>
@@ -100,8 +58,8 @@
       <unfinishedThingDef>UnfinishedComponent</unfinishedThingDef>
     </recipeMaker>
     <costList>
-      <Plasteel>20</Plasteel>
-      <Silver>2</Silver>
+      <Plasteel>10</Plasteel>
+      <Silver>1</Silver>
     </costList>
   </ThingDef>
   
@@ -175,11 +133,6 @@
       <recipeUsers>
         <li>TableRimatomicsMachining</li>
       </recipeUsers>
-      <skillRequirements>
-        <li>
-          <skill>Crafting</skill>
-        </li>
-      </skillRequirements>
     </recipeMaker>
     <costList>
       <Uranium>1</Uranium>
@@ -237,156 +190,7 @@
       <li>RimatomicsProduct</li>
     </thingCategories>
   </ThingDef>
- 
-  <ThingDef  Name="BasedWarhead" Abstract="True">
-    <graphicData>
-      <texPath>Things/Resources/warhead</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(2,2)</drawSize>
-    </graphicData>
-    <tradeTags>
-      <li>Rimatomics</li>
-    </tradeTags>
-    <soundDrop>ChunkSlag_Drop</soundDrop>
-    <category>Item</category>
-    <altitudeLayer>Item</altitudeLayer>
-    <passability>PassThroughOnly</passability>
-    <fillPercent>0.3</fillPercent>
-    <statBases>
-      <MaxHitPoints>300</MaxHitPoints>
-      <Flammability>0</Flammability>
-      <Beauty>-10</Beauty>
-      <MarketValue>10000</MarketValue>
-      <Mass>160</Mass>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Forbiddable" />
-    </comps>
-    <selectable>true</selectable>
-    <pathCost>55</pathCost>
-    <pathCostIgnoreRepeat>true</pathCostIgnoreRepeat>
-    <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
-    <stackLimit>1</stackLimit>
-    <tickerType>Normal</tickerType>
-    <thingCategories>
-      <li>RimatomicsProduct</li>
-    </thingCategories>
-    <alwaysHaulable>true</alwaysHaulable>
-    <recipeMaker>
-      <productCount>1</productCount>
-      <workAmount>40000</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>ConstructMetal</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-      <recipeUsers>
-        <li>TableRimatomicsMachining</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-      <skillRequirements>
-        <li>
-          <skill>Crafting</skill>
-          <minLevel>12</minLevel>
-        </li>
-      </skillRequirements>
-    </recipeMaker>
-    <costList>
-      <Plutonium>5</Plutonium>
-      <Steel>100</Steel>
-      <Component>5</Component>
-    </costList>
-  </ThingDef>
 
-  
-  <ThingDef ParentName="BasedWarhead">
-    <defName>FissionWarhead</defName>
-    <label>Nuclear Warhead (Fission)</label>
-    <description>An explosive device that derives its destructive force from nuclear reactions, this design uses fission and generates a smaller explosion.</description>
-    <graphicData>
-      <texPath>Things/Resources/warhead</texPath>
-    </graphicData>
-    <thingClass>Rimatomics.Item_FissionWarhead</thingClass>
-    <statBases>
-      <MarketValue>10000</MarketValue>
-    </statBases>
-    <recipeMaker>
-      <productCount>1</productCount>
-      <workAmount>40000</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
-      <effectWorking>ConstructMetal</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-      <skillRequirements>
-        <li>
-          <skill>Crafting</skill>
-          <minLevel>12</minLevel>
-        </li>
-      </skillRequirements>
-    </recipeMaker>
-    <costList>
-      <Plutonium>240</Plutonium>
-      <Steel>100</Steel>
-      <Component>5</Component>
-    </costList>
-  </ThingDef>
-
-  <ThingDef ParentName="RimatomicResourceBase">
-    <defName>RailgunSabot</defName>
-    <label>Railgun Sabot</label>
-    <description>A kinetic energy projectile fired from a railgun.</description>
-    <graphicData>
-      <texPath>Things/Resources/sabot</texPath>
-      <graphicClass>Graphic_StackCount</graphicClass>
-    </graphicData>
-    <thingClass>ThingWithComps</thingClass>
-    <category>Item</category>
-    <resourceReadoutPriority>Middle</resourceReadoutPriority>
-    <useHitPoints>true</useHitPoints>
-    <selectable>true</selectable>
-    <altitudeLayer>Item</altitudeLayer>
-    <stackLimit>35</stackLimit>
-    <comps>
-      <li Class="CompProperties_Forbiddable"/>
-    </comps>
-    <alwaysHaulable>true</alwaysHaulable>
-    <drawGUIOverlay>true</drawGUIOverlay>
-    <rotatable>false</rotatable>
-    <pathCost>15</pathCost>
-    <soundInteract>Metal_Drop</soundInteract>
-    <soundDrop>Standard_Drop</soundDrop>
-    <statBases>
-      <MaxHitPoints>70</MaxHitPoints>
-      <MarketValue>14</MarketValue>
-      <Mass>1.5</Mass>
-      <Flammability>1.0</Flammability>
-      <Beauty>-7</Beauty>
-    </statBases>
-    <thingCategories>
-      <li>RimatomicsProduct</li>
-    </thingCategories>
-    <recipeMaker>
-      <productCount>1</productCount>
-      <workAmount>400</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
-      <workSkill>Crafting</workSkill>
-      <effectWorking>ConstructMetal</effectWorking>
-      <soundWorking>Recipe_Machining</soundWorking>
-      <recipeUsers>
-        <li>TableRimatomicsMachining</li>
-      </recipeUsers>
-      <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-      <skillRequirements>
-        <li>
-          <skill>Crafting</skill>
-          <minLevel>10</minLevel>
-        </li>
-      </skillRequirements>
-    </recipeMaker>
-    <costList>
-      <Steel>5</Steel>
-    </costList>
-  </ThingDef>
   
   <!-- Fuel Rods -->
 
@@ -412,7 +216,7 @@
       <Flammability>10</Flammability>
       <Beauty>-10</Beauty>
       <Cleanliness>-2</Cleanliness>
-      <MarketValue>500</MarketValue>
+      <MarketValue>1200</MarketValue>
       <Mass>25</Mass>
     </statBases>
     <comps>
@@ -453,7 +257,7 @@
       <Flammability>10</Flammability>
       <Beauty>-10</Beauty>
       <Cleanliness>-2</Cleanliness>
-      <MarketValue>500</MarketValue>
+      <MarketValue>2500</MarketValue>
       <Mass>25</Mass>
     </statBases>
     <comps>
@@ -526,21 +330,24 @@
   </ThingDef>
 
 
-  <ThingDef>
+
+  <ThingDef ParentName="SkyfallerBase">
     <defName>ThrownSlag</defName>
     <label>ThrownSlag</label>
-    <category>Skyfaller</category>
-    <thingClass>Rimatomics.ThrownSlag</thingClass>
-    <tickerType>Normal</tickerType>
+    <thingClass>DropPodIncoming</thingClass>
     <graphicData>
       <texPath>Things/Item/Chunk/ChunkSlag</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shaderType>CutoutFlying</shaderType>
       <drawSize>1</drawSize>
     </graphicData>
-    <altitudeLayer>MetaOverlays</altitudeLayer>
-    <useHitPoints>false</useHitPoints>
-    <drawOffscreen>true</drawOffscreen>
+    <skyfaller>
+      <movementType>Accelerate</movementType>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(2, 2)</shadowSize>
+      <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
+      <speed>0.1</speed>
+    </skyfaller>
   </ThingDef>
-
+  
 </Defs>

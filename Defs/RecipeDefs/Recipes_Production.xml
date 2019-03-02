@@ -1,45 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<RecipeDefs>
-  
-  <RecipeDef>
-    <defName>MakeSabotDU</defName>
-    <label>make sabot from DU</label>
-    <description>make railgun sabot from depleted uranium</description>
-    <jobString>Making Sabot Round.</jobString>
-    <workAmount>400</workAmount>
-    <workSkill>Crafting</workSkill>
-    <workSpeedStat>SmithingSpeed</workSpeedStat>
-    <effectWorking>ConstructMetal</effectWorking>
-    <soundWorking>Recipe_Machining</soundWorking>
-    <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-    <ingredients>
-      <li>
-        <filter>
-          <thingDefs>
-            <li>DepletedUraniumPellets</li>
-          </thingDefs>
-        </filter>
-        <count>5</count>
-      </li>
-    </ingredients>
-    <fixedIngredientFilter>
-      <thingDefs>
-        <li>DepletedUraniumPellets</li>
-      </thingDefs>
-    </fixedIngredientFilter>
-    <products>
-      <RailgunSabot>1</RailgunSabot>
-    </products>
-    <recipeUsers>
-      <li>TableRimatomicsMachining</li>
-    </recipeUsers>
-    <skillRequirements>
-      <li>
-        <skill>Crafting</skill>
-        <minLevel>10</minLevel>
-      </li>
-    </skillRequirements>
-  </RecipeDef>
+<Defs>
 
   <RecipeDef>
     <defName>SmeltBlades</defName>
@@ -73,100 +33,96 @@
     </recipeUsers>
   </RecipeDef>
 
-	<RecipeDef Name="MakeFuelRodsBase" Abstract="True">
-		<label>Make Uranium Fuelrods</label>
-		<description>Construct Uranium Fuelrods.</description>
-		<jobString>Making nuclear fuel rods.</jobString>
-		<workSpeedStat>SmithingSpeed</workSpeedStat>
-		<effectWorking>ConstructMetal</effectWorking>
-		<soundWorking>Recipe_Machining</soundWorking>
-		<unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-		<workAmount>10000</workAmount>
-		<workSkill>Crafting</workSkill>
-		<skillRequirements>
-			<li>
-				<skill>Crafting</skill>
-				<minLevel>12</minLevel>
-			</li>
-		</skillRequirements>
-		<recipeUsers>
-			<li>TableRimatomicsMachining</li>
-		</recipeUsers>
-	</RecipeDef>
+  <RecipeDef Name="MakeFuelRodsBase" Abstract="True">
+    <label>Make Uranium Fuelrods</label>
+    <description>Construct Uranium Fuelrods.</description>
+    <jobString>Making nuclear fuel rods.</jobString>
+    <workSpeedStat>SmithingSpeed</workSpeedStat>
+    <effectWorking>ConstructMetal</effectWorking>
+    <soundWorking>Recipe_Machining</soundWorking>
+    <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
+    <workAmount>10000</workAmount>
+    <workSkill>Crafting</workSkill>
+    <skillRequirements>
+      <Crafting>12</Crafting>
+    </skillRequirements>
+    <recipeUsers>
+      <li>TableRimatomicsMachining</li>
+    </recipeUsers>
+  </RecipeDef>
 
-	<RecipeDef ParentName="MakeFuelRodsBase">
+  <RecipeDef ParentName="MakeFuelRodsBase">
     <products>
       <FuelRods>1</FuelRods>
     </products>
-		<defName>MakeFuelRods</defName>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>UraniumPellets</li>
-					</thingDefs>
-				</filter>
-				<count>100</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>15</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>UraniumPellets</li>
-				<li>Plasteel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
+    <defName>MakeFuelRods</defName>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>UraniumPellets</li>
+          </thingDefs>
+        </filter>
+        <count>100</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>UraniumPellets</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
 
-	</RecipeDef>
-
-	<RecipeDef ParentName="MakeFuelRodsBase">
-		<defName>MakeMoxFuelRods</defName>
-		<label>Make MOX Fuel rods</label>
-		<description>Construct MOX Fuelrods.</description>
-		<jobString>Making MOX fuel rods.</jobString>
+  <RecipeDef ParentName="MakeFuelRodsBase">
+    <defName>MakeMoxFuelRods</defName>
+    <label>Make MOX Fuel rods</label>
+    <description>Construct MOX Fuelrods.</description>
+    <jobString>Making MOX fuel rods.</jobString>
     <products>
       <FuelRodsMOX>1</FuelRodsMOX>
     </products>
-		<ingredients>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plutonium</li>
-					</thingDefs>
-				</filter>
-				<count>20</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>DepletedUraniumPellets</li>
-					</thingDefs>
-				</filter>
-				<count>99</count>
-			</li>
-			<li>
-				<filter>
-					<thingDefs>
-						<li>Plasteel</li>
-					</thingDefs>
-				</filter>
-				<count>15</count>
-			</li>
-		</ingredients>
-		<fixedIngredientFilter>
-			<thingDefs>
-				<li>Plutonium</li>
-				<li>DepletedUraniumPellets</li>
-				<li>Plasteel</li>
-			</thingDefs>
-		</fixedIngredientFilter>
-	</RecipeDef>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plutonium</li>
+          </thingDefs>
+        </filter>
+        <count>20</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>DepletedUraniumPellets</li>
+          </thingDefs>
+        </filter>
+        <count>99</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Plasteel</li>
+          </thingDefs>
+        </filter>
+        <count>15</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Plutonium</li>
+        <li>DepletedUraniumPellets</li>
+        <li>Plasteel</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
 
-</RecipeDefs>
+</Defs>

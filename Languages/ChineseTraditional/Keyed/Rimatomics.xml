@@ -2,263 +2,233 @@
 <LanguageData>
 
   <!--ALERTS-->
-
-  <AlertNeedsTurbine>反应堆需要连通涡轮机</AlertNeedsTurbine>
-  <AlertNeedsTurbineDesc>轻水反应堆需要连通到涡轮机，如果不这样做，可能会导致反应堆过热熔毁。</AlertNeedsTurbineDesc>
-  <AlertNeedsCooling>涡轮机需要连通冷却系统</AlertNeedsCooling>
-  <AlertNeedsCoolingDesc>涡轮机需要连通到冷却系统，如果不这样做，可能会导致涡轮机过热熔毁。</AlertNeedsCoolingDesc>
+  <AlertNeedsTurbine>反應堆需要連通渦輪機</AlertNeedsTurbine>
+  <AlertNeedsTurbineDesc>輕水反應堆需要連通到渦輪機，如果不這樣做，可能會導致反應堆過熱熔毀。</AlertNeedsTurbineDesc>
+  <AlertNeedsCooling>渦輪機需要連通冷卻系統</AlertNeedsCooling>
+  <AlertNeedsCoolingDesc>渦輪機需要連通到冷卻系統，如果不這樣做，可能會導致渦輪機過熱熔毀。</AlertNeedsCoolingDesc>
   <AlertCoreMelt>堆芯熔化</AlertCoreMelt>
-  <AlertCoreMeltDesc>灾难性的堆芯熔化事故，请立即撤离此地！</AlertCoreMeltDesc>
-  <AlertCoreOverheat>反应堆故障</AlertCoreOverheat>
-  <AlertCoreOverheatDesc>反应堆因过热而损坏。</AlertCoreOverheatDesc>
-  <AlertCracked>反应堆损坏</AlertCracked>
-  <AlertCrackedDesc>轻水反应堆在高温下的长时间运行导致其堆芯破裂，需要解构和重建，否则将持续发射致命的辐射，产生较少的电力并损坏燃料棒。</AlertCrackedDesc>
+  <AlertCoreMeltDesc>災難性的堆芯熔化事故，請立即撤離此地！</AlertCoreMeltDesc>
+  <AlertCoreOverheat>反應堆故障</AlertCoreOverheat>
+  <AlertCoreOverheatDesc>反應堆因過熱而損壞。</AlertCoreOverheatDesc>
+  <AlertCracked>反應堆損壞</AlertCracked>
+  <AlertCrackedDesc>輕水反應堆在高溫下的長時間運行導致其堆芯破裂，需要解構和重建，否則將持續發射致命的輻射，產生較少的電力並損壞燃料棒。</AlertCrackedDesc>
+
+  <CRACKEDFUEL>    ::燃料破裂::</CRACKEDFUEL>
+  <NOCOOLING>    ::沒有冷卻系統::</NOCOOLING>
+  <OVERHEATING>    ::過熱:: {0}</OVERHEATING>
+  <COREMELT>    ::堆芯即將熔化::</COREMELT>
+  <EVACUATE>    ::泄漏::</EVACUATE>
+  <CONTROLRODJAM>    ::控制棒故障::</CONTROLRODJAM>
+  <ReactorAlerts>反應堆的警報:</ReactorAlerts>
+  <RADIATIONLEAK>    ::輻射泄漏::</RADIATIONLEAK>
+  <RADIATIONLEAKSYSTEM>    ::系統輻射::</RADIATIONLEAKSYSTEM>
 
   <!--CONSOLE-->
   <MOX>混合</MOX>
-  <Used>已使用过</Used>
+  <Used>已使用過</Used>
   <AbortTest>中止</AbortTest>
-  <reactorSCRAM>关闭</reactorSCRAM>
-  <reactorSTART>启动</reactorSTART>
-  <BreederTest>测试增殖反应堆</BreederTest>
-  <InstallAll>全部安装</InstallAll>
-  <ShutdownCold>关闭并冷却</ShutdownCold>
-  <StartingUp>启动</StartingUp>
-  <ShuttingDown>关闭</ShuttingDown>
+  <reactorSCRAM>關閉</reactorSCRAM>
+  <reactorSTART>啟動</reactorSTART>
+  <BreederTest>測試增殖反應堆</BreederTest>
+  <InstallAll>全部安裝</InstallAll>
+  <ShutdownCold>關閉並冷卻</ShutdownCold>
+  <StartingUp>啟動</StartingUp>
+  <ShuttingDown>關閉</ShuttingDown>
   <Active>激活</Active>
-  <ReactorBreakdown>ID: {0}\n状态: {1}\n最大电流: {2}W\n总燃料量: {3}\n转换率: {4}\n辐射: {5}\n\n{6}</ReactorBreakdown>
-  <SlotBreakdown>使用:{0}</SlotBreakdown>
-  <cycleScreensDesc>监控连接的的所有反应堆</cycleScreensDesc>
-  <cycleScreens>监控所有</cycleScreens>
-
-
+  <ReactorBreakdown>ID: {0}\n狀態: {1}\n最大電流: {2}W\n總燃料量: {3}\n轉換率: {4}\n輻射: {5}\n\n{6}</ReactorBreakdown>
+  <SlotBreakdown>最大功率: {1}W\n當前功率: {2}W\n使用: {3}\n比率: {4}\n現在可以處理: {5}</SlotBreakdown>
+  <cycleScreensDesc>監控連接的的所有反應堆</cycleScreensDesc>
+  <cycleScreens>監控所有</cycleScreens>
+  <AutoScram>自動關閉</AutoScram>
+  <AutoScramDesc>當堆芯溫度達到危險閾值或發生太陽耀斑時自動關閉反應堆</AutoScramDesc>
+  <FlareSCRAMletterText>太陽耀斑使得反應堆自動關閉</FlareSCRAMletterText>
+  <SCRAMletterText>堆心溫度超過警戒線使得反應堆自動關閉</SCRAMletterText>
+  <CantUseReactorConsole>需要8智識</CantUseReactorConsole>
   <!--PROCESSING-->
 
-  <ProcessingProgress>进展: {0} {1}</ProcessingProgress>
-  <ContainsFuel>含有 {0} / {1} 的燃料。</ContainsFuel>
-  <ContainsChemfuel>含有 {0} / {1} 化合燃料。</ContainsChemfuel>
-  <critSpentfuelonly>只允许燃料残渣</critSpentfuelonly>
-  <critAnyfuel>允许所有燃料</critAnyfuel>
-  <critProg>进度: {0}</critProg>
-  <critRemovePlutonium>加工完毕，取出材料</critRemovePlutonium>
+  <ProcessingProgress>進展: {0} {1}</ProcessingProgress>
+  <ContainsFuel>含有 {0} / {1} 的燃料</ContainsFuel>
+  <ContainsChemfuel>含有 {0} / {1} 化合燃料</ContainsChemfuel>
+  <critSpentfuelonly>只允許燃料殘渣</critSpentfuelonly>
+  <critAnyfuel>允許所有燃料</critAnyfuel>
+  <critProg>進度: {0}</critProg>
+  <critRemovePlutonium>加工完畢，取出材料</critRemovePlutonium>
   <critEnouPU>可再加工</critEnouPU>
-  <NoChemfuel>没有化合燃料</NoChemfuel>
+  <NoChemfuel>沒有化合燃料</NoChemfuel>
 
   <!--ENERGY WEAPONS-->
-
-  <RailgunBarrage>开火指令</RailgunBarrage>
-  <RailgunBarrageDesc>所有磁轨炮向同一区域开火</RailgunBarrageDesc>
-  <needsRadar>需要搭配警戒雷达</needsRadar>
-  <ICBMNeedMissile>需要装载导弹才能发射</ICBMNeedMissile>
-  <MissileRangeBad>目标不在射程范围内</MissileRangeBad>
-  <MissileTargetInvalid>导弹目标无效</MissileTargetInvalid>
+  <energyWepLoadedShell>已裝載: {0}</energyWepLoadedShell>
+  <RailgunBarrage>開火指令</RailgunBarrage>
+  <RailgunBarrageDesc>所有磁軌炮向同一區域開火</RailgunBarrageDesc>
+  <needsRadar>需要搭配警戒雷達</needsRadar>
+  <ICBMNeedMissile>需要裝載洲際彈道導彈才能發射</ICBMNeedMissile>
+  <ICBMAlreadyLaunching>已發射</ICBMAlreadyLaunching>
+  <MissileRangeBad>目標不在射程範圍內</MissileRangeBad>
+  <MissileTargetInvalid>導彈目標無效</MissileTargetInvalid>
   <ICBMNeedConsole>需要有人操作能量武器控制台</ICBMNeedConsole>
   <critrangeMinus>射程-</critrangeMinus>
   <critrangePlus>射程+</critrangePlus>
-  <critCommandLowerRangeDesc>脉冲能量强度随射程的减小而减小</critCommandLowerRangeDesc>
-  <critCommandRaiseRangeDesc>脉冲能量强度随射程的增大而增大</critCommandRaiseRangeDesc>
+  <critCommandLowerRangeDesc>脈衝能量強度隨射程的減小而減小</critCommandLowerRangeDesc>
+  <critCommandRaiseRangeDesc>脈衝能量強度隨射程的增大而增大</critCommandRaiseRangeDesc>
   <critdmgMinus>耗能-</critdmgMinus>
   <critdmgPlus>耗能+</critdmgPlus>
-  <critCommandLowerDmgDesc>脉冲能量强度随单发耗能的减小而减小</critCommandLowerDmgDesc>
-  <critCommandRaiseDmgDesc>脉冲能量强度随单发耗能的增大而增大</critCommandRaiseDmgDesc>
-  <critMissingPPC>需要搭配脉冲电池</critMissingPPC>
+  <critCommandLowerDmgDesc>脈衝能量強度隨單發耗能的減小而減小</critCommandLowerDmgDesc>
+  <critCommandRaiseDmgDesc>脈衝能量強度隨單發耗能的增大而增大</critCommandRaiseDmgDesc>
+  <critMissingPPC>需要搭配脈衝電池</critMissingPPC>
   <critNRGWEPPOOWA>耗能: {0} / 射程: {1}-{2}</critNRGWEPPOOWA>
-  <critNRGWEPPULSE>脉冲能量强度: {0} / 造成伤害: {1} / 射击距离: {2}</critNRGWEPPULSE>
-  <critCommandFireMission>开火指令</critCommandFireMission>
-  <critCommandFireMissionDesc>远程动能打击</critCommandFireMissionDesc>
-  <critCommandLaunchICBM>发射洲际弹道导弹</critCommandLaunchICBM>
-  <critCommandLaunchICBMDesc>瞄准目标发射洲际弹道导弹</critCommandLaunchICBMDesc>
-  <criticbmAttack>敌对派系{0}正在准备从附近的基地对你发动洲际弹道导弹打击，在发射前您还有{1}天的准备时间。</criticbmAttack>
-  <critMagazine>弹药: {0}</critMagazine>
-  <critNoSabotRounds>没有磁轨炮弹</critNoSabotRounds>
-  <critBombDet>核弹已引爆</critBombDet>
-  <critBombDetFac>核弹爆炸，{0}已被摧毁</critBombDetFac>
-  <critCountdown>倒计时: {0}</critCountdown>
+  <LastPulseSize>上一次脈衝強度: {0} Wd</LastPulseSize>
+  <critCommandFireMission>開火指令</critCommandFireMission>
+  <critCommandFireMissionDesc>遠程動能打擊</critCommandFireMissionDesc>
+  <critCommandLaunchICBM>發射洲際彈道導彈</critCommandLaunchICBM>
+  <critCommandLaunchICBMDesc>瞄準目標發射洲際彈道導彈</critCommandLaunchICBMDesc>
+  <criticbmAttack>敵對派系{0}正在準備從附近的基地對你發動洲際彈道導彈打擊，在發射前您還有{1}天的準備時間。</criticbmAttack>
+  <critMagazine>彈藥: {0}</critMagazine>
+  <critNoSabotRounds>沒有磁軌炮彈</critNoSabotRounds>
+  <critBombDet>核彈已引爆</critBombDet>
+  <critBombDetFac>核彈爆炸，{0}已被摧毀</critBombDetFac>
+  <SetCamoMode>保護色塗層</SetCamoMode>
+  <critCountdown>倒計時: {0}</critCountdown>
   <mp15>15m</mp15>
   <mm15>15m</mm15>
   <critArm>引爆</critArm>
-  <MessageRailgunNeedsMap>没有地图数据，需要派出殖民者侦察</MessageRailgunNeedsMap>
-  <MessageRailgunTargetInvalid>目标无效</MessageRailgunTargetInvalid>
-
+  <MessageRailgunNeedsMap>沒有地圖數據，需要派出殖民者偵察</MessageRailgunNeedsMap>
+  <MessageRailgunTargetInvalid>目標無效</MessageRailgunTargetInvalid>
+  <NextPart>下一步: 需要{0},{1}</NextPart>
+  <SiloFull>發射井已滿</SiloFull>
+  <SiloMagazine>導彈: {0}/{1}</SiloMagazine>
+  <ICBMReady>洲際彈道導彈已準備就緒。</ICBMReady>
   <!--REACTOR BUILDINGS-->
 
   <Managefuel>管控</Managefuel>
-  <NeedsRiver>需要放置在河流、湖泊或者海洋上。</NeedsRiver>
-  <RoofedTower>炮台被屋顶挡住了</RoofedTower>
-  <TurbineRPM>转速: {0} ({1}%)</TurbineRPM>
-  <TradeShipWait>边缘核能贸易船已在{0}处准备完毕</TradeShipWait>
-  <critsetid>设置ID</critsetid>
-  <critCoolingCapShare>所能维持冷却的限度: 限度: {0} / 涡轮机已使用: {1}</critCoolingCapShare>
-  <critinUse>已经在使用</critinUse>
-  <critremoveRadSuit>脱掉防辐射服</critremoveRadSuit>
+  <RoofedTower>炮台被屋頂擋住了</RoofedTower>
+  <TurbineRPM>轉速: {0} ({1}%)</TurbineRPM>
+  <TradeShipWait>邊緣核能貿易船已在{0}處準備完畢</TradeShipWait>
+  <critsetid>設置ID</critsetid>
+  <critCoolingCapShare>所能維持冷卻的限度: 限度: {0} / 渦輪機已使用: {1}</critCoolingCapShare>
 
-
-  <critCoreTemp>堆芯温度: {0}C</critCoreTemp>
+  <crackedRemoveNow>\n已破裂！立即撤離</crackedRemoveNow>
+  <critCoreTemp>堆芯溫度: {0}C</critCoreTemp>
   <critCoreEnergy>能量: {0}kW</critCoreEnergy>
-  <critCoreCooling>冷却: {0}</critCoreCooling>
+  <critCoreCooling>冷卻: {0}</critCoreCooling>
   <critCoreFlux>中子通量: {0}</critCoreFlux>
-  <critscramDesc>将温度和中子通量的降低到基本值，但保持堆芯运行。</critscramDesc>
-  <critStartup>启动</critStartup>
-  <critShutdown>关闭</critShutdown>
-  <critStartupDesc>启动堆芯，允许温度和中子通量上升。</critStartupDesc>
-  <critShutdownDesc>关闭堆芯，维持供电，使其冷却下来，以便加油和维修。</critShutdownDesc>
-  <critManageReactor>操控反应堆</critManageReactor>
-  <critreactorcritical>反应堆危险</critreactorcritical>
-  <critreactorleaking>反应堆泄漏</critreactorleaking>
-  <critreactionstable>反应器稳定</critreactionstable>
-  <critStorageCapacity>存储容量: {0} / {1}</critStorageCapacity>
-  <critManageStoragePool>管控存储池</critManageStoragePool>
-  <critGenerated>已发电量: {0} W</critGenerated>
-  <critConsumed>已消耗电量: {0} W</critConsumed>
-  <critPnetPct>电网负荷: {0}</critPnetPct>
-  <critPowerGeneration>发电: {0} W</critPowerGeneration>
-  <critValveOpen>阀门: 打开</critValveOpen>
-  <critValveClosed>阀门: 关闭</critValveClosed>
-  <critOpenValve>打开阀门</critOpenValve>
-  <critCloseValve>关闭阀门</critCloseValve>
-  <critToggleValve>开关阀门</critToggleValve>
-  <critTempBoost>温度上升</critTempBoost>
-  <critTemp>温度</critTemp>
-  <critCooling>冷却</critCooling>
-  <critTurbine>涡轮机</critTurbine>
+  <critscramDesc>將溫度和中子通量的降低到基本值，但保持堆芯運行。</critscramDesc>
+  <critStartup>啟動</critStartup>
+  <critShutdown>關閉</critShutdown>
+  <critStartupDesc>啟動堆芯，允許溫度和中子通量上升。</critStartupDesc>
+  <critShutdownDesc>關閉堆芯，維持供電，使其冷卻下來，以便加油和維修。</critShutdownDesc>
+  <critManageReactor>操控反應堆</critManageReactor>
+  <critreactorcritical>反應堆危險</critreactorcritical>
+  <critreactorleaking>反應堆泄漏</critreactorleaking>
+  <critreactionstable>反應器穩定</critreactionstable>
+  <critStorageCapacity>存儲容量: {0} / {1}</critStorageCapacity>
+  <critGenerated>已發電量: {0} W</critGenerated>
+  <critConsumed>已消耗電量: {0} W</critConsumed>
+  <critPnetPct>電網負荷: {0}</critPnetPct>
+  <critPowerGeneration>發電: {0} W</critPowerGeneration>
+  <critValveOpen>閥門: 打開</critValveOpen>
+  <critValveClosed>閥門: 關閉</critValveClosed>
+  <critOpenValve>打開閥門</critOpenValve>
+  <critCloseValve>關閉閥門</critCloseValve>
+  <critToggleValve>開關閥門</critToggleValve>
+  <critTempBoost>溫度上升</critTempBoost>
+  <critTemp>溫度</critTemp>
+  <critCooling>冷卻</critCooling>
+  <critTurbine>渦輪機</critTurbine>
   <critCoreIntegrity>堆芯完整性</critCoreIntegrity>
   <critNeutronFlux>中子通量</critNeutronFlux>
-  <critTargetFlux>目标通量</critTargetFlux>
-  <critFuelRemaining2>剩余燃料: {0}</critFuelRemaining2>
+  <critTargetFlux>目標通量</critTargetFlux>
+  <critFuelRemaining2>剩餘燃料: {0}</critFuelRemaining2>
   <Empty>清空</Empty>
   <Activated>激活</Activated>
   <Cracked>破裂</Cracked>
-  <Spent>废弃</Spent>
+  <Spent>廢棄</Spent>
   <New>新的</New>
   <Remove>清除</Remove>
-  <Store>贮存</Store>
+  <Store>貯存</Store>
 
 
 
-  <critNoreserveSuit>没有放入保险箱的防辐射服</critNoreserveSuit>
-  <critPlaceOnCore>必须放在熔化的堆芯上</critPlaceOnCore>
+  <critPlaceOnCore>必須建造在熔化的堆芯上</critPlaceOnCore>
+  <NeedsRiver>需要鄰近河流、湖泊或者海洋建造。</NeedsRiver>
   <critMoreWater>需要大量的水</critMoreWater>
-  <critActiveCore>堆芯依然在运行</critActiveCore>
+  <critActiveCore>堆芯依然在運行</critActiveCore>
   <critCrackedcore>堆芯破裂</critCrackedcore>
-  <critNoSlotDes>没有指定的插槽</critNoSlotDes>
-  <critnoFuelRods>没有燃料可用</critnoFuelRods>
-  <critNoSpace>没有空间</critNoSpace>
-  <critSpentOnly>单纯消耗燃料，没有产生效益</critSpentOnly>
-  <critNoPool>没有可用的存储池</critNoPool>
+  <critNoSlotDes>沒有指定的插槽</critNoSlotDes>
+  <critnoFuelRods>沒有燃料可用</critnoFuelRods>
+  <critNoSpace>沒有空間</critNoSpace>
+  <critSpentOnly>單純消耗燃料，沒有產生效益</critSpentOnly>
+  <critNoPool>沒有可用的存儲池</critNoPool>
 
-  <critCoreIntegrityDesc>这个堆芯损坏严重，可能会破裂。</critCoreIntegrityDesc>
+  <critCoreIntegrityDesc>這個堆芯損壞嚴重，可能會破裂。</critCoreIntegrityDesc>
 
 
-  <TradeShipPrice>呼叫贸易飞船（花费{0}白银）</TradeShipPrice>
-  <TradeShipPriceNeed>需要{0}白银支付呼叫贸易飞船的费用</TradeShipPriceNeed>
+  <TradeShipPrice>呼叫貿易飛船（花費{0}白銀）</TradeShipPrice>
+  <TradeShipPriceNeed>需要{0}白銀支付呼叫貿易飛船的費用</TradeShipPriceNeed>
 
-  <TradeShipReq>一艘“边缘核能”的贸易飞船已经被派往你所在的星球。\n\n它将需要花费两天时间到达。</TradeShipReq>
+  <TradeShipReq>一艘“邊緣核能”的貿易飛船已經被派往你所在的星球。\n\n它將需要花費兩天時間到達。</TradeShipReq>
+
+  <LowerPowerLimit>降低輸出功率上限</LowerPowerLimit>
+  <RaisePowerLimit>提高輸出功率上限</RaisePowerLimit>
+  <PowerLimitDesc>更改此變壓器的輸出功率上限，用於控制電力在不同電網的輸出量\n\n按住Shift以微調。</PowerLimitDesc>
+  <TrannyLimit>輸出功率上限: {0}kW</TrannyLimit>
+  <TurbinePower>渦輪機功率: {0}kW</TurbinePower>
+
 
   <!--WEAPONS CONSOLE-->
-
-
-  <TestFireHELSOnOwnShells>拍下我方的炮弹飞行轨迹以收集数据。</TestFireHELSOnOwnShells>
-  <OpenRadar>打开目标追踪界面</OpenRadar>
+  <TestFireHELSOnOwnShells>擊落我方的炮彈以收集數據。</TestFireHELSOnOwnShells>
+  <OpenRadar>打開目標追蹤界面</OpenRadar>
 
   <!--RESEARCH-->
-  <Free>免费</Free>
-  <Purchase>购买</Purchase>
-  <Price>价格</Price>
-  <Unlocks>解锁</Unlocks>
-  <openResearchPanel>打开研究面板</openResearchPanel>
+  <Free>免費</Free>
+  <Purchase>購買</Purchase>
+  <Price>價格</Price>
+  <Unlocks>解鎖</Unlocks>
+  <openResearchPanel>打開研究面板</openResearchPanel>
   <ResearchProg>{0}/{1}</ResearchProg>
-  <ResearchPriceNeed>需要在轨道贸易信标附近放置{0}白银</ResearchPriceNeed>
-  <RimUnlocked>检测到探测器。</RimUnlocked>
-  <RimatomicsResearchAlert>边缘核能研究项目</RimatomicsResearchAlert>
-  <RimatomicResearchAlertMess>研究项目: {0}\n进展: {1}\n任务: {2}</RimatomicResearchAlertMess>
-  <thingsUnlocked>解锁 - </thingsUnlocked>
-  <RimatomStepComplete>阶段目标达成</RimatomStepComplete>
+  <ResearchPriceNeed>需要在軌道貿易信標附近放置{0}白銀</ResearchPriceNeed>
+  <RimUnlocked>檢測到探測器。</RimUnlocked>
+  <RimatomicsResearchAlert>邊緣核能研究項目</RimatomicsResearchAlert>
+  <RimatomicResearchAlertMess>研究項目: {0}\n進展: {1}\n任務: {2}</RimatomicResearchAlertMess>
+  <thingsUnlocked>解鎖 - </thingsUnlocked>
+  <RimatomStepComplete>階段目標達成</RimatomStepComplete>
   <RequiresFac>需要: </RequiresFac>
-  <StepInspect>进展: {0}</StepInspect>
+  <StepInspect>進展: {0}</StepInspect>
   <ResearchComplete>研究完成</ResearchComplete>
-  <StillTestingDef>仍在测试样板</StillTestingDef>
+  <StillTestingDef>仍在測試樣板</StillTestingDef>
   <TabResearch>研究</TabResearch>
-  <CurProj>项目: {0}</CurProj>
-  <CurStep>进展: {0}</CurStep>
-  <SkillLevel>{0} 需要等级 {1} {2}</SkillLevel>
-  <StartProject>启动项目</StartProject>
-  <StopProject>终止项目</StopProject>
+  <CurProj>項目: {0}</CurProj>
+  <CurStep>進展: {0}</CurStep>
+  <SkillLevel>{0} 需要等級 {1} {2}</SkillLevel>
+  <StartProject>啟動項目</StartProject>
+  <StopProject>終止項目</StopProject>
 
-  <DesignatorRemoveColdWater>拆除冷水导管</DesignatorRemoveColdWater>
-  <DesignatorRemoveColdWaterDesc>拆除冷水导管。</DesignatorRemoveColdWaterDesc>
+  <DesignatorRemoveColdWater>拆除冷水導管</DesignatorRemoveColdWater>
+  <DesignatorRemoveColdWaterDesc>拆除冷水導管。</DesignatorRemoveColdWaterDesc>
 
-  <DesignatorRemoveCooling>拆除冷却剂导管</DesignatorRemoveCooling>
-  <DesignatorRemoveCoolingDesc>拆除冷却剂导管。</DesignatorRemoveCoolingDesc>
+  <DesignatorRemoveCooling>拆除冷卻劑導管</DesignatorRemoveCooling>
+  <DesignatorRemoveCoolingDesc>拆除冷卻劑導管。</DesignatorRemoveCoolingDesc>
 
-  <DesignatorRemoveHighVoltage>拆除高压电缆</DesignatorRemoveHighVoltage>
-  <DesignatorRemoveHighVoltageDesc>拆除高压电缆。</DesignatorRemoveHighVoltageDesc>
+  <DesignatorRemoveHighVoltage>拆除高壓電纜</DesignatorRemoveHighVoltage>
+  <DesignatorRemoveHighVoltageDesc>拆除高壓電纜。</DesignatorRemoveHighVoltageDesc>
 
-  <DesignatorRemoveLoom>拆除数据电缆</DesignatorRemoveLoom>
-  <DesignatorRemoveLoomDesc>拆除数据电缆。</DesignatorRemoveLoomDesc>
+  <DesignatorRemoveLoom>拆除數據電纜</DesignatorRemoveLoom>
+  <DesignatorRemoveLoomDesc>拆除數據電纜。</DesignatorRemoveLoomDesc>
 
-  <DesignatorRemoveSteam>拆除蒸汽导管</DesignatorRemoveSteam>
-  <DesignatorRemoveSteamDesc>拆除蒸汽导管</DesignatorRemoveSteamDesc>
+  <DesignatorRemoveSteam>拆除蒸汽導管</DesignatorRemoveSteam>
+  <DesignatorRemoveSteamDesc>拆除蒸汽導管</DesignatorRemoveSteamDesc>
 
-  <coreUpgradeFail>堆芯运行时不能升级</coreUpgradeFail>
-  <powerUpgradeFail>升级前必须关闭建筑物电源</powerUpgradeFail>
-
+  <coreUpgradeFail>堆芯運行時不能升級</coreUpgradeFail>
+  <powerUpgradeFail>升級前必須關閉建築物電源</powerUpgradeFail>
 
   <RimatomicResearchCompleteDialog>{0} - 完成\n\n{1}</RimatomicResearchCompleteDialog>
 
-
-
-
-  <!--UPGRADE STATS-->
-
-  <Conductors>通过提高核心的导热率，以提高15%的功率。</Conductors>
-  <NeutronReflectors>通过提高中子通量率上限，以提高25%的功率。</NeutronReflectors>
-  <Breeder>将热反应堆升级成增殖反应堆，能够使用更多的燃料。</Breeder>
-  <ReactorShielding>减少可能从反应堆泄漏的辐射量</ReactorShielding>
-  <ControlRodActuator>增加控制棒的调节能力</ControlRodActuator>
-
-  <ADSMEPS>影响区域范围 +10\n射程 +10\n\n最小耗能 +50wd\n最大耗能 +200wd</ADSMEPS>
-  <ADSALC>冷却时间 -1s</ADSALC>
-  <ADSERS>最小耗能 -50wd\n最大耗能 -200wd</ADSERS>
-  <ADSActuator>攻击速度 +100%</ADSActuator>
-
-  <TeslaMEPS>射程 +10\n\n最小耗能 +50wd\n最大耗能 +200wd</TeslaMEPS>
-  <TeslaALC>冷却时间 -10s</TeslaALC>
-  <TeslaERS>最小耗能 -50wd\n最大耗能 -200wd</TeslaERS>
-
-  <HELMEPS>击落时间 -50%\n\n冷却时间 +2.5s\n最小耗能 +500wd\n最大耗能 +1000wd</HELMEPS>
-  <HELALC>冷却时间 -2.5s</HELALC>
-  <HELERS>最小耗能 -250wd\n最大耗能 -500wd</HELERS>
-  <HELActuator>攻击速度 +100%</HELActuator>
-
-  <RailgunMEPS>射程 +10 地图格\n\n冷却时间 +5s\n最小耗能 +500wd\n最大耗能 +1000wd</RailgunMEPS>
-  <RailgunALC>冷却时间 -10s</RailgunALC>
-  <RailgunERS>最小耗能 -250wd\n最大耗能 -500wd</RailgunERS>
-  <RailgunActuator>攻击速度 +100%</RailgunActuator>
-  <RailgunTargetChip>偏差 -10\n射程 +10 地图格</RailgunTargetChip>
-
-  <ObeliskMEPS>最大伤害 +40\n最小伤害 +10\n\n最小耗能 +500wd\n最大耗能 +2000wd</ObeliskMEPS>
-  <ObeliskALC>冷却时间 -10s</ObeliskALC>
-  <ObeliskERS>最小耗能 -500wd\n最大耗能 -2000wd</ObeliskERS>
-  <ObeliskLenseModule>最大射程 +15\n最小射程 +3</ObeliskLenseModule>
-  <ObeliskBeamSplitter>击破护盾的同时仍然造成伤害</ObeliskBeamSplitter>
-
-  <RimUnlockedDesc>你连接上了探测器，通讯已开启。\n\n一个使用变音器的的仿生学推销者声称他正代表一个名为为“边缘核能”的交易方\n\n他将推销数据传送到控制台并解释说，这些是构建边缘核能研究台的蓝图，您可以使用它来购买某些技术或请求交易。\n\n请查看建筑规划菜单中的核能选项卡。</RimUnlockedDesc>
-  <RimatomicsUpdate>更新！\n\n“边缘核能”系列研究项目将不会在出现在原版研究标签中，因此将兼容研究项目排序MOD。\n\n不兼容此MOD上一版本的存档，你的研究将被全部重置。\n\n很抱歉给您带来不便。</RimatomicsUpdate>
-
-  <!--<critSetLockerOwner>设置所有者</critSetLockerOwner>-->
-  <!--<critSetLockerOwnerDesc>设置此储物柜的所有者</critSetLockerOwnerDesc>-->
-  <!--<StepResearchRequiredBuilding></StepResearchRequiredBuilding>-->
-  <!--<StepResearchRequiredBuildingDesc></StepResearchRequiredBuildingDesc>-->
-  <!--<StepReaserchRequiredResearch>需要研究</StepReaserchRequiredResearch>-->
-  <!--<StepReaserchRequiredResearchDesc>必须完成以下研究，才能进行下一步研究。</StepReaserchRequiredResearchDesc>-->
-  <!--<ChipBuildProto>构建{0}的样板。</ChipBuildProto>-->
-  <!--<ChipBuildProtoDesc>构建{0}的样板。一次只能构建1个样板，其能力有限。</ChipBuildProtoDesc>-->
-  <!--<ChipDescDisc>您现在可以通过为此设备购买边缘核能升级数据库来进行升级以进一步提高性能。以下殖民者参与了这个项目：\n\n</ChipDescDisc>-->
-  <!--<ResearchPrice>花费{0}白银购买</ResearchPrice>-->
-  <!--<StepDataGathering>从样板收集数据。</StepDataGathering>-->
-  <!--<StepDataGatherProtoWeaponDesc>使用样板{0}在任何有效的目标上收集数据。</StepDataGatherProtoWeaponDesc>-->
-  <!--<ChipUpgradeDescDisc>升级项目已完成，您现在可以升级此类型的所有建筑物。</ChipUpgradeDescDisc>-->
-  <!--<CrackedletterLabel>堆芯已破裂</CrackedletterLabel>-->
-  <!--<CrackedletterText>长时间在高温压力下运行导致堆芯破裂，需要解构和重建，否则将会持续发射致命的辐射，产生较少的电力并损坏燃料棒。</CrackedletterText>-->
+  <TradeShipCooldown>貿易飛船冷卻時間: {0}</TradeShipCooldown>
+  <TradeShipArrival>貿易飛船到達: {0}</TradeShipArrival>
+  <rimatomicsProto>原型</rimatomicsProto>
+  <!--<critNRGWEPPULSE>脉冲能量强度: {0} / 造成伤害: {1} / 射击距离: {2}</critNRGWEPPULSE>-->
+  <!--<critinUse>已经在使用</critinUse>-->
+  <!--<critremoveRadSuit>脱掉防辐射服</critremoveRadSuit>-->
+  <!--<critManageStoragePool>管控存储池</critManageStoragePool>-->
+  <!--<critNoreserveSuit>没有放入保险箱的防辐射服</critNoreserveSuit>-->
 
 </LanguageData>

@@ -1,10 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <MakeSabotDU.label>制作磁轨炮弹(贫铀弹丸)</MakeSabotDU.label>
-  <MakeSabotDU.description>使用贫铀制作磁轨炮弹。</MakeSabotDU.description>
-  <MakeSabotDU.jobString>正在制作磁轨炮弹。</MakeSabotDU.jobString>
-
   <SmeltBlades.label>熔炼涡轮叶片</SmeltBlades.label>
   <SmeltBlades.description>利用高温和强电磁场将涡轮叶片熔炼成有用的资源。</SmeltBlades.description>
   <SmeltBlades.jobString>正在熔炼涡轮叶片。</SmeltBlades.jobString>
@@ -17,12 +13,5 @@
   <MakeMoxFuelRods.description>制作混合氧化物核燃料棒。</MakeMoxFuelRods.description>
   <MakeMoxFuelRods.jobString>制作混合氧化物核燃料棒。</MakeMoxFuelRods.jobString>
 
-
-  <!--<MakeTurbineBlades.label>制作涡轮叶片</MakeTurbineBlades.label>-->
-  <!--<MakeTurbineBlades.description>制作涡轮叶片x5。</MakeTurbineBlades.description>-->
-  <!--<MakeTurbineBlades.jobString>正在制作涡轮叶片。</MakeTurbineBlades.jobString>-->
-  <!--<MakeSabotSteel.label>制作磁轨炮弹「铁弹丸」</MakeSabotSteel.label>-->
-  <!--<MakeSabotSteel.description>使用钢铁制作磁轨炮弹。</MakeSabotSteel.description>-->
-  <!--<MakeSabotSteel.jobString>正在制作磁轨炮弹。</MakeSabotSteel.jobString>-->
 
 </LanguageData>

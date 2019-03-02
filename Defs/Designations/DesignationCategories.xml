@@ -2,7 +2,7 @@
 <Defs>
 
   <DesignationCategoryDef>
-    <DefName>Rimatomics</DefName>
+    <defName>Rimatomics</defName>
     <label>Rimatomics</label>
     <description>All Rimatomics buildings</description>
     <order>15</order>

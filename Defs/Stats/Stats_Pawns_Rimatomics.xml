@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<StatDefs>
+<Defs>
 
   <StatDef>
     <defName>Radiation</defName>
@@ -11,7 +11,7 @@
     <toStringStyle>PercentZero</toStringStyle>
     <displayPriorityInCategory>75</displayPriorityInCategory>
   </StatDef>
-
+  
   <StatDef>
     <defName>CraftingResearchSpeed</defName>
     <label>Crafting research speed</label>
@@ -25,8 +25,8 @@
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Crafting</skill>
-        <baseFactor>0.1</baseFactor>
-        <bonusFactor>0.15</bonusFactor>
+        <baseValue>0.1</baseValue>
+        <bonusPerLevel>0.15</bonusPerLevel>
       </li>
     </skillNeedFactors>
     <capacityFactors>
@@ -56,9 +56,9 @@
     <skillNeedFactors>
       <li Class="SkillNeed_BaseBonus">
         <skill>Construction</skill>
-        <baseFactor>0.1</baseFactor>
-        <bonusFactor>0.15</bonusFactor>
-      </li>
+        <baseValue>0.1</baseValue>
+        <bonusPerLevel>0.15</bonusPerLevel>     
+    </li>
     </skillNeedFactors>
     <capacityFactors>
       <li>
@@ -73,4 +73,4 @@
       </li>
     </capacityFactors>
   </StatDef>
-</StatDefs>
+</Defs>

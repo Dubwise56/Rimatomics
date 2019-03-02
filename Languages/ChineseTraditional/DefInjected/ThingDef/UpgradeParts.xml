@@ -12,9 +12,6 @@
   <ControlRodActuator.label>控制棒傳動器</ControlRodActuator.label>
   <ControlRodActuator.description>核反應堆的升級組件。</ControlRodActuator.description>
 
-  <BreederComponents.label>增殖反應堆組件</BreederComponents.label>
-  <BreederComponents.description>核反應堆的升級組件。</BreederComponents.description>
-
   <NeutronReflectors.label>中子反射層</NeutronReflectors.label>
   <NeutronReflectors.description>核反應堆的升級組件。</NeutronReflectors.description>
 
@@ -34,10 +31,10 @@
   <TargetingChip.description>磁軌炮的升級組件。</TargetingChip.description>
 
   <BeamSplitter.label>電子束分裂器</BeamSplitter.label>
-  <BeamSplitter.description>光棱塔的升級組件。</BeamSplitter.description>
+  <BeamSplitter.description>光稜塔的升級組件。</BeamSplitter.description>
 
   <LenseModule.label>稜鏡模塊</LenseModule.label>
-  <LenseModule.description>光棱塔的升級組件。</LenseModule.description>
+  <LenseModule.description>光稜塔的升級組件。</LenseModule.description>
 
 
 </LanguageData>

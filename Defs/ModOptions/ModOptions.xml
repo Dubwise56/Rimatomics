@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <Rimatomics.DubsModOptions>
+    <defName>FuelBurnRate</defName>
+    <label>Fuel Burn Rate</label>
+    <options>
+      <li>
+        <label>Cheat</label>
+        <value>0</value>
+      </li>
+      <li>
+        <label>25%</label>
+        <value>0.25</value>
+      </li>
+      <li>
+        <label>50%</label>
+        <value>0.5</value>
+      </li>
+      <li>
+        <label>75%</label>
+        <value>0.75</value>
+      </li>
+      <li>
+        <label>100%</label>
+        <value>1</value>
+      </li>
+    </options>
+  </Rimatomics.DubsModOptions>
+
+</Defs>

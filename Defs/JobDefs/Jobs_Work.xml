@@ -4,14 +4,8 @@
   <JobDef>
     <defName>RimatomicsResearch</defName>
     <driverClass>Rimatomics.JobDriver_RimatomicsResearch</driverClass>
-    <reportString>Reaserching at TargetA.</reportString>
+    <reportString>Researching at TargetA.</reportString>
   </JobDef>
-  
-  <!--<JobDef>
-    <defName>OpenResearchConsole</defName>
-    <driverClass>Rimatomics.JobDriver_OpenResearchConsole</driverClass>
-    <reportString>Loading TargetA.</reportString>
-  </JobDef>-->
   
   <JobDef>
     <defName>UpgradeBuilding</defName>
@@ -26,45 +20,27 @@
   </JobDef>
 
   <JobDef>
-		<defName>OperateValve</defName>
-		<driverClass>Rimatomics.JobDriver_OperateValve</driverClass>
-		<reportString>Operating TargetA.</reportString>
-	</JobDef>
-
-	<JobDef>
-		<defName>FlickReactorConsole</defName>
-		<driverClass>Rimatomics.JobDriver_FlickReactorConsole</driverClass>
-		<reportString>Flicking TargetA.</reportString>
-	</JobDef>
-
-  <JobDef>
     <defName>LoadRailgunMagazine</defName>
     <driverClass>Rimatomics.JobDriver_LoadMagazine</driverClass>
-    <reportString>Loading TargetA magazine.</reportString>
+    <reportString>Loading railgun magazine.</reportString>
+  </JobDef>
+
+  <JobDef>
+    <defName>LoadSilo</defName>
+    <driverClass>Rimatomics.JobDriver_LoadSilo</driverClass>
+    <reportString>Loading Silo.</reportString>
   </JobDef>
 
   <JobDef>
     <defName>UseReactorConsole</defName>
     <driverClass>Rimatomics.JobDriver_UseReactorConsole</driverClass>
-    <reportString>using TargetA.</reportString>
+    <reportString>Using reactor console.</reportString>
   </JobDef>
-  
-	<!--<JobDef>
-		<defName>RemoveRadsuit</defName>
-		<driverClass>Rimatomics.JobDriver_RemoveRadsuit</driverClass>
-		<reportString>removing radiation suit at TargetA.</reportString>
-	</JobDef>
-	
-	<JobDef>
-		<defName>LoadLocker</defName>
-		<driverClass>Rimatomics.JobDriver_LoadLocker</driverClass>
-		<reportString>hauling TargetB to TargetA.</reportString>
-	</JobDef>-->
-	
+
 	<JobDef>
 		<defName>HaulModuletoCore</defName>
 		<driverClass>Rimatomics.JobDriver_LoadFuelModule</driverClass>
-		<reportString>hauling TargetB to TargetA.</reportString>
+		<reportString>Hauling TargetB to TargetA.</reportString>
 	</JobDef>
 
 	<JobDef>
@@ -88,7 +64,7 @@
 	<JobDef>
 		<defName>RepairCore</defName>
 		<driverClass>Rimatomics.JobDriver_RepairCore</driverClass>
-		<reportString>repairing TargetA.</reportString>
+		<reportString>repairing reactor.</reportString>
 	</JobDef>
   
 </Defs>

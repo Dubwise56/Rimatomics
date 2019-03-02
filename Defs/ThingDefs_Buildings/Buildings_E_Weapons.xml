@@ -24,7 +24,7 @@
     <graphicData>
       <texPath>Things/RimatomicsBuildings/PPC</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(4,6)</drawSize>
+      <drawSize>(3,5)</drawSize>
     </graphicData>
     <size>(2,4)</size>
     <fillPercent>0.60</fillPercent>
@@ -36,7 +36,6 @@
       <Beauty>-18</Beauty>
     </statBases>
     <building>
-      <ignoreNeedsPower>true</ignoreNeedsPower>
       <ai_combatDangerous>true</ai_combatDangerous>
     </building>
     <costList>
@@ -52,26 +51,26 @@
       </li>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
-    <designationHotkey>Misc4</designationHotkey>
     <rimatomicsPrerequisites>
       <li>EnergyWeapons6</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
 
   <ThingDef ParentName="BasedWeapon">
     <defName>PPCWeaponsConsole</defName>
     <label>Weapons Console</label>
     <description>A manned target acquisition computer required by all energy weapons</description>
-    <size>(5,2)</size>
     <thingClass>Rimatomics.WeaponsConsole</thingClass>
     <graphicData>
       <texPath>Things/RimatomicsBuildings/WarRoom</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(7,4)</drawSize>
+      <drawSize>(6,3)</drawSize>
     </graphicData>
-    <DrawGUIOverlay>True</DrawGUIOverlay>
+    <drawGUIOverlay>True</drawGUIOverlay>
     <fillPercent>1</fillPercent>
+    <size>(5,2)</size>
     <statBases>
       <MaxHitPoints>250</MaxHitPoints>
       <WorkToBuild>9800</WorkToBuild>
@@ -82,7 +81,7 @@
     <rotatable>true</rotatable>
     <costList>
       <Steel>250</Steel>
-      <Component>16</Component>
+      <Component>6</Component>
     </costList>
     <comps>
       <li Class="CompProperties_Mannable">
@@ -99,21 +98,22 @@
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
     </building>
-    <designationHotkey>Misc6</designationHotkey>
     <rimatomicsPrerequisites>
       <li>EnergyWeapons4</li>
+      <li>ICBM3</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
 
   <ThingDef ParentName="BasedWeapon">
     <defName>RadarDish</defName>
-    <label>Target Acquisition System</label>
-    <description>The Target Acquisition System uses a combination of technologies to track land and air based targets</description>
+    <label>TACS</label>
+    <description>The Target Acquisition and Communication System uses a combination of technologies to track land and air based targets and communicate with weapon systems.</description>
     <thingClass>Rimatomics.Building_Radar</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/LaWSbase</texPath>
+      <texPath>Things/RimatomicsBuildings/WeaponBase</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(5,5)</drawSize>
+      <drawSize>(3,3)</drawSize>
     </graphicData>
     <uiIconPath>UI/Radar</uiIconPath>
     <rotatable>false</rotatable>
@@ -140,7 +140,7 @@
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <building>
-      <turretTopgraphicPath>Things/RimatomicsBuildings/RadarDish</turretTopgraphicPath>
+      <turretTopGraphicPath>Things/RimatomicsBuildings/RadarDish</turretTopGraphicPath>
     </building>
     <designationHotKey>Misc2</designationHotKey>
     <placeWorkers>
@@ -149,7 +149,9 @@
     </placeWorkers>
     <rimatomicsPrerequisites>
       <li>EnergyWeapons5</li>
+      <li>ICBM4</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
 
   <ThingDef ParentName="BasedWeapon">
@@ -158,14 +160,14 @@
     <description>The ADS (Active Denial System) is a directed energy weapon that uses microwaves to burn groups of enemies forcing them to flee, Requires a weapons console and a PPC for power.</description>
     <thingClass>Rimatomics.Building_ADS</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/ADSbase</texPath>
+      <texPath>Things/RimatomicsBuildings/WeaponBase</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(5,5)</drawSize>
+      <drawSize>(3,3)</drawSize>
     </graphicData>
     <uiIconPath>UI/ADS</uiIconPath>
     <rotatable>false</rotatable>
     <statBases>
-      <MaxHitPoints>180</MaxHitPoints>
+      <MaxHitPoints>300</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToBuild>2500</WorkToBuild>
       <Mass>100</Mass>
@@ -178,19 +180,45 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li Class="Rimatomics.CompProperties_Upgradable"/>
+      <li Class="Rimatomics.CompProperties_Upgradable">
+        <upgrades>
+          <li>
+            <project>ResearchMEPS</project>
+            <stats>
+              <li>Area of effect +10</li>
+              <li>Range +10</li>
+              <li>Power +50%</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchALC</project>
+            <stats>
+              <li>Cooldown -1s</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchERS</project>
+            <stats>
+              <li>Power -50%</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchDriveActuator</project>
+          </li>
+        </upgrades>
+      </li>
     </comps>
     <size>(3,3)</size>
     <fillPercent>0.4</fillPercent>
     <costList>
       <Steel>600</Steel>
-      <Component>13</Component>
+      <Component>5</Component>
     </costList>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <specialDisplayRadius>24</specialDisplayRadius>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
-      <turretTopgraphicPath>Things/RimatomicsBuildings/ADSdish</turretTopgraphicPath>
+      <turretTopGraphicPath>Things/RimatomicsBuildings/ADSdish</turretTopGraphicPath>
     </building>
     <designationHotKey>Misc2</designationHotKey>
     <placeWorkers>
@@ -199,6 +227,7 @@
     <rimatomicsPrerequisites>
       <li>ADS3</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
   </ThingDef>
 
   <ThingDef ParentName="BasedWeapon">
@@ -209,13 +238,13 @@
     <graphicData>
       <texPath>Things/RimatomicsBuildings/teslaCoil</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(5,5)</drawSize>
+      <drawSize>(4,4)</drawSize>
     </graphicData>
     <size>(3,3)</size>
     <fillPercent>0.4</fillPercent>
     <rotatable>false</rotatable>
     <statBases>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>250</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToBuild>2500</WorkToBuild>
       <Mass>100</Mass>
@@ -224,15 +253,38 @@
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>175</basePowerConsumption>
+        <basePowerConsumption>75</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li Class="Rimatomics.CompProperties_Upgradable"/>
+      <li Class="Rimatomics.CompProperties_Upgradable">
+        <upgrades>
+          <li>
+            <project>ResearchMEPS</project>
+            <stats>
+              <li>Damage +15</li>
+              <li>Range +10</li>
+              <li>Power +50%</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchALC</project>
+            <stats>
+              <li>Cooldown -10s</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchERS</project>
+            <stats>
+              <li>Power -50%</li>
+            </stats>
+          </li>
+        </upgrades>
+      </li>
     </comps>
     <costList>
-      <Steel>300</Steel>
-      <Component>9</Component>
+      <Steel>175</Steel>
+      <Component>3</Component>
     </costList>
     <specialDisplayRadius>14.9</specialDisplayRadius>
     <building>
@@ -246,6 +298,7 @@
     <rimatomicsPrerequisites>
       <li>TeslaCoil3</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
   </ThingDef>
 
 
@@ -256,14 +309,14 @@
     <description>The HEL (High Energy Laser) is a weapon that uses a laser to destroy incoming airborne projectiles. Requires a weapons console and a PPC for power.</description>
     <thingClass>Rimatomics.Building_HEL</thingClass>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/LaWSbase</texPath>
+      <texPath>Things/RimatomicsBuildings/WeaponBase</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(5,5)</drawSize>
+      <drawSize>(4,4)</drawSize>
     </graphicData>
     <uiIconPath>UI/HEL</uiIconPath>
     <drawOffscreen>true</drawOffscreen>
     <rotatable>false</rotatable>
-    <size>(3,3)</size>
+    <size>(4,4)</size>
     <fillPercent>0.4</fillPercent>
     <specialDisplayRadius>55</specialDisplayRadius>
     <comps>
@@ -273,10 +326,36 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li Class="Rimatomics.CompProperties_Upgradable"/>
+      <li Class="Rimatomics.CompProperties_Upgradable">
+        <upgrades>
+          <li>
+            <project>ResearchMEPS</project>
+            <stats>
+              <li>Shootdown time -50%</li>
+              <li>Cooldown +2.5s</li>
+              <li>Power +50%</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchALC</project>
+            <stats>
+              <li>Cooldown -2.5s</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchERS</project>
+            <stats>
+              <li>Power -50%</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchDriveActuator</project>
+          </li>
+        </upgrades>
+      </li>
     </comps>
     <statBases>
-      <MaxHitPoints>180</MaxHitPoints>
+      <MaxHitPoints>200</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToBuild>2700</WorkToBuild>
       <Mass>200</Mass>
@@ -284,7 +363,7 @@
     </statBases>
     <building>
       <ai_combatDangerous>true</ai_combatDangerous>
-      <turretTopgraphicPath>Things/RimatomicsBuildings/LaWStop</turretTopgraphicPath>
+      <turretTopGraphicPath>Things/RimatomicsBuildings/LaWStop</turretTopGraphicPath>
     </building>
     <placeWorkers>
       <li>PlaceWorker_NotUnderRoof</li>
@@ -292,31 +371,33 @@
     </placeWorkers>
     <costList>
       <Steel>650</Steel>
-      <Component>19</Component>
+      <Component>8</Component>
     </costList>
     <designationHotKey>Misc3</designationHotKey>
     <rimatomicsPrerequisites>
       <li>HEL3</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>12</constructionSkillPrerequisite>
+
   </ThingDef>
 
-  <ThingDef ParentName="BasedWeapon">
-    <defName>PPCRailgun</defName>
-    <label>Railgun</label>
-    <description>A weapon that uses a large electromagnetic pulse to launch a projectile to extreme ranges. Requires a weapons console and a PPC for power.</description>
-    <thingClass>Rimatomics.Building_Railgun</thingClass>
-    <graphicData>
-      <texPath>Things/RimatomicsBuildings/RailgunBase</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(4,4)</drawSize>
-      <damageData>
-        <rect>(0.38,0.2,0.56375,0.8)</rect>
-        <cornerTL>Damage/Corner</cornerTL>
-      </damageData>
-    </graphicData>
-    <rotatable>true</rotatable>
+
+
+
+  <ThingDef Name="BaseRailgunBuilding" ParentName="BasedWeapon" Abstract="True">
+    <altitudeLayer>Building</altitudeLayer>
+    <stealable>false</stealable>
     <size>(4,4)</size>
-    <fillPercent>0.9</fillPercent>
+    <passability>PassThroughOnly</passability>
+    <pathCost>50</pathCost>
+    <fillPercent>0.4</fillPercent>
+    <castEdgeShadows>true</castEdgeShadows>
+    <tickerType>Normal</tickerType>
+    <specialDisplayRadius>55</specialDisplayRadius>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <inspectorTabs>
+      <li>Rimatomics.ITab_ShellsRailgun</li>
+    </inspectorTabs>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
@@ -324,25 +405,46 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li Class="Rimatomics.CompProperties_Upgradable"/>
+      <li Class="Rimatomics.CompProperties_Upgradable">
+        <upgrades>
+          <li>
+            <project>ResearchMEPS</project>
+            <stats>
+              <li>Cooldown +5s</li>
+              <li>Range +10 Tiles</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchALC</project>
+            <stats>
+              <li>Cooldown -10s</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchERS</project>
+            <stats>
+              <li>Power -25%</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchRailgun_TargetingChip</project>
+          </li>
+          <li>
+            <project>ResearchDriveActuator</project>
+          </li>
+        </upgrades>
+      </li>
     </comps>
-    <specialDisplayRadius>55</specialDisplayRadius>
     <statBases>
       <MaxHitPoints>480</MaxHitPoints>
       <Flammability>1.0</Flammability>
-      <WorkToBuild>2700</WorkToBuild>
-      <Mass>200</Mass>
-      <Beauty>-60</Beauty>
+      <WorkToBuild>2900</WorkToBuild>
+      <Mass>100</Mass>
+      <Beauty>-20</Beauty>
     </statBases>
     <building>
-      <turretShellDef>RailgunSabot</turretShellDef>
-      <turretBurstwarmupTime>5.0</turretBurstwarmupTime>
-      <turretBurstCooldownTime>35.0</turretBurstCooldownTime>
-      <buildingTags>
-        <li>Artillery</li>
-      </buildingTags>
-      <turretGunDef>Artillery_PPCRailgun</turretGunDef>
-      <turretTopgraphicPath>Things/RimatomicsBuildings/Railgun_Top</turretTopgraphicPath>
+      <turretBurstWarmupTime>4.0</turretBurstWarmupTime>
+      <turretBurstCooldownTime>28.0</turretBurstCooldownTime>
     </building>
     <placeWorkers>
       <li>PlaceWorker_NotUnderRoof</li>
@@ -350,86 +452,108 @@
     </placeWorkers>
     <costList>
       <Steel>650</Steel>
-      <Component>19</Component>
+      <Component>10</Component>
     </costList>
-    <designationHotKey>Misc3</designationHotKey>
     <uiIconPath>UI/Railgun</uiIconPath>
     <rimatomicsPrerequisites>
       <li>Railgun3</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>15</constructionSkillPrerequisite>
   </ThingDef>
 
-  <ThingDef>
-    <defName>Artillery_PPCRailgun</defName>
-    <label>explosive mortar</label>
-    <description>Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</description>
+  <ThingDef Name="BaseRailgunWeapon" Abstract="True">
     <category>Item</category>
     <thingClass>ThingWithComps</thingClass>
+    <label>artillery error</label>
+    <useHitPoints>false</useHitPoints>
     <equipmentType>Primary</equipmentType>
     <tickerType>Never</tickerType>
     <techLevel>Industrial</techLevel>
     <destroyOnDrop>True</destroyOnDrop>
+    <rotatable>false</rotatable>
+    <canBeSpawningInventory>false</canBeSpawningInventory>
     <menuHidden>True</menuHidden>
     <tradeability>Never</tradeability>
-    <weaponTags>
-      <li>Artillery</li>
-    </weaponTags>
     <comps>
       <li>
         <compClass>CompEquippable</compClass>
       </li>
+      <li Class="CompProperties_ChangeableProjectile" />
     </comps>
+    <building>
+      <fixedStorageSettings>
+        <filter>
+          <categories>
+            <li>SabotRounds</li>
+          </categories>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <filter>
+          <categories>
+            <li>SabotRounds</li>
+          </categories>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+  </ThingDef>
+
+
+
+
+  <ThingDef ParentName="BaseRailgunBuilding">
+    <defName>PPCRailgun</defName>
+    <label>Railgun</label>
+    <description>A weapon that uses a large electromagnetic pulse to launch a projectile to extreme ranges. Requires a weapons console and a PPC for power.</description>
+    <thingClass>Rimatomics.Building_Railgun</thingClass>
+    <graphicData>
+      <texPath>Things/RimatomicsBuildings/WeaponBase</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(4,4)</drawSize>
+      <damageData>
+        <rect>(0.38,0.2,0.56375,0.8)</rect>
+        <cornerTL>Damage/Corner</cornerTL>
+      </damageData>
+    </graphicData>
+    <designationHotKey>Misc3</designationHotKey>
+    <building>
+      <turretGunDef>Railgun_Cannon</turretGunDef>
+      <turretTopGraphicPath>Things/RimatomicsBuildings/Railgun_Top</turretTopGraphicPath>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="BaseRailgunWeapon">
+    <defName>Railgun_Cannon</defName>
+    <label>mortar</label>
+    <description>Mortar launcher. Lobs bombs over walls. Very inaccurate but long-ranged.</description>
+    <weaponTags>
+      <li>TurretGun</li>
+    </weaponTags>
     <verbs>
       <li>
         <verbClass>Verb_Shoot</verbClass>
         <forceNormalTimeSpeed>false</forceNormalTimeSpeed>
         <hasStandardCommand>true</hasStandardCommand>
-        <projectileDef>Bullet_PPCRailgun</projectileDef>
-        <forcedMissRadius>6</forcedMissRadius>
         <warmupTime>5.8</warmupTime>
-        <minRange>30</minRange>
+        <forcedMissRadius>6</forcedMissRadius>
+        <requireLineOfSight>false</requireLineOfSight>
+        <minRange>55</minRange>
         <range>500</range>
         <burstShotCount>1</burstShotCount>
-        <soundCast>Mortar_LaunchA</soundCast>
+        <soundCast>railgunDischarge</soundCast>
         <muzzleFlashScale>24</muzzleFlashScale>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
       </li>
     </verbs>
   </ThingDef>
 
-  <ThingDef Name="BaseSabot" Abstract="True">
-    <category>Projectile</category>
-    <tickerType>Normal</tickerType>
-    <altitudeLayer>Projectile</altitudeLayer>
-    <thingClass>Bullet</thingClass>
-    <label>bullet</label>
-    <useHitPoints>False</useHitPoints>
-    <neverMultiSelect>True</neverMultiSelect>
-    <graphicData>
-      <shaderType>Transparent</shaderType>
-    </graphicData>
-  </ThingDef>
 
-  <ThingDef ParentName="BaseSabot">
-    <defName>Bullet_PPCRailgun</defName>
-    <label>explosive mortar shell</label>
-    <graphicData>
-      <texPath>Things/Resources/SabotRound</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <thingClass>Projectile_Explosive</thingClass>
-    <projectile>
-      <damageDef>Bomb</damageDef>
-      <damageAmountBase>60</damageAmountBase>
-      <speed>150</speed>
-      <explosionRadius>6.5</explosionRadius>
-      <flyOverhead>true</flyOverhead>
-      <soundHitThickRoof>ArtilleryHitThickRoof</soundHitThickRoof>
-      <soundExplode>MortarBomb_Explode</soundExplode>
-      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
-      <soundAmbient>MortarRound_Ambient</soundAmbient>
-    </projectile>
-  </ThingDef>
+
+
+
+
 
   <ThingDef ParentName="BasedWeapon">
     <defName>PPCObelisk</defName>
@@ -446,7 +570,7 @@
     <drawOffscreen>true</drawOffscreen>
     <rotatable>true</rotatable>
     <statBases>
-      <MaxHitPoints>280</MaxHitPoints>
+      <MaxHitPoints>420</MaxHitPoints>
       <Flammability>1.0</Flammability>
       <WorkToBuild>2500</WorkToBuild>
       <Mass>100</Mass>
@@ -459,12 +583,40 @@
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
-      <li Class="Rimatomics.CompProperties_Upgradable"/>
+      <li Class="Rimatomics.CompProperties_Upgradable">
+        <upgrades>
+          <li>
+            <project>ResearchMEPS</project>
+            <stats>
+              <li>Damage +50%</li>
+              <li>Power +50%</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchALC</project>
+            <stats>
+              <li>Cooldown -10s</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchERS</project>
+            <stats>
+              <li>Power -50%</li>
+            </stats>
+          </li>
+          <li>
+            <project>ResearchObelisk_LenseModule</project>
+          </li>
+          <li>
+            <project>ResearchObelisk_BeamSplitter</project>
+          </li>
+        </upgrades>
+      </li>
     </comps>
     <costStuffCount>75</costStuffCount>
     <costList>
       <Steel>600</Steel>
-      <Component>13</Component>
+      <Component>12</Component>
     </costList>
     <specialDisplayRadius>40</specialDisplayRadius>
     <building>
@@ -477,116 +629,12 @@
     <rimatomicsPrerequisites>
       <li>Obelisk3</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>18</constructionSkillPrerequisite>
   </ThingDef>
 
   <!-- ICBM -->
 
-  <ThingDef Name="BaseMissile" Abstract="True" ParentName="BasedMom">
-    <tickerType>Normal</tickerType>
-    <rotatable>false</rotatable>
-    <altitudeLayer>Weather</altitudeLayer>
-    <passability>Standable</passability>
-    <iconDrawScale>1</iconDrawScale>
-    <statBases>
-      <MaxHitPoints>75</MaxHitPoints>
-      <WorkToBuild>25000</WorkToBuild>
-      <Flammability>0</Flammability>
-    </statBases>
-    <building>
-      <isEdifice>false</isEdifice>
-    </building>
-    <placeWorkers>
-      <li>Rimatomics.PlaceWorker_NeedsPad</li>
-      <li>PlaceWorker_NotUnderRoof</li>
-    </placeWorkers>
-    <comps>
-      <li Class="CompProperties_Explosive">
-        <explosiveRadius>8.9</explosiveRadius>
-        <explosiveDamageType>Flame</explosiveDamageType>
-        <chanceNeverExplodeFromDamage>0</chanceNeverExplodeFromDamage>
-      </li>
-      <li Class="Rimatomics.CompProperties_Upgradable"/>
-    </comps>
-  </ThingDef>
-
-  <ThingDef ParentName="BaseMissile">
-    <defName>ICBMfission</defName>
-    <label>ICBM Fission</label>
-    <description>An intercontinental ballistic missile (ICBM) is a guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead.</description>
-    <thingClass>Rimatomics.BaseMissile</thingClass>
-    <graphicData>
-      <texPath>Things/RimatomicsBuildings/icbm</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,6)</drawSize>
-    </graphicData>
-    <drawOffscreen>true</drawOffscreen>
-    <statBases>
-      <WorkToBuild>20000</WorkToBuild>
-    </statBases>
-    <costList>
-      <Steel>175</Steel>
-      <Chemfuel>175</Chemfuel>
-      <RocketEngine>4</RocketEngine>
-      <FissionWarhead>1</FissionWarhead>
-    </costList>
-    <rimatomicsPrerequisites>
-      <li>ICBM4</li>
-    </rimatomicsPrerequisites>
-  </ThingDef>
-
   <ThingDef ParentName="BasedWeapon">
-    <defName>LaunchPad</defName>
-    <label>Launch Pad</label>
-    <thingClass>Rimatomics.LaunchPad</thingClass>
-    <fillPercent>0.2</fillPercent>
-    <description>A launch pad is an above-ground platform from which a rocket-powered missile is vertically launched.</description>
-    <graphicData>
-      <texPath>Things/RimatomicsBuildings/launchpad</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(7,7)</drawSize>
-    </graphicData>
-    <category>Building</category>
-    <passability>Standable</passability>
-    <surfaceType>Item</surfaceType>
-    <altitudeLayer>Building</altitudeLayer>
-    <rotatable>false</rotatable>
-    <tickerType>Normal</tickerType>
-    <selectable>true</selectable>
-    <size>(5,5)</size>
-    <castEdgeShadows>true</castEdgeShadows>
-    <blockWind>false</blockWind>
-    <constructEffect>ConstructMetal</constructEffect>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <drawOffscreen>true</drawOffscreen>
-    <costList>
-      <Steel>400</Steel>
-      <Component>4</Component>
-    </costList>
-    <statBases>
-      <MaxHitPoints>500</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Flammability>0</Flammability>
-      <Beauty>-30</Beauty>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>200</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
-    <placeWorkers>
-      <li>Rimatomics.PlaceWorker_LaunchPad</li>
-      <li>PlaceWorker_NotUnderRoof</li>
-    </placeWorkers>   
-    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <rimatomicsPrerequisites>
-      <li>ICBM3</li>
-    </rimatomicsPrerequisites>
-  </ThingDef>
-
-  <!--<ThingDef ParentName="BasedWeapon">
     <defName>MissileSilo</defName>
     <label>Missile Silo</label>
     <thingClass>Rimatomics.MissileSilo</thingClass>
@@ -595,7 +643,7 @@
     <graphicData>
       <texPath>Things/RimatomicsBuildings/silo</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(10,7)</drawSize>
+      <drawSize>(9,5)</drawSize>
     </graphicData>
     <category>Building</category>
     <passability>Standable</passability>
@@ -604,39 +652,39 @@
     <rotatable>false</rotatable>
     <tickerType>Normal</tickerType>
     <selectable>true</selectable>
-    <size>(8,5)</size>
+    <size>(9,5)</size>
     <castEdgeShadows>true</castEdgeShadows>
     <blockWind>false</blockWind>
     <constructEffect>ConstructMetal</constructEffect>
     <staticSunShadowHeight>0.2</staticSunShadowHeight>
     <drawOffscreen>true</drawOffscreen>
     <costList>
-      <Steel>400</Steel>
-      <Component>4</Component>
+      <Steel>750</Steel>
+      <Component>15</Component>
     </costList>
     <statBases>
-      <MaxHitPoints>500</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
+      <MaxHitPoints>900</MaxHitPoints>
+      <WorkToBuild>10000</WorkToBuild>
       <Flammability>0</Flammability>
       <Beauty>-30</Beauty>
     </statBases>
     <comps>
       <li Class="CompProperties_Power">
         <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>200</basePowerConsumption>
+        <basePowerConsumption>2000</basePowerConsumption>
       </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="CompProperties_Breakdownable"/>
     </comps>
     <placeWorkers>
-      <li>Rimatomics.PlaceWorker_LaunchPad</li>
       <li>PlaceWorker_NotUnderRoof</li>
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <rimatomicsPrerequisites>
       <li>ICBM3</li>
     </rimatomicsPrerequisites>
-  </ThingDef>-->
+    <constructionSkillPrerequisite>16</constructionSkillPrerequisite>
+  </ThingDef>
 
   <ThingDef>
     <defName>notReal</defName>
@@ -649,7 +697,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(6,6)</drawSize>
     </graphicData>
-    <altitudeLayer>FlyingItem</altitudeLayer>
+    <altitudeLayer>MapDataOverlay</altitudeLayer>
     <useHitPoints>false</useHitPoints>
     <drawOffscreen>true</drawOffscreen>
     <passability>Impassable</passability>

@@ -13,42 +13,6 @@
     <expandingIconPriority>6</expandingIconPriority>
   </WorldObjectDef>
 
-  <!--<WorldObjectDef>
-    <defName>ICBMfusion</defName>
-    <label>ICBM</label>
-    <description>An intercontinental ballistic missile (ICBM) is a guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fusion warhead.</description>
-    <worldObjectClass>Rimatomics.WorldObject_ICBMfusion</worldObjectClass>
-    <texture>UI/Nuke</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/Nuke</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-  </WorldObjectDef>
-
-  <WorldObjectDef>
-    <defName>SCUD</defName>
-    <label>ICBM</label>
-    <description>A short range tactical ballistic missile loaded with an explosive warhead.</description>
-    <worldObjectClass>Rimatomics.WorldObject_Missile</worldObjectClass>
-    <texture>UI/Nuke</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/Nuke</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-  </WorldObjectDef>
-
-  <WorldObjectDef>
-    <defName>SCUDchem</defName>
-    <label>ICBM</label>
-    <description>A short range tactical ballistic missile loaded with chemical agents that creates a toxic fallout apon detonation.</description>
-    <worldObjectClass>Rimatomics.WorldObject_Missile</worldObjectClass>
-    <texture>UI/Nuke</texture>
-    <useDynamicDrawer>true</useDynamicDrawer>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconTexture>UI/Nuke</expandingIconTexture>
-    <expandingIconPriority>6</expandingIconPriority>
-  </WorldObjectDef>-->
-
   <WorldObjectDef>
     <defName>Sabot</defName>
     <label>Sabot</label>
@@ -71,22 +35,6 @@
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>UI/Fallout</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
-  </WorldObjectDef>
-
-  <WorldObjectDef>
-    <defName>FactionBaseICBM</defName>
-    <label>ICBM Facility</label>
-    <description>One of the factions has constructed a missile launching facility in this location.</description>
-    <worldObjectClass>Rimatomics.Site_ICBM_Base</worldObjectClass>
-    <expandingIcon>true</expandingIcon>
-    <expandingIconPriority>1</expandingIconPriority>
-    <texture>UI/icbmBase</texture>
-    <expandingIconTexture>UI/icbmBase</expandingIconTexture>
-    <comps>
-      <li Class="WorldObjectCompProperties_Timeout" />
-      <li Class="WorldObjectCompProperties_DefeatAllEnemiesQuest" />
-      <li Class="WorldObjectCompProperties_ItemStashContents" />
-    </comps>
   </WorldObjectDef>
 
   <WorldObjectDef>

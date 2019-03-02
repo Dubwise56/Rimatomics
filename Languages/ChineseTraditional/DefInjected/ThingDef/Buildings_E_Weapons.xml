@@ -14,16 +14,16 @@
   <PPCWeaponsConsole_Frame.description>用於探測目標和操控能量武器的智能計算機。</PPCWeaponsConsole_Frame.description>
 
   <RadarDish.label>警戒雷達</RadarDish.label>
-  <RadarDish.description>警戒雷達採用了一系列先進技術來跟蹤地面和空中目標。</RadarDish.description>
+  <RadarDish.description>警戒雷達採用了一系列先進技術來追蹤地面和空中目標，可與“邊緣核能”武器系統配合追蹤包括動物、機器人、炮彈和導彈等在內的目標。</RadarDish.description>
   <RadarDish_Blueprint.label>警戒雷達(藍圖)</RadarDish_Blueprint.label>
   <RadarDish_Frame.label>警戒雷達(建造中)</RadarDish_Frame.label>
-  <RadarDish_Frame.description>警戒雷達採用了一系列先進技術來跟蹤地面和空中目標。</RadarDish_Frame.description>
+  <RadarDish_Frame.description>警戒雷達採用了一系列先進技術來追蹤地面和空中目標，可與“邊緣核能”武器系統配合追蹤包括動物、機器人、炮彈和導彈等在內的目標。</RadarDish_Frame.description>
 
-  <PPCADS.label>主動禦敵系統</PPCADS.label>
-  <PPCADS.description>主動禦敵系統是一種針對性能量武器，它發射的毫米波能讓目標皮膚水份沸騰，產生無法忍受的痛苦，需要能量武器控制台操縱和脈衝電池供能。</PPCADS.description>
-  <PPCADS_Blueprint.label>主動禦敵系統(藍圖)</PPCADS_Blueprint.label>
-  <PPCADS_Frame.label>主動禦敵系統(建造中)</PPCADS_Frame.label>
-  <PPCADS_Frame.description>主動禦敵系統是一種針對性能量武器，它發射的毫米波能讓目標皮膚水份沸騰，產生無法忍受的痛苦，需要能量武器控制台操縱和脈衝電池供能。</PPCADS_Frame.description>
+  <PPCADS.label>主動驅敵系統</PPCADS.label>
+  <PPCADS.description>主動驅敵系統是一種針對性能量武器，它發射的毫米波能讓目標皮膚水份沸騰，產生無法忍受的痛苦，需要能量武器控制台操縱和脈衝電池供能。</PPCADS.description>
+  <PPCADS_Blueprint.label>主動驅敵系統(藍圖)</PPCADS_Blueprint.label>
+  <PPCADS_Frame.label>主動驅敵系統(建造中)</PPCADS_Frame.label>
+  <PPCADS_Frame.description>主動驅敵系統是一種針對性能量武器，它發射的毫米波能讓目標皮膚水份沸騰，產生無法忍受的痛苦，需要能量武器控制台操縱和脈衝電池供能。</PPCADS_Frame.description>
 
   <PPCTeslaCoil.label>磁暴線圈</PPCTeslaCoil.label>
   <PPCTeslaCoil.description>瞬間向範圍內的任一目標釋放強大的電弧，近距離武器。需要能量武器控制台操縱和脈衝電池供能。</PPCTeslaCoil.description>
@@ -43,84 +43,23 @@
   <PPCRailgun_Frame.label>磁軌炮(建造中)</PPCRailgun_Frame.label>
   <PPCRailgun_Frame.description>使用高能電磁脈衝將炮彈發射到極遠處，擁有極大範圍的火力覆蓋。需要能量武器控制台操縱和脈衝電池供能。</PPCRailgun_Frame.description>
 
-  <Artillery_PPCRailgun.label>磁軌炮彈</Artillery_PPCRailgun.label>
-  <Artillery_PPCRailgun.description>無視障礙物，精度不高但覆蓋範圍很廣。</Artillery_PPCRailgun.description>
+  <Railgun_Cannon.label>磁軌炮彈</Railgun_Cannon.label>
+  <Railgun_Cannon.description>無視障礙物，精度不高但覆蓋範圍很廣。</Railgun_Cannon.description>
 
-  <Bullet_PPCRailgun.label>磁軌炮彈</Bullet_PPCRailgun.label>
-
-  <PPCObelisk.label>光棱塔</PPCObelisk.label>
+  <PPCObelisk.label>光稜塔</PPCObelisk.label>
   <PPCObelisk.description>使用聚能激光灼燒目標的定向能量武器。精度高射程遠，需要能量武器控制台操縱和脈衝電池供能。</PPCObelisk.description>
-  <PPCObelisk_Blueprint.label>光棱塔(藍圖)</PPCObelisk_Blueprint.label>
-  <PPCObelisk_Frame.label>光棱塔(建造中)</PPCObelisk_Frame.label>
+  <PPCObelisk_Blueprint.label>光稜塔(藍圖)</PPCObelisk_Blueprint.label>
+  <PPCObelisk_Frame.label>光稜塔(建造中)</PPCObelisk_Frame.label>
   <PPCObelisk_Frame.description>使用聚能激光灼燒目標的定向能量武器。精度高射程遠，需要能量武器控制台操縱和脈衝電池供能。</PPCObelisk_Frame.description>
 
 
   <!-- ICBM -->
 
-  <ICBMfission.label>洲際彈道核導彈</ICBMfission.label>
-  <ICBMfission.description>攜帶有核彈頭的洲際彈道導彈，用於遠程打擊。</ICBMfission.description>
-  <ICBMfission_Blueprint.label>洲際彈道核導彈(藍圖)</ICBMfission_Blueprint.label>
-  <ICBMfission_Frame.label>洲際彈道核導彈(建造中)</ICBMfission_Frame.label>
-  <ICBMfission_Frame.description>攜帶有核彈頭的洲際彈道導彈，用於遠程打擊。</ICBMfission_Frame.description>
-
-  <LaunchPad.label>導彈發射台</LaunchPad.label>
-  <LaunchPad.description>用於發射洲際彈道導彈的垂直地基發射平台。</LaunchPad.description>
-  <LaunchPad_Blueprint.label>導彈發射台(藍圖)</LaunchPad_Blueprint.label>
-  <LaunchPad_Frame.label>導彈發射台(建造中)</LaunchPad_Frame.label>
-  <LaunchPad_Frame.description>用於發射洲際彈道導彈的垂直地基發射平台。</LaunchPad_Frame.description>
-
-
-  <!-- <ThingDef ParentName="BasedWeapon">
-    <defName>MissileSilo</defName>
-    <label>Missile Silo</label>
-    <thingClass>Rimatomics.MissileSilo</thingClass>
-    <fillPercent>0.2</fillPercent>
-    <description>A launch pad is an above-ground platform from which a rocket-powered missile is vertically launched.</description>
-    <graphicData>
-      <texPath>Things/RimatomicsBuildings/silo</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(10,7)</drawSize>
-    </graphicData>
-    <category>Building</category>
-    <passability>Standable</passability>
-    <surfaceType>Item</surfaceType>
-    <altitudeLayer>Building</altitudeLayer>
-    <rotatable>false</rotatable>
-    <tickerType>Normal</tickerType>
-    <selectable>true</selectable>
-    <size>(8,5)</size>
-    <castEdgeShadows>true</castEdgeShadows>
-    <blockWind>false</blockWind>
-    <constructEffect>ConstructMetal</constructEffect>
-    <staticSunShadowHeight>0.2</staticSunShadowHeight>
-    <drawOffscreen>true</drawOffscreen>
-    <costList>
-      <Steel>400</Steel>
-      <Component>4</Component>
-    </costList>
-    <statBases>
-      <MaxHitPoints>500</MaxHitPoints>
-      <WorkToBuild>1000</WorkToBuild>
-      <Flammability>0</Flammability>
-      <Beauty>-30</Beauty>
-    </statBases>
-    <comps>
-      <li Class="CompProperties_Power">
-        <compClass>CompPowerTrader</compClass>
-        <basePowerConsumption>200</basePowerConsumption>
-      </li>
-      <li Class="CompProperties_Flickable"/>
-      <li Class="CompProperties_Breakdownable"/>
-    </comps>
-    <placeWorkers>
-      <li>Rimatomics.PlaceWorker_LaunchPad</li>
-      <li>PlaceWorker_NotUnderRoof</li>
-    </placeWorkers>
-    <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
-    <rimatomicsPrerequisites>
-      <li>ICBM3</li>
-    </rimatomicsPrerequisites>
-  </ThingDef> -->
+  <MissileSilo.label>導彈發射井</MissileSilo.label>
+  <MissileSilo.description>用於發射洲際彈道導彈的垂直地基發射平台。</MissileSilo.description>
+  <MissileSilo_Blueprint.label>導彈發射井(藍圖)</MissileSilo_Blueprint.label>
+  <MissileSilo_Frame.label>導彈發射井(建造中)</MissileSilo_Frame.label>
+  <MissileSilo_Frame.description>用於發射洲際彈道導彈的垂直地基發射平台。</MissileSilo_Frame.description>
 
   <notReal.label>不真實的</notReal.label>
 

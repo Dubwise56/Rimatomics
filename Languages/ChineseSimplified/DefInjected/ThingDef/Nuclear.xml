@@ -1,9 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RocketEngine.label>火箭引擎</RocketEngine.label>
-  <RocketEngine.description>主体使用了高强度隔离材料的核动力火箭引擎。</RocketEngine.description>
-
   <ReactorComponents.label>反应堆组件</ReactorComponents.label>
   <ReactorComponents.description>主体使用了高强度隔离材料以保证反应堆的稳定性。</ReactorComponents.description>
 
@@ -18,12 +15,6 @@
 
   <DepletedUraniumPellets.label>贫铀</DepletedUraniumPellets.label>
   <DepletedUraniumPellets.description>贫铀颗粒可用于制作核燃料棒。</DepletedUraniumPellets.description>
-
-  <FissionWarhead.label>核弹头(裂变)</FissionWarhead.label>
-  <FissionWarhead.description>其破坏力来自核裂变反应。</FissionWarhead.description>
-
-  <RailgunSabot.label>磁轨炮弹</RailgunSabot.label>
-  <RailgunSabot.description>磁轨炮炮使用的高爆炮弹。</RailgunSabot.description>
 
 
   <!-- Fuel Rods -->

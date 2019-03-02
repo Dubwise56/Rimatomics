@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Buildings>
+<Defs>
 
   <ThingDef Name="BasedMom" Abstract="True"  Class="Rimatomics.RimatomicsThingDef">
     <category>Building</category>
@@ -35,7 +35,6 @@
     </graphicData>
     <building>
       <isInert>true</isInert>
-      <ignoreNeedsPower>true</ignoreNeedsPower>
       <isEdifice>false</isEdifice>
     </building>
     <altitudeLayer>FloorEmplacement</altitudeLayer>
@@ -60,18 +59,18 @@
     <placeWorkers>
       <li>Rimatomics.PlaceWorker_Pipe</li>
     </placeWorkers>
+    <clearBuildingArea>false</clearBuildingArea>
+
   </ThingDef>
 
   <ThingDef ParentName="BasedPower" Name="ValveBase" Abstract="True">
     <thingClass>Rimatomics.Building_Valve</thingClass>
-    <iconDrawScale>1.7</iconDrawScale>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Standable</passability>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <building>
       <ai_chillDestination>false</ai_chillDestination>
       <isInert>true</isInert>
-      <ignoreNeedsPower>true</ignoreNeedsPower>
       <isEdifice>false</isEdifice>
     </building>
     <graphicData>
@@ -167,13 +166,18 @@
     <pathCost>75</pathCost>
     <description>Opens or closes connections between coolant pipes.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/CoolantValveClosed</texPath>
+      <texPath>Things/RimatomicsBuildings/CoolantValve</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
         <mode>Cooling</mode>
+      </li>
+      <li Class="CompProperties_Flickable">
+        <commandTexture>Things/RimatomicsBuildings/CoolantValve</commandTexture>
+        <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
+        <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
       </li>
     </comps>
     <rimatomicsPrerequisites>
@@ -208,13 +212,18 @@
     <label>Steam valve</label>
     <description>Opens or closes connections between steam pipes.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/SteamValveClosed</texPath>
+      <texPath>Things/RimatomicsBuildings/SteamValve</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
         <mode>Steam</mode>
+      </li>
+      <li Class="CompProperties_Flickable">
+        <commandTexture>Things/RimatomicsBuildings/SteamValve</commandTexture>
+        <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
+        <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
       </li>
     </comps>
     <rimatomicsPrerequisites>
@@ -249,18 +258,22 @@
     <label>Cold water valve</label>
     <description>Opens or closes connections between cold water pipes.</description>
     <graphicData>
-      <texPath>Things/RimatomicsBuildings/WaterValveClosed</texPath>
+      <texPath>Things/RimatomicsBuildings/WaterValve</texPath>
       <graphicClass>Graphic_Single</graphicClass>
-      <drawSize>(3,3)</drawSize>
+      <drawSize>(1,1)</drawSize>
     </graphicData>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
         <mode>ColdWater</mode>
+      </li>
+      <li Class="CompProperties_Flickable">
+        <commandTexture>Things/RimatomicsBuildings/WaterValve</commandTexture>
+        <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
+        <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
       </li>
     </comps>
     <rimatomicsPrerequisites>
       <li>NuclearReactor6</li>
     </rimatomicsPrerequisites>
   </ThingDef>
-
-</Buildings>
+</Defs>

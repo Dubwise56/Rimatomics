@@ -2,17 +2,29 @@
 <LanguageData>
 
   <Radioisotope_thermoelectric_generator.label>放射性同位素发电机</Radioisotope_thermoelectric_generator.label>
-  <Radioisotope_thermoelectric_generator.description>使用热电偶阵列将放射性同位素衰变所释放热能转化为电能的发电机。最大输出功率为500W。</Radioisotope_thermoelectric_generator.description>
+  <Radioisotope_thermoelectric_generator.description>使用热电偶阵列将放射性同位素衰变所释放热能转化为电能的发电机。</Radioisotope_thermoelectric_generator.description>
   <Radioisotope_thermoelectric_generator_Blueprint.label>放射性同位素发电机(蓝图)</Radioisotope_thermoelectric_generator_Blueprint.label>
   <Radioisotope_thermoelectric_generator_Blueprint_Install.label>放射性同位素发电机(蓝图)</Radioisotope_thermoelectric_generator_Blueprint_Install.label>
   <Radioisotope_thermoelectric_generator_Frame.label>放射性同位素发电机(建造中)</Radioisotope_thermoelectric_generator_Frame.label>
-  <Radioisotope_thermoelectric_generator_Frame.description>使用热电偶阵列将放射性同位素衰变所释放热能转化为电能的发电机。最大输出功率为500W。</Radioisotope_thermoelectric_generator_Frame.description>
+  <Radioisotope_thermoelectric_generator_Frame.description>使用热电偶阵列将放射性同位素衰变所释放热能转化为电能的发电机。</Radioisotope_thermoelectric_generator_Frame.description>
 
-  <ReactorCore.label>轻水反应堆</ReactorCore.label>
-  <ReactorCore.description>轻水反应堆是核电站组件中用于填充核燃料的部分，核反应在此发生并产生高温。</ReactorCore.description>
-  <ReactorCore_Blueprint.label>轻水反应堆(蓝图)</ReactorCore_Blueprint.label>
-  <ReactorCore_Frame.label>轻水反应堆(建造中)</ReactorCore_Frame.label>
-  <ReactorCore_Frame.description>轻水反应堆是核电站组件中用于填充核燃料的部分，核反应在此发生并产生高温。</ReactorCore_Frame.description>
+  <ReactorCoreA.label>轻水反应堆</ReactorCoreA.label>
+  <ReactorCoreA.description>“边缘核能”基础热核反应堆，具有21个燃料棒插槽，基础耗电250kw。核反应在堆芯出发生并产生高温。</ReactorCoreA.description>
+  <ReactorCoreA_Blueprint.label>轻水反应堆(蓝图)</ReactorCoreA_Blueprint.label>
+  <ReactorCoreA_Frame.label>轻水反应堆(建造中)</ReactorCoreA_Frame.label>
+  <ReactorCoreA_Frame.description>“边缘核能”基础热核反应堆，具有21个燃料棒插槽，基础耗电250kw。核反应在堆芯出发生并产生高温。</ReactorCoreA_Frame.description>
+
+  <ReactorCoreB.label>快中子增殖反应堆</ReactorCoreB.label>
+  <ReactorCoreB.description>“边缘核能”先进快中子增殖反应堆，可以产生比其所消耗的核燃料更多的核废料。</ReactorCoreB.description>
+  <ReactorCoreB_Blueprint.label>快中子增殖反应堆(蓝图)</ReactorCoreB_Blueprint.label>
+  <ReactorCoreB_Frame.label>快中子增殖反应堆(建造中)</ReactorCoreB_Frame.label>
+  <ReactorCoreB_Frame.description>“边缘核能”先进型快中子增殖反应堆，可以产生比其所消耗的核燃料更多的核废料。</ReactorCoreB_Frame.description>
+
+  <ReactorCoreC.label>大型快中子增殖反应堆</ReactorCoreC.label>
+  <ReactorCoreC.description>“边缘核能”大型先进快中子增殖反应堆，可以产生比其所消耗的核燃料更多的核废料。</ReactorCoreC.description>
+  <ReactorCoreC_Blueprint.label>大型快中子增殖反应堆(蓝图)</ReactorCoreC_Blueprint.label>
+  <ReactorCoreC_Frame.label>大型快中子增殖反应堆(建造中)</ReactorCoreC_Frame.label>
+  <ReactorCoreC_Frame.description>“边缘核能”大型先进快中子增殖反应堆，可以产生比其所消耗的核燃料更多的核废料。</ReactorCoreC_Frame.description>
 
 
   <!-- COOLING -->
@@ -45,10 +57,10 @@
   <Turbine_Frame.description>利用反应堆产生的蒸汽推动涡轮机发电。“雷神”的最大输出功率为100KW。</Turbine_Frame.description>
 
   <BigTurbine.label>“宙斯”级涡轮机</BigTurbine.label>
-  <BigTurbine.description>利用反应堆产生的蒸汽推动涡轮机发电。“雷神”的最大输出功率为1MW。</BigTurbine.description>
+  <BigTurbine.description>利用反应堆产生的蒸汽推动涡轮机发电。“宙斯”的最大输出功率为1MW。</BigTurbine.description>
   <BigTurbine_Blueprint.label>“宙斯”级涡轮机(蓝图)</BigTurbine_Blueprint.label>
   <BigTurbine_Frame.label>“宙斯”级涡轮机(建造中)</BigTurbine_Frame.label>
-  <BigTurbine_Frame.description>利用反应堆产生的蒸汽推动涡轮机发电。“雷神”的最大输出功率为1MW。</BigTurbine_Frame.description>
+  <BigTurbine_Frame.description>利用反应堆产生的蒸汽推动涡轮机发电。“宙斯”的最大输出功率为1MW。</BigTurbine_Frame.description>
 
 
   <!-- TRANNY -->

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<DesignationDefs>
+<Defs>
 
   <DesignationDef>
     <defName>FlickValve</defName>
@@ -15,4 +15,4 @@
     <designateCancelable>false</designateCancelable>
   </DesignationDef>
 
-</DesignationDefs>
+</Defs>

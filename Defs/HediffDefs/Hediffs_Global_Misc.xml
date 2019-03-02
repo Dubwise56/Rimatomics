@@ -139,7 +139,7 @@
 		<stages>
 			<li>
 				<label>initial-hidden</label>
-				<everVisible>false</everVisible>
+        <becomeVisible>false</becomeVisible>
 			</li>
 			<li>
 				<label>initial</label>
@@ -215,10 +215,11 @@
 		<stages>
 			<li>
 				<label>initial-hidden</label>
-				<everVisible>false</everVisible>
-			</li>
+        <becomeVisible>false</becomeVisible>
+			
+    </li>
 			<li>
-				<everVisible>false</everVisible>
+        <becomeVisible>false</becomeVisible>
 				<label>initial</label>
 				<minSeverity>0.04</minSeverity>
 				<hediffGivers>
@@ -228,9 +229,10 @@
 						<canAffectAnyLivePart>true</canAffectAnyLivePart>
 					</li>
 				</hediffGivers>
-			</li>
+			
+    </li>
 			<li>
-				<everVisible>false</everVisible>
+        <becomeVisible>false</becomeVisible>
 				<label>minor</label>
 				<minSeverity>0.2</minSeverity>
 				<hediffGivers>
@@ -242,7 +244,7 @@
 				</hediffGivers>
 			</li>
 			<li>
-				<everVisible>false</everVisible>
+        <becomeVisible>false</becomeVisible>
 				<label>moderate</label>
 				<minSeverity>0.40</minSeverity>
 				<hediffGivers>
@@ -252,9 +254,10 @@
 						<canAffectAnyLivePart>true</canAffectAnyLivePart>
 					</li>
 				</hediffGivers>
-			</li>
+			
+    </li>
 			<li>
-				<everVisible>false</everVisible>
+        <becomeVisible>false</becomeVisible>
 				<label>serious</label>
 				<minSeverity>0.60</minSeverity>
 				<hediffGivers>
@@ -268,15 +271,16 @@
 			<li>
 				<label>extreme</label>
 				<minSeverity>0.80</minSeverity>
-				<everVisible>false</everVisible>
-				<hediffGivers>
-					<li Class="HediffGiver_Random">
-						<hediff>Carcinoma</hediff>
-						<mtbDays>20</mtbDays>
-						<canAffectAnyLivePart>true</canAffectAnyLivePart>
-					</li>
-				</hediffGivers>
-			</li>
+        <becomeVisible>false</becomeVisible>
+        <hediffGivers>
+          <li Class="HediffGiver_Random">
+            <hediff>Carcinoma</hediff>
+            <mtbDays>20</mtbDays>
+            <canAffectAnyLivePart>true</canAffectAnyLivePart>
+          </li>
+        </hediffGivers>
+
+      </li>
 		</stages>
 	</HediffDef>
 
@@ -291,7 +295,7 @@
     <stages>
       <li>
         <label>initial-hidden</label>
-        <everVisible>false</everVisible>
+        <becomeVisible>false</becomeVisible>
       </li>
       <li>
         <label>initial</label>

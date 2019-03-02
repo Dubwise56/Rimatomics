@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+
+
+  <ResearchReactorConductors.ResearchLabel>反應堆導管</ResearchReactorConductors.ResearchLabel>
+  <ResearchReactorConductors.ResearchDesc>通過提高燃料和水之間的導熱性，增加反應堆堆芯的功率輸出，將輸出功率提高15％。</ResearchReactorConductors.ResearchDesc>
+  <ResearchReactorConductors.ResearchDescDisc>您現在可以在邊緣核能加工台製作反應堆導管，並將其安裝到反應堆堆芯中，選擇反應堆並指定安裝反應堆導管，在安裝之前請關閉反應堆。</ResearchReactorConductors.ResearchDescDisc>
+
+  <ResearchNeutronReflectors.ResearchLabel>中子反射層</ResearchNeutronReflectors.ResearchLabel>
+  <ResearchNeutronReflectors.ResearchDesc>反應堆中每個燃料棒的發電量與其周圍相鄰的燃料棒個數呈線性正相關，通過中子反射層將中子反射回堆芯，可提高位於堆芯邊緣燃料棒的發電量。</ResearchNeutronReflectors.ResearchDesc>
+  <ResearchNeutronReflectors.ResearchDescDisc>您現在可以在邊緣核能加工台製作中子反射層，並將其安裝到反應堆堆芯中，選擇反應堆並指定安裝中子反射層，在安裝之前請關閉反應堆。</ResearchNeutronReflectors.ResearchDescDisc>
+
+  <ResearchReactorShielding.ResearchLabel>反應堆屏障</ResearchReactorShielding.ResearchLabel>
+  <ResearchReactorShielding.ResearchDesc>增強反應堆堆芯周圍的輻射防護等級，減少可能從反應堆泄漏的輻射量，保護殖民者安全。</ResearchReactorShielding.ResearchDesc>
+  <ResearchReactorShielding.ResearchDescDisc>您現在可以在邊緣核能加工台製作反應堆屏障，並將其安裝到反應堆堆芯中，選擇反應堆並指定安裝反應堆屏障，在安裝之前請關閉反應堆。</ResearchReactorShielding.ResearchDescDisc>
+
+  <ResearchControlRodActuators.ResearchLabel>控制棒傳動器</ResearchControlRodActuators.ResearchLabel>
+  <ResearchControlRodActuators.ResearchDesc>提高控制桿運作的速度，提高對中子通量變化的反應速度，還提高了反應堆關閉速度。</ResearchControlRodActuators.ResearchDesc>
+  <ResearchControlRodActuators.ResearchDescDisc>您現在可以在邊緣核能加工台製作控制棒傳動器，並將其安裝到反應堆堆芯中，選擇反應堆並指定安裝控制棒傳動器，在安裝之前請關閉反應堆。</ResearchControlRodActuators.ResearchDescDisc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <ResearchGuidenceSystem.ResearchLabel>全球定位系統</ResearchGuidenceSystem.ResearchLabel>
+  <ResearchGuidenceSystem.ResearchDesc>顯著提高洲際彈道導彈的範圍和精度。</ResearchGuidenceSystem.ResearchDesc>
+  <ResearchGuidenceSystem.ResearchDescDisc>全球定位系統現已研究完成，所有洲際彈道導彈現在都將自動升級這些配置，射程已增加到120地圖格。</ResearchGuidenceSystem.ResearchDescDisc>
+
+  <ResearchMEPS.ResearchLabel>模塊化電力系統</ResearchMEPS.ResearchLabel>
+  <ResearchMEPS.ResearchDesc>模塊化電力系統是一種超級電容器，可以與任何“邊緣核能”系列能量武器的供電系統相連接，以提升其最大功率，每種能量武器的提升效果不同。</ResearchMEPS.ResearchDesc>
+  <ResearchMEPS.ResearchDescDisc>您現在可以在邊緣核能加工台製作模塊化電力系統，並將其安裝到“邊緣核能”系列能量武器中，選擇能量武器並指定安裝模塊化電力系統。</ResearchMEPS.ResearchDescDisc>
+
+  <ResearchALC.ResearchLabel>先進水冷系統</ResearchALC.ResearchLabel>
+  <ResearchALC.ResearchDesc>先進水冷系統是一種通用型高級冷卻系統，旨在通過增加能量武器及其供電系統的冷卻能力，大幅度降低冷卻時間並提高火力，可以與任何“邊緣核能”系列能量武器配合使用，每種能量武器的提升效果不同。</ResearchALC.ResearchDesc>
+  <ResearchALC.ResearchDescDisc>您現在可以在邊緣核能加工台製作先進水冷系統，並將其安裝到“邊緣核能”系列能量武器中，選擇能量武器並指定安裝先進水冷系統。</ResearchALC.ResearchDescDisc>
+
+  <ResearchERS.ResearchLabel>能量回收系統</ResearchERS.ResearchLabel>
+  <ResearchERS.ResearchDesc>能量回收系統能夠收集能量武器開火過程中浪費的動能和熱能，並在武器開火後將回收的能量輸送給脈衝電池儲存起來。</ResearchERS.ResearchDesc>
+  <ResearchERS.ResearchDescDisc>您現在可以在邊緣核能加工台製作能量回收系統，並將其安裝到“邊緣核能”系列能量武器中，選擇能量武器並指定安裝能量回收系統。</ResearchERS.ResearchDescDisc>
+
+  <ResearchDriveActuator.ResearchLabel>驅動器</ResearchDriveActuator.ResearchLabel>
+  <ResearchDriveActuator.ResearchDesc>驅動器能夠提高“邊緣核能”系列能量武器的精度和反應速度。這種高扭矩電機可以無隙耦合發動機和負載，顯著提高系統的強度和穩定性。</ResearchDriveActuator.ResearchDesc>
+  <ResearchDriveActuator.ResearchDescDisc>您現在可以在邊緣核能加工台製作驅動器，並將其安裝到“邊緣核能”系列能量武器中，選擇能量武器並指定安裝驅動器。</ResearchDriveActuator.ResearchDescDisc>
+
+  <ResearchRailgun_TargetingChip.ResearchLabel>定向芯片</ResearchRailgun_TargetingChip.ResearchLabel>
+  <ResearchRailgun_TargetingChip.ResearchDesc>定向芯片能夠提高磁軌炮的射程和的精度。</ResearchRailgun_TargetingChip.ResearchDesc>
+  <ResearchRailgun_TargetingChip.ResearchDescDisc>您現在可以在邊緣核能加工台製作定向芯片，並將其安裝到磁軌炮中，選擇磁軌炮並指定安裝定向芯片。</ResearchRailgun_TargetingChip.ResearchDescDisc>
+
+  <ResearchObelisk_LenseModule.ResearchLabel>稜鏡模塊</ResearchObelisk_LenseModule.ResearchLabel>
+  <ResearchObelisk_LenseModule.ResearchDesc>稜鏡模塊能夠提高光稜塔聚焦和校準能力。</ResearchObelisk_LenseModule.ResearchDesc>
+  <ResearchObelisk_LenseModule.ResearchDescDisc>您現在可以在邊緣核能加工台製作稜鏡模塊，並將其安裝到光稜塔中，選擇磁軌炮並指定安裝稜鏡模塊。</ResearchObelisk_LenseModule.ResearchDescDisc>
+
+  <ResearchObelisk_BeamSplitter.ResearchLabel>電子束分裂器</ResearchObelisk_BeamSplitter.ResearchLabel>
+  <ResearchObelisk_BeamSplitter.ResearchDesc>光稜塔可以使用電子束分裂器對激光進行分光處理，次級光束被調諧到特定的波長和極化狀態，用於擊破護盾，主光束延遲一秒到達，攻擊已無護盾保護的目標。</ResearchObelisk_BeamSplitter.ResearchDesc>
+  <ResearchObelisk_BeamSplitter.ResearchDescDisc>您現在可以在邊緣核能加工台製作電子束分裂器，並將其安裝到光稜塔中，選擇磁軌炮並指定安裝電子束分裂器。</ResearchObelisk_BeamSplitter.ResearchDescDisc>
+</LanguageData>

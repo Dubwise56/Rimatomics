@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<DefPackage-TraderKindDef>
+<Defs>
 
 
   <TraderKindDef>
@@ -25,13 +25,31 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>ReactorComponents</thingDef>
+        <price>Expensive</price>
         <countRange>
           <min>1</min>
           <max>7</max>
         </countRange>
       </li>
       <li Class="StockGenerator_SingleDef">
+        <thingDef>FuelRods</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>1</min>
+          <max>5</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
+        <thingDef>FuelRodsMOX</thingDef>
+        <price>Expensive</price>
+        <countRange>
+          <min>1</min>
+          <max>5</max>
+        </countRange>
+      </li>
+      <li Class="StockGenerator_SingleDef">
         <thingDef>Plutonium</thingDef>
+        <price>Expensive</price>
         <countRange>
           <min>0</min>
           <max>100</max>
@@ -60,6 +78,7 @@
       </li>
       <li Class="StockGenerator_SingleDef">
         <thingDef>UraniumPellets</thingDef>
+        <price>Expensive</price>
         <countRange>
           <min>100</min>
           <max>800</max>
@@ -117,4 +136,4 @@
 
 
 
-</DefPackage-TraderKindDef>
+</Defs>

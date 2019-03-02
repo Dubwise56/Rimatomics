@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<ThingDefs>
+<Defs>
 
   <ThingDef ParentName="BasedMom">
     <defName>NuclearResearchBench</defName>
@@ -10,7 +10,7 @@
       <texPath>Things/RimatomicsBuildings/Research</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(7,4)</drawSize>
+      <drawSize>(6,3)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -75,17 +75,18 @@
     <researchPrerequisites>
       <li>RimatomicsActivate</li>
     </researchPrerequisites>
-</ThingDef>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+  </ThingDef>
 
   <ThingDef ParentName="BasedMom">
-    <DefName>TableRimatomicsMachining</DefName>
+    <defName>TableRimatomicsMachining</defName>
     <label>Rimatomics machining table</label>
-    <ThingClass>Building_WorkTable</ThingClass>
-    <Description>A work station for assembling Rimatomics technologies</Description>
+    <thingClass>Rimatomics.Building_RimatomicsWorkbench</thingClass>
+    <description>A work station for assembling Rimatomics technologies</description>
     <graphicData>
       <texPath>Things/RimatomicsBuildings/TableWeapons</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
-      <drawSize>(7,4)</drawSize>
+      <drawSize>(6,3)</drawSize>
       <damageData>
         <cornerTL>Damage/Corner</cornerTL>
         <cornerTR>Damage/Corner</cornerTR>
@@ -101,11 +102,11 @@
       <workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
       <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
     </building>
-    <CostList>
+    <costList>
       <Steel>150</Steel>
       <Component>5</Component>
-    </CostList>
-    <AltitudeLayer>Building</AltitudeLayer>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
     <fillPercent>0.5</fillPercent>
     <useHitPoints>True</useHitPoints>
     <statBases>
@@ -114,7 +115,7 @@
       <Flammability>1.0</Flammability>
       <Cleanliness>-2</Cleanliness>
     </statBases>
-    <Size>(5,2)</Size>
+    <size>(5,2)</size>
     <passability>PassThroughOnly</passability>
     <pathCost>150</pathCost>
     <hasInteractionCell>True</hasInteractionCell>
@@ -153,8 +154,9 @@
     <researchPrerequisites>
       <li>RimatomicsActivate</li>
     </researchPrerequisites>
-  
-</ThingDef>
+    <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+
+  </ThingDef>
   
   
 
@@ -167,7 +169,7 @@
       <texPath>Things/RimatomicsBuildings/researchReactor</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(6,6)</drawSize>
+      <drawSize>(5,5)</drawSize>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
@@ -211,13 +213,14 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <constructEffect>ConstructMetal</constructEffect>
-    <designationHotkey>Misc6</designationHotkey>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
     <rimatomicsPrerequisites>
       <li>NuclearResearch3</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
+
   </ThingDef>
 
   <ThingDef ParentName="BasedMom">
@@ -229,7 +232,7 @@
       <texPath>Things/RimatomicsBuildings/WeaponResearch</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
       <shaderType>CutoutComplex</shaderType>
-      <drawSize>(6,5)</drawSize>
+      <drawSize>(5,4)</drawSize>
     </graphicData>
     <altitudeLayer>Building</altitudeLayer>
     <blockWind>false</blockWind>
@@ -271,13 +274,14 @@
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
     <constructEffect>ConstructMetal</constructEffect>
-    <designationHotkey>Misc6</designationHotkey>
     <placeWorkers>
       <li>PlaceWorker_ShowFacilitiesConnections</li>
     </placeWorkers>
     <rimatomicsPrerequisites>
       <li>EnergyWeapons3</li>
     </rimatomicsPrerequisites>
+    <constructionSkillPrerequisite>5</constructionSkillPrerequisite>
+
   </ThingDef>
 
 
@@ -292,7 +296,7 @@
 			<texPath>Things/RimatomicsBuildings/plutoniumProc</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shaderType>CutoutComplex</shaderType>
-			<drawSize>(6,6)</drawSize>
+			<drawSize>(5,5)</drawSize>
 		</graphicData>
 		<altitudeLayer>Building</altitudeLayer>
     <passability>Impassable</passability>
@@ -330,10 +334,11 @@
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
 		<constructEffect>ConstructMetal</constructEffect>
-		<designationHotkey>Misc6</designationHotkey>
     <rimatomicsPrerequisites>
       <li>Plutonium3</li>
     </rimatomicsPrerequisites>
-	</ThingDef>
+    <constructionSkillPrerequisite>10</constructionSkillPrerequisite>
 
-</ThingDefs>
+  </ThingDef>
+
+</Defs>

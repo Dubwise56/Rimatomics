@@ -1,18 +1,34 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
+
+
+
+
   <Radioisotope_thermoelectric_generator.label>放射性同位素發電機</Radioisotope_thermoelectric_generator.label>
-  <Radioisotope_thermoelectric_generator.description>使用熱電偶陣列將放射性同位素衰變所釋放熱能轉化為電能的發電機。最大輸出功率為500W。</Radioisotope_thermoelectric_generator.description>
+  <Radioisotope_thermoelectric_generator.description>使用熱電偶陣列將放射性同位素衰變所釋放熱能轉化為電能的發電機。</Radioisotope_thermoelectric_generator.description>
   <Radioisotope_thermoelectric_generator_Blueprint.label>放射性同位素發電機(藍圖)</Radioisotope_thermoelectric_generator_Blueprint.label>
   <Radioisotope_thermoelectric_generator_Blueprint_Install.label>放射性同位素發電機(藍圖)</Radioisotope_thermoelectric_generator_Blueprint_Install.label>
   <Radioisotope_thermoelectric_generator_Frame.label>放射性同位素發電機(建造中)</Radioisotope_thermoelectric_generator_Frame.label>
-  <Radioisotope_thermoelectric_generator_Frame.description>使用熱電偶陣列將放射性同位素衰變所釋放熱能轉化為電能的發電機。最大輸出功率為500W。</Radioisotope_thermoelectric_generator_Frame.description>
+  <Radioisotope_thermoelectric_generator_Frame.description>使用熱電偶陣列將放射性同位素衰變所釋放熱能轉化為電能的發電機。</Radioisotope_thermoelectric_generator_Frame.description>
 
-  <ReactorCore.label>輕水反應堆</ReactorCore.label>
-  <ReactorCore.description>輕水反應堆是核電站組件中用於填充核燃料的部分，核反應在此發生並產生高溫。</ReactorCore.description>
-  <ReactorCore_Blueprint.label>輕水反應堆(藍圖)</ReactorCore_Blueprint.label>
-  <ReactorCore_Frame.label>輕水反應堆(建造中)</ReactorCore_Frame.label>
-  <ReactorCore_Frame.description>輕水反應堆是核電站組件中用於填充核燃料的部分，核反應在此發生並產生高溫。</ReactorCore_Frame.description>
+  <ReactorCoreA.label>輕水反應堆</ReactorCoreA.label>
+  <ReactorCoreA.description>“邊緣核能”基礎熱核反應堆，具有21個燃料棒插槽，基礎耗電250kw。核反應在堆芯出發生並產生高溫。</ReactorCoreA.description>
+  <ReactorCoreA_Blueprint.label>輕水反應堆(藍圖)</ReactorCoreA_Blueprint.label>
+  <ReactorCoreA_Frame.label>輕水反應堆(建造中)</ReactorCoreA_Frame.label>
+  <ReactorCoreA_Frame.description>“邊緣核能”基礎熱核反應堆，具有21個燃料棒插槽，基礎耗電250kw。核反應在堆芯出發生並產生高溫。</ReactorCoreA_Frame.description>
+
+  <ReactorCoreB.label>快中子增殖反應堆</ReactorCoreB.label>
+  <ReactorCoreB.description>“邊緣核能”先進快中子增殖反應堆，可以產生比其所消耗的核燃料更多的核廢料。</ReactorCoreB.description>
+  <ReactorCoreB_Blueprint.label>快中子增殖反應堆(藍圖)</ReactorCoreB_Blueprint.label>
+  <ReactorCoreB_Frame.label>快中子增殖反應堆(建造中)</ReactorCoreB_Frame.label>
+  <ReactorCoreB_Frame.description>“邊緣核能”先進型快中子增殖反應堆，可以產生比其所消耗的核燃料更多的核廢料。</ReactorCoreB_Frame.description>
+
+  <ReactorCoreC.label>大型快中子增殖反應堆</ReactorCoreC.label>
+  <ReactorCoreC.description>“邊緣核能”大型先進快中子增殖反應堆，可以產生比其所消耗的核燃料更多的核廢料。</ReactorCoreC.description>
+  <ReactorCoreC_Blueprint.label>大型快中子增殖反應堆(藍圖)</ReactorCoreC_Blueprint.label>
+  <ReactorCoreC_Frame.label>大型快中子增殖反應堆(建造中)</ReactorCoreC_Frame.label>
+  <ReactorCoreC_Frame.description>“邊緣核能”大型先進快中子增殖反應堆，可以產生比其所消耗的核燃料更多的核廢料。</ReactorCoreC_Frame.description>
 
 
   <!-- COOLING -->
@@ -45,10 +61,10 @@
   <Turbine_Frame.description>利用反應堆產生的蒸汽推動渦輪機發電。“雷神”的最大輸出功率為100KW。</Turbine_Frame.description>
 
   <BigTurbine.label>“宙斯”級渦輪機</BigTurbine.label>
-  <BigTurbine.description>利用反應堆產生的蒸汽推動渦輪機發電。“雷神”的最大輸出功率為1MW。</BigTurbine.description>
+  <BigTurbine.description>利用反應堆產生的蒸汽推動渦輪機發電。“宙斯”的最大輸出功率為1MW。</BigTurbine.description>
   <BigTurbine_Blueprint.label>“宙斯”級渦輪機(藍圖)</BigTurbine_Blueprint.label>
   <BigTurbine_Frame.label>“宙斯”級渦輪機(建造中)</BigTurbine_Frame.label>
-  <BigTurbine_Frame.description>利用反應堆產生的蒸汽推動渦輪機發電。“雷神”的最大輸出功率為1MW。</BigTurbine_Frame.description>
+  <BigTurbine_Frame.description>利用反應堆產生的蒸汽推動渦輪機發電。“宙斯”的最大輸出功率為1MW。</BigTurbine_Frame.description>
 
 
   <!-- TRANNY -->

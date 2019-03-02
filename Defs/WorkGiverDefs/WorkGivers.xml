@@ -1,18 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<WorkGivers>
+<Defs>
 
-
-  <!-- ============= Flicker ============= -->
-
-  <WorkGiverDef>
-    <defName>OperateValve</defName>
-    <label>operate valves</label>
-    <giverClass>Rimatomics.WorkGiver_OperateValve</giverClass>
-    <workType>Flicker</workType>
-    <verb>operate</verb>
-    <gerund>operating</gerund>
-    <priorityInType>1100</priorityInType>
-  </WorkGiverDef>
 
   <WorkGiverDef>
     <defName>LoadRailgunMagazine</defName>
@@ -28,13 +16,26 @@
   </WorkGiverDef>
 
   <WorkGiverDef>
+    <defName>LoadSilo</defName>
+    <label>Load Silo</label>
+    <giverClass>Rimatomics.WorkGiver_LoadSilo</giverClass>
+    <workType>Hauling</workType>
+    <verb>load</verb>
+    <gerund>loading</gerund>
+    <priorityInType>180</priorityInType>
+    <requiredCapacities>
+      <li>Manipulation</li>
+    </requiredCapacities>
+  </WorkGiverDef>
+
+  <WorkGiverDef>
     <defName>LoadFuelModule</defName>
-    <label>Load Fuel Module</label>
+    <label>Load Fuel</label>
     <giverClass>Rimatomics.WorkGiver_LoadFuelModule</giverClass>
     <workType>Hauling</workType>
-    <verb>install</verb>
-    <gerund>installing</gerund>
-    <priorityInType>180</priorityInType>
+    <verb>load fuel into</verb>
+    <gerund>loading fuel into</gerund>
+    <priorityInType>155</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
@@ -81,11 +82,11 @@
 
   <WorkGiverDef>
     <defName>RemoveFuelModule</defName>
-    <label>Remove Fuel Module</label>
+    <label>Remove Fuel</label>
     <giverClass>Rimatomics.WorkGiver_RemoveFuelModule</giverClass>
     <workType>Hauling</workType>
-    <verb>uninstall</verb>
-    <gerund>uninstalling</gerund>
+    <verb>remove fuel from</verb>
+    <gerund>removing fuel from</gerund>
     <priorityInType>140</priorityInType>
     <requiredCapacities>
       <li>Manipulation</li>
@@ -105,7 +106,7 @@
     </requiredCapacities>
   </WorkGiverDef>
 
-  <WorkGiverDef>
+  <!--<WorkGiverDef>
     <defName>RepairCore</defName>
     <label>repair core</label>
     <giverClass>Rimatomics.WorkGiver_RepairCore</giverClass>
@@ -116,7 +117,7 @@
     <requiredCapacities>
       <li>Manipulation</li>
     </requiredCapacities>
-  </WorkGiverDef>
+  </WorkGiverDef>-->
 
   <WorkGiverDef>
     <defName>DoBillsTableNuclear</defName>
@@ -166,4 +167,4 @@
   </WorkGiverDef>
 
 
-</WorkGivers>
+</Defs>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<LanguageData>
-    
-    <Radiation.label>Sensibilidad a la radiación</Radiation.label>
-    <Radiation.description>Multiplicador del impacto de la acumulación de radiación en este personaje.</Radiation.description>
-    
-</LanguageData>

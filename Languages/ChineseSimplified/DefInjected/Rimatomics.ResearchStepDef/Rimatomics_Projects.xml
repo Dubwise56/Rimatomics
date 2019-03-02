@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <Geigercounter1.StepLabel>电磁辐射探测理论(需要5级智识)</Geigercounter1.StepLabel>
+  <Geigercounter1.StepDesc>由高智识的殖民者研究辐射探测器的工作原理。</Geigercounter1.StepDesc>
+
+  <Geigercounter2.StepLabel>组件材料分析(需要5级手工)</Geigercounter2.StepLabel>
+  <Geigercounter2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作和维护所有殖民者的辐射探测器。</Geigercounter2.StepDesc>
+
+
+  <!-- /////////////// -->
+
+  <RadiationSuits1.StepLabel>辐射隔离理论(需要5级智识)</RadiationSuits1.StepLabel>
+  <RadiationSuits1.StepDesc>由高智识的殖民者研究适合隔离辐射的方法，设计制作方案。</RadiationSuits1.StepDesc>
+
+  <RadiationSuits2.StepLabel>组件材料分析(需要5级手工)</RadiationSuits2.StepLabel>
+  <RadiationSuits2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作供殖民者使用的防辐射服装。</RadiationSuits2.StepDesc>
+
+  <NuclearResearch1.StepLabel>研究用核反应堆原理(需要7级智识)</NuclearResearch1.StepLabel>
+  <NuclearResearch1.StepDesc>由高智识的殖民者研究核反应堆的工作原理，设计出简易的研究用核反应堆制作方案。</NuclearResearch1.StepDesc>
+
+  <NuclearResearch2.StepLabel>组件材料分析(需要10级手工)</NuclearResearch2.StepLabel>
+  <NuclearResearch2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作研究用核反应堆组件。</NuclearResearch2.StepDesc>
+
+  <NuclearResearch3.StepLabel>制定施工蓝图(需要10级建造)</NuclearResearch3.StepLabel>
+  <NuclearResearch3.StepDesc>由高建造的殖民者使用现有的工具制定建造研究用核反应堆的最终施工蓝图。</NuclearResearch3.StepDesc>
+
+  <NuclearResearch4.StepLabel>构建研究用核反应堆</NuclearResearch4.StepLabel>
+  <NuclearResearch4.StepDesc>建造一个可与边缘核能研究台连接的研究用核反应堆。</NuclearResearch4.StepDesc>
+
+  <NuclearResearch5.StepLabel>实验和观测(需要7级智识)</NuclearResearch5.StepLabel>
+  <NuclearResearch5.StepDesc>安装研究用核反应堆控制软件，利用研究用核反应堆进行实验并测试反应堆性能。</NuclearResearch5.StepDesc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <NuclearReactor1.StepLabel>核电站系统原理(需要7级智识)</NuclearReactor1.StepLabel>
+  <NuclearReactor1.StepDesc>由高智识的殖民者研究电站系统的工作原理，设计各个发电组件及其配套扩展方案。</NuclearReactor1.StepDesc>
+
+  <NuclearReactor2.StepLabel>组件材料分析(需要10级手工)</NuclearReactor2.StepLabel>
+  <NuclearReactor2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作核电系统的各个发电组件。</NuclearReactor2.StepDesc>
+
+  <NuclearReactor3.StepLabel>制定施工蓝图(需要10级建造)</NuclearReactor3.StepLabel>
+  <NuclearReactor3.StepDesc>由高建造的殖民者使用现有的工具制定建造核电系统的最终施工蓝图。</NuclearReactor3.StepDesc>
+
+  <NuclearReactor4.StepLabel>构建冷却系统</NuclearReactor4.StepLabel>
+  <NuclearReactor4.StepDesc>建造一套可用的冷却系统。水冷装置需要河流或大面积水域支持;干式冷却塔需要大量的供电和空间，并且必须建在室外;散热器冷却能力较小，但可以放置在室内用于加热。</NuclearReactor4.StepDesc>
+
+  <NuclearReactor5.StepLabel>构建涡轮机</NuclearReactor5.StepLabel>
+  <NuclearReactor5.StepDesc>建造一个涡轮机，涡轮机需要连通到冷却系统。建造涡轮机需要用到大量的涡轮叶片，可在边缘核能加工台制作。</NuclearReactor5.StepDesc>
+
+  <NuclearReactor6.StepLabel>连接冷却系统</NuclearReactor6.StepLabel>
+  <NuclearReactor6.StepDesc>使用冷却剂管道将冷却系统与涡轮机相连通。</NuclearReactor6.StepDesc>
+
+  <NuclearReactor7.StepLabel>构建轻水反应堆</NuclearReactor7.StepLabel>
+  <NuclearReactor7.StepDesc>建造轻水反应堆，分别用蒸汽导管和冷水导管将轻水反应堆与涡轮机相连通。强烈建议将轻水反应堆建在一个使用辐射屏障构建的室内，以保护殖民者在转移燃料的过程中遭受核辐射。反应堆组件可在边缘核能加工台制作。</NuclearReactor7.StepDesc>
+
+  <NuclearReactor8.StepLabel>构建高压变压器</NuclearReactor8.StepLabel>
+  <NuclearReactor8.StepDesc>建造高压变压器，并用高压电缆将高压变压器与涡轮机相连接。如果涡轮机的总功率超过连接到变压器的电力网当前使用量的150％，将导致电流过载引发电火花，并且可能发生变压器爆炸事故。</NuclearReactor8.StepDesc>
+
+  <NuclearReactor9.StepLabel>构建反应堆控制台</NuclearReactor9.StepLabel>
+  <NuclearReactor9.StepDesc>建造反应堆控制台，并用数据电缆将反应堆控制台与轻水反应堆相连接。此控制台用于控制轻水反应堆，控反应堆控制台可通过分配一个ID与轻水反应堆配对，从而可以互相串联多个轻水反应堆。反应堆控制台需要殖民者操控，多个控制台可以同时操控。</NuclearReactor9.StepDesc>
+
+  <NuclearReactor10.StepLabel>测试运行轻水反应堆</NuclearReactor10.StepLabel>
+  <NuclearReactor10.StepDesc>制作或购买核燃料棒，使用反应堆控制台将其装载到轻水反应堆堆芯中已指定用于装载的槽。至少需要并排装载两个核燃料棒才能引发链式反应，使用反应堆控制台启动轻水反应堆并将中子通量调高到100％以收集数据。</NuclearReactor10.StepDesc>
+
+  <Plutonium1.StepLabel>钚分离原理(需要10级智识)</Plutonium1.StepLabel>
+  <Plutonium1.StepDesc>由高智识的殖民者研究钚分离器的工作原理，设计钚分离器组件制作方案。</Plutonium1.StepDesc>
+
+  <Plutonium2.StepLabel>组件材料分析(需要12级手工)</Plutonium2.StepLabel>
+  <Plutonium2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作钚分离器组件。</Plutonium2.StepDesc>
+
+  <Plutonium3.StepLabel>制定施工蓝图(需要12级建造)</Plutonium3.StepLabel>
+  <Plutonium3.StepDesc>由高建造的殖民者使用现有的工具制定建造钚分离器的最终施工蓝图。</Plutonium3.StepDesc>
+
+  <Plutonium4.StepLabel>构建钚分离器</Plutonium4.StepLabel>
+  <Plutonium4.StepDesc>建造钚处理器，建议尽量缩短钚处理器与废弃燃料棒组件存放点的距离，以减少殖民者处理放射性燃料时暴露于核辐射中时间，当然防辐射套件是必须装备的。</Plutonium4.StepDesc>
+
+  <AdvReactor1.StepLabel>快中子增殖反应堆原理(需要7级智识)</AdvReactor1.StepLabel>
+  <AdvReactor1.StepDesc>由高智识的殖民者研究先进增殖反应堆的工作原理，设计快中子增殖反应堆组件的制作方案。</AdvReactor1.StepDesc>
+
+  <AdvReactor2.StepLabel>组件材料分析(需要10级手工)</AdvReactor2.StepLabel>
+  <AdvReactor2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作快中子增殖反应堆组件。</AdvReactor2.StepDesc>
+
+  <AdvReactor3.StepLabel>制定施工蓝图(需要10级建造)</AdvReactor3.StepLabel>
+  <AdvReactor3.StepDesc>由高建造的殖民者使用现有的工具制定建造快中子增殖反应堆的最终施工蓝图。</AdvReactor3.StepDesc>
+
+  <AdvReactor4.StepLabel>测试运行快中子增殖反应堆</AdvReactor4.StepLabel>
+  <AdvReactor4.StepDesc>建造功能齐全的快中子增殖反应堆，启动反应堆并收集数据。</AdvReactor4.StepDesc>
+
+  <RTG1.StepLabel>放射性同位素发电原理(需要11级智识)</RTG1.StepLabel>
+  <RTG1.StepDesc>由高智识的殖民者研究放射性同位素发电原理，设计放射性同位素发电机组件的制作方案。</RTG1.StepDesc>
+
+  <RTG2.StepLabel>组件材料分析(需要15级手工)</RTG2.StepLabel>
+  <RTG2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作放射性同位素发电机组件。</RTG2.StepDesc>
+
+  <RTG3.StepLabel>制定施工蓝图(需要15级建造)</RTG3.StepLabel>
+  <RTG3.StepDesc>由高建造的殖民者使用现有的工具制定建造放射性同位素发电机的最终施工蓝图。</RTG3.StepDesc>
+
+  <ICBM1.StepLabel>核裂变原理(需要10级智识)</ICBM1.StepLabel>
+  <ICBM1.StepDesc>由高智识的殖民者研究核裂变原理，设计洲际弹道导弹及其发射台组件的制作方案。</ICBM1.StepDesc>
+
+  <ICBM2.StepLabel>组件材料分析(需要13级手工)</ICBM2.StepLabel>
+  <ICBM2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作洲际弹道导弹及其发射台组件。</ICBM2.StepDesc>
+
+  <ICBM3.StepLabel>制定施工蓝图(需要13级建造)</ICBM3.StepLabel>
+  <ICBM3.StepDesc>由高建造的殖民者使用现有的工具制定建造洲际弹道导弹及其发射台的最终施工蓝图。</ICBM3.StepDesc>
+
+  <ICBM4.StepLabel>构建能量武器控制台</ICBM4.StepLabel>
+  <ICBM4.StepDesc>建造能量武器控制台，用于探测目标和操控能量武器的智能计算机，它通过电网连接“边缘核能”系列能量武器，能量武器控制台使用警戒雷达检测敌对目标，主显示器具有对实时地面和空中目标的跟踪功能，脉冲电池容量计显示电网上存储的脉冲电池总能量。</ICBM4.StepDesc>
+
+  <ICBM5.StepLabel>构建警戒雷达</ICBM5.StepLabel>
+  <ICBM5.StepDesc>建造警戒雷达，此设备采用一系列先进技术来跟踪地面和空中目标，目标包括生物或机器人个体，迫击炮弹或磁轨炮弹等炮弹，以及弹道导弹。</ICBM5.StepDesc>
+
+  <ICBM6.StepLabel>构建导弹发射井</ICBM6.StepLabel>
+  <ICBM6.StepDesc>建造导弹发射台，必须通过电网连接到能量武器控制台来控制导弹发射系统。</ICBM6.StepDesc>
+
+  <ICBM7.StepLabel>收集武器数据</ICBM7.StepLabel>
+  <ICBM7.StepDesc>使用洲际弹道导弹打击任何目标并收集数据，分析发射是否成功，是否成功引爆目标，是否造成最大破坏。</ICBM7.StepDesc>
+
+  <EnergyWeapons1.StepLabel>能量武器原理(需要5级智识)</EnergyWeapons1.StepLabel>
+  <EnergyWeapons1.StepDesc>由高智识的殖民者研究“边缘核能”系列的能量武器的原理，为进一步研究能量武器的制造做铺垫。</EnergyWeapons1.StepDesc>
+
+  <EnergyWeapons2.StepLabel>组件材料分析(需要5级手工)</EnergyWeapons2.StepLabel>
+  <EnergyWeapons2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作能量武器基础设备。</EnergyWeapons2.StepDesc>
+
+  <EnergyWeapons3.StepLabel>制定施工蓝图(需要5级建造)</EnergyWeapons3.StepLabel>
+  <EnergyWeapons3.StepDesc>由高建造的殖民者使用现有的工具制定建造能量武器基础设备的最终施工蓝图。</EnergyWeapons3.StepDesc>
+
+  <EnergyWeapons4.StepLabel>构建能量武器实验台</EnergyWeapons4.StepLabel>
+  <EnergyWeapons4.StepDesc>建造能量武器实验台，实验台配备专门的设备，用于原型设计和测试各种能量武器，这是大多数能量武器研究和测试所必需的设施。</EnergyWeapons4.StepDesc>
+
+  <EnergyWeapons5.StepLabel>构建能量武器控制台</EnergyWeapons5.StepLabel>
+  <EnergyWeapons5.StepDesc>建造能量武器控制台，用于探测目标和操控能量武器的智能计算机，它通过电网连接“边缘核能”系列能量武器，能量武器控制台使用警戒雷达检测敌对目标，主显示器具有对实时地面和空中目标的跟踪功能，脉冲电池容量计显示电网上存储的脉冲电池总能量。</EnergyWeapons5.StepDesc>
+
+  <EnergyWeapons6.StepLabel>构建警戒雷达</EnergyWeapons6.StepLabel>
+  <EnergyWeapons6.StepDesc>建造警戒雷达，警戒雷达采用了一系列先进技术来追踪地面和空中目标，可与“边缘核能”武器系统配合追踪包括动物、机器人、炮弹和导弹等在内的目标。</EnergyWeapons6.StepDesc>
+
+  <EnergyWeapons7.StepLabel>构建脉冲电池</EnergyWeapons7.StepLabel>
+  <EnergyWeapons7.StepDesc>构建脉冲电力集装并将其与能量武器控制台连接到同一个电力网络，对脉冲电池进行充电并使用能量武器控制台来测试所有系统是否正常工作。这些超级电池比标准电池效率高得多，旨在应对“边缘核能”系列能量武器所需的高强度电能消耗。脉冲电池安装在防水容器中，并且像标准电池一样利用电网多余的电量进行充电，建议将其与标准电池隔离以提高效率，如果电网出现短路，脉冲电池为了安全起见将快速耗尽其所储存的电能。</EnergyWeapons7.StepDesc>
+
+
+  <!-- ADS -->
+
+  <ADS1.StepLabel>主动驱敌系统原理(需要5级智识)</ADS1.StepLabel>
+  <ADS1.StepDesc>由高智识的殖民者研究主动驱敌系统原理，设计主动驱敌系统组件的制作方案。</ADS1.StepDesc>
+
+  <ADS2.StepLabel>组件材料分析(需要5级手工)</ADS2.StepLabel>
+  <ADS2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作主动驱敌系统组件。</ADS2.StepDesc>
+
+  <ADS3.StepLabel>制定施工蓝图(需要5级建造)</ADS3.StepLabel>
+  <ADS3.StepDesc>由高建造的殖民者使用现有的工具制定建造主动驱敌系统的最终施工蓝图。</ADS3.StepDesc>
+
+  <ADS4.StepLabel>构建主动驱敌系统原型</ADS4.StepLabel>
+  <ADS4.StepDesc>建造主动驱敌系统原型机，需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</ADS4.StepDesc>
+
+  <ADS5.StepLabel>收集武器数据</ADS5.StepLabel>
+  <ADS5.StepDesc>使用主动驱敌系统对任何活动目标开火以收集武器数据并测试性能。</ADS5.StepDesc>
+
+
+  <!-- Tesla Coil -->
+
+  <TeslaCoil1.StepLabel>磁暴线圈原理(需要6级智识)</TeslaCoil1.StepLabel>
+  <TeslaCoil1.StepDesc>由高智识的殖民者研究磁暴线圈原理，设计磁暴线圈组件的制作方案。</TeslaCoil1.StepDesc>
+
+  <TeslaCoil2.StepLabel>组件材料分析(需要6级手工)</TeslaCoil2.StepLabel>
+  <TeslaCoil2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作磁暴线圈组件。</TeslaCoil2.StepDesc>
+
+  <TeslaCoil3.StepLabel>制定施工蓝图(需要6级建造)</TeslaCoil3.StepLabel>
+  <TeslaCoil3.StepDesc>由高建造的殖民者使用现有的工具制定建造磁暴线圈的最终施工蓝图。</TeslaCoil3.StepDesc>
+
+  <TeslaCoil4.StepLabel>构建磁暴线圈原型</TeslaCoil4.StepLabel>
+  <TeslaCoil4.StepDesc>建造磁暴线圈原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。</TeslaCoil4.StepDesc>
+
+  <TeslaCoil5.StepLabel>收集武器数据</TeslaCoil5.StepLabel>
+  <TeslaCoil5.StepDesc>使用磁暴线圈对任何活动目标开火以收集武器数据并测试性能。</TeslaCoil5.StepDesc>
+
+
+  <!-- HEL -->
+
+  <HEL1.StepLabel>激光点防御原理(需要8级智识)</HEL1.StepLabel>
+  <HEL1.StepDesc>由高智识的殖民者研究激光点防御原理，设计激光点防御的制作方案。</HEL1.StepDesc>
+
+  <HEL2.StepLabel>组件材料分析(需要12级手工)</HEL2.StepLabel>
+  <HEL2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作激光点防御组件。</HEL2.StepDesc>
+
+  <HEL3.StepLabel>制定施工蓝图(需要12级建造)</HEL3.StepLabel>
+  <HEL3.StepDesc>由高建造的殖民者使用现有的工具制定建造激光点防御的最终施工蓝图。</HEL3.StepDesc>
+
+  <HEL4.StepLabel>构建激光点防御原型</HEL4.StepLabel>
+  <HEL4.StepDesc>建造激光点防御原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。</HEL4.StepDesc>
+
+  <HEL5.StepLabel>收集武器数据</HEL5.StepLabel>
+  <HEL5.StepDesc>使用激光点防御尝试击落炮弹以收集武器数据，你可以使用能武器控制台改变其攻击目标以拦截友方的炮弹。</HEL5.StepDesc>
+
+
+  <!-- /////////////////////////////////////////////////////// -->
+
+  <Railgun1.StepLabel>磁轨炮原理(需要12级智识)</Railgun1.StepLabel>
+  <Railgun1.StepDesc>由高智识的殖民者研究磁轨炮原理，设计磁轨炮的制作方案。</Railgun1.StepDesc>
+
+  <Railgun2.StepLabel>组件材料分析(需要15级手工)</Railgun2.StepLabel>
+  <Railgun2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作磁轨炮组件。</Railgun2.StepDesc>
+
+  <Railgun3.StepLabel>制定施工蓝图(需要15级建造)</Railgun3.StepLabel>
+  <Railgun3.StepDesc>由高建造的殖民者使用现有的工具制定建造磁轨炮的最终施工蓝图。</Railgun3.StepDesc>
+
+  <Railgun4.StepLabel>构建磁轨炮原型</Railgun4.StepLabel>
+  <Railgun4.StepDesc>建造磁轨炮原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵、脉冲电池供能和警戒雷达定位。</Railgun4.StepDesc>
+
+  <Railgun5.StepLabel>收集武器数据</Railgun5.StepLabel>
+  <Railgun5.StepDesc>使用磁轨炮对任何目标开火以收集武器数据并测试性能。</Railgun5.StepDesc>
+
+  <Obelisk1.StepLabel>光棱塔原理(需要15级智识)</Obelisk1.StepLabel>
+  <Obelisk1.StepDesc>由高智识的殖民者研究光棱塔原理，设计光棱塔的制作方案。</Obelisk1.StepDesc>
+
+  <Obelisk2.StepLabel>组件材料分析(需要18级手工)</Obelisk2.StepLabel>
+  <Obelisk2.StepDesc>由高手工的殖民者利用现有的的资源和工具来确定如何制作光棱塔组件。</Obelisk2.StepDesc>
+
+  <Obelisk3.StepLabel>制定施工蓝图(需要18级建造)</Obelisk3.StepLabel>
+  <Obelisk3.StepDesc>由高建造的殖民者使用现有的工具制定建造光棱塔的最终施工蓝图。</Obelisk3.StepDesc>
+
+  <Obelisk4.StepLabel>构建光棱塔原型</Obelisk4.StepLabel>
+  <Obelisk4.StepDesc>建造光棱塔原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。</Obelisk4.StepDesc>
+
+  <Obelisk5.StepLabel>收集武器数据</Obelisk5.StepLabel>
+  <Obelisk5.StepDesc>使用光棱塔对任何活动目标开火以收集武器数据并测试性能。</Obelisk5.StepDesc>
+
+
+</LanguageData>
