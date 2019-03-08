@@ -302,7 +302,7 @@
     <canOverlapZones>false</canOverlapZones>
 		<castEdgeShadows>true</castEdgeShadows>
 		<fillPercent>1</fillPercent>
-    <tickerType>Rare</tickerType>
+    <tickerType>Normal</tickerType>
 		<blockLight>false</blockLight>
 		<staticSunShadowHeight>0.35</staticSunShadowHeight>
 		<statBases>

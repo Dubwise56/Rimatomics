@@ -450,7 +450,7 @@
     <defName>Obelisk5</defName>
     <PointCost>50</PointCost>
     <label>Gather weapons data</label>
-    <description>Test fire the Obelisk on any living targets to collect data, the amount of data obtained scales based on the power used for each burst</description>
+    <description>Test fire the Obelisk on any targets to collect data</description>
     <GatherDataFor>PPCObelisk</GatherDataFor>
   </Def>
 

@@ -210,7 +210,7 @@
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>BuildReactorCore</defName>
     <label>Build a reactor core</label>
-    <description>Build a nuclear reactor core. It is highly recommended that the core be built in a shielded containment room to protect colonists during fuel transfer.</description>
+    <description>Build a nuclear reactor core (note that once the frame is complete more work must be done to finish constructing the core). It is highly recommended that the core be built in a containment room to protect colonists during fuel transfer. The thickness of the wall and HP of the materials used determines how much radiation is absorbed, we advise leaving space around the core as the frequency of radiation damage also decreases over distance.</description>
     <PointCost>1000</PointCost>
     <WorkType>Construction</WorkType>
     <SkillLevel>7</SkillLevel>

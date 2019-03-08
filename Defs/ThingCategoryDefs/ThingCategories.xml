@@ -2,33 +2,33 @@
 <Defs>
 
   <ThingCategoryDef>
-    <defName>Nuclear</defName>
+    <defName>BuildingsNuclear</defName>
     <label>nuclear</label>
-    <parent>Root</parent>
+    <parent>Buildings</parent>
   </ThingCategoryDef>
 
   <ThingCategoryDef>
     <defName>NuclearWaste</defName> 
     <label>nuclear waste</label>
-    <parent>Nuclear</parent>
+    <parent>Root</parent>
   </ThingCategoryDef>
 
   <ThingCategoryDef>
     <defName>NuclearFuel</defName>
     <label>nuclear fuel</label>
-    <parent>Nuclear</parent>
+    <parent>Manufactured</parent>
   </ThingCategoryDef>
 
   <ThingCategoryDef>
     <defName>RimatomicsProduct</defName>
     <label>Rimatomics Product</label>
-    <parent>Nuclear</parent>
+    <parent>Manufactured</parent>
   </ThingCategoryDef>
   
   <ThingCategoryDef>
     <defName>SabotRounds</defName>
     <label>Sabot Rounds</label>
-    <parent>RimatomicsProduct</parent>
+    <parent>Manufactured</parent>
   </ThingCategoryDef>
   
   <ThingCategoryDef>

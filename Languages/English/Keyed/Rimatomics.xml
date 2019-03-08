@@ -25,8 +25,10 @@
 
   <PodsScrambledOK>Enemy drop pods scrambled by TACS</PodsScrambledOK>
   <PodsScrambledDesc>The enemy drop pod guidance systems were scrambled by the TACS using a {0}kw pulse</PodsScrambledDesc>
+  <PodsScrambledFail>Failed to scramble enemy drop pods</PodsScrambledFail>
+  <PodsScrambledFailDesc>The {0}kw pulse required to scramble this raid was not available</PodsScrambledFailDesc>
   <ScrambleDropPods>Scramble Drop Pods</ScrambleDropPods>
-  <ScrambleDropPodsDesc>Use a large pulse of energy from PPC's to scramble the guidance systems of incoming enemy drop pods</ScrambleDropPodsDesc>
+  <ScrambleDropPodsDesc>Prevent raiders landing in the center of the map by using a large pulse of energy from connected PPC's to scramble the guidance systems of incoming drop pods</ScrambleDropPodsDesc>
 
   <!--CONSOLE-->
   <Dragtoincreasefluxlevel>Drag to increase flux level</Dragtoincreasefluxlevel>
@@ -63,6 +65,7 @@
   <NoChemfuel>No chemfuel</NoChemfuel>
 
   <!--ENERGY WEAPONS-->
+  <VeteranBonus>  Bonus: Cooldown -{0}%</VeteranBonus>
   <AnUnknownForce>an unknown force</AnUnknownForce>
   <ATOMattackGround>via land</ATOMattackGround>
   <ATOMattackPods>via drop pods</ATOMattackPods>
