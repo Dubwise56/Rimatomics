@@ -998,7 +998,7 @@
       <speed>200</speed>
       <stoppingPower>1.5</stoppingPower>
       <explosionRadius>2.7</explosionRadius>
-      <flyOverhead>false</flyOverhead>
+      <flyOverhead>true</flyOverhead>
       <soundExplode>MortarBomb_Explode</soundExplode>
     </projectile>
   </ThingDef>
