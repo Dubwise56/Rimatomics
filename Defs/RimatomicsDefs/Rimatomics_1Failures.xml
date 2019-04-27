@@ -34,7 +34,7 @@
   <Def Class="Rimatomics.RimatomicsFailureDef">
     <defName>Failure_BlindingFlash</defName>
     <label>Blinding Flash</label>
-    <description>A blinding flash of light has eminated from the facility</description>
+    <description>A blinding flash of light has emanated from the facility</description>
   </Def>
   
   <Def Class="Rimatomics.RimatomicsFailureDef">
@@ -58,7 +58,7 @@
   <Def Class="Rimatomics.RimatomicsFailureDef">
     <defName>Failure_ShortCircuit</defName>
     <label>Short Circuit</label>
-    <description>The facility has short circuited, switch off the power immediately or the building will be destroyed!</description>
+    <description>The facility has short-circuited. Switch off the power immediately or the building will be destroyed!</description>
   </Def>
 
 </Defs>
