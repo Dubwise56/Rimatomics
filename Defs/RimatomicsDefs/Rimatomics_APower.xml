@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
+  <!--Radiation detectors-->
 
   <Def Class="Rimatomics.RimatomicResearchDef">
     <defName>Geigercounter</defName>
@@ -40,15 +40,13 @@
     </Unlocks>
   </Def>
 
-
-  <!--///////////////-->
-
+  <!--Radiation suits-->
 
   <Def Class="Rimatomics.RimatomicResearchDef">
     <defName>RadSuits</defName>
     <ResearchLabel>Radiation suits</ResearchLabel>
     <ProjTypeLabel>Apparel</ProjTypeLabel>
-    <ResearchDesc>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas.</ResearchDesc>
+    <ResearchDesc>Protect your colonists from radiation with shielded clothing. More importantly, radiation suits prevent direct contact with or inhalation of radioactive particles or gas.</ResearchDesc>
     <ResearchDescDisc>You can now produce your own radiation suits and MOPP suits at a Rimatomics Machining Table.</ResearchDescDisc>
     <price>250</price>
     <Screenshot>Rimatomics/Research/RadSuits</Screenshot>
@@ -64,7 +62,7 @@
     <defName>RadiationSuits1</defName>
     <PointCost>350</PointCost>
     <label>Research radiation suits</label>
-    <description>A skilled researcher needs to study the designs and learn how the radiation suits work before we can start making our own</description>
+    <description>A skilled researcher needs to study the designs and learn how the radiation suits work before we can start making our own.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>5</SkillLevel>
   </Def>
@@ -73,7 +71,7 @@
     <defName>RadiationSuits2</defName>
     <PointCost>350</PointCost>
     <label>Evaluate components</label>
-    <description>A skilled crafter needs to draw up plans for tailoring radiation suits using the resources and tools available to us</description>
+    <description>A skilled crafter needs to draw up plans for tailoring radiation suits using the resources and tools available to us.</description>
     <WorkType>Crafting</WorkType>
     <SkillLevel>5</SkillLevel>
     <RecipeUnlocks>
@@ -88,11 +86,7 @@
     </RecipeUnlocks>
   </Def>
 
-
-
-  <!--///////////////-->
-
-
+  <!--Nuclear research-->
 
   <Def Class="Rimatomics.RimatomicResearchDef">
     <defName>NuclearResearch</defName>
@@ -143,9 +137,7 @@
     </FacilityFailures>
   </Def>
 
-  
-  <!--///////////////////////////////////////////////////////-->
-
+  <!--Nuclear reactor-->
 
   <Def Class="Rimatomics.RimatomicResearchDef">
     <defName>NuclearReactor</defName>
@@ -170,7 +162,7 @@
       <li>NuclearResearch</li>
     </prerequisites>
   </Def>
-  
+
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>NuclearReactorResearchPhase</defName>
     <PointCost>1000</PointCost>
@@ -179,7 +171,7 @@
     <WorkType>Research</WorkType>
     <SkillLevel>7</SkillLevel>
   </Def>
-  
+
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>NuclearReactorExperiments</defName>
     <PointCost>1500</PointCost>
@@ -244,7 +236,7 @@
   <Def Class="Rimatomics.TestForCore">
     <defName>TestForCore</defName>
     <label>Connect the reactor to the turbine</label>
-    <description>Connect the reactor core to the turbine generator by constructing a (Steam pipe), and (Cold water pipe) between the them. Turbines are not dangerous and can be built outside of shielded containment rooms, but must be indoors.</description>
+    <description>Connect the reactor core to the turbine generator by constructing a (Steam pipe), and (Cold water pipe) between them. Turbines are not dangerous, and can be built outside of shielded containment rooms, but must be indoors.</description>
     <Unlocks>
       <li>coolingPipe</li>
       <li>coolantValve</li>
@@ -252,8 +244,8 @@
       <li>CoolingWater</li>
       <li>CoolingRadiator</li>
     </Unlocks>
-  </Def>      
-  
+  </Def>
+
   <Def Class="Rimatomics.TestForCoolingSystem">
     <defName>BuildReactorCooling</defName>
     <label>Build a cooling system</label>
@@ -283,7 +275,7 @@
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>TestReactor</defName>
     <label>Test the nuclear reactor</label>
-    <description>Construct or purchase nuclear fuel rods and load them into the reactor core using the reactor console to designate slots for loading. Load at least 2 fuel assemblies side-by-side to create a chain, use the reactor console to start the core, and then raise the control rods to 8% or higher to start gathering data.</description>
+    <description>Construct or purchase nuclear fuel rods and load them into the reactor core using the reactor console to designate slots for loading. Load at least two fuel assemblies side-by-side to create a chain, use the reactor console to start the core, and then raise the control rods to 8% or higher to start gathering data.</description>
     <PointCost>200</PointCost>
     <GatherDataFor>PrototypeFluxTest</GatherDataFor>
     <Unlocks>
@@ -293,15 +285,13 @@
     </Unlocks>
   </Def>
 
-
-  <!--///////////////////////////////////////////////////////-->
-
+  <!--Fuel reprocessing-->
 
   <Def Class="Rimatomics.RimatomicResearchDef">
     <defName>Plutonium</defName>
     <ResearchLabel>Fuel reprocessing</ResearchLabel>
     <ProjTypeLabel>Production</ProjTypeLabel>
-    <ResearchDesc>Plutonium is produced within used nuclear fuel can be processed and used to create MOX fuel, Radioisotope thermoelectric generators, and nuclear weapons. The process requires chemfuel and produces drums of depleted uranium and nuclear waste.</ResearchDesc>
+    <ResearchDesc>Plutonium is produced within used nuclear fuel. Used fuel can be reprocessed to extract this plutonium to create MOX fuel, radioisotope thermoelectric generators, and nuclear weapons. The process requires chemfuel and produces drums of depleted uranium and nuclear waste.</ResearchDesc>
     <ResearchDescDisc>You can now reprocess spent nuclear fuel.\n\nThe amount of material that will result from reprocessing is based on the conversion ratio stat of the fuel, with a maximum of 0.6x using normal reactors, and 1.2x using upgraded breeder reactors. This stat can be viewed by rolling over fuel slots in the reactor console.\n\nThe process of loading used fuel into the processor will require protective radiation suits, and shielding from the rest of the colony. Plutonium is stored in a protective case which is safe to handle.</ResearchDescDisc>
     <price>2500</price>
     <Screenshot>Rimatomics/Research/plutonium</Screenshot>
@@ -315,14 +305,12 @@
       <li>NuclearReactor</li>
     </prerequisites>
   </Def>
-  
 
-  
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>Plutonium1</defName>
     <PointCost>2000</PointCost>
     <label>Research plutonium processing</label>
-    <description>A skilled researcher needs to study how plutonium processing works, and finalize designs for a prototype fuel processing facility</description>
+    <description>A skilled researcher needs to study how plutonium processing works, and finalize designs for a prototype fuel reprocessing facility.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <Unlocks>
@@ -333,17 +321,17 @@
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>Plutonium2</defName>
     <label>Construct a Plutonium Processor</label>
-    <description>Construct a Plutonium Processor, it is advised that you locate the plutonium processor a short distance from reactors or spent fuel storage, to reduce the duration of exposure while handling the radioactive fuel, radiation suits will be required for workers</description>
+    <description>Construct a Plutonium Processor. To reduce the duration of exposure while handling radioactive fuel, it is advised that you locate the plutonium processor a short distance from reactors or spent fuel storage. Radiation suits will be required for workers that are moving radioactive fuel.</description>
     <RequiredThings>
       <li>PlutoniumProcessor</li>
     </RequiredThings>
   </Def>
-  
+
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>Plutonium3</defName>
     <PointCost>3000</PointCost>
     <label>Experiment with the plutonium processor (High Risk)</label>
-    <description>Experiment with the prototype plutonium processor, ensuring that it is functioning correctly</description>
+    <description>Experiment with the prototype plutonium processor, ensuring that it is functioning correctly.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <ResearchBuildingToUse>PlutoniumProcessor</ResearchBuildingToUse>
@@ -356,18 +344,14 @@
     </FacilityFailures>
   </Def>
 
-
-
-
-  <!--///////////////////////////////////////////////////////-->
-
+  <!--Advanced nuclear power-->
 
   <Def Class="Rimatomics.RimatomicResearchDef">
     <defName>AdvReactor</defName>
     <ResearchLabel>Advanced Nuclear Power</ResearchLabel>
     <ProjTypeLabel>Power</ProjTypeLabel>
-    <ResearchDesc>Advanced breeder reactor that can generate more fissile material than it consumes, and the Zeus turbine generator capable of generating 1MW of power.</ResearchDesc>
-    <ResearchDescDisc>You can build advanced reactors and the zeus turbine</ResearchDescDisc>
+    <ResearchDesc>Research breeder reactors that can generate more fissile material than they consume, and the Zeus turbine generator, which is capable of generating up to 1MW of power.</ResearchDesc>
+    <ResearchDescDisc>You can build advanced reactors and the Zeus turbine.</ResearchDescDisc>
     <price>2500</price>
     <Screenshot>Rimatomics/Research/breeder</Screenshot>
     <previewImageURL>Rimatomics/Things/RimatomicsBuildings/CoreB</previewImageURL>
@@ -386,7 +370,7 @@
     <defName>AdvReactor1</defName>
     <PointCost>2000</PointCost>
     <label>Experiment with research reactors (High Risk)</label>
-    <description>A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures</description>
+    <description>A skilled researcher needs to experiment with the research reactor. This step has a chance for catastrophic failures!</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <ResearchBuildingToUse>ResearchReactor</ResearchBuildingToUse>
@@ -398,12 +382,12 @@
       <li>Failure_Overvoltage</li>
     </FacilityFailures>
   </Def>
-  
+
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>AdvReactor2</defName>
     <PointCost>1500</PointCost>
     <label>Research nuclear reactors</label>
-    <description>A skilled researcher needs to finalize the design of the advanced reactors ready for construction</description>
+    <description>A skilled researcher needs to finalize the design of the advanced reactors before they are ready for construction.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <Unlocks>
@@ -440,14 +424,14 @@
   </Def>
 
 
-  <!--///////////////////////////////////////////////////////-->
+  <!--RTG-->
 
   <Def Class="Rimatomics.RimatomicResearchDef">
     <defName>RTG</defName>
     <ResearchLabel>RTG</ResearchLabel>
     <ProjTypeLabel>Power</ProjTypeLabel>
-    <ResearchDesc>A Radioisotope Thermoelectric Generator (RTG) is portable electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity by the Seebeck effect. This generator has no moving parts</ResearchDesc>
-    <ResearchDescDisc>RTG's can be reinstalled when built and provide 1200w of constant power, if an RTG is damaged it will leak radiation!</ResearchDescDisc>
+    <ResearchDesc>A Radioisotope Thermoelectric Generator (RTG) is portable electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity by the Seebeck effect. This generator has no moving parts.</ResearchDesc>
+    <ResearchDescDisc>RTGs can be reinstalled after being built and provide 1200w of constant power. Warning: if an RTG is damaged it will leak radiation!</ResearchDescDisc>
     <price>1250</price>
     <Screenshot>Rimatomics/Research/rtg</Screenshot>
     <previewImageURL>Rimatomics/Things/RimatomicsBuildings/RTG</previewImageURL>
@@ -464,16 +448,16 @@
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>RTG1</defName>
     <PointCost>1000</PointCost>
-    <label>Research R.T.G's</label>
-    <description>A skilled researcher needs to study the designs and learn how Radioisotope Thermoelectric Generators work before we can start making our own</description>
+    <label>Research RTGs</label>
+    <description>A skilled researcher needs to study the designs and learn how Radioisotope Thermoelectric Generators work before we can start making our own.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
   </Def>
-  
+
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>RTG2</defName>
     <label>Create plutonium</label>
-    <description>Create some plutonium which is required to make an RTG, to do this spent nuclear fuel from a reactor must be processed in a plutonium processor</description>
+    <description>Create some plutonium, which is required to make an RTG. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.</description>
     <RequiredThings>
       <li>Plutonium</li>
     </RequiredThings>
@@ -483,7 +467,7 @@
     <defName>RTG3</defName>
     <PointCost>2000</PointCost>
     <label>Evaluate components</label>
-    <description>A skilled crafter needs to plan how we can make the components required for a Radioisotope Thermoelectric Generator from the resources available to us</description>
+    <description>A skilled crafter needs to plan how we can make the components required for a Radioisotope Thermoelectric Generator from the resources available to us.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <ResearchBuildingToUse>ResearchReactor</ResearchBuildingToUse>
@@ -496,14 +480,14 @@
     </Unlocks>
   </Def>
 
-
+  <!--ICBM-->
 
   <Def Class="Rimatomics.RimatomicResearchDef">
     <defName>ICBM</defName>
     <ResearchLabel>Liberator</ResearchLabel>
     <ProjTypeLabel>Super Weapon</ProjTypeLabel>
-    <ResearchDesc>The RA-1776b Liberator is a self contained all-in-one strategic missile manufacturing and launching facility with a 5 missile magazine. Requires plutonium created by nuclear reactors</ResearchDesc>
-    <ResearchDescDisc>You may now stockpile nuclear arms</ResearchDescDisc>
+    <ResearchDesc>The RA-1776b Liberator is a self-contained, all-in-one strategic missile manufacturing and launching facility with a five missile magazine. Requires plutonium that has been reprocessed from spent nuclear fuel.</ResearchDesc>
+    <ResearchDescDisc>You may now stockpile nuclear arms.</ResearchDescDisc>
     <price>6000</price>
     <Screenshot>Rimatomics/Research/icbm</Screenshot>
     <previewImageURL>Rimatomics/Things/Projectile/icbm</previewImageURL>
@@ -525,7 +509,7 @@
     <defName>ICBM1</defName>
     <PointCost>1500</PointCost>
     <label>Research nuclear weapons</label>
-    <description>A skilled researcher needs to study the designs and learn how nuclear weapons work before we can start making our own</description>
+    <description>A skilled researcher needs to study the designs and learn how nuclear weapons work before we can start making our own.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>7</SkillLevel>
   </Def>
@@ -533,7 +517,7 @@
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>ICBM2</defName>
     <label>Create plutonium</label>
-    <description>Create some plutonium which is required to make a bomb, to do this spent nuclear fuel from a reactor must be processed in a plutonium processor</description>
+    <description>Create some plutonium, which is required to make a bomb. To do this, spent nuclear fuel from a reactor must be processed in a plutonium processor.</description>
     <RequiredThings>
       <li>Plutonium</li>
     </RequiredThings>
@@ -543,7 +527,7 @@
     <defName>ICBM3</defName>
     <PointCost>1000</PointCost>
     <label>Experiment with the research reactor</label>
-    <description>Experiment with the research reactor to gain a greater understanding of nuclear physics before we attempt to build a weapon</description>
+    <description>Experiment with the research reactor to gain a greater understanding of nuclear physics before we attempt to build a weapon.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>7</SkillLevel>
     <ResearchBuildingToUse>ResearchReactor</ResearchBuildingToUse>
@@ -560,8 +544,8 @@
 
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>ICBM4</defName>
-    <label>Construct a Weapons console</label>
-    <description>Construct a weapons console, the Weapons Console is a manned target acquisition computer required by all energy weapons, it networks to any Rimatomics energy weapons that share the same power net, then detects enemies using the onboard sensors of the weapons and the Target Acquisition System to assign targets. The main display features real time ground and air target tracking and a PPC capacity gauge displays the total stored PPC energy on the net</description>
+    <label>Construct a weapons console</label>
+    <description>Construct a weapons console. The weapons console is a manned target acquisition computer required by all energy weapons. It networks to any Rimatomics energy weapons that share the same power net, then detects enemies using the onboard sensors of the weapons and the Target Acquisition System to assign targets. The main display features real-time ground and air target tracking, and a PPC capacity gauge displays the total stored PPC energy on the net.</description>
     <RequiredThings>
       <li>PPCWeaponsConsole</li>
     </RequiredThings>
@@ -570,7 +554,7 @@
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>ICBM5</defName>
     <label>Construct a Target Acquisition and Communications System (TACS)</label>
-    <description>Construct a TACS. The system uses a combination of technologies to track land and air based targets, this includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long range tracking of ballistic missiles</description>
+    <description>Construct a TACS. The system uses a combination of technologies to track land- and air-based targets. This includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long-range tracking of ballistic missiles.</description>
     <RequiredThings>
       <li>RadarDish</li>
     </RequiredThings>
@@ -582,7 +566,7 @@
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>ICBM6</defName>
     <label>Construct a Liberator</label>
-    <description>Construct a Liberator, it must be connected via power conduit to a weapons console to control the launch systems</description>
+    <description>Construct a Liberator. It must be connected via power conduit to a weapons console to control the launch systems.</description>
     <RequiredThings>
       <li>MissileSilo</li>
     </RequiredThings>
@@ -592,11 +576,8 @@
     <defName>ICBM7</defName>
     <PointCost>100</PointCost>
     <label>Gather weapons data</label>
-    <description>Launch a strategic missile at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum</description>
+    <description>Launch a strategic missile at any target to gather data. The amount of data gathered depends on the success of the launch, with a successful detonation on the target giving the maximum amount of data.</description>
     <GatherDataFor>ICBMfission</GatherDataFor>
   </Def>
 
-  <!--///////////////////////////////////////////////////////-->
-  
-  
 </Defs>

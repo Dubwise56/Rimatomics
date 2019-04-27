@@ -1,7 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
-  
+
   <EffecterDef>
     <defName>RimatomicsResearchEffect</defName>
     <children>
@@ -21,7 +20,7 @@
       </li>
     </children>
   </EffecterDef>
-  
+
   <EffecterDef>
     <defName>RimatomicsConstructDrill</defName>
     <children>
@@ -99,7 +98,6 @@
     </children>
   </EffecterDef>
 
-  
   <ThingDef ParentName="MoteBase">
     <defName>Mote_WeldSparkThrown</defName>
     <graphicData>
@@ -115,8 +113,6 @@
       <collide>true</collide>
     </mote>
   </ThingDef>
-  
-  
 
   <ThingDef ParentName="MoteBase">
     <defName>Mote_MeltdownFlash</defName>
@@ -133,8 +129,8 @@
       <fadeOutTime>2</fadeOutTime>
     </mote>
   </ThingDef>
-  
-    <ThingDef ParentName="MoteBase">
+
+  <ThingDef ParentName="MoteBase">
     <defName>Mote_FireGlowRocket</defName>
     <graphicData>
       <texPath>Things/Mote/FireGlow</texPath>
@@ -147,8 +143,8 @@
       <fadeOutTime>0.8</fadeOutTime>
     </mote>
   </ThingDef>
-  
-    <ThingDef ParentName="MoteBase">
+
+  <ThingDef ParentName="MoteBase">
     <defName>Mote_SmokeRocket</defName>
     <graphicData>
       <texPath>Things/Mote/Smoke</texPath>
@@ -161,7 +157,6 @@
       <growthRate>0.005</growthRate>
     </mote>
   </ThingDef>
-
 
   <ThingDef ParentName="MoteBase">
     <defName>Mote_Upgraded</defName>
