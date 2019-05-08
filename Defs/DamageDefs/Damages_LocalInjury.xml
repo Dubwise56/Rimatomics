@@ -4,7 +4,7 @@
   <DamageDef>
     <defName>CoreBlast</defName>
     <label>CoreBlast</label>
-	  <workerClass>DamageWorker_Flame</workerClass>
+    <workerClass>DamageWorker_Flame</workerClass>
     <externalViolence>true</externalViolence>
     <isExplosive>true</isExplosive>
     <deathMessage>{0} has died in an explosion.</deathMessage>

@@ -34,8 +34,8 @@
   </RecipeDef>
 
   <RecipeDef Name="MakeFuelRodsBase" Abstract="True">
-    <label>Make Uranium Fuelrods</label>
-    <description>Construct Uranium Fuelrods.</description>
+    <label>Make Uranium Fuel rods</label>
+    <description>Construct Uranium Fuel rods.</description>
     <jobString>Making nuclear fuel rods.</jobString>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>ConstructMetal</effectWorking>
@@ -93,8 +93,8 @@
 
   <RecipeDef ParentName="MakeFuelRodsBase">
     <defName>MakeMoxFuelRods</defName>
-    <label>Make MOX Fuel rods</label>
-    <description>Construct MOX Fuelrods.</description>
+    <label>Make MOX fuel rods</label>
+    <description>Construct MOX fuel rods.</description>
     <jobString>Making MOX fuel rods.</jobString>
     <products>
       <FuelRodsMOX>1</FuelRodsMOX>

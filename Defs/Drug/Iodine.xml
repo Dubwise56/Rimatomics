@@ -4,9 +4,9 @@
   <ThingDef ParentName="MakeableDrugPillBase">
     <defName>PotassiumIodide</defName>
     <label>Potassium iodide</label>
-     <description>Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake.</description>
+    <description>Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake.</description>
     <graphicData>
-          <texPath>Rimatomics/Things/Resources/iodine</texPath>
+      <texPath>Rimatomics/Things/Resources/iodine</texPath>
       <graphicClass>Graphic_StackCount</graphicClass>
     </graphicData>
     <rotatable>false</rotatable>
@@ -44,7 +44,7 @@
       </li>
     </comps>
   </ThingDef>
-  
+
   <HediffDef>
     <defName>PotassiumIodide</defName>
     <hediffClass>HediffWithComps</hediffClass>
@@ -57,13 +57,13 @@
         <severityPerDay>-0.18</severityPerDay>
       </li>
     </comps>
-      <stages>
-        <li>
+    <stages>
+      <li>
         <statOffsets>
-			<Radiation>-0.2</Radiation>
-        </statOffsets>
-				</li>
-      </stages>
-  </HediffDef>
-  
+         <Radiation>-0.2</Radiation>
+       </statOffsets>
+     </li>
+   </stages>
+ </HediffDef>
+
 </Defs>

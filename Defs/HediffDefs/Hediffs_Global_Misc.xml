@@ -18,8 +18,7 @@
       <li>AndroidAnimalBird</li>
     </RobotBodyDefs>
   </Rimatomics.RobotFilterDef>
-  
-  
+
   <HediffDef>
     <hediffClass>HediffWithComps</hediffClass>
     <defName>FlashBlindness</defName>
@@ -239,7 +238,6 @@
     </stages>
   </HediffDef>
 
-
   <HediffDef>
     <minSeverity>0</minSeverity>
     <maxSeverity>1</maxSeverity>
@@ -254,8 +252,8 @@
       <li>
         <label>initial-hidden</label>
         <becomeVisible>false</becomeVisible>
-
       </li>
+
       <li>
         <becomeVisible>false</becomeVisible>
         <label>initial</label>
@@ -267,8 +265,8 @@
             <canAffectAnyLivePart>true</canAffectAnyLivePart>
           </li>
         </hediffGivers>
-
       </li>
+
       <li>
         <becomeVisible>false</becomeVisible>
         <label>minor</label>
@@ -281,6 +279,7 @@
           </li>
         </hediffGivers>
       </li>
+
       <li>
         <becomeVisible>false</becomeVisible>
         <label>moderate</label>
@@ -292,8 +291,8 @@
             <canAffectAnyLivePart>true</canAffectAnyLivePart>
           </li>
         </hediffGivers>
-
       </li>
+
       <li>
         <becomeVisible>false</becomeVisible>
         <label>serious</label>
@@ -306,6 +305,7 @@
           </li>
         </hediffGivers>
       </li>
+
       <li>
         <label>extreme</label>
         <minSeverity>0.80</minSeverity>
@@ -317,7 +317,6 @@
             <canAffectAnyLivePart>true</canAffectAnyLivePart>
           </li>
         </hediffGivers>
-
       </li>
     </stages>
   </HediffDef>

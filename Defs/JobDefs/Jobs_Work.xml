@@ -1,28 +1,30 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-  
+
   <JobDef>
     <defName>RimatomicsResearch</defName>
     <driverClass>Rimatomics.JobDriver_RimatomicsResearch</driverClass>
     <reportString>Researching at TargetA.</reportString>
   </JobDef>
+
   <JobDef>
     <defName>SuperviseConstruction</defName>
     <driverClass>Rimatomics.JobDriver_SuperviseConstruction</driverClass>
     <reportString>Constructing TargetA.</reportString>
   </JobDef>
+
   <JobDef>
     <defName>SuperviseResearch</defName>
     <driverClass>Rimatomics.JobDriver_SuperviseResearch</driverClass>
     <reportString>Researching at TargetA.</reportString>
   </JobDef>
-  
+
   <JobDef>
     <defName>UpgradeBuilding</defName>
     <driverClass>Rimatomics.JobDriver_UpgradeBuilding</driverClass>
     <reportString>Upgrading TargetA.</reportString>
   </JobDef>
-  
+
   <JobDef>
     <defName>FleeADS</defName>
     <driverClass>Rimatomics.JobDriver_FleeADS</driverClass>
@@ -70,6 +72,6 @@
 		<driverClass>Rimatomics.JobDriver_UnloadPlutonium</driverClass>
 		<reportString>removing plutonium from TargetA.</reportString>
 	</JobDef>
-	
-  
+
+
 </Defs>
