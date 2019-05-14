@@ -93,6 +93,7 @@
   <criticbmAttack>The enemy faction {0} are preparing to launch an ICBM attack from a nearby base, you have {1} days before launch.</criticbmAttack>
   <critMagazine>Magazine: {0}</critMagazine>
   <critNoSabotRounds>No Sabot ammunition</critNoSabotRounds>
+  <SiloMissingPart>Requires part: {0}</SiloMissingPart>
   <critBombDet>The bomb has detonated</critBombDet>
   <critBombDetFac>The bomb detonated and {0} has been destroyed</critBombDetFac>
   <SetCamoMode>Set Camo</SetCamoMode>
