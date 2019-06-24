@@ -33,7 +33,7 @@
     <pathCost>70</pathCost>
     <size>(1,1)</size>
     <costList>
-      <Steel>250</Steel>
+      <Steel>100</Steel>
       <Silver>250</Silver>
       <Plutonium>120</Plutonium>
       <ComponentIndustrial>4</ComponentIndustrial>
@@ -99,10 +99,6 @@
       <li Class="CompProperties_Facility">
         <compClass>Rimatomics.CompResearchFacility</compClass>
       </li>
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>24</heatPerSecond>
-      </li>
       <li Class="CompProperties_Flickable"/>
       <li Class="Rimatomics.CompProperties_Upgradable">
         <upgrades>
@@ -124,7 +120,7 @@
   <ThingDef ParentName="BaseReactor"  Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorCoreA</defName>
     <label>Reactor Type A</label>
-    <description>Rimatomics thermal reactor core with 21 fuel assembly capacity with 250kw. A nuclear reactor core is the portion of a nuclear reactor containing the nuclear fuel components where the nuclear reactions take place and the heat is generated</description>
+    <description>Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where the nuclear reactions take place and the heat is generated</description>
     <thingClass>Rimatomics.CoreA</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/CoreA</texPath>
@@ -263,10 +259,6 @@
         <basePowerConsumption>500</basePowerConsumption>
         <shortCircuitInRain>true</shortCircuitInRain>
       </li>
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>10</heatPerSecond>
-      </li>
       <li Class="Rimatomics.CompProperties_Upgradable"/>
     </comps>
     <rotatable>true</rotatable>
@@ -338,10 +330,6 @@
         <compClass>CompPowerTrader</compClass>
         <basePowerConsumption>1000</basePowerConsumption>
         <shortCircuitInRain>true</shortCircuitInRain>
-      </li>
-      <li Class="CompProperties_HeatPusher">
-        <compClass>CompHeatPusherPowered</compClass>
-        <heatPerSecond>15</heatPerSecond>
       </li>
       <li Class="Rimatomics.CompProperties_Upgradable"/>
     </comps>
