@@ -89,7 +89,7 @@
   <Def Class="Rimatomics.TestForWeaponsConsole">
     <defName>EnergyWeapons7</defName>
     <label>Construct a Pulsed Power Container (PPC)</label>
-    <description>Construct a Pulsed Power Container (PPC) and connect it to the same power net as the SACS.\n\nThese ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. Housed in a waterproof container, and charged by excess power like a standard battery, it is recommended that you isolate them from standard batteries to increase efficiency</description>
+    <description>Construct a Pulsed Power Container (PPC) and connect it to the same power net as the SACS.\n\nThese ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. They are housed in a waterproof container and charged with excess power like a standard battery. We recommend using transformers to create isolated powernets for your PPC's and weapon arrays</description>
   </Def>
 
 

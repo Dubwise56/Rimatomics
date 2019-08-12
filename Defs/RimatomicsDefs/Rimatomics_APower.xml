@@ -1,4 +1,5 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
+
 <Defs>
 
   <!--Radiation detectors-->
@@ -260,7 +261,7 @@
   <Def Class="Rimatomics.TestForTranny">
     <defName>BuildTransformer</defName>
     <label>Build a power transformer</label>
-    <description>Build a power transformer and connect it to the turbine using high voltage cables. Transformers can convert up to 200kw of power from a turbine into usable electricity. Multiple transformers can be used to power different power grids. Power limit settings allow you to redistribute the power output between power grids.</description>
+    <description>Build a power transformer and connect it to the turbine using high voltage cables. A single transformer can convert up to 200kw of power from a turbine into usable electricity. Multiple transformers can be used to power different power grids. Power limit settings allow you to redistribute the power output between power grids.</description>
     <Unlocks>
       <li>ReactorControl</li>
     </Unlocks>

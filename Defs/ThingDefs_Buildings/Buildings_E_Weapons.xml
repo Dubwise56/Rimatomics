@@ -205,7 +205,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCADS</defName>
     <label>ADS</label>
-    <description>The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial, perimeter security and crowd control. It heats the surface of targets, such as the skin of targeted human subjects, this causes them to break rank and flee. Requires a manned SACS to function.</description>
+    <description>The RA-22 Active Denial System (ADS) is a non-lethal, directed-energy weapon designed for area denial and crowd control. It heats the skin of targeted human subjects causing them to break rank and flee. Does not require line of sight. Requires a manned SACS.</description>
     <thingClass>Rimatomics.Building_ADS</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
@@ -321,7 +321,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCTeslaCoil</defName>
     <label>Tesla Coil</label>
-    <description>The RA-42T Tesla Coil Delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing with a TACS. Manned SACS required for manual targeting. Works with unmanned SACS</description>
+    <description>The RA-42T Tesla Coil Delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing. Manned SACS required for manual targeting.</description>
     <thingClass>Rimatomics.Building_TeslaCoil</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
@@ -431,7 +431,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCHEL</defName>
     <label>HEL</label>
-    <description>The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, if the trajectory through the radius is long enough for a shoot down attempt then a HEL will track the target and fire once it's in range. Works with unmanned SACS</description>
+    <description>The RA-702 High Energy Laser (HEL) destroys enemy airborne projectiles such as mortar shells. When a mortar is fired the system will check if the shell will pass through the range of a HEL, and attempt to track the target and fire once it is in range.</description>
     <thingClass>Rimatomics.Building_HEL</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
@@ -551,7 +551,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCRailgun</defName>
     <label>Punisher</label>
-    <description>The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Manned SACS required for manual targeting. Requires a manned SACS to function.</description>
+    <description>The RA-1802D Punisher is a 25 round magazine fed railgun platform which uses large electromagnetic pulses to launch sabot projectiles to extreme velocities and ranges. Requires line of sight. Fire mission does not require line of sight. Manned SACS required for manual targeting. Requires a manned SACS.</description>
     <thingClass>Rimatomics.Building_Railgun</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
@@ -728,7 +728,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCObelisk</defName>
     <label>Obelisk</label>
-    <description>The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power, but with large pulse size and long cooldown. Automatic targeting and firing. Manned SACS required for manual targeting. Works with unmanned SACS</description>
+    <description>The RA-2152-X Obelisk is a directed energy weapon that uses a focused solid state laser to vaporize targets. 100% accurate with long range and devastating power. Automatic targeting and firing. Manned SACS required for manual targeting</description>
     <thingClass>Rimatomics.Building_Obelisk</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/obelisk</texPath>
@@ -843,7 +843,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCMarauder</defName>
     <label>Marauder</label>
-    <description>The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, which uses large electromagnetic pulses to fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Manned SACS required with manual targeting only. Requires a manned SACS to function.</description>
+    <description>The RA-3b Marauder is a multi-barrel coaxial plasma railgun platform, large electromagnetic pulses fire a burst of accelerated plasma toroids to extreme velocities causing explosive radiation emitting impacts. Requires a manned SACS.</description>
     <thingClass>Rimatomics.Building_Marauder</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
