@@ -2,13 +2,13 @@
 <LanguageData>
   
   <ControlRodActuators1.label></ControlRodActuators1.label>
-  <ControlRodActuators1.label></ControlRodActuators1.label>
+  <ControlRodActuators1.description></ControlRodActuators1.description>
   
   <ControlRodActuators2.label></ControlRodActuators2.label>
-  <ControlRodActuators2.label></ControlRodActuators2.label>
+  <ControlRodActuators2.description></ControlRodActuators2.description>
   
   <ControlRodActuators3.label></ControlRodActuators3.label>
-  <ControlRodActuators3.label></ControlRodActuators3.label>
+  <ControlRodActuators3.description></ControlRodActuators3.description>
   
   
   
@@ -81,7 +81,7 @@
   <DriveActuator1.label></DriveActuator1.label>
   <DriveActuator1.description></DriveActuator1.description>
   
-  <DriveActuator2.label></DriveActuator12.label>
+  <DriveActuator2.label></DriveActuator2.label>
   <DriveActuator2.description></DriveActuator2.description>
   
   

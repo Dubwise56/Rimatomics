@@ -24,10 +24,7 @@
   
   <ADS2.label></ADS2.label>
   <ADS2.description></ADS2.description>
-  
-  <ADS3.label></ADS3.label>
-  <ADS3.description></ADS3.description>
-  
+    
   <ADS4.label></ADS4.label>
   <ADS4.description></ADS4.description>
   
@@ -39,10 +36,7 @@
   
   <TeslaCoil2.label></TeslaCoil2.label>
   <TeslaCoil2.description></TeslaCoil2.description>
-  
-  <TeslaCoil3.label></TeslaCoil3.label>
-  <TeslaCoil3.description></TeslaCoil3.description>
-  
+    
   <TeslaCoil4.label></TeslaCoil4.label>
   <TeslaCoil4.description></TeslaCoil4.description>
   
@@ -54,10 +48,7 @@
   
   <HEL2.label></HEL2.label>
   <HEL2.description></HEL2.description>
-  
-  <HEL3.label></HEL3.label>
-  <HEL3.description></HEL3.description>
-  
+    
   <HEL4.label></HEL4.label>
   <HEL4.description></HEL4.description>
   
@@ -69,10 +60,7 @@
   
   <Railgun2.label></Railgun2.label>
   <Railgun2.description></Railgun2.description>
-  
-  <Railgun3.label></Railgun3.label>
-  <Railgun3.description></Railgun3.description>
-  
+    
   <Railgun4.label></Railgun4.label>
   <Railgun4.description></Railgun4.description>
   
@@ -87,10 +75,7 @@
   
   <Obelisk2.label></Obelisk2.label>
   <Obelisk2.description></Obelisk2.description>
-  
-  <Obelisk3.label></Obelisk3.label>
-  <Obelisk3.description></Obelisk3.description>
-  
+    
   <Obelisk4.label></Obelisk4.label>
   <Obelisk4.description></Obelisk4.description>
   
@@ -102,10 +87,7 @@
   
   <Marauder2.label></Marauder2.label>
   <Marauder2.description></Marauder2.description>
-  
-  <Marauder3.label></Marauder3.label>
-  <Marauder3.description></Marauder3.description>
-  
+    
   <Marauder4.label></Marauder4.label>
   <Marauder4.description></Marauder4.description>
   
