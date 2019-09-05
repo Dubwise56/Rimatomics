@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <ControlRodActuators1.label></ControlRodActuators1.label>
+  <ControlRodActuators1.label></ControlRodActuators1.label>
+  
+  <ControlRodActuators2.label></ControlRodActuators2.label>
+  <ControlRodActuators2.label></ControlRodActuators2.label>
+  
+  <ControlRodActuators3.label></ControlRodActuators3.label>
+  <ControlRodActuators3.label></ControlRodActuators3.label>
+  
+  
+  
+  <ThreatDetection1.label></ThreatDetection1.label>
+  <ThreatDetection1.description></ThreatDetection1.description>
+  
+  <ThreatDetection2.label></ThreatDetection2.label>
+  <ThreatDetection2.description></ThreatDetection2.description>
+  
+  <ThreatDetection3.label></ThreatDetection3.label>
+  <ThreatDetection3.description></ThreatDetection3.description>
+  
+  
+  
+  <GuidenceSystem1.label></GuidenceSystem1.label>
+  <GuidenceSystem1.description></GuidenceSystem1.description>
+  
+  <GuidenceSystem2.label></GuidenceSystem2.label>
+  <GuidenceSystem2.description></GuidenceSystem2.description>
+  
+  <GuidenceSystem3.label></GuidenceSystem3.label>
+  <GuidenceSystem3.description></GuidenceSystem3.description>
+  
+  
+  
+  <MEPS1.label></MEPS1.label>
+  <MEPS1.description></MEPS1.description>
+  
+  <MEPS2.label></MEPS2.label>
+  <MEPS2.description></MEPS2.description>
+  
+  <MEPS3.label></MEPS3.label>
+  <MEPS3.description></MEPS3.description>
+  
+  
+  
+  <ALC1.label></ALC1.label>
+  <ALC1.description></ALC1.description>
+  
+  <ALC2.label></ALC2.label>
+  <ALC2.description></ALC2.description>
+  
+  <ALC3.label></ALC3.label>
+  <ALC3.description></ALC3.description>
+  
+  
+  
+  <ERS1.label></ERS1.label>
+  <ERS1.description></ERS1.description>
+  
+  <ERS2.label></ERS2.label>
+  <ERS2.description></ERS2.description>
+  
+  <ERS3.label></ERS3.label>
+  <ERS3.description></ERS3.description>
+  
+  
+  
+  <SCAD1.label></SCAD1.label>
+  <SCAD1.description></SCAD1.description>
+  
+  <SCAD2.label></SCAD2.label>
+  <SCAD2.description></SCAD2.description>
+  
+  <SCAD3.label></SCAD3.label>
+  <SCAD3.description></SCAD3.description>
+  
+  
+  
+  <DriveActuator1.label></DriveActuator1.label>
+  <DriveActuator1.description></DriveActuator1.description>
+  
+  <DriveActuator2.label></DriveActuator12.label>
+  <DriveActuator2.description></DriveActuator2.description>
+  
+  
+  
+  <Railgun_TargetingChip1.label></Railgun_TargetingChip1.label>
+  <Railgun_TargetingChip1.description></Railgun_TargetingChip1.description>
+  
+  <Railgun_TargetingChip2.label></Railgun_TargetingChip2.label>
+  <Railgun_TargetingChip2.description></Railgun_TargetingChip2.description>
+  
+  <Railgun_TargetingChip3.label></Railgun_TargetingChip3.label>
+  <Railgun_TargetingChip3.description></Railgun_TargetingChip3.description>
+  
+  
+  
+  <LenseModule1.label></LenseModule1.label>
+  <LenseModule1.description></LenseModule1.description>
+  
+  <LenseModule2.label></LenseModule2.label>
+  <LenseModule2.description></LenseModule2.description>
+  
+  <LenseModule3.label></LenseModule3.label>
+  <LenseModule3.description></LenseModule3.description>
+  
+  
+  
+  <BeamSplitter1.label></BeamSplitter1.label>
+  <BeamSplitter1.description></BeamSplitter1.description>
+  
+  <BeamSplitter2.label></BeamSplitter2.label>
+  <BeamSplitter2.description></BeamSplitter2.description>
+  
+  <BeamSplitter3.label></BeamSplitter3.label>
+  <BeamSplitter3.description></BeamSplitter3.description>  
+  
+  
+</LanguageData>
