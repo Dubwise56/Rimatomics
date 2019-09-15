@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
-
-
+  <TargetAllShells>Target All Shells</TargetAllShells>
+  <TargetEnemyShells>Target Enemy Shells</TargetEnemyShells>
+  <ThreatDetection>Threat Detection</ThreatDetection>
+  <PoolLoading>Loading</PoolLoading>
+  <PoolUnloading>PoolUnloading</PoolUnloading>
+  <NextResearchStep>Next Step:</NextResearchStep>
   <!--ALERTS-->
   <AlertNeedsTurbine>Core needs turbine</AlertNeedsTurbine>
   <AlertNeedsTurbineDesc>A reactor needs to be connected to a turbine, failure to do so may result in overheating and meltdown</AlertNeedsTurbineDesc>

@@ -25,7 +25,7 @@
     <defName>RimatomicsProduct</defName>
     <label>Rimatomics Product</label>
     <parent>Manufactured</parent>
-    <iconPath>Rimatomics/Things/Resources/actuator</iconPath>
+    <iconPath>Rimatomics/UI/logo</iconPath>
   </ThingCategoryDef>
   
   <ThingCategoryDef>
