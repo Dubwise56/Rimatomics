@@ -65,6 +65,18 @@
         <label>300%</label>
         <value>3</value>
       </li>
+      <li>
+        <label>500%</label>
+        <value>5</value>
+      </li>
+      <li>
+        <label>700%</label>
+        <value>7</value>
+      </li>
+      <li>
+        <label>1000%</label>
+        <value>10</value>
+      </li>
     </options>
   </Rimatomics.DubsModOptions>
 

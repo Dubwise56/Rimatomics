@@ -36,6 +36,7 @@
         <rect>(0,0.35,1,0.3)</rect>
       </damageData>
     </graphicData>
+    <drawerType>MapMeshOnly</drawerType>
     <building>
       <isInert>true</isInert>
       <isEdifice>false</isEdifice>

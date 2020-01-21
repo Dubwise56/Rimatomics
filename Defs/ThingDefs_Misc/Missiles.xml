@@ -99,7 +99,7 @@
       <Flammability>0</Flammability>
       <Beauty>-10</Beauty>
       <MarketValue>10000</MarketValue>
-      <Mass>160</Mass>
+      <Mass>50</Mass>
     </statBases>
     <comps>
       <li Class="CompProperties_Forbiddable" />
@@ -192,6 +192,18 @@
     <seeThroughFog>true</seeThroughFog>
   </ThingDef>
 
+  <ThingDef ParentName="BasedRimatomicsMissile">
+    <defName>SCUD_Chem</defName>
+    <label>ICBM</label>
+    <graphicData>
+      <texPath>Rimatomics/Things/Projectile/Warhead</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>TransparentPostLight</shaderType>
+    </graphicData>
+    <thingClass>Rimatomics.SCUD</thingClass>
+    <seeThroughFog>true</seeThroughFog>
+  </ThingDef>
+
 
   <ThingDef ParentName="SkyfallerBase">
     <defName>NuclearWarheadIncoming</defName>
@@ -219,7 +231,7 @@
     <label>missile incoming</label>
     <size>(2, 2)</size>
     <graphicData>
-      <texPath>Rimatomics/Things/Projectile/icbm</texPath>
+      <texPath>Rimatomics/Things/Projectile/Warhead</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
       <drawSize>(10, 10)</drawSize>
@@ -238,7 +250,7 @@
     <label>missile incoming</label>
     <size>(2, 2)</size>
     <graphicData>
-      <texPath>Rimatomics/Things/Projectile/icbm</texPath>
+      <texPath>Rimatomics/Things/Projectile/Warhead</texPath>
       <graphicClass>Graphic_Single</graphicClass>
       <shaderType>Transparent</shaderType>
       <drawSize>(10, 10)</drawSize>

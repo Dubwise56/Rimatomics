@@ -108,6 +108,30 @@
         </upgrades>
       </li>
     </comps>
+    <building>
+      <preventDeteriorationInside>true</preventDeteriorationInside>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>FuelRods</li>
+            <li>FuelRodsMOX</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <thingDefs>
+            <li>FuelRods</li>
+            <li>FuelRodsMOX</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
+    <inspectorTabs>
+      <li>ITab_Storage</li>
+    </inspectorTabs>
     <rotatable>false</rotatable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
     <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
@@ -193,7 +217,7 @@
       <ComponentIndustrial>24</ComponentIndustrial>
       <ComponentSpacer>6</ComponentSpacer>
     </costList>
-    <drawOffscreen>true</drawOffscreen>
+    <drawOffscreen>false</drawOffscreen>
     <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
   </ThingDef>
  
@@ -293,7 +317,7 @@
     <fillPercent>1</fillPercent>
     <pathCost>250</pathCost>
     <blockLight>false</blockLight>
-    <drawOffscreen>true</drawOffscreen>
+    <drawOffscreen>false</drawOffscreen>
     <staticSunShadowHeight>0.35</staticSunShadowHeight>
     <statBases>
       <MaxHitPoints>2000</MaxHitPoints>
@@ -491,7 +515,7 @@
     <fillPercent>0.9</fillPercent>
     <pathCost>250</pathCost>
     <canOverlapZones>false</canOverlapZones>
-    <drawOffscreen>true</drawOffscreen>
+    <drawOffscreen>false</drawOffscreen>
     <statBases>
       <MaxHitPoints>1050</MaxHitPoints>
       <WorkToBuild>30000</WorkToBuild>

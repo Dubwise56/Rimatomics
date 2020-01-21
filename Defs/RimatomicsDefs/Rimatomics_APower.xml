@@ -491,7 +491,7 @@
     <ResearchDescDisc>You may now stockpile nuclear arms.</ResearchDescDisc>
     <price>6000</price>
     <Screenshot>Rimatomics/Research/icbm</Screenshot>
-    <previewImageURL>Rimatomics/Things/Projectile/icbm</previewImageURL>
+    <previewImageURL>Rimatomics/Things/Projectile/Warhead</previewImageURL>
     <Steps>
       <li>ICBM1</li>
       <li>ICBM2</li>
