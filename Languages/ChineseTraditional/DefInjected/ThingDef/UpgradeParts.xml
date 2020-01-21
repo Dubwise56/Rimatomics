@@ -1,35 +1,35 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ControlRodActuator.label>Control Rod Actuator</ControlRodActuator.label>
-  <ControlRodActuator.description>Upgrade parts for the Rimatomics nuclear reactor</ControlRodActuator.description>
+  <ControlRodActuator.label>控制棒傳動器</ControlRodActuator.label>
+  <ControlRodActuator.description>「邊緣核能」核反應堆的升級組件。</ControlRodActuator.description>
 
-  <ATOM.label>ATOM</ATOM.label>
-  <ATOM.description>Upgrade module for TACS</ATOM.description>
+  <ATOM.label>先進威脅預警模塊</ATOM.label>
+  <ATOM.description>「邊緣核能」警戒雷達的升級組件。</ATOM.description>
 
-  <SCAD.label>SCAD</SCAD.label>
-  <SCAD.description>Upgrade parts for Rimatomics energy weapons</SCAD.description>
+  <SCAD.label>電磁防護系統</SCAD.label>
+  <SCAD.description>「邊緣核能」系列能量武器的升級組件。</SCAD.description>
 
-  <MEPS.label>MEPS</MEPS.label>
-  <MEPS.description>Upgrade parts for Rimatomics energy weapons</MEPS.description>
+  <MEPS.label>模塊化電力系統</MEPS.label>
+  <MEPS.description>「邊緣核能」系列能量武器的升級組件。</MEPS.description>
 
-  <ALC.label>ALC</ALC.label>
-  <ALC.description>Upgrade parts for Rimatomics energy weapons</ALC.description>
+  <ALC.label>先進水冷系統</ALC.label>
+  <ALC.description>「邊緣核能」系列能量武器的升級組件。</ALC.description>
 
-  <ERS.label>ERS</ERS.label>
-  <ERS.description>Upgrade parts for Rimatomics energy weapons</ERS.description>
+  <ERS.label>能量回收系統</ERS.label>
+  <ERS.description>「邊緣核能」系列能量武器的升級組件。</ERS.description>
 
-  <DriveActuator.label>Drive Actuator</DriveActuator.label>
-  <DriveActuator.description>Upgrade parts for Rimatomics energy weapons</DriveActuator.description>
+  <DriveActuator.label>促動器</DriveActuator.label>
+  <DriveActuator.description>「邊緣核能」系列能量武器的升級組件。</DriveActuator.description>
 
-  <TargetingChip.label>Targeting Chip</TargetingChip.label>
-  <TargetingChip.description>Upgrade parts for the Rimatomics Railgun</TargetingChip.description>
+  <TargetingChip.label>定向芯片</TargetingChip.label>
+  <TargetingChip.description>「邊緣核能」磁軌炮的升級組件。</TargetingChip.description>
 
-  <BeamSplitter.label>Beam Splitter</BeamSplitter.label>
-  <BeamSplitter.description>Upgrade parts for the Rimatomics Obelisk.</BeamSplitter.description>
+  <BeamSplitter.label>電子束分裂器</BeamSplitter.label>
+  <BeamSplitter.description>「邊緣核能」光明石碑的升級組件。</BeamSplitter.description>
 
-  <LenseModule.label>Lense Module</LenseModule.label>
-  <LenseModule.description>Upgrade parts for the Rimatomics Obelisk.</LenseModule.description>
+  <LenseModule.label>稜鏡模塊</LenseModule.label>
+  <LenseModule.description>「邊緣核能」光明石碑的升級組件。</LenseModule.description>
 
 
 </LanguageData>

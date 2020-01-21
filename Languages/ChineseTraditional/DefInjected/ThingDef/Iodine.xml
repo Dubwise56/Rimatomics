@@ -1,11 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <PotassiumIodide.label>Potassium iodide</PotassiumIodide.label>
-  <PotassiumIodide.description>Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake.</PotassiumIodide.description>
+  <PotassiumIodide.label>碘化鉀</PotassiumIodide.label>
+  <PotassiumIodide.description>碘化鉀片用於預防並減少核輻射的傷害。</PotassiumIodide.description>
+  <PotassiumIodide.ingestible.ingestCommandString>服用{0}</PotassiumIodide.ingestible.ingestCommandString>
+  <PotassiumIodide.ingestible.ingestReportString>正在服用{0}。</PotassiumIodide.ingestible.ingestReportString>
 
-
-  <!--<PotassiumIodide.ingestible.ingestCommandString>Take {0}</PotassiumIodide.ingestible.ingestCommandString>-->
-  <!--<PotassiumIodide.ingestible.ingestReportString>Taking {0}.</PotassiumIodide.ingestible.ingestReportString>-->
 
 </LanguageData>

@@ -1,57 +1,57 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <LoadRailgunMagazine.label>Load Sabot rounds</LoadRailgunMagazine.label>
-  <LoadRailgunMagazine.verb>load</LoadRailgunMagazine.verb>
-  <LoadRailgunMagazine.gerund>loading</LoadRailgunMagazine.gerund>
+  <LoadRailgunMagazine.label>裝填磁軌炮彈</LoadRailgunMagazine.label>
+  <LoadRailgunMagazine.verb>裝填</LoadRailgunMagazine.verb>
+  <LoadRailgunMagazine.gerund>裝填</LoadRailgunMagazine.gerund>
 
-  <LoadSilo.label>Load Silo</LoadSilo.label>
-  <LoadSilo.verb>load</LoadSilo.verb>
-  <LoadSilo.gerund>loading</LoadSilo.gerund>
+  <LoadSilo.label>裝填發射井</LoadSilo.label>
+  <LoadSilo.verb>裝填</LoadSilo.verb>
+  <LoadSilo.gerund>裝填</LoadSilo.gerund>
 
-  <LoadFuelModule.label>Load Fuel</LoadFuelModule.label>
-  <LoadFuelModule.verb>load fuel into</LoadFuelModule.verb>
-  <LoadFuelModule.gerund>loading fuel into</LoadFuelModule.gerund>
+  <LoadFuelModule.label>裝填燃料</LoadFuelModule.label>
+  <LoadFuelModule.verb>將燃料裝填進</LoadFuelModule.verb>
+  <LoadFuelModule.gerund>將燃料裝填進</LoadFuelModule.gerund>
 
-  <LoadSpentFuel.label>load spent fuel</LoadSpentFuel.label>
-  <LoadSpentFuel.verb>load</LoadSpentFuel.verb>
-  <LoadSpentFuel.gerund>loading</LoadSpentFuel.gerund>
+  <LoadSpentFuel.label>裝載燃料殘渣</LoadSpentFuel.label>
+  <LoadSpentFuel.verb>裝載</LoadSpentFuel.verb>
+  <LoadSpentFuel.gerund>裝載</LoadSpentFuel.gerund>
 
-  <LoadProcChemFuel.label>load chemfuel</LoadProcChemFuel.label>
-  <LoadProcChemFuel.verb>load</LoadProcChemFuel.verb>
-  <LoadProcChemFuel.gerund>loading</LoadProcChemFuel.gerund>
+  <LoadProcChemFuel.label>裝載化合燃料</LoadProcChemFuel.label>
+  <LoadProcChemFuel.verb>裝載</LoadProcChemFuel.verb>
+  <LoadProcChemFuel.gerund>裝載</LoadProcChemFuel.gerund>
 
-  <UnloadPlutonium.label>remove plutonium</UnloadPlutonium.label>
-  <UnloadPlutonium.verb>unload</UnloadPlutonium.verb>
-  <UnloadPlutonium.gerund>unloading</UnloadPlutonium.gerund>
+  <UnloadPlutonium.label>分離鈽</UnloadPlutonium.label>
+  <UnloadPlutonium.verb>分離</UnloadPlutonium.verb>
+  <UnloadPlutonium.gerund>分離</UnloadPlutonium.gerund>
 
-  <RemoveFuelModule.label>Remove Fuel</RemoveFuelModule.label>
-  <RemoveFuelModule.verb>remove fuel from</RemoveFuelModule.verb>
-  <RemoveFuelModule.gerund>removing fuel from</RemoveFuelModule.gerund>
+  <RemoveFuelModule.label>清除燃料</RemoveFuelModule.label>
+  <RemoveFuelModule.verb>將燃料清除出</RemoveFuelModule.verb>
+  <RemoveFuelModule.gerund>將燃料清除出</RemoveFuelModule.gerund>
 
-  <UpgradeBuilding.label>UpgradeBuilding</UpgradeBuilding.label>
-  <UpgradeBuilding.verb>Upgrade</UpgradeBuilding.verb>
-  <UpgradeBuilding.gerund>upgrading</UpgradeBuilding.gerund>
+  <UpgradeBuilding.label>升級建築</UpgradeBuilding.label>
+  <UpgradeBuilding.verb>升級</UpgradeBuilding.verb>
+  <UpgradeBuilding.gerund>升級</UpgradeBuilding.gerund>
 
-  <DoBillsTableNuclear.label>do bills at nuclear machining table</DoBillsTableNuclear.label>
-  <DoBillsTableNuclear.verb>work</DoBillsTableNuclear.verb>
-  <DoBillsTableNuclear.gerund>working at</DoBillsTableNuclear.gerund>
+  <DoBillsTableNuclear.label>完成「邊緣核能」加工台的清單</DoBillsTableNuclear.label>
+  <DoBillsTableNuclear.verb>製作</DoBillsTableNuclear.verb>
+  <DoBillsTableNuclear.gerund>製作</DoBillsTableNuclear.gerund>
 
-  <RimatomicsCrafting.label>do research</RimatomicsCrafting.label>
-  <RimatomicsCrafting.verb>research</RimatomicsCrafting.verb>
-  <RimatomicsCrafting.gerund>researching at</RimatomicsCrafting.gerund>
+  <RimatomicsCrafting.label>研究「邊緣核能」科技</RimatomicsCrafting.label>
+  <RimatomicsCrafting.verb>研究</RimatomicsCrafting.verb>
+  <RimatomicsCrafting.gerund>研究</RimatomicsCrafting.gerund>
 
-  <RimatomicsResearch.label>do research</RimatomicsResearch.label>
-  <RimatomicsResearch.verb>research</RimatomicsResearch.verb>
-  <RimatomicsResearch.gerund>researching at</RimatomicsResearch.gerund>
+  <RimatomicsResearch.label>研究「邊緣核能」科技</RimatomicsResearch.label>
+  <RimatomicsResearch.verb>研究</RimatomicsResearch.verb>
+  <RimatomicsResearch.gerund>研究</RimatomicsResearch.gerund>
 
-  <RimatomicsSuperviseResearch.label>do research</RimatomicsSuperviseResearch.label>
-  <RimatomicsSuperviseResearch.verb>research</RimatomicsSuperviseResearch.verb>
-  <RimatomicsSuperviseResearch.gerund>researching at</RimatomicsSuperviseResearch.gerund>
+  <RimatomicsSuperviseResearch.label>研究「邊緣核能」科技</RimatomicsSuperviseResearch.label>
+  <RimatomicsSuperviseResearch.verb>研究</RimatomicsSuperviseResearch.verb>
+  <RimatomicsSuperviseResearch.gerund>研究</RimatomicsSuperviseResearch.gerund>
 
-  <RimatomicsConstruction.label>construct</RimatomicsConstruction.label>
-  <RimatomicsConstruction.verb>Constructing</RimatomicsConstruction.verb>
-  <RimatomicsConstruction.gerund>Constructing</RimatomicsConstruction.gerund>
+  <RimatomicsConstruction.label>建造</RimatomicsConstruction.label>
+  <RimatomicsConstruction.verb>建造</RimatomicsConstruction.verb>
+  <RimatomicsConstruction.gerund>建造</RimatomicsConstruction.gerund>
 
 
 </LanguageData>

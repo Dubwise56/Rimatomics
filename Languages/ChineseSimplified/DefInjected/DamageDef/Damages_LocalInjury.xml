@@ -2,13 +2,13 @@
 <LanguageData>
 
   <CoreBlast.label>核爆</CoreBlast.label>
-  <CoreBlast.deathMessage>{0} 死于核爆.</CoreBlast.deathMessage>
+  <CoreBlast.deathMessage>{0}死于核爆。</CoreBlast.deathMessage>
 
-  <ArcDischarge.label>电弧漏电</ArcDischarge.label>
-  <ArcDischarge.deathMessage>{0} 被烧焦了.</ArcDischarge.deathMessage>
+  <ArcDischarge.label>电弧放电</ArcDischarge.label>
+  <ArcDischarge.deathMessage>{0}已被烧干。</ArcDischarge.deathMessage>
 
-  <LaserDischarge.label>激光漏电</LaserDischarge.label>
-  <LaserDischarge.deathMessage>{0} 被烧焦了.</LaserDischarge.deathMessage>
+  <LaserDischarge.label>激光放电</LaserDischarge.label>
+  <LaserDischarge.deathMessage>{0}已被烧干。</LaserDischarge.deathMessage>
 
 
 </LanguageData>

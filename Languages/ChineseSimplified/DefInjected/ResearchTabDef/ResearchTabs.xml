@@ -3,7 +3,7 @@
 
   <!-- To add a research tab, make a new ResearchTabDef here and then set the <tab> field of your research project to match it -->
 
-  <Rimatomics.label>「边缘核能」</Rimatomics.label>
+  <Rimatomics.label>边缘核能</Rimatomics.label>
 
 
 </LanguageData>

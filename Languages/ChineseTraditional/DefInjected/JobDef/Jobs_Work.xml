@@ -1,18 +1,18 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <RimatomicsResearch.reportString>Researching at TargetA.</RimatomicsResearch.reportString>
-  <SuperviseConstruction.reportString>Constructing TargetA.</SuperviseConstruction.reportString>
-  <SuperviseResearch.reportString>Researching at TargetA.</SuperviseResearch.reportString>
-  <UpgradeBuilding.reportString>Upgrading TargetA.</UpgradeBuilding.reportString>
-  <FleeADS.reportString>Fleeing TargetA.</FleeADS.reportString>
-  <LoadRailgunMagazine.reportString>Loading railgun magazine.</LoadRailgunMagazine.reportString>
-  <LoadSilo.reportString>Loading Silo.</LoadSilo.reportString>
-  <UseReactorConsole.reportString>Using reactor console.</UseReactorConsole.reportString>
-  <HaulModuletoCore.reportString>Hauling TargetB to TargetA.</HaulModuletoCore.reportString>
-  <RemoveFuelModule.reportString>removing fuel rods from TargetA.</RemoveFuelModule.reportString>
-  <LoadSpentFuel.reportString>hauling TargetB to TargetA.</LoadSpentFuel.reportString>
-  <UnloadPlutonium.reportString>removing plutonium from TargetA.</UnloadPlutonium.reportString>
+  <RimatomicsResearch.reportString>正在TargetA進行研究。</RimatomicsResearch.reportString>
+  <SuperviseConstruction.reportString>正在建造TargetA。</SuperviseConstruction.reportString>
+  <SuperviseResearch.reportString>正在TargetA進行研究。</SuperviseResearch.reportString>
+  <UpgradeBuilding.reportString>正在升級TargetA。</UpgradeBuilding.reportString>
+  <FleeADS.reportString>正在逃離TargetA。</FleeADS.reportString>
+  <LoadRailgunMagazine.reportString>正在裝填磁軌炮。</LoadRailgunMagazine.reportString>
+  <LoadSilo.reportString>正在裝填導彈發射井。</LoadSilo.reportString>
+  <UseReactorConsole.reportString>正在操作反應堆控制台。</UseReactorConsole.reportString>
+  <HaulModuletoCore.reportString>正在將TargetB運送至TargetA。</HaulModuletoCore.reportString>
+  <RemoveFuelModule.reportString>正在從TargetA中移除燃料棒。</RemoveFuelModule.reportString>
+  <LoadSpentFuel.reportString>正在將TargetB運送至TargetA。</LoadSpentFuel.reportString>
+  <UnloadPlutonium.reportString>正在從TargetA中移除鈽。</UnloadPlutonium.reportString>
 
 
 </LanguageData>

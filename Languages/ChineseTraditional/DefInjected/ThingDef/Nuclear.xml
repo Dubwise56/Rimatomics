@@ -1,36 +1,36 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <turbineBlade.label>Turbine Blades</turbineBlade.label>
-  <turbineBlade.description>Used to construct generators.</turbineBlade.description>
+  <turbineBlade.label>渦輪葉片</turbineBlade.label>
+  <turbineBlade.description>用於製造渦輪機。</turbineBlade.description>
 
-  <UraniumPellets.label>Uranium Pellets</UraniumPellets.label>
-  <UraniumPellets.description>Pellets of uranium used in the construction of nuclear fuel rods.</UraniumPellets.description>
+  <UraniumPellets.label>鈾芯塊</UraniumPellets.label>
+  <UraniumPellets.description>用於製造核燃料棒。</UraniumPellets.description>
 
-  <Plutonium.label>plutonium</Plutonium.label>
-  <Plutonium.description>A case of plutonium, can be used to create nuclear weapons or nuclear fuel rods.</Plutonium.description>
+  <Plutonium.label>鈽</Plutonium.label>
+  <Plutonium.description>一種用於製造核武器和核燃料棒材料。</Plutonium.description>
 
-  <DepletedUraniumPellets.label>Depleted Uranium</DepletedUraniumPellets.label>
-  <DepletedUraniumPellets.description>Pellets of depleted uranium used in the construction of nuclear fuel rods.</DepletedUraniumPellets.description>
+  <DepletedUraniumPellets.label>貧鈾</DepletedUraniumPellets.label>
+  <DepletedUraniumPellets.description>貧鈾顆粒可用於製作核燃料棒。</DepletedUraniumPellets.description>
 
 
   <!-- Fuel Rods -->
 
-  <FuelRods.label>fuel rods</FuelRods.label>
-  <FuelRods.description>A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine.</FuelRods.description>
+  <FuelRods.label>鈾燃料棒</FuelRods.label>
+  <FuelRods.description>填充有鈾顆粒的燃料棒，當裝載在反應堆時產生能量，用來驅動渦輪機。</FuelRods.description>
 
-  <FuelRodsMOX.label>fuel rods MOX</FuelRodsMOX.label>
-  <FuelRodsMOX.description>A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine.</FuelRodsMOX.description>
+  <FuelRodsMOX.label>混合氧化物核燃料棒</FuelRodsMOX.label>
+  <FuelRodsMOX.description>填充有鈾和鈽混合物的燃料棒，當裝載在反應堆時產生能量，用來驅動渦輪機。</FuelRodsMOX.description>
 
 
   <!-- Nuclear Waste -->
 
-  <ChunkRadioactiveSlag.label>radioactive slag chunk</ChunkRadioactiveSlag.label>
+  <ChunkRadioactiveSlag.label>放射性廢渣塊</ChunkRadioactiveSlag.label>
 
-  <NuclearWaste.label>Nuclear Waste</NuclearWaste.label>
-  <NuclearWaste.description>A drum of nuclear waste.</NuclearWaste.description>
+  <NuclearWaste.label>核廢料</NuclearWaste.label>
+  <NuclearWaste.description>一桶核廢料。</NuclearWaste.description>
 
-  <ThrownSlag.label>ThrownSlag</ThrownSlag.label>
+  <ThrownSlag.label>廢渣</ThrownSlag.label>
 
 
 </LanguageData>

@@ -1,29 +1,29 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Apparel_RadiationMask.label>radiation mask</Apparel_RadiationMask.label>
-  <Apparel_RadiationMask.description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas.</Apparel_RadiationMask.description>
+  <Apparel_RadiationMask.label>防輻射面罩</Apparel_RadiationMask.label>
+  <Apparel_RadiationMask.description>通過輻射屏蔽襯裡保護使用者免於暴露於核輻射，並且能夠防止使用者直接接觸或吸入輻射塵埃或氣體。</Apparel_RadiationMask.description>
 
-  <Apparel_MoppMaskDesert.label>MOPP mask(Desert)</Apparel_MoppMaskDesert.label>
-  <Apparel_MoppMaskDesert.description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas. Combat version made with tougher materials for increased durability.</Apparel_MoppMaskDesert.description>
+  <Apparel_MoppMaskDesert.label>軍用防輻射面罩(沙漠)</Apparel_MoppMaskDesert.label>
+  <Apparel_MoppMaskDesert.description>通過輻射屏蔽襯裡保護使用者免於暴露於核輻射，並且能夠防止使用者直接接觸或吸入輻射塵埃或氣體。軍用款式使用更堅固的材料已增加耐用性。</Apparel_MoppMaskDesert.description>
 
-  <Apparel_MoppMaskWoodland.label>MOPP mask(Woodland)</Apparel_MoppMaskWoodland.label>
-  <Apparel_MoppMaskWoodland.description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas. Combat version made with tougher materials for increased durability.</Apparel_MoppMaskWoodland.description>
+  <Apparel_MoppMaskWoodland.label>軍用防輻射面罩(樹林)</Apparel_MoppMaskWoodland.label>
+  <Apparel_MoppMaskWoodland.description>通過輻射屏蔽襯裡保護使用者免於暴露於核輻射，並且能夠防止使用者直接接觸或吸入輻射塵埃或氣體。軍用款式使用更堅固的材料已增加耐用性。</Apparel_MoppMaskWoodland.description>
 
-  <Apparel_MoppMaskSnow.label>MOPP mask(Snow)</Apparel_MoppMaskSnow.label>
-  <Apparel_MoppMaskSnow.description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas. Combat version made with tougher materials for increased durability.</Apparel_MoppMaskSnow.description>
+  <Apparel_MoppMaskSnow.label>軍用防輻射面罩(雪地)</Apparel_MoppMaskSnow.label>
+  <Apparel_MoppMaskSnow.description>通過輻射屏蔽襯裡保護使用者免於暴露於核輻射，並且能夠防止使用者直接接觸或吸入輻射塵埃或氣體。軍用款式使用更堅固的材料已增加耐用性。</Apparel_MoppMaskSnow.description>
 
-  <Apparel_RadiationSuit.label>radiation suit</Apparel_RadiationSuit.label>
-  <Apparel_RadiationSuit.description>A suit that protects against radiation through shielding in the lining.</Apparel_RadiationSuit.description>
+  <Apparel_RadiationSuit.label>防輻射服</Apparel_RadiationSuit.label>
+  <Apparel_RadiationSuit.description>通過輻射屏蔽襯裡保護使用者免於暴露於核輻射。</Apparel_RadiationSuit.description>
 
-  <Apparel_MoppSuitDesert.label>MOPP suit(Desert)</Apparel_MoppSuitDesert.label>
-  <Apparel_MoppSuitDesert.description>A suit that protects against radiation through shielding in the lining. Combat version made with tougher materials for increased durability.</Apparel_MoppSuitDesert.description>
+  <Apparel_MoppSuitDesert.label>軍用防輻射服(沙漠)</Apparel_MoppSuitDesert.label>
+  <Apparel_MoppSuitDesert.description>通過輻射屏蔽襯裡保護使用者免於暴露於核輻射。軍用款式使用更堅固的材料已增加耐用性。</Apparel_MoppSuitDesert.description>
 
-  <Apparel_MoppSuitWoodland.label>MOPP suit(Woodland)</Apparel_MoppSuitWoodland.label>
-  <Apparel_MoppSuitWoodland.description>A suit that protects against radiation through shielding in the lining. Combat version made with tougher materials for increased durability.</Apparel_MoppSuitWoodland.description>
+  <Apparel_MoppSuitWoodland.label>軍用防輻射服(樹林)</Apparel_MoppSuitWoodland.label>
+  <Apparel_MoppSuitWoodland.description>通過輻射屏蔽襯裡保護使用者免於暴露於核輻射。軍用款式使用更堅固的材料已增加耐用性。</Apparel_MoppSuitWoodland.description>
 
-  <Apparel_MoppSuitSnow.label>MOPP suit(Snow)</Apparel_MoppSuitSnow.label>
-  <Apparel_MoppSuitSnow.description>A suit that protects against radiation through shielding in the lining. Combat version made with tougher materials for increased durability.</Apparel_MoppSuitSnow.description>
+  <Apparel_MoppSuitSnow.label>軍用防輻射服(雪地)</Apparel_MoppSuitSnow.label>
+  <Apparel_MoppSuitSnow.description>通過輻射屏蔽襯裡保護使用者免於暴露於核輻射。軍用款式使用更堅固的材料已增加耐用性。</Apparel_MoppSuitSnow.description>
 
 
 </LanguageData>

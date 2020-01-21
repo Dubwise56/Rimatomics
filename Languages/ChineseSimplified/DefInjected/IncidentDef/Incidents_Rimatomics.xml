@@ -1,21 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <Quest_SCUD_Camp.label>核基地威胁</Quest_SCUD_Camp.label>
-  <Quest_SCUD_Camp.letterText>{0}, {1} 从 {2}给我们发来一条消息。\n\n附近的敌方阵营 {3} 已经建立核基地，需要我们帮助摧毁基地，请注意可能会有人防守。\n\n如果成功摧毁，将会支付佣金：\n\n{3}</Quest_SCUD_Camp.letterText>
-  <Quest_SCUD_Camp.letterLabel>威胁警告</Quest_SCUD_Camp.letterLabel>
-
-  <Quest_SCUD_Chem_Camp.label>化学武器基地</Quest_SCUD_Chem_Camp.label>
-  <Quest_SCUD_Chem_Camp.letterText>{0}, {1} 从 {2}给我们发来一条消息。\n\n附近的敌方阵营 {3} 已经建立化学武器基地，需要我们帮助摧毁基地，请注意可能会有人防守。\n\n如果成功摧毁，将会支付佣金：\n\n{3}</Quest_SCUD_Chem_Camp.letterText>
-  <Quest_SCUD_Chem_Camp.letterLabel>威胁警告</Quest_SCUD_Chem_Camp.letterLabel>
-
-  <Quest_ICBM_Base.label>核弹基地</Quest_ICBM_Base.label>
-  <Quest_ICBM_Base.letterText>{0}, {1} 从 {2}给我们发来一条消息。\n\n附近的敌方阵营 {3} 已经建立核弹基地，需要我们帮助摧毁基地，请注意可能会有人防守。\n\n如果成功摧毁，将会支付佣金：\n\n{3}</Quest_ICBM_Base.letterText>
-  <Quest_ICBM_Base.letterLabel>威胁警告</Quest_ICBM_Base.letterLabel>
-
-  <TransformerExplosion.label>变压器故障</TransformerExplosion.label>
-  <TransformerExplosion.letterText>变压器中过大的电流烧坏了电路板</TransformerExplosion.letterText>
-  <TransformerExplosion.letterLabel>变压器故障</TransformerExplosion.letterLabel>
+  <TransformerExplosion.label>变压器爆炸</TransformerExplosion.label>
+  <TransformerExplosion.letterText>电流过载引发了变压器爆炸。</TransformerExplosion.letterText>
+  <TransformerExplosion.letterLabel>变压器爆炸</TransformerExplosion.letterLabel>
 
   <notNothing.label>?</notNothing.label>
   <notNothing.letterText>?</notNothing.letterText>

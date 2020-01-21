@@ -3,20 +3,20 @@
 
   <!-- STANDARD -->
 
-  <RailgunSabot.label>Sabot Round</RailgunSabot.label>
-  <RailgunSabot.description>A kinetic energy projectile fired from a railgun.</RailgunSabot.description>
+  <RailgunSabot.label>磁軌炮彈(高爆)</RailgunSabot.label>
+  <RailgunSabot.description>磁軌炮所發射的的高爆炮彈。</RailgunSabot.description>
 
-  <Bullet_Sabot.label>Sabot Round</Bullet_Sabot.label>
+  <Bullet_Sabot.label>磁軌炮彈(高爆)</Bullet_Sabot.label>
 
 
   <!-- DU Sabot -->
 
-  <RailgunSabotDU.label>DU Sabot Round</RailgunSabotDU.label>
-  <RailgunSabotDU.description>A kinetic energy projectile fired from a railgun, inert and safe to stockpile.</RailgunSabotDU.description>
+  <RailgunSabotDU.label>磁軌炮彈(貧鈾)</RailgunSabotDU.label>
+  <RailgunSabotDU.description>磁軌炮所發射的的貧鈾炮彈，已被安全保存著。</RailgunSabotDU.description>
 
-  <Bullet_Sabot_DU.label>DU Sabot Round</Bullet_Sabot_DU.label>
-  <SabotRoundIncoming.label>sabot incoming</SabotRoundIncoming.label>
-  <DUSabotRoundIncoming.label>DU sabot incoming</DUSabotRoundIncoming.label>
+  <Bullet_Sabot_DU.label>磁軌炮彈(貧鈾)</Bullet_Sabot_DU.label>
+  <SabotRoundIncoming.label>磁軌炮彈(高爆)即將到達</SabotRoundIncoming.label>
+  <DUSabotRoundIncoming.label>磁軌炮彈(貧鈾)即將到達</DUSabotRoundIncoming.label>
 
 
 </LanguageData>

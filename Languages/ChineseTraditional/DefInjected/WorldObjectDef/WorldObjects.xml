@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
 
-  <ICBMfission.label>ICBM</ICBMfission.label>
-  <ICBMfission.description>An intercontinental ballistic missile (ICBM) is a guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead.</ICBMfission.description>
+  <ICBMfission.label>洲際彈道導彈</ICBMfission.label>
+  <ICBMfission.description>攜帶有核彈頭的洲際彈道導彈，用於遠程打擊。</ICBMfission.description>
 
-  <Sabot.label>Sabot</Sabot.label>
-  <Sabot.description>Railgun Sabot Round</Sabot.description>
+  <Sabot.label>磁軌炮彈</Sabot.label>
+  <Sabot.description>磁軌炮彈</Sabot.description>
 
-  <Fallout.label>Nuclear Fallout</Fallout.label>
-  <Fallout.description>Nuclear fallout is the residual radioactive material propelled into the air by nuclear blasts or a nuclear reactor meltdown.</Fallout.description>
+  <Fallout.label>核輻射</Fallout.label>
+  <Fallout.description>輻射塵埃是由核爆炸或核反應堆熔毀而噴射到空氣中的殘餘放射性物質。</Fallout.description>
 
-  <RimatomicsProbe.label>Rimatomics Probe</RimatomicsProbe.label>
-  <RimatomicsProbe.description>Rimatomics trading probe.</RimatomicsProbe.description>
+  <RimatomicsProbe.label>「邊緣核能」在軌衛星</RimatomicsProbe.label>
+  <RimatomicsProbe.description>「邊緣核能」在軌貿易衛星。</RimatomicsProbe.description>
 
 
 </LanguageData>
