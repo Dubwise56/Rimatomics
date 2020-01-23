@@ -198,10 +198,6 @@
 
 
 
-
-
-
-
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCADS</defName>
     <label>ADS</label>

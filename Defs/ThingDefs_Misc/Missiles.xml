@@ -4,7 +4,7 @@
   <ThingDef ParentName="RimatomicResourceBase">
     <defName>RocketEngine</defName>
     <label>Rocket Engine</label>
-    <description>Engines for building ICBM's.</description>
+    <description>Engines for building rocket propelled machines.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/RocketEngine</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -45,7 +45,7 @@
   <ThingDef ParentName="RimatomicResourceBase">
     <defName>MissileFuselage</defName>
     <label>Missile Fuselage</label>
-    <description>Fuselage for building ICBM's.</description>
+    <description>Fuselage for building strategic missiles.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/fuselage</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -133,7 +133,6 @@
     </costList>
   </ThingDef>
 
-  
   <ThingDef ParentName="BasedWarhead">
     <defName>FissionWarhead</defName>
     <label>Nuclear Warhead</label>
@@ -158,7 +157,7 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-      <Plutonium>240</Plutonium>
+      <Plutonium>120</Plutonium>
       <Steel>100</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
@@ -166,7 +165,6 @@
       <li>RewardSpecial</li>
     </thingSetMakerTags>
   </ThingDef>
-
 
   <ThingDef Name="BasedRimatomicsMissile" Abstract="True">
     <category>Projectile</category>
@@ -182,7 +180,7 @@
 
   <ThingDef ParentName="BasedRimatomicsMissile">
     <defName>ICBM_Fission</defName>
-    <label>ICBM</label>
+    <label>strategic missile</label>
     <graphicData>
       <texPath>Rimatomics/Things/Projectile/Warhead</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -191,19 +189,6 @@
     <thingClass>Rimatomics.ICBM_Fission</thingClass>
     <seeThroughFog>true</seeThroughFog>
   </ThingDef>
-
-  <ThingDef ParentName="BasedRimatomicsMissile">
-    <defName>SCUD_Chem</defName>
-    <label>ICBM</label>
-    <graphicData>
-      <texPath>Rimatomics/Things/Projectile/Warhead</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>TransparentPostLight</shaderType>
-    </graphicData>
-    <thingClass>Rimatomics.SCUD</thingClass>
-    <seeThroughFog>true</seeThroughFog>
-  </ThingDef>
-
 
   <ThingDef ParentName="SkyfallerBase">
     <defName>NuclearWarheadIncoming</defName>
@@ -224,50 +209,9 @@
     </skyfaller>
   </ThingDef>
 
-
-
-  <ThingDef ParentName="SkyfallerBase">
-    <defName>SCUDIncoming</defName>
-    <label>missile incoming</label>
-    <size>(2, 2)</size>
-    <graphicData>
-      <texPath>Rimatomics/Things/Projectile/Warhead</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>Transparent</shaderType>
-      <drawSize>(10, 10)</drawSize>
-    </graphicData>
-    <skyfaller>
-      <shadowSize>(3, 3)</shadowSize>
-      <explosionRadius>4</explosionRadius>
-      <explosionDamage>Bomb</explosionDamage>
-      <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
-      <speed>1</speed>
-    </skyfaller>
-  </ThingDef>
-
-  <ThingDef ParentName="SkyfallerBase">
-    <defName>CHEMSCUDIncoming</defName>
-    <label>missile incoming</label>
-    <size>(2, 2)</size>
-    <graphicData>
-      <texPath>Rimatomics/Things/Projectile/Warhead</texPath>
-      <graphicClass>Graphic_Single</graphicClass>
-      <shaderType>Transparent</shaderType>
-      <drawSize>(10, 10)</drawSize>
-    </graphicData>
-    <skyfaller>
-      <shadowSize>(3, 3)</shadowSize>
-      <explosionRadius>4</explosionRadius>
-      <explosionDamage>Bomb</explosionDamage>
-      <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
-      <speed>1.2</speed>
-    </skyfaller>
-  </ThingDef>
-
-
   <ThingDef ParentName="EtherealThingBase">
     <defName>ICBMStrike</defName>
-    <label>ICBM Strike</label>
+    <label>strategic missile strike</label>
     <thingClass>Rimatomics.NuclearStrike</thingClass>
     <tickerType>Normal</tickerType>
     <drawerType>RealtimeOnly</drawerType>

@@ -311,8 +311,6 @@
     <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
   </ThingDef>
 
-
-
   <ThingDef ParentName="SkyfallerBase">
     <defName>ThrownSlag</defName>
     <label>ThrownSlag</label>

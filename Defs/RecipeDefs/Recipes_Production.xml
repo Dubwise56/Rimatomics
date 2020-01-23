@@ -41,7 +41,7 @@
     <effectWorking>ConstructMetal</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-    <workAmount>10000</workAmount>
+    <workAmount>50000</workAmount>
     <workSkill>Crafting</workSkill>
     <skillRequirements>
       <Crafting>12</Crafting>
@@ -148,7 +148,7 @@
     <label>Dismantle warhead</label>
     <description>Salvaging useful materials from a warhead</description>
     <jobString>Dismantling warhead.</jobString>
-    <workAmount>700</workAmount>
+    <workAmount>2500</workAmount>
     <workSpeedStat>SmithingSpeed</workSpeedStat>
     <effectWorking>ConstructMetal</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
@@ -168,7 +168,7 @@
       </thingDefs>
     </fixedIngredientFilter>
     <products>
-      <Plutonium>240</Plutonium>
+      <Plutonium>120</Plutonium>
       <Steel>100</Steel>
       <ComponentIndustrial>5</ComponentIndustrial>
     </products>

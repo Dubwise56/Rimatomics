@@ -391,7 +391,7 @@
     <passability>PassThroughOnly</passability>
     <canOverlapZones>false</canOverlapZones>
     <blockWind>true</blockWind>
-    <castEdgeShadows>false</castEdgeShadows>
+    <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.5</fillPercent>
     <blockLight>true</blockLight>
     <holdsRoof>true</holdsRoof>
@@ -508,10 +508,10 @@
       <color>(0.658,0.615,0.525, 1)</color>
     </graphicData>    
     <rotatable>false</rotatable>
-    <altitudeLayer>Building</altitudeLayer>
+    <altitudeLayer>BuildingOnTop</altitudeLayer>
     <passability>Impassable</passability>
     <blockWind>true</blockWind>
-    <castEdgeShadows>false</castEdgeShadows>
+    <castEdgeShadows>true</castEdgeShadows>
     <fillPercent>0.9</fillPercent>
     <pathCost>250</pathCost>
     <canOverlapZones>false</canOverlapZones>
@@ -577,7 +577,7 @@
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
     <blockWind>true</blockWind>
-    <castEdgeShadows>false</castEdgeShadows>
+    <castEdgeShadows>true</castEdgeShadows>
     <pathCost>250</pathCost>
     <fillPercent>0.5</fillPercent>
     <blockLight>false</blockLight>

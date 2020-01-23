@@ -1,5 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
+
+  <!--NEW-->
+  <MissingPESUpgrades>When the mod Preemtive Strike is running its sky object detection research projects must be completed before the ATOM can detect incoming drop pods. The scramblers will however still operate normally.</MissingPESUpgrades>
+  <ReactorAlert>Reactor Alert!</ReactorAlert>
+  <ShortRangeStratLaunch>Tactical Launch</ShortRangeStratLaunch>
+  <ShortRangeStratLaunchDesc>Launch a strategic missile on this map</ShortRangeStratLaunchDesc>
+  <LongRangeStratLaunch>Strategic Launch</LongRangeStratLaunch>
+  <LongRangeStratLaunchDesc>Launch the missile at a target on this Rimworld</LongRangeStratLaunchDesc>
+  <HighYieldWarhead>High Yield</HighYieldWarhead>
+  <HighYieldWarheadDesc>Warheads launched from this silo are set to create a massive explosion that will destroy anything on the map that isn't inside a mountain bunker</HighYieldWarheadDesc>
+  <LowYieldWarhead>Low Yield</LowYieldWarhead>
+  <LowYieldWarheadDesc>Missiles launched from this silo are set to create a small tactical explosion</LowYieldWarheadDesc>
+
+  <!--<SetWarheadYield>Warhead Yield: {0}</SetWarheadYield>-->
+
+  <CommandDesignateOpenCloseValveLabel>Toggle Valve</CommandDesignateOpenCloseValveLabel>
+  <CommandDesignateOpenCloseValveDesc>Toggle the valve open or closed</CommandDesignateOpenCloseValveDesc>
+
+  <FlareScram>Flare SCRAM</FlareScram>
+  <FlareScramDesc>SCRAM the reactor during solar flares</FlareScramDesc>
   <TargetAllShells>Target All Shells</TargetAllShells>
   <TargetEnemyShells>Target Enemy Shells</TargetEnemyShells>
   <ThreatDetection>Threat Detection</ThreatDetection>
@@ -100,9 +120,7 @@
   <PulseSize>Pulse: {0} Wd / Damage: {1}</PulseSize>
   <critCommandFireMission>Fire Mission</critCommandFireMission>
   <critCommandFireMissionDesc>Long range artillery shot</critCommandFireMissionDesc>
-  <critCommandLaunchICBM>Launch ICBM</critCommandLaunchICBM>
-  <critCommandLaunchICBMDesc>Launch the ICBM at a target on this Rimworld</critCommandLaunchICBMDesc>
-  <criticbmAttack>The enemy faction {0} are preparing to launch an ICBM attack from a nearby base, you have {1} days before launch.</criticbmAttack>
+  <criticbmAttack>The enemy faction {0} are preparing to launch a missile attack from a nearby base, you have {1} days before launch.</criticbmAttack>
   <critMagazine>Magazine: {0}</critMagazine>
   <critNoSabotRounds>No Sabot ammunition</critNoSabotRounds>
   <SiloMissingPart>Requires part: {0}</SiloMissingPart>
@@ -116,13 +134,13 @@
   <NextPart>Next Part: {0}, {1} Needed</NextPart>
   <SiloFull>Silo Full</SiloFull>
   <SiloMagazine>Missiles: {0}/{1}</SiloMagazine>
-  <ICBMReady>ICBM Ready</ICBMReady>
+  <ICBMReady>strategic missile ready</ICBMReady>
   <TestFireHELSOnOwnShells>Shoot down our own morter shells for data gathering.</TestFireHELSOnOwnShells>
   <OpenRadar>Open target tracking display</OpenRadar>
   <NoSabotToExtract>No sabot rounds to extract</NoSabotToExtract>
   <CancelICBMLaunch>Abort Launch</CancelICBMLaunch>
   <CancelICBMLaunchDesc>Abort Launch</CancelICBMLaunchDesc>
-  <ICBMLaunchCancelled>ICBM launch aborted</ICBMLaunchCancelled>
+  <ICBMLaunchCancelled>strategic missile launch aborted</ICBMLaunchCancelled>
 
   <!--REACTOR BUILDINGS-->
   <ReactorUptime>Uptime: {0}</ReactorUptime>
@@ -197,7 +215,7 @@
   <TradeShipPriceNeed>Need {0} silver to send trade ship</TradeShipPriceNeed>
   <TradeShipCooldown>Trade Ship Cooldown: {0}</TradeShipCooldown>
   <TradeShipArrival>Trade Ship Arrival: {0}</TradeShipArrival>
-  
+
   <TradeShipReq>A Rimatomics trade ship has been dispached to your planet.\n\nIt will take 2 days to arrive.</TradeShipReq>
 
   <LowerPowerLimit>Lower Power Limit</LowerPowerLimit>
@@ -206,7 +224,7 @@
   <TrannyLimit>Power Limit: {0}kW</TrannyLimit>
   <TurbinePower>Turbine Power: {0}kW</TurbinePower>
 
-  
+
   <!--RESEARCH-->
   <NonBlueprintUpgrade></NonBlueprintUpgrade>
   <BlueprintUpgradeDesc>This is a blueprint upgrade, new constructions will have this upgrade built in as standard, existing buildings will need to be manually upgraded using the crafted module</BlueprintUpgradeDesc>
@@ -234,7 +252,7 @@
 
   <DesignatorRemoveRimatomicsPipes>Deconstruct Pipes</DesignatorRemoveRimatomicsPipes>
   <DesignatorRemoveRimatomicsPipesDesc>Designate pipes for deconstruction</DesignatorRemoveRimatomicsPipesDesc>
-  
+
   <Alert_ResearchFacility>Research Facility Missing</Alert_ResearchFacility>
   <RequiresFacility>{0} required for current step</RequiresFacility>
 
