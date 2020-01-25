@@ -195,25 +195,26 @@
       <li>Rimatomics</li>
     </tradeTags>
     <statBases>
-      <MarketValue>1200</MarketValue>
+      <MarketValue>1000</MarketValue>
     </statBases>
     <nuclearFuel>
       <IsFuel>true</IsFuel>
       <mox>false</mox>
       <Du>99</Du>
       <Pu>0</Pu>
+      <PowerOutput>1750</PowerOutput>
       <thermalCurve>
         <points>
-          <li>(0, 20)</li>
-          <li>(0.1, 600)</li>
-          <li>(1, 1750)</li>
+          <li>(0, 0.01)</li>
+          <li>(0.1, 0.6)</li>
+          <li>(1, 1)</li>
         </points>
       </thermalCurve>
       <fastCurve>
         <points>
-          <li>(0, 20)</li>
-          <li>(0.1, 2100)</li>
-          <li>(1, 1750)</li>
+          <li>(0, 0.01)</li>
+          <li>(0.1, 1.2)</li>
+          <li>(1, 1)</li>
         </points>
       </fastCurve>
     </nuclearFuel>
@@ -233,25 +234,27 @@
       <li>Rimatomics</li>
     </tradeTags>
     <statBases>
-      <MarketValue>2500</MarketValue>
+      <MarketValue>2000</MarketValue>
     </statBases>
     <nuclearFuel>
       <IsFuel>true</IsFuel>
       <mox>true</mox>
       <Du>98</Du>
       <Pu>20</Pu>
+      <PowerOutput>2000</PowerOutput>
       <thermalCurve>
         <points>
-          <li>(0, 20)</li>
-          <li>(0.1, 1250)</li>
-          <li>(1, 2100)</li>
+          <li>(0, 0.01)</li>
+          <li>(0.1, 0.6)</li>
+          <li>(1, 1)</li>
         </points>
       </thermalCurve>
       <fastCurve>
         <points>
-          <li>(0, 20)</li>
-          <li>(0.1, 2500)</li>
-          <li>(1, 2100)</li>
+          <li>(0, 0.01)</li>
+          <li>(0.1, 1)</li> 
+          <li>(0.5, 1.2)</li> 
+          <li>(1, 1)</li>
         </points>
       </fastCurve>
     </nuclearFuel>

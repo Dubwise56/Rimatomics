@@ -134,8 +134,8 @@
       </li>
       <li Class="CompProperties_Flickable">
         <commandTexture>Rimatomics/Things/RimatomicsBuildings/CoolantValve</commandTexture>
-        <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
-        <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
+        <commandLabelKey>RimatomicsValveLabel</commandLabelKey>
+        <commandDescKey>RimatomicsValveLabelDesc</commandDescKey>
       </li>
     </comps>
   </ThingDef>
@@ -177,8 +177,8 @@
       </li>
       <li Class="CompProperties_Flickable">
         <commandTexture>Rimatomics/Things/RimatomicsBuildings/SteamValve</commandTexture>
-        <commandLabelKey>CommandDesignateOpenCloseValveLabel</commandLabelKey>
-        <commandDescKey>CommandDesignateOpenCloseValveDesc</commandDescKey>
+        <commandLabelKey>RimatomicsValveLabel</commandLabelKey>
+        <commandDescKey>RimatomicsValveLabelDesc</commandDescKey>
       </li>
     </comps>
   </ThingDef>

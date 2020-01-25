@@ -2,6 +2,13 @@
 <LanguageData>
 
   <!--NEW-->
+  <PoolLoading>Loading</PoolLoading>
+  <PoolUnloading>Unloading</PoolUnloading>
+  <Designateremoveallspent>Remove all spent fuel</Designateremoveallspent>
+  <Designateremoveall>Remove all fuel</Designateremoveall>
+  <Designateremoveallprocessable>Remove all processable fuel</Designateremoveallprocessable>
+  <Designateinstallall>Install fuel into all slots</Designateinstallall>
+  <Clearalldesignations>Clear all designations</Clearalldesignations>
   <MissingPESUpgrades>When the mod Preemtive Strike is running its sky object detection research projects must be completed before the ATOM can detect incoming drop pods. The scramblers will however still operate normally.</MissingPESUpgrades>
   <ReactorAlert>Reactor Alert!</ReactorAlert>
   <ShortRangeStratLaunch>Tactical Launch</ShortRangeStratLaunch>
@@ -12,19 +19,14 @@
   <HighYieldWarheadDesc>Warheads launched from this silo are set to create a massive explosion that will destroy anything on the map that isn't inside a mountain bunker</HighYieldWarheadDesc>
   <LowYieldWarhead>Low Yield</LowYieldWarhead>
   <LowYieldWarheadDesc>Missiles launched from this silo are set to create a small tactical explosion</LowYieldWarheadDesc>
-
-  <!--<SetWarheadYield>Warhead Yield: {0}</SetWarheadYield>-->
-
-  <CommandDesignateOpenCloseValveLabel>Toggle Valve</CommandDesignateOpenCloseValveLabel>
-  <CommandDesignateOpenCloseValveDesc>Toggle the valve open or closed</CommandDesignateOpenCloseValveDesc>
+  <RimatomicsValveLabel>Toggle Valve</RimatomicsValveLabel>
+  <RimatomicsValveLabelDesc>Toggle the valve open or closed</RimatomicsValveLabelDesc>
 
   <FlareScram>Flare SCRAM</FlareScram>
   <FlareScramDesc>SCRAM the reactor during solar flares</FlareScramDesc>
   <TargetAllShells>Target All Shells</TargetAllShells>
   <TargetEnemyShells>Target Enemy Shells</TargetEnemyShells>
   <ThreatDetection>Threat Detection</ThreatDetection>
-  <PoolLoading>Loading</PoolLoading>
-  <PoolUnloading>PoolUnloading</PoolUnloading>
   <NextResearchStep>Next Step:</NextResearchStep>
   <!--ALERTS-->
   <AlertNeedsTurbine>Core needs turbine</AlertNeedsTurbine>
