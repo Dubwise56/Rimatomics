@@ -41,7 +41,7 @@
     <effectWorking>ConstructMetal</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <unfinishedThingDef>UnfinishedGun</unfinishedThingDef>
-    <workAmount>50000</workAmount>
+    <workAmount>8000</workAmount>
     <workSkill>Crafting</workSkill>
     <skillRequirements>
       <Crafting>12</Crafting>

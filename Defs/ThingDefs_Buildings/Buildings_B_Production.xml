@@ -318,6 +318,27 @@
       <Plasteel>50</Plasteel>
 			<ComponentIndustrial>10</ComponentIndustrial>
 		</costList>
+    <building>
+      <preventDeteriorationInside>true</preventDeteriorationInside>
+      <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <fixedStorageSettings>
+        <filter>
+          <thingDefs>
+            <li>FuelRods</li>
+            <li>FuelRodsMOX</li>
+          </thingDefs>
+        </filter>
+      </fixedStorageSettings>
+      <defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <thingDefs>
+            <li>FuelRods</li>
+            <li>FuelRodsMOX</li>
+          </thingDefs>
+        </filter>
+      </defaultStorageSettings>
+    </building>
 		<comps>
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
@@ -334,6 +355,9 @@
         <maxSimultaneous>1</maxSimultaneous>
       </li>
 		</comps>
+    <inspectorTabs>
+      <li>Rimatomics.ITab_FuelStorage</li>
+    </inspectorTabs>
 		<rotatable>false</rotatable>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>

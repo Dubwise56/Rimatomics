@@ -4,7 +4,7 @@
 
   <WorkGiverDef>
     <defName>LoadRailgunMagazine</defName>
-    <label>Load Sabot rounds</label>
+    <label>Load sabot rounds</label>
     <giverClass>Rimatomics.WorkGiver_LoadMagazine</giverClass>
     <workType>Hauling</workType>
     <verb>load</verb>
@@ -17,7 +17,7 @@
 
   <WorkGiverDef>
     <defName>LoadSilo</defName>
-    <label>Load Silo</label>
+    <label>Load silo</label>
     <giverClass>Rimatomics.WorkGiver_LoadSilo</giverClass>
     <workType>Hauling</workType>
     <verb>load</verb>
@@ -30,9 +30,9 @@
 
   <WorkGiverDef>
     <defName>LoadFuelModule</defName>
-    <label>Load Fuel</label>
+    <label>Load fuel</label>
     <giverClass>Rimatomics.WorkGiver_LoadFuelModule</giverClass>
-    <workType>Hauling</workType>
+    <workType>NuclearWork</workType>
     <verb>load fuel into</verb>
     <gerund>loading fuel into</gerund>
     <priorityInType>155</priorityInType>
@@ -45,7 +45,7 @@
     <defName>LoadSpentFuel</defName>
     <label>load spent fuel</label>
     <giverClass>Rimatomics.WorkGiver_LoadPlutoniumProc</giverClass>
-    <workType>Hauling</workType>
+    <workType>NuclearWork</workType>
     <verb>load</verb>
     <gerund>loading</gerund>
     <priorityInType>150</priorityInType>
@@ -58,7 +58,7 @@
     <defName>LoadProcChemFuel</defName>
     <label>load chemfuel</label>
     <giverClass>Rimatomics.WorkGiver_LoadPuProcChems</giverClass>
-    <workType>Hauling</workType>
+    <workType>NuclearWork</workType>
     <verb>load</verb>
     <gerund>loading</gerund>
     <priorityInType>148</priorityInType>
@@ -71,7 +71,7 @@
     <defName>UnloadPlutonium</defName>
     <label>remove plutonium</label>
     <giverClass>Rimatomics.WorkGiver_UnloadPlutoniumProc</giverClass>
-    <workType>Hauling</workType>
+    <workType>NuclearWork</workType>
     <verb>unload</verb>
     <gerund>unloading</gerund>
     <priorityInType>145</priorityInType>
@@ -82,9 +82,9 @@
 
   <WorkGiverDef>
     <defName>RemoveFuelModule</defName>
-    <label>Remove Fuel</label>
+    <label>Remove fuel</label>
     <giverClass>Rimatomics.WorkGiver_RemoveFuelModule</giverClass>
-    <workType>Hauling</workType>
+    <workType>NuclearWork</workType>
     <verb>remove fuel from</verb>
     <gerund>removing fuel from</gerund>
     <priorityInType>140</priorityInType>
@@ -96,7 +96,7 @@
 
   <WorkGiverDef>
     <defName>UpgradeBuilding</defName>
-    <label>UpgradeBuilding</label>
+    <label>Upgrade Rimatomics buildings</label>
     <giverClass>Rimatomics.WorkGiver_UpgradeBuilding</giverClass>
     <workType>Construction</workType>
     <verb>Upgrade</verb>
@@ -170,7 +170,7 @@
 
   <WorkGiverDef>
     <defName>RimatomicsConstruction</defName>
-    <label>construct</label>
+    <label>do Rimatomics construction</label>
     <giverClass>Rimatomics.WorkGiver_SuperviseResearch</giverClass>
     <workType>Construction</workType>
     <verb>Construct</verb>
@@ -181,5 +181,25 @@
       <li>Sight</li>
     </requiredCapacities>
   </WorkGiverDef>
+
+
+
+
+
+  <WorkTypeDef>
+    <defName>NuclearWork</defName>
+    <labelShort>Nuclear</labelShort>
+    <pawnLabel>Nuclear managing</pawnLabel>
+    <gerundLabel>Loading</gerundLabel>
+    <description>Move and load radioactive material.</description>
+    <verb>Nuclear</verb>
+    <naturalPriority>310</naturalPriority>
+    <alwaysStartActive>true</alwaysStartActive>
+    <requireCapableColonist>true</requireCapableColonist>
+    <workTags>
+      <li>ManualDumb</li>
+      <li>Hauling</li>
+    </workTags>
+  </WorkTypeDef>
 
 </Defs>

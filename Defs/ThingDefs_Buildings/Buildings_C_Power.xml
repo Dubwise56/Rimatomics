@@ -130,7 +130,7 @@
       </defaultStorageSettings>
     </building>
     <inspectorTabs>
-      <li>ITab_Storage</li>
+      <li>Rimatomics.ITab_FuelStorage</li>
     </inspectorTabs>
     <rotatable>false</rotatable>
     <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
@@ -737,7 +737,7 @@
       </defaultStorageSettings>
     </building>
     <inspectorTabs>
-      <li>ITab_Storage</li>
+      <li>Rimatomics.ITab_FuelStorage</li>
       <li>Rimatomics.ITab_StoragePool</li>
     </inspectorTabs>
     <surfaceType>Item</surfaceType>

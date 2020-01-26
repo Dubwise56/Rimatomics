@@ -2,6 +2,7 @@
 <LanguageData>
 
   <!--NEW-->
+  <FuelLifeRange>{0} Fuel Life</FuelLifeRange>
   <PoolLoading>Loading</PoolLoading>
   <PoolUnloading>Unloading</PoolUnloading>
   <Designateremoveallspent>Remove all spent fuel</Designateremoveallspent>
