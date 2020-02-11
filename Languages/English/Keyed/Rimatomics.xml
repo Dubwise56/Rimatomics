@@ -5,8 +5,8 @@
   <AutothrotIDCount>Multiple cores set to {0}, each core must have a unique ID for autothrottle to engage</AutothrotIDCount>
   <AutothrotOn>Autothrottle engaged for {0}</AutothrotOn>
   <AutothrotOff>Autothrottle disengaged for {0}</AutothrotOff>
-  <AutothrotRange>Power must be within +/- 5000w to engage</AutothrotRange>
-  <AutothrotTip>Engage Autothrottle\n\ncontrol flux level to match powernet load, readings are taken from the powernet that this console is connected to</AutothrotTip>
+  <AutothrotRange>Grid excess must be within +/- 5000w to engage</AutothrotRange>
+  <AutothrotTip>Engage Autothrottle\n\ncontrol flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage</AutothrotTip>
   <CoreIdMismatch>Reactor and console ID do not match, each core requires its own console with a unique ID for autothrottle</CoreIdMismatch>
   <FuelLifeRange>{0} Fuel Life</FuelLifeRange>
   <PoolLoading>Loading</PoolLoading>
