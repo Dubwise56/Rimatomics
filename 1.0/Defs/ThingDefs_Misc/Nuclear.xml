@@ -44,7 +44,7 @@
     <recipeMaker>
       <productCount>10</productCount>
       <workAmount>900</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
@@ -83,7 +83,7 @@
     <recipeMaker>
       <productCount>30</productCount>
       <workAmount>1000</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>ConstructMetal</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>

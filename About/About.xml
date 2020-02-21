@@ -3,9 +3,11 @@
 <ModMetaData>
 	<name>Rimatomics</name>
 	<author>Dubwise</author>
-	<url>https://ludeon.com/forums/index.php?topic=25124.0</url>
+	<url>https://github.com/Dubwise56/Rimatomics/wiki</url>
 	  <supportedVersions>
     <li>1.0</li>
+      <li>1.1</li>
   </supportedVersions>
-	<description>Nuclear power | Energy weapons | Nuclear weapons 1.7.1080\n\nMultiplayer Ready</description>
+  <packageId>Dubwise.Rimatomics</packageId>
+	<description>Nuclear power | Energy weapons | Nuclear weapons</description>
 </ModMetaData>

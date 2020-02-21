@@ -26,7 +26,7 @@
     <recipeMaker>
       <productCount>1</productCount>
       <workAmount>11000</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
@@ -67,7 +67,7 @@
     <recipeMaker>
       <productCount>1</productCount>
       <workAmount>11000</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Smith</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
@@ -117,7 +117,7 @@
     <recipeMaker>
       <productCount>1</productCount>
       <workAmount>40000</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>ConstructMetal</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
@@ -147,7 +147,7 @@
     <recipeMaker>
       <productCount>1</productCount>
       <workAmount>40000</workAmount>
-      <workSpeedStat>SmithingSpeed</workSpeedStat>
+      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
       <workSkill>Intellectual</workSkill>
       <effectWorking>ConstructMetal</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
