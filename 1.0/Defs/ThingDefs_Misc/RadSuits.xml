@@ -35,7 +35,7 @@
       <SocialImpact>-0.15</SocialImpact>
     </equippedStatOffsets>
     <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSpeedStat>TailoringSpeed</workSpeedStat>
       <workSkill>Crafting</workSkill>
       <effectWorking>Tailor</effectWorking>
       <soundWorking>Recipe_Tailor</soundWorking>

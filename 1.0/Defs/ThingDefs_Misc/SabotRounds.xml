@@ -24,7 +24,7 @@
 
   <ThingDef Name="MakeableSabotBase" ParentName="SabotBase" Abstract="True">
     <recipeMaker>
-      <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+      <workSpeedStat>SmithingSpeed</workSpeedStat>
       <effectWorking>ConstructMetal</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
       <workAmount>800</workAmount>
