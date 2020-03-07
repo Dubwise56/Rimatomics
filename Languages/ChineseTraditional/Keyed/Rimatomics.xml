@@ -54,7 +54,7 @@
   <ShutdownCold>關閉並冷卻</ShutdownCold>
   <StartingUp>啟動</StartingUp>
   <ShuttingDown>關閉</ShuttingDown>
-  <Active>激活</Active>
+  <RimatomActive>激活</RimatomActive>
   <ReactorBreakdown>ID: {0}\n狀態: {1}\n最大電流: {2}W\n轉換率: {3}\n\n{4}</ReactorBreakdown>
   <SlotBreakdown>衰變預期: {0}\n最大功率: {1}W\n當前功率: {2}W\n使用: {3}\n比率: {4}\n現在可以處理: {5}</SlotBreakdown>
   <cycleScreensDesc>監控連接的的所有反應堆</cycleScreensDesc>
@@ -167,13 +167,13 @@
   <critControlRod>控制棒</critControlRod>
   <critTargetRod>控制棒用於</critTargetRod>
   <critFuelRemaining2>剩餘燃料: {0}</critFuelRemaining2>
-  <Empty>清空</Empty>
-  <Activated>激活</Activated>
-  <Cracked>破裂</Cracked>
-  <Spent>廢棄</Spent>
-  <New>新的</New>
-  <Remove>清除</Remove>
-  <Store>貯存</Store>
+  <RimatomEmpty>清空</RimatomEmpty>
+  <RimatomActivated>激活</RimatomActivated>
+  <RimatomCracked>破裂</RimatomCracked>
+  <RimatomSpent>廢棄</RimatomSpent>
+  <RimatomNew>新的</RimatomNew>
+  <RimatomRemove>清除</RimatomRemove>
+  <RimatomStore>貯存</RimatomStore>
   <UnsafeFacility>不安全設施</UnsafeFacility>
   <FacilityNoPower>未接通電源</FacilityNoPower>
   <NoActiveBenchWithProject>沒有需要連接的工作台</NoActiveBenchWithProject>
@@ -210,10 +210,10 @@
   <!--RESEARCH-->
   <NonBlueprintUpgrade></NonBlueprintUpgrade>
   <BlueprintUpgradeDesc>這是一個升級藍圖，新的建築將以此為標準，現有的建築仍需要手動升級模塊。</BlueprintUpgradeDesc>
-  <Free>免費</Free>
-  <Purchase>購買</Purchase>
-  <Price>價格</Price>
-  <Unlocks>解鎖研究</Unlocks>
+  <RimatomFree>免費</RimatomFree>
+  <RimatomPurchase>購買</RimatomPurchase>
+  <RimatomPrice>價格</RimatomPrice>
+  <RimatomUnlocks>解鎖研究</RimatomUnlocks>
   <openResearchPanel>打開研究面板</openResearchPanel>
   <ResearchProg>{0}/{1}</ResearchProg>
   <ResearchPriceNeed>需要在軌道貿易信標附近放置{0}白銀</ResearchPriceNeed>

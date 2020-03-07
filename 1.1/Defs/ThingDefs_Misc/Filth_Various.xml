@@ -2,7 +2,7 @@
 <Defs>
 
 
-  <ThingDef>
+  <!--<ThingDef>
     <defName>RadioactiveDust</defName>
     <label>Radioactive Dust</label>
     <description>Radioactive Dust.</description>
@@ -28,7 +28,7 @@
       <Mass>0.2</Mass>
     </statBases>
     <pathCost>5</pathCost>
-  </ThingDef>
+  </ThingDef>-->
   
   
 </Defs>

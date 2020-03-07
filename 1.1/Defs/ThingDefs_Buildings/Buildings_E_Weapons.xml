@@ -625,7 +625,7 @@
       <Mass>100</Mass>
     </statBases>
     <placeWorkers>
-      <li>PlaceWorker_NotUnderRoof</li>
+      <!--<li>PlaceWorker_NotUnderRoof</li>-->
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
       <li>Rimatomics.PlaceWorker_TurretTop</li>
     </placeWorkers>
@@ -915,7 +915,7 @@
     </statBases>
     <placeWorkers>
       <li>Rimatomics.PlaceWorker_TurretTop</li>
-      <li>PlaceWorker_NotUnderRoof</li>
+      <!--<li>PlaceWorker_NotUnderRoof</li>-->
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
     </placeWorkers>
     <stuffCategories>
@@ -1014,7 +1014,7 @@
       <speed>200</speed>
       <stoppingPower>1.5</stoppingPower>
       <explosionRadius>2.7</explosionRadius>
-      <flyOverhead>true</flyOverhead>
+      <flyOverhead>false</flyOverhead>
       <soundExplode>MortarBomb_Explode</soundExplode>
     </projectile>
   </ThingDef>

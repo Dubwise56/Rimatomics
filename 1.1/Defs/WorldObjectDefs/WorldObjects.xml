@@ -37,7 +37,7 @@
     <expandingIconPriority>6</expandingIconPriority>
   </WorldObjectDef>
 
-  <WorldObjectDef>
+  <!--<WorldObjectDef>
     <defName>RimatomicsProbe</defName>
     <label>Rimatomics Probe</label>
     <description>Rimatomics trading probe.</description>
@@ -47,5 +47,5 @@
     <expandingIcon>true</expandingIcon>
     <expandingIconTexture>Rimatomics/UI/MAVEN</expandingIconTexture>
     <expandingIconPriority>6</expandingIconPriority>
-  </WorldObjectDef>
+  </WorldObjectDef>-->
 </Defs>

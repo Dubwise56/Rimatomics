@@ -34,7 +34,7 @@
   <ShutdownCold>Выключение и охлаждение</ShutdownCold>
   <StartingUp>Пуск</StartingUp>
   <ShuttingDown>Отключение</ShuttingDown>
-  <Active>Активный</Active>
+  <RimatomActive>Активный</RimatomActive>
   <ReactorBreakdown>ID: {0}\nСтатус: {1}\nМакс энергия: {2}W\nОбщее кол-во топлива: {3}\nКоэффициент конверсии: {4}\nРадиация: {5}\n\n{6}</ReactorBreakdown>
   <SlotBreakdown>Макс энергия: {1}W\nТекущая мощность: {2}W\nВыроботка: {3}\nКонверсия: {4}\nВозможность обработки: {5}</SlotBreakdown>
   <cycleScreensDesc>Мониторинг всех реакторов в этой сети</cycleScreensDesc>
@@ -138,13 +138,13 @@
   <critNeutronFlux>Нейтронный поток</critNeutronFlux>
   <critTargetFlux>Целевой поток</critTargetFlux>
   <critFuelRemaining2>Остаток топлива: {0}</critFuelRemaining2>
-  <Empty>Пусто</Empty>
-  <Activated>Активированный</Activated>
-  <Cracked>Треснувший</Cracked>
-  <Spent>Истощен</Spent>
-  <New>Новый</New>
-  <Remove>Удалить</Remove>
-  <Store>Хранить</Store>
+  <RimatomEmpty>Пусто</RimatomEmpty>
+  <RimatomActivated>Активированный</RimatomActivated>
+  <RimatomCracked>Треснувший</RimatomCracked>
+  <RimatomSpent>Истощен</RimatomSpent>
+  <RimatomNew>Новый</RimatomNew>
+  <RimatomRemove>Удалить</RimatomRemove>
+  <RimatomStore>Хранить</RimatomStore>
 
 
 
@@ -178,10 +178,10 @@
   <OpenRadar>Открыть экран отслеживания цели</OpenRadar>
 
   <!--RESEARCH-->
-  <Free>Бесплатно</Free>
-  <Purchase>Приобрести</Purchase>
-  <Price>Цена</Price>
-  <Unlocks>Открывает</Unlocks>
+  <RimatomFree>Бесплатно</RimatomFree>
+  <RimatomPurchase>Приобрести</RimatomPurchase>
+  <RimatomPrice>Цена</RimatomPrice>
+  <RimatomUnlocks>Открывает</RimatomUnlocks>
   <openResearchPanel>Открыть панель исследований</openResearchPanel>
   <ResearchProg>{0}/{1}</ResearchProg>
   <ResearchPriceNeed>Требуется {0} серебра рядом с торговым маяком</ResearchPriceNeed>

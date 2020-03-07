@@ -83,7 +83,7 @@
   <ShutdownCold>Shutdown and Cold</ShutdownCold>
   <StartingUp>Starting up</StartingUp>
   <ShuttingDown>Shutting down</ShuttingDown>
-  <Active>Active</Active>
+  <RimatomActive>Active</RimatomActive>
   <ReactorBreakdown>ID: {0}\nStatus: {1}\nMax power: {2}W\nConversion ratio: {3}\n\n{4}</ReactorBreakdown>
   <SlotBreakdown>Estimated Life: {0}\nMax Power: {1}W\nCurrent Power: {2}W\nUsage: {3}\nRatio: {4}\nCan Process Now: {5}</SlotBreakdown>
   <cycleScreensDesc>Monitor all reactors on this network</cycleScreensDesc>
@@ -194,13 +194,14 @@
   <critControlRod>Control Rods</critControlRod>
   <critTargetRod>Control Rods To</critTargetRod>
   <critFuelRemaining2>Fuel Remaining: {0}</critFuelRemaining2>
-  <Empty>Empty</Empty>
-  <Activated>Activated</Activated>
-  <Cracked>Cracked</Cracked>
-  <Spent>Spent</Spent>
-  <New>New</New>
-  <Remove>Remove</Remove>
-  <Store>Store</Store>
+  <RimatomEmpty>Empty</RimatomEmpty>
+  <RimatomActivated>Activated</RimatomActivated>
+  <RimatomCracked>Cracked</RimatomCracked>
+  <RimatomSpent>Spent</RimatomSpent>
+  <RimatomNew>New</RimatomNew>
+  <RimatomRemove>Remove</RimatomRemove>
+  <RimatomStore>Store</RimatomStore>
+  <RimatomLife>Life</RimatomLife>
   <UnsafeFacility>Unsafe Facility</UnsafeFacility>
   <FacilityNoPower>No Power</FacilityNoPower>
   <NoActiveBenchWithProject>No active bench with required project</NoActiveBenchWithProject>
@@ -237,10 +238,10 @@
   <!--RESEARCH-->
   <NonBlueprintUpgrade></NonBlueprintUpgrade>
   <BlueprintUpgradeDesc>This is a blueprint upgrade, new constructions will have this upgrade built in as standard, existing buildings will need to be manually upgraded using the crafted module</BlueprintUpgradeDesc>
-  <Free>Free</Free>
-  <Purchase>Purchase</Purchase>
-  <Price>Price</Price>
-  <Unlocks>Unlocks Research</Unlocks>
+  <RimatomFree>Free</RimatomFree>
+  <RimatomPurchase>Purchase</RimatomPurchase>
+  <RimatomPrice>Price</RimatomPrice>
+  <RimatomUnlocks>Unlocks Research</RimatomUnlocks>
   <openResearchPanel>Open Research Panel</openResearchPanel>
   <ResearchProg>{0}/{1}</ResearchProg>
   <ResearchPriceNeed>Requires {0} Silver near a trade beacon</ResearchPriceNeed>

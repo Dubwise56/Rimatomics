@@ -51,7 +51,7 @@
   <ShutdownCold>Arrêt et froid</ShutdownCold>
   <StartingUp>Démarrage</StartingUp>
   <ShuttingDown>Éteindre</ShuttingDown>
-  <Active>Active</Active>
+  <RimatomActive>Active</RimatomActive>
   <ReactorBreakdown>ID: {0}\nStatus: {1}\nPuissance max: {2}W\nRatio de conversion: {3}\n\n{4}</ReactorBreakdown>
   <SlotBreakdown>Durée de vie estimée: {0}\nPuissance max: {1}W\nPuissance actuel: {2}W\nUtilisation: {3}\nRatio: {4}\nPeut traiter maintenant: {5}</SlotBreakdown>
   <cycleScreensDesc>Surveiller tous les réacteurs de ce réseau</cycleScreensDesc>
@@ -164,13 +164,13 @@
   <critControlRod>Barres de commande</critControlRod>
   <critTargetRod>Tiges de contrôle pour</critTargetRod>
   <critFuelRemaining2>Carburant restant: {0}</critFuelRemaining2>
-  <Empty>Vide</Empty>
-  <Activated>Activer</Activated>
-  <Cracked>Fissuré</Cracked>
-  <Spent>Dépensé</Spent>
-  <New>Nouveau</New>
-  <Remove>Retirer</Remove>
-  <Store>Magasin</Store>
+  <RimatomEmpty>Vide</RimatomEmpty>
+  <RimatomActivated>Activer</RimatomActivated>
+  <RimatomCracked>Fissuré</RimatomCracked>
+  <RimatomSpent>Dépensé</RimatomSpent>
+  <RimatomNew>Nouveau</RimatomNew>
+  <RimatomRemove>Retirer</RimatomRemove>
+  <RimatomStore>Magasin</RimatomStore>
   <UnsafeFacility>Installation dangereuse</UnsafeFacility>
   <FacilityNoPower>Pas d'énergie</FacilityNoPower>
   <NoActiveBenchWithProject>Pas de banc actif avec le projet requis</NoActiveBenchWithProject>
@@ -207,10 +207,10 @@
   <!--RESEARCH-->
   <NonBlueprintUpgrade></NonBlueprintUpgrade>
   <BlueprintUpgradeDesc>Il s'agit d'une mise à niveau du plan directeur. Les nouvelles constructions intègreront cette mise à niveau en standard. Les bâtiments existants devront être mis à niveau manuellement à l'aide du module spécialement conçu.</BlueprintUpgradeDesc>
-  <Free>Libre</Free>
-  <Purchase>achat</Purchase>
-  <Price>Prix</Price>
-  <Unlocks>Déverrouille la recherche</Unlocks>
+  <RimatomFree>Libre</RimatomFree>
+  <RimatomPurchase>achat</RimatomPurchase>
+  <RimatomPrice>Prix</RimatomPrice>
+  <RimatomUnlocks>Déverrouille la recherche</RimatomUnlocks>
   <openResearchPanel>Panel de recherche ouvert</openResearchPanel>
   <ResearchProg>{0}/{1}</ResearchProg>
   <ResearchPriceNeed>A besoin {0} Argent près d'un phare commercial</ResearchPriceNeed>
