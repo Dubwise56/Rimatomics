@@ -6,6 +6,7 @@
     <label>Rimatomics</label>
     <description>View and manage Rimatomics research projects.</description>
     <tabWindowClass>Rimatomics.MainTabWindow_Rimatomics</tabWindowClass>
+    <workerClass>Rimatomics.MainButtonWorker_Rimatomics</workerClass>
     <order>79</order>
     <defaultHotKey></defaultHotKey>
     <validWithoutMap>true</validWithoutMap>
