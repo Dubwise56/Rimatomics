@@ -36,7 +36,7 @@
   <ThingDef ParentName="UpgradePart">
     <defName>ControlRodActuator</defName>
     <label>Control Rod Actuator</label>
-    <description>Upgrade parts for the Rimatomics nuclear reactor</description>
+    <description>Upgrade parts for the Rimatomics nuclear reactor.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/rodMechanism</texPath>
     </graphicData>
@@ -76,7 +76,7 @@
   <ThingDef ParentName="UpgradePart">
     <defName>SCAD</defName>
     <label>SCAD</label>
-    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <description>Upgrade parts for Rimatomics energy weapons.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/SCAD</texPath>
     </graphicData>
@@ -95,7 +95,7 @@
   <ThingDef ParentName="UpgradePart">
     <defName>MEPS</defName>
     <label>MEPS</label>
-    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <description>Upgrade parts for Rimatomics energy weapons.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/MEPS</texPath>
     </graphicData>
@@ -114,7 +114,7 @@
   <ThingDef ParentName="UpgradePart">
     <defName>ALC</defName>
     <label>ALC</label>
-    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <description>Upgrade parts for Rimatomics energy weapons.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/heatsink</texPath>
     </graphicData>
@@ -135,7 +135,7 @@
   <ThingDef ParentName="UpgradePart">
     <defName>ERS</defName>
     <label>ERS</label>
-    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <description>Upgrade parts for Rimatomics energy weapons.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/ERS</texPath>
     </graphicData>
@@ -155,7 +155,7 @@
   <ThingDef ParentName="UpgradePart">
     <defName>DriveActuator</defName>
     <label>Drive Actuator</label>
-    <description>Upgrade parts for Rimatomics energy weapons</description>
+    <description>Upgrade parts for Rimatomics energy weapons.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/actuator</texPath>
     </graphicData>
@@ -176,7 +176,7 @@
   <ThingDef ParentName="UpgradePart">
     <defName>TargetingChip</defName>
     <label>Targeting Chip</label>
-    <description>Upgrade parts for the Rimatomics Railgun</description>
+    <description>Upgrade parts for the Rimatomics Railgun.</description>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/chip</texPath>
     </graphicData>

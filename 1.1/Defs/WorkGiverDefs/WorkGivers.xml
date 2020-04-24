@@ -43,7 +43,7 @@
 
   <WorkGiverDef>
     <defName>LoadSpentFuel</defName>
-    <label>load spent fuel</label>
+    <label>Load spent fuel</label>
     <giverClass>Rimatomics.WorkGiver_LoadPlutoniumProc</giverClass>
     <workType>NuclearWork</workType>
     <verb>load</verb>
@@ -56,7 +56,7 @@
 
   <WorkGiverDef>
     <defName>LoadProcChemFuel</defName>
-    <label>load chemfuel</label>
+    <label>Load chemfuel</label>
     <giverClass>Rimatomics.WorkGiver_LoadPuProcChems</giverClass>
     <workType>NuclearWork</workType>
     <verb>load</verb>
@@ -69,7 +69,7 @@
 
   <WorkGiverDef>
     <defName>UnloadPlutonium</defName>
-    <label>remove plutonium</label>
+    <label>Remove plutonium</label>
     <giverClass>Rimatomics.WorkGiver_UnloadPlutoniumProc</giverClass>
     <workType>NuclearWork</workType>
     <verb>unload</verb>
@@ -110,7 +110,7 @@
 
   <WorkGiverDef>
     <defName>DoBillsTableNuclear</defName>
-    <label>do bills at nuclear machining table</label>
+    <label>Do bills at nuclear machining table</label>
     <giverClass>WorkGiver_DoBill</giverClass>
     <workType>Smithing</workType>
     <priorityInType>77</priorityInType>
@@ -128,7 +128,7 @@
 
   <WorkGiverDef>
     <defName>RimatomicsCrafting</defName>
-    <label>do research</label>
+    <label>Do research</label>
     <giverClass>Rimatomics.WorkGiver_RimatomicsResearcher</giverClass>
     <workType>Crafting</workType>
     <verb>research</verb>
@@ -142,7 +142,7 @@
 
   <WorkGiverDef>
     <defName>RimatomicsResearch</defName>
-    <label>do rimatomics research</label>
+    <label>Do Rimatomics research</label>
     <giverClass>Rimatomics.WorkGiver_RimatomicsResearcher</giverClass>
     <workType>Research</workType>
     <verb>rimatomics research</verb>
@@ -156,7 +156,7 @@
 
   <WorkGiverDef>
     <defName>RimatomicsSuperviseResearch</defName>
-    <label>do Supervise research</label>
+    <label>Supervise research</label>
     <giverClass>Rimatomics.WorkGiver_SuperviseResearch</giverClass>
     <workType>Research</workType>
     <verb>Supervise research</verb>
@@ -170,7 +170,7 @@
 
   <WorkGiverDef>
     <defName>RimatomicsConstruction</defName>
-    <label>do Rimatomics construction</label>
+    <label>Do Rimatomics construction</label>
     <giverClass>Rimatomics.WorkGiver_SuperviseResearch</giverClass>
     <workType>Construction</workType>
     <verb>Construct</verb>

@@ -2,12 +2,12 @@
 <LanguageData>
 
   <!--NEW-->
-  <AutothrotIDCount>Multiple cores set to {0}, each core must have a unique ID for autothrottle to engage</AutothrotIDCount>
+  <AutothrotIDCount>Multiple cores set to {0}; each core must have a unique ID for autothrottle to engage.</AutothrotIDCount>
   <AutothrotOn>Autothrottle engaged for {0}</AutothrotOn>
   <AutothrotOff>Autothrottle disengaged for {0}</AutothrotOff>
-  <AutothrotRange>Grid excess must be within +/- 5000w to engage</AutothrotRange>
-  <AutothrotTip>Engage Autothrottle\n\ncontrol flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage</AutothrotTip>
-  <CoreIdMismatch>Reactor and console ID do not match, each core requires its own console with a unique ID for autothrottle</CoreIdMismatch>
+  <AutothrotRange>Grid excess must be within +/- 5000w to engage.</AutothrotRange>
+  <AutothrotTip>Engage Autothrottle\n\nControl flux level to match power net load. The grid excess on the power net that this console is connected to must be within +/- 5000w to engage.</AutothrotTip>
+  <CoreIdMismatch>Reactor and console ID do not match. Each core requires its own console with a unique ID for autothrottle.</CoreIdMismatch>
   <FuelLifeRange>{0} Fuel Life</FuelLifeRange>
   <PoolLoading>Loading</PoolLoading>
   <PoolUnloading>Unloading</PoolUnloading>
@@ -16,16 +16,16 @@
   <Designateremoveallprocessable>Remove all processable fuel</Designateremoveallprocessable>
   <Designateinstallall>Install fuel into all slots</Designateinstallall>
   <Clearalldesignations>Clear all designations</Clearalldesignations>
-  <MissingPESUpgrades>When the mod Preemtive Strike is running its sky object detection research projects must be completed before the ATOM can detect incoming drop pods. The scramblers will however still operate normally.</MissingPESUpgrades>
+  <MissingPESUpgrades>When the mod Preemtive Strike is running, its sky object detection research projects must be completed before the ATOM can detect incoming drop pods. The scramblers will however still operate normally.</MissingPESUpgrades>
   <ReactorAlert>Reactor Alert!</ReactorAlert>
   <ShortRangeStratLaunch>Tactical Launch</ShortRangeStratLaunch>
   <ShortRangeStratLaunchDesc>Launch a strategic missile on this map</ShortRangeStratLaunchDesc>
   <LongRangeStratLaunch>Strategic Launch</LongRangeStratLaunch>
   <LongRangeStratLaunchDesc>Launch the missile at a target on this Rimworld</LongRangeStratLaunchDesc>
   <HighYieldWarhead>High Yield</HighYieldWarhead>
-  <HighYieldWarheadDesc>Warheads launched from this silo are set to create a massive explosion that will destroy anything on the map that isn't inside a mountain bunker</HighYieldWarheadDesc>
+  <HighYieldWarheadDesc>Warheads launched from this silo are set to create a massive explosion that will destroy anything on the map that isn't inside a mountain bunker.</HighYieldWarheadDesc>
   <LowYieldWarhead>Low Yield</LowYieldWarhead>
-  <LowYieldWarheadDesc>Missiles launched from this silo are set to create a small tactical explosion</LowYieldWarheadDesc>
+  <LowYieldWarheadDesc>Missiles launched from this silo are set to create a small tactical explosion.</LowYieldWarheadDesc>
   <RimatomicsValveLabel>Toggle Valve</RimatomicsValveLabel>
   <RimatomicsValveLabelDesc>Toggle the valve open or closed</RimatomicsValveLabelDesc>
 
@@ -37,15 +37,15 @@
   <NextResearchStep>Next Step:</NextResearchStep>
   <!--ALERTS-->
   <AlertNeedsTurbine>Core needs turbine</AlertNeedsTurbine>
-  <AlertNeedsTurbineDesc>A reactor needs to be connected to a turbine, failure to do so may result in overheating and meltdown</AlertNeedsTurbineDesc>
+  <AlertNeedsTurbineDesc>A reactor needs to be connected to a turbine. Failure to do so may result in overheating and meltdown.</AlertNeedsTurbineDesc>
   <AlertNeedsCooling>Turbine needs cooling</AlertNeedsCooling>
-  <AlertNeedsCoolingDesc>A turbine needs to be connected to a cooling system, failure to do so may result in overheating and meltdown</AlertNeedsCoolingDesc>
+  <AlertNeedsCoolingDesc>A turbine needs to be connected to a cooling system. Failure to do so may result in overheating and meltdown.</AlertNeedsCoolingDesc>
   <AlertCoreMelt>Core Melt</AlertCoreMelt>
-  <AlertCoreMeltDesc>A reactor is suffering a core melt incident, evacuate immediately</AlertCoreMeltDesc>
+  <AlertCoreMeltDesc>A reactor is suffering a core melt incident. Evacuate immediately!</AlertCoreMeltDesc>
   <AlertCoreOverheat>Reactor Temp</AlertCoreOverheat>
-  <AlertCoreOverheatDesc>A reactor is being damaged due to overheating</AlertCoreOverheatDesc>
+  <AlertCoreOverheatDesc>A reactor is being damaged due to overheating.</AlertCoreOverheatDesc>
   <AlertCracked>Cracked Core</AlertCracked>
-  <AlertCrackedDesc>Stress from running the core at high temperatures for a long period of time has caused the core to crack, it will need to be deconstructed and rebuilt or it will continue to emit lethal radiation, produce less power and damage the fuel rods.</AlertCrackedDesc>
+  <AlertCrackedDesc>Stress from running the core at high temperatures for a long period of time has caused the core to crack. It will need to be deconstructed and rebuilt or it will continue to emit lethal radiation, produce less power, and damage the fuel rods.</AlertCrackedDesc>
 
   <CRACKEDFUEL>    ::CRACKED FUEL::</CRACKEDFUEL>
   <NOCOOLING>    ::NO COOLING::</NOCOOLING>
@@ -58,19 +58,19 @@
   <RADIATIONLEAKSYSTEM>    ::RADIATION IN SYSTEM::</RADIATIONLEAKSYSTEM>
 
   <PodsScrambledOK>Enemy drop pods scrambled by TACS</PodsScrambledOK>
-  <PodsScrambledDesc>The enemy drop pod guidance systems were scrambled by the TACS using a {0}kw pulse</PodsScrambledDesc>
-  <PodsScrambledFail>Failed to scramble enemy drop pods</PodsScrambledFail>
-  <PodsScrambledFailDesc>The {0}kw pulse required to scramble this raid was not available</PodsScrambledFailDesc>
+  <PodsScrambledDesc>The enemy drop pod guidance systems were scrambled by the TACS using a {0}kw pulse.</PodsScrambledDesc>
+  <PodsScrambledFail>Failed to scramble enemy drop pods!</PodsScrambledFail>
+  <PodsScrambledFailDesc>The {0}kw pulse required to scramble this raid was not available!</PodsScrambledFailDesc>
   <ScrambleDropPods>Scramble Drop Pods</ScrambleDropPods>
-  <ScrambleDropPodsDesc>Prevent raiders landing in the center of the map by using a large pulse of energy from connected PPC's to scramble the guidance systems of incoming drop pods</ScrambleDropPodsDesc>
+  <ScrambleDropPodsDesc>Prevent raiders landing in the center of the map by using a large pulse of energy from connected PPC's to scramble the guidance systems of incoming drop pods.</ScrambleDropPodsDesc>
 
   <!--CONSOLE-->
-  <TemperatureTip>Temperature\n\nHigh temperature can cause damage to the core, and crack the fuel. If the cores HP reaches 0 while it is at or above its normal operating temperature it will explode</TemperatureTip>
+  <TemperatureTip>Temperature\n\nHigh temperature can cause damage to the core, and crack the fuel. If the core's HP reaches 0 while it is at or above its normal operating temperature, it will explode.</TemperatureTip>
   <FuelTip>Fuel\n\nThe total amount of fuel in the core. Fuel chain reacts with fuel in adjacent slots which produces more power\nFuel will produce less power over time until it is spent</FuelTip>
-  <CoolingTip>Cooling\n\nTotal amount of your cooling capacity that is in use. If the gauge turns red add more cooling or reduce power</CoolingTip>
-  <TurbineTip>Turbine\n\nTotal amount of your turbine capacity that is in use. If the gauge turns red add more turbines or reduce power\n\nTurbines also require enough transformers to distribute the power to standard power nets</TurbineTip>
-  <PowerTip>Power\n\nTotal amount of power being produced by the reactor, does not count how much is actually being generated by turbines and transformers</PowerTip>
-  <RadiationTip>Radiation\n\nThe core will emit radiation if it becomes damaged, the amount of radiation increases with the amount of damage</RadiationTip>
+  <CoolingTip>Cooling\n\nTotal amount of your cooling capacity that is in use. If the gauge turns red, add more cooling or reduce power.</CoolingTip>
+  <TurbineTip>Turbine\n\nTotal amount of your turbine capacity that is in use. If the gauge turns red, add more turbines or reduce power.\n\nTurbines also require enough transformers to distribute the power to standard power nets.</TurbineTip>
+  <PowerTip>Power\n\nTotal amount of power being produced by the reactor. Does not count how much is actually being generated by turbines and transformers.</PowerTip>
+  <RadiationTip>Radiation\n\nThe core will emit radiation if it becomes damaged. The amount of radiation increases with the amount of damage.</RadiationTip>
   <CoreNotBuilt>Not Built</CoreNotBuilt>
   <Dragtoincreasefluxlevel>Drag to increase flux level to produce more power</Dragtoincreasefluxlevel>
   <MOX>MOX</MOX>
@@ -89,9 +89,9 @@
   <cycleScreensDesc>Monitor all reactors on this network</cycleScreensDesc>
   <cycleScreens>Monitor All</cycleScreens>
   <AutoScram>Auto Scram</AutoScram>
-  <AutoScramDesc>SCRAM the reactor core when the temperature reaches unsafe levels, or a solar flare is detected</AutoScramDesc>
-  <FlareSCRAMletterText>A solar flare has triggered a reactor SCRAM</FlareSCRAMletterText>
-  <SCRAMletterText>Unsafe core temperature has triggered a reactor SCRAM</SCRAMletterText>
+  <AutoScramDesc>SCRAM the reactor core when the temperature reaches unsafe levels, or a solar flare is detected.</AutoScramDesc>
+  <FlareSCRAMletterText>A solar flare has triggered a reactor SCRAM.</FlareSCRAMletterText>
+  <SCRAMletterText>Unsafe core temperature has triggered a reactor SCRAM.</SCRAMletterText>
   <CantUseReactorConsole>Requires 8 intellectual</CantUseReactorConsole>
   <!--PROCESSING-->
 
@@ -111,7 +111,7 @@
   <ATOMattackGround>via land</ATOMattackGround>
   <ATOMattackPods>via drop pods</ATOMattackPods>
   <ATOMdetection>Threat Detected!</ATOMdetection>
-  <ATOMdetectionDesc>The TACS has detected a possible threat, it is estimated that {0} will attack {1} in approximately {2}</ATOMdetectionDesc>
+  <ATOMdetectionDesc>The TACS has detected a possible threat. It is estimated that {0} will attack {1} in approximately {2}.</ATOMdetectionDesc>
   <ScadLivesMatter>SCAD HP: {0}</ScadLivesMatter>
   <Detonating>Detonating...</Detonating>
   <KillCounter>Kills: {0}</KillCounter>
@@ -129,16 +129,16 @@
   <PulseSize>Pulse: {0} Wd / Damage: {1}</PulseSize>
   <critCommandFireMission>Fire Mission</critCommandFireMission>
   <critCommandFireMissionDesc>Long range artillery shot</critCommandFireMissionDesc>
-  <criticbmAttack>The enemy faction {0} are preparing to launch a missile attack from a nearby base, you have {1} days before launch.</criticbmAttack>
+  <criticbmAttack>The enemy faction {0} are preparing to launch a missile attack from a nearby base. You have {1} days before launch.</criticbmAttack>
   <critMagazine>Magazine: {0}</critMagazine>
   <critNoSabotRounds>No Sabot ammunition</critNoSabotRounds>
   <SiloMissingPart>Requires part: {0}</SiloMissingPart>
   <critBombDet>The bomb has detonated</critBombDet>
-  <critBombDetFac>The bomb detonated and {0} has been destroyed</critBombDetFac>
+  <critBombDetFac>The bomb detonated and {0} has been destroyed.</critBombDetFac>
   <SetCamoMode>Set Camo</SetCamoMode>
   <critCountdown>Countdown: {0}</critCountdown>
   <critArm>Arm</critArm>
-  <MessageRailgunNeedsMap>Map not generated, send colonists to scout</MessageRailgunNeedsMap>
+  <MessageRailgunNeedsMap>Map not generated, send colonists to scout.</MessageRailgunNeedsMap>
   <MessageRailgunTargetInvalid>Target is not valid</MessageRailgunTargetInvalid>
   <NextPart>Next Part: {0}, {1} Needed</NextPart>
   <SiloFull>Silo Full</SiloFull>
@@ -156,11 +156,11 @@
   <PuCreated>Pu: {0}</PuCreated>
   <fuelCracked>Cracked!</fuelCracked>
   <Managefuel>Manage</Managefuel>
-  <RoofedTower>Tower blocked by roofed</RoofedTower>
+  <RoofedTower>Tower blocked by roof</RoofedTower>
   <TurbineRPM>RPM: {0} ({1})</TurbineRPM>
   <TradeShipWait>Rimatomics trade ship ready in {0}</TradeShipWait>
   <critsetid>Set ID</critsetid>
-  <critCoolingCapShare>Cooling capacity share: {0} with {1} Turbines</critCoolingCapShare>
+  <critCoolingCapShare>Cooling capacity share: {0} with {1} turbines</critCoolingCapShare>
 
   <ControlRod>Control Rods</ControlRod>
   <crackedRemoveNow>\nCRACKED! Remove Now</crackedRemoveNow>
@@ -168,10 +168,10 @@
   <critCoreEnergy>Energy: {0}kW</critCoreEnergy>
   <critCoreCooling>Cooling: {0}</critCoreCooling>
   <critCoreFlux>Neutron Flux: {0}</critCoreFlux>
-  <critscramDesc>Return temperature and neutron flux to base values, but leaves the core on</critscramDesc>
+  <critscramDesc>Return temperature and neutron flux to base values, but leave the core on.</critscramDesc>
   <critStartup>Startup</critStartup>
   <critShutdown>Shutdown</critShutdown>
-  <critStartupDesc>Starts the core, allowing temperatures and flux levels to rise</critStartupDesc>
+  <critStartupDesc>Starts the core, allowing temperatures and flux levels to rise.</critStartupDesc>
   <critShutdownDesc>Shuts down the core, leaving it powered but cold, for refueling and repairs.</critShutdownDesc>
   <critManageReactor>Manage Reactor</critManageReactor>
   <critreactorcritical>Reactor critical</critreactorcritical>
@@ -230,14 +230,14 @@
 
   <LowerPowerLimit>Lower Power Limit</LowerPowerLimit>
   <RaisePowerLimit>Raise Power Limit</RaisePowerLimit>
-  <PowerLimitDesc>Change the power limit for this transformer, used for changing power distribution over multiple powernets\n\nHold Shift for finer control</PowerLimitDesc>
+  <PowerLimitDesc>Change the power limit for this transformer. Used for changing power distribution over multiple power nets.\n\nHold Shift for finer control.</PowerLimitDesc>
   <TrannyLimit>Power Limit: {0}kW</TrannyLimit>
   <TurbinePower>Turbine Power: {0}kW</TurbinePower>
 
 
   <!--RESEARCH-->
   <NonBlueprintUpgrade></NonBlueprintUpgrade>
-  <BlueprintUpgradeDesc>This is a blueprint upgrade, new constructions will have this upgrade built in as standard, existing buildings will need to be manually upgraded using the crafted module</BlueprintUpgradeDesc>
+  <BlueprintUpgradeDesc>This is a blueprint upgrade. New constructions will have this upgrade built in as standard; existing buildings will need to be manually upgraded using the crafted module.</BlueprintUpgradeDesc>
   <RimatomFree>Free</RimatomFree>
   <RimatomPurchase>Purchase</RimatomPurchase>
   <RimatomPrice>Price</RimatomPrice>

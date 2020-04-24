@@ -6,7 +6,7 @@
     <label>Reinforced DU Wall</label>
     <thingClass>Building</thingClass>
     <category>Building</category>
-    <description>Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation</description>
+    <description>Very strong wall that is reinforced with depleted uranium, providing full shielding against radiation.</description>
     <graphicData>
       <texPath>Things/Building/Linked/Wall</texPath>
       <graphicClass>Graphic_Appearances</graphicClass>
