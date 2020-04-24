@@ -12,8 +12,8 @@
       <li>Increases the responsiveness of control rods</li>
     </stats>
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
-    <ResearchDesc>Increase the speed of the control rods, this increases the responsiveness of flux level changes, and increases the shutdown speed</ResearchDesc>
-    <ResearchDescDisc>You can now produce the Control Rod Actuators at the Rimatomics machining table, to install them into a reactor core select the core and toggle the Control Rod Actuators, the reactor must then be shut down before it can be installed</ResearchDescDisc>
+    <ResearchDesc>Increase the speed of the control rods. This increases the responsiveness of flux level changes, and increases the shutdown speed.</ResearchDesc>
+    <ResearchDescDisc>You can now produce the Control Rod Actuators at the Rimatomics machining table. To install them into a reactor core select the core and toggle the Control Rod Actuators. The reactor must then be shut down before it can be installed.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/rodMechanism</previewImageURL>
     <Steps>
       <li>ControlRodActuators1</li>
@@ -29,7 +29,7 @@
     <defName>ControlRodActuators1</defName>
     <PointCost>1000</PointCost>
     <label>Research nuclear reactors</label>
-    <description>Experiment with the research reactor and plan tests which can be performed on a live reactor core</description>
+    <description>Experiment with the research reactor and plan tests which can be performed on a live reactor core.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>7</SkillLevel>
     <ResearchBuildingToUse>ResearchReactor</ResearchBuildingToUse>
@@ -51,7 +51,7 @@
     <defName>ControlRodActuators3</defName>
     <PointCost>500</PointCost>
     <label>Research nuclear reactors</label>
-    <description>Analyze the data gathered and finalize the designs for the new control rod actuators</description>
+    <description>Analyze the data gathered and finalize the designs for the new control rod actuators.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>7</SkillLevel>
     <RecipeUnlocks>
@@ -70,8 +70,8 @@
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
     <Upgrade>true</Upgrade>
     <part>ATOM</part>
-    <ResearchDesc>The Advanced Threat Detection module (ATOM) is an upgrade module for the TACS, when installed it it significantly increases the power usage increasing its range and scanning power, and making it possible to detect threats at much greater distances, acting as an early warning system for potential attacks. Airborne attacks will leave little room for warning, and smaller groups of ground units will be hard to detect, but large ground based fighting forces will be easily detected. False positives may be possible when using the system.</ResearchDesc>
-    <ResearchDescDisc>You can now produce ATOM modules at the Rimatomics machining table, to install them select a TACS and toggle the ATOM button\n\nThe ATOM module must be manually installed in each new TACS</ResearchDescDisc>
+    <ResearchDesc>The Advanced Threat Detection module (ATOM) is an upgrade module for the TACS. When installed it significantly increases power consumption, scanning range and power. This allows the TACS to detect threats at much greater distances and provide an early warning for potential attacks.  Airborne attacks will leave little room for warning and smaller groups of ground units will be hard to detect, but large ground based fighting forces will be easily detected.  False positives may be possible when using the system.</ResearchDesc>
+    <ResearchDescDisc>You can now produce ATOM modules at the Rimatomics machining table. To install them select a TACS and toggle the ATOM button.\n\nThe ATOM module must be manually installed in each new TACS.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/GenericModule</previewImageURL>
     <Steps>
       <li>ThreatDetection1</li>
@@ -87,7 +87,7 @@
     <defName>ThreatDetection1</defName>
     <PointCost>3500</PointCost>
     <label>Research threat detection</label>
-    <description>A skilled researcher must plan a series of tests which can be performed on a TACS to collect data for analysis</description>
+    <description>A skilled researcher must plan a series of tests which can be performed on a TACS to collect data for analysis.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
   </Def>
@@ -96,7 +96,7 @@
     <defName>ThreatDetection2</defName>
     <PointCost>30</PointCost>
     <label>Collect data on raids</label>
-    <description>Collect data from raids, each time you are raided the size and method of arrival will be analyzed and compared with sensor data to create a prediction model</description>
+    <description>Collect data from raids. Each time you are raided the size and method of arrival will be analyzed and compared with sensor data to create a prediction model.</description>
     <GatherDataFor>ATOMproject</GatherDataFor>
   </Def>
 
@@ -104,7 +104,7 @@
     <defName>ThreatDetection3</defName>
     <PointCost>1500</PointCost>
     <label>Research threat detection</label>
-    <description>Analyze the data gathered and finalize the designs for the ATOM</description>
+    <description>Analyze the data gathered and finalize the designs for the ATOM.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <RecipeUnlocks>
@@ -122,8 +122,8 @@
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
     <Upgrade>true</Upgrade>
     <BlueprintUpgrade>true</BlueprintUpgrade>
-    <ResearchDesc>Increase the range and reliability of strategic missiles, Test the system by test launching missiles on any target to gather data for analysis.</ResearchDesc>
-    <ResearchDescDisc>The Guidance system upgrades are now complete, all strategic missiless are now automatically equipped with these upgrades and the maximum range is unlimited.</ResearchDescDisc>
+    <ResearchDesc>Increase the range and reliability of strategic missiles. Test the system by test launching missiles on any target to gather data for analysis.</ResearchDesc>
+    <ResearchDescDisc>The Guidance system upgrades are now complete. All strategic missiless are now automatically equipped with these upgrades and the maximum range is unlimited.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/GuidenceSystem</previewImageURL>
     <Steps>
       <li>GuidenceSystem1</li>
@@ -139,7 +139,7 @@
     <defName>GuidenceSystem1</defName>
     <PointCost>2500</PointCost>
     <label>Research nuclear reactors</label>
-    <description>A skilled researcher must plan a series of tests which can be performed on strategic missiles to collect data for analysis</description>
+    <description>A skilled researcher must plan a series of tests which can be performed on strategic missiles to collect data for analysis.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
   </Def>
@@ -148,7 +148,7 @@
     <defName>GuidenceSystem2</defName>
     <PointCost>30</PointCost>
     <label>Gather weapons data</label>
-    <description>Launch a strategic missile at any target to gather data, the amount of data gathered depends on the success of the launch with a successful detonation on the target giving the maximum.</description>
+    <description>Launch a strategic missile at any target to gather data. The amount of data gathered depends on the success of the launch, with a successful detonation on the target giving the maximum.</description>
     <GatherDataFor>ICBMfission</GatherDataFor>
   </Def>
 
@@ -156,7 +156,7 @@
     <defName>GuidenceSystem3</defName>
     <PointCost>2500</PointCost>
     <label>Research nuclear reactors</label>
-    <description>Analyze the data gathered and finalize the designs for the Guidance System</description>
+    <description>Analyze the data gathered and finalize the designs for the Guidance System.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
   </Def>
@@ -171,8 +171,8 @@
     <part>MEPS</part>
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
     <Upgrade>true</Upgrade>
-    <ResearchDesc>The Modular Electric Power System (MEPS) is an ultra-capacitor that can interface with the power delivery system of any Rimatomics energy weapon to boost its maximum power, the extra power may be handled differently by each energy weapon</ResearchDesc>
-    <ResearchDescDisc>You can now produce MEPS modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon select the weapon and toggle the MEPS button on\n\nThe MEPS must be manually installed in each new building</ResearchDescDisc>
+    <ResearchDesc>The Modular Electric Power System (MEPS) is an ultra-capacitor that can interface with the power delivery system of any Rimatomics energy weapon to boost its maximum power. The extra power may be handled differently by each energy weapon.</ResearchDesc>
+    <ResearchDescDisc>You can now produce MEPS modules at the Rimatomics machining table. To install them into a Rimatomics energy weapon, select the weapon and toggle the MEPS button on.\n\nThe MEPS must be manually installed in each new building.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/MEPS</previewImageURL>
     <Steps>
       <li>MEPS1</li>
@@ -193,7 +193,7 @@
     <defName>MEPS1</defName>
     <PointCost>2500</PointCost>
     <label>Research MEPS</label>
-    <description>A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis</description>
+    <description>A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <ResearchBuildingToUse>WeaponsBench</ResearchBuildingToUse>
@@ -217,7 +217,7 @@
     <defName>MEPS3</defName>
     <PointCost>2000</PointCost>
     <label>Research MEPS</label>
-    <description>Analyze the data gathered and finalize the designs for the MEPS module</description>
+    <description>Analyze the data gathered and finalize the designs for the MEPS module.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <RecipeUnlocks>
@@ -239,8 +239,8 @@
       <li>Cooldown -15%</li>
     </stats>
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
-    <ResearchDesc>The Advanced Liquid Cooler (ALC) is a universal cooling system designed to work with all Rimatomics energy weapons, by increasing the cooling capacity of the weapon and its power deliver systems, cooldown times can be reduced.</ResearchDesc>
-    <ResearchDescDisc>You can now produce ALC modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon select the weapon and toggle the ALC button on</ResearchDescDisc>
+    <ResearchDesc>The Advanced Liquid Cooler (ALC) is a universal cooling system designed to work with all Rimatomics energy weapons. By increasing the cooling capacity of the weapon and its power deliver systems, cooldown times can be reduced.</ResearchDesc>
+    <ResearchDescDisc>You can now produce ALC modules at the Rimatomics machining table. To install them into a Rimatomics energy weapon, select the weapon and toggle the ALC button on.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/heatsink</previewImageURL>
     <Steps>
       <li>ALC1</li>
@@ -262,7 +262,7 @@
     <defName>ALC1</defName>
     <PointCost>2500</PointCost>
     <label>Research ALC</label>
-    <description>A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis</description>
+    <description>A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <ResearchBuildingToUse>WeaponsBench</ResearchBuildingToUse>
@@ -286,7 +286,7 @@
     <defName>ALC3</defName>
     <PointCost>2000</PointCost>
     <label>Research ALC</label>
-    <description>Analyze the data gathered and finalize the designs for the ALC module</description>
+    <description>Analyze the data gathered and finalize the designs for the ALC module.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <RecipeUnlocks>
@@ -310,7 +310,7 @@
     </stats>
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
     <ResearchDesc>The Energy Recovery System (ERS) uses a combination of energy recovery techniques to harvest waste kinetic and heat energy and return it to PPC's after a weapon has been fired.</ResearchDesc>
-    <ResearchDescDisc>You can now produce ERS modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon select the weapon and toggle the ERS button on</ResearchDescDisc>
+    <ResearchDescDisc>You can now produce ERS modules at the Rimatomics machining table. To install them into a Rimatomics energy weapon, select the weapon and toggle the ERS button on.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/ERS</previewImageURL>
     <Steps>
       <li>ERS1</li>
@@ -331,7 +331,7 @@
     <defName>ERS1</defName>
     <PointCost>2500</PointCost>
     <label>Research ERS</label>
-    <description>A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis</description>
+    <description>A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <ResearchBuildingToUse>WeaponsBench</ResearchBuildingToUse>
@@ -355,7 +355,7 @@
     <defName>ERS3</defName>
     <PointCost>2000</PointCost>
     <label>Research ERS</label>
-    <description>Analyze the data gathered and finalize the designs for the ERS module</description>
+    <description>Analyze the data gathered and finalize the designs for the ERS module.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <RecipeUnlocks>
@@ -377,8 +377,8 @@
       <li>Adds shielding</li>
     </stats>
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
-    <ResearchDesc>The SuperCapacitor Arc Defense system (SCAD) is an additional armour layer which is applied to Rimatomics energy weapons, Comprised of structural composite supercapacitors, the armour protects the weapon by charging with the plating and then releasing an electromagnetic arc discharge which deflects or vaporises incoming projectiles, reducing total damage received by up to 90%. The SCAD is a consumable system with limited uses and will need replacing.</ResearchDesc>
-    <ResearchDescDisc>You can now produce SCAD modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon select the weapon and toggle the SCAD button\n\nThe SCAD must be manually installed in each new building</ResearchDescDisc>
+    <ResearchDesc>The SuperCapacitor Arc Defense system (SCAD) is an additional armour layer which is applied to Rimatomics energy weapons. Comprised of structural composite supercapacitors, the armour protects the weapon by charging with the plating and then releasing an electromagnetic arc discharge which deflects or vaporises incoming projectiles, reducing total damage received by up to 90%. The SCAD is a consumable system with limited uses and will need replacing.</ResearchDesc>
+    <ResearchDescDisc>You can now produce SCAD modules at the Rimatomics machining table. To install them into a Rimatomics energy weapon, select the weapon and toggle the SCAD button.\n\nThe SCAD must be manually installed in each new building.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/SCAD</previewImageURL>
     <Steps>
       <li>SCAD1</li>
@@ -400,7 +400,7 @@
     <defName>SCAD1</defName>
     <PointCost>2500</PointCost>
     <label>Research SCAD</label>
-    <description>A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis</description>
+    <description>A skilled researcher must plan a series of tests which can be performed on Rimatomics energy weapons to collect data for analysis.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <ResearchBuildingToUse>WeaponsBench</ResearchBuildingToUse>
@@ -424,7 +424,7 @@
     <defName>SCAD3</defName>
     <PointCost>2000</PointCost>
     <label>Research SCAD</label>
-    <description>Analyze the data gathered and finalize the designs for the SCAD module</description>
+    <description>Analyze the data gathered and finalize the designs for the SCAD module.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <RecipeUnlocks>
@@ -446,8 +446,8 @@
       <li>Turret speed 200%</li>
     </stats>
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
-    <ResearchDesc>Improve stabilization accuracy and slew rates for turret based Rimatomics energy weapons. This high torque motor eliminates the need for a gearbox between the motor and load and provides low drive inertia for superior stabilization performance and high stiffness with a backlash free coupling</ResearchDesc>
-    <ResearchDescDisc>You can now produce Drive Actuators at the Rimatomics machining table, to install them into a turret based energy weapon, select the weapon and designate the Drive Actuator for installation</ResearchDescDisc>
+    <ResearchDesc>Improve stabilization accuracy and slew rates for turret based Rimatomics energy weapons. This high torque motor eliminates the need for a gearbox between the motor and load and provides low drive inertia for superior stabilization performance and high stiffness with a backlash free coupling.</ResearchDesc>
+    <ResearchDescDisc>You can now produce Drive Actuators at the Rimatomics machining table. To install them into a turret based energy weapon, select the weapon and designate the Drive Actuator for installation.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/actuator</previewImageURL>
     <Steps>
       <li>DriveActuator1</li>
@@ -465,7 +465,7 @@
     <defName>DriveActuator1</defName>
     <PointCost>2500</PointCost>
     <label>Research Drive Actuators</label>
-    <description>A skilled researcher must experiment at a weapon research bench</description>
+    <description>A skilled researcher must experiment at a weapon research bench.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <ResearchBuildingToUse>WeaponsBench</ResearchBuildingToUse>
@@ -481,7 +481,7 @@
     <defName>DriveActuator2</defName>
     <PointCost>2000</PointCost>
     <label>Research Drive Actuators</label>
-    <description>Analyze the data gathered and finalize the designs for the Drive Actuators</description>
+    <description>Analyze the data gathered and finalize the designs for the Drive Actuators.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <RecipeUnlocks>
@@ -506,8 +506,8 @@
       <li>Range +10 Tiles</li>
     </stats>
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
-    <ResearchDesc>Increase the range and accuracy of the Railgun, Test the system on any targets to gather data for analysis.</ResearchDesc>
-    <ResearchDescDisc>You can now produce Targeting chips at the Rimatomics machining table, to install them into a Railgun, select a Railgun and designate the Targeting chip for installation</ResearchDescDisc>
+    <ResearchDesc>Increase the range and accuracy of the Railgun. Test the system on any targets to gather data for analysis.</ResearchDesc>
+    <ResearchDescDisc>You can now produce Targeting chips at the Rimatomics machining table. To install them into a Railgun, select a Railgun and designate the Targeting chip for installation.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/chip</previewImageURL>
     <Steps>
       <li>Railgun_TargetingChip1</li>
@@ -523,7 +523,7 @@
     <defName>Railgun_TargetingChip1</defName>
     <PointCost>2500</PointCost>
     <label>Research Targeting chips</label>
-    <description>A skilled researcher must plan a series of tests which can be performed on the Railgun to collect data for analysis</description>
+    <description>A skilled researcher must plan a series of tests which can be performed on the Railgun to collect data for analysis.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
   </Def>
@@ -532,7 +532,7 @@
     <defName>Railgun_TargetingChip2</defName>
     <PointCost>40</PointCost>
     <label>Gather weapons data</label>
-    <description>Use the Railgun on any targets to collect data</description>
+    <description>Use the Railgun on any targets to collect data.</description>
     <GatherDataFor>PPCRailgun</GatherDataFor>
   </Def>
 
@@ -540,7 +540,7 @@
     <defName>Railgun_TargetingChip3</defName>
     <PointCost>2000</PointCost>
     <label>Research Targeting chips</label>
-    <description>Analyze the data gathered and finalize the designs for the targeting chip</description>
+    <description>Analyze the data gathered and finalize the designs for the targeting chip.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>8</SkillLevel>
     <RecipeUnlocks>
@@ -566,8 +566,8 @@
       <li>Min Range +10</li>
     </stats>
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
-    <ResearchDesc>The effective range of the Obelisk can be increased by improving the focusing and collimating of the main beam</ResearchDesc>
-    <ResearchDescDisc>You can now produce Lens Module's at the Rimatomics machining table, to install them into an Obelisk, select the Obelisk and designate the Lens Module for installation</ResearchDescDisc>
+    <ResearchDesc>The effective range of the Obelisk can be increased by improving the focusing and collimating of the main beam.</ResearchDesc>
+    <ResearchDescDisc>You can now produce Lens Modules at the Rimatomics machining table. To install them into an Obelisk, select the Obelisk and designate the Lens Module for installation.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/focus</previewImageURL>
     <Steps>
       <li>LenseModule1</li>
@@ -583,7 +583,7 @@
     <defName>LenseModule1</defName>
     <PointCost>2500</PointCost>
     <label>Research Lens Modules</label>
-    <description>A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis</description>
+    <description>A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>10</SkillLevel>
   </Def>
@@ -592,7 +592,7 @@
     <defName>LenseModule2</defName>
     <PointCost>400</PointCost>
     <label>Gather weapons data</label>
-    <description>Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each shot</description>
+    <description>Use the Obelisk on any targets to collect data. The amount of data obtained scales based on the damage percentage used for each shot.</description>
     <GatherDataFor>PPCObelisk</GatherDataFor>
   </Def>
 
@@ -600,7 +600,7 @@
     <defName>LenseModule3</defName>
     <PointCost>2000</PointCost>
     <label>Research Lens Modules</label>
-    <description>Analyze the data gathered and finalize the designs for the lens module</description>
+    <description>Analyze the data gathered and finalize the designs for the lens module.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>10</SkillLevel>
     <RecipeUnlocks>
@@ -622,8 +622,8 @@
       <li>Breaks shields and spreads the damage</li>
     </stats>
     <ProjTypeLabel>Upgrade</ProjTypeLabel>
-    <ResearchDesc>The Obelisks laser can be split using a beam splitter, the secondary beam is tuned to a particular wavelength and polarization state which disables personal shields, the primary beam is delayed by a fraction of a second and then delivered with full power to the target</ResearchDesc>
-    <ResearchDescDisc>You can now produce Beam splitters's at the Rimatomics machining table, to install them into an Obelisk, select the Obelisk and designate the Beam splitter for installation</ResearchDescDisc>
+    <ResearchDesc>The Obelisks laser can be split using a beam splitter. The secondary beam is tuned to a particular wavelength and polarization state which disables personal shields. The primary beam is delayed by a fraction of a second and then delivered with full power to the target.</ResearchDesc>
+    <ResearchDescDisc>You can now produce beam splitters at the Rimatomics machining table. To install them into an Obelisk, select the Obelisk and designate the beam splitter for installation.</ResearchDescDisc>
     <previewImageURL>Rimatomics/Things/Resources/splitter</previewImageURL>
     <Steps>
       <li>BeamSplitter1</li>
@@ -641,7 +641,7 @@
     <defName>BeamSplitter1</defName>
     <PointCost>2500</PointCost>
     <label>Research Beam Splitters</label>
-    <description>A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis</description>
+    <description>A skilled researcher must plan a series of tests which can be performed on the Obelisk to collect data for analysis.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>10</SkillLevel>
   </Def>
@@ -650,7 +650,7 @@
     <defName>BeamSplitter2</defName>
     <PointCost>400</PointCost>
     <label>Gather weapons data</label>
-    <description>Use the Obelisk on any targets to collect data, the amount of data obtained scales based on the damage percentage used for each burst.</description>
+    <description>Use the Obelisk on any targets to collect data. The amount of data obtained scales based on the damage percentage used for each burst.</description>
     <GatherDataFor>PPCObelisk</GatherDataFor>
   </Def>
 
@@ -658,7 +658,7 @@
     <defName>BeamSplitter3</defName>
     <PointCost>2000</PointCost>
     <label>Research Beam Splitters</label>
-    <description>Analyze the data gathered and finalize the designs for the beam splitter device</description>
+    <description>Analyze the data gathered and finalize the designs for the beam splitter device.</description>
     <WorkType>Research</WorkType>
     <SkillLevel>10</SkillLevel>
     <RecipeUnlocks>

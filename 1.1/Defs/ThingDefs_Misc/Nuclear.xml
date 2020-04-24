@@ -99,7 +99,7 @@
   <ThingDef ParentName="RimatomicResourceBase">
     <defName>Plutonium</defName>
     <label>plutonium</label>
-    <description>A case of plutonium, can be used to create nuclear weapons or nuclear fuel rods.</description>
+    <description>A case of plutonium used in the creation of nuclear weapons or nuclear fuel rods.</description>
     <useHitPoints>false</useHitPoints>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/plutonium</texPath>
@@ -190,7 +190,7 @@
       <graphicClass>Graphic_Single</graphicClass>
       <drawSize>(1.2,1.2)</drawSize>
     </graphicData>
-    <description>A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine.</description>
+    <description>A group of rods filled with uranium pellets. When loaded in a reactor core they generate heat which can be used to drive a turbine.</description>
     <tradeTags>
       <li>Rimatomics</li>
     </tradeTags>
@@ -223,7 +223,7 @@
   <ThingDef ParentName="FuelRodBase" Class="Rimatomics.RimatomicsThingDef">
     <defName>FuelRodsMOX</defName>
     <label>fuel rods MOX</label>
-    <description>A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine.</description>
+    <description>A group of rods filled with a mix of uranium and plutonium. When loaded in a reactor core they generate heat which can be used to drive a turbine.</description>
     <thingClass>Rimatomics.Item_NuclearFuel</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/fuelRodMox</texPath>

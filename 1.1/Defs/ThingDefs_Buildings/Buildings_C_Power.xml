@@ -144,7 +144,7 @@
   <ThingDef ParentName="BaseReactor"  Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorCoreA</defName>
     <label>Reactor Type A</label>
-    <description>Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where the nuclear reactions take place and the heat is generated</description>
+    <description>Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where nuclear reactions take place and heat is generated.</description>
     <thingClass>Rimatomics.CoreA</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/CoreA</texPath>
@@ -228,7 +228,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>Turbine</defName>
     <label>Thor Turbine</label>
-    <description>A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts</description>
+    <description>A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts.</description>
     <thingClass>Rimatomics.Thor</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/MiniTurbine</texPath>
@@ -298,7 +298,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>BigTurbine</defName>
     <label>Zeus Turbine</label>
-    <description>A turbine driven by steam which turns a generator to produce electricity. The big turbine has a maximum power output of 1 Megawatt</description>
+    <description>A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt.</description>
     <thingClass>Rimatomics.Zeus</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/Turbine</texPath>
@@ -372,7 +372,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>CoolingRadiator</defName>
     <label>Radiator</label>
-    <description>Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited</description>
+    <description>Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited.</description>
     <thingClass>Rimatomics.Radiator</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/nukeRadiator</texPath>
@@ -438,7 +438,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>CoolingWater</defName>
     <label>Water Cooling</label>
-    <description>Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans</description>
+    <description>Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes, or oceans.</description>
     <thingClass>Rimatomics.WaterStation</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/waterStation</texPath>
@@ -493,7 +493,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>CoolingTower</defName>
     <label>Cooling Tower</label>
-    <description>Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available</description>
+    <description>Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available.</description>
     <thingClass>Rimatomics.CoolingTower</thingClass>
     <uiIconScale>0.9</uiIconScale>
     <graphicData>
@@ -559,7 +559,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>Transformer</defName>
     <label>High Voltage Transformer</label>
-    <description>Provides the final voltage transformation from the Turbine Generators, stepping down the voltage used in the high voltage lines to the level used by power conduits</description>
+    <description>Provides the final voltage transformation from turbine generators, stepping down the voltage used in high voltage lines to the level used by power conduits.</description>
     <thingClass>Rimatomics.Transformer</thingClass>
     <uiIconScale>0.8</uiIconScale>
     <graphicData>
@@ -618,7 +618,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorControl</defName>
     <label>reactor console</label>
-    <description>Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls, multiple controls can be open at the same time</description>
+    <description>Computer system designed to control nuclear reactors. Send a colonist to man the station to access the controls. Multiple controls can be open at the same time.</description>
     <thingClass>Rimatomics.ReactorControl</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/ReactorControl</texPath>
@@ -677,7 +677,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>storagePool</defName>
     <label>Storage Pool</label>
-    <description>A storage pool for safely storing nuclear fuel rods. Right click with a selected pawn to interact and designate fuel for removal</description>
+    <description>A storage pool for safely storing nuclear fuel rods. Right click with a selected pawn to interact and designate fuel for removal.</description>
     <thingClass>Rimatomics.Building_storagePool</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/storagePool</texPath>

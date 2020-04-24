@@ -144,8 +144,8 @@
     <defName>NuclearReactor</defName>
     <ResearchLabel>Nuclear Power</ResearchLabel>
     <ProjTypeLabel>Power</ProjTypeLabel>
-    <ResearchDesc>The Rimatomics nuclear power plant is a scalable design with the ability to run multiple reactors, turbine generators and cooling solutions in a single system. Each reactor is capable of producing more than 200kW of power when fully fueled. Reactors can also be used for plutonium production.</ResearchDesc>
-    <ResearchDescDisc>You are no longer limited to building one of each part of the reactor system. You can expand by adding more cores, turbines, and coolers, and perform research using the Rimatomics research bench to improve upon the design.</ResearchDescDisc>
+    <ResearchDesc>The Rimatomics nuclear power plant is a scalable design with the ability to run multiple reactors, turbine generators, and cooling solutions in a single system. Each reactor is capable of producing more than 200kW of power when fully fueled. Reactors can also be used for plutonium production.</ResearchDesc>
+    <ResearchDescDisc>You are no longer limited to building one of each part of the reactor system. You can expand by adding more cores, turbines, and coolers; and perform research using the Rimatomics research bench to improve upon the design.</ResearchDescDisc>
     <price>1000</price>
     <Screenshot>Rimatomics/Research/reactor</Screenshot>
     <previewImageURL>Rimatomics/Things/RimatomicsBuildings/CoreA</previewImageURL>
@@ -276,7 +276,7 @@
   <Def Class="Rimatomics.ResearchStepDef">
     <defName>TestReactor</defName>
     <label>Test the nuclear reactor</label>
-    <description>Construct or purchase nuclear fuel rods and load them into the reactor core using the reactor console to designate slots for loading. Load at least two fuel assemblies side-by-side to create a chain, use the reactor console to start the core, and then raise the control rods to 8% or higher to start gathering data.</description>
+    <description>Construct or purchase nuclear fuel rods and load them into the reactor core using the reactor console to designate slots for loading. Load at least two fuel assemblies side-by-side to create a chain. Use the reactor console to start the core, and then raise the control rods to 8% or higher to start gathering data.</description>
     <PointCost>200</PointCost>
     <GatherDataFor>PrototypeFluxTest</GatherDataFor>
     <Unlocks>

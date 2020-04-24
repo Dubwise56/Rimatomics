@@ -79,7 +79,7 @@
     <defName>TableRimatomicsMachining</defName>
     <label>Rimatomics machining table</label>
     <thingClass>Rimatomics.Building_RimatomicsWorkbench</thingClass>
-    <description>A work station for assembling Rimatomics technologies</description>
+    <description>A work station for assembling Rimatomics technologies.</description>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/TableWeapons</texPath>
       <graphicClass>Graphic_Multi</graphicClass>
