@@ -2,6 +2,8 @@
 <LanguageData>
 
   <!--NEW-->
+  <ThreatDetectionToggle>Threat Detection</ThreatDetectionToggle>
+  <ThreatDetectionToggleDesc>Toggle threat detection mode</ThreatDetectionToggleDesc>
   <AutothrotIDCount>Multiple cores set to {0}, each core must have a unique ID for autothrottle to engage</AutothrotIDCount>
   <AutothrotOn>Autothrottle engaged for {0}</AutothrotOn>
   <AutothrotOff>Autothrottle disengaged for {0}</AutothrotOff>
