@@ -158,7 +158,7 @@
   <PuCreated>Pu: {0}</PuCreated>
   <fuelCracked>Cracked!</fuelCracked>
   <Managefuel>Manage</Managefuel>
-  <RoofedTower>Tower blocked by roofed</RoofedTower>
+  <RoofedTower>Tower blocked by roof</RoofedTower>
   <TurbineRPM>RPM: {0} ({1})</TurbineRPM>
   <TradeShipWait>Rimatomics trade ship ready in {0}</TradeShipWait>
   <critsetid>Set ID</critsetid>
@@ -232,7 +232,7 @@
 
   <LowerPowerLimit>Lower Power Limit</LowerPowerLimit>
   <RaisePowerLimit>Raise Power Limit</RaisePowerLimit>
-  <PowerLimitDesc>Change the power limit for this transformer, used for changing power distribution over multiple powernets\n\nHold Shift for finer control</PowerLimitDesc>
+  <PowerLimitDesc>Change the power limit for this transformer, used for changing power distribution over multiple power nets\n\nHold Shift for finer control</PowerLimitDesc>
   <TrannyLimit>Power Limit: {0}kW</TrannyLimit>
   <TurbinePower>Turbine Power: {0}kW</TurbinePower>
 

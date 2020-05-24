@@ -53,7 +53,7 @@
   <ThingDef ParentName="BasedWeapon" Class="Rimatomics.RimatomicsThingDef">
     <defName>PPC</defName>
     <label>PPC</label>
-    <description>The RA-P3 Pulsed Power Capacitor, stores a large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons</description>
+    <description>The RA-P3 Pulsed Power Capacitor, stores large amounts of energy in a bank of ultra capacitors, which can be discharged in a single pulse by compatible Rimatomics energy weapons</description>
     <thingClass>Rimatomics.Building_PPC</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/PPC</texPath>
@@ -319,7 +319,7 @@
   <ThingDef ParentName="BasedWeapon"   Class="Rimatomics.RimatomicsThingDef">
     <defName>PPCTeslaCoil</defName>
     <label>Tesla Coil</label>
-    <description>The RA-42T Tesla Coil Delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing. Manned SACS required for manual targeting.</description>
+    <description>The RA-42T Tesla Coil delivers a huge electrical arc discharge to its targets resulting in severe burns or death. 100% accurate, medium range, sets targets on fire. Automatic targeting and firing. Manned SACS required for manual targeting.</description>
     <thingClass>Rimatomics.Building_TeslaCoil</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>

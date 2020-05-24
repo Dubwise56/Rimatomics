@@ -99,7 +99,7 @@
   <ThingDef ParentName="RimatomicResourceBase">
     <defName>Plutonium</defName>
     <label>plutonium</label>
-    <description>A case of plutonium, can be used to create nuclear weapons or nuclear fuel rods.</description>
+    <description>A case of plutonium used to create nuclear weapons or nuclear fuel rods.</description>
     <useHitPoints>false</useHitPoints>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/plutonium</texPath>

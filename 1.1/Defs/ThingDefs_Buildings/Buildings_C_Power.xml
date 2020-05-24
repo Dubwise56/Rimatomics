@@ -144,7 +144,7 @@
   <ThingDef ParentName="BaseReactor"  Class="Rimatomics.RimatomicsThingDef">
     <defName>ReactorCoreA</defName>
     <label>Reactor Type A</label>
-    <description>Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where the nuclear reactions take place and the heat is generated</description>
+    <description>Rimatomics thermal reactor core with 21 fuel assembly capacity. A reactor core contains the fuel components where nuclear reactions take place and heat is generated</description>
     <thingClass>Rimatomics.CoreA</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/CoreA</texPath>
@@ -298,7 +298,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>BigTurbine</defName>
     <label>Zeus Turbine</label>
-    <description>A turbine driven by steam which turns a generator to produce electricity. The big turbine has a maximum power output of 1 Megawatt</description>
+    <description>A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt</description>
     <thingClass>Rimatomics.Zeus</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/Turbine</texPath>
@@ -559,7 +559,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>Transformer</defName>
     <label>High Voltage Transformer</label>
-    <description>Provides the final voltage transformation from the Turbine Generators, stepping down the voltage used in the high voltage lines to the level used by power conduits</description>
+    <description>Provides the final voltage transformation from Turbine Generators, stepping down the voltage used in high voltage lines to the level used by power conduits</description>
     <thingClass>Rimatomics.Transformer</thingClass>
     <uiIconScale>0.8</uiIconScale>
     <graphicData>
