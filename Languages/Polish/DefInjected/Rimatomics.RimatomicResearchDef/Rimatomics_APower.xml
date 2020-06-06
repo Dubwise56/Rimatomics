@@ -17,7 +17,7 @@
 <NuclearResearch.ResearchLabel>Jądrowy reaktor badawczy</NuclearResearch.ResearchLabel>
 
 <NuclearReactor.ProjTypeLabel>Zasilanie</NuclearReactor.ProjTypeLabel>
-<NuclearReactor.ResearchDesc>Elektrownia atomowa Rimatomics to a skalowana konstrukcja z możliwością działania wielu reaktorów, generatorów turbinowych i rozwiązań chłodniczych w jednym systemie. Każdy reaktor jest w stanie wytworzyć ponad 200kW mocy, gdy jest w pełni napełniony. Reactory można także stosować do produkcji plutonu.</NuclearReactor.ResearchDesc>
+<NuclearReactor.ResearchDesc>Elektrownia atomowa Rimatomics to a skalowana konstrukcja z możliwością działania wielu reaktorów, generatorów turbinowych i rozwiązań chłodniczych w jednym systemie. Każdy reaktor jest w stanie wytworzyć ponad 200kW mocy, gdy jest w pełni napełniony. Reaktory można także stosować do produkcji plutonu.</NuclearReactor.ResearchDesc>
 <NuclearReactor.ResearchDescDisc>Nie jesteś już ograniczany do budowania po jednej części systemu elektrowni atomowej. Możesz system ten rozwijać, dodając więcej rdzeni, turbin i chłodnic, a także przeprowadzać badania używając stołu do badań Rimatomics, aby ulepszyć projekt.</NuclearReactor.ResearchDescDisc>
 <NuclearReactor.ResearchLabel>Energetyka atomowa</NuclearReactor.ResearchLabel>
 
