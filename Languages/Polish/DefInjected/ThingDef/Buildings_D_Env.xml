@@ -2,7 +2,7 @@
 <LanguageData>
 
   <RadiationShielding.label>wzmocniona ściana DU</RadiationShielding.label>
-  <RadiationShielding.description>Bardzo mocna ściana wzmocniona zubożonym uranem, zapewniająca pełną ochronę przed promieniowaniem.</RadiationShielding.description>
+  <RadiationShielding.description>Bardzo wytrzymała ściana wzmocniona zubożonym uranem, zapewniająca pełną ochronę przed promieniowaniem.</RadiationShielding.description>
   
   <ReactorSacrophagus.label>sarkofag typu A</ReactorSacrophagus.label>
   <ReactorSacrophagus.description>Betonowa konstrukcja zaprojektowana do przechowywania stopionego rdzenia reaktora jądrowego, który uległ incydentowi stopiena rdzenia.</ReactorSacrophagus.description>
@@ -23,6 +23,6 @@
   <PoppedReactorCoreC.description>Stopiony rdzeń reaktora.</PoppedReactorCoreC.description>
 
   <DU_Blastdoor.label>drzwi pancerne DU</DU_Blastdoor.label>
-  <DU_Blastdoor.description>Bardzo mocne drzwi pancerne wzmocnione zubożonym uranem, zapewniające pełną ochronę przed promieniowaniem.</DU_Blastdoor.description>
+  <DU_Blastdoor.description>Bardzo wytrzymałe drzwi pancerne wzmocnione zubożonym uranem, zapewniające pełną ochronę przed promieniowaniem.</DU_Blastdoor.description>
 
 </LanguageData>

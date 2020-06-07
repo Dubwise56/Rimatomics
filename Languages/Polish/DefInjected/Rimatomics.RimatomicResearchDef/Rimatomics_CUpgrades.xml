@@ -2,7 +2,7 @@
 <LanguageData>
 
 <ResearchControlRodActuators.ProjTypeLabel>Ulepszenie</ResearchControlRodActuators.ProjTypeLabel>
-<ResearchControlRodActuators.ResearchDesc>Zwiększa prędkość prętów sterujących, co zwiększa responsywność zmian poziomu przepływu i zwiększa prędkość wyłączania.</ResearchControlRodActuators.ResearchDesc>
+<ResearchControlRodActuators.ResearchDesc>Zwiększa prędkość prętów sterujących, co zwiększa responsywność zmian poziomu przepływu i prędkość wyłączania.</ResearchControlRodActuators.ResearchDesc>
 <ResearchControlRodActuators.ResearchDescDisc>Możesz teraz konstruować Siłowniki Prętów Sterujących przy stole do obróbki Rimatomics, aby zainstalować je w rdzeniu reaktora, wybierz rdzeń i przełącz „Siłowniki Prętów Sterujących”, reaktor musi być wyłączony zanim będzie można je zainstalować.</ResearchControlRodActuators.ResearchDescDisc>
 <ResearchControlRodActuators.ResearchLabel>Siłowniki Prętów Sterujących</ResearchControlRodActuators.ResearchLabel>
 <ResearchControlRodActuators.stats.0>Zwiększa responsywność prętów kontrolnych</ResearchControlRodActuators.stats.0>

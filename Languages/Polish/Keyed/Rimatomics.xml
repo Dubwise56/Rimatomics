@@ -1,7 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-<!--PRACA W TOKU-->
+
   <!--NEW-->
+  <ThreatDetectionToggle>Threat Detection</ThreatDetectionToggle>
+  <ThreatDetectionToggleDesc>Toggle threat detection mode</ThreatDetectionToggleDesc>
   <AutothrotIDCount>Kilka rdzeni jest ustawiona na {0}, każdy rdzeń musi mieć unikalne ID, aby móc włączyć automatyczną przepustnicę.</AutothrotIDCount>
   <AutothrotOn>Automatyczna przepustnica włączona dla {0}.</AutothrotOn>
   <AutothrotOff>Automatyczna przepustnica wyłączona dla {0}.</AutothrotOff>
@@ -23,13 +25,13 @@
   <LongRangeStratLaunch>Strategiczny wystrzał</LongRangeStratLaunch>
   <LongRangeStratLaunchDesc>Wystrzel pocisk w cel na tym rimworldzie.</LongRangeStratLaunchDesc>
   <HighYieldWarhead>Wysoka wydajność</HighYieldWarhead>
-  <HighYieldWarheadDesc>Głowice wystrzelane z tego silosu są ustawione, aby wytworzyć gigantyczną eksplozję, która zniszczy wszystko na mapie, pomijając to, co znajduje się w schronie górskim.</HighYieldWarheadDesc>
+  <HighYieldWarheadDesc>Głowice wystrzelane z tego silosu są ustawione, aby wytworzyć gigantyczną eksplozję, która zniszczy wszystko na mapie, pomijając to co znajduje się w schronie górskim.</HighYieldWarheadDesc>
   <LowYieldWarhead>Niska wydajność</LowYieldWarhead>
   <LowYieldWarheadDesc>Pociski wystrzelane z tego silosu są ustawione, aby wytworzyć małą eksplozję taktyczną.</LowYieldWarheadDesc>
   <RimatomicsValveLabel>Przełącz zawór</RimatomicsValveLabel>
   <RimatomicsValveLabelDesc>Otwórz lub zamknij ten zawór.</RimatomicsValveLabelDesc>
   
-  <FlareScram>Rozbł SCRAM</FlareScram>
+  <FlareScram>Rozbł. SCRAM</FlareScram>
   <FlareScramDesc>Wykonaj SCRAM reaktora podczas rozbłysków słonecznych.</FlareScramDesc>
   <TargetAllShells>Celuj we wszystkie pociski</TargetAllShells>
   <TargetEnemyShells>Celuj we wrogie pociski</TargetEnemyShells>
@@ -62,17 +64,17 @@
   <PodsScrambledFail>Nie udało się zagłusić kapsuł przeciwnika</PodsScrambledFail>
   <PodsScrambledFailDesc>Impuls o wartości {0}kw wymagany do zagłuszenia tego nalotu nie był dostępny.</PodsScrambledFailDesc>
   <ScrambleDropPods>Zagłusz kapsuły transportowe</ScrambleDropPods>
-  <ScrambleDropPodsDesc>Zapobiegnij lądowaniu wrogich kapsuł transportowych na środku mapy, używając dużego impulsu energii z podłączonych PPC, aby zagłusić systemy naprowadzania nadlatujących kapsuł transportowych.</ScrambleDropPodsDesc>
+  <ScrambleDropPodsDesc>Zapobiegnij lądowaniu wrogich kapsuł transportowych w środku koloni, używając dużego impulsu energii z podłączonych PPC, aby zagłusić systemy naprowadzania nadlatujących kapsuł transportowych.</ScrambleDropPodsDesc>
 
   <!--CONSOLE-->
-  <TemperatureTip>Temperatura\n\nWysoka temperatura może spowodować uszkodzenie rdzenia i pękanie paliwa. Jeśli HP rdzenia osiągnie 0, podczas temperatury roboczej lub powyżej, wybuchnie</TemperatureTip>
+  <TemperatureTip>Temperatura\n\nWysoka temperatura może spowodować uszkodzenie rdzenia i pękanie paliwa. Jeśli HP rdzenia osiągnie 0 podczas temperatury roboczej lub powyżej, wybuchnie</TemperatureTip>
   <FuelTip>Paliwo\n\nCałkowita ilość paliwa w rdzeniu. Łańcuch paliwowy reaguje z paliwem w sąsiednich gniazdach, co wytwarza więcej mocy\nPaliwo będzie z czasem wytwarzać coraz mniej energii, aż zostanie zużyte</FuelTip>
   <CoolingTip>Chłodzenie\n\nCałkowita ilość używanej mocy chłodniczej. Jeśli wskaźnik zmieni kolor na czerwony, zwiększ ilośc chłodzenia lub zmniejsz moc</CoolingTip>
   <TurbineTip>Turbina\n\nCałkowita ilość używanej mocy turbin. Jeśli wskaźnik zmieni kolor na czerwony, dodaj więcej turbin lub zmniejsz moc\n\nTurbiny wymagają również wystarczającej liczby transformatorów, aby rozdzielić moc do standardowych sieci energetycznych</TurbineTip>
   <PowerTip>Moc\n\nCałkowita ilość mocy wytwarzanej przez reaktor, nie jest to ilośc faktycznie wytwarzana przez turbiny i transformatory</PowerTip>
-  <RadiationTip>Promieniowanie\n\nRdzeń będzie emitować promieniowanie jeśli zostanie uszkodzony, ilośc promieniowania wzrasta, wraz z ilością uszkodzeń</RadiationTip>
+  <RadiationTip>Promieniowanie\n\nRdzeń będzie emitować promieniowanie jeśli zostanie uszkodzony, ilośc promieniowania wzrasta wraz z ilością uszkodzeń</RadiationTip>
   <CoreNotBuilt>Budowany</CoreNotBuilt>
-  <Dragtoincreasefluxlevel>Przeciągnij, aby zwiększyć poziom strumienia, aby wytworzyć więcej mocy</Dragtoincreasefluxlevel>
+  <Dragtoincreasefluxlevel>Przeciągnij, aby zwiększyć poziom strumienia, by wytworzyć więcej mocy</Dragtoincreasefluxlevel>
   <MOX>MOX</MOX>
   <Used>Used</Used>
   <AbortTest>ABORT</AbortTest>
@@ -83,12 +85,12 @@
   <ShutdownCold>Wyłączony i chłodny</ShutdownCold>
   <StartingUp>Uruchamianie</StartingUp>
   <ShuttingDown>Wyłączanie</ShuttingDown>
-  <Active>Aktywny</Active>
+  <RimatomActive>Aktywny</RimatomActive>
   <ReactorBreakdown>ID: {0}\nStatus: {1}\nMaks moc: {2}W\nStosunek konwersji: {3}\n\n{4}</ReactorBreakdown>
   <SlotBreakdown>Szacowany żywot: {0}\nMaks moc: {1}W\nAktualna moc: {2}W\nZużycie: {3}\nStosunek: {4}\nMożna przetworzyć: {5}</SlotBreakdown>
   <cycleScreensDesc>Monitor all reactors on this network</cycleScreensDesc>
   <cycleScreens>Monitor All</cycleScreens>
-  <AutoScram>Auto SCRAM</AutoScram>
+  <AutoScram>Auto. SCRAM</AutoScram>
   <AutoScramDesc>Wykonaj SCRAM reaktora kiedy temperatura osiągnie niebezpieczny poziom, lub rozbłysk słoneczny zostanie wykryty.</AutoScramDesc>
   <FlareSCRAMletterText>Rozbłysk słoneczny uruchomił SCRAM reaktora.</FlareSCRAMletterText>
   <SCRAMletterText>Niebezpieczna temperatura uruchomiła SCRAM reaktora.</SCRAMletterText>
@@ -194,13 +196,14 @@
   <critControlRod>Pręty sterujące</critControlRod>
   <critTargetRod>Control Rods To</critTargetRod>
   <critFuelRemaining2>Fuel Remaining: {0}</critFuelRemaining2>
-  <Empty>Empty</Empty>
-  <Activated>Activated</Activated>
-  <Cracked>Cracked</Cracked>
-  <Spent>Spent</Spent>
-  <New>New</New>
-  <Remove>Remove</Remove>
-  <Store>Store</Store>
+  <RimatomEmpty>Empty</RimatomEmpty>
+  <RimatomActivated>Activated</RimatomActivated>
+  <RimatomCracked>Cracked</RimatomCracked>
+  <RimatomSpent>Spent</RimatomSpent>
+  <RimatomNew>New</RimatomNew>
+  <RimatomRemove>Remove</RimatomRemove>
+  <RimatomStore>Store</RimatomStore>
+  <RimatomLife>Life</RimatomLife>
   <UnsafeFacility>obiekt niebezpieczny</UnsafeFacility>
   <FacilityNoPower>brak prądu</FacilityNoPower>
   <NoActiveBenchWithProject>No active bench with required project</NoActiveBenchWithProject>
@@ -289,7 +292,7 @@
 
   <StartProject>Zacznij projekt</StartProject>
   <ProjectInitiated>Projekt rozpoczęty.</ProjectInitiated>
-  <StopProject>Anuluj project</StopProject>
+  <StopProject>Anuluj projekt</StopProject>
   <ProjectTerminated>Projekt anulowany.</ProjectTerminated>
   <NoBenchAvailable>Stanowisko badawcze Rimatomics nie jest dostępne.</NoBenchAvailable>
   <ResearchPurchased>Badanie zakupione!</ResearchPurchased>

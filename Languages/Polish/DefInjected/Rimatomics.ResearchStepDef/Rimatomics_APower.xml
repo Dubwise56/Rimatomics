@@ -102,7 +102,7 @@
   <ICBM3.description>Poeksperymentuj z reaktorem badawczym, żeby zdobyć większe zrozumienie fizyki jądrowej, zanim spróbujemy zbudować broń.</ICBM3.description>
   
   <ICBM4.label>Zbuduj konsolę broni (SASC)</ICBM4.label>
-  <ICBM4.description>Zbuduj konsolę broni. Konsola broni to komputer nabycia celu wymagany przez wszystkie bronie energetyczne. Łączy się z każdą bronią energetyczną Rimatomics, która jest w tej samej sieci elektrycznej, po czym wykrywa wroga za pomocą pokładowych czujników broni oraz systemu komunikacji i nabycia celu, aby przypisać cele. Główny wyświetlacz zawiera śledzenie celów naziemnych i powietrznych w czasie rzeczywistym i wskaźnik pojemności PPC wyświetla całkowitą energię PPC zgromadzoną w sieci.</ICBM4.description>
+  <ICBM4.description>Zbuduj konsolę broni. Konsola broni to komputer nabycia celu wymagany przez wszystkie bronie energetyczne. Łączy się z każdą bronią energetyczną Rimatomics, która jest w tej samej sieci elektrycznej, po czym wykrywa wroga za pomocą pokładowych czujników broni oraz systemu komunikacji i nabycia celu, aby przypisać cele. Główny wyświetlacz zawiera śledzenie celów naziemnych i powietrznych w czasie rzeczywistym, natomiast wskaźnik pojemności PPC wyświetla całkowitą energię PPC zgromadzoną w sieci.</ICBM4.description>
   
   <ICBM5.label>Zbuduj system komunikacji i nabycia celu (TACS)</ICBM5.label>
   <ICBM5.description>Zbuduj TACS. System ten wykorzystuje zestaw technologii, żeby śledzić cele naziemne oraz powietrzne. Obejmuje to cele żywe lub robotyczne, pociski, takie jak pociski moździerzowe lub pociski z działa kinetycznego i dalekozasięgowe śledzenie pocisków balistycznych.</ICBM5.description>
