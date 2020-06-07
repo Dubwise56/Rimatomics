@@ -2,16 +2,16 @@
 <LanguageData>
   
   <EnergyWeapons1.label>Zbadaj bronie energetyczne</EnergyWeapons1.label>
-  <EnergyWeapons1.description>Wykwalifikowany badacz musi dowiedzieć się, jak działają bronie energetyczne Rimatomics.</EnergyWeapons1.description>
+  <EnergyWeapons1.description>Wykwalifikowany badacz musi dowiedzieć się jak działają bronie energetyczne Rimatomics.</EnergyWeapons1.description>
   
   <ConstructWeaponBenchStep.label>Zbuduj stanowisko do badań nad bronią</ConstructWeaponBenchStep.label>
-  <ConstructWeaponBenchStep.description>Zbuduj stanowisko do badań nad bronią, wyposażony jest w specjalistyczny sprzęt do robienia prototypów i testowania szerokiej gamy broni energetycznych, jest to wymagany obiekt dla większości badań i testów broni energetycznych, koloniści będą potrzebować dostępu do niego dla eksperymentowania, zaleca się zbudować go w bezpiecznym i ognioodpornym laboratorium.</ConstructWeaponBenchStep.description>
+  <ConstructWeaponBenchStep.description>Zbuduj stanowisko do badań nad bronią, wyposażony jest w specjalistyczny sprzęt do robienia prototypów i testowania szerokiej gamy broni energetycznych, jest to wymagany obiekt dla większości badań i testów broni energetycznych, koloniści będą wymagać dostępu do niego w celu eksperymentowania, zaleca się zbudować go w bezpiecznym i ognioodpornym laboratorium.</ConstructWeaponBenchStep.description>
   
   <EnergyWeapExperiments.label>Poeksperymentuj z brońmi energetycznymi</EnergyWeapExperiments.label>
   <EnergyWeapExperiments.description>Badacze muszą przeprowadzić eksperymenty przy użyciu nowego stanowiska do badań nad bronią i położyć podwaliny pod przyszłe projekty, bronie energetyczne Rimatomics nie są bronią typu „plug and play”, więc technologia ta musi być przetestowana i zrozumiała.\nEtapy eksperymentów mogą być niebezpieczne.</EnergyWeapExperiments.description>
   
   <EnergyWeapons5.label>Zbuduj Półautomatyczną Stację Dowodzenia (SACS)</EnergyWeapons5.label>
-  <EnergyWeapons5.description>Zbuduj SACS, ta konsola to komputer nabycia celu wymagany przez wszystkie bronie energetyczne, łączy się ze wszystkimi broniami energetycznymi Rimatomics, które są w tej same sieci energetycznej, a następnie przydziela cele używając czujników pokładowych broni razem ze systemem komunikacji i nabycia celu (TACS).\n\nGłówny wyświetlacz zawiera śledzenie celów naziemnych i pocisków powietrznych i wskaźnik który wyświetla całkowitą zgromadzoną energię PPC w sieci.\nNiektóre bronie wymagają obsadzenia tej konsoli do działania, będzie to wiświetlane w zakładce inspekcji broni.</EnergyWeapons5.description>
+  <EnergyWeapons5.description>Zbuduj SACS, ta konsola to komputer nabycia celu wymagany przez wszystkie bronie energetyczne, łączy się ze wszystkimi broniami energetycznymi Rimatomics, które są w tej same sieci energetycznej, a następnie przydziela cele używając czujników pokładowych broni razem ze systemem komunikacji i nabycia celu (TACS).\n\nGłówny wyświetlacz zawiera śledzenie celów naziemnych i pocisków powietrznych i wskaźnik który wyświetla całkowitą zgromadzoną energię PPC w sieci.\nNiektóre bronie wymagają obsadzenia tej konsoli do działania, będzie to wyświetlane w zakładce inspekcji broni.</EnergyWeapons5.description>
   
   <EnergyWeapons6.label>Zbuduj System Komunikacji i Nabycia Celu (TACS)</EnergyWeapons6.label>
   <EnergyWeapons6.description>Zbuduj TACS. System ten wykorzystuje zestaw technologii, żeby śledzić cele naziemne oraz powietrzne, obejmuje to cele żywe lub robotyczne, pociski takie jak pociski moździerzowe lub pociski sabotowe z działa kinetycznego i dalekozasięgowe śledzenie pocisków balistycznych. Te informacje są kierowane do konsoli SACS, gdzie są wybierane cele i informacje o śledzeniu mogą być pokazywane.</EnergyWeapons6.description>
@@ -22,7 +22,7 @@
   <!--ADS-->
   
   <ADS1.label>Zbadaj ADS-a</ADS1.label>
-  <ADS1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się, jak działa ADS, zanim będziemy mogli zbudować własny.</ADS1.description>
+  <ADS1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się jak działa ADS, zanim będziemy mogli zbudować własny.</ADS1.description>
   
   <ADS2.label>Poeksperymentuj z brońmi energetycznymi</ADS2.label>
   <ADS2.description>Badacze muszą przeprowadzić eksperymenty przy użyciu stanowiska do badań nad bronią i położyć podwaliny pod przyszłe projekty, bronie energetyczne Rimatomics nie są bronią typu „plug and play”, więc technologia ta musi być przetestowana i zrozumiała.\nEtapy eksperymentów mogą być niebezpieczne.</ADS2.description>
@@ -36,7 +36,7 @@
   <!--Tesla Coil-->
   
   <TeslaCoil1.label>Zbadaj cewkę Tesli</TeslaCoil1.label>
-  <TeslaCoil1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się, jak działa cewka Tesli, zanim będziemy mogli zbudować własną.</TeslaCoil1.description>
+  <TeslaCoil1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się jak działa cewka Tesli, zanim będziemy mogli zbudować własną.</TeslaCoil1.description>
   
   <TeslaCoil2.label>Poeksperymentuj z brońmi energetycznymi</TeslaCoil2.label>
   <TeslaCoil2.description>Badacze muszą przeprowadzić eksperymenty przy użyciu stanowiska do badań nad bronią i położyć podwaliny pod przyszłe projekty, bronie energetyczne Rimatomics nie są bronią typu „plug and play”, więc technologia ta musi być przetestowana i zrozumiała.\nEtapy eksperymentów mogą być niebezpieczne.</TeslaCoil2.description>
@@ -50,7 +50,7 @@
   <!--HEL-->
   
   <HEL1.label>Zbadaj HEL</HEL1.label>
-  <HEL1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się, jak działa HEL, zanim będziemy mogli zbudować własny.</HEL1.description>
+  <HEL1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się jak działa HEL, zanim będziemy mogli zbudować własny.</HEL1.description>
   
   <HEL2.label>Poeksperymentuj z brońmi energetycznymi</HEL2.label>
   <HEL2.description>Badacze muszą przeprowadzić eksperymenty przy użyciu stanowiska do badań nad bronią i położyć podwaliny pod przyszłe projekty, bronie energetyczne Rimatomics nie są bronią typu „plug and play”, więc technologia ta musi być przetestowana i zrozumiała.\nEtapy eksperymentów mogą być niebezpieczne.</HEL2.description>
@@ -64,7 +64,7 @@
   <!--Railgun-->
   
   <Railgun1.label>Zbadaj Punishera</Railgun1.label>
-  <Railgun1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się, jak działa Punisher, zanim będziemy mogli zbudować własny.</Railgun1.description>
+  <Railgun1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się jak działa Punisher, zanim będziemy mogli zbudować własny.</Railgun1.description>
   
   <Railgun2.label>Poeksperymentuj z brońmi energetycznymi</Railgun2.label>
   <Railgun2.description>Badacze muszą przeprowadzić eksperymenty przy użyciu stanowiska do badań nad bronią i położyć podwaliny pod przyszłe projekty, bronie energetyczne Rimatomics nie są bronią typu „plug and play”, więc technologia ta musi być przetestowana i zrozumiała.\nEtapy eksperymentów mogą być niebezpieczne.</Railgun2.description>
@@ -81,7 +81,7 @@
   <!--Obelisk-->
   
   <Obelisk1.label>Zbadaj Obelisk</Obelisk1.label>
-  <Obelisk1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się, jak działa Obelisk, zanim będziemy mogli zbudować własny.</Obelisk1.description>
+  <Obelisk1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się jak działa Obelisk, zanim będziemy mogli zbudować własny.</Obelisk1.description>
   
   <Obelisk2.label>Poeksperymentuj z brońmi energetycznymi</Obelisk2.label>
   <Obelisk2.description>Badacze muszą przeprowadzić eksperymenty przy użyciu stanowiska do badań nad bronią i położyć podwaliny pod przyszłe projekty, bronie energetyczne Rimatomics nie są bronią typu „plug and play”, więc technologia ta musi być przetestowana i zrozumiała.\nEtapy eksperymentów mogą być niebezpieczne.</Obelisk2.description>
@@ -95,7 +95,7 @@
   <!--Marauder-->
   
   <Marauder1.label>Zbadaj Maraudera</Marauder1.label>
-  <Marauder1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się, jak działa Marauder, zanim będziemy mogli zbudować własny.</Marauder1.description>
+  <Marauder1.description>Wykwalifikowany badacz musi przestudiować projekty i dowiedzieć się jak działa Marauder, zanim będziemy mogli zbudować własny.</Marauder1.description>
   
   <Marauder2.label>Poeksperymentuj z brońmi energetycznymi</Marauder2.label>
   <Marauder2.description>Badacze muszą przeprowadzić eksperymenty przy użyciu stanowiska do badań nad bronią i położyć podwaliny pod przyszłe projekty, bronie energetyczne Rimatomics nie są bronią typu „plug and play”, więc technologia ta musi być przetestowana i zrozumiała.\nEtapy eksperymentów mogą być niebezpieczne.</Marauder2.description>
