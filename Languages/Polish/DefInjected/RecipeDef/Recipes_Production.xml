@@ -13,8 +13,8 @@
   <MakeMoxFuelRods.description>Skonstruuj pręty paliwowe MOX.</MakeMoxFuelRods.description>
   <MakeMoxFuelRods.jobString>Robi pręty paliwowe MOX.</MakeMoxFuelRods.jobString>
   
-  <DismantleWarhead.label>zdemontuj głowicę</DismantleWarhead.label>
-  <DismantleWarhead.description>Odzyskaj przydatne materiały z głowicy.</DismantleWarhead.description>
-  <DismantleWarhead.jobString>Demontuje głowicę.</DismantleWarhead.jobString>
+  <DismantleWarhead.label>zdemontuj głowicę nuklearną</DismantleWarhead.label>
+  <DismantleWarhead.description>Odzyskaj przydatne materiały z głowicy nuklearnej.</DismantleWarhead.description>
+  <DismantleWarhead.jobString>Demontuje głowicę nuklearną.</DismantleWarhead.jobString>
   
 </LanguageData>
