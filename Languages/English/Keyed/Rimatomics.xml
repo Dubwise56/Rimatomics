@@ -2,14 +2,20 @@
 <LanguageData>
 
   <!--NEW-->
+  <Weaponrankicons>Weapon rank icons</Weaponrankicons>
+  <WeaponrankiconsDesc>Shows small rank icons on veteran energy weapons when zoomed in</WeaponrankiconsDesc>
+  <Showresearchbutton>Show research button</Showresearchbutton>
+  <ShowresearchbuttonDesc>Adds a Rimatomics research button to the main tabs, else it can be opened from a tab on each research bench</ShowresearchbuttonDesc>
+  <Mannedreactorconsole>Manned reactor console</Mannedreactorconsole>
+  <MannedreactorconsoleDesc>Reactor consoles must me manned by a pawn for the control window to open, else it can be opened from a button</MannedreactorconsoleDesc>
   <ThreatDetectionToggle>Threat Detection</ThreatDetectionToggle>
   <ThreatDetectionToggleDesc>Toggle threat detection mode</ThreatDetectionToggleDesc>
-  <AutothrotIDCount>Multiple cores set to {0}, each core must have a unique ID for autothrottle to engage</AutothrotIDCount>
-  <AutothrotOn>Autothrottle engaged for {0}</AutothrotOn>
-  <AutothrotOff>Autothrottle disengaged for {0}</AutothrotOff>
+  <AutothrotIDCount>Multiple cores set to {0}, each core must have a unique ID for auto-throttle to engage</AutothrotIDCount>
+  <AutothrotOn>Auto-throttle engaged for {0}</AutothrotOn>
+  <AutothrotOff>Auto-throttle disengaged for {0}</AutothrotOff>
   <AutothrotRange>Grid excess must be within +/- 5000w to engage</AutothrotRange>
-  <AutothrotTip>Engage Autothrottle\n\ncontrol flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage</AutothrotTip>
-  <CoreIdMismatch>Reactor and console ID do not match, each core requires its own console with a unique ID for autothrottle</CoreIdMismatch>
+  <AutothrotTip>Engage Auto-throttle\n\ncontrol flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage</AutothrotTip>
+  <CoreIdMismatch>Reactor and console ID do not match, each core requires its own console with a unique ID for auto-throttle</CoreIdMismatch>
   <FuelLifeRange>{0} Fuel Life</FuelLifeRange>
   <PoolLoading>Loading</PoolLoading>
   <PoolUnloading>Unloading</PoolUnloading>
@@ -228,7 +234,7 @@
   <TradeShipCooldown>Trade Ship Cooldown: {0}</TradeShipCooldown>
   <TradeShipArrival>Trade Ship Arrival: {0}</TradeShipArrival>
 
-  <TradeShipReq>A Rimatomics trade ship has been dispached to your planet.\n\nIt will take 2 days to arrive.</TradeShipReq>
+  <TradeShipReq>A Rimatomics trade ship has been dispatched to your planet.\n\nIt will take 2 days to arrive.</TradeShipReq>
 
   <LowerPowerLimit>Lower Power Limit</LowerPowerLimit>
   <RaisePowerLimit>Raise Power Limit</RaisePowerLimit>
