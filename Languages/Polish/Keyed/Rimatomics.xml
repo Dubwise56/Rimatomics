@@ -186,7 +186,7 @@
   <critPowerGeneration>Wytwarzana energia: {0} W</critPowerGeneration>
   <critValveOpen>Zawór: Otwarty</critValveOpen>
   <critValveClosed>Zawór: Zamknięty</critValveClosed>
-  <critOpenValve>Open zawór</critOpenValve>
+  <critOpenValve>Open Valve</critOpenValve>
   <critCloseValve>Close Valve</critCloseValve>
   <critToggleValve>Operate the valve</critToggleValve>
   <critTempBoost>Temp Boost</critTempBoost>
