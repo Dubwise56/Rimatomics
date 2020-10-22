@@ -2,6 +2,8 @@
 <LanguageData>
 
   <!--NEW-->
+  <nuclearFuelAllowNew>Allow New Fuel</nuclearFuelAllowNew>
+  <nuclearFuelAllowUsed>Allow Used Fuel</nuclearFuelAllowUsed>
   <Weaponrankicons>Weapon rank icons</Weaponrankicons>
   <WeaponrankiconsDesc>Shows small rank icons on veteran energy weapons when zoomed in</WeaponrankiconsDesc>
   <Showresearchbutton>Show research button</Showresearchbutton>

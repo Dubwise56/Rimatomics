@@ -109,6 +109,8 @@
       </li>
     </comps>
     <building>
+      <ai_chillDestination>false</ai_chillDestination>
+      <isInert>true</isInert>
       <preventDeteriorationInside>true</preventDeteriorationInside>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
       <fixedStorageSettings>
@@ -737,7 +739,7 @@
       </defaultStorageSettings>
     </building>
     <inspectorTabs>
-      <li>Rimatomics.ITab_FuelStorage</li>
+      <li>ITab_Storage</li>
       <li>Rimatomics.ITab_StoragePool</li>
     </inspectorTabs>
     <surfaceType>Item</surfaceType>
