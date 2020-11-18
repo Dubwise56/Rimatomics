@@ -58,14 +58,18 @@
       <li Class="HediffCompProperties_SeverityPerDay">
         <severityPerDay>-0.18</severityPerDay>
       </li>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <compClass>Rimatomics.HediffComp_HealHediff</compClass>
+        <severityPerDay>-0.10</severityPerDay>
+      </li>
     </comps>
-    <stages>
+    <!--<stages>
       <li>
         <statOffsets>
          <Radiation>-0.2</Radiation>
        </statOffsets>
      </li>
-   </stages>
+   </stages>-->
  </HediffDef>
 
 </Defs>

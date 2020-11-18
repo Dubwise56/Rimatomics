@@ -31,7 +31,7 @@
     </comps>
     <equippedStatOffsets>
       <ToxicSensitivity>-0.35</ToxicSensitivity>
-      <Radiation>-0.35</Radiation>
+      <!--<Radiation>-0.35</Radiation>-->
       <SocialImpact>-0.15</SocialImpact>
     </equippedStatOffsets>
     <recipeMaker>
