@@ -9,10 +9,7 @@
     <tradeTags>
       <li>Rimatomics</li>
     </tradeTags>
-    <thingCategories>
-      <li>BuildingsNuclear</li>
-    </thingCategories>
-    <uiIconScale>0.8</uiIconScale>
+	  <uiIconScale>0.8</uiIconScale>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/RTG</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -54,6 +51,9 @@
       <li>RewardSpecial</li>
     </thingSetMakerTags>
     <minifiedDef>MinifiedThing</minifiedDef>
+	  <thingCategories>
+		  <li>BuildingsNuclear</li>
+	  </thingCategories>
     <tradeability>Sellable</tradeability>
     <comps>
       <li Class="CompProperties_Power">
@@ -230,6 +230,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>Turbine</defName>
     <label>Thor Turbine</label>
+	  <TurbineCapacityWatts>100000</TurbineCapacityWatts>
     <description>A turbine driven by steam which turns a generator to produce electricity. The Thor has a maximum power output of 100 Kilowatts</description>
     <thingClass>Rimatomics.Thor</thingClass>
     <graphicData>
@@ -300,6 +301,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>BigTurbine</defName>
     <label>Zeus Turbine</label>
+	  <TurbineCapacityWatts>1000000</TurbineCapacityWatts>
     <description>A turbine driven by steam which turns a generator to produce electricity. The Zeus has a maximum power output of 1 Megawatt</description>
     <thingClass>Rimatomics.Zeus</thingClass>
     <graphicData>
@@ -374,7 +376,8 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>CoolingRadiator</defName>
     <label>Radiator</label>
-    <description>Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited</description>
+	  <CoolingCapacityWatts>25000</CoolingCapacityWatts>
+    <description>Small air coolers designed to provide cooling for small nuclear reactors when resources or space is limited.\n25kW cooling capacity</description>
     <thingClass>Rimatomics.Radiator</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/nukeRadiator</texPath>
@@ -440,7 +443,8 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>CoolingWater</defName>
     <label>Water Cooling</label>
-    <description>Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans</description>
+	  <CoolingCapacityWatts>250000</CoolingCapacityWatts>
+    <description>Provides large amounts of cooling to nuclear reactors by using cold water from rivers, lakes or oceans.\n250kW cooling capacity</description>
     <thingClass>Rimatomics.WaterStation</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/waterStation</texPath>
@@ -495,7 +499,8 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>CoolingTower</defName>
     <label>Cooling Tower</label>
-    <description>Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available</description>
+	  <CoolingCapacityWatts>250000</CoolingCapacityWatts>
+    <description>Very large air coolers designed to provide large amounts of cooling for nuclear reactors when no natural bodies of water are available.\n250kW cooling capacity</description>
     <thingClass>Rimatomics.CoolingTower</thingClass>
     <uiIconScale>0.9</uiIconScale>
     <graphicData>
@@ -679,7 +684,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>storagePool</defName>
     <label>Storage Pool</label>
-    <description>A storage pool for safely storing nuclear fuel rods. Right click with a selected pawn to interact and designate fuel for removal</description>
+    <description>A storage pool for safely storing spent nuclear fuel rods, water in the pool absorbs radiation, fuel must be manually removed from the pool before it can be used</description>
     <thingClass>Rimatomics.Building_storagePool</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/storagePool</texPath>
@@ -752,7 +757,7 @@
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">
     <defName>RadiationDetector</defName>
     <label>Radiation Detector</label>
-    <description>Radiation Detector</description>
+    <description>Radiation detector, can be placed near reactors to detect radiation leaks</description>
     <thingClass>Rimatomics.Building_RadDetector</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/RadDetector</texPath>

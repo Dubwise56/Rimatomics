@@ -3,6 +3,7 @@
 
   <ThingDef Name="RadSuitBase" Abstract="True"   Class="Rimatomics.RimatomicsThingDef">
     <thingClass>Rimatomics.Apparel_RadSuit</thingClass>
+	  <techLevel>Industrial</techLevel>
     <category>Item</category>
     <selectable>True</selectable>
     <pathCost>10</pathCost>
