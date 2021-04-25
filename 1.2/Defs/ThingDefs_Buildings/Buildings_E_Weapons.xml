@@ -1063,49 +1063,47 @@
 				<preventConditionStacking>false</preventConditionStacking>
 			</li>
 		</comps>
-	</ThingDef>
+	</ThingDef>-->
 
 
-	<ThingDef ParentName="BasedWeapon" Class="Rimatomics.RimatomicsThingDef">
-		<defName>RimatomicsShieldGeneratorBullets</defName>
-		<label>Pulsed Shield Emitter</label>
-		<description>A shielding device which projects a momentum repulsor field. Shots can go out, but not in.\n\nThis one is tuned to low angles, so it will block ground-level projectiles like bullets.</description>
-		<size>(1,1)</size>
+
+	<ThingDef ParentName="BasedWeapon" Class="Rimatomics.RimatomicsThingDef" RimatomicsDLC="true">
+		<defName>RimatomicsShieldGenerator</defName>
+		<label>Sentinel</label>
+		<description>The RA-S4 Sentinel is an energy shield that uses a combination of lasers, microwaves and arc discharges to create plasma fields which can intercept physical or energy based projectile weapons. A sensor detects a shockwave-producing event, determining a direction and distance of the shockwave relative to a defended target and calculates a firing plan, the device then attenuates the shockwave event using reflection, refraction, dispersion, absorption and momentum transfer.</description>
+		<thingClass>Rimatomics.Building_ShieldArray</thingClass>
+		<size>(3,3)</size>
 		<receivesSignals>true</receivesSignals>
+		<uiIconPath>Rimatomics/UI/Sentinel</uiIconPath>
+		<drawOffscreen>true</drawOffscreen>
 		<statBases>
-			<MaxHitPoints>200</MaxHitPoints>
+			<MaxHitPoints>300</MaxHitPoints>
 			<Flammability>0</Flammability>
-			<MarketValue>1000</MarketValue>
 			<WorkToBuild>300</WorkToBuild>
 		</statBases>
 		<graphicData>
-			<texPath>Things/Building/Mech/ShieldGeneratorBullet</texPath>
+			<texPath>Rimatomics/Things/RimatomicsBuildings/WeaponBase</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
-			<drawSize>(1,1)</drawSize>
-			<shadowData>
-				<volume>(0.6, 0.4, 0.6)</volume>
-			</shadowData>
-			<damageData>
-				<rect>(0.2, 0.2, 0.6, 0.6)</rect>
-			</damageData>
+			<drawSize>(3,3)</drawSize>
 		</graphicData>
-		<minifiedDef>MinifiedThing</minifiedDef>
-		<thingCategories>
+		<!--<thingCategories>
 			<li>BuildingsNuclear</li>
-		</thingCategories>
+		</thingCategories>-->
 		<building>
+			<turretTopDrawSize>2</turretTopDrawSize>
 			<destroySound>BuildingDestroyed_Metal_Small</destroySound>
 		</building>
 		<drawerType>MapMeshAndRealTime</drawerType>
 		<placeWorkers>
 			<li>PlaceWorker_ShowProjectileInterceptorRadius</li>
+			<li>Rimatomics.PlaceWorker_ResearchStage</li>
 		</placeWorkers>
 		<comps>
 			<li Class="CompProperties_ProjectileInterceptor">
 				<compClass>Rimatomics.CompRimatomicsShield</compClass>
 				<radius>8</radius>
 				<interceptGroundProjectiles>true</interceptGroundProjectiles>
-				--><!--<interceptAirProjectiles>true</interceptAirProjectiles>--><!--
+				<interceptAirProjectiles>true</interceptAirProjectiles>
 				<color>(0.4, 0.4, 0.4)</color>
 				<reactivateEffect>BulletShieldGenerator_Reactivate</reactivateEffect>
 				<activeSound>BulletShield_Ambience</activeSound>
@@ -1113,24 +1111,47 @@
 				<chargeIntervalTicks>600000</chargeIntervalTicks>
 				<chargeDurationTicks>60000</chargeDurationTicks>
 			</li>
-			<li Class="CompProperties_Battery">
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<basePowerConsumption>15000</basePowerConsumption>
+			</li>
+			<!--<li Class="CompProperties_Battery">
 				<storedEnergyMax>6000</storedEnergyMax>
 				<efficiency>0.98</efficiency>
 				<shortCircuitInRain>false</shortCircuitInRain>
 				<transmitsPower>true</transmitsPower>
-			</li>
+			</li>-->
 			<li Class="CompProperties_Flickable"/>
 			<li Class="CompProperties_Breakdownable"/>
+			<li Class="Rimatomics.CompProperties_Upgradable">
+				<upgrades>
+					<li>
+						<project>ResearchMEPS</project>
+						<stats>
+							<li>Adjustable Radius</li>
+							<li>Shield capacity +10%</li>
+							<li>Charging rate +15%</li>
+							<li>Power to charge +30%</li>
+						</stats>
+					</li>
+				</upgrades>
+			</li>
 		</comps>
+		<stuffCategories>
+			<li>Metallic</li>
+		</stuffCategories>
+		<costStuffCount>350</costStuffCount>
 		<costList>
-			<Plasteel>150</Plasteel>
+			<Steel>150</Steel>
+			<ComponentIndustrial>4</ComponentIndustrial>
 			<ComponentSpacer>2</ComponentSpacer>
 		</costList>
+		<constructionSkillPrerequisite>9</constructionSkillPrerequisite>
 		<resourcesFractionWhenDeconstructed>1</resourcesFractionWhenDeconstructed>
 		<leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
 		<killedLeavings>
 			<Plasteel>7</Plasteel>
 		</killedLeavings>
-	</ThingDef>-->
+	</ThingDef>
 
 </Defs>
