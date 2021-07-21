@@ -148,7 +148,7 @@
       <productCount>1</productCount>
       <workAmount>40000</workAmount>
       <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
-      <workSkill>Intellectual</workSkill>
+      <workSkill>Crafting</workSkill>
       <effectWorking>ConstructMetal</effectWorking>
       <soundWorking>Recipe_Machining</soundWorking>
       <unfinishedThingDef>UnfinishedRimatomics</unfinishedThingDef>
