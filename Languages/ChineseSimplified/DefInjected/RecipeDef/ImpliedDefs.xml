@@ -1,0 +1,191 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 施用碘化钾 -->
+  <Administer_PotassiumIodide.label>施用碘化钾</Administer_PotassiumIodide.label>
+  <!-- EN: 正在施用碘化钾。 -->
+  <Administer_PotassiumIodide.jobString>正在施用碘化钾。</Administer_PotassiumIodide.jobString>
+  
+  <!-- EN: 制作先进水冷系统 -->
+  <Make_ALC.label>制作先进水冷系统</Make_ALC.label>
+  <!-- EN: 制作先进水冷系统。 -->
+  <Make_ALC.description>制作先进水冷系统。</Make_ALC.description>
+  <!-- EN: 正在制作先进水冷系统。 -->
+  <Make_ALC.jobString>正在制作先进水冷系统。</Make_ALC.jobString>
+  
+  <!-- EN: 制作军用防辐射面罩(沙漠) -->
+  <Make_Apparel_MoppMaskDesert.label>制作军用防辐射面罩(沙漠)</Make_Apparel_MoppMaskDesert.label>
+  <!-- EN: 制作军用防辐射面罩(沙漠)。 -->
+  <Make_Apparel_MoppMaskDesert.description>制作军用防辐射面罩(沙漠)。</Make_Apparel_MoppMaskDesert.description>
+  <!-- EN: 正在制作军用防辐射面罩(沙漠)。 -->
+  <Make_Apparel_MoppMaskDesert.jobString>正在制作军用防辐射面罩(沙漠)。</Make_Apparel_MoppMaskDesert.jobString>
+  
+  <!-- EN: 制作军用防辐射面罩(雪地) -->
+  <Make_Apparel_MoppMaskSnow.label>制作军用防辐射面罩(雪地)</Make_Apparel_MoppMaskSnow.label>
+  <!-- EN: 制作军用防辐射面罩(雪地)。 -->
+  <Make_Apparel_MoppMaskSnow.description>制作军用防辐射面罩(雪地)。</Make_Apparel_MoppMaskSnow.description>
+  <!-- EN: 正在制作军用防辐射面罩(雪地)。 -->
+  <Make_Apparel_MoppMaskSnow.jobString>正在制作军用防辐射面罩(雪地)。</Make_Apparel_MoppMaskSnow.jobString>
+  
+  <!-- EN: 制作军用防辐射面罩(树林) -->
+  <Make_Apparel_MoppMaskWoodland.label>制作军用防辐射面罩(树林)</Make_Apparel_MoppMaskWoodland.label>
+  <!-- EN: 制作军用防辐射面罩(树林)。 -->
+  <Make_Apparel_MoppMaskWoodland.description>制作军用防辐射面罩(树林)。</Make_Apparel_MoppMaskWoodland.description>
+  <!-- EN: 正在制作军用防辐射面罩(树林)。 -->
+  <Make_Apparel_MoppMaskWoodland.jobString>正在制作军用防辐射面罩(树林)。</Make_Apparel_MoppMaskWoodland.jobString>
+  
+  <!-- EN: 制作军用防辐射服(沙漠) -->
+  <Make_Apparel_MoppSuitDesert.label>制作军用防辐射服(沙漠)</Make_Apparel_MoppSuitDesert.label>
+  <!-- EN: 制作军用防辐射服(沙漠)。 -->
+  <Make_Apparel_MoppSuitDesert.description>制作军用防辐射服(沙漠)。</Make_Apparel_MoppSuitDesert.description>
+  <!-- EN: 正在制作军用防辐射服(沙漠)。 -->
+  <Make_Apparel_MoppSuitDesert.jobString>正在制作军用防辐射服(沙漠)。</Make_Apparel_MoppSuitDesert.jobString>
+  
+  <!-- EN: 制作军用防辐射服(雪地) -->
+  <Make_Apparel_MoppSuitSnow.label>制作军用防辐射服(雪地)</Make_Apparel_MoppSuitSnow.label>
+  <!-- EN: 制作军用防辐射服(雪地)。 -->
+  <Make_Apparel_MoppSuitSnow.description>制作军用防辐射服(雪地)。</Make_Apparel_MoppSuitSnow.description>
+  <!-- EN: 正在制作军用防辐射服(雪地)。 -->
+  <Make_Apparel_MoppSuitSnow.jobString>正在制作军用防辐射服(雪地)。</Make_Apparel_MoppSuitSnow.jobString>
+  
+  <!-- EN: 制作军用防辐射服(树林) -->
+  <Make_Apparel_MoppSuitWoodland.label>制作军用防辐射服(树林)</Make_Apparel_MoppSuitWoodland.label>
+  <!-- EN: 制作军用防辐射服(树林)。 -->
+  <Make_Apparel_MoppSuitWoodland.description>制作军用防辐射服(树林)。</Make_Apparel_MoppSuitWoodland.description>
+  <!-- EN: 正在制作军用防辐射服(树林)。 -->
+  <Make_Apparel_MoppSuitWoodland.jobString>正在制作军用防辐射服(树林)。</Make_Apparel_MoppSuitWoodland.jobString>
+  
+  <!-- EN: 制作防辐射面罩 -->
+  <Make_Apparel_RadiationMask.label>制作防辐射面罩</Make_Apparel_RadiationMask.label>
+  <!-- EN: 制作防辐射面罩。 -->
+  <Make_Apparel_RadiationMask.description>制作辐射面罩。</Make_Apparel_RadiationMask.description>
+  <!-- EN: 正在制作防辐射面罩。 -->
+  <Make_Apparel_RadiationMask.jobString>正在制作辐射面罩。</Make_Apparel_RadiationMask.jobString>
+  
+  <!-- EN: 制作防辐射服 -->
+  <Make_Apparel_RadiationSuit.label>制作防辐射服</Make_Apparel_RadiationSuit.label>
+  <!-- EN: 制作防辐射服。 -->
+  <Make_Apparel_RadiationSuit.description>制作防辐射服。</Make_Apparel_RadiationSuit.description>
+  <!-- EN: 正在制作防辐射服。 -->
+  <Make_Apparel_RadiationSuit.jobString>正在制作防辐射服。</Make_Apparel_RadiationSuit.jobString>
+  
+  <!-- EN: 制作先进威胁预警模块 -->
+  <Make_ATOM.label>制作先进威胁预警模块</Make_ATOM.label>
+  <!-- EN: 制作先进威胁预警模块。 -->
+  <Make_ATOM.description>制作先进威胁预警模块。</Make_ATOM.description>
+  <!-- EN: 正在制作先进威胁预警模块。 -->
+  <Make_ATOM.jobString>正在制作先进威胁预警模块。</Make_ATOM.jobString>
+  
+  <!-- EN: 制作电子束分裂器 -->
+  <Make_BeamSplitter.label>制作电子束分裂器</Make_BeamSplitter.label>
+  <!-- EN: 制作电子束分裂器。 -->
+  <Make_BeamSplitter.description>制作电子束分裂器。</Make_BeamSplitter.description>
+  <!-- EN: 正在制作电子束分裂器。 -->
+  <Make_BeamSplitter.jobString>正在制作电子束分裂器。</Make_BeamSplitter.jobString>
+  
+  <!-- EN: 制作控制棒传动器 -->
+  <Make_ControlRodActuator.label>制作控制棒传动器</Make_ControlRodActuator.label>
+  <!-- EN: 制作控制棒传动器。 -->
+  <Make_ControlRodActuator.description>制作控制棒传动器。</Make_ControlRodActuator.description>
+  <!-- EN: 正在制作控制棒传动器。 -->
+  <Make_ControlRodActuator.jobString>正在制作控制棒传动器。</Make_ControlRodActuator.jobString>
+  
+  <!-- EN: 制作促动器 -->
+  <Make_DriveActuator.label>制作促动器</Make_DriveActuator.label>
+  <!-- EN: 制作促动器。 -->
+  <Make_DriveActuator.description>制作促动器。</Make_DriveActuator.description>
+  <!-- EN: 正在制作促动器。 -->
+  <Make_DriveActuator.jobString>正在制作促动器。</Make_DriveActuator.jobString>
+  
+  <!-- EN: 制作能量回收系统 -->
+  <Make_ERS.label>制作能量回收系统</Make_ERS.label>
+  <!-- EN: 制作能量回收系统。 -->
+  <Make_ERS.description>制作能量回收系统。</Make_ERS.description>
+  <!-- EN: 正在制作能量回收系统。 -->
+  <Make_ERS.jobString>正在制作能量回收系统。</Make_ERS.jobString>
+  
+  <!-- EN: 制作核弹头 -->
+  <Make_FissionWarhead.label>制作核弹头</Make_FissionWarhead.label>
+  <!-- EN: 制作核弹头。 -->
+  <Make_FissionWarhead.description>制作核弹头。</Make_FissionWarhead.description>
+  <!-- EN: 正在制作核弹头。 -->
+  <Make_FissionWarhead.jobString>正在制作核弹头。</Make_FissionWarhead.jobString>
+  
+  <!-- EN: 制作棱镜模块 -->
+  <Make_LenseModule.label>制作棱镜模块</Make_LenseModule.label>
+  <!-- EN: 制作棱镜模块。 -->
+  <Make_LenseModule.description>制作棱镜模块。</Make_LenseModule.description>
+  <!-- EN: 正在制作棱镜模块。 -->
+  <Make_LenseModule.jobString>正在制作棱镜模块。</Make_LenseModule.jobString>
+  
+  <!-- EN: 制作模块化电力系统 -->
+  <Make_MEPS.label>制作模块化电力系统</Make_MEPS.label>
+  <!-- EN: 制作模块化电力系统。 -->
+  <Make_MEPS.description>制作模块化电力系统。</Make_MEPS.description>
+  <!-- EN: 正在制作模块化电力系统。 -->
+  <Make_MEPS.jobString>正在制作模块化电力系统。</Make_MEPS.jobString>
+  
+  <!-- EN: 制作导弹外壳 -->
+  <Make_MissileFuselage.label>制作导弹外壳</Make_MissileFuselage.label>
+  <!-- EN: 制作导弹外壳。 -->
+  <Make_MissileFuselage.description>制作导弹外壳。</Make_MissileFuselage.description>
+  <!-- EN: 正在制作导弹外壳。 -->
+  <Make_MissileFuselage.jobString>正在制作导弹外壳。</Make_MissileFuselage.jobString>
+  
+  <!-- EN: 制作碘化钾 -->
+  <Make_PotassiumIodide.label>制作碘化钾</Make_PotassiumIodide.label>
+  <!-- EN: 制作碘化钾。 -->
+  <Make_PotassiumIodide.description>制作碘化钾。</Make_PotassiumIodide.description>
+  <!-- EN: 正在制作碘化钾。 -->
+  <Make_PotassiumIodide.jobString>正在制作碘化钾。</Make_PotassiumIodide.jobString>
+  
+  <!-- EN: 制作磁轨炮弹(高爆) -->
+  <Make_RailgunSabot.label>制作磁轨炮弹(高爆)</Make_RailgunSabot.label>
+  <!-- EN: 制作磁轨炮弹(高爆)。 -->
+  <Make_RailgunSabot.description>制作磁轨炮弹(高爆)。</Make_RailgunSabot.description>
+  <!-- EN: 正在制作磁轨炮弹(高爆)。 -->
+  <Make_RailgunSabot.jobString>正在制作磁轨炮弹(高爆)。</Make_RailgunSabot.jobString>
+  
+  <!-- EN: 制作磁轨炮弹(贫铀) -->
+  <Make_RailgunSabotDU.label>制作磁轨炮弹(贫铀)</Make_RailgunSabotDU.label>
+  <!-- EN: 制作磁轨炮弹(贫铀)。 -->
+  <Make_RailgunSabotDU.description>制作磁轨炮弹(贫铀)。</Make_RailgunSabotDU.description>
+  <!-- EN: 正在制作磁轨炮弹(贫铀)。 -->
+  <Make_RailgunSabotDU.jobString>正在制作磁轨炮弹(贫铀)。</Make_RailgunSabotDU.jobString>
+  
+  <!-- EN: 制作火箭引擎 -->
+  <Make_RocketEngine.label>制作火箭引擎</Make_RocketEngine.label>
+  <!-- EN: 制作火箭引擎。 -->
+  <Make_RocketEngine.description>制作火箭引擎。</Make_RocketEngine.description>
+  <!-- EN: 正在制作火箭引擎。 -->
+  <Make_RocketEngine.jobString>正在制作火箭引擎。</Make_RocketEngine.jobString>
+  
+  <!-- EN: 制作电磁防护系统 -->
+  <Make_SCAD.label>制作电磁防护系统</Make_SCAD.label>
+  <!-- EN: 制作电磁防护系统。 -->
+  <Make_SCAD.description>制作电磁防护系统。</Make_SCAD.description>
+  <!-- EN: 正在制作电磁防护系统。 -->
+  <Make_SCAD.jobString>正在制作电磁防护系统。</Make_SCAD.jobString>
+  
+  <!-- EN: 制作定向芯片 -->
+  <Make_TargetingChip.label>制作定向芯片</Make_TargetingChip.label>
+  <!-- EN: 制作定向芯片。 -->
+  <Make_TargetingChip.description>制作定向芯片。</Make_TargetingChip.description>
+  <!-- EN: 正在制作定向芯片。 -->
+  <Make_TargetingChip.jobString>正在制作定向芯片。</Make_TargetingChip.jobString>
+  
+  <!-- EN: 制作涡轮叶片 -->
+  <Make_turbineBlade.label>制作涡轮叶片</Make_turbineBlade.label>
+  <!-- EN: 制作涡轮叶片 x10。 -->
+  <Make_turbineBlade.description>制作涡轮叶片。</Make_turbineBlade.description>
+  <!-- EN: 正在制作涡轮叶片。 -->
+  <Make_turbineBlade.jobString>正在制作涡轮叶片。</Make_turbineBlade.jobString>
+  
+  <!-- EN: 制作铀芯块 -->
+  <Make_UraniumPellets.label>制作铀芯块</Make_UraniumPellets.label>
+  <!-- EN: 制作铀芯块 x30。 -->
+  <Make_UraniumPellets.description>制作铀芯块。</Make_UraniumPellets.description>
+  <!-- EN: 正在制作铀芯块。 -->
+  <Make_UraniumPellets.jobString>正在制作铀芯块。</Make_UraniumPellets.jobString>
+  
+</LanguageData>

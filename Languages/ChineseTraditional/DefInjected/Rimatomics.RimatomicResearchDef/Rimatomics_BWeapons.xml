@@ -1,51 +1,70 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <EnergyWeapons.ResearchLabel>能量武器</EnergyWeapons.ResearchLabel>
-  <EnergyWeapons.ProjTypeLabel>研究設施</EnergyWeapons.ProjTypeLabel>
-  <EnergyWeapons.ResearchDesc>「邊緣核能」定義了未來高級能量武器系統的格局，通過實戰演練保證下一代能量武器的實用性，體現在模塊化、可擴展的設計特點，幫助使用者獲得戰場優勢，360度無死角火力覆蓋，智能識別、跟蹤和防禦敵方的導彈、炮彈 ，打擊遠程目標。</EnergyWeapons.ResearchDesc>
-  <EnergyWeapons.ResearchDescDisc>所有「邊緣核能」系列的能量武器的使用技術都是可研究的，武器系統可在「邊緣核能」研究台購買。</EnergyWeapons.ResearchDescDisc>
-
-  <!--ADS-->
-
-  <ADS.ResearchLabel>主動驅敵系統</ADS.ResearchLabel>
+  
+  <!-- EN: Energy Weapon -->
   <ADS.ProjTypeLabel>能量武器</ADS.ProjTypeLabel>
   <ADS.ResearchDesc>主動驅敵系統是一種非致命的，針對性的能量武器，專為區域驅離，周邊安全和人群控制而設計。它發射的毫米波能讓目標皮膚水份沸騰，產生無法忍受的痛苦。需要配合能量武器控制台、警戒雷達和脈衝電池一同使用才能生效。</ADS.ResearchDesc>
+  <!-- EN: You are no longer limited to building 1 ADS and existing prototypes are now combat ready -->
   <ADS.ResearchDescDisc>您將不再受限於主動驅敵系統個數，所有的主動驅敵系統都能同時運行。</ADS.ResearchDescDisc>
-
-  <!--Tesla Coil-->
-
-  <TeslaCoil.ResearchLabel>磁暴線圈</TeslaCoil.ResearchLabel>
-  <TeslaCoil.ProjTypeLabel>能量武器</TeslaCoil.ProjTypeLabel>
-  <TeslaCoil.ResearchDesc>磁暴線圈是一種簡單但有效的能量武器，可以在短距離範圍內快速向目標發射致命電流。需要配合能量武器控制台、雷達系統和脈衝電池一同使用才能生效。</TeslaCoil.ResearchDesc>
-  <TeslaCoil.ResearchDescDisc>您將不再受限於磁暴線圈個數，所有的磁暴線圈都能同時運行。</TeslaCoil.ResearchDescDisc>
+  <!-- EN: ADS -->
+  <ADS.ResearchLabel>主動驅敵系統</ADS.ResearchLabel>
   
-    <!--HEL-->
-
-  <HEL.ResearchLabel>激光點防禦</HEL.ResearchLabel>
+  <!-- EN: Research Facility -->
+  <EnergyShields.ProjTypeLabel>研究設施</EnergyShields.ProjTypeLabel>
+  <!-- EN: Energy shields that uses a combination of lasers, microwaves and arc discharges to create plasma fields which can intercept physical or energy based projectile weapons. A sensor detects a shockwave-producing event, determining a direction and distance of the shockwave relative to a defended target and calculates a firing plan, the device then attenuates the shockwave event using reflection, refraction, dispersion, absorption and momentum transfer -->
+  <EnergyShields.ResearchDesc>能量護盾調用激光、微波和電弧放電等技術來產生等離子場，可以攔截基於物理或能量的射彈武器。該設備通過對沖擊波數據的檢測來確定防禦目標的方向和距離並計算其開火軌跡，然後使用反射、折射、分散、吸收和動量傳遞等手段來減弱威脅</EnergyShields.ResearchDesc>
+  <!-- EN: All of the required technology for using Rimatomics energy shields is available and shield systems are now available for construction -->
+  <EnergyShields.ResearchDescDisc>所有「邊緣核能」系列的能量護盾的使用技術都是可研究的，護盾系統可實裝。</EnergyShields.ResearchDescDisc>
+  <!-- EN: Energy Shields -->
+  <EnergyShields.ResearchLabel>能量護盾</EnergyShields.ResearchLabel>
+  
+  <!-- EN: Research Facility -->
+  <EnergyWeapons.ProjTypeLabel>研究設施</EnergyWeapons.ProjTypeLabel>
+  <!-- EN: Rimatomics defines the future for high energy weapons systems, Gain a dominant battlefield advantage with our combat proven target designators and next generation energy weapons featuring modular, scalable designs, with 360 degree coverage that identifies, tracks, and defends against enemy troops, missiles, mortars, and long range targets -->
+  <EnergyWeapons.ResearchDesc>「邊緣核能」定義了未來高級能量武器系統的格局，通過實戰演練保證下一代能量武器的實用性，體現在模塊化、可擴展的設計特點，幫助使用者獲得戰場優勢，360度無死角火力覆蓋，智能識別、跟蹤和防禦敵方的導彈、炮彈 ，打擊遠程目標。</EnergyWeapons.ResearchDesc>
+  <!-- EN: All of the required technology for using Rimatomics energy weapons is available and weapon systems are now available for purchase at the research bench -->
+  <EnergyWeapons.ResearchDescDisc>所有「邊緣核能」系列的能量武器的使用技術都是可研究的，武器系統可在「邊緣核能」研究台購買。</EnergyWeapons.ResearchDescDisc>
+  <!-- EN: Energy Weapons -->
+  <EnergyWeapons.ResearchLabel>能量武器</EnergyWeapons.ResearchLabel>
+  
+  <!-- EN: Energy Weapon -->
   <HEL.ProjTypeLabel>防禦武器</HEL.ProjTypeLabel>
   <HEL.ResearchDesc>激光點防禦使用高能激光來摧毀空中來襲的炮彈，高級版本能夠擊落彈道導彈。需要配合能量武器控制台、雷達系統和脈衝電池一同使用才能生效。</HEL.ResearchDesc>
+  <!-- EN: You are no longer limited to building 1 HEL and existing prototypes are now combat ready -->
   <HEL.ResearchDescDisc>您將不再受限於激光點防禦個數，所有的激光點防禦都能同時運行。</HEL.ResearchDescDisc>
-
-  <!--Railgun-->
-
-  <Railgun.ResearchLabel>“懲戒者”磁軌炮</Railgun.ResearchLabel>
-  <Railgun.ProjTypeLabel>能量武器</Railgun.ProjTypeLabel>
-  <Railgun.ResearchDesc>“懲戒者”磁軌炮使用高能電磁脈衝將炮彈發射到極遠處，擁有極大範圍的火力覆蓋。最高可跨越25個地圖格進行遠程火力打擊。需要配合能量武器控制台、雷達系統和脈衝電池一同使用才能生效。</Railgun.ResearchDesc>
-  <Railgun.ResearchDescDisc>您將不再受限於磁軌炮個數，所有的磁軌炮都能同時運行。</Railgun.ResearchDescDisc>
-
-  <!--Obelisk-->
-
-  <Obelisk.ResearchLabel>光明石碑</Obelisk.ResearchLabel>
-  <Obelisk.ProjTypeLabel>能量武器</Obelisk.ProjTypeLabel>
-  <Obelisk.ResearchDesc>光明石碑使用使用聚能激光灼燒目標，耗能高、精度高、射程遠，射程和耗能可調。需要配合能量武器控制台、警戒雷達和脈衝電池一同使用才能生效。</Obelisk.ResearchDesc>
-  <Obelisk.ResearchDescDisc>您將不再受限於光明石碑個數，所有的光明石碑都能同時運行。</Obelisk.ResearchDescDisc>
-
-  <!--Marauder-->
-
-  <Marauder.ResearchLabel>“掠奪者”磁軌炮</Marauder.ResearchLabel>
+  <!-- EN: HEL -->
+  <HEL.ResearchLabel>激光點防禦</HEL.ResearchLabel>
+  
+  <!-- EN: Energy Weapon -->
   <Marauder.ProjTypeLabel>能量武器</Marauder.ProjTypeLabel>
   <Marauder.ResearchDesc>“掠奪者”磁軌炮使用高能電磁脈衝將一連串高速等離子迴旋體發射到極遠處，擁有極快的速度。需要配合能量武器控制台、雷達系統和脈衝電池一同使用才能生效。</Marauder.ResearchDesc>
+  <!-- EN: You are no longer limited to building 1 Marauder and existing prototypes are now combat ready -->
   <Marauder.ResearchDescDisc>您將不再受限於磁軌炮個數，所有的磁軌炮都能同時運行。</Marauder.ResearchDescDisc>
-
+  <!-- EN: Marauder -->
+  <Marauder.ResearchLabel>“掠奪者”磁軌炮</Marauder.ResearchLabel>
+  
+  <!-- EN: Energy Weapon -->
+  <Obelisk.ProjTypeLabel>能量武器</Obelisk.ProjTypeLabel>
+  <Obelisk.ResearchDesc>光明石碑使用使用聚能激光灼燒目標，耗能高、精度高、射程遠，射程和耗能可調。需要配合能量武器控制台、警戒雷達和脈衝電池一同使用才能生效。</Obelisk.ResearchDesc>
+  <!-- EN: You are no longer limited to building 1 Obelisk and existing prototypes are now combat ready -->
+  <Obelisk.ResearchDescDisc>您將不再受限於光明石碑個數，所有的光明石碑都能同時運行。</Obelisk.ResearchDescDisc>
+  <!-- EN: Obelisk -->
+  <Obelisk.ResearchLabel>光明石碑</Obelisk.ResearchLabel>
+  
+  <!-- EN: Energy Weapon -->
+  <Railgun.ProjTypeLabel>能量武器</Railgun.ProjTypeLabel>
+  <Railgun.ResearchDesc>“懲戒者”磁軌炮使用高能電磁脈衝將炮彈發射到極遠處，擁有極大範圍的火力覆蓋。最高可跨越25個地圖格進行遠程火力打擊。需要配合能量武器控制台、雷達系統和脈衝電池一同使用才能生效。</Railgun.ResearchDesc>
+  <!-- EN: You are no longer limited to building 1 Punisher and existing prototypes are now combat ready -->
+  <Railgun.ResearchDescDisc>您將不再受限於磁軌炮個數，所有的磁軌炮都能同時運行。</Railgun.ResearchDescDisc>
+  <!-- EN: Punisher -->
+  <Railgun.ResearchLabel>“懲戒者”磁軌炮</Railgun.ResearchLabel>
+  
+  <!-- EN: Energy Weapon -->
+  <TeslaCoil.ProjTypeLabel>能量武器</TeslaCoil.ProjTypeLabel>
+  <TeslaCoil.ResearchDesc>磁暴線圈是一種簡單但有效的能量武器，可以在短距離範圍內快速向目標發射致命電流。需要配合能量武器控制台、雷達系統和脈衝電池一同使用才能生效。</TeslaCoil.ResearchDesc>
+  <!-- EN: You are no longer limited to building 1 Tesla coil and existing prototypes are now combat ready -->
+  <TeslaCoil.ResearchDescDisc>您將不再受限於磁暴線圈個數，所有的磁暴線圈都能同時運行。</TeslaCoil.ResearchDescDisc>
+  <!-- EN: Tesla Coil -->
+  <TeslaCoil.ResearchLabel>磁暴線圈</TeslaCoil.ResearchLabel>
+  
 </LanguageData>

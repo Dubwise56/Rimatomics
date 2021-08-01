@@ -1,13 +1,18 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <RadioactiveFallout.label>輻射塵埃</RadioactiveFallout.label>
-  <RadioactiveFallout.description>由反應堆融毀產生的放射性煙霧和粉塵已擴散至空氣中，並將沉積在附近區域。</RadioactiveFallout.description>
-  <RadioactiveFallout.endMessage>災難性的輻射塵埃已基本消散了。</RadioactiveFallout.endMessage>
-
+  
+  <!-- EN: nuclear blast fallout -->
   <NuclearFallout.label>輻射塵埃</NuclearFallout.label>
+  <!-- EN: A plume of radioactive smoke and ash from a nuclear blast has been ejected into the air and will settle in the surrounding area. -->
   <NuclearFallout.description>由核爆炸產生的放射性煙霧和粉塵已擴散至空氣中，並將沉積在附近區域。</NuclearFallout.description>
+  <!-- EN: The worst of the radioactive dust has been washed away. -->
   <NuclearFallout.endMessage>災難性的輻射塵埃已基本消散了。</NuclearFallout.endMessage>
-
-
+  
+  <!-- EN: meltdown fallout -->
+  <RadioactiveFallout.label>輻射塵埃</RadioactiveFallout.label>
+  <!-- EN: A plume of radioactive smoke and ash from a reactor meltdown has been ejected into the air and will settle in the surrounding area. -->
+  <RadioactiveFallout.description>由反應堆融毀產生的放射性煙霧和粉塵已擴散至空氣中，並將沉積在附近區域。</RadioactiveFallout.description>
+  <!-- EN: The worst of the radioactive dust has been washed away. -->
+  <RadioactiveFallout.endMessage>災難性的輻射塵埃已基本消散了。</RadioactiveFallout.endMessage>
+  
 </LanguageData>

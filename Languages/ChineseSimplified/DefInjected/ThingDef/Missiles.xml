@@ -1,20 +1,28 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <RocketEngine.label>火箭引擎</RocketEngine.label>
-  <RocketEngine.description>洲际弹道导弹的引擎。</RocketEngine.description>
-
-  <MissileFuselage.label>导弹外壳</MissileFuselage.label>
-  <MissileFuselage.description>洲际弹道导弹的外壳。</MissileFuselage.description>
-
+  
+  <!-- EN: Nuclear Warhead -->
   <FissionWarhead.label>核弹头</FissionWarhead.label>
+  <!-- EN: An explosive device that derives its destructive force from nuclear reactions. -->
   <FissionWarhead.description>其破坏力来自核裂变反应。</FissionWarhead.description>
-
+  
+  <!-- EN: strategic missile -->
   <ICBM_Fission.label>洲际弹道导弹</ICBM_Fission.label>
-  <NuclearWarheadIncoming.label>弹头就位</NuclearWarheadIncoming.label>
-  <SCUDIncoming.label>导弹装载</SCUDIncoming.label>
-  <CHEMSCUDIncoming.label>导弹装载</CHEMSCUDIncoming.label>
+  
+  <!-- EN: strategic missile strike -->
   <ICBMStrike.label>洲际弹道导弹打击</ICBMStrike.label>
-
-
+  
+  <!-- EN: Missile Fuselage -->
+  <MissileFuselage.label>导弹外壳</MissileFuselage.label>
+  <!-- EN: Fuselage for building strategic missiles. -->
+  <MissileFuselage.description>洲际弹道导弹的外壳。</MissileFuselage.description>
+  
+  <!-- EN: warhead incoming -->
+  <NuclearWarheadIncoming.label>弹头就位</NuclearWarheadIncoming.label>
+  
+  <!-- EN: Rocket Engine -->
+  <RocketEngine.label>火箭引擎</RocketEngine.label>
+  <!-- EN: Engines for building rocket propelled machines. -->
+  <RocketEngine.description>洲际弹道导弹的引擎。</RocketEngine.description>
+  
 </LanguageData>

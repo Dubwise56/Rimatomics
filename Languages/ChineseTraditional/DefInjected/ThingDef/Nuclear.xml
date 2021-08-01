@@ -1,36 +1,45 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <turbineBlade.label>渦輪葉片</turbineBlade.label>
-  <turbineBlade.description>用於製造渦輪機。</turbineBlade.description>
-
-  <UraniumPellets.label>鈾芯塊</UraniumPellets.label>
-  <UraniumPellets.description>用於製造核燃料棒。</UraniumPellets.description>
-
-  <Plutonium.label>鈽</Plutonium.label>
-  <Plutonium.description>一種用於製造核武器和核燃料棒材料。</Plutonium.description>
-
-  <DepletedUraniumPellets.label>貧鈾</DepletedUraniumPellets.label>
-  <DepletedUraniumPellets.description>貧鈾顆粒可用於製作核燃料棒。</DepletedUraniumPellets.description>
-
-
-  <!-- Fuel Rods -->
-
-  <FuelRods.label>鈾燃料棒</FuelRods.label>
-  <FuelRods.description>填充有鈾顆粒的燃料棒，當裝載在反應堆時產生能量，用來驅動渦輪機。</FuelRods.description>
-
-  <FuelRodsMOX.label>混合氧化物核燃料棒</FuelRodsMOX.label>
-  <FuelRodsMOX.description>填充有鈾和鈽混合物的燃料棒，當裝載在反應堆時產生能量，用來驅動渦輪機。</FuelRodsMOX.description>
-
-
-  <!-- Nuclear Waste -->
-
+  
+  <!-- EN: radioactive slag chunk -->
   <ChunkRadioactiveSlag.label>放射性廢渣塊</ChunkRadioactiveSlag.label>
-
+  
+  <!-- EN: Depleted Uranium -->
+  <DepletedUraniumPellets.label>貧鈾</DepletedUraniumPellets.label>
+  <!-- EN: Pellets of depleted uranium used in the construction of nuclear fuel rods. -->
+  <DepletedUraniumPellets.description>貧鈾顆粒可用於製作核燃料棒。</DepletedUraniumPellets.description>
+  
+  <!-- EN: fuel rods -->
+  <FuelRods.label>鈾燃料棒</FuelRods.label>
+  <!-- EN: A group of rods filled with uranium pellets, when loaded in a reactor core they generate heat which can be used to drive a turbine. -->
+  <FuelRods.description>填充有鈾顆粒的燃料棒，當裝載在反應堆時產生能量，用來驅動渦輪機。</FuelRods.description>
+  
+  <!-- EN: fuel rods MOX -->
+  <FuelRodsMOX.label>混合氧化物核燃料棒</FuelRodsMOX.label>
+  <!-- EN: A group of rods filled with a mix of uranium and plutonium, when loaded in a reactor core they generate heat which can be used to drive a turbine. -->
+  <FuelRodsMOX.description>填充有鈾和鈽混合物的燃料棒，當裝載在反應堆時產生能量，用來驅動渦輪機。</FuelRodsMOX.description>
+  
+  <!-- EN: Nuclear Waste -->
   <NuclearWaste.label>核廢料</NuclearWaste.label>
+  <!-- EN: A drum of nuclear waste. -->
   <NuclearWaste.description>一桶核廢料。</NuclearWaste.description>
-
+  
+  <!-- EN: plutonium -->
+  <Plutonium.label>鈽</Plutonium.label>
+  <!-- EN: A case of plutonium used to create nuclear weapons or nuclear fuel rods. -->
+  <Plutonium.description>一種用於製造核武器和核燃料棒材料。</Plutonium.description>
+  
+  <!-- EN: ThrownSlag -->
   <ThrownSlag.label>廢渣</ThrownSlag.label>
-
-
+  
+  <!-- EN: Turbine Blades -->
+  <turbineBlade.label>渦輪葉片</turbineBlade.label>
+  <!-- EN: Used to construct generators. -->
+  <turbineBlade.description>用於製造渦輪機。</turbineBlade.description>
+  
+  <!-- EN: Uranium Pellets -->
+  <UraniumPellets.label>鈾芯塊</UraniumPellets.label>
+  <!-- EN: Pellets of uranium used in the construction of nuclear fuel rods. -->
+  <UraniumPellets.description>用於製造核燃料棒。</UraniumPellets.description>
+  
 </LanguageData>

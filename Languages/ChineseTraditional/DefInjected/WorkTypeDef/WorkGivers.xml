@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <NuclearWork.label>核能</NuclearWork.label>
+  <!-- EN: Move and load radioactive material. -->
+  <NuclearWork.description>移动并装载放射性物质。</NuclearWork.description>
+  <!-- EN: Loading -->
+  <NuclearWork.gerundLabel>装载</NuclearWork.gerundLabel>
+  <!-- EN: Nuclear -->
+  <NuclearWork.labelShort>核能</NuclearWork.labelShort>
+  <!-- EN: Nuclear managing -->
+  <NuclearWork.pawnLabel>核能操作员</NuclearWork.pawnLabel>
+  <!-- EN: Nuclear -->
+  <NuclearWork.verb>核能</NuclearWork.verb>
+  
+</LanguageData>

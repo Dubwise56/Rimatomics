@@ -1,91 +1,123 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!--ResearchControlRodActuators-->
-
-  <ResearchControlRodActuators.ResearchLabel>控制棒傳動器</ResearchControlRodActuators.ResearchLabel>
-  <ResearchControlRodActuators.ProjTypeLabel>升級組件</ResearchControlRodActuators.ProjTypeLabel>
-  <ResearchControlRodActuators.ResearchDesc>提高控制棒運作的速度，提高對中子通量變化的反應速度，還提高了反應堆關閉速度。</ResearchControlRodActuators.ResearchDesc>
-  <ResearchControlRodActuators.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作控制棒傳動器，並將其安裝到反應堆堆芯中，選擇反應堆並指定安裝控制棒傳動器，在安裝之前請關閉反應堆。</ResearchControlRodActuators.ResearchDescDisc>
-  <ResearchControlRodActuators.stats.0>增加控制棒的靈敏度</ResearchControlRodActuators.stats.0>
-
-  <!--ATOMProject-->
-
-  <ATOMProject.ResearchLabel>先進威脅預警模塊</ATOMProject.ResearchLabel>
+  
+  <!-- EN: Upgrade -->
   <ATOMProject.ProjTypeLabel>升級組件</ATOMProject.ProjTypeLabel>
+  <!-- EN: The Advanced Threat Detection module (ATOM) is an upgrade module for the TACS, when installed it it significantly increases the power usage increasing its range and scanning power, and making it possible to detect threats at much greater distances, acting as an early warning system for potential attacks. Airborne attacks will leave little room for warning, and smaller groups of ground units will be hard to detect, but large ground based fighting forces will be easily detected. False positives may be possible when using the system. -->
   <ATOMProject.ResearchDesc>顯著地提高警戒雷達的掃描範圍和功耗，使其能偵測到更大範圍的潛在威脅。極低的幾率偵測到空襲部隊，較小的幾率偵測到規模地面部隊，極高几率偵測到大型地面作戰部隊。當然有可能出現誤報的情況。</ATOMProject.ResearchDesc>
+  <!-- EN: You can now produce ATOM modules at the Rimatomics machining table, to install them select a TACS and toggle the ATOM button\n\nThe ATOM module must be manually installed in each new TACS -->
   <ATOMProject.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作先進威脅預警模塊，並將其安裝到警戒雷達中，選擇警戒雷達並指定安裝先進威脅預警模塊。</ATOMProject.ResearchDescDisc>
-
-  <!--ResearchGuidenceSystem-->
-
-  <ResearchGuidenceSystem.ResearchLabel>全球定位系統</ResearchGuidenceSystem.ResearchLabel>
-  <ResearchGuidenceSystem.ProjTypeLabel>升級組件</ResearchGuidenceSystem.ProjTypeLabel>
-  <ResearchGuidenceSystem.ResearchDesc>顯著提高洲際彈道導彈的範圍和精度。</ResearchGuidenceSystem.ResearchDesc>
-  <ResearchGuidenceSystem.ResearchDescDisc>全球定位系統現已研究完成，所有武器現在都將自動升級這些配置，射程已覆蓋全球。</ResearchGuidenceSystem.ResearchDescDisc>
-
-  <!--ResearchMEPS-->
-
-  <ResearchMEPS.ResearchLabel>模塊化電力系統</ResearchMEPS.ResearchLabel>
-  <ResearchMEPS.ProjTypeLabel>升級組件</ResearchMEPS.ProjTypeLabel>
-  <ResearchMEPS.ResearchDesc>模塊化電力系統是一種超級電容器，可以與任何「邊緣核能」系列能量武器的供電系統相連接，以提升其最大功率，每種能量武器的提升效果不同。</ResearchMEPS.ResearchDesc>
-  <ResearchMEPS.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作模塊化電力系統，並將其安裝到「邊緣核能」系列能量武器中，選擇能量武器並指定安裝模塊化電力系統。</ResearchMEPS.ResearchDescDisc>
-
-  <!--ResearchALC-->
-
-  <ResearchALC.ResearchLabel>先進水冷系統</ResearchALC.ResearchLabel>
+  <!-- EN: ATOM -->
+  <ATOMProject.ResearchLabel>先進威脅預警模塊</ATOMProject.ResearchLabel>
+  
+  <!-- EN: Upgrade -->
   <ResearchALC.ProjTypeLabel>升級組件</ResearchALC.ProjTypeLabel>
+  <!-- EN: The Advanced Liquid Cooler (ALC) is a universal cooling system designed to work with all Rimatomics energy weapons, by increasing the cooling capacity of the weapon and its power deliver systems, cooldown times can be reduced. -->
   <ResearchALC.ResearchDesc>先進水冷系統是一種通用型高級冷卻系統，旨在通過增加能量武器及其供電系統的冷卻能力，大幅度降低冷卻時間並提高火力，可以與任何「邊緣核能」系列能量武器配合使用，每種能量武器的提升效果不同。</ResearchALC.ResearchDesc>
+  <!-- EN: You can now produce ALC modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon select the weapon and toggle the ALC button on -->
   <ResearchALC.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作先進水冷系統，並將其安裝到「邊緣核能」系列能量武器中，選擇能量武器並指定安裝先進水冷系統。</ResearchALC.ResearchDescDisc>
+  <!-- EN: ALC -->
+  <ResearchALC.ResearchLabel>先進水冷系統</ResearchALC.ResearchLabel>
+  <!-- EN: Cooldown -15% -->
   <ResearchALC.stats.0>冷卻時間 -15%</ResearchALC.stats.0>
-
-  <!--ResearchERS-->
-
-  <ResearchERS.ResearchLabel>能量回收系統</ResearchERS.ResearchLabel>
-  <ResearchERS.ProjTypeLabel>升級組件</ResearchERS.ProjTypeLabel>
-  <ResearchERS.ResearchDesc>能量回收系統能夠收集能量武器開火過程中浪費的動能和熱能，並在武器開火後將回收的能量輸送給脈衝電池儲存起來。</ResearchERS.ResearchDesc>
-  <ResearchERS.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作能量回收系統，並將其安裝到「邊緣核能」系列能量武器中，選擇能量武器並指定安裝能量回收系統。</ResearchERS.ResearchDescDisc>
-  <ResearchERS.stats.0>能量消耗 -15%</ResearchERS.stats.0>
-
-  <!--ResearchSCAD-->
-
-  <ResearchSCAD.ResearchLabel>電磁防護系統</ResearchSCAD.ResearchLabel>
-  <ResearchSCAD.ProjTypeLabel>升級組件</ResearchSCAD.ProjTypeLabel>
-  <ResearchSCAD.ResearchDesc>電磁防護系統是一整套附加的護盾層，通過磁場引導高能電子以電弧的形式釋放，在周圍形成一道電磁防護層，以阻擋甚至蒸發進入防護層的槍彈，能夠吸收高達90%的傷害。</ResearchSCAD.ResearchDesc>
-  <ResearchSCAD.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作電磁防護系統，並將其安裝到「邊緣核能」系列能量武器中，選擇能量武器並指定安裝電磁防護系統。</ResearchSCAD.ResearchDescDisc>
-  <ResearchSCAD.stats.0>增加護盾</ResearchSCAD.stats.0>
-
-  <!--ResearchDriveActuator-->
-
-  <ResearchDriveActuator.ResearchLabel>促動器</ResearchDriveActuator.ResearchLabel>
+  
+  <!-- EN: Upgrade -->
+  <ResearchControlRodActuators.ProjTypeLabel>升級組件</ResearchControlRodActuators.ProjTypeLabel>
+  <!-- EN: Increase the speed of the control rods, this increases the responsiveness of flux level changes, and increases the shutdown speed -->
+  <ResearchControlRodActuators.ResearchDesc>提高控制棒運作的速度，提高對中子通量變化的反應速度，還提高了反應堆關閉速度。</ResearchControlRodActuators.ResearchDesc>
+  <!-- EN: You can now produce the Control Rod Actuators at the Rimatomics machining table, to install them into a reactor core select the core and toggle the Control Rod Actuators, the reactor must then be shut down before it can be installed -->
+  <ResearchControlRodActuators.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作控制棒傳動器，並將其安裝到反應堆堆芯中，選擇反應堆並指定安裝控制棒傳動器，在安裝之前請關閉反應堆。</ResearchControlRodActuators.ResearchDescDisc>
+  <!-- EN: Control Rod Actuators -->
+  <ResearchControlRodActuators.ResearchLabel>控制棒傳動器</ResearchControlRodActuators.ResearchLabel>
+  <!-- EN: Increases the responsiveness of control rods -->
+  <ResearchControlRodActuators.stats.0>增加控制棒的靈敏度</ResearchControlRodActuators.stats.0>
+  
+  <!-- EN: Upgrade -->
   <ResearchDriveActuator.ProjTypeLabel>升級組件</ResearchDriveActuator.ProjTypeLabel>
+  <!-- EN: Improve stabilization accuracy and slew rates for turret based Rimatomics energy weapons. This high torque motor eliminates the need for a gearbox between the motor and load and provides low drive inertia for superior stabilization performance and high stiffness with a backlash free coupling -->
   <ResearchDriveActuator.ResearchDesc>促動器能夠提高「邊緣核能」系列能量武器的精度和反應速度。這種高扭矩電機可以無隙耦合發動機和負載，顯著提高系統的強度和穩定性。</ResearchDriveActuator.ResearchDesc>
+  <!-- EN: You can now produce Drive Actuators at the Rimatomics machining table, to install them into a turret based energy weapon, select the weapon and designate the Drive Actuator for installation -->
   <ResearchDriveActuator.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作促動器，並將其安裝到「邊緣核能」系列能量武器中，選擇能量武器並指定安裝促動器。</ResearchDriveActuator.ResearchDescDisc>
+  <!-- EN: Drive Actuator -->
+  <ResearchDriveActuator.ResearchLabel>促動器</ResearchDriveActuator.ResearchLabel>
+  <!-- EN: Turret speed 200% -->
   <ResearchDriveActuator.stats.0>開火速度 200%</ResearchDriveActuator.stats.0>
-
-  <!--ResearchRailgun_TargetingChip-->
-
-  <ResearchRailgun_TargetingChip.ResearchLabel>定向芯片</ResearchRailgun_TargetingChip.ResearchLabel>
-  <ResearchRailgun_TargetingChip.ProjTypeLabel>升級組件</ResearchRailgun_TargetingChip.ProjTypeLabel>
-  <ResearchRailgun_TargetingChip.ResearchDesc>定向芯片能夠提高磁軌炮的射程和的精度。</ResearchRailgun_TargetingChip.ResearchDesc>
-  <ResearchRailgun_TargetingChip.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作定向芯片，並將其安裝到磁軌炮中，選擇磁軌炮並指定安裝定向芯片。</ResearchRailgun_TargetingChip.ResearchDescDisc>
-  <ResearchRailgun_TargetingChip.stats.0>彈道偏移 -50%</ResearchRailgun_TargetingChip.stats.0>
-  <ResearchRailgun_TargetingChip.stats.1>火力覆蓋 +10 地圖格</ResearchRailgun_TargetingChip.stats.1>
-
-  <!--ResearchObelisk_LenseModule-->
-
-  <ResearchObelisk_LenseModule.ResearchLabel>稜鏡模塊</ResearchObelisk_LenseModule.ResearchLabel>
-  <ResearchObelisk_LenseModule.ProjTypeLabel>升級組件</ResearchObelisk_LenseModule.ProjTypeLabel>
-  <ResearchObelisk_LenseModule.ResearchDesc>稜鏡模塊能夠提高光明石碑聚焦和校準能力，並提高其射程。</ResearchObelisk_LenseModule.ResearchDesc>
-  <ResearchObelisk_LenseModule.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作稜鏡模塊，並將其安裝到光明石碑中，選擇光明石碑並指定安裝稜鏡模塊。</ResearchObelisk_LenseModule.ResearchDescDisc>
-  <ResearchObelisk_LenseModule.stats.0>最大射程 +10</ResearchObelisk_LenseModule.stats.0>
-  <ResearchObelisk_LenseModule.stats.1>最小射程 +10</ResearchObelisk_LenseModule.stats.1>
-
-  <!--ResearchObelisk_BeamSplitter-->
-
-  <ResearchObelisk_BeamSplitter.ResearchLabel>電子束分裂器</ResearchObelisk_BeamSplitter.ResearchLabel>
+  
+  <!-- EN: Upgrade -->
+  <ResearchERS.ProjTypeLabel>升級組件</ResearchERS.ProjTypeLabel>
+  <!-- EN: The Energy Recovery System (ERS) uses a combination of energy recovery techniques to harvest waste kinetic and heat energy and return it to PPC's after a weapon has been fired. -->
+  <ResearchERS.ResearchDesc>能量回收系統能夠收集能量武器開火過程中浪費的動能和熱能，並在武器開火後將回收的能量輸送給脈衝電池儲存起來。</ResearchERS.ResearchDesc>
+  <!-- EN: You can now produce ERS modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon select the weapon and toggle the ERS button on -->
+  <ResearchERS.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作能量回收系統，並將其安裝到「邊緣核能」系列能量武器中，選擇能量武器並指定安裝能量回收系統。</ResearchERS.ResearchDescDisc>
+  <!-- EN: ERS -->
+  <ResearchERS.ResearchLabel>能量回收系統</ResearchERS.ResearchLabel>
+  <!-- EN: Pulse Size -15% -->
+  <ResearchERS.stats.0>能量消耗 -15%</ResearchERS.stats.0>
+  
+  <!-- EN: Upgrade -->
+  <ResearchGuidenceSystem.ProjTypeLabel>升級組件</ResearchGuidenceSystem.ProjTypeLabel>
+  <!-- EN: Increase the range and reliability of strategic missiles, Test the system by test launching missiles on any target to gather data for analysis. -->
+  <ResearchGuidenceSystem.ResearchDesc>顯著提高洲際彈道導彈的範圍和精度。</ResearchGuidenceSystem.ResearchDesc>
+  <!-- EN: The Guidance system upgrades are now complete, all strategic missiless are now automatically equipped with these upgrades and the maximum range is unlimited. -->
+  <ResearchGuidenceSystem.ResearchDescDisc>全球定位系統現已研究完成，所有武器現在都將自動升級這些配置，射程已覆蓋全球。</ResearchGuidenceSystem.ResearchDescDisc>
+  <!-- EN: Guidance System -->
+  <ResearchGuidenceSystem.ResearchLabel>全球定位系統</ResearchGuidenceSystem.ResearchLabel>
+  
+  <!-- EN: Upgrade -->
+  <ResearchMEPS.ProjTypeLabel>升級組件</ResearchMEPS.ProjTypeLabel>
+  <!-- EN: The Modular Electric Power System (MEPS) is an ultra-capacitor that can interface with the power delivery system of any Rimatomics energy weapon to boost its maximum power, the extra power may be handled differently by each energy weapon -->
+  <ResearchMEPS.ResearchDesc>模塊化電力系統是一種超級電容器，可以與任何「邊緣核能」系列能量武器的供電系統相連接，以提升其最大功率，每種能量武器的提升效果不同。</ResearchMEPS.ResearchDesc>
+  <!-- EN: You can now produce MEPS modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon select the weapon and toggle the MEPS button on\n\nThe MEPS must be manually installed in each new building -->
+  <ResearchMEPS.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作模塊化電力系統，並將其安裝到「邊緣核能」系列能量武器中，選擇能量武器並指定安裝模塊化電力系統。</ResearchMEPS.ResearchDescDisc>
+  <!-- EN: MEPS -->
+  <ResearchMEPS.ResearchLabel>模塊化電力系統</ResearchMEPS.ResearchLabel>
+  
+  <!-- EN: Upgrade -->
   <ResearchObelisk_BeamSplitter.ProjTypeLabel>升級組件</ResearchObelisk_BeamSplitter.ProjTypeLabel>
+  <!-- EN: The Obelisks laser can be split using a beam splitter, the secondary beam is tuned to a particular wavelength and polarization state which disables personal shields, the primary beam is delayed by a fraction of a second and then delivered with full power to the target -->
   <ResearchObelisk_BeamSplitter.ResearchDesc>光明石碑可以使用電子束分裂器對激光進行分光處理，次級光束被調諧到特定的波長和極化狀態，用於擊破護盾，主光束延遲一秒到達，攻擊已無護盾保護的目標。</ResearchObelisk_BeamSplitter.ResearchDesc>
+  <!-- EN: You can now produce Beam splitters's at the Rimatomics machining table, to install them into an Obelisk, select the Obelisk and designate the Beam splitter for installation -->
   <ResearchObelisk_BeamSplitter.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作電子束分裂器，並將其安裝到光明石碑中，選擇光明石碑並指定安裝電子束分裂器。</ResearchObelisk_BeamSplitter.ResearchDescDisc>
+  <!-- EN: Obelisk Beam Splitter -->
+  <ResearchObelisk_BeamSplitter.ResearchLabel>電子束分裂器</ResearchObelisk_BeamSplitter.ResearchLabel>
+  <!-- EN: Breaks shields and spreads the damage -->
   <ResearchObelisk_BeamSplitter.stats.0>破壞護盾並造成傷害</ResearchObelisk_BeamSplitter.stats.0>
-
+  
+  <!-- EN: Upgrade -->
+  <ResearchObelisk_LenseModule.ProjTypeLabel>升級組件</ResearchObelisk_LenseModule.ProjTypeLabel>
+  <!-- EN: The effective range of the Obelisk can be increased by improving the focusing and collimating of the main beam -->
+  <ResearchObelisk_LenseModule.ResearchDesc>稜鏡模塊能夠提高光明石碑聚焦和校準能力，並提高其射程。</ResearchObelisk_LenseModule.ResearchDesc>
+  <!-- EN: You can now produce Lens Module's at the Rimatomics machining table, to install them into an Obelisk, select the Obelisk and designate the Lens Module for installation -->
+  <ResearchObelisk_LenseModule.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作稜鏡模塊，並將其安裝到光明石碑中，選擇光明石碑並指定安裝稜鏡模塊。</ResearchObelisk_LenseModule.ResearchDescDisc>
+  <!-- EN: Obelisk Lens Module -->
+  <ResearchObelisk_LenseModule.ResearchLabel>稜鏡模塊</ResearchObelisk_LenseModule.ResearchLabel>
+  <!-- EN: Range +10 -->
+  <ResearchObelisk_LenseModule.stats.0>最大射程 +10</ResearchObelisk_LenseModule.stats.0>
+  <!-- EN: Min Range +10 -->
+  <ResearchObelisk_LenseModule.stats.1>最小射程 +10</ResearchObelisk_LenseModule.stats.1>
+  
+  <!-- EN: Upgrade -->
+  <ResearchRailgun_TargetingChip.ProjTypeLabel>升級組件</ResearchRailgun_TargetingChip.ProjTypeLabel>
+  <!-- EN: Increase the range and accuracy of the Railgun, Test the system on any targets to gather data for analysis. -->
+  <ResearchRailgun_TargetingChip.ResearchDesc>定向芯片能夠提高磁軌炮的射程和的精度。</ResearchRailgun_TargetingChip.ResearchDesc>
+  <!-- EN: You can now produce Targeting chips at the Rimatomics machining table, to install them into a Railgun, select a Railgun and designate the Targeting chip for installation -->
+  <ResearchRailgun_TargetingChip.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作定向芯片，並將其安裝到磁軌炮中，選擇磁軌炮並指定安裝定向芯片。</ResearchRailgun_TargetingChip.ResearchDescDisc>
+  <!-- EN: Targeting Chip -->
+  <ResearchRailgun_TargetingChip.ResearchLabel>定向芯片</ResearchRailgun_TargetingChip.ResearchLabel>
+  <!-- EN: Fire Mission Spread -50% -->
+  <ResearchRailgun_TargetingChip.stats.0>彈道偏移 -50%</ResearchRailgun_TargetingChip.stats.0>
+  <!-- EN: Range +10 Tiles -->
+  <ResearchRailgun_TargetingChip.stats.1>火力覆蓋 +10 地圖格</ResearchRailgun_TargetingChip.stats.1>
+  
+  <!-- EN: Upgrade -->
+  <ResearchSCAD.ProjTypeLabel>升級組件</ResearchSCAD.ProjTypeLabel>
+  <!-- EN: The SuperCapacitor Arc Defense system (SCAD) is an additional armour layer which is applied to Rimatomics energy weapons, Comprised of structural composite supercapacitors, the armour protects the weapon by charging with the plating and then releasing an electromagnetic arc discharge which deflects or vaporises incoming projectiles, reducing total damage received by up to 90%. The SCAD is a consumable system with limited uses and will need replacing. -->
+  <ResearchSCAD.ResearchDesc>電磁防護系統是一整套附加的護盾層，通過磁場引導高能電子以電弧的形式釋放，在周圍形成一道電磁防護層，以阻擋甚至蒸發進入防護層的槍彈，能夠吸收高達90%的傷害。</ResearchSCAD.ResearchDesc>
+  <!-- EN: You can now produce SCAD modules at the Rimatomics machining table, to install them into a Rimatomics energy weapon select the weapon and toggle the SCAD button\n\nThe SCAD must be manually installed in each new building -->
+  <ResearchSCAD.ResearchDescDisc>您現在可以在「邊緣核能」加工台製作電磁防護系統，並將其安裝到「邊緣核能」系列能量武器中，選擇能量武器並指定安裝電磁防護系統。</ResearchSCAD.ResearchDescDisc>
+  <!-- EN: SCAD -->
+  <ResearchSCAD.ResearchLabel>電磁防護系統</ResearchSCAD.ResearchLabel>
+  <!-- EN: Adds shielding -->
+  <ResearchSCAD.stats.0>增加護盾</ResearchSCAD.stats.0>
+  
 </LanguageData>

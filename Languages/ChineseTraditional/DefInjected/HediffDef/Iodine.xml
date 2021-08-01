@@ -1,7 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: Potassium iodide -->
   <PotassiumIodide.label>碘化鉀</PotassiumIodide.label>
-
-
+  <!-- EN: Tablets of potassium iodide are supplied for emergency purposes related to blockade of radioiodine uptake. -->
+  <PotassiumIodide.description>碘化鉀片用於預防並減少核輻射的傷害。</PotassiumIodide.description>
+  
 </LanguageData>

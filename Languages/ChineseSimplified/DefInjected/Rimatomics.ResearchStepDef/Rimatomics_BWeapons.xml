@@ -1,106 +1,169 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <EnergyWeapons1.label>能量武器原理</EnergyWeapons1.label>
-  <EnergyWeapons1.description>由高智识的殖民者研究「边缘核能」系列的能量武器的原理，为进一步研究能量武器的制造做铺垫。</EnergyWeapons1.description>
-
-  <ConstructWeaponBenchStep.label>构建能量武器实验台</ConstructWeaponBenchStep.label>
-  <ConstructWeaponBenchStep.description>建造能量武器实验台，实验台配备专门的设备，用于原型设计和测试各种能量武器，这是大多数能量武器研究和测试所必需的设施。建议将研究用反应堆建在安全、防火的场所，以便研究者进行试验。</ConstructWeaponBenchStep.description>
-
-  <EnergyWeapExperiments.label>能量武器试验</EnergyWeapExperiments.label>
-  <EnergyWeapExperiments.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</EnergyWeapExperiments.description>
-
-  <EnergyWeapons5.label>构建能量武器控制台</EnergyWeapons5.label>
-  <EnergyWeapons5.description>建造能量武器控制台，用于探测目标和操控能量武器的智能计算机，它通过电网连接「边缘核能」系列能量武器，能量武器控制台使用警戒雷达检测敌对目标，主显示器具有对实时地面和空中目标的跟踪功能，脉冲电池容量计显示电网上存储的脉冲电池总能量。某些武器需要控制台有人操控。</EnergyWeapons5.description>
-
-  <EnergyWeapons6.label>构建警戒雷达</EnergyWeapons6.label>
-  <EnergyWeapons6.description>建造警戒雷达，警戒雷达采用了一系列先进技术来追踪地面和空中目标，可与「边缘核能」武器系统配合追踪包括动物、机器人、炮弹和导弹等在内的目标。信息将被传送到能量武器控制台。</EnergyWeapons6.description>
-
-  <EnergyWeapons7.label>构建脉冲电池</EnergyWeapons7.label>
-  <EnergyWeapons7.description>构建脉冲电力集装并将其与能量武器控制台连接到同一个电力网络，对脉冲电池进行充电并使用能量武器控制台来测试所有系统是否正常工作。这些超级电池比标准电池效率高得多，旨在应对「边缘核能」系列能量武器所需的高强度电能消耗。脉冲电池安装在防水容器中，并且像标准电池一样利用电网多余的电量进行充电，建议将其与标准电池隔离以提高效率，如果电网出现短路，脉冲电池为了安全起见将快速耗尽其所储存的电能。</EnergyWeapons7.description>
-
-  <!--ADS-->
-
+  
+  <!-- EN: Research the ADS -->
   <ADS1.label>主动驱敌系统原理</ADS1.label>
+  <!-- EN: A skilled researcher needs to study the designs and learn how the ADS works before we can build our own -->
   <ADS1.description>由高智识的殖民者研究主动驱敌系统原理，设计主动驱敌系统组件的制作方案。</ADS1.description>
-
+  
+  <!-- EN: Experiment with energy weapons -->
   <ADS2.label>能量武器试验</ADS2.label>
+  <!-- EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous -->
   <ADS2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</ADS2.description>
-
+  
+  <!-- EN: Construct a prototype ADS -->
   <ADS4.label>构建主动驱敌系统原型</ADS4.label>
+  <!-- EN: Construct a prototype version of the ADS. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing -->
   <ADS4.description>建造主动驱敌系统原型机，需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</ADS4.description>
-
+  
+  <!-- EN: Gather weapons data -->
   <ADS5.label>收集武器数据</ADS5.label>
+  <!-- EN: Test fire the ADS on any living targets to gather weapons data -->
   <ADS5.description>使用主动驱敌系统对任何活动目标开火以收集武器数据并测试性能。</ADS5.description>
-
-  <!--Tesla Coil-->
-
+  
+  <!-- EN: Construct a Weapons Research Bench -->
+  <ConstructWeaponBenchStep.label>构建能量武器实验台</ConstructWeaponBenchStep.label>
+  <!-- EN: Construct a Weapons Research Bench, equipped with specialized equipment for prototyping and testing a wide range of energy weapons, it is a required facility for most energy weapons research and testing, colonists will need access to the bench for experimentation, it is advised to build it in a secure fireproof lab. -->
+  <ConstructWeaponBenchStep.description>建造能量武器实验台，实验台配备专门的设备，用于原型设计和测试各种能量武器，这是大多数能量武器研究和测试所必需的设施。建议将研究用反应堆建在安全、防火的场所，以便研究者进行试验。</ConstructWeaponBenchStep.description>
+  
+  <!-- EN: Research energy weapons -->
+  <EnergyShields1.label>能量武器原理</EnergyShields1.label>
+  <!-- EN: A skilled researcher needs to study how Rimatomics energy shields work -->
+  <EnergyShields1.description>由高智识的殖民者研究「边缘核能」系列的能量护盾的原理，为进一步研究能量护盾的制造做铺垫。</EnergyShields1.description>
+  
+  <!-- EN: Experiment with energy weapons -->
+  <EnergyShields2.label>能量武器试验</EnergyShields2.label>
+  <!-- EN: Researchers must perform practical experiments using the weapons research bench, Rimatomics energy shields are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous -->
+  <EnergyShields2.description>研究者利用能量武器实验台进行能量武器实测，以便掌握其原理和设计思路，为之后的研究打下基础。能量护盾的研发不是一蹴而就，而是循序渐进的。\n实验过程可能存在危险因素</EnergyShields2.description>
+  
+  <!-- EN: Experiment with energy weapons -->
+  <EnergyWeapExperiments.label>能量武器试验</EnergyWeapExperiments.label>
+  <!-- EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous -->
+  <EnergyWeapExperiments.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。\n实验过程可能存在危险因素</EnergyWeapExperiments.description>
+  
+  <!-- EN: Research energy weapons -->
+  <EnergyWeapons1.label>能量武器原理</EnergyWeapons1.label>
+  <!-- EN: A skilled researcher needs to study how Rimatomics energy weapons work -->
+  <EnergyWeapons1.description>由高智识的殖民者研究「边缘核能」系列的能量武器的原理，为进一步研究能量武器的制造做铺垫。</EnergyWeapons1.description>
+  
+  <!-- EN: Construct a Semi Automated Command Station (SACS) -->
+  <EnergyWeapons5.label>构建能量武器控制台</EnergyWeapons5.label>
+  <!-- EN: Construct a SACS, this console is a target acquisition computer required by all energy weapons, it networks to all Rimatomics energy weapons that share the same power net, then it assigns targets using the onboard sensors of the weapons combined with the Target Acquisition System (TACS).\n\nThe main display features a real time ground target and aerial projectile tracker, and a gauge displays the total stored PPC energy on the net.\nSome weapons require the console to be manned to function, this will be displayed in the inspect tab for the weapon -->
+  <EnergyWeapons5.description>建造能量武器控制台，用于探测目标和操控能量武器的智能计算机，它通过电网连接「边缘核能」系列能量武器，能量武器控制台使用警戒雷达检测敌对目标，主显示器具有对实时地面和空中目标的跟踪功能，脉冲电池容量计显示电网上存储的脉冲电池总能量。某些武器需要控制台有人操控。</EnergyWeapons5.description>
+  
+  <!-- EN: Construct a Target Acquisition and Communications System (TACS) -->
+  <EnergyWeapons6.label>构建警戒雷达</EnergyWeapons6.label>
+  <!-- EN: Construct a TACS. The system uses a combination of technologies to track land and air based targets, this includes living or robotic targets, projectiles such as mortar shells or railgun sabot rounds, and long range tracking of ballistic missiles. The information is routed to a SACS console where targets are selected and tracking information can be displayed -->
+  <EnergyWeapons6.description>建造警戒雷达，警戒雷达采用了一系列先进技术来追踪地面和空中目标，可与「边缘核能」武器系统配合追踪包括动物、机器人、炮弹和导弹等在内的目标。信息将被传送到能量武器控制台。</EnergyWeapons6.description>
+  
+  <!-- EN: Construct a Pulsed Power Container (PPC) -->
+  <EnergyWeapons7.label>构建脉冲电池</EnergyWeapons7.label>
+  <!-- EN: Construct a Pulsed Power Container (PPC) and connect it to the same power net as the SACS.\n\nThese ultra-capacitors are much more efficient than standard batteries and are designed to provide the large jolts of power required by Rimatomics energy weapons. They are housed in a waterproof container and charged with excess power like a standard battery. We recommend using transformers to create isolated powernets for your PPC's and weapon arrays -->
+  <EnergyWeapons7.description>构建脉冲电力集装并将其与能量武器控制台连接到同一个电力网络，对脉冲电池进行充电并使用能量武器控制台来测试所有系统是否正常工作。这些超级电池比标准电池效率高得多，旨在应对「边缘核能」系列能量武器所需的高强度电能消耗。脉冲电池安装在防水容器中，并且像标准电池一样利用电网多余的电量进行充电，建议将其与标准电池隔离以提高效率，如果电网出现短路，脉冲电池为了安全起见将快速耗尽其所储存的电能。</EnergyWeapons7.description>
+  
+  <!-- EN: Research the HEL -->
+  <HEL1.label>激光点防御原理</HEL1.label>
+  <!-- EN: A skilled researcher needs to study the designs and learn how the HEL works before we can build our own -->
+  <HEL1.description>由高智识的殖民者研究激光点防御原理，设计激光点防御的制作方案。</HEL1.description>
+  
+  <!-- EN: Experiment with energy weapons -->
+  <HEL2.label>能量武器试验</HEL2.label>
+  <!-- EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous -->
+  <HEL2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</HEL2.description>
+  
+  <!-- EN: Construct a prototype HEL -->
+  <HEL4.label>构建激光点防御原型</HEL4.label>
+  <!-- EN: Construct a prototype version of the HEL. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing -->
+  <HEL4.description>建造激光点防御原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</HEL4.description>
+  
+  <!-- EN: Gather weapons data -->
+  <HEL5.label>收集武器数据</HEL5.label>
+  <!-- EN: Test fire the HEL on artillary targets to gather weapons data, you can use the weapons console to change its target aquisition to include friendly shells -->
+  <HEL5.description>使用激光点防御尝试击落炮弹以收集武器数据，你可以使用能武器控制台改变其攻击目标以拦截友方的炮弹。</HEL5.description>
+  
+  <!-- EN: Research the Marauder -->
+  <Marauder1.label>“掠夺者”磁轨炮原理</Marauder1.label>
+  <!-- EN: A skilled researcher needs to study the designs and learn how the Marauder works before we can build our own -->
+  <Marauder1.description>由高智识的殖民者研究磁轨炮原理，设计磁轨炮的制作方案。</Marauder1.description>
+  
+  <!-- EN: Experiment with energy weapons -->
+  <Marauder2.label>能量武器试验</Marauder2.label>
+  <!-- EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous -->
+  <Marauder2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</Marauder2.description>
+  
+  <!-- EN: Construct a prototype Marauder -->
+  <Marauder4.label>构建“掠夺者”磁轨炮原型</Marauder4.label>
+  <!-- EN: Construct a prototype version of the Marauder. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing -->
+  <Marauder4.description>建造“掠夺者”磁轨炮原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵、脉冲电池供能和警戒雷达定位。\n\n!!!警告!!! 原型机有很高的故障概率！</Marauder4.description>
+  
+  <!-- EN: Gather weapons data -->
+  <Marauder5.label>收集武器数据</Marauder5.label>
+  <!-- EN: Test fire the Marauder to gather weapons data. -->
+  <Marauder5.description>使用“掠夺者”磁轨炮对任何目标开火以收集武器数据并测试性能。</Marauder5.description>
+  
+  <!-- EN: Research the Obelisk -->
+  <Obelisk1.label>光明石碑原理</Obelisk1.label>
+  <!-- EN: A skilled researcher needs to study the designs and learn how the Obelisk works before we can build our own -->
+  <Obelisk1.description>由高智识的殖民者研究光明石碑原理，设计光明石碑的制作方案。</Obelisk1.description>
+  
+  <!-- EN: Experiment with energy weapons -->
+  <Obelisk2.label>能量武器试验</Obelisk2.label>
+  <!-- EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous -->
+  <Obelisk2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</Obelisk2.description>
+  
+  <!-- EN: Construct an Obelisk -->
+  <Obelisk4.label>构建光明石碑原型</Obelisk4.label>
+  <!-- EN: Construct a prototype version of the Obelisk, Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing -->
+  <Obelisk4.description>建造光明石碑原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</Obelisk4.description>
+  
+  <!-- EN: Gather weapons data -->
+  <Obelisk5.label>收集武器数据</Obelisk5.label>
+  <!-- EN: Test fire the Obelisk on any targets to collect data -->
+  <Obelisk5.description>使用光明石碑对任何活动目标开火以收集武器数据并测试性能。</Obelisk5.description>
+  
+  <!-- EN: Research the Punisher -->
+  <Railgun1.label>“惩戒者”磁轨炮原理</Railgun1.label>
+  <!-- EN: A skilled researcher needs to study the designs and learn how the Punisher works before we can build our own -->
+  <Railgun1.description>由高智识的殖民者研究磁轨炮原理，设计磁轨炮的制作方案。</Railgun1.description>
+  
+  <!-- EN: Experiment with energy weapons -->
+  <Railgun2.label>能量武器试验</Railgun2.label>
+  <!-- EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous -->
+  <Railgun2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</Railgun2.description>
+  
+  <!-- EN: Construct a prototype Punisher -->
+  <Railgun4.label>构建“惩戒者”磁轨炮原型</Railgun4.label>
+  <!-- EN: Construct a prototype version of the Punisher. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing -->
+  <Railgun4.description>建造“惩戒者”磁轨炮原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵、脉冲电池供能和警戒雷达定位。\n\n!!!警告!!! 原型机有很高的故障概率！</Railgun4.description>
+  
+  <!-- EN: Gather weapons data -->
+  <Railgun5.label>收集武器数据</Railgun5.label>
+  <!-- EN: Test fire the Punisher on any targets to gather weapons data. You can craft Sabot rounds at a Rimatomics machining table -->
+  <Railgun5.description>使用“惩戒者”磁轨炮对任何目标开火以收集武器数据并测试性能。</Railgun5.description>
+  
+  <!-- EN: Gather weapons data -->
+  <Railgun6.label>收集武器数据</Railgun6.label>
+  <!-- EN: Test the fire mission functionality of the Punisher. You must send scouts to another map, then select the prototype Punisher and click Fire Mission -->
+  <Railgun6.description>测试“惩戒者”磁轨炮开火指令。你必须排除侦察者到另一地图，然后使用“惩戒者”磁轨炮的开火指令。</Railgun6.description>
+  
+  <!-- EN: Research tesla coils -->
   <TeslaCoil1.label>磁暴线圈原理</TeslaCoil1.label>
+  <!-- EN: A skilled researcher needs to study the designs and learn how the tesla coil works before we can build our own -->
   <TeslaCoil1.description>由高智识的殖民者研究磁暴线圈原理，设计磁暴线圈组件的制作方案。</TeslaCoil1.description>
-
+  
+  <!-- EN: Experiment with energy weapons -->
   <TeslaCoil2.label>能量武器试验</TeslaCoil2.label>
+  <!-- EN: Researchers must perform experiments using the new weapons research bench and lay the foundations for future projects, Rimatomics energy weapons are not plug and play and the technology must be tested and understood.\nExperimentation steps can be dangerous -->
   <TeslaCoil2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</TeslaCoil2.description>
-
+  
+  <!-- EN: Construct a prototype Tesla Coil -->
   <TeslaCoil4.label>构建磁暴线圈原型</TeslaCoil4.label>
+  <!-- EN: Construct a prototype version of the Tesla Coil. Prototype weapons have a high chance of failure! Recommend using isolated power nets and keeping safe distance with adequate fireproofing -->
   <TeslaCoil4.description>建造磁暴线圈原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</TeslaCoil4.description>
-
+  
+  <!-- EN: Gather weapons data -->
   <TeslaCoil5.label>收集武器数据</TeslaCoil5.label>
+  <!-- EN: Test fire the Tesla coil on any targets to gather weapons data -->
   <TeslaCoil5.description>使用磁暴线圈对任何活动目标开火以收集武器数据并测试性能。</TeslaCoil5.description>
   
-    <!--HEL-->
-
-  <HEL1.label>激光点防御原理</HEL1.label>
-  <HEL1.description>由高智识的殖民者研究激光点防御原理，设计激光点防御的制作方案。</HEL1.description>
-
-  <HEL2.label>能量武器试验</HEL2.label>
-  <HEL2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</HEL2.description>
-
-  <HEL4.label>构建激光点防御原型</HEL4.label>
-  <HEL4.description>建造激光点防御原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</HEL4.description>
-
-  <HEL5.label>收集武器数据</HEL5.label>
-  <HEL5.description>使用激光点防御尝试击落炮弹以收集武器数据，你可以使用能武器控制台改变其攻击目标以拦截友方的炮弹。</HEL5.description>
-
-  <!--Railgun-->
-
-  <Railgun1.label>“惩戒者”磁轨炮原理</Railgun1.label>
-  <Railgun1.description>由高智识的殖民者研究磁轨炮原理，设计磁轨炮的制作方案。</Railgun1.description>
-
-  <Railgun2.label>能量武器试验</Railgun2.label>
-  <Railgun2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</Railgun2.description>
-
-  <Railgun4.label>构建“惩戒者”磁轨炮原型</Railgun4.label>
-  <Railgun4.description>建造“惩戒者”磁轨炮原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵、脉冲电池供能和警戒雷达定位。\n\n!!!警告!!! 原型机有很高的故障概率！</Railgun4.description>
-
-  <Railgun5.label>收集武器数据</Railgun5.label>
-  <Railgun5.description>使用“惩戒者”磁轨炮对任何目标开火以收集武器数据并测试性能。</Railgun5.description>
-
-  <!--Obelisk-->
-
-  <Obelisk1.label>光明石碑原理</Obelisk1.label>
-  <Obelisk1.description>由高智识的殖民者研究光明石碑原理，设计光明石碑的制作方案。</Obelisk1.description>
-
-  <Obelisk2.label>能量武器试验</Obelisk2.label>
-  <Obelisk2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</Obelisk2.description>
-
-  <Obelisk4.label>构建光明石碑原型</Obelisk4.label>
-  <Obelisk4.description>建造光明石碑原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵和脉冲电池供能。\n\n!!!警告!!! 原型机有很高的故障概率！</Obelisk4.description>
-
-  <Obelisk5.label>收集武器数据</Obelisk5.label>
-  <Obelisk5.description>使用光明石碑对任何活动目标开火以收集武器数据并测试性能。</Obelisk5.description>
-
-  <!--Marauder-->
-
-  <Marauder1.label>“掠夺者”磁轨炮原理</Marauder1.label>
-  <Marauder1.description>由高智识的殖民者研究磁轨炮原理，设计磁轨炮的制作方案。</Marauder1.description>
-
-  <Marauder2.label>能量武器试验</Marauder2.label>
-  <Marauder2.description>研究者利用能量武器实验台进行能量武器试验，以便掌握其原理和设计思路，为之后的研究打下基础。能量武器的研发不是一蹴而就，而是循序渐进的。</Marauder2.description>
-
-  <Marauder4.label>构建“掠夺者”磁轨炮原型</Marauder4.label>
-  <Marauder4.description>建造“掠夺者”磁轨炮原型机，该原型机具有非常有限的射程和较高的能源消耗。需要能量武器控制台操纵、脉冲电池供能和警戒雷达定位。\n\n!!!警告!!! 原型机有很高的故障概率！</Marauder4.description>
-
-  <Marauder5.label>收集武器数据</Marauder5.label>
-  <Marauder5.description>使用“掠夺者”磁轨炮对任何目标开火以收集武器数据并测试性能。</Marauder5.description>
-
 </LanguageData>
