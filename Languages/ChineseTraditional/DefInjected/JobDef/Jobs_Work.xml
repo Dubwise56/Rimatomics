@@ -1,18 +1,40 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <RimatomicsResearch.reportString>正在TargetA進行研究。</RimatomicsResearch.reportString>
-  <SuperviseConstruction.reportString>正在建造TargetA。</SuperviseConstruction.reportString>
-  <SuperviseResearch.reportString>正在TargetA進行研究。</SuperviseResearch.reportString>
-  <UpgradeBuilding.reportString>正在升級TargetA。</UpgradeBuilding.reportString>
+  
+  <!-- EN: Fleeing TargetA. -->
   <FleeADS.reportString>正在逃離TargetA。</FleeADS.reportString>
-  <LoadRailgunMagazine.reportString>正在裝填磁軌炮。</LoadRailgunMagazine.reportString>
-  <LoadSilo.reportString>正在裝填導彈發射井。</LoadSilo.reportString>
-  <UseReactorConsole.reportString>正在操作反應堆控制台。</UseReactorConsole.reportString>
+  
+  <!-- EN: Hauling TargetB to TargetA. -->
   <HaulModuletoCore.reportString>正在將TargetB運送至TargetA。</HaulModuletoCore.reportString>
-  <RemoveFuelModule.reportString>正在從TargetA中移除燃料棒。</RemoveFuelModule.reportString>
+  
+  <!-- EN: Loading railgun magazine. -->
+  <LoadRailgunMagazine.reportString>正在裝填磁軌炮。</LoadRailgunMagazine.reportString>
+  
+  <!-- EN: Loading Silo. -->
+  <LoadSilo.reportString>正在裝填導彈發射井。</LoadSilo.reportString>
+  
+  <!-- EN: hauling TargetB to TargetA. -->
   <LoadSpentFuel.reportString>正在將TargetB運送至TargetA。</LoadSpentFuel.reportString>
+  
+  <!-- EN: removing fuel rods from TargetA. -->
+  <RemoveFuelModule.reportString>正在從TargetA中移除燃料棒。</RemoveFuelModule.reportString>
+  
+  <!-- EN: Researching at TargetA. -->
+  <RimatomicsResearch.reportString>正在TargetA進行研究。</RimatomicsResearch.reportString>
+  
+  <!-- EN: Constructing TargetA. -->
+  <SuperviseConstruction.reportString>正在建造TargetA。</SuperviseConstruction.reportString>
+  
+  <!-- EN: Researching at TargetA. -->
+  <SuperviseResearch.reportString>正在TargetA進行研究。</SuperviseResearch.reportString>
+  
+  <!-- EN: removing plutonium from TargetA. -->
   <UnloadPlutonium.reportString>正在從TargetA中移除鈽。</UnloadPlutonium.reportString>
-
-
+  
+  <!-- EN: Upgrading TargetA. -->
+  <UpgradeBuilding.reportString>正在升級TargetA。</UpgradeBuilding.reportString>
+  
+  <!-- EN: Using reactor console. -->
+  <UseReactorConsole.reportString>正在操作反應堆控制台。</UseReactorConsole.reportString>
+  
 </LanguageData>

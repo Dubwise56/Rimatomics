@@ -1,13 +1,25 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: nuclear -->
   <BuildingsNuclear.label>核設施</BuildingsNuclear.label>
-  <NuclearWaste.label>核廢料</NuclearWaste.label>
-  <NuclearFuel.label>核燃料</NuclearFuel.label>
-  <RimatomicsProduct.label>邊緣核能產品</RimatomicsProduct.label>
-  <SabotRounds.label>磁軌炮彈</SabotRounds.label>
+  
+  <!-- EN: hazmat -->
   <Hazmat.label>防輻射裝備</Hazmat.label>
+  
+  <!-- EN: mopp -->
   <Mopp.label>軍用防輻射裝備</Mopp.label>
-
-
+  
+  <!-- EN: nuclear fuel -->
+  <NuclearFuel.label>核燃料</NuclearFuel.label>
+  
+  <!-- EN: nuclear waste -->
+  <NuclearWaste.label>核廢料</NuclearWaste.label>
+  
+  <!-- EN: Rimatomics Product -->
+  <RimatomicsProduct.label>邊緣核能產品</RimatomicsProduct.label>
+  
+  <!-- EN: Sabot Rounds -->
+  <SabotRounds.label>磁軌炮彈</SabotRounds.label>
+  
 </LanguageData>

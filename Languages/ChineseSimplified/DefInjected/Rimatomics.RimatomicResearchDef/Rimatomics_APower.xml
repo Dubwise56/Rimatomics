@@ -1,60 +1,76 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!--Radiation detectors-->
-
-  <Geigercounter.ResearchLabel>便携式辐射探测器</Geigercounter.ResearchLabel>
-  <Geigercounter.ProjTypeLabel>被动</Geigercounter.ProjTypeLabel>
-  <Geigercounter.ResearchDesc>保护殖民者免于暴露在危险的辐射中是至关重要的，「边缘核能」提供可用于探测电离辐射的便携式设备，所有殖民者将配备辐射探测器，一旦探测到辐射将产生可听见的咔嗒声，辐射当量显示为文本。</Geigercounter.ResearchDesc>
-  <Geigercounter.ResearchDescDisc>所有殖民者现在都配备了辐射探测器，一旦探测到辐射将产生可听见的咔嗒声，辐射当量显示为文本，强度范围为0-5。</Geigercounter.ResearchDescDisc>
-
-  <!--Radiation suits-->
-
-  <RadSuits.ResearchLabel>防辐射服装</RadSuits.ResearchLabel>
-  <RadSuits.ProjTypeLabel>服装</RadSuits.ProjTypeLabel>
-  <RadSuits.ResearchDesc>通过辐射屏蔽衬里保护使用者免于暴露于核辐射，并且能够防止使用者直接接触或吸入辐射尘埃或气体。</RadSuits.ResearchDesc>
-  <RadSuits.ResearchDescDisc>你现在可以在裁缝台自己生产防辐射服装和军用防辐射服装。</RadSuits.ResearchDescDisc>
-
-  <!--Nuclear research-->
-
-  <NuclearResearch.ResearchLabel>研究用核反应堆</NuclearResearch.ResearchLabel>
-  <NuclearResearch.ProjTypeLabel>研究设施</NuclearResearch.ProjTypeLabel>
-  <NuclearResearch.ResearchDesc>在您的殖民者完全掌握核反应堆及其他基于核能的技术之前，他们必须先充分利用研究用核反应堆进行实验和观测以总结出可用于实际生产的核能技术。</NuclearResearch.ResearchDesc>
-  <NuclearResearch.ResearchDescDisc>现在可进行更深入的核能研究</NuclearResearch.ResearchDescDisc>
-
-  <!--Nuclear reactor-->
-
-  <NuclearReactor.ResearchLabel>核能</NuclearReactor.ResearchLabel>
-  <NuclearReactor.ProjTypeLabel>能源</NuclearReactor.ProjTypeLabel>
-  <NuclearReactor.ResearchDesc>「边缘核能」核电站被设计成一种可扩展的架构模式，能够在单个系统中运行多个反应堆、涡轮机和制冷设施，每个反应堆满载时的发电量超过200kW。 反应堆也可用于生产钚。</NuclearReactor.ResearchDesc>
-  <NuclearReactor.ResearchDescDisc>您的核电站不再受限于发电组件个数，可以通过添加更多的反应堆、涡轮机和制冷设施来扩展。可使用「边缘核能」研究台进行更深入的研究，以改进设计。</NuclearReactor.ResearchDescDisc>
-
-  <!--Fuel reprocessing-->
-
-  <Plutonium.ResearchLabel>核废料再加工</Plutonium.ResearchLabel>
-  <Plutonium.ProjTypeLabel>产业</Plutonium.ProjTypeLabel>
-  <Plutonium.ResearchDesc>核发电所产生的的核废料中所含的钚可以在加工提取后用于制作制作混合氧化物核燃料、放射性同位素发电机和核武器。提纯过程需要化合燃料，并产生贫铀和核废料。</Plutonium.ResearchDesc>
-  <Plutonium.ResearchDescDisc>你现在可以对反应堆产出的核废料进行再处理。\n\n核废料产出的数量基于反应堆的燃料转化率的实时数据，轻水反应堆最多为0.6，快中子增殖反应堆可达1.2，此数据可通过反应堆控制台查看。\n\n任何已部分或完全燃烧的燃料棒组件都可以装填进钚分离器中，装填过程将需要装备防辐射套件并在密闭的隔离室内进行。当钚被分离出后，可以将其取出并存放在安全的隔离容器中。</Plutonium.ResearchDescDisc>
-
-  <!--Advanced nuclear power-->
-
-  <AdvReactor.ResearchLabel>先进核能</AdvReactor.ResearchLabel>
+  
+  <!-- EN: Power -->
   <AdvReactor.ProjTypeLabel>能源</AdvReactor.ProjTypeLabel>
+  <!-- EN: Research breeder reactors that can generate more fissile material than they consume, and the Zeus turbine generator, which is capable of generating up to 1MW of power. -->
   <AdvReactor.ResearchDesc>先进的快中子增殖反应堆可以产生比其所消耗的核燃料更多的核废料，“宙斯”级涡轮机的输出功率可达1MW。</AdvReactor.ResearchDesc>
+  <!-- EN: You can build advanced reactors and the Zeus turbine. -->
   <AdvReactor.ResearchDescDisc>你现在可以建造先进的的快中子增殖反应堆和“宙斯”级涡轮机了。</AdvReactor.ResearchDescDisc>
-
-  <!--RTG-->
-
-  <RTG.ResearchLabel>放射性同位素发电机</RTG.ResearchLabel>
-  <RTG.ProjTypeLabel>能源</RTG.ProjTypeLabel>
-  <RTG.ResearchDesc>放射性同位素发电机是一种便携式发电机，其使用热电偶阵列将放射性同位素衰变所释放热能转化为电能。</RTG.ResearchDesc>
-  <RTG.ResearchDescDisc>放射性同位素发电机可以重新安装，最大输出功率为1000W。警告：如果放射性同位素发电机损坏，将会产生辐射泄漏！</RTG.ResearchDescDisc>
-
-  <!--ICBM-->
-
-  <ICBM.ResearchLabel>洲际弹道导弹</ICBM.ResearchLabel>
+  <!-- EN: Advanced Nuclear Power -->
+  <AdvReactor.ResearchLabel>先进核能</AdvReactor.ResearchLabel>
+  
+  <!-- EN: Passive Ability -->
+  <Geigercounter.ProjTypeLabel>被动</Geigercounter.ProjTypeLabel>
+  <!-- EN: It is important to protect colonists from exposure to dangerous levels of radiation. Rimatomics offers portable devices which can be used for detecting ionizing radiation. All colonists will be equipped with radiation detectors, so that ionizing events will produce audible clicks. The dose rate is displayed as text. -->
+  <Geigercounter.ResearchDesc>保护殖民者免于暴露在危险的辐射中是至关重要的，「边缘核能」提供可用于探测电离辐射的便携式设备，所有殖民者将配备辐射探测器，一旦探测到辐射将产生可听见的咔嗒声，辐射当量显示为文本。</Geigercounter.ResearchDesc>
+  <!-- EN: All colonists are now equipped with radiation detectors. Ionizing events will produce audible clicks, and the dose rate is displayed as text with a strength ranging from 0-5. -->
+  <Geigercounter.ResearchDescDisc>所有殖民者现在都配备了辐射探测器，一旦探测到辐射将产生可听见的咔嗒声，辐射当量显示为文本，强度范围为0-5。</Geigercounter.ResearchDescDisc>
+  <!-- EN: Portable radiation detectors -->
+  <Geigercounter.ResearchLabel>便携式辐射探测器</Geigercounter.ResearchLabel>
+  
+  <!-- EN: Super Weapon -->
   <ICBM.ProjTypeLabel>超级武器</ICBM.ProjTypeLabel>
+  <!-- EN: The RA-1776b Liberator is a self-contained, all-in-one strategic missile manufacturing and launching facility with a five missile magazine. Requires plutonium that has been reprocessed from spent nuclear fuel. -->
   <ICBM.ResearchDesc>RA-1776b“解放者”导弹发射井是一种全自动一体化的洲际弹道导弹制造和发射平台，具有容纳5枚导弹的能力。需要有人操作能量武器控制台时才能运行。需要从已部分或完全燃烧的燃料棒中提取钚。</ICBM.ResearchDesc>
+  <!-- EN: You may now stockpile nuclear arms. -->
   <ICBM.ResearchDescDisc>你现在可以制造核武器了。</ICBM.ResearchDescDisc>
-
+  <!-- EN: Liberator -->
+  <ICBM.ResearchLabel>洲际弹道导弹</ICBM.ResearchLabel>
+  
+  <!-- EN: Power -->
+  <NuclearReactor.ProjTypeLabel>能源</NuclearReactor.ProjTypeLabel>
+  <!-- EN: The Rimatomics nuclear power plant is a scalable design with the ability to run multiple reactors, turbine generators and cooling solutions in a single system. Each reactor is capable of producing more than 200kW of power when fully fueled. Reactors can also be used for plutonium production. -->
+  <NuclearReactor.ResearchDesc>「边缘核能」核电站被设计成一种可扩展的架构模式，能够在单个系统中运行多个反应堆、涡轮机和制冷设施，每个反应堆满载时的发电量超过200kW。 反应堆也可用于生产钚。</NuclearReactor.ResearchDesc>
+  <!-- EN: You are no longer limited to building one of each part of the reactor system. You can expand by adding more cores, turbines, and coolers, and perform research using the Rimatomics research bench to improve upon the design. -->
+  <NuclearReactor.ResearchDescDisc>您的核电站不再受限于发电组件个数，可以通过添加更多的反应堆、涡轮机和制冷设施来扩展。可使用「边缘核能」研究台进行更深入的研究，以改进设计。</NuclearReactor.ResearchDescDisc>
+  <!-- EN: Nuclear Power -->
+  <NuclearReactor.ResearchLabel>核能</NuclearReactor.ResearchLabel>
+  
+  <!-- EN: Research Facility -->
+  <NuclearResearch.ProjTypeLabel>研究设施</NuclearResearch.ProjTypeLabel>
+  <!-- EN: Before your colonists can build full-scale Rimatomics nuclear reactors or other nuclear-based technologies, they must first train and research these technologies using a research reactor. -->
+  <NuclearResearch.ResearchDesc>在您的殖民者完全掌握核反应堆及其他基于核能的技术之前，他们必须先充分利用研究用核反应堆进行实验和观测以总结出可用于实际生产的核能技术。</NuclearResearch.ResearchDesc>
+  <!-- EN: More advanced research is now available. -->
+  <NuclearResearch.ResearchDescDisc>现在可进行更深入的核能研究</NuclearResearch.ResearchDescDisc>
+  <!-- EN: Nuclear Research Reactor -->
+  <NuclearResearch.ResearchLabel>研究用核反应堆</NuclearResearch.ResearchLabel>
+  
+  <!-- EN: Production -->
+  <Plutonium.ProjTypeLabel>产业</Plutonium.ProjTypeLabel>
+  <!-- EN: Plutonium is produced within used nuclear fuel. Used fuel can be reprocessed to extract this plutonium to create MOX fuel, radioisotope thermoelectric generators, and nuclear weapons. The process requires chemfuel and produces drums of depleted uranium and nuclear waste. -->
+  <Plutonium.ResearchDesc>核发电所产生的的核废料中所含的钚可以在加工提取后用于制作制作混合氧化物核燃料、放射性同位素发电机和核武器。提纯过程需要化合燃料，并产生贫铀和核废料。</Plutonium.ResearchDesc>
+  <!-- EN: You can now reprocess spent nuclear fuel.\n\nThe amount of material that will result from reprocessing is based on the conversion ratio stat of the fuel, with a maximum of 0.6x using normal reactors, and 1.2x using upgraded breeder reactors. This stat can be viewed by rolling over fuel slots in the reactor console.\n\nThe process of loading used fuel into the processor will require protective radiation suits, and shielding from the rest of the colony. Plutonium is stored in a protective case which is safe to handle. -->
+  <Plutonium.ResearchDescDisc>你现在可以对反应堆产出的核废料进行再处理。\n\n核废料产出的数量基于反应堆的燃料转化率的实时数据，轻水反应堆最多为0.6，快中子增殖反应堆可达1.2，此数据可通过反应堆控制台查看。\n\n任何已部分或完全燃烧的燃料棒组件都可以装填进钚分离器中，装填过程将需要装备防辐射套件并在密闭的隔离室内进行。当钚被分离出后，可以将其取出并存放在安全的隔离容器中。</Plutonium.ResearchDescDisc>
+  <!-- EN: Fuel reprocessing -->
+  <Plutonium.ResearchLabel>核废料再加工</Plutonium.ResearchLabel>
+  
+  <!-- EN: Apparel -->
+  <RadSuits.ProjTypeLabel>服装</RadSuits.ProjTypeLabel>
+  <!-- EN: Protect your colonists from radiation with shielded clothing. More importantly, radiation suits prevent direct contact with or inhalation of radioactive particles or gas. -->
+  <RadSuits.ResearchDesc>通过辐射屏蔽衬里保护使用者免于暴露于核辐射，并且能够防止使用者直接接触或吸入辐射尘埃或气体。</RadSuits.ResearchDesc>
+  <!-- EN: You can now produce your own radiation suits and MOPP suits at a Rimatomics Machining Table. -->
+  <RadSuits.ResearchDescDisc>你现在可以在裁缝台自己生产防辐射服装和军用防辐射服装。</RadSuits.ResearchDescDisc>
+  <!-- EN: Radiation suits -->
+  <RadSuits.ResearchLabel>防辐射服装</RadSuits.ResearchLabel>
+  
+  <!-- EN: Power -->
+  <RTG.ProjTypeLabel>能源</RTG.ProjTypeLabel>
+  <!-- EN: A Radioisotope Thermoelectric Generator (RTG) is portable electrical generator that uses an array of thermocouples to convert the heat released by the decay of a suitable radioactive material into electricity by the Seebeck effect. This generator has no moving parts. -->
+  <RTG.ResearchDesc>放射性同位素发电机是一种便携式发电机，其使用热电偶阵列将放射性同位素衰变所释放热能转化为电能。</RTG.ResearchDesc>
+  <!-- EN: RTGs can be reinstalled after being built and provide 1200w of constant power. Warning: if an RTG is damaged it will leak radiation! -->
+  <RTG.ResearchDescDisc>放射性同位素发电机可以重新安装，最大输出功率为1000W。警告：如果放射性同位素发电机损坏，将会产生辐射泄漏！</RTG.ResearchDescDisc>
+  <!-- EN: RTG -->
+  <RTG.ResearchLabel>放射性同位素发电机</RTG.ResearchLabel>
+  
 </LanguageData>

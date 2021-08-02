@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Liberator -->
+  <MissileSilo.label>导弹发射井</MissileSilo.label>
+  <!-- EN: The RA-1776b Liberator is a self contained all-in-one strategic missile manufacturing and launching facility with a 5 missile magazine capacity. Requires a manned SACS to function. -->
+  <MissileSilo.description>RA-1776b“解放者”导弹发射井是一种全自动一体化的洲际弹道导弹制造和发射平台，具有容纳5枚导弹的能力。需要有人操作能量武器控制台时才能运行。</MissileSilo.description>
+  
+  <!-- EN: notReal -->
+  <notReal.label>不真实的</notReal.label>
+  
+</LanguageData>

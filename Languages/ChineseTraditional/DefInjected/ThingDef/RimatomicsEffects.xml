@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: Mote -->
+  <Mote_ArcFlash.label>塵埃</Mote_ArcFlash.label>
+  
+  <!-- EN: Mote -->
+  <Mote_Beam.label>塵埃</Mote_Beam.label>
+  
+  <!-- EN: Mote -->
+  <Mote_CoolingTowerSteamA.label>塵埃</Mote_CoolingTowerSteamA.label>
+  
+  <!-- EN: Mote -->
+  <Mote_CoolingTowerSteamB.label>塵埃</Mote_CoolingTowerSteamB.label>
+  
+  <!-- EN: Mote -->
+  <Mote_CoolingTowerSteamC.label>塵埃</Mote_CoolingTowerSteamC.label>
+  
+  <!-- EN: Mote -->
+  <Mote_FireGlowRocket.label>塵埃</Mote_FireGlowRocket.label>
+  
+  <!-- EN: Mote -->
+  <Mote_Gibb_A.label>塵埃</Mote_Gibb_A.label>
+  
+  <!-- EN: Mote -->
+  <Mote_Gibb_B.label>塵埃</Mote_Gibb_B.label>
+  
+  <!-- EN: Mote -->
+  <Mote_Gibb_C.label>塵埃</Mote_Gibb_C.label>
+  
+  <!-- EN: Mote -->
+  <Mote_MeltdownFlash.label>塵埃</Mote_MeltdownFlash.label>
+  
+  <!-- EN: Mote -->
+  <Mote_NukeCloud.label>塵埃</Mote_NukeCloud.label>
+  
+  <!-- EN: Mote -->
+  <Mote_NukeFlash.label>塵埃</Mote_NukeFlash.label>
+  
+  <!-- EN: Mote -->
+  <Mote_RailgunMuzzleFlash.label>塵埃</Mote_RailgunMuzzleFlash.label>
+  
+  <!-- EN: Mote -->
+  <Mote_SiloFlash.label>塵埃</Mote_SiloFlash.label>
+  
+  <!-- EN: Mote -->
+  <Mote_SmokeRocket.label>塵埃</Mote_SmokeRocket.label>
+  
+  <!-- EN: Mote -->
+  <Mote_Upgraded.label>塵埃</Mote_Upgraded.label>
+  
+  <!-- EN: Mote -->
+  <Mote_WeldSparkThrown.label>塵埃</Mote_WeldSparkThrown.label>
+  
+</LanguageData>

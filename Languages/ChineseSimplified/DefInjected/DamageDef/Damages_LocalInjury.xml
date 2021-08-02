@@ -1,14 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <CoreBlast.label>核爆</CoreBlast.label>
-  <CoreBlast.deathMessage>{0}死于核爆。</CoreBlast.deathMessage>
-
+  
+  <!-- EN: Arc Discharge -->
   <ArcDischarge.label>电弧放电</ArcDischarge.label>
+  <!-- EN: {0} has burned to a crisp. -->
   <ArcDischarge.deathMessage>{0}已被烧干。</ArcDischarge.deathMessage>
-
+  
+  <!-- EN: CoreBlast -->
+  <CoreBlast.label>核爆</CoreBlast.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <CoreBlast.deathMessage>{0}死于核爆。</CoreBlast.deathMessage>
+  
+  <!-- EN: Laser Discharge -->
   <LaserDischarge.label>激光放电</LaserDischarge.label>
+  <!-- EN: {0} has burned to a crisp. -->
   <LaserDischarge.deathMessage>{0}已被烧干。</LaserDischarge.deathMessage>
-
-
+  
 </LanguageData>

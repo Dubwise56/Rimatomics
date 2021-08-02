@@ -1,17 +1,34 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
+  
+  <!-- EN: Allow Cracked -->
   <NuclearFuelCracked.label>允許裂化燃料</NuclearFuelCracked.label>
+  <!-- EN: Allow cracked fuel rods to be stored here. -->
   <NuclearFuelCracked.description>允許破損的燃料棒存放在這裡。</NuclearFuelCracked.description>
-
+  
+  <!-- EN: Allow New Fuel -->
+  <NuclearFuelNew.label>允許新燃料</NuclearFuelNew.label>
+  <!-- EN: Allow new fuel to be stored here. -->
+  <NuclearFuelNew.description>允許新燃料棒存放在這裡。</NuclearFuelNew.description>
+  
+  <!-- EN: Allow Non Cracked -->
   <NuclearFuelNotCracked.label>不允許裂化燃料</NuclearFuelNotCracked.label>
+  <!-- EN: Allow non cracked fuel rods to be stored here. -->
   <NuclearFuelNotCracked.description>不允許破損的燃料棒存放在這裡。</NuclearFuelNotCracked.description>
-
-  <NuclearFuelProcessable.label>允許可加工燃料</NuclearFuelProcessable.label>
-  <NuclearFuelProcessable.description>允許可加工燃料棒存放在這裡。</NuclearFuelProcessable.description>
-
+  
+  <!-- EN: Allow Non Processable -->
   <NuclearFuelNotProcessable.label>不允許可加工燃料</NuclearFuelNotProcessable.label>
+  <!-- EN: Allow non processable fuel to be stored here. -->
   <NuclearFuelNotProcessable.description>不允許可加工燃料棒存放在這裡。</NuclearFuelNotProcessable.description>
-
-
+  
+  <!-- EN: Allow Processable -->
+  <NuclearFuelProcessable.label>允許可加工燃料</NuclearFuelProcessable.label>
+  <!-- EN: Allow processable fuel to be stored here. -->
+  <NuclearFuelProcessable.description>允許可加工燃料棒存放在這裡。</NuclearFuelProcessable.description>
+  
+  <!-- EN: Allow Used Fuel -->
+  <NuclearFuelUsed.label>允許用過的燃料</NuclearFuelUsed.label>
+  <!-- EN: Allow used fuel to be stored here. -->
+  <NuclearFuelUsed.description>允許用過的燃料棒存放在這裡。</NuclearFuelUsed.description>
+  
 </LanguageData>

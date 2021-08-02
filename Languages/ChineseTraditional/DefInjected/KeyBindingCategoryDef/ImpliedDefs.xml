@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  
+  <!-- EN: 邊緣核能 tab -->
+  <Architect_Rimatomics.label>核能選單</Architect_Rimatomics.label>
+  <!-- EN: Key bindings for the "邊緣核能" section of the Architect menu -->
+  <Architect_Rimatomics.description>建築選單中「邊緣核能」分類的指令配置。</Architect_Rimatomics.description>
+  
+</LanguageData>

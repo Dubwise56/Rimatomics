@@ -1,35 +1,59 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <ControlRodActuator.label>控制棒传动器</ControlRodActuator.label>
-  <ControlRodActuator.description>「边缘核能」核反应堆的升级组件。</ControlRodActuator.description>
-
-  <ATOM.label>先进威胁预警模块</ATOM.label>
-  <ATOM.description>「边缘核能」警戒雷达的升级组件。</ATOM.description>
-
-  <SCAD.label>电磁防护系统</SCAD.label>
-  <SCAD.description>「边缘核能」系列能量武器的升级组件。</SCAD.description>
-
-  <MEPS.label>模块化电力系统</MEPS.label>
-  <MEPS.description>「边缘核能」系列能量武器的升级组件。</MEPS.description>
-
+  
+  <!-- EN: ALC -->
   <ALC.label>先进水冷系统</ALC.label>
+  <!-- EN: Upgrade parts for Rimatomics energy weapons -->
   <ALC.description>「边缘核能」系列能量武器的升级组件。</ALC.description>
-
-  <ERS.label>能量回收系统</ERS.label>
-  <ERS.description>「边缘核能」系列能量武器的升级组件。</ERS.description>
-
-  <DriveActuator.label>促动器</DriveActuator.label>
-  <DriveActuator.description>「边缘核能」系列能量武器的升级组件。</DriveActuator.description>
-
-  <TargetingChip.label>定向芯片</TargetingChip.label>
-  <TargetingChip.description>「边缘核能」磁轨炮的升级组件。</TargetingChip.description>
-
+  
+  <!-- EN: ATOM -->
+  <ATOM.label>先进威胁预警模块</ATOM.label>
+  <!-- EN: Upgrade module for TACS -->
+  <ATOM.description>「边缘核能」警戒雷达的升级组件。</ATOM.description>
+  
+  <!-- EN: Beam Splitter -->
   <BeamSplitter.label>电子束分裂器</BeamSplitter.label>
+  <!-- EN: Upgrade parts for the Rimatomics Obelisk. -->
   <BeamSplitter.description>「边缘核能」光明石碑的升级组件。</BeamSplitter.description>
-
+  
+  <!-- EN: Control Rod Actuator -->
+  <ControlRodActuator.label>控制棒传动器</ControlRodActuator.label>
+  <!-- EN: Upgrade parts for the Rimatomics nuclear reactor -->
+  <ControlRodActuator.description>「边缘核能」核反应堆的升级组件。</ControlRodActuator.description>
+  
+  <!-- EN: Drive Actuator -->
+  <DriveActuator.label>促动器</DriveActuator.label>
+  <!-- EN: Upgrade parts for Rimatomics energy weapons -->
+  <DriveActuator.description>「边缘核能」系列能量武器的升级组件。</DriveActuator.description>
+  
+  <!-- EN: ERS -->
+  <ERS.label>能量回收系统</ERS.label>
+  <!-- EN: Upgrade parts for Rimatomics energy weapons -->
+  <ERS.description>「边缘核能」系列能量武器的升级组件。</ERS.description>
+  
+  <!-- EN: Lens Module -->
   <LenseModule.label>棱镜模块</LenseModule.label>
+  <!-- EN: Upgrade parts for the Rimatomics Obelisk. -->
   <LenseModule.description>「边缘核能」光明石碑的升级组件。</LenseModule.description>
-
-
+  
+  <!-- EN: MEPS -->
+  <MEPS.label>模块化电力系统</MEPS.label>
+  <!-- EN: Upgrade parts for Rimatomics energy weapons -->
+  <MEPS.description>「边缘核能」系列能量武器的升级组件。</MEPS.description>
+  
+  <!-- EN: SCAD -->
+  <SCAD.label>电磁防护系统</SCAD.label>
+  <!-- EN: Upgrade parts for Rimatomics energy weapons -->
+  <SCAD.description>「边缘核能」系列能量武器的升级组件。</SCAD.description>
+  
+  <!-- EN: Targeting Chip -->
+  <TargetingChip.label>定向芯片</TargetingChip.label>
+  <!-- EN: Upgrade parts for the Rimatomics Railgun -->
+  <TargetingChip.description>「边缘核能」磁轨炮的升级组件。</TargetingChip.description>
+  
+  <!-- EN: unfinished Rimatomics item -->
+  <UnfinishedRimatomics.label>未完成的「边缘核能」组件</UnfinishedRimatomics.label>
+  <!-- EN: An unfinished Rimatomics item. -->
+  <UnfinishedRimatomics.description>未完成的「边缘核能」组件。</UnfinishedRimatomics.description>
+  
 </LanguageData>

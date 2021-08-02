@@ -1,17 +1,32 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <SmeltBlades.label>熔炼涡轮叶片</SmeltBlades.label>
-  <SmeltBlades.description>利用高温和强电磁场将涡轮叶片熔炼成有用的资源。</SmeltBlades.description>
-  <SmeltBlades.jobString>正在熔炼涡轮叶片。</SmeltBlades.jobString>
-
+  
+  <!-- EN: Dismantle warhead -->
+  <DismantleWarhead.label>拆解核弹头</DismantleWarhead.label>
+  <!-- EN: Salvaging useful materials from a warhead -->
+  <DismantleWarhead.description>从核弹头中回收有用的材料。</DismantleWarhead.description>
+  <!-- EN: Dismantling warhead. -->
+  <DismantleWarhead.jobString>正在拆解核弹头。</DismantleWarhead.jobString>
+  
+  <!-- EN: Make Uranium Fuel rods -->
   <MakeFuelRods.label>制作铀燃料棒</MakeFuelRods.label>
+  <!-- EN: Construct Uranium Fuel rods. -->
   <MakeFuelRods.description>制作铀燃料棒。</MakeFuelRods.description>
+  <!-- EN: Making nuclear fuel rods. -->
   <MakeFuelRods.jobString>正在制作铀燃料棒。</MakeFuelRods.jobString>
-
+  
+  <!-- EN: Make MOX fuel rods -->
   <MakeMoxFuelRods.label>制作混合氧化物核燃料棒</MakeMoxFuelRods.label>
+  <!-- EN: Construct MOX fuel rods. -->
   <MakeMoxFuelRods.description>制作混合氧化物核燃料棒。</MakeMoxFuelRods.description>
-  <MakeMoxFuelRods.jobString>制作混合氧化物核燃料棒。</MakeMoxFuelRods.jobString>
-
-
+  <!-- EN: Making MOX fuel rods. -->
+  <MakeMoxFuelRods.jobString>正在制作混合氧化物核燃料棒。</MakeMoxFuelRods.jobString>
+  
+  <!-- EN: smelt turbine blades -->
+  <SmeltBlades.label>熔炼涡轮叶片</SmeltBlades.label>
+  <!-- EN: Use heat and strong electromagnets to break turbine blades into useful resources. -->
+  <SmeltBlades.description>利用高温和强电磁场将涡轮叶片熔炼成有用的资源。</SmeltBlades.description>
+  <!-- EN: Smelting turbine blade. -->
+  <SmeltBlades.jobString>正在熔炼涡轮叶片。</SmeltBlades.jobString>
+  
 </LanguageData>

@@ -1,16 +1,14 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <!-- STANDARD -->
-
-  <Bomb_Sabot.label>炸傷</Bomb_Sabot.label>
-  <Bomb_Sabot.deathMessage>{0}被炸死了。</Bomb_Sabot.deathMessage>
-
-
-  <!-- DU Sabot -->
-
+  
+  <!-- EN: bomb -->
   <Bomb_DUSabot.label>炸傷</Bomb_DUSabot.label>
+  <!-- EN: {0} has died in an explosion. -->
   <Bomb_DUSabot.deathMessage>{0}被炸死了。</Bomb_DUSabot.deathMessage>
-
-
+  
+  <!-- EN: bomb -->
+  <Bomb_Sabot.label>炸傷</Bomb_Sabot.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <Bomb_Sabot.deathMessage>{0}被炸死了。</Bomb_Sabot.deathMessage>
+  
 </LanguageData>

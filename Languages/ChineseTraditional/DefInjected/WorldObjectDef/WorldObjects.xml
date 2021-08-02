@@ -1,13 +1,19 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <ICBMfission.label>洲際彈道導彈</ICBMfission.label>
-  <ICBMfission.description>攜帶有核彈頭的洲際彈道導彈，用於遠程打擊。</ICBMfission.description>
-
-  <Sabot.label>磁軌炮彈</Sabot.label>
-  <Sabot.description>磁軌炮彈</Sabot.description>
-
+  
+  <!-- EN: Nuclear Fallout -->
   <Fallout.label>核輻射</Fallout.label>
+  <!-- EN: Nuclear fallout is the residual radioactive material propelled into the air by nuclear blasts or a nuclear reactor meltdown. -->
   <Fallout.description>輻射塵埃是由核爆炸或核反應堆熔毀而噴射到空氣中的殘餘放射性物質。</Fallout.description>
-
+  
+  <!-- EN: strategic missile -->
+  <ICBMfission.label>洲際彈道導彈</ICBMfission.label>
+  <!-- EN: A strategic missile is a rocket powered guided ballistic missile primarily designed for nuclear weapons delivery, this one is tipped with a fission warhead. -->
+  <ICBMfission.description>攜帶有核彈頭的洲際彈道導彈，用於遠程打擊。</ICBMfission.description>
+  
+  <!-- EN: Sabot -->
+  <Sabot.label>磁軌炮彈</Sabot.label>
+  <!-- EN: Railgun Sabot Round -->
+  <Sabot.description>磁軌炮彈</Sabot.description>
+  
 </LanguageData>

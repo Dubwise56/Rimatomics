@@ -1,44 +1,91 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <LanguageData>
-
-  <FlashBlindness.label>強光致盲</FlashBlindness.label>
-  <FlashBlindness.labelNoun>強光致盲</FlashBlindness.labelNoun>
-
-  <RectalCoring.label>直腸核心</RectalCoring.label>
-  <RectalCoring.stages.0.label>極重</RectalCoring.stages.0.label>
-
+  
+  <!-- EN: exsanguination -->
   <Exsanguination.label>失血</Exsanguination.label>
-  <Exsanguination.stages.0.label>極重</Exsanguination.stages.0.label>
-
+  <!-- EN: exsanguination -->
+  <Exsanguination.description>失血</Exsanguination.description>
+  <!-- EN: extreme -->
+  <Exsanguination.stages.extreme.label>極重</Exsanguination.stages.extreme.label>
+  
+  <!-- EN: Fatal Radiation Exposure -->
   <FatalRad.label>暴露於致命輻射</FatalRad.label>
-  <FatalRad.stages.0.label>輕微</FatalRad.stages.0.label>
-  <FatalRad.stages.1.label>重度</FatalRad.stages.1.label>
-  <FatalRad.stages.2.label>瀕死</FatalRad.stages.2.label>
-  <FatalRad.stages.3.label>死亡</FatalRad.stages.3.label>
-
-  <RimatomicsRadiation.label>輻射病</RimatomicsRadiation.label>
-  <RimatomicsRadiation.stages.0.label>輕微-隱藏</RimatomicsRadiation.stages.0.label>
-  <RimatomicsRadiation.stages.1.label>輕微</RimatomicsRadiation.stages.1.label>
-  <RimatomicsRadiation.stages.2.label>較輕</RimatomicsRadiation.stages.2.label>
-  <RimatomicsRadiation.stages.3.label>中等</RimatomicsRadiation.stages.3.label>
-  <RimatomicsRadiation.stages.4.label>嚴重</RimatomicsRadiation.stages.4.label>
-  <RimatomicsRadiation.stages.5.label>極重</RimatomicsRadiation.stages.5.label>
-
+  <!-- EN: Fatal Radiation Exposure -->
+  <FatalRad.description>暴露於致命輻射</FatalRad.description>
+  <!-- EN: initial -->
+  <FatalRad.stages.initial.label>輕微</FatalRad.stages.initial.label>
+  <!-- EN: advanced -->
+  <FatalRad.stages.advanced.label>重度</FatalRad.stages.advanced.label>
+  <!-- EN: near death -->
+  <FatalRad.stages.near_death.label>瀕死</FatalRad.stages.near_death.label>
+  <!-- EN: dead -->
+  <FatalRad.stages.dead.label>死亡</FatalRad.stages.dead.label>
+  
+  <!-- EN: Flash blindness -->
+  <FlashBlindness.label>強光致盲</FlashBlindness.label>
+  <!-- EN: Flash blindness -->
+  <FlashBlindness.description>強光致盲</FlashBlindness.description>
+  <!-- EN: blind -->
+  <FlashBlindness.battleStateLabel>致盲</FlashBlindness.battleStateLabel>
+  <!-- EN: Flash blindness -->
+  <FlashBlindness.labelNoun>強光致盲</FlashBlindness.labelNoun>
+  
+  <!-- EN: radiation buildup -->
   <RadiationIncurable.label>輻射累積</RadiationIncurable.label>
-  <RadiationIncurable.stages.0.label>輕微-隱藏</RadiationIncurable.stages.0.label>
-  <RadiationIncurable.stages.1.label>輕微</RadiationIncurable.stages.1.label>
-  <RadiationIncurable.stages.2.label>較輕</RadiationIncurable.stages.2.label>
-  <RadiationIncurable.stages.3.label>中等</RadiationIncurable.stages.3.label>
-  <RadiationIncurable.stages.4.label>嚴重</RadiationIncurable.stages.4.label>
-  <RadiationIncurable.stages.5.label>極重</RadiationIncurable.stages.5.label>
-
+  <!-- EN: radiation buildup -->
+  <RadiationIncurable.description>輻射累積</RadiationIncurable.description>
+  <!-- EN: initial-hidden -->
+  <RadiationIncurable.stages.initialhidden.label>輕微-隱藏</RadiationIncurable.stages.initialhidden.label>
+  <!-- EN: initial -->
+  <RadiationIncurable.stages.initial.label>輕微</RadiationIncurable.stages.initial.label>
+  <!-- EN: minor -->
+  <RadiationIncurable.stages.minor.label>較輕</RadiationIncurable.stages.minor.label>
+  <!-- EN: moderate -->
+  <RadiationIncurable.stages.moderate.label>中等</RadiationIncurable.stages.moderate.label>
+  <!-- EN: serious -->
+  <RadiationIncurable.stages.serious.label>嚴重</RadiationIncurable.stages.serious.label>
+  <!-- EN: extreme -->
+  <RadiationIncurable.stages.extreme.label>極重</RadiationIncurable.stages.extreme.label>
+  
+  <!-- EN: radiation damage -->
   <RadiationMechanoid.label>輻射損傷</RadiationMechanoid.label>
-  <RadiationMechanoid.stages.0.label>輕微-隱藏</RadiationMechanoid.stages.0.label>
-  <RadiationMechanoid.stages.1.label>輕微</RadiationMechanoid.stages.1.label>
-  <RadiationMechanoid.stages.2.label>較輕</RadiationMechanoid.stages.2.label>
-  <RadiationMechanoid.stages.3.label>中等</RadiationMechanoid.stages.3.label>
-  <RadiationMechanoid.stages.4.label>嚴重</RadiationMechanoid.stages.4.label>
-  <RadiationMechanoid.stages.5.label>極重</RadiationMechanoid.stages.5.label>
-
-
+  <!-- EN: Radiation damage -->
+  <RadiationMechanoid.description>輻射損傷</RadiationMechanoid.description>
+  <!-- EN: initial-hidden -->
+  <RadiationMechanoid.stages.initialhidden.label>輕微-隱藏</RadiationMechanoid.stages.initialhidden.label>
+  <!-- EN: initial -->
+  <RadiationMechanoid.stages.initial.label>輕微</RadiationMechanoid.stages.initial.label>
+  <!-- EN: minor -->
+  <RadiationMechanoid.stages.minor.label>較輕</RadiationMechanoid.stages.minor.label>
+  <!-- EN: moderate -->
+  <RadiationMechanoid.stages.moderate.label>中等</RadiationMechanoid.stages.moderate.label>
+  <!-- EN: serious -->
+  <RadiationMechanoid.stages.serious.label>嚴重</RadiationMechanoid.stages.serious.label>
+  <!-- EN: extreme -->
+  <RadiationMechanoid.stages.extreme.label>極重</RadiationMechanoid.stages.extreme.label>
+  
+  <!-- EN: rectal core -->
+  <RectalCoring.label>直腸核心</RectalCoring.label>
+  <!-- EN: rectal core -->
+  <RectalCoring.description>直腸核心</RectalCoring.description>
+  <!-- EN: extreme -->
+  <RectalCoring.stages.extreme.label>極重</RectalCoring.stages.extreme.label>
+  
+  <!-- EN: radiation sickness -->
+  <RimatomicsRadiation.label>輻射病</RimatomicsRadiation.label>
+  <!-- EN: radiation sickness -->
+  <RimatomicsRadiation.description>輻射病</RimatomicsRadiation.description>
+  <!-- EN: initial-hidden -->
+  <RimatomicsRadiation.stages.initialhidden.label>輕微-隱藏</RimatomicsRadiation.stages.initialhidden.label>
+  <!-- EN: initial -->
+  <RimatomicsRadiation.stages.initial.label>輕微</RimatomicsRadiation.stages.initial.label>
+  <!-- EN: minor -->
+  <RimatomicsRadiation.stages.minor.label>較輕</RimatomicsRadiation.stages.minor.label>
+  <!-- EN: moderate -->
+  <RimatomicsRadiation.stages.moderate.label>中等</RimatomicsRadiation.stages.moderate.label>
+  <!-- EN: serious -->
+  <RimatomicsRadiation.stages.serious.label>嚴重</RimatomicsRadiation.stages.serious.label>
+  <!-- EN: extreme -->
+  <RimatomicsRadiation.stages.extreme.label>極重</RimatomicsRadiation.stages.extreme.label>
+  
 </LanguageData>
