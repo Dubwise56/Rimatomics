@@ -135,7 +135,9 @@
   <ThingDef Name="MopSuitMaskBase" ParentName="RadSuitMaskBase" Abstract="True">
     <description>Protect against radiation through shielding in the lining, but more importantly by preventing direct contact with or inhalation of radioactive particles or gas. Combat version made with tougher materials for increased durability.</description>
     <costList>
-      <Cloth>55</Cloth>
+      <Cloth>35</Cloth>
+	    <ComponentIndustrial>2</ComponentIndustrial>
+	    <Plasteel>10</Plasteel>
     </costList>
     <graphicData>
       <texPath>Rimatomics/Things/MopMask/MopMask</texPath>
@@ -148,13 +150,13 @@
     </apparel>
     <statBases>
       <WorkToMake>20000</WorkToMake>
-      <MaxHitPoints>100</MaxHitPoints>
+      <MaxHitPoints>130</MaxHitPoints>
       <Mass>1.6</Mass>
-      <MarketValue>300</MarketValue>
-      <ArmorRating_Sharp>0.38</ArmorRating_Sharp>
-      <ArmorRating_Blunt>0.2</ArmorRating_Blunt>
-      <ArmorRating_Heat>0.3</ArmorRating_Heat>
+      <ArmorRating_Sharp>0.63</ArmorRating_Sharp>
+      <ArmorRating_Blunt>0.32</ArmorRating_Blunt>
+      <ArmorRating_Heat>0.45</ArmorRating_Heat>
       <Insulation_Cold>4</Insulation_Cold>
+	    <EquipDelay>3.5</EquipDelay>
     </statBases>
     <thingCategories>
       <li>Mopp</li>
@@ -232,23 +234,26 @@
   <ThingDef Name="MopSuitBodyBase" ParentName="RadSuitBodyBase" Abstract="True">
     <description>A suit that protects against radiation through shielding in the lining. Combat version made with tougher materials for increased durability.</description>
     <statBases>
-      <MaxHitPoints>200</MaxHitPoints>
-      <WorkToMake>50000</WorkToMake>
-      <Mass>5</Mass>
-      <ArmorRating_Blunt>0.03</ArmorRating_Blunt>
-      <ArmorRating_Sharp>0.07</ArmorRating_Sharp>
-      <ArmorRating_Heat>0.23</ArmorRating_Heat>
+      <MaxHitPoints>210</MaxHitPoints>
+      <WorkToMake>24000</WorkToMake>
+      <Mass>8</Mass>
+      <ArmorRating_Blunt>0.09</ArmorRating_Blunt>
+      <ArmorRating_Sharp>0.42</ArmorRating_Sharp>
+      <ArmorRating_Heat>0.24</ArmorRating_Heat>
       <Insulation_Cold>25</Insulation_Cold>
       <Insulation_Heat>6</Insulation_Heat>
+	    <EquipDelay>3</EquipDelay>
     </statBases>
-    <apparel>
+	  <apparel>
       <wornGraphicPath>Rimatomics/Things/MopSuit/Mop</wornGraphicPath>
       <defaultOutfitTags>
         <li>Soldier</li>
       </defaultOutfitTags>
     </apparel>
     <costList>
-      <Cloth>170</Cloth>
+	    <Cloth>50</Cloth>
+	    <Steel>70</Steel>
+	    <ComponentIndustrial>1</ComponentIndustrial>
     </costList>
     <thingCategories>
       <li>Mopp</li>
