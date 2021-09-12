@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<BuildingsNuclear.label>Jaderné</BuildingsNuclear.label>
+
+	<NuclearWaste.label>Jaderný odpad</NuclearWaste.label>
+
+	<NuclearFuel.label>Jaderné palivo</NuclearFuel.label>
+
+	<RimatomicsProduct.label>Produkt Rimatomics</RimatomicsProduct.label>
+
+	<SabotRounds.label>Munice</SabotRounds.label>
+
+	<Hazmat.label>Hazmat</Hazmat.label>
+
+	<Mopp.label>Protiradiační</Mopp.label>
+
+</LanguageData>

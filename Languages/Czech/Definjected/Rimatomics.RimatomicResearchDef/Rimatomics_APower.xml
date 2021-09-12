@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<Geigercounter.ProjTypeLabel>Pasivní schopnost</Geigercounter.ProjTypeLabel>
+<Geigercounter.ResearchDesc>Je důležité chránit kolonisty před vystavením nebezpečnémé radiaci. Společnost Rimatomics nabízí přenosná zařízení, pomocí kterých můžete měřit úrovně ionizujícího záření. Všichni kolonisté budou vybaveni detektory radiace, které budou zvukově signalizovat vystavení ionizujícímu záření. Absorbovaná dávka bude zobrazena jako text.</Geigercounter.ResearchDesc>
+<Geigercounter.ResearchDescDisc>Všichni kolonisté jsou teď vybaveni detektory radiace. Ionizující záření bude signalizováno zvukovým signálem a absorbovaná radiace se zobrazí na stupnici od nuly do pěti.</Geigercounter.ResearchDescDisc>
+<Geigercounter.ResearchLabel>Přenosné detektory radiace</Geigercounter.ResearchLabel>
+
+<RadSuits.ResearchDesc>Chraňte své kolonisty před radiací pomocí oblečení se stíněním. A co je ještě důležitější, tyto ochranné oděvy zabrání přímému kontaktu s radioaktivním materiálem či vdechnutí radioaktivních částic a plynu.</RadSuits.ResearchDesc>
+<RadSuits.ResearchDescDisc>Teď můžeš vyrábět vlastní protiradiační a MOOP obleky na montážním stole Rimatomics.</RadSuits.ResearchDescDisc>
+<RadSuits.ResearchLabel>Protiradiační obleky</RadSuits.ResearchLabel>
+
+<NuclearResearch.ProjTypeLabel>Výzkumné zařízení</NuclearResearch.ProjTypeLabel>
+<NuclearResearch.ResearchDesc>Předtím, než tví kolonisté budou moci postavit velké reaktory Rimatomics, musí si nejdříve natrénovat použití těchto technologií a provézt výzkum na výzkumném reaktoru.</NuclearResearch.ResearchDesc>
+<NuclearResearch.ResearchDescDisc>Nyní je dostupný pokročilejší výzkum.</NuclearResearch.ResearchDescDisc>
+<NuclearResearch.ResearchLabel>Výzkumný reaktor</NuclearResearch.ResearchLabel>
+
+<NuclearReactor.ResearchDesc>Jaderné elektrárny Rimatomics používají modulární design a umožňují tak provozovat více reaktorů, turbínových generátorů i chladících systémů v jediném systému. Každý reaktor dokáže produkovat více než 200kW energie. Reaktory lze též použít pro výrobu plutonia.</NuclearReactor.ResearchDesc>
+<NuclearReactor.ResearchDescDisc>Nyní už můžeš postavit více, než jednu ze všech hlavních částí reaktorového systému. Můžeš například přidat více reaktorů, turbín a chladičů. Na výzkumném stanovišti Rimatomics také můžeš provést další výzkum a vylepšit jejich design.</NuclearReactor.ResearchDescDisc>
+<NuclearReactor.ResearchLabel>Jaderná energie</NuclearReactor.ResearchLabel>
+
+<Plutonium.ResearchDesc>V jaderném palivu vzniká plutonium, které lze z použitého paliva extrahovat a vyrobit z něj MOX palivo, radioizotopové termoelektrické generátory nebo jaderné zbraně. Proces spotřebovává chemické palivo a produkuje ochuzený uran a jaderný odpad.</Plutonium.ResearchDesc>
+<Plutonium.ResearchDescDisc>Nyní můžeš přepracovávat použité jaderné palivo. \n\nMnožství materiálu, které při přepracování vznikne, se zakládá na konverzním poměru daného paliva, přičemž maximum je 0,6x pro normální reaktory a 1,2x pro pokročilé množivé reaktory. Tento parametr si můžeš zobrazit tak, že myší najedeš na palivový slot v rozhraní reaktoru. \n\n Při nakládání použitého paliva do zpracovávače jsou potřeba protiradiační obleky a stínění místnosti pro ochranu kolonie. Zpracované plutonium se skladuje v ochranném obalu a je tedy bezpečné.</Plutonium.ResearchDescDisc>
+<Plutonium.ResearchLabel>Přepracovávání paliva</Plutonium.ResearchLabel>
+
+<AdvReactor.ResearchDesc>Vyzkoumej množivé reaktory, které jsou schopny vytvářet více štěpného materiálu, než kolik spotřebují, a turbínu typu Zeus, která produkuje až 1 MW elektřiny.</AdvReactor.ResearchDesc>
+<AdvReactor.ResearchDescDisc>Můžeš stavět pokročilé reaktory a turbínu typu Zeus.</AdvReactor.ResearchDescDisc>
+<AdvReactor.ResearchLabel>Pokročilá jaderná energie</AdvReactor.ResearchLabel>
+
+<RTG.ResearchDesc>Radioizotopový termoelektrický generátor (RTG) je přenosný zdroj elektřiny, kterou díky Seebeckovu jevu vyrábí pomocí soustavy termočlánků z tepla uvolňovaného při rozpadu vhodných radioaktivních materiálů. Nemá žádné pohyblivé části.</RTG.ResearchDesc>
+<RTG.ResearchDescDisc>RTG lze přemístit a vyrábí stabilních 1200 W elektřiny. Varování: Pokud bude RTG poškozen, začne uvolňovat radiaci.</RTG.ResearchDescDisc>
+
+<ICBM.ProjTypeLabel>Superzbraň</ICBM.ProjTypeLabel>
+<ICBM.ResearchDesc> RA-1776b Liberator je zároveň zařízením na výrobu raket, raketovým silem i odpalovacím zařízením, které dokáže pojmout až pět raket s jadernou hlavicí. Vyžaduje plutonium, které lze získat přepracováním jaderného paliva.</ICBM.ResearchDesc>
+<ICBM.ResearchDescDisc>Nyní můžeš vyrábět jaderné zbraně.</ICBM.ResearchDescDisc>
+</LanguageData>

@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<EnergyWeapons.ProjTypeLabel>Výzkumné zařízení</EnergyWeapons.ProjTypeLabel>
+<EnergyWeapons.ResearchDesc>Společnost Rimatomics je tahounem na poli energetických zbraní. Získejte výhodu nad svými nepřáteli s našimi v boji osvědčenými zaměřovacími systémy a energetickými zbraněmi nové generace s modulárním a rozšiřitelným designem a třistašedesátistupňovým pokrytím, které vám pomůže při obraně pomocí automatického zaměřování, sledování i ničení nepřátelské pěchoty, řízených střel, minometných střel i dalekonosným zbraním.</EnergyWeapons.ResearchDesc>
+<EnergyWeapons.ResearchDescDisc> Máte k dispozici veškerou technologii potřebnou k použití energetických zbraní Rimatomics a jednotlivé zbraňové systémy si můžete zakoupit na výzkumném stanovišti Rimatomics.</EnergyWeapons.ResearchDescDisc>
+<EnergyWeapons.ResearchLabel>Energetické zbraně</EnergyWeapons.ResearchLabel>
+
+<ADS.ProjTypeLabel>Energetická zbraň</ADS.ProjTypeLabel>
+<ADS.ResearchDescDisc>Nyní můžeš postavit více než jeden ADS a existující prototyp je připraven k boji.</ADS.ResearchDescDisc>
+
+<TeslaCoil.ProjTypeLabel>Energetická zbraň</TeslaCoil.ProjTypeLabel>
+<TeslaCoil.ResearchDescDisc>Nyní můžeš postavit více než jednu Teslovu cívku a existující prototyp je připraven k boji.</TeslaCoil.ResearchDescDisc>
+<TeslaCoil.ResearchLabel>Teslova cívka</TeslaCoil.ResearchLabel>
+
+<HEL.ProjTypeLabel>Energetická zbraň</HEL.ProjTypeLabel>
+<HEL.ResearchDescDisc>Nyní můžeš postavit více než jeden HEL a existující prototyp je připraven k boji.</HEL.ResearchDescDisc>
+
+<Railgun.ProjTypeLabel>Energetická zbraň</Railgun.ProjTypeLabel>
+<Railgun.ResearchDescDisc>Nyní můžeš postavit více než jeden Punisher a existující prototyp je připraven k boji.</Railgun.ResearchDescDisc>
+
+<Obelisk.ProjTypeLabel>Energetická zbraň</Obelisk.ProjTypeLabel>
+<Obelisk.ResearchDescDisc>Nyní můžeš postavit více než jeden Obelisk a existující prototyp je připraven k boji.</Obelisk.ResearchDescDisc>
+
+<Marauder.ProjTypeLabel>Energetická zbraň</Marauder.ProjTypeLabel>
+<Marauder.ResearchDescDisc>Nyní můžeš postavit více než jeden Marauder a existující prototyp je připraven k boji.</Marauder.ResearchDescDisc>
+</LanguageData>

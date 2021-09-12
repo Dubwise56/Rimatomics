@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ReactorControl.label>Reaktorová konzole</ReactorControl.label>
+
+	<ReactorControl.description>Počítačový systém určený k ovládání jaderných reaktorů. Pro zpřístupnění ovládacích prvků musí konzoli obsluhovat kolonista. Můžeš mít zároveň otevřeno několik konzolí.</ReactorControl.description>
+
+	<CoolingRadiator.label>Radiátor</CoolingRadiator.label>
+
+	<CoolingRadiator.description>Malý, vzduchový chladič určený k chlazení malých jaderných reaktorů v případě, kdy je nedostatek místa nebo surovin.\n25kW chladící kapacity</CoolingRadiator.description>
+
+	<CoolingTower.label>Chladící věž</CoolingTower.label>
+
+	<CoolingTower.description>Obří vzduchové chladiče určené k chlazení velkých reaktorů v případech, kdy jsou nedostupné dostatečné zdroje vody.\n250kW chladící kapacity</CoolingTower.description>
+
+	<ReactorCoreA.label>Reaktor typu A</ReactorCoreA.label>
+
+	<ReactorCoreA.description>Štěpný reaktor Rimatomics s 21 sloty pro palivové tyče. Reaktor obsahuje všechny komponenty potřebné k řízení štěpné reakce a tvorbě tepla.</ReactorCoreA.description>
+
+	<storagePool.label>Skladovací bazén</storagePool.label>
+
+	<storagePool.description>Skladovací bazén, ve kterém lze bezpečně skladovat použité palivové tyče. Voda bezpečně absorbuje radiaci, ale palivo je nutné z bazénu před dalším použitím manuálně vyjmout.</storagePool.description>
+
+	<ReactorCoreB.label>Reaktor typu X</ReactorCoreB.label>
+
+	<ReactorCoreB.description>Pokročilý množivý reaktor, který je schopen vytvářet více štěpitelného materiálu, než kolik spotřebuje.</ReactorCoreB.description>
+
+	<RadiationDetector.label>Detektor radiace</RadiationDetector.label>
+
+	<RadiationDetector.description>Detektor radiace, který můžeš umístit v blízkosti reaktoru pro případ úniku radiace</RadiationDetector.description>
+
+	<Turbine.label>Turbína typu Thor</Turbine.label>
+
+	<Turbine.description>Párou poháněná turbína, která roztáčí alternátor produkující elektřinu. Její maximální výkon je 100 kilowattů.</Turbine.description>
+
+	<Transformer.label>Transformátor vysokého napětí</Transformer.label>
+
+	<Transformer.description>Umožňuje transformovat napětí z turbínových generátorů na nižší napětí, které už lze poslat do běžných rozvodů.</Transformer.description>
+
+	<ReactorCoreC.label>Reaktor typu V</ReactorCoreC.label>
+
+	<ReactorCoreC.description>Obří množivý reaktor, který je schopen vytvářet více štěpitelného materiálu, než kolik spotřebuje.</ReactorCoreC.description>
+
+	<RimatomicsRTG.label>Radioizotopový termoelektrický generátor</RimatomicsRTG.label>
+
+	<RimatomicsRTG.description>Generátor získávající elektřinu působením tepla z rozpadu radioaktivního materiálu na termočlánky.</RimatomicsRTG.description>
+
+	<CoolingWater.label>Vodní chladič</CoolingWater.label>
+
+	<CoolingWater.description>Poskytuje vysokou chladící kapacitu využiváním studené vody z jezer, řek nebo oceánů.\n250kW chladící kapacity</CoolingWater.description>
+
+	<BigTurbine.label>Turbína typu Zeus</BigTurbine.label>
+
+	<BigTurbine.description>Párou poháněná turbína, která roztáčí alternátor produkující elektřinu. Její maximální výkon je 1 megawatt.</BigTurbine.description>
+
+</LanguageData>

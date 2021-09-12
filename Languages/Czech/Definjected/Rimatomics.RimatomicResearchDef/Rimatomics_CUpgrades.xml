@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+<ResearchControlRodActuators.ResearchDesc>Zvýší rychlost pohybu regulačních tyčí, což urychlí odezvu reaktoru, umožní lépe regulovat tok neutronů či reaktor rychleji vypnout.</ResearchControlRodActuators.ResearchDesc>
+<ResearchControlRodActuators.ResearchDescDisc>Nyní můžeš vyrábět aktuátory regulačních tyčí na montážním stole Rimatomics. Pro jejich nainstalování do reaktoru vyber reaktor a zvol Aktuátory regulačních tyčí.</ResearchControlRodActuators.ResearchDescDisc>
+<ResearchControlRodActuators.ResearchLabel>Aktuátory regulačních tyčí</ResearchControlRodActuators.ResearchLabel>
+<ResearchControlRodActuators.stats.0>Urychlí odezvu regulačních tyčí</ResearchControlRodActuators.stats.0>
+
+<ATOMProject.ResearchDesc>Modul pro pokročilou detekci hrozeb (ATOM - Advanced Threat Detection module ) se používá k vylepšení TACS. Sice výrazně zvýší jeho spotřebu elektřiny, ale zároveň zvýší dosah a výkon skeneru, takže bude možné zaměřovat hrozby na daleko větší vzdálenost a systém tak bude sloužit pro brzké varování před útoky. Útoky vedené ze vzduchu však budou zaměřeny jen krátce předtím, než doletí na místo, a malé skupiny nepřátel bude těžké zaměřit, ale velké skupiny nepřátel pohybujících se po zemi budou zaměřovány spolehlivě. Je možné, že systém bude hlásit falešné poplachy.</ATOMProject.ResearchDesc>
+<ATOMProject.ResearchDescDisc>Teď můžeš vyrábět moduly ATOM na montážním stole rimatomics, abys je následně nainstaloval do TACS a spustil přepnutím tlačítka ATOM.\n\nModul ATOM musí být do nových TACS vždy manuálně nainstalován.</ATOMProject.ResearchDescDisc>
+
+<ResearchGuidenceSystem.ResearchDesc>Zvyšuje dolet a přesnost strategických balistických střel. Systém otestuješ tak, že vypálíš raketu na jakýkoliv cíl, abys tak získal data k analýze.</ResearchGuidenceSystem.ResearchDesc>
+<ResearchGuidenceSystem.ResearchDescDisc>Plány na naváděcí systém jsou hotové. Od teď jím budou strategické rakety automaticky vybavovány, díky čemuž budou mít neomezený dolet.</ResearchGuidenceSystem.ResearchDescDisc>
+<ResearchGuidenceSystem.ResearchLabel>Naváděcí systém</ResearchGuidenceSystem.ResearchLabel>
+
+<ResearchMEPS.ResearchDesc>Modulární elektrický napájecí systém (MEPS - Modular Electric Power System) je ultrakapacitor, který se připojuje k napájecímu systému energetických zbraní, aby zvýšil jejich maximální výkon. Efekt se liší podle konkrétní zbraně.</ResearchMEPS.ResearchDesc>
+<ResearchMEPS.ResearchDescDisc>Nyní můžeš vyrábět moduly MEPS a instalovat je do energetických zbraní Rimatomics tak, že v jejich menu klikneš na příslušné tlačítko. n\nMEPS musí být manuálně nainstalován do každé zbraně.</ResearchMEPS.ResearchDescDisc>
+
+<ResearchALC.ResearchDesc>Pokročilý vodní chladič (ALC - Advanced Liquid Cooler) je univerzální chladící systém, který může zvýšit kapacitu chlazení ve všech energetických zbraních Rimatomics, což jim umožní střílet rychleji.</ResearchALC.ResearchDesc>
+<ResearchALC.ResearchDescDisc>Nyní můžeš vyrábět moduly ALC u montážního stolu Rimatomics a instalovat je do energetických zbraní Rimatomics tak, že v jejich menu klikneš na příslušné tlačítko.</ResearchALC.ResearchDescDisc>
+<ResearchALC.stats.0>Rychlost palby: -15%</ResearchALC.stats.0>
+
+<ResearchERS.ResearchDesc>Systém rekuperace energie (ERS - Energy Recovery System) využívá kombinaci rekuperačních technologií pro zachytávání zbytkové kinetické a tepelné energie, kterou následně vrací do připojených PPC poté, co zbraň vypálí.</ResearchERS.ResearchDesc>
+<ResearchERS.ResearchDescDisc>Nyní můžeš vyrýbět moduly ERS u montážního stolu Rimatomics a instalovat je do energetických zbraní Rimatomics tak, že v jejich menu klikneš na příslušné tlačítko.</ResearchERS.ResearchDescDisc>
+<ResearchERS.stats.0>Spotřeba elektřiny při palbě: -15%</ResearchERS.stats.0>
+
+<ResearchSCAD.ResearchDesc>Superkapacitorový obloukový obranný systém (SCAD - SuperCapacitor Arc Defense system) je vrstva dodatečného plátování, které lze nainstalovat na energetické zbraně Rimatomics. Toto dodatečné plátování se skládá ze sítě kompozitních superkapacitorů, které dokáží nabít pancíř zbraně natolik, že pomocí obloukových výbojů dokáže odrazit či odpařit příchozí projektily, což sníží utrpěné poškození až o 90%. SCAD se při používání opotřebovává a nakonec bude nutná výměna.</ResearchSCAD.ResearchDesc>
+<ResearchSCAD.ResearchDescDisc>Nyní můžeš vyrýbět moduly SCAD u montážního stolu Rimatomics a instalovat je do energetických zbraní Rimatomics tak, že v jejich menu klikneš na příslušné tlačítko.\n\nSCAD je nutné do budov instalovat dodatečně.</ResearchSCAD.ResearchDescDisc>
+<ResearchSCAD.stats.0>Přídavný pancíř</ResearchSCAD.stats.0>
+
+<ResearchDriveActuator.ResearchDesc>Vylepší stabilizační systémy a rychlost rotace energetických zbraní Rimatomics založených na principu střelecké věže. Tento výkonný motor nepotřebuje převodník, díky čemuž se snižuje tření a zbraň tak může zaměřovat cíle rychleji.</ResearchDriveActuator.ResearchDesc>
+<ResearchDriveActuator.ResearchDescDisc>Nyní můžeš vyrábět aktuátory pohonu u montážního stolu Rimatomics a instalovat je do energetických zbraní Rimatomics tak, že v jejich menu klikneš na příslušné tlačítko.</ResearchDriveActuator.ResearchDescDisc>
+<ResearchDriveActuator.ResearchLabel>Aktuátory střeleckých věží</ResearchDriveActuator.ResearchLabel>
+<ResearchDriveActuator.stats.0>Rotace střeleckých věží:  200%</ResearchDriveActuator.stats.0>
+
+<ResearchRailgun_TargetingChip.ResearchDesc>Zvyšuje dostřel a přesnost railgunu. Systém otestuješ tak, že vypálíš na jakýkoliv cíl, abys získal data pro analýzu.</ResearchRailgun_TargetingChip.ResearchDesc>
+<ResearchRailgun_TargetingChip.ResearchDescDisc>Nyní můžeš vyrábět zaměřovací čipy u montážního stolu Rimatomics a instalovat je do railgunů tak, že v jejich menu klikneš na příslušné tlačítko.</ResearchRailgun_TargetingChip.ResearchDescDisc>
+<ResearchRailgun_TargetingChip.ResearchLabel>Zaměřovací čip</ResearchRailgun_TargetingChip.ResearchLabel>
+<ResearchRailgun_TargetingChip.stats.0>Rozptyl při palebné misi: -50%</ResearchRailgun_TargetingChip.stats.0>
+<ResearchRailgun_TargetingChip.stats.1>Dostřel: +10 polí</ResearchRailgun_TargetingChip.stats.1>
+
+<ResearchObelisk_LenseModule.ResearchDesc>Účinný dostřel Obelisku lze zvýšit dodatečným zaostřením a kolimací hlavního paprsku. Toto vylepšení však Obelisku znemožní střílet na cíle v bezprostřední blízkosti.</ResearchObelisk_LenseModule.ResearchDesc>
+<ResearchObelisk_LenseModule.ResearchDescDisc>Nyní můžeš vyrábět čočkové moduly u montážního stolu Rimatomics a instalovat je do Obelisků tak, že v jejich menu klikneš na příslušné tlačítko.</ResearchObelisk_LenseModule.ResearchDescDisc>
+<ResearchObelisk_LenseModule.ResearchLabel>Čočkový modul pro Obelisk</ResearchObelisk_LenseModule.ResearchLabel>
+<ResearchObelisk_LenseModule.stats.0>Dostřel: +10</ResearchObelisk_LenseModule.stats.0>
+<ResearchObelisk_LenseModule.stats.1>Min. dostřel: +10</ResearchObelisk_LenseModule.stats.1>
+<ResearchObelisk_BeamSplitter.ResearchDesc>Paprsek Obelisku lze rozdělit pomocí speciálního rozdělovače, přičemž sekundární parpsek je naladěn na specifickou vlnovou délku a polarizační stav, díky čemuž dokáže vyřadit osobní štíty, zatímco odpálení primárního paprsku je pozdrženo o zlomek sekundy a poté zasáhne nyní zranitelný cíl plnou silou.</ResearchObelisk_BeamSplitter.ResearchDesc>
+<ResearchObelisk_BeamSplitter.ResearchDescDisc>Nyní můžeš vyrábět rozdělovače paprsku u montážního stolu Rimatomics a instalovat je do Obelisků tak, že v jejich menu klikneš na příslušné tlačítko</ResearchObelisk_BeamSplitter.ResearchDescDisc>
+<ResearchObelisk_BeamSplitter.ResearchLabel>Rozdělovač paprsku Obelisku</ResearchObelisk_BeamSplitter.ResearchLabel>
+<ResearchObelisk_BeamSplitter.stats.0>Strhává štíty a rozptyluje poškození.</ResearchObelisk_BeamSplitter.stats.0>
+
+
+</LanguageData>

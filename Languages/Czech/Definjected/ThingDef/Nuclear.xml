@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<DepletedUraniumPellets.label>Ochuzený uran</DepletedUraniumPellets.label>
+
+	<DepletedUraniumPellets.description>Pelety ochuzeného uranu, které se používají pro výrobu palivových tyčí.</DepletedUraniumPellets.description>
+
+	<turbineBlade.label>Lopatky turbíny</turbineBlade.label>
+
+	<turbineBlade.description>Používají se pro stavbu generátorů.</turbineBlade.description>
+
+	<UraniumPellets.label>Uranové pelety</UraniumPellets.label>
+
+	<UraniumPellets.description>Pelety uranu, které se používají pro výrobu palivových tyčí.</UraniumPellets.description>
+
+	<ChunkRadioactiveSlag.label>Radioaktivní struska</ChunkRadioactiveSlag.label>
+
+	<NuclearWaste.description>Sud s jaderným odpadem.</NuclearWaste.description>
+
+	<FuelRods.label>Palivové tyče</FuelRods.label>
+
+	<FuelRods.description>Tyče naplněné uranovými peletami. Po nainstalování do reaktoru produkují teplo, které lze využít k pohonu turbín.</FuelRods.description>
+
+	<Plutonium.label>Plutonium</Plutonium.label>
+
+	<Plutonium.description>Balení plutonia, ze kterého lze vyrobit jaderné zbraně či jaderné palivo.</Plutonium.description>
+
+	<ThrownSlag.label>ThrownSlag</ThrownSlag.label>
+
+	<FuelRodsMOX.label>Palivové tyče typu MOX</FuelRodsMOX.label>
+
+	<FuelRodsMOX.description>Tyče naplněné směsí oxidů uranu a plutonia. Po nainstalování do reaktoru produkují teplo, které lze využít k pohonu turbín.</FuelRodsMOX.description>
+
+</LanguageData>

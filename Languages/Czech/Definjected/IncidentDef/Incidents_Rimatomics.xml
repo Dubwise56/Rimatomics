@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TransformerExplosion.label>Exploze transformátoru</TransformerExplosion.label>
+
+	<TransformerExplosion.letterlabel>Exploze transformátoru</TransformerExplosion.letterlabel>
+
+	<TransformerExplosion.lettertext>Přepětí usmažilo obchody v transformátoru.</TransformerExplosion.lettertext>
+
+	<notNothing.label>?</notNothing.label>
+
+	<notNothing.letterlabel>?</notNothing.letterlabel>
+
+	<notNothing.lettertext>?</notNothing.lettertext>
+
+</LanguageData>

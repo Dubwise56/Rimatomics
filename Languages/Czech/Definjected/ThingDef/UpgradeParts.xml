@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ControlRodActuator.label>Posilovač pohonu regulačních tyčí</ControlRodActuator.label>
+
+	<ControlRodActuator.description>Součástky pro vylepšení jaderných reaktorů Rimatomics</ControlRodActuator.description>
+
+	<LenseModule.label>Čočkový modul</LenseModule.label>
+
+	<LenseModule.description>Součástky pro vylepšení Obelisku.</LenseModule.description>
+
+	<BeamSplitter.label>Rozdělovač paprsku</BeamSplitter.label>
+
+	<BeamSplitter.description>Součástky pro vylepšení Obelisku.</BeamSplitter.description>
+
+	<ALC.label>ALC</ALC.label>
+
+	<ALC.description>Součástky pro vylepšení energetických zbraní Rimatomics.</ALC.description>
+
+	<TargetingChip.label>Zaměřovací čip</TargetingChip.label>
+
+	<TargetingChip.description>Součástky pro vylepšení railgunu Rimatomics.</TargetingChip.description>
+
+	<UnfinishedRimatomics.label>Nedokončený předmět Rimatomics</UnfinishedRimatomics.label>
+
+	<UnfinishedRimatomics.description>Nedokončený předmět Rimatomics</UnfinishedRimatomics.description>
+
+	<ERS.label>ERS</ERS.label>
+
+	<ERS.description>Součástky pro vylepšení energetických zbraní Rimatomics.</ERS.description>
+
+	<SCAD.label>SCAD</SCAD.label>
+
+	<SCAD.description>Součástky pro vylepšení energetických zbraní Rimatomics.</SCAD.description>
+
+	<DriveActuator.label>Posilovač pohonu</DriveActuator.label>
+
+	<DriveActuator.description>Součástky pro vylepšení energetických zbraní Rimatomics.</DriveActuator.description>
+
+	<MEPS.label>MEPS</MEPS.label>
+
+	<MEPS.description>Součástky pro vylepšení energetických zbraní Rimatomics.</MEPS.description>
+
+	<ATOM.label>ATOM</ATOM.label>
+
+	<ATOM.description>Modul pro vylepšení TACS</ATOM.description>
+
+</LanguageData>

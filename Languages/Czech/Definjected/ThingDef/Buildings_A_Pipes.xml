@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<coolantValve.label>Ventil chladícího potrubí</coolantValve.label>
+
+	<coolantValve.description>Otevírá nebo uzavírá spojení mezi chladícím potrubím.</coolantValve.description>
+
+	<coolingPipe.label>Chladící potrubí</coolingPipe.label>
+
+	<coolingPipe.description>Potrubí určené k propojování turbín a chladících systémů. Lze jej umístit pod zdi a jiné budovy.</coolingPipe.description>
+
+	<HighVoltage.label>Vedení vysokého napětí</HighVoltage.label>
+
+	<HighVoltage.description>Kabely určené k vedení vysokého napětí od turbín k transformátorům. Lze je umístit pod zdi a jiné budovy.</HighVoltage.description>
+
+	<controllerLoom.label>Konzolové kabely</controllerLoom.label>
+
+	<controllerLoom.description>Spojovací kabely určené k vedení signálů mezi reaktory a ovládací konzolí. Lze je umístit pod zdi a jiné budovy.</controllerLoom.description>
+
+	<waterValve.label>Ventil studenovodního potrubí</waterValve.label>
+
+	<waterValve.description>Otevírá nebo uzavírá spojení mezi studenovodním potrubím.</waterValve.description>
+
+	<steamPipe.label>Parovodní potrubí</steamPipe.label>
+
+	<steamPipe.description>Potrubí určené k vedení vysokotlaké páry z reaktoru k turbínám. Lze jej umístit pod zdi a jiné budovy.</steamPipe.description>
+
+	<steamValve.label>Parní ventil</steamValve.label>
+
+	<steamValve.description>Otevírá nebo uzavírá spojení mezi parovody.</steamValve.description>
+
+	<waterPipe.label>Studenovodní potrubí</waterPipe.label>
+
+	<waterPipe.description>Potrubí určené k vedení ochlazené vody z turbín nebo výměníků tepla zpět do reaktoru. Lze jej umístit pod zdi a jiné budovy.</waterPipe.description>
+
+</LanguageData>

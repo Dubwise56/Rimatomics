@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<LoadRailgunMagazine.label>Nabít munici do railgunu</LoadRailgunMagazine.label>
+
+	<LoadRailgunMagazine.verb>Nabít</LoadRailgunMagazine.verb>
+
+	<LoadRailgunMagazine.gerund>Nabíjí</LoadRailgunMagazine.gerund>
+
+	<LoadSilo.label>Nabít silo</LoadSilo.label>
+
+	<LoadSilo.verb>Nabít</LoadSilo.verb>
+
+	<LoadSilo.gerund>Nabíjí</LoadSilo.gerund>
+
+	<LoadFuelModule.label>Vložit palivo</LoadFuelModule.label>
+
+	<LoadFuelModule.verb>Vložit palivo do:</LoadFuelModule.verb>
+
+	<LoadFuelModule.gerund>Vkládá palivo do:</LoadFuelModule.gerund>
+
+	<LoadSpentFuel.label>Vložit vyhořelé palivo</LoadSpentFuel.label>
+
+	<LoadSpentFuel.verb>Vložit</LoadSpentFuel.verb>
+
+	<LoadSpentFuel.gerund>Vkládá</LoadSpentFuel.gerund>
+
+	<LoadProcChemFuel.label>Doplnit chemické palivo</LoadProcChemFuel.label>
+
+	<LoadProcChemFuel.verb>Doplnit chemické palivo</LoadProcChemFuel.verb>
+
+	<LoadProcChemFuel.gerund>Doplňuje</LoadProcChemFuel.gerund>
+
+	<UnloadPlutonium.label>Vyjmout plutonium</UnloadPlutonium.label>
+
+	<UnloadPlutonium.verb>Vyjmout plutonium</UnloadPlutonium.verb>
+
+	<UnloadPlutonium.gerund>Vyjímá</UnloadPlutonium.gerund>
+
+	<RemoveFuelModule.label>Vyjmout palivo</RemoveFuelModule.label>
+
+	<RemoveFuelModule.verb>Vyjmout palivo z:</RemoveFuelModule.verb>
+
+	<RemoveFuelModule.gerund>Vyjímá palivo z:</RemoveFuelModule.gerund>
+
+	<UpgradeBuilding.label>Vylepšit budovy Rimatomics</UpgradeBuilding.label>
+
+	<UpgradeBuilding.verb>Vylepšit</UpgradeBuilding.verb>
+
+	<UpgradeBuilding.gerund>Vylepšuje</UpgradeBuilding.gerund>
+
+	<DoBillsTableNuclear.label>Pracovat na montážním stole pro jaderné reaktory.</DoBillsTableNuclear.label>
+
+	<DoBillsTableNuclear.verb>Pracovat</DoBillsTableNuclear.verb>
+
+	<DoBillsTableNuclear.gerund>Pracuje na:</DoBillsTableNuclear.gerund>
+
+	<RimatomicsCrafting.label>Provést výzkum</RimatomicsCrafting.label>
+
+	<RimatomicsCrafting.verb>Provést výzkum</RimatomicsCrafting.verb>
+
+	<RimatomicsCrafting.gerund>Provádí výzkum na:</RimatomicsCrafting.gerund>
+
+	<RimatomicsResearch.label>Provést výzkum Rimatomics</RimatomicsResearch.label>
+
+	<RimatomicsResearch.verb>výzkum Rimatomics</RimatomicsResearch.verb>
+
+	<RimatomicsResearch.gerund>Provádí výzkum na:</RimatomicsResearch.gerund>
+
+	<RimatomicsSuperviseResearch.label>Dohlížet na výzkum</RimatomicsSuperviseResearch.label>
+
+	<RimatomicsSuperviseResearch.verb>Dohlížet na výzkum</RimatomicsSuperviseResearch.verb>
+
+	<RimatomicsSuperviseResearch.gerund>Provádí výzkum na</RimatomicsSuperviseResearch.gerund>
+
+	<RimatomicsConstruction.label>Provést stavbu Rimatomics</RimatomicsConstruction.label>
+
+	<RimatomicsConstruction.verb>Stavět</RimatomicsConstruction.verb>
+
+	<RimatomicsConstruction.gerund>Staví</RimatomicsConstruction.gerund>
+
+</LanguageData>

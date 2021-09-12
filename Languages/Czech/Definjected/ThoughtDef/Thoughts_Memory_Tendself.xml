@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Abducted.stages.0.label>Nemůžu to vysvětlit.</Abducted.stages.0.label>
+
+	<Abducted.stages.0.description>Něco se minulou noc stalo. Nevím, kde jsem {PAWN_gender ? byl : byla}</Abducted.stages.0.description>
+
+</LanguageData>

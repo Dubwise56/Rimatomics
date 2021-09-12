@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<EnergyWeapons1.label>Vyzkoumat energetické zbraně</EnergyWeapons1.label>
+
+	<EnergyWeapons1.description>Zdatný výzkumník musí nastudovat, jak fungují energetické zbraně Rimatomics</EnergyWeapons1.description>
+
+	<ConstructWeaponBenchStep.label>Postavit Stanoviště pro výzkum zbraní</ConstructWeaponBenchStep.label>
+
+	<ConstructWeaponBenchStep.description>Postav stanoviště pro výzkum zbraní, které je vybavené specializovaným vybavením pro výrobu a testování prototypů energetických zbraní. Bude potřeba pro výzkum většiny energetických zbraní. Kolonisté ke stanovišti budou potřebovat přístup, aby mohli experimentovat. Také je doporučeno jej postavit v ohnivzdorné laboratoři.</ConstructWeaponBenchStep.description>
+
+	<EnergyWeapExperiments.label>Experimentovat s energetickými zbraněmi</EnergyWeapExperiments.label>
+
+	<EnergyWeapExperiments.description>Výzkumníci musí provést experimenty na novém výzkumném stanovišti a položit základy pro budoucí projekty. Zbraně společnosti Rimatomics nestačí jen zapojit do zásuvky, je nezbytné porozumět jejich technologii a důkladně je otestovat.\nExperimenty mohou být nebezpečné</EnergyWeapExperiments.description>
+
+	<EnergyWeapons5.label>Postavit poloautomatickou velitelskou stanici (SACS)</EnergyWeapons5.label>
+
+	<EnergyWeapons5.description>Postav SACS (Semi Automated Command Station), konzoli kombinovanou se zaměřovacím počítačem, která je potřeba k ovládání všech energetických zbraní Rimatomics na stejné rozvodné síti. Využívá senzorů integrovaných ve zbraních i v zaměřovacím systému TACS.\n\nNa hlavní obrazovce je možné v reálném čase sledovat pozemní cíle i letící projektily a příslušný ukazatel také zobrazuje množství energie v připojených PPC.\nNěkteré zbraně vyžadují pro svou funkci obsluhu konzole. Tato informace se zobrazí v infopanelu dané zbraně.</EnergyWeapons5.description>
+
+	<EnergyWeapons6.label>Postavit Komunikační a zaměřovací systém TACS</EnergyWeapons6.label>
+
+	<EnergyWeapons6.description>Postav TACS (Target aquisition and communication system). Tento systém využívá několika různých technologií pro sledování pozemních i vzdušných cílů. Dokáže zaměřit žijící i robotické cíle, některé projektily, jako například minometné střely a střely z railgunů, nebo na velkou vzdálenost detekovat balistické střely s dlouhým doletem. Tyto informace jsou následně poslány do konzole SACS, kde si je můžeš zobrazit a následně vybrat cíle.</EnergyWeapons6.description>
+
+	<EnergyWeapons7.label>Postavit Pulzní energetický kondenzátor (PPC)</EnergyWeapons7.label>
+
+	<EnergyWeapons7.description>Postav Pulzní energetický kondenzátor (Pulsed power container) a připoj ho ke stejné síti, na které je SACS.\n\nTyto superkondenzátory jsou mnohem efektivnější než běžné baterie a jsou schopny poskytovat silné elektrické pulzy nutné pro napájení energetických zbraní Rimatomics. Jsou skladovány ve vodotěsných schránkách a stejně jako běžné baterie se nabíjejí přebytečnou elektřinou. Doporučujeme pomocí transformátorů vytvořit izolované energetické sítě pro napájení PPC a zbraňových systémů.</EnergyWeapons7.description>
+
+	<ADS1.label>Vyzkoumat ADS</ADS1.label>
+
+	<ADS1.description>Zdatný výzkumník musí prostudovat design ADS a naučit se, jak fungují, než budeme moci postavit své vlastní.</ADS1.description>
+
+	<ADS2.label>Experimentovat s energetickými zbraněmi</ADS2.label>
+
+	<ADS2.description>Výzkumníci musí provést experimenty na novém výzkumném stanovišti a položit základy pro budoucí projekty. Zbraně společnosti Rimatomics nestačí jen zapojit do zásuvky, je nezbytné porozumět jejich technologii a důkladně je otestovat.\nExperimenty mohou být nebezpečné.</ADS2.description>
+
+	<ADS4.label>Postavit prototyp ADS</ADS4.label>
+
+	<ADS4.description>Postav prototyp ADS. U prototypů hrozí velké riziko poruchy! Doporučujeme k napájení použít izolovanou rozvodnou síť, držet se v bezpečné vzdálenosti a dbát na protipožární opatření.</ADS4.description>
+
+	<ADS5.label>Získat data</ADS5.label>
+
+	<ADS5.description>Vyzkoušej ADS na jakýchkoliv živých cílech, abys získal zbraňová data</ADS5.description>
+
+	<TeslaCoil1.label>Vyzkoumat teslovy cívky</TeslaCoil1.label>
+
+	<TeslaCoil1.description>Zdatný výzkumník musí prostudovat design teslových cívek a naučit se, jak fungují, než budeme moci vyrábět své vlastní</TeslaCoil1.description>
+
+	<TeslaCoil2.label>Experimentovat s energetickými zbraněmi</TeslaCoil2.label>
+
+	<TeslaCoil2.description>Výzkumníci musí provést experimenty na novém výzkumném stanovišti a položit základy pro budoucí projekty. Zbraně společnosti Rimatomics nestačí jen zapojit do zásuvky, je nezbytné porozumět jejich technologii a důkladně je otestovat.\nExperimenty mohou být nebezpečné.</TeslaCoil2.description>
+
+	<TeslaCoil4.label>Postavit teslovu cívku</TeslaCoil4.label>
+
+	<TeslaCoil4.description>Postav prototyp Teslovy cívky. U prototypů hrozí velké riziko poruchy! Doporučujeme k napájení použít izolovanou rozvodnou síť, držet se v bezpečné vzdálenosti a dbát na protipožární opatření.</TeslaCoil4.description>
+
+	<TeslaCoil5.label>Získat data</TeslaCoil5.label>
+
+	<TeslaCoil5.description>Otestuj teslovu cívku na jakémkoliv cíli, abys získal zbraňová data</TeslaCoil5.description>
+
+	<HEL1.label>Vyzkoumat HEL</HEL1.label>
+
+	<HEL1.description>Zdatný výzkumník musí prostudovat design HELů a naučit se, jak fungují, než budeme moci vyrábět své vlastní</HEL1.description>
+
+	<HEL2.label>Experimentovat s energetickými zbraněmi</HEL2.label>
+
+	<HEL2.description>Výzkumníci musí provést experimenty na novém výzkumném stanovišti a položit základy pro budoucí projekty. Zbraně společnosti Rimatomics nestačí jen zapojit do zásuvky, je nezbytné porozumět jejich technologii a důkladně je otestovat.\nExperimenty mohou být nebezpečné.</HEL2.description>
+
+	<HEL4.label>Postavit prototyp HEL</HEL4.label>
+
+	<HEL4.description>Postav prototyp HELu. U prototypů hrozí velké riziko poruchy! Doporučujeme k napájení použít izolovanou rozvodnou síť, držet se v bezpečné vzdálenosti a dbát na protipožární opatření.</HEL4.description>
+
+	<HEL5.label>Získat data</HEL5.label>
+
+	<HEL5.description>Otestuj HEL na minometných střelách a získej tak zbraňová data. Na zbraňové konzoli můžeš změnit jeho nastavení, aby zaměřoval a sestřeloval i spojenecké minometné střely</HEL5.description>
+
+	<Railgun1.label>Vyzkoumat Punisher</Railgun1.label>
+
+	<Railgun1.description>Zdatný výzkumník musí prostudovat design Punisherů a naučit se, jak fungují, než budeme moci vyrábět své vlastní</Railgun1.description>
+
+	<Railgun2.label>Experimentovat s energetickými zbraněmi</Railgun2.label>
+
+	<Railgun2.description>Výzkumníci musí provést experimenty na novém výzkumném stanovišti a položit základy pro budoucí projekty. Zbraně společnosti Rimatomics nestačí jen zapojit do zásuvky, je nezbytné porozumět jejich technologii a důkladně je otestovat.\nExperimenty mohou být nebezpečné.</Railgun2.description>
+
+	<Railgun4.label>Postavit prototyp Punisheru</Railgun4.label>
+
+	<Railgun4.description>Postav prototyp Punisheru. U prototypů hrozí velké riziko poruchy! Doporučujeme k napájení použít izolovanou rozvodnou síť, držet se v bezpečné vzdálenosti a dbát na protipožární opatření.</Railgun4.description>
+
+	<Railgun5.label>Získat data</Railgun5.label>
+
+	<Railgun5.description>Otestuj Punisher na jakémkoliv cíli pro získání zbraňových dat. Munici do něj můžeš vyrobit na montážním stole Rimatomics.</Railgun5.description>
+
+	<Railgun6.label>Získat data dalekonosné palby</Railgun6.label>
+
+	<Railgun6.description>Otestuj dálkový palebný mód Punisheru. Budeš muset vyslat zvědy na jinou mapu, pak vybrat prototyp Punisheru a kliknout na palebnou misi</Railgun6.description>
+
+	<Obelisk1.label>Vyzkoumat Obelisk</Obelisk1.label>
+
+	<Obelisk1.description>Zdatný výzkumník musí prostudovat design Obelisků a naučit se, jak fungují, než budeme moci vyrábět své vlastní</Obelisk1.description>
+
+	<Obelisk2.label>Experimentovat s energetickými zbraněmi</Obelisk2.label>
+
+	<Obelisk2.description>Výzkumníci musí provést experimenty na novém výzkumném stanovišti a položit základy pro budoucí projekty. Zbraně společnosti Rimatomics nestačí jen zapojit do zásuvky, je nezbytné porozumět jejich technologii a důkladně je otestovat.\nExperimenty mohou být nebezpečné.</Obelisk2.description>
+
+	<Obelisk4.label>Postavit Obelisk</Obelisk4.label>
+
+	<Obelisk4.description>Postav prototyp Obelisku. U prototypů hrozí velké riziko poruchy! Doporučujeme k napájení použít izolovanou rozvodnou síť, držet se v bezpečné vzdálenosti a dbát na protipožární opatření.</Obelisk4.description>
+
+	<Obelisk5.label>Získat data</Obelisk5.label>
+
+	<Obelisk5.description>Otestuj Obelisk na jakémkoliv cíli pro získání zbraňových dat</Obelisk5.description>
+
+	<Marauder1.label>Vyzkoumat Marauder</Marauder1.label>
+
+	<Marauder1.description>Zdatný výzkumník musí prostudovat design Marauderů a naučit se, jak fungují, než budeme moci vyrábět své vlastní</Marauder1.description>
+
+	<Marauder2.label>Experimentovat s energetickými zbraněmi</Marauder2.label>
+
+	<Marauder2.description>Výzkumníci musí provést experimenty na novém výzkumném stanovišti a položit základy pro budoucí projekty. Zbraně společnosti Rimatomics nestačí jen zapojit do zásuvky, je nezbytné porozumět jejich technologii a důkladně je otestovat.\nExperimenty mohou být nebezpečné.</Marauder2.description>
+
+	<Marauder4.label>Postavit prototyp Marauderu</Marauder4.label>
+
+	<Marauder4.description>Postav prototyp Marauderu. U prototypů hrozí velké riziko poruchy! Doporučujeme k napájení použít izolovanou rozvodnou síť, držet se v bezpečné vzdálenosti a dbát na protipožární opatření.</Marauder4.description>
+
+	<Marauder5.label>Získat data</Marauder5.label>
+
+	<Marauder5.description>Proveď s Marauderem zkušební střelbu pro získání zbraňových dat.</Marauder5.description>
+
+	<EnergyShields1.label>Vyzkoumat energetické zbraně</EnergyShields1.label>
+
+	<EnergyShields1.description>Zdatný výzkumník musí nastudovat, jak fungují energetické štíty Rimatomics</EnergyShields1.description>
+
+	<EnergyShields2.label>Experimentovat s energetickými zbraněmi</EnergyShields2.label>
+
+	<EnergyShields2.description>Výzkumníci musí provést experimenty na novém výzkumném stanovišti a položit základy pro budoucí projekty. Energetické štíty společnosti Rimatomics nestačí jen zapojit do zásuvky, je nezbytné porozumět jejich technologii a důkladně je otestovat.\nExperimenty mohou být nebezpečné.</EnergyShields2.description>
+   
+
+</LanguageData>

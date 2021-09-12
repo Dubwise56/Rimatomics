@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ArcDischarge.deathmessage>{0} {PAWN_gender ? shořel : shořela} na škvarek.</ArcDischarge.deathmessage>
+
+	<ArcDischarge.label>Obloukový výboj</ArcDischarge.label>
+
+	<LaserDischarge.deathmessage>{0} {PAWN_gender ? shořel : shořela} na škvarek.</LaserDischarge.deathmessage>
+
+	<LaserDischarge.label>Laserový výboj</LaserDischarge.label>
+
+	<CoreBlast.label>CoreBlast</CoreBlast.label>
+
+	<CoreBlast.deathmessage>{0} {PAWN_gender ? zahynul : zahynula} při explozi.</CoreBlast.deathmessage>
+
+</LanguageData>

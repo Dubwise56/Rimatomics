@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<PoppedReactorCoreC.label>Roztavený reaktor</PoppedReactorCoreC.label>
+
+	<PoppedReactorCoreC.description>Roztavená aktivní zóna reaktoru.</PoppedReactorCoreC.description>
+
+	<PoppedReactorCoreB.label>Roztavený reaktor</PoppedReactorCoreB.label>
+
+	<PoppedReactorCoreB.description>Roztavená aktivní zóna reaktoru.</PoppedReactorCoreB.description>
+
+	<PoppedReactorCoreA.label>Roztavený reaktor</PoppedReactorCoreA.label>
+
+	<PoppedReactorCoreA.description>Roztavená aktivní zóna reaktoru.</PoppedReactorCoreA.description>
+
+	<DU_Blastdoor.label>Pancéřové dveře z ochuzeného uranu</DU_Blastdoor.label>
+
+	<DU_Blastdoor.description>Velmi odolné pancéřové dveře vystužené ochuzeným uranem. Poskytují úplné stínění radiace.</DU_Blastdoor.description>
+
+	<ReactorSacrophagus.description>Betonová struktura určená k odizolování roztaveného jaderného reaktoru.</ReactorSacrophagus.description>
+
+	<ReactorSacrophagus.label>Sarkofág typu A</ReactorSacrophagus.label>
+
+	<ReactorSacrophagusC.description>Betonová struktura určená k odizolování roztaveného jaderného reaktoru.</ReactorSacrophagusC.description>
+
+	<ReactorSacrophagusC.label>Sarkofág typu V</ReactorSacrophagusC.label>
+
+	<ReactorSacrophagusB.description>Betonová struktura určená k odizolování roztaveného jaderného reaktoru.</ReactorSacrophagusB.description>
+
+	<ReactorSacrophagusB.label>Sarkofág typu X</ReactorSacrophagusB.label>
+
+	<RadiationShielding.label>Zeď posílená ochuzeným uranem</RadiationShielding.label>
+
+	<RadiationShielding.description>Velmi pevná zeď posílená ochuzeným uranem, která poskytuje úplné stínění radiace.</RadiationShielding.description>
+
+</LanguageData>

@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<FlashBlindness.label>Slepota ze záblesku</FlashBlindness.label>
+
+	<FlashBlindness.description>Slepota ze záblesku</FlashBlindness.description>
+
+	<RectalCoring.label>Vytržený konečník</RectalCoring.label>
+
+	<RectalCoring.description>Vytržený konečník</RectalCoring.description>
+
+	<RectalCoring.stages.0.label>extrémní</RectalCoring.stages.0.label>
+
+	<Exsanguination.label>Vykrvácení</Exsanguination.label>
+
+	<Exsanguination.description>Vykrvácení</Exsanguination.description>
+
+	<Exsanguination.stages.0.label>Extrémní</Exsanguination.stages.0.label>
+
+	<FatalRad.label>Smrtelné ozáření</FatalRad.label>
+
+	<FatalRad.description>Smrtelné ozáření</FatalRad.description>
+
+	<FatalRad.stages.0.label>počáteční</FatalRad.stages.0.label>
+
+	<FatalRad.stages.1.label>pokročilé</FatalRad.stages.1.label>
+
+	<FatalRad.stages.2.label>blízko smrti</FatalRad.stages.2.label>
+
+	<FatalRad.stages.3.label>po smrti</FatalRad.stages.3.label>
+
+	<RimatomicsRadiation.description>nemoc z ozáření</RimatomicsRadiation.description>
+
+	<RimatomicsRadiation.label>nemoc z ozáření</RimatomicsRadiation.label>
+
+	<RimatomicsRadiation.stages.0.label>počáteční-skryté</RimatomicsRadiation.stages.0.label>
+
+	<RimatomicsRadiation.stages.1.label>počáteční</RimatomicsRadiation.stages.1.label>
+
+	<RimatomicsRadiation.stages.2.label>středně závažná</RimatomicsRadiation.stages.2.label>
+
+	<RimatomicsRadiation.stages.3.label>horší</RimatomicsRadiation.stages.3.label>
+
+	<RimatomicsRadiation.stages.4.label>vážná</RimatomicsRadiation.stages.4.label>
+
+	<RimatomicsRadiation.stages.5.label>extrémní</RimatomicsRadiation.stages.5.label>
+
+	<RadiationIncurable.description>absorbovaná radiace</RadiationIncurable.description>
+
+	<RadiationIncurable.label>absorbovaná radiace</RadiationIncurable.label>
+
+	<RadiationIncurable.stages.0.label>počáteční-skryté</RadiationIncurable.stages.0.label>
+
+	<RadiationIncurable.stages.1.label>počáteční</RadiationIncurable.stages.1.label>
+
+	<RadiationIncurable.stages.2.label>mírná</RadiationIncurable.stages.2.label>
+
+	<RadiationIncurable.stages.3.label>středně závažná</RadiationIncurable.stages.3.label>
+
+	<RadiationIncurable.stages.4.label>vážná</RadiationIncurable.stages.4.label>
+
+	<RadiationIncurable.stages.5.label>extrémní</RadiationIncurable.stages.5.label>
+
+	<RadiationMechanoid.description>Poškození radiací</RadiationMechanoid.description>
+
+	<RadiationMechanoid.label>Poškození radiací</RadiationMechanoid.label>
+
+	<RadiationMechanoid.stages.0.label>Počáteční-skryté</RadiationMechanoid.stages.0.label>
+
+	<RadiationMechanoid.stages.1.label>počáteční</RadiationMechanoid.stages.1.label>
+
+	<RadiationMechanoid.stages.2.label>mírné</RadiationMechanoid.stages.2.label>
+
+	<RadiationMechanoid.stages.3.label>středně závažné</RadiationMechanoid.stages.3.label>
+
+	<RadiationMechanoid.stages.4.label>vážné</RadiationMechanoid.stages.4.label>
+
+	<RadiationMechanoid.stages.5.label>extrémní</RadiationMechanoid.stages.5.label>
+
+</LanguageData>

@@ -1,0 +1,310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!--NEW-->
+  <nuclearFuelAllowNew>Povolit nové palivo</nuclearFuelAllowNew>
+  <nuclearFuelAllowUsed>Povolit použité palivo</nuclearFuelAllowUsed>
+  <Weaponrankicons>Ikony třídy zbraní</Weaponrankicons>
+  <WeaponrankiconsDesc>Zobrazí při přiblížení malou ikonu u veteránských energetických zbraní</WeaponrankiconsDesc>
+  <Showresearchbutton>Zobrazit výzkumné tlačítko</Showresearchbutton>
+  <ShowresearchbuttonDesc>Přidá do hlavních záložek tlačítko pro zobrazení Rimatomics výzkumu, který lze též zpřístupnit z výzkumných stanovišť</ShowresearchbuttonDesc>
+  <Mannedreactorconsole>Konzole s lidskou obsluhou</Mannedreactorconsole>
+  <MannedreactorconsoleDesc>Reaktorové konzole musí být obsluhovány kolonistou, aby bylo možné otevřít ovládací rozhraní, v opačném případě jej lze otevřít kdykoliv pomocí příslušného tlačítka</MannedreactorconsoleDesc>
+  <ThreatDetectionToggle>Detekce hrozeb</ThreatDetectionToggle>
+  <ThreatDetectionToggleDesc>Přepíná mezi módy detekce hrozeb</ThreatDetectionToggleDesc>
+  <AutothrotIDCount>Více jader nastaveno na {0}, každé jádro musí mít unikátní ID pro aktivaci automatické regulace výkonu</AutothrotIDCount>
+  <AutothrotOn>Automatická regulace výkonu zapnuta pro reaktor {0}</AutothrotOn>
+  <AutothrotOff>Automatická regulace výkonu vypnuta pro reaktor {0}</AutothrotOff>
+  <AutothrotRange>Přebytek/nedostatek elektřiny v síti musí být +/- 5000w pro aktivaci</AutothrotRange>
+  <AutothrotTip>Zapne automatickou regulaci\n\nUpravuje tok neutronů pro řízení výkonu a tedy i produkce elektřiny na základě zatížení elektrické sítě. Přebytek či nedostatek elektřiny musí být na síti připojené k této konzoli nejvýše 5000 MW pro možnost aktivace</AutothrotTip>
+  <CoreIdMismatch>ID reaktoru a konzole se liší, každé jádro pro automatickou regulaci výkonu potřebuje svou vlastní konzoli a unikátní ID.</CoreIdMismatch>
+  <FuelLifeRange>Životnost paliva:{0}</FuelLifeRange>
+  <PoolLoading>Vkládání</PoolLoading>
+  <PoolUnloading>Vykládání</PoolUnloading>
+  <Designateremoveallspent>Vyložit všechno vyhořelé palivo</Designateremoveallspent>
+  <Designateremoveall>Vyložit všechno palivo</Designateremoveall>
+  <Designateremoveallprocessable>Vyložit všechno zpracovatelné palivo</Designateremoveallprocessable>
+  <Designateinstallall>Vložit palivo do všech slotů</Designateinstallall>
+  <Clearalldesignations>Zrušit všechna označení</Clearalldesignations>
+  <MissingPESUpgrades>Pokud je aktivní modifikace Preemtive Strike, musí být nejdříve dokončen výzkum zaměřování létajících objektů, než bude ATOM moci zaměřit přibližující se přepravní moduly. Rušičky budou ale fungovat normálně.</MissingPESUpgrades>
+  <ReactorAlert>Poplach v reaktoru!</ReactorAlert>
+  <ShortRangeStratLaunch>Taktický útok</ShortRangeStratLaunch>
+  <ShortRangeStratLaunchDesc>Odpálí balistickou střelu na cíl na této mapě</ShortRangeStratLaunchDesc>
+  <LongRangeStratLaunch>Strategický útok</LongRangeStratLaunch>
+  <LongRangeStratLaunchDesc>Odpálí balistickou střelu na cíl na tomto okrajovém světě</LongRangeStratLaunchDesc>
+  <HighYieldWarhead>Silná exploze</HighYieldWarhead>
+  <HighYieldWarheadDesc>Bojové hlavice raket vypuštěných z tohoto sila vyvolají masivní explozi, která zničí na mapě vše, co není uvnitř horského bunkru</HighYieldWarheadDesc>
+  <LowYieldWarhead>Slabá exploze</LowYieldWarhead>
+  <LowYieldWarheadDesc>Bojové hlavice raket vypuštěných z tohoto sila vyvolají malou, taktickou explozi</LowYieldWarheadDesc>
+  <RimatomicsValveLabel>Přepnout ventil</RimatomicsValveLabel>
+  <RimatomicsValveLabelDesc>Otevírá/zavírá ventil</RimatomicsValveLabelDesc>
+
+  <FlareScram>AZ-5 při sluneční erupci</FlareScram>
+  <FlareScramDesc>Automaticky odstaví reaktor při sluneční erupci</FlareScramDesc>
+  <TargetAllShells>Zaměřovat všechny minometné střely</TargetAllShells>
+  <TargetEnemyShells>Zaměřovat nepřátelské minometné střely</TargetEnemyShells>
+  <ThreatDetection>Detekce hrozeb</ThreatDetection>
+  <NextResearchStep>Další krok:</NextResearchStep>
+  <!--ALERTS-->
+  <Rimatomics.LowCoolingCapacityDesc>Chladící systém reaktoru má snížený výkon\n\nVěže nesmí stát pod střechou a vodní chlazení vyžaduje dostatek povrchové vody, pokud používáš spojení s módem Dubs bad hygiene, ujisti se, že chladící věže jsou naplněné vodou</Rimatomics.LowCoolingCapacityDesc>
+	<Rimatomics.LowCoolingCapacity>Nedostatečné chlazení reaktoru</Rimatomics.LowCoolingCapacity>
+  <AlertNeedsTurbine>Reaktor potřebuje turbínu</AlertNeedsTurbine>
+  <AlertNeedsTurbineDesc>Reaktor musí být připojen k turbíně, jinak může dojít k přehřátí a roztavení</AlertNeedsTurbineDesc>
+  <AlertNeedsCooling>Turbína potřebuje chlazení</AlertNeedsCooling>
+  <AlertNeedsCoolingDesc>Turbína musí být připojena k chladícímu systému, jinak může dojít k přehřátí a roztavení</AlertNeedsCoolingDesc>
+  <AlertCoreMelt>Roztavení reaktoru</AlertCoreMelt>
+  <AlertCoreMeltDesc>V reaktoru došlo k roztavení aktivní zóny, okamžitě se evakuujte</AlertCoreMeltDesc>
+  <AlertCoreOverheat>Přehřátí reaktoru</AlertCoreOverheat>
+  <AlertCoreOverheatDesc>Reaktor je poškozován kvůli přehřátí</AlertCoreOverheatDesc>
+  <AlertCracked>Prasklina v reaktoru</AlertCracked>
+  <AlertCrackedDesc>Kvůli provozu za příliš vysoké teploty po příliš dlouhou dobu došlo k prasknutí ochranného obalu reaktoru, bude nutné jej rozmontovat a znovu postavit, jinak bude vydávat smrtící radiaci, produkovat méně energie a poškozovat palivové tyče.</AlertCrackedDesc>
+
+  <CRACKEDFUEL>    ::PRASKLÉ PALIVO::</CRACKEDFUEL>
+  <NOCOOLING>    ::BEZ CHLAZENÍ::</NOCOOLING>
+  <OVERHEATING>    ::PŘEHŘÍVÁ SE:: {0}</OVERHEATING>
+  <COREMELT>    ::HROZÍ ROZTAVENÍ REAKTORU::</COREMELT>
+  <EVACUATE>    ::EVAKUACE::</EVACUATE>
+  <CONTROLRODJAM>    ::ZASEKNUTÉ REGULAČNÍ TYČE::</CONTROLRODJAM>
+  <ReactorAlerts>Poplachy reaktoru:</ReactorAlerts>
+  <RADIATIONLEAK>    ::ÚNIK RADIACE::</RADIATIONLEAK>
+  <RADIATIONLEAKSYSTEM>    ::RADIACE V SYSTÉMU::</RADIATIONLEAKSYSTEM>
+
+  <PodsScrambledOK>TACS narušil nepřátelské výsadkové moduly</PodsScrambledOK>
+  <PodsScrambledDesc>Navádění nepřátelských výsadkových modulů bylo narušeno systémem TACS pomocí {0}kW pulzu</PodsScrambledDesc>
+  <PodsScrambledFail>Nepodařilo se narušit nepřátelské výsadkové moduly</PodsScrambledFail>
+  <PodsScrambledFailDesc>{0}kW pulz potřebný k narušení tohoto útoku nebyl k dispozici</PodsScrambledFailDesc>
+  <ScrambleDropPods>Narušení navigace výsadkových modulů</ScrambleDropPods>
+  <ScrambleDropPodsDesc>Zabrání nájezdníkům přistát uprostřed mapy pomocí energetického pulzu z připojených PPC, které naruší naváděcí systémy přibližujících se výsadkových modulů.</ScrambleDropPodsDesc>
+
+  <!--CONSOLE-->
+  <TemperatureTip>Teplota\n\nVysoká teplota v aktivní zóně může reaktor poškodit a způsobit prasknutí palivových tyčí. Pokud HP reaktoru dosáhne 0 a teplota bude nad normální provozní teplotou, dojde k explozi</TemperatureTip>
+  <FuelTip>Palivo\n\nCelkové množství paliva v reaktoru. Palivo reaguje s palivem v sousedních polích, což produkuje více energie\nPalivo bude v průběhu času produkovat méně a méně energie, dokud zcela nevyhoří</FuelTip>
+  <CoolingTip>Chlazení\n\nCelková využitá kapacita chlazení. Pokud ukazatel zčervená, sniž výkon nebo přidej další chlazení</CoolingTip>
+  <TurbineTip>Turbíny\n\nCelková využitá kapacita turbín. Pokud ukazatel zčervená, přidej další turbíny nebo sniž výkon\n\nTurbíny také potřebují transformátory k napájení běžné rozvodné sítě</TurbineTip>
+  <PowerTip>Výkon\n\nCelkový výkon, který reaktor produkuje, výkon produkovaný turbínami a transformátory může být nižší</PowerTip>
+  <RadiationTip>Radiace\n\nV případě poškození začne reaktor vyzařovatz radioaktivní záření, jehož intenzita se zvyšuje s úrovní poškození</RadiationTip>
+  <CoreNotBuilt>Nepostaveno</CoreNotBuilt>
+  <Dragtoincreasefluxlevel>Přetáhni pro zvýšení toku neutronů a zvýšení výkonu</Dragtoincreasefluxlevel>
+  <MOX>MOX</MOX>
+  <Used>Použité</Used>
+  <AbortTest>ZRUŠIT</AbortTest>
+  <reactorSCRAM>AZ-5</reactorSCRAM>
+  <reactorSTART>START</reactorSTART>
+  <BreederTest>Zkouška množení</BreederTest>
+  <InstallAll>Nainstalovat vše</InstallAll>
+  <ShutdownCold>Vypnutý a studený</ShutdownCold>
+  <StartingUp>Probíhá start</StartingUp>
+  <ShuttingDown>Vypíná se</ShuttingDown>
+  <RimatomActive>Aktivní</RimatomActive>
+  <ReactorBreakdown>ID: {0}\nStav: {1}\nMaximální výkon: {2}W\nPoměr konverze: {3}\n\n{4}</ReactorBreakdown>
+  <SlotBreakdown>Odhadovaná životnost: {0}\nMaximální výkon: {1}W\nSoučasný výkon: {2}W\nŽivotnost paliva: {3}\nZisk Plutonia: {4}</SlotBreakdown>
+  <cycleScreensDesc>Monitorovat reaktory na této síti</cycleScreensDesc>
+  <cycleScreens>Monitorovat vše</cycleScreens>
+  <AutoScram>Automatické AZ-5</AutoScram>
+  <AutoScramDesc>Nouzově odstaví reaktor v případě dosažení nebezpečné teploty nebo při sluneční erupci</AutoScramDesc>
+  <FlareSCRAMletterText>Sluneční erupce vedla k aktivaci AZ-5</FlareSCRAMletterText>
+  <SCRAMletterText>Nebezpečná teplota v reaktoru vedla k aktivaci AZ-5</SCRAMletterText>
+  <CantUseReactorConsole>Vyžaduje: 8 Intelekt</CantUseReactorConsole>
+  <!--PROCESSING-->
+
+  <ProcessingProgress>Postup: {0} {1}</ProcessingProgress>
+  <ContainsFuel>Obsahuje {0} / {1} jaderného paliva.</ContainsFuel>
+  <ContainsChemfuel>Obsahuje {0} / {1} chemického paliva.</ContainsChemfuel>
+  <critSpentfuelonly>Pouze vyhořelé palivo</critSpentfuelonly>
+  <critAnyfuel>Jakékoliv palivo</critAnyfuel>
+  <critProg>Postup: {0}</critProg>
+  <critRemovePlutonium>Zpracovávání dokončeno, vyndej materiál</critRemovePlutonium>
+  <critEnouPU>Lze přepracovat</critEnouPU>
+  <NoChemfuel>Žádné chemické palivo</NoChemfuel>
+
+  <!--ENERGY WEAPONS-->
+  <VeteranBonus>  Bonus: Čas dobití -{0}%</VeteranBonus>
+  <AnUnknownForce>Neznámá síla</AnUnknownForce>
+  <ATOMattackGround>přijdou po zemi</ATOMattackGround>
+  <ATOMattackPods>přiletí ve výsadkových modulech</ATOMattackPods>
+  <ATOMdetection>Zjištěna hrozba!</ATOMdetection>
+  <ATOMdetectionDesc>TACS zaměřil možnou hrozbu. Podle výpočtů zaútočí {0}, {1} a přibližně za {2}</ATOMdetectionDesc>
+  <ScadLivesMatter>SCAD HP: {0}</ScadLivesMatter>
+  <Detonating>Probíhá detonace...</Detonating>
+  <KillCounter>Zabití: {0}</KillCounter>
+  <energyWepLoadedShell>Nabito: {0}</energyWepLoadedShell>
+  <MessageRailgunCantTargetMyMap>Nelze zaměřit cíle na tvé vlastní mapě.</MessageRailgunCantTargetMyMap>
+  <needsRadar>Vyžaduje TACS</needsRadar>
+  <ICBMNeedConsole>Vyžaduje obsluhovanou konzoli SACS</ICBMNeedConsole>
+  <ICBMNeedMissile>K odpálení je potřeba balistická střela</ICBMNeedMissile>
+  <ICBMAlreadyLaunching>Probíhá odpálení</ICBMAlreadyLaunching>
+  <MissileRangeBad>Cíl není v dostřelu</MissileRangeBad>
+  <MissileTargetInvalid>Neplatný cíl pro balistickou střelu</MissileTargetInvalid>
+  <EnergyWeaponNeedsMannedConsole>Vyžaduje obsluhovanou zbraňovou konzoli</EnergyWeaponNeedsMannedConsole>
+  <EnergyWeaponNeedConsole>Vyžadováno připojení ke zbraňové konzoli</EnergyWeaponNeedConsole>
+  <MissingPPC>Chybí PPC</MissingPPC>
+  <PulseSize>Pulz: {0} Wd / Poškození: {1}</PulseSize>
+  <critCommandFireMission>Odpalovací mise</critCommandFireMission>
+  <critCommandFireMissionDesc>Dálkové odstřelování</critCommandFireMissionDesc>
+  <criticbmAttack>Nepřátelská frakce jménem {0} se připravuje z blízké základny odpálit balistickou střelu, počet dnů do odpálení: {1}.</criticbmAttack>
+  <critMagazine>Zásobník: {0}</critMagazine>
+  <critNoSabotRounds>Chybí munice</critNoSabotRounds>
+  <SiloMissingPart>Vyžaduje součást: {0}</SiloMissingPart>
+  <critBombDet>Bomba explodovala</critBombDet>
+  <critBombDetFac>Bomba explodovala a osada jménem {0} byla zničena</critBombDetFac>
+  <SetCamoMode>Nastavit kamufláž</SetCamoMode>
+  <critCountdown>Odpočet: {0}</critCountdown>
+  <critArm>Odjistit</critArm>
+  <MessageRailgunNeedsMap>Mapa ještě nebyla vygenerována, pošli kolonisty na průzkum</MessageRailgunNeedsMap>
+  <MessageRailgunTargetInvalid>Neplatný cíl</MessageRailgunTargetInvalid>
+  <NextPart>Další součást: {0}, {1} Needed</NextPart>
+  <SiloFull>Silo je plné</SiloFull>
+  <SiloMagazine>Balistické střely: {0}/{1}</SiloMagazine>
+  <ICBMReady>Strategická balistická střela připravena</ICBMReady>
+  <TestFireHELSOnOwnShells>Sestřel své vlastní minometné střely za účelem získání dat.</TestFireHELSOnOwnShells>
+  <OpenRadar>Otevřít obrazovku sledování cílů</OpenRadar>
+  <NoSabotToExtract>Nejsou dostupné žádné náboje k vytažení</NoSabotToExtract>
+  <CancelICBMLaunch>Přerušit start</CancelICBMLaunch>
+  <CancelICBMLaunchDesc>Přerušit start</CancelICBMLaunchDesc>
+  <ICBMLaunchCancelled>Odpálení strategické balistické střely zrušeno</ICBMLaunchCancelled>
+
+  <!--REACTOR BUILDINGS-->
+  <ReactorUptime>Doba provozu: {0}</ReactorUptime>
+  <PuCreated>Pu: {0}</PuCreated>
+  <fuelCracked>Prasklé!</fuelCracked>
+  <Managefuel>Spravovat</Managefuel>
+  <RoofedTower>Věž je blokována střechou</RoofedTower>
+  <TurbineRPM>RPM: {0} ({1})</TurbineRPM>
+  <TradeShipWait>Obchodní loď Rimatomics bude připravena za {0}</TradeShipWait>
+  <critsetid>Nastavit ID</critsetid>
+  <critCoolingCapShare>Sdílená chladící kapacita: {0} s {1} turbínami</critCoolingCapShare>
+	<BreederHotLoading>Výměna za tepla</BreederHotLoading>
+	<BreederHotLoadingDesc>Umožní výměnu paliva bez odstavení reaktoru</BreederHotLoadingDesc>
+  <ControlRod>Regulační tyče</ControlRod>
+  <crackedRemoveNow>\nPRASKLÉ! Nutné okamžitě odstranit</crackedRemoveNow>
+  <critCoreTemp>Teplota v aktivní zóně: {0}C</critCoreTemp>
+  <critCoreEnergy>Energie: {0}kW</critCoreEnergy>
+  <critCoreCooling>Chlazení: {0}</critCoreCooling>
+  <critCoreFlux>Tok neutronů: {0}</critCoreFlux>
+  <critscramDesc>Vrátí teplotu a tok neutronů na základní hodnoty, ale ponechá reaktor v provozu</critscramDesc>
+  <critStartup>Nastartovat</critStartup>
+  <critShutdown>Vypnout</critShutdown>
+  <critStartupDesc>Nastartuje reaktor, což umožní nárůst teploty a toku neutronů</critStartupDesc>
+  <critShutdownDesc>Odstaví reaktor, který zůstane aktivní, ale bude vychladlý, což umožní opravy a doplnění paliva</critShutdownDesc>
+  <critManageReactor>Ovládat reaktor</critManageReactor>
+  <critreactorcritical>Reaktor v kritickém stavu</critreactorcritical>
+  <critreactorleaking>Únik radiace z reaktoru</critreactorleaking>
+  <critreactionstable>Reaktor stabilní</critreactionstable>
+  <critStorageCapacity>Kapacita: {0} / {1}</critStorageCapacity>
+  <critGenerated>Produkce: {0} W</critGenerated>
+  <critConsumed>Spotřeba: {0} W</critConsumed>
+  <critPnetPct>Zatížení sítě: {0}</critPnetPct>
+  <critPowerGeneration>Produkce energie: {0} W</critPowerGeneration>
+  <critValveOpen>Ventil: Otevřen</critValveOpen>
+  <critValveClosed>Ventil: Uzavřen</critValveClosed>
+  <critOpenValve>Otevřít ventil</critOpenValve>
+  <critCloseValve>Uzavřít ventil</critCloseValve>
+  <critToggleValve>Přepnout ventil</critToggleValve>
+  <critTempBoost>Zvýšení teploty</critTempBoost>
+  <critTemp>Teplota</critTemp>
+  <critCooling>Chlazení</critCooling>
+  <critTurbine>Turbína</critTurbine>
+  <critControlRod>Regulační tyče</critControlRod>
+  <critTargetRod>Regulační tyče reaktoru:</critTargetRod>
+  <critFuelRemaining2>Zbývající palivo: {0}</critFuelRemaining2>
+  <RimatomEmpty>Prázdný</RimatomEmpty>
+  <RimatomActivated>Aktivní</RimatomActivated>
+  <RimatomCracked>Prasklé</RimatomCracked>
+  <RimatomSpent>Vyhořelé</RimatomSpent>
+  <RimatomNew>Nové</RimatomNew>
+  <RimatomRemove>Odstranit</RimatomRemove>
+  <RimatomStore>Uskladnit</RimatomStore>
+  <RimatomLife>Životnost</RimatomLife>
+  <UnsafeFacility>Nebezpečné zařízení</UnsafeFacility>
+  <FacilityNoPower>Bez napájení</FacilityNoPower>
+  <NoActiveBenchWithProject>Žádné aktivní stanoviště s požadovaným projektem</NoActiveBenchWithProject>
+  <NoStandableCell>Žádné sousedící buňka</NoStandableCell>
+
+  <critPlaceOnCore>Musí být postaven na roztaveném reaktoru správného typu</critPlaceOnCore>
+  <NeedsRiver>Musí být umístěno u řeky, jezera či oceánu</NeedsRiver>
+  <critMoreWater>Vyžaduje větší vodní plochu</critMoreWater>
+  <critActiveCore>Reaktor je stále v provozu</critActiveCore>
+  <critCrackedcore>V reaktoru je prasklina</critCrackedcore>
+  <critNoSlotDes>Žádné vyznačené sloty</critNoSlotDes>
+  <critnoFuelRods>Není dostupné palivo</critnoFuelRods>
+  <critNoSpace>Žádný prostot</critNoSpace>
+  <critSpentOnly>Nastavit pouze pro vyhořelé palivo, žádné není dostupné</critSpentOnly>
+  <critNoPool>Není dostupný skladovací bazén</critNoPool>
+
+  <critCoreIntegrityDesc>Strukturální integrita tohoto reaktoru je příliš nízká, může dojít k prasknutí.</critCoreIntegrityDesc>
+
+
+  <TradeShipPrice>Vyslat obchodní loď za ({0} stříbra)</TradeShipPrice>
+  <TradeShipPriceNeed>K vyslání obchodní lodi je potřeba {0} stříbra</TradeShipPriceNeed>
+  <TradeShipCooldown>Opětovné vyslání obchodní lodi za: {0}</TradeShipCooldown>
+  <TradeShipArrival>Přílet obchodní lodi: {0}</TradeShipArrival>
+
+  <TradeShipReq>K vaší planetě byla vysána obchodní loď společnosti Rimatomics.\n\nDorazí za dva dny.</TradeShipReq>
+
+  <LowerPowerLimit>Snížit limit výkonu</LowerPowerLimit>
+  <RaisePowerLimit>Zvýšit limit výkonu</RaisePowerLimit>
+  <PowerLimitDesc>Změní limit výkonu tohoto transformátoru, čím lze regulovat distribuci elektřiny do většího počtu sítí\n\nPro přesnější nastavování podrž Shift</PowerLimitDesc>
+  <TrannyLimit>Limit výkonu: {0}kW</TrannyLimit>
+  <TurbinePower>Výkon turbíny: {0}kW</TurbinePower>
+
+
+  <!--RESEARCH-->
+  <NonBlueprintUpgrade></NonBlueprintUpgrade>
+  <BlueprintUpgradeDesc>Toto je vylepšení plánů staveb, které budou odteď stavěny s tímto vylepšením, ale existující stavby bude nutné vylepšit manuálně pomocí vyrobeného modulu.</BlueprintUpgradeDesc>
+  <RimatomFree>Zdarma</RimatomFree>
+  <RimatomPurchase>Koupit</RimatomPurchase>
+  <RimatomPrice>Cena</RimatomPrice>
+  <RimatomUnlocks>Odemkne</RimatomUnlocks>
+  <openResearchPanel>Otevřít výzkumný panel</openResearchPanel>
+  <ResearchProg>{0}/{1}</ResearchProg>
+  <ResearchPriceNeed>Vyžaduje {0} v blízkosti obchodního majáku</ResearchPriceNeed>
+  <RimUnlocked>Zaměřena sonda.</RimUnlocked>
+  <RimatomicsResearchAlert>Výzkum Rimatomics</RimatomicsResearchAlert>
+  <RimatomicResearchAlertMess>Projekt: {0}\nKrok: {1}\nÚkol: {2}</RimatomicResearchAlertMess>
+  <thingsUnlocked>Odemčeno - </thingsUnlocked>
+  <RimatomStepComplete>Krok dokončen</RimatomStepComplete>
+  <RequiresFac> Vyžaduje: </RequiresFac>
+  <StepInspect>Krok: {0}</StepInspect>
+  <ResearchComplete>Výzkum dokončen</ResearchComplete>
+  <StillTestingDef>Probíhají zkoušky prototypu</StillTestingDef>
+  <TabResearch>Výzkum</TabResearch>
+  <CurProj>Projekt: {0}</CurProj>
+  <CurStep>Krok: {0}</CurStep>
+  <SkillLevel>{0} Vyžaduje úroveň {1} schopnosti {2}</SkillLevel>
+	<Rimatomics.MissingFacility>Chybějící zařízení</Rimatomics.MissingFacility>
+
+  <DesignatorRemoveRimatomicsPipes>Odstranit potrubí</DesignatorRemoveRimatomicsPipes>
+  <DesignatorRemoveRimatomicsPipesDesc>Označí potrubí k demontáži</DesignatorRemoveRimatomicsPipesDesc>
+
+  <Alert_ResearchFacility>Chybí výzkumné zařízení</Alert_ResearchFacility>
+  <RequiresFacility>Pro následující krok je vyžadováno: {0}</RequiresFacility>
+
+  <DesignatorRemoveColdWater>Odstranit vodní potrubí</DesignatorRemoveColdWater>
+  <DesignatorRemoveColdWaterDesc>Odstraní potrubí na studenou vodu</DesignatorRemoveColdWaterDesc>
+
+  <DesignatorRemoveCooling>Odstranit chlazení</DesignatorRemoveCooling>
+  <DesignatorRemoveCoolingDesc>Odstraní chladící potrubí</DesignatorRemoveCoolingDesc>
+
+  <DesignatorRemoveHighVoltage>Odstranit vedení vysokého napětí</DesignatorRemoveHighVoltage>
+  <DesignatorRemoveHighVoltageDesc>Odstraní vedení vysokého napětí</DesignatorRemoveHighVoltageDesc>
+
+  <DesignatorRemoveLoom>Odstranit svazek kabelů</DesignatorRemoveLoom>
+  <DesignatorRemoveLoomDesc>Odstraní kabely</DesignatorRemoveLoomDesc>
+
+  <DesignatorRemoveSteam>Odstranit parovod</DesignatorRemoveSteam>
+  <DesignatorRemoveSteamDesc>Odstraní parovody</DesignatorRemoveSteamDesc>
+
+  <coreUpgradeFail>Reaktor nelze vylepšit, když je v provozu</coreUpgradeFail>
+  <powerUpgradeFail>Před vylepšením je nutné budovu vypnout</powerUpgradeFail>
+
+  <RimatomicResearchCompleteDialog>{0} - dokončeno\n\n{1}</RimatomicResearchCompleteDialog>
+
+  <rimatomicsProto> Prototyp</rimatomicsProto>
+
+  <StartProject>Zahájit projekt</StartProject>
+  <ProjectInitiated>Projekt zahájen</ProjectInitiated>
+  <StopProject>Zastavit projekt</StopProject>
+  <ProjectTerminated>Projekt ukončen</ProjectTerminated>
+  <NoBenchAvailable>Není dostupné výzkumné stanoviště Rimatomics</NoBenchAvailable>
+  <ResearchPurchased>Výzkum zakoupen!</ResearchPurchased>
+</LanguageData>

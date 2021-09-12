@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ControlRodActuators1.label>Vyzkoumat jaderné reaktory</ControlRodActuators1.label>
+
+	<ControlRodActuators1.description>Experimentuj s výzkumným reaktorem a naplánuj zkoušky, které půjde provést v aktivním reaktoru.</ControlRodActuators1.description>
+
+	<ControlRodActuators2.label>Dvakrát aktivovat AZ-5</ControlRodActuators2.label>
+
+	<ControlRodActuators2.description>Otestuj systém regulačních tyčí tak, že dvakrát aktivuješ AZ-5 ve chvíli, kdy má reaktor palivo a je nastaven na 100% výkon.</ControlRodActuators2.description>
+
+	<ControlRodActuators3.label>Vyzkoumat jaderné reaktory</ControlRodActuators3.label>
+
+	<ControlRodActuators3.description>Analyzuj získaná data a dokonči design nového pohonného systému regulačních tyčí</ControlRodActuators3.description>
+
+	<ThreatDetection1.label>Vyzkoumat detekci hrozeb</ThreatDetection1.label>
+
+	<ThreatDetection1.description>Zdatný výzkumník musí naplánovat sérii zkoušek, které budou provedeny na systému TACS, aby se tak získala data pro následnou analýzu</ThreatDetection1.description>
+
+	<ThreatDetection2.label>Získat data o nájezdech</ThreatDetection2.label>
+
+	<ThreatDetection2.description>Získej data o nájezdech. Při každém nájezdu bude analyzován počet útočníků a metoda přepravy, které budou následně porovnány s daty ze senzorů, aby se dal vytvořit predikční model.</ThreatDetection2.description>
+
+	<ThreatDetection3.label>Vyzkoumat detekci hrozeb</ThreatDetection3.label>
+
+	<ThreatDetection3.description>Analyzuj získaná data a dokonči design systému ATOM.</ThreatDetection3.description>
+
+	<GuidenceSystem1.label>Vyzkoumat jaderné reaktory</GuidenceSystem1.label>
+
+	<GuidenceSystem1.description>Zdatný výzkumník musí připravit sérii zkoušek, které budou provedeny na strategických balistických střelách za účelem získání dat pro analýzu</GuidenceSystem1.description>
+
+	<GuidenceSystem2.label>Získat data</GuidenceSystem2.label>
+
+	<GuidenceSystem2.description>Pro získání dat odpal na jakýkoliv cíl balistickou raketu, jejich množství se bude odvíjet od úspěšnosti odpalu, přičemž maximální množství dat ti poskytne úspěšný zásah a detonace v cíli.</GuidenceSystem2.description>
+
+	<GuidenceSystem3.label>Vyzkoumat jaderné reaktory</GuidenceSystem3.label>
+
+	<GuidenceSystem3.description>Analyzuj získaná data a dokonči design naváděcího systému</GuidenceSystem3.description>
+
+	<MEPS1.label>Vyzkoumat MEPS</MEPS1.label>
+
+	<MEPS1.description>Zdatný výzkumník musí připravit sérii zkoušek, které budou provedeny na energetických zbraních Rimatomics za účelem získání dat pro analýzu</MEPS1.description>
+
+	<MEPS2.label>Získat data</MEPS2.label>
+
+	<MEPS2.description>Střílej z jakýchkoliv zbraní Rimatomics nastavených na plný výkon, abys získal data.</MEPS2.description>
+
+	<MEPS3.label>Vyzkoumat MEPS</MEPS3.label>
+
+	<MEPS3.description>Analyzuj získaná data a dokonči design modulu MEPS</MEPS3.description>
+
+	<ALC1.label>Vyzkoumat ALC</ALC1.label>
+
+	<ALC1.description>Zdatný výzkumník musí připravit sérii zkoušek, které budou provedeny na energetických zbraních Rimatomics za účelem získání dat pro analýzu</ALC1.description>
+
+	<ALC2.label>Získat data</ALC2.label>
+
+	<ALC2.description>Střílej z jakýchkoliv zbraní Rimatomics nastavených na plný výkon, abys získal data.</ALC2.description>
+
+	<ALC3.label>Vyzkoumat ALC</ALC3.label>
+
+	<ALC3.description>Analyzuj získaná data a dokonči design modulu ALC</ALC3.description>
+
+	<ERS1.label>Vyzkoumat ELS</ERS1.label>
+
+	<ERS1.description>Zdatný výzkumník musí připravit sérii zkoušek, které budou provedeny na energetických zbraních Rimatomics za účelem získání dat pro analýzu</ERS1.description>
+
+	<ERS2.label>Získat data</ERS2.label>
+
+	<ERS2.description>Střílej z jakýchkoliv zbraní Rimatomics nastavených na plný výkon, abys získal data.</ERS2.description>
+
+	<ERS3.label>Vyzkoumat ELS</ERS3.label>
+
+	<ERS3.description>Analyzuj získaná data a dokonči design modulu ERS</ERS3.description>
+
+	<SCAD1.label>Vyzkoumat SCAD</SCAD1.label>
+
+	<SCAD1.description>Zdatný výzkumník musí připravit sérii zkoušek, které budou provedeny na energetických zbraních Rimatomics za účelem získání dat pro analýzu</SCAD1.description>
+
+	<SCAD2.label>Získat data</SCAD2.label>
+
+	<SCAD2.description>Střílej z jakýchkoliv zbraní Rimatomics nastavených na plný výkon, abys získal data.</SCAD2.description>
+
+	<SCAD3.label>Vyzkoumat SCAD</SCAD3.label>
+
+	<SCAD3.description>Analyzuj získaná data a dokonči design modulu SCAD</SCAD3.description>
+
+	<DriveActuator1.label>Vyzkoumat posilovače pohonu</DriveActuator1.label>
+
+	<DriveActuator1.description>Zdatný výzkumník musí provést experimenty na stanovišti pro výzkum zbraní</DriveActuator1.description>
+
+	<DriveActuator2.label>Vyzkoumat posilovače pohonu</DriveActuator2.label>
+
+	<DriveActuator2.description>Analyzuj získaná data a dokonči design posilovačů pohonu</DriveActuator2.description>
+
+	<Railgun_TargetingChip1.label>Vyzkoumat zaměřovací čipy</Railgun_TargetingChip1.label>
+
+	<Railgun_TargetingChip1.description>Zdatný výzkumník musí připravit sérii zkoušek, které budou provedeny na railgunu pro získání dat k následné analýze</Railgun_TargetingChip1.description>
+
+	<Railgun_TargetingChip2.label>Získat data</Railgun_TargetingChip2.label>
+
+	<Railgun_TargetingChip2.description>Použij railgun na jakýkoliv cíl pro získání dat</Railgun_TargetingChip2.description>
+
+	<Railgun_TargetingChip3.label>Vyzkoumat zaměřovací čipy</Railgun_TargetingChip3.label>
+
+	<Railgun_TargetingChip3.description>Analyzuj získaná data a dokonči design zaměřovacího čipu</Railgun_TargetingChip3.description>
+
+	<LenseModule1.label>Vyzkoumat čočkový modul</LenseModule1.label>
+
+	<LenseModule1.description>Zdatný výzkumník musí připravit sérii zkoušek, které budou provedeny na Obelisku pro získání dat k následné analýze</LenseModule1.description>
+
+	<LenseModule2.label>Získat data</LenseModule2.label>
+
+	<LenseModule2.description>Použij Obelisk na jakýkoliv cíl pro získání dat</LenseModule2.description>
+
+	<LenseModule3.label>Vyzkoumat čočkový modul</LenseModule3.label>
+
+	<LenseModule3.description>Analyzuj získaná data a dokonči design čočkového modulu</LenseModule3.description>
+
+	<BeamSplitter1.label>Vyzkoumat rozdělovač paprsku</BeamSplitter1.label>
+
+	<BeamSplitter1.description>Zdatný výzkumník musí připravit sérii zkoušek, které budou provedeny na Obelisku pro získání dat k následné analýze</BeamSplitter1.description>
+
+	<BeamSplitter2.label>Získat data</BeamSplitter2.label>
+
+	<BeamSplitter2.description>Použij Obelisk na jakýkoliv cíl pro získání dat, množství dat se bude odvíjet od procentuálného poškození při každém výstřelu.</BeamSplitter2.description>
+
+	<BeamSplitter3.label>Vyzkoumat rozdělovač paprsku</BeamSplitter3.label>
+
+	<BeamSplitter3.description>Analyzuj získaná data a dokonči design rozdělovače paprsku</BeamSplitter3.description>
+
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<MakeMoxFuelRods.label>Vyrobit palivové tyče typu MOX</MakeMoxFuelRods.label>
+
+	<MakeMoxFuelRods.description>Vyrobit palivové tyče typu MOX.</MakeMoxFuelRods.description>
+
+	<MakeMoxFuelRods.jobstring>Vyrábí palivové tyče typu MOX.</MakeMoxFuelRods.jobstring>
+
+	<MakeFuelRods.label>Vyrobit uranové palivové tyče</MakeFuelRods.label>
+
+	<MakeFuelRods.description>Vyrobit uranové palivové tyče.</MakeFuelRods.description>
+
+	<MakeFuelRods.jobstring>Vyrábí uranové jaderné palivo.</MakeFuelRods.jobstring>
+
+	<SmeltBlades.label>Roztavit turbínové lopatky</SmeltBlades.label>
+
+	<SmeltBlades.description>Turbínové lopatky lze pomocí tepla a silných elektromagnetu rozložit na užitečné suroviny.</SmeltBlades.description>
+
+	<SmeltBlades.jobstring>Taví turbínové lopatky.</SmeltBlades.jobstring>
+
+	<DismantleWarhead.label>Rozmontovat bojovou hlavici</DismantleWarhead.label>
+
+	<DismantleWarhead.description>Recykluje bojovou hlavici na užitečné suroviny</DismantleWarhead.description>
+
+	<DismantleWarhead.jobstring>Rozmontovává bojovou hlavici.</DismantleWarhead.jobstring>
+
+</LanguageData>

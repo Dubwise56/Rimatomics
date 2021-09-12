@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Railgun_Cannon.label>Railgun punisher</Railgun_Cannon.label>
+
+	<Railgun_Cannon.description>Railgun.</Railgun_Cannon.description>
+
+	<Obelisk_Laser.label>Laserový obelisk</Obelisk_Laser.label>
+
+	<Obelisk_Laser.description>Laserový obelisk.</Obelisk_Laser.description>
+
+	<HEL_Laser.label>Laserové dělo HEL</HEL_Laser.label>
+
+	<HEL_Laser.description>HEL Laser.</HEL_Laser.description>
+
+	<RimatomicsShieldGenerator.label>Sentinel</RimatomicsShieldGenerator.label>
+
+	<RimatomicsShieldGenerator.description>RA-S4 Sentinel je generátor energetického štítu, který využivá kombinaci laserů, mikrovln a obloukových výbojů k vytvoření plazmatické bariéry, která dokáže zachytit pevné či energetické projektily. Senzory na zařízení nejdříve zachytí rázovou vlnu, zaměří její vzdálenost a směr palby ve vztahu k chráněnému cíli, načež zařízení vypočítá palebný plán a zastaví střelu pomocí odrazu, lomu, rozptylu, absorbce či přenosu hybnosti.</RimatomicsShieldGenerator.description>
+
+	<PPCHEL.label>HEL</PPCHEL.label>
+
+	<PPCHEL.description>RA-702 High Energy Laser (Vysokoenergetický laser HEL) ničí vysoko letící nepřátelské projektily, jako například minometné střely. Pokud někdo vystřelí z minometu, systém spočítá, zda se projektil dostane do dostřelu HELu, načež ho sleduje a sestřelí ve chvíli, kdy se dostane do dostřelu.</PPCHEL.description>
+
+	<PPCTeslaCoil.label>Teslova cívka</PPCTeslaCoil.label>
+
+	<PPCTeslaCoil.description>Teslova cívka typu RA-42T zasahuje cíle silným obloukovým výbojem, čímž způsobuje vážné popáleniny či okamžitou smrt. 100% přesnost, střední dostřel a schopnost zapálit cíle. Automatické zaměřování a palba. K manuálnímu zaměřování je potřeba obsluhovaná konzole SACS.</PPCTeslaCoil.description>
+
+	<PPCADS.label>ADS</PPCADS.label>
+
+	<PPCADS.description>RA-22 Active Denial System (ADS) je nesmrtící energetická zbraň určená k blokování určitých oblastí a kontrole davu. Způsobuje zvýšení teploty kůže, což v zasažených vyvolá nesnesitelný pocit, že hoří, díky čemuž začnou prchat. Může pronikat skrze překážky a vyžaduje obsluhovanou konzoli SACS.</PPCADS.description>
+
+	<Tesla_Coil_Arc_Discharger.label>Obloukový vrhač teslovy cívky</Tesla_Coil_Arc_Discharger.label>
+
+	<Tesla_Coil_Arc_Discharger.description>Obloukový vrhač teslovy cívky.</Tesla_Coil_Arc_Discharger.description>
+
+	<Bullet_PlasmaToroid.label>Plazmatický toroid</Bullet_PlasmaToroid.label>
+
+	<PPCWeaponsConsole.label>SACS</PPCWeaponsConsole.label>
+
+	<PPCWeaponsConsole.description>RA-c85 Semi Automated Command Station (Poloautomatická velitelská stanice) je vyžadována pro řízení všech energetických zbraní Rimatomics, přičemž pro ovládání některých z nich je také nezbytná obsluha, aby mohly zcela fungovat.</PPCWeaponsConsole.description>
+
+	<PPCObelisk.label>Obelisk</PPCObelisk.label>
+
+	<PPCObelisk.description>RA-2152-X Obelisk je energetická zbraň využívající pevnolátkový laser ke spalování cílů. 100% přesnost, dlouhý dostřel a ničivá síla. Automatické zaměřování a palba. K manuálnímu zaměřování je potřeba obsluhovaná SACS.</PPCObelisk.description>
+
+	<Marauder_Railgun.label>Railgun typu Marauder</Marauder_Railgun.label>
+
+	<Marauder_Railgun.description>Marauder Railgun</Marauder_Railgun.description>
+
+	<PPCRailgun.label>Punisher</PPCRailgun.label>
+
+	<PPCRailgun.description>RA-1802D Punisher (Mstitel) je railgunová platforma využívající silné elektromagnetické pulzy k vystřelování kovových projektilů extrémní rychlostí a na extrémní vzdálenost. Využívá 25-ranné zásobníky. Palba na velkou vzdálenost nevyžaduje přímý dohled na cíl, narozdíl od palby na cíle v blízkosti railgunu. Pro použití je potřeba obsluhovaná konzole SACS.</PPCRailgun.description>
+
+	<RadarDish.label>TACS</RadarDish.label>
+
+	<RadarDish.description>RA-92 Target Acquisition and Communication System (Systém pro komunikaci a získávání cílů - TACS) využívá kombinaci několika technologií pro zaměřování a sledování pozemních i vzdušných cílů a posílání dat do zbraňových systémů.</RadarDish.description>
+
+	<PPC.label>PPC</PPC.label>
+
+	<PPC.description>RA-P3 Pulsed Power Capacitor (Pulzní energetický kapacitor) uskladňuje velké množství energie v soustavě ultrakapacitorů. Tato energie může být velice rychle uvolněna do kompatibilních zbraní Rimatomics. Jinak PPC slouží jako vysokokapacitní baterie s minimálním samovybíjením.</PPC.description>
+
+	<PPCMarauder.label>Marauder</PPCMarauder.label>
+
+	<PPCMarauder.description>RA-3b Marauder (Marodér) je vícehlavňový koaxiální plazmový railgun, který vystřeluje velkou rychlostí a na obří vzdálenost plazmatem tvořené toroidy, které při dopadu explodují a uvolňují radiaci. Vyžaduje obsluhovanou konzoli SACS.</PPCMarauder.description>
+
+	<ADS_Dish.label>Talíř ADS</ADS_Dish.label>
+
+	<ADS_Dish.description>Talíř ADS.</ADS_Dish.description>
+
+</LanguageData>

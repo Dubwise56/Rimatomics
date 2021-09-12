@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ICBMfission.label>Strategická balistická střela</ICBMfission.label>
+
+	<ICBMfission.description>Strategická balistická střela je zařízení s raketovým pohonem primárně určené jako nosič jaderných zbraní. Tato konkrétní střela má štěpnou hlavici.</ICBMfission.description>
+
+	<Sabot.label>Impaktor</Sabot.label>
+
+	<Sabot.description>Kinetický impaktor z railgunu</Sabot.description>
+
+	<Fallout.label>Jaderný spad</Fallout.label>
+
+	<Fallout.description>Reziduum radioaktivního materiálu, který byl rozptýlen do atmosféry při jaderném výbuchu či při roztavení reaktoru.</Fallout.description>
+
+</LanguageData>

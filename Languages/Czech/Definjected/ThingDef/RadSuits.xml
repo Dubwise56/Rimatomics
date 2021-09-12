@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Apparel_MoppMaskSnow.description>Díky všitému stínění částečně chrání proti radioaktivnímu záření, ale především chrání před přímým kontaktem s radioaktivním materiálem či inhalací radioaktivního prachu či plynů. Bojová verze je vyrobena z odolnějších materiálů.</Apparel_MoppMaskSnow.description>
+
+	<Apparel_MoppMaskSnow.label>MOPP maska(Sníh)</Apparel_MoppMaskSnow.label>
+
+	<Apparel_RadiationSuit.label>Protiradiační oblek</Apparel_RadiationSuit.label>
+
+	<Apparel_RadiationSuit.description>Oblek, který díky všitému stínění částečně chrání proti radioaktivnímu záření.</Apparel_RadiationSuit.description>
+
+	<Apparel_MoppMaskDesert.description>Díky všitému stínění částečně chrání proti radioaktivnímu záření, ale především chrání před přímým kontaktem s radioaktivním materiálem či inhalací radioaktivního prachu či plynů. Bojová verze je vyrobena z odolnějších materiálů.</Apparel_MoppMaskDesert.description>
+
+	<Apparel_MoppMaskDesert.label>MOPP maska (Poušť)</Apparel_MoppMaskDesert.label>
+
+	<Apparel_MoppMaskWoodland.description>Díky všitému stínění částečně chrání proti radioaktivnímu záření, ale především chrání před přímým kontaktem s radioaktivním materiálem či inhalací radioaktivního prachu či plynů. Bojová verze je vyrobena z odolnějších materiálů.</Apparel_MoppMaskWoodland.description>
+
+	<Apparel_MoppMaskWoodland.label>MOPP maska (Les)</Apparel_MoppMaskWoodland.label>
+
+	<Apparel_RadiationMask.label>Protiradiační maska</Apparel_RadiationMask.label>
+
+	<Apparel_RadiationMask.description>Díky všitému stínění částečně chrání proti radioaktivnímu záření, ale především chrání před přímým kontaktem s radioaktivním materiálem či inhalací radioaktivního prachu či plynů.</Apparel_RadiationMask.description>
+
+	<Apparel_MoppSuitWoodland.description>Oblek, který díky všitému stínění částečně chrání proti radioaktivnímu záření. Bojová verze je vyrobena z odolnějších materiálů.</Apparel_MoppSuitWoodland.description>
+
+	<Apparel_MoppSuitWoodland.label>MOPP oblek (Les)</Apparel_MoppSuitWoodland.label>
+
+	<Apparel_MoppSuitDesert.description>Oblek, který díky všitému stínění částečně chrání proti radioaktivnímu záření. Bojová verze je vyrobena z odolnějších materiálů.</Apparel_MoppSuitDesert.description>
+
+	<Apparel_MoppSuitDesert.label>MOPP oblek (Poušť)</Apparel_MoppSuitDesert.label>
+
+	<Apparel_MoppSuitSnow.description>Oblek, který díky všitému stínění částečně chrání proti radioaktivnímu záření. Bojová verze je vyrobena z odolnějších materiálů.</Apparel_MoppSuitSnow.description>
+
+	<Apparel_MoppSuitSnow.label>MOPP oblek (Sníh)</Apparel_MoppSuitSnow.label>
+
+</LanguageData>

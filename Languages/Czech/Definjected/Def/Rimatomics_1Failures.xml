@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Failure_FacilityBreakdown.label>Porucha zařízení</Failure_FacilityBreakdown.label>
+
+	<Failure_FacilityBreakdown.description>Zařízení se během výzkumu porouchalo</Failure_FacilityBreakdown.description>
+
+	<Failure_RadiationLeak.label>Únik radiace</Failure_RadiationLeak.label>
+
+	<Failure_RadiationLeak.description>V zařízení došlo ke krátkodobému úniku radiace</Failure_RadiationLeak.description>
+
+	<Failure_MicrowaveLeak.label>Únik mikrovln</Failure_MicrowaveLeak.label>
+
+	<Failure_MicrowaveLeak.description>V zařízení došlo k úniku mikrovlnného záření</Failure_MicrowaveLeak.description>
+
+	<Failure_AcidLeak.label>Únik kyseliny</Failure_AcidLeak.label>
+
+	<Failure_AcidLeak.description>Ze zařízení uniká kyselina</Failure_AcidLeak.description>
+
+	<Failure_GasLeak.label>Únik plynu</Failure_GasLeak.label>
+
+	<Failure_GasLeak.description>Ze zařízení uniká toxický plyn</Failure_GasLeak.description>
+
+	<Failure_BlindingFlash.label>Oslepující záblesk</Failure_BlindingFlash.label>
+
+	<Failure_BlindingFlash.description>Zařízení vydalo oslepující záblesk světla</Failure_BlindingFlash.description>
+
+	<Failure_ArcDischarge.label>Obloukový výboj</Failure_ArcDischarge.label>
+
+	<Failure_ArcDischarge.description>Ze zařízení vychází vysokonapěťový elektrický oblouk</Failure_ArcDischarge.description>
+
+	<Failure_LaserDischarge.label>Laserový výboj</Failure_LaserDischarge.label>
+
+	<Failure_LaserDischarge.description>Ze zařízení vychází laserový paprsek</Failure_LaserDischarge.description>
+
+	<Failure_Overvoltage.label>Přepětí</Failure_Overvoltage.label>
+
+	<Failure_Overvoltage.description>Zařízení utrpělo přepětí a začalo hořet</Failure_Overvoltage.description>
+
+	<Failure_ShortCircuit.label>Zkrat</Failure_ShortCircuit.label>
+
+	<Failure_ShortCircuit.description>V zařízení došlo ke zkratu. Okamžitě vypni přívod elektřiny nebo bude budova zničena!</Failure_ShortCircuit.description>
+
+</LanguageData>

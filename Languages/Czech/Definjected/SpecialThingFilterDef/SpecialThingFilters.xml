@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<NuclearFuelNew.label>Povolit nové palivo</NuclearFuelNew.label>
+
+	<NuclearFuelNew.description>Umožnit zde skladovat nové palivo.</NuclearFuelNew.description>
+
+	<NuclearFuelUsed.label>Povolit použité palivo</NuclearFuelUsed.label>
+
+	<NuclearFuelUsed.description>Umožnit zde skladovat použité palivo.</NuclearFuelUsed.description>
+
+	<NuclearFuelCracked.label>Povolit prasklé palivo</NuclearFuelCracked.label>
+
+	<NuclearFuelCracked.description>Umožnit zde skladovat prasklé palivové tyče.</NuclearFuelCracked.description>
+
+	<NuclearFuelNotCracked.label>Povolit nepopraskané palivo</NuclearFuelNotCracked.label>
+
+	<NuclearFuelNotCracked.description>Umožnit zde skladovat neprasklé palivové tyče.</NuclearFuelNotCracked.description>
+
+	<NuclearFuelProcessable.label>Povolit přepracovatelné</NuclearFuelProcessable.label>
+
+	<NuclearFuelProcessable.description>Umožnit zde skladovat přepracovatelné palivo.</NuclearFuelProcessable.description>
+
+	<NuclearFuelNotProcessable.label>Povolit nepřepracovatelné</NuclearFuelNotProcessable.label>
+
+	<NuclearFuelNotProcessable.description>Umožnit zde skladovat nepřepracovatelné palivo.</NuclearFuelNotProcessable.description>
+
+</LanguageData>

@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RimatomicsResearch.reportstring>Provádí výzkum na: TargetA.</RimatomicsResearch.reportstring>
+
+	<SuperviseConstruction.reportstring>Staví: TargetA.</SuperviseConstruction.reportstring>
+
+	<SuperviseResearch.reportstring>Provádí výzkum na: TargetA.</SuperviseResearch.reportstring>
+
+	<UpgradeBuilding.reportstring>Vylepšuje: TargetA.</UpgradeBuilding.reportstring>
+
+	<FleeADS.reportstring>Prchá od: TargetA.</FleeADS.reportstring>
+
+	<LoadRailgunMagazine.reportstring>Nabíjí zásobníky railgunu.</LoadRailgunMagazine.reportstring>
+
+	<LoadSilo.reportstring>Nabíjí silo.</LoadSilo.reportstring>
+
+	<UseReactorConsole.reportstring>Obsluhuje reaktorovou konzoli.</UseReactorConsole.reportstring>
+
+	<HaulModuletoCore.reportstring>Přenáší: TargetB do: TargetA.</HaulModuletoCore.reportstring>
+
+	<RemoveFuelModule.reportstring>Odstraňuje palivové tyče z: TargetA.</RemoveFuelModule.reportstring>
+
+	<LoadSpentFuel.reportstring>Přenáší: TargetB do: TargetA.</LoadSpentFuel.reportstring>
+
+	<UnloadPlutonium.reportstring>Odstraňuje plutonium z: TargetA.</UnloadPlutonium.reportstring>
+
+</LanguageData>

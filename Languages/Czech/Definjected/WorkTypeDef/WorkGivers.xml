@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<NuclearWork.labelshort>Jaderné</NuclearWork.labelshort>
+
+	<NuclearWork.pawnlabel>Spravovat</NuclearWork.pawnlabel>
+
+	<NuclearWork.gerundlabel>Vkládá</NuclearWork.gerundlabel>
+
+	<NuclearWork.description>Přesunout a vložit radioaktivní materiál</NuclearWork.description>
+
+	<NuclearWork.verb>Jaderné</NuclearWork.verb>
+
+</LanguageData>

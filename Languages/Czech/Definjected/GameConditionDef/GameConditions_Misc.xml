@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<RadioactiveFallout.label>Zamoření z roztaveného reaktoru</RadioactiveFallout.label>
+
+	<RadioactiveFallout.description>Do vzduchu se vznedl oblak radioaktivního popela a kouře z roztaveného reaktoru a nyní pokryje celé okolí.</RadioactiveFallout.description>
+
+	<RadioactiveFallout.endmessage>Většina radioaktivního prachu byla odplavena.</RadioactiveFallout.endmessage>
+
+	<NuclearFallout.label>Zamoření z jaderného výbuchu</NuclearFallout.label>
+
+	<NuclearFallout.description>Do vzduchu se vznedl oblak radioaktivního popela a kouře z výbuchu jaderné bomby a nyní pokryje celé okolí.</NuclearFallout.description>
+
+	<NuclearFallout.endmessage>Většina radioaktivního prachu byla odplavena.</NuclearFallout.endmessage>
+
+</LanguageData>

@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  
+  <!--Radiation detectors-->
+  
+  <Geigercounter1.label>Vyzkoumat detektory radiace</Geigercounter1.label>
+
+	<Geigercounter1.description>Zdatný výzkumník musí prozkoumat designy a naučit se, jak fungují detektory radiace.</Geigercounter1.description>
+
+	<Geigercounter2.label>Zhodnotit komponenty</Geigercounter2.label>
+
+	<Geigercounter2.description>Zdatný řemeslník musí zjistit, jak vyrábět a opravovat detektory radiace pro všechny kolonisty s použitím dostupných materiálů a nástrojů.</Geigercounter2.description>
+  
+  <!--Radiation suits-->
+ 
+  <RadiationSuits1.label>Vyzkoumat protiradiační obleky</RadiationSuits1.label>
+
+	<RadiationSuits1.description>Zdatný výzkumník musí prostudovat designy a naučit se, jak fungují protiradiační obleky, než budeme moci vyrábět naše vlastní.</RadiationSuits1.description>
+
+	<RadiationSuits2.label>Zhodnotit komponenty</RadiationSuits2.label>
+
+	<RadiationSuits2.description>Zdatný řemeslník musí vytvořit plány pro výrobu protiradiačních obleků z dostupných materiálů a nástrojů.</RadiationSuits2.description>
+
+  <!--Nuclear research-->
+
+  	<NuclearResearch1.label>Vyzkoumat technologii jaderných reaktorů</NuclearResearch1.label>
+
+	<NuclearResearch1.description>Zdatný výzkumník musí prostudovat designy a naučit se, jak fungují jaderné reaktory, než si budeme moci postavit vlastní.</NuclearResearch1.description>
+
+	<NuclearResearchConstruct.label>Postavit výzkumný reaktor</NuclearResearchConstruct.label>
+
+	<NuclearResearchConstruct.description>Postav výzkumný reaktor. Kolonisté k němu budou potřebovat přístup kvůli experimentům. Doporučuje se ho postavit v bezpečné, ohnivzdorné laboratoři.</NuclearResearchConstruct.description>
+
+	<NuclearResearchPractical.label>Výzkum a výcvik</NuclearResearchPractical.label>
+
+	<NuclearResearchPractical.description>Nainstaluj ovládací software reaktoru a proveď cvičení, při kterých budou zároveň testovány schopnosti reaktoru.</NuclearResearchPractical.description>
+    
+  <!--Nuclear reactor-->
+  
+  	<NuclearReactorResearchPhase.label>Vyzkoumat jaderné reaktory</NuclearReactorResearchPhase.label>
+
+	<NuclearReactorResearchPhase.description>Zdatný výzkumník musí prostudovat designy jaderných reaktorů Rimatomics a připravit výstavbu našeho prvního reaktoru.</NuclearReactorResearchPhase.description>
+
+	<NuclearReactorExperiments.label>Experimentovat na výzkumném reaktoru (velmi riskantní).</NuclearReactorExperiments.label>
+
+	<NuclearReactorExperiments.description>Zdatný výzkumník musí provést experimenty na výzkumném reaktoru. Tento krok přináší riziko katastrofických selhání.</NuclearReactorExperiments.description>
+
+	<BuildReactorCore.label>Postavit reaktor</BuildReactorCore.label>
+
+	<BuildReactorCore.description>Postav jaderný reaktor. Měj na paměti, že jakmile bude dokončen, bude na něm potřeba provést ještě další práce. Doporučuje se ho postavit v odstíněné místnosti, aby byli kolonisté chránění při přesunu paliva. Tloušťka zdi a HP materiálů použitých na její výstavbu určuje, kolik bude absorbovat radiace. Také doporučujeme kolem reaktoru ponechat nějaký prostor, neboť poškození působené radiací se snižuje i se vzdáleností.</BuildReactorCore.description>
+
+	<BuildReactorTurbine.label>Postavit turbínový generátor</BuildReactorTurbine.label>
+
+	<BuildReactorTurbine.description>K postavení turbíny je potřeba velké množství turbínových lopatek, které lze vyrobit na montážním stole Rimatomics.</BuildReactorTurbine.description>
+
+	<TestForCore.label>Připojit reaktor k turbíně</TestForCore.label>
+
+	<TestForCore.description>Připoj reaktor k turbínovému generátoru pomocí parovodu a potrubí na studenou vodu. Turbíny nejsou nebezpečné a můžeš je postavit mimo odstíněnou místnost s reaktorem, ale musí být uvnitř.</TestForCore.description>
+
+	<BuildReactorCooling.label>Postavit chladící systém</BuildReactorCooling.label>
+
+	<BuildReactorCooling.description>Postav jeden z dostupných chladících systémů a připoj ho k turbíně pomocí chladícího potrubí. Máš tři možnosti: Vodní chlazení vyžaduje řeku nebo velkou vodní plochu, chladící věže zase musí být postaveny venku a vyžadují spoustu energie i prostoru, a radiátory mají nejnižší chladící kapacitu, ale jsou menší, levnější a můžeš je postavit uvnitř.</BuildReactorCooling.description>
+
+	<BuildTransformer.label>Postavit transformátor</BuildTransformer.label>
+
+	<BuildTransformer.description>Postav transformátor a připoj ho k turbíně pomocí vysokonapěťových kabelů. Jeden transformátor může převést až 200 kW z turbíny na užitečnou elektřinu. Transformátory mohou být využity pro napájení separátních elektrických sítí. Nastavení limitu výkonu ti umožňuje přesněji distribuovat elektřinu do sítí.</BuildTransformer.description>
+
+	<BuildControlComputer.label>Postavit řídící systém reaktoru</BuildControlComputer.label>
+
+	<BuildControlComputer.description>Postav řídící systém reaktoru a připoj ho k reaktoru pomocí ovládacích kabelů. Z této konzole se ovládají reaktory. Můžeš je spojit se specifickými reaktory, kterým přiřadíš ID, což ti umožní jednotlivé reaktory řetězit. Pošli ke konzoli kolonistu, abys tak zpřístupnil ovládání reaktoru. Najednou jich může být otevřených několik.</BuildControlComputer.description>
+
+	<TestReactor.label>Otestovat jaderný reaktor</TestReactor.label>
+
+	<TestReactor.description>Vyrob nebo zakup palivové tyče a v řídícím systému urči, do kterých slotů je mají kolonisté nainstalovat. Nastav, aby byly v reaktoru aspoň dvě tyče vedle sebe, aby tak vznikl řetězec, použij řídící systém pro nastartování jádra a následně zvedni regulační tyče na 80% nebo víc, aby bylo možné získat data.</TestReactor.description>
+  
+  <!--Fuel reprocessing-->
+  
+  	<Plutonium1.label>Vyzkoumat zpracování plutonia</Plutonium1.label>
+
+	<Plutonium1.description>Zdatný výzkumník musí nastudovat procesy zpracování plutonia a navrhnout prototyp zařízení na přepracování paliva.</Plutonium1.description>
+
+	<Plutonium2.label>Postavit Zpracovávač plutonia</Plutonium2.label>
+
+	<Plutonium2.description>Postav Zpracovávač plutonia. Nejlépe co nejblíže reaktorům nebo skladišti vyhořelého paliva, aby se minimalizovalo vystavení radiaci. Pracovníci, kteří budou radioaktivní palivo přenášet, musí mít oblečené protiradiační oděvy.</Plutonium2.description>
+
+	<Plutonium3.label>Experimentovat se zpracovávačem plutonia (vysoce riskantní)</Plutonium3.label>
+
+	<Plutonium3.description> Experimentuj s prototypem zpracovávače plutonia, abys zajistil, že bude fungovat správně.</Plutonium3.description>
+  
+  <!--Advanced nuclear power-->
+  
+  <AdvReactor1.label>Experimentovat s výzkumnými reaktory (vysoce riskantní)</AdvReactor1.label>
+
+	<AdvReactor1.description>Zdatný výzkumník musí provádět experimenty na výzkumném reaktoru. Tento krok s sebou nese riziko katastrofálního selhání.</AdvReactor1.description>
+
+	<AdvReactor2.label>Vyzkoumat jaderné reaktory</AdvReactor2.label>
+
+	<AdvReactor2.description>Zdatný výzkumník musí dokončit design pokročilého reaktoru, než jej bude možné postavit.</AdvReactor2.description>
+
+	<AdvReactor3.label>Postavit pokročilý reaktor</AdvReactor3.label>
+
+	<AdvReactor3.description>Postav pokročilý jaderný reaktor. Je doporučeno jej postavit v odstíněné místnosti, aby byli kolonisté chráněni při přenášení paliva.</AdvReactor3.description>
+
+	<AdvReactor4.label>Otestovat jaderný reaktor</AdvReactor4.label>
+
+	<AdvReactor4.description>Zapni pokročilý reaktor a začni s výrobou energie, aby bylo možné získávat data.</AdvReactor4.description>
+  
+ <!--RTG-->
+  
+  <RTG1.label>Vyzkoumat RTG</RTG1.label>
+
+	<RTG1.description>Zdatný výzkumník musí prostudovat design Radioizotopových termoelektrických generátorů a naučit se, jak fungují, než budeme moci vyrábět své vlastní.</RTG1.description>
+
+	<RTG2.label>Vyrobit plutonium</RTG2.label>
+
+	<RTG2.description>Vyrob plutonium, které je potřeba při výrobě RTG. Lze jej vyrobit tak, že přepracuješ použité (vyhořelé) jaderné palivo ve zpracovávači plutonia.</RTG2.description>
+
+	<RTG3.label>Zhodnotit komponenty</RTG3.label>
+
+	<RTG3.description>Zdatný řemeslník musí vyzkoumat, jak můžeme vyrábět součástky pro radioizotopové termoelektrické generátory ze surovin, které máme k dispozici.</RTG3.description>
+  
+  <!--ICBM-->
+  
+	<ICBM1.label>Vyzkoumat jaderné zbraně</ICBM1.label>
+
+	<ICBM1.description>Zdatný výzkumník musí prostudovat design jaderných zbraní a naučit se, jak fungují, než budeme moci vyrábět své vlastní.</ICBM1.description>
+
+	<ICBM2.label>Vyrobit plutonium</ICBM2.label>
+
+	<ICBM2.description>Vyrob plutonium, které je potřeba pro výrobu bomb. Lze jej vyrobit tak, že přepracuješ použité (vyhořelé) jaderné palivo ve zpracovávači plutonia.</ICBM2.description>
+
+	<ICBM3.label>Experimentovat s výzkumným reaktorem</ICBM3.label>
+
+	<ICBM3.description>Experimentuj s výzkumným reaktorem, abys získal lepší znalosti jaderné fyziky, než se pokusíme vyrobit jadernou zbraň.</ICBM3.description>
+
+	<ICBM4.label>Postavit zbraňovou konzoli</ICBM4.label>
+
+	<ICBM4.description>Postav zbraňovou konzoli. Tato konzole je tvořena zaměřovacím počítačem s obsluhou, který je potřeba k ovládání všech energetických zbraní. Automaticky se připojuje ke všem zbraním Rimatomics, se kterými sdílí rozvodnou síť, a poté detekuje nepřátele pomocí senzorů vestavěných do zbraní a využívá systém TACS k zaměřování cílů. Je schopna v reálném čase zobrazovat pozemní i vzdušné cíle a monitorovat hladinu energie v PPC kondenzátorech připojených k síti.</ICBM4.description>
+
+	<ICBM5.label>Postavit komunikační a zaměřovací systém (TACS)</ICBM5.label>
+
+	<ICBM5.description>Postav TACS (Target aquisition and communication system). Tento systém využívá několika různých technologií pro sledování pozemních i vzdušných cílů. Dokáže zaměřit žijící i robotické cíle, některé projektily, jako například minometné střely a střely z railgunů, nebo na velkou vzdálenost detekovat balistické střely s dlouhým doletem.</ICBM5.description>
+
+	<ICBM6.label>Postavit Liberator</ICBM6.label>
+
+	<ICBM6.description>Postav Liberator. Je nutné ho pomocí elektrických kabelů spojit se zbraňovou konzolí, aby bylo možné ovládat odpalovací systémy.</ICBM6.description>
+
+	<ICBM7.label>Získat data</ICBM7.label>
+
+	<ICBM7.description>Odpal na jakýkoliv cíl strategickou balistickou raketu, abys získal data. Množství získaných dat se odvíjí od úspěšnosti odpalu. Úspěšný zásah cíle a detonace rakety ti dá maximum dat.</ICBM7.description>
+  
+  
+</LanguageData>

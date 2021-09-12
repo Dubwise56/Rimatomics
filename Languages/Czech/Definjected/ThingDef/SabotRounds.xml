@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Bullet_Sabot.label>Munice do railgunu</Bullet_Sabot.label>
+
+	<RailgunSabot.label>Munice do railgunu</RailgunSabot.label>
+
+	<RailgunSabot.description>Kinetický impaktor, který lze vystřelit z railgunu.</RailgunSabot.description>
+
+	<SabotRoundIncoming.label>Blíží se impaktor z railgunu</SabotRoundIncoming.label>
+
+	<Bullet_Sabot_DU.label>Munice z ochuzeného uranu</Bullet_Sabot_DU.label>
+
+	<DUSabotRoundIncoming.label>Munice do railgunu z ochuzeného uranu</DUSabotRoundIncoming.label>
+
+	<RailgunSabotDU.label>Munice do railgunu z ochuzeného uranu</RailgunSabotDU.label>
+
+	<RailgunSabotDU.description>Kinetický impaktor, který lze vystřelit z railgunu. Není radioaktivní a lze jej bezpečně skladovat</RailgunSabotDU.description>
+
+</LanguageData>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<Radiation.label>Citlivost na radiaci</Radiation.label>
+
+	<Radiation.description>Násobič, který určuje, jak moc se radiace kumuluje v této postavě.</Radiation.description>
+
+	<CraftingResearchSpeed.label>Rychlost výzkumu výroby</CraftingResearchSpeed.label>
+
+	<CraftingResearchSpeed.description>Rychlost, kterou tato osoba provádí výzkum výroby.</CraftingResearchSpeed.description>
+
+	<ConstructionResearchSpeed.label>Rychlost výzkumu výstavby</ConstructionResearchSpeed.label>
+
+	<ConstructionResearchSpeed.description>Rychlost, kterou tato osoba provádí výzkum výstavby.</ConstructionResearchSpeed.description>
+
+</LanguageData>

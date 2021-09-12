@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<TableRimatomicsMachining.label>Montážní stůl Rimatomics</TableRimatomicsMachining.label>
+
+	<TableRimatomicsMachining.description>Pracovní stanice, na které lze vyrábět produkty Rimatomics</TableRimatomicsMachining.description>
+
+	<NuclearResearchBench.label>Výzkumné stanoviště Rimatomics</NuclearResearchBench.label>
+
+	<NuclearResearchBench.description>Obsahuje výzkumné projekty Rimatomics. Vyžaduje napájení.</NuclearResearchBench.description>
+
+	<WeaponsBench.label>Stanoviště pro výzkum zbraní</WeaponsBench.label>
+
+	<WeaponsBench.description>Zde se provádějí experimenty potřebné k výrobě zbraní Rimatomics.</WeaponsBench.description>
+
+	<ResearchReactor.label>Výzkumný reaktor</ResearchReactor.label>
+
+	<ResearchReactor.description>Malý jaderný reaktor určený k experimentům.</ResearchReactor.description>
+
+	<PlutoniumProcessor.label>Zpracovávač plutonia</PlutoniumProcessor.label>
+
+	<PlutoniumProcessor.description>Stroj, který pomocí chemikálií extrahuje z jaderného odpadu štěpitelné plutonium.</PlutoniumProcessor.description>
+
+</LanguageData>

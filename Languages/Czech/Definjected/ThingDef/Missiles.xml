@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<ICBM_Fission.label>Stragegická balistická raketa</ICBM_Fission.label>
+
+	<RocketEngine.label>Raketový motor</RocketEngine.label>
+
+	<RocketEngine.description>Raketové motory potřebné k výrobě strojů s raketovým pohonem.</RocketEngine.description>
+
+	<NuclearWarheadIncoming.label>Blíží se jaderná střela</NuclearWarheadIncoming.label>
+
+	<MissileFuselage.label>Trup rakety</MissileFuselage.label>
+
+	<MissileFuselage.description>Trup, ze kterého lze postavit strategickou raketu</MissileFuselage.description>
+
+	<ICBMStrike.label>Strategický raketový útok</ICBMStrike.label>
+
+	<FissionWarhead.label>Jaderná bojová hlavice</FissionWarhead.label>
+
+	<FissionWarhead.description>Výbušné zařízení, jehož ničivá síla se odvíjí od jaderné reakce.</FissionWarhead.description>
+
+</LanguageData>
