@@ -14,7 +14,7 @@
     <impactSoundType>Blunt</impactSoundType>
     <armorCategory>Blunt</armorCategory>
     <minDamageToFragment>15</minDamageToFragment>
-    <defaultDamage>300</defaultDamage>
+    <defaultDamage>1000</defaultDamage>
     <buildingDamageFactor>2</buildingDamageFactor>
     <plantDamageFactor>2</plantDamageFactor>
     <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
