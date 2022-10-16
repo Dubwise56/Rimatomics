@@ -143,8 +143,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Misc/decloak</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/decloak</clipPath>
           </li>
         </grains>
         <volumeRange>
@@ -163,8 +163,8 @@
     <subSounds>
       <li>
         <grains>
-          <li Class="AudioGrain_Folder">
-            <clipFolderPath>Misc/Upgrade</clipFolderPath>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/Upgrade</clipPath>
           </li>
         </grains>
         <volumeRange>
