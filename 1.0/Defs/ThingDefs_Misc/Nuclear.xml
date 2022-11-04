@@ -347,8 +347,8 @@
   </ThingDef>
 
   <ThingDef ParentName="SkyfallerBase">
-    <defName>ThrownSlag</defName>
-    <label>ThrownSlag</label>
+    <defName>ThrownGraphite</defName>
+    <label>ThrownGraphite</label>
     <thingClass>DropPodIncoming</thingClass>
     <graphicData>
       <texPath>Rimatomics/Things/Resources/GraphiteChunk</texPath>
