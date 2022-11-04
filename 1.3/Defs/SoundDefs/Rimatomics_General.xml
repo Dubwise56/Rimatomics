@@ -487,6 +487,28 @@
   </SoundDef>
 
   <SoundDef>
+    <defName>Turbine</defName>  
+    <sustain>True</sustain>  
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>  
+    <sustainStartSound>GeothermalPlant_Ambience_Start</sustainStartSound>  
+    <sustainStopSound>GeothermalPlant_Ambience_Stop</sustainStopSound>  
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>      
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>hums/turbine</clipPath>
+          </li>
+        </grains>      
+        <volumeRange>25~25</volumeRange>      
+        <pitchRange>1~1</pitchRange>
+        <distRange>0~30</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
     <defName>transformer</defName>
     <sustain>True</sustain>
     <context>MapOnly</context>
