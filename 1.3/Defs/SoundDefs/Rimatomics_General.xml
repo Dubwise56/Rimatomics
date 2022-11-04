@@ -427,34 +427,6 @@
   </SoundDef>
 
   <SoundDef>
-    <defName>transformerDischarge</defName>
-    <sustain>True</sustain>
-    <context>MapOnly</context>
-    <eventNames />
-    <priorityMode>PrioritizeNearest</priorityMode>
-    <sustainStartSound></sustainStartSound>
-    <sustainStopSound></sustainStopSound>
-    <subSounds>
-      <li>
-        <muteWhenPaused>True</muteWhenPaused>
-        <grains>
-          <li Class="AudioGrain_Clip">
-            <clipPath>Misc/transformerDischarge</clipPath>
-          </li>
-        </grains>
-        <volumeRange>
-          <min>50</min>
-          <max>50</max>
-        </volumeRange>
-        <distRange>
-          <min>0</min>
-          <max>70</max>
-        </distRange>
-      </li>
-    </subSounds>
-  </SoundDef>
-
-  <SoundDef>
     <defName>core_hum</defName>
     <sustain>True</sustain>
     <context>MapOnly</context>
@@ -512,7 +484,6 @@
     <defName>transformer</defName>
     <sustain>True</sustain>
     <context>MapOnly</context>
-    <eventNames />
     <priorityMode>PrioritizeNearest</priorityMode>
     <sustainStartSound></sustainStartSound>
     <sustainStopSound></sustainStopSound>
@@ -524,18 +495,30 @@
             <clipPath>hums/tranny</clipPath>
           </li>
         </grains>
-        <volumeRange>
-          <min>25</min>
-          <max>25</max>
-        </volumeRange>
-        <pitchRange>
-          <min>1</min>
-          <max>1.015</max>
-        </pitchRange>
-        <distRange>
-          <min>0</min>
-          <max>20</max>
-        </distRange>
+        <volumeRange>50~50</volumeRange>
+        <pitchRange>1~1.015</pitchRange>
+        <distRange>0~20</distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+
+  <SoundDef>
+    <defName>transformerDischarge</defName>
+    <sustain>True</sustain>
+    <context>MapOnly</context>
+    <priorityMode>PrioritizeNearest</priorityMode>
+    <sustainStartSound></sustainStartSound>
+    <sustainStopSound></sustainStopSound>
+    <subSounds>
+      <li>
+        <muteWhenPaused>True</muteWhenPaused>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Misc/transformerDischarge</clipPath>
+          </li>
+        </grains>
+        <volumeRange>50~50</volumeRange>
+        <distRange>0~70</distRange>
       </li>
     </subSounds>
   </SoundDef>
