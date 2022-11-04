@@ -501,7 +501,7 @@
             <clipPath>hums/turbine</clipPath>
           </li>
         </grains>      
-        <volumeRange>25~25</volumeRange>      
+        <volumeRange>10~10</volumeRange>      
         <pitchRange>1~1</pitchRange>
         <distRange>0~30</distRange>
       </li>
