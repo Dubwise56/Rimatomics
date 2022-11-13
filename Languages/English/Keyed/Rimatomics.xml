@@ -156,7 +156,7 @@
   <SiloFull>Silo Full</SiloFull>
   <SiloMagazine>Missiles: {0}/{1}</SiloMagazine>
   <ICBMReady>strategic missile ready</ICBMReady>
-  <TestFireHELSOnOwnShells>Shoot down our own morter shells for data gathering.</TestFireHELSOnOwnShells>
+  <TestFireHELSOnOwnShells>Shoot down our own mortar shells for data gathering.</TestFireHELSOnOwnShells>
   <OpenRadar>Open target tracking display</OpenRadar>
   <NoSabotToExtract>No sabot rounds to extract</NoSabotToExtract>
   <CancelICBMLaunch>Abort Launch</CancelICBMLaunch>
