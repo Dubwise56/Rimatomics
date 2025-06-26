@@ -61,6 +61,7 @@
     </costList>
     <building>
       <isInert>true</isInert>
+      <supportsWallAttachments>true</supportsWallAttachments>
       <blueprintGraphicData>
         <texPath>Things/Building/Linked/Wall_Blueprint_Atlas</texPath>
       </blueprintGraphicData>
