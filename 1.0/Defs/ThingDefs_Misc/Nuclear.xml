@@ -268,10 +268,6 @@
     <soundDrop>ChunkSlag_Drop</soundDrop>
     <category>Item</category>
     <altitudeLayer>Item</altitudeLayer>
-    <graphicData>
-      <texPath>Things/Item/Chunk/ChunkSlag</texPath>
-      <graphicClass>Graphic_Random</graphicClass>
-    </graphicData>
     <statBases>
       <MaxHitPoints>200</MaxHitPoints>
       <Flammability>0</Flammability>
@@ -298,8 +294,25 @@
 
   <ThingDef ParentName="BasedNukeWaste">
     <defName>ChunkRadioactiveSlag</defName>
-    <label>radioactive slag chunk</label>
+    <label>Radioactive slag chunk</label>
     <alwaysHaulable>false</alwaysHaulable>
+    <graphicData>
+      <texPath>Rimatomics/Things/Resources/NuclearChunk</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="BasedNukeWaste">
+    <defName>ChunkRadioactiveGraphite</defName>
+    <label>Radioactive graphite chunk</label>
+    <alwaysHaulable>false</alwaysHaulable>
+    <graphicData>
+      <texPath>Rimatomics/Things/Resources/GraphiteChunk</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <randomizeRotationOnSpawn>false</randomizeRotationOnSpawn>
   </ThingDef>
 
   <ThingDef ParentName="BasedNukeWaste">
@@ -319,7 +332,26 @@
     <label>ThrownSlag</label>
     <thingClass>DropPodIncoming</thingClass>
     <graphicData>
-      <texPath>Things/Item/Chunk/ChunkSlag</texPath>
+      <texPath>Rimatomics/Things/Resources/NuclearChunk</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+      <shaderType>CutoutFlying</shaderType>
+      <drawSize>1</drawSize>
+    </graphicData>
+    <skyfaller>
+      <movementType>Accelerate</movementType>
+      <shadow>Things/Skyfaller/SkyfallerShadowDropPod</shadow>
+      <shadowSize>(2, 2)</shadowSize>
+      <rotateGraphicTowardsDirection>true</rotateGraphicTowardsDirection>
+      <speed>0.1</speed>
+    </skyfaller>
+  </ThingDef>
+
+  <ThingDef ParentName="SkyfallerBase">
+    <defName>ThrownGraphite</defName>
+    <label>ThrownGraphite</label>
+    <thingClass>DropPodIncoming</thingClass>
+    <graphicData>
+      <texPath>Rimatomics/Things/Resources/GraphiteChunk</texPath>
       <graphicClass>Graphic_Random</graphicClass>
       <shaderType>CutoutFlying</shaderType>
       <drawSize>1</drawSize>
