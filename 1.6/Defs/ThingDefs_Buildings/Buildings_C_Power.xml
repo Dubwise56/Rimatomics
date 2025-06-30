@@ -725,6 +725,9 @@
     <building>
       <preventDeteriorationInside>true</preventDeteriorationInside>
       <ignoreStoredThingsBeauty>true</ignoreStoredThingsBeauty>
+      <storageGroupTag>FuelPool</storageGroupTag>
+      <groupingLabel>FuelPool</groupingLabel>
+      <groupingOrder>-50</groupingOrder>
       <fixedStorageSettings>
         <filter>
           <thingDefs>
