@@ -25,6 +25,7 @@
   <ThingDef ParentName="BasedPower" Name="RimatomicsPipeBase" Abstract="True">
     <thingClass>Rimatomics.Building_Pipe</thingClass>
     <category>Building</category>
+    <noRightClickDraftAttack>true</noRightClickDraftAttack>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/PipeOverlay_Atlas</texPath>
       <graphicClass>Graphic_Single</graphicClass>
@@ -38,8 +39,11 @@
     </graphicData>
     <drawerType>MapMeshOnly</drawerType>
     <building>
+      <ai_chillDestination>false</ai_chillDestination>
       <isInert>true</isInert>
       <isEdifice>false</isEdifice>
+      <canLandGravshipOn>true</canLandGravshipOn>
+      <canConstructInCorner>true</canConstructInCorner>
     </building>
     <altitudeLayer>Conduits</altitudeLayer>
     <passability>Standable</passability>
@@ -99,7 +103,7 @@
 
   <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>coolingPipe</defName>
-    <label>Coolant pipe</label>
+    <label>coolant pipe</label>
     <description>Pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.</description>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/coolingPipe_Atlas</texPath>
@@ -110,6 +114,38 @@
       </blueprintGraphicData>
     </building>
     <uiIconPath>Rimatomics/UI/CoolingPipe</uiIconPath>
+    <comps>
+      <li Class="Rimatomics.CompProperties_Pipe">
+        <mode>Cooling</mode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
+    <defName>coolingPipeHidden</defName>
+    <label>coolant pipe (hidden)</label>
+    <description>Hidden pipes for pumping coolant from the turbine to cooling systems. Can be placed under walls and other buildings.</description>
+    <graphicData>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/coolingPipe_Atlas</texPath>
+      <color>(0,0,0,0)</color>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>280</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Rimatomics/Things/RimatomicsBuildings/coolingPipe_AtlasBP</texPath>
+      </blueprintGraphicData>
+      <ai_neverTrashThis>true</ai_neverTrashThis>
+      <isTargetable>false</isTargetable>
+      <expandHomeArea>false</expandHomeArea>
+      <canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+    </building>
+    <uiIconPath>Rimatomics/UI/CoolingPipeH</uiIconPath>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
         <mode>Cooling</mode>
@@ -161,6 +197,38 @@
     </comps>
   </ThingDef>
 
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
+    <defName>steamPipeHidden</defName>
+    <label>steam water pipe (hidden)</label>
+    <description>Hidden pipes for pumping high pressure steam from the reactor to turbines. Can be placed under walls and other buildings.</description>
+    <graphicData>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/steamPipe_Atlas</texPath>
+      <color>(0,0,0,0)</color>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>280</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Rimatomics/Things/RimatomicsBuildings/steamPipe_AtlasBP</texPath>
+      </blueprintGraphicData>
+      <ai_neverTrashThis>true</ai_neverTrashThis>
+      <isTargetable>false</isTargetable>
+      <expandHomeArea>false</expandHomeArea>
+      <canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+    </building>
+    <uiIconPath>Rimatomics/UI/HeatPipeH</uiIconPath>
+    <comps>
+      <li Class="Rimatomics.CompProperties_Pipe">
+        <mode>Steam</mode>
+      </li>
+    </comps>
+  </ThingDef>
+
   <ThingDef ParentName="ValveBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>steamValve</defName>
     <label>Steam valve</label>
@@ -185,7 +253,7 @@
 
   <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>waterPipe</defName>
-    <label>Cold water pipe</label>
+    <label>cold water pipe</label>
     <description>Pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.</description>
     <graphicData>
       <texPath>Rimatomics/Things/RimatomicsBuildings/coldWaterPipe_Atlas</texPath>
@@ -196,6 +264,38 @@
     </blueprintGraphicData>
     </building>
     <uiIconPath>Rimatomics/UI/WaterPipe</uiIconPath>
+    <comps>
+      <li Class="Rimatomics.CompProperties_Pipe">
+        <mode>ColdWater</mode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
+    <defName>waterPipeHidden</defName>
+    <label>cold water pipe (hidden)</label>
+    <description>Hidden pipes for pumping cold water from the turbine or heat exchanger back to the core. Can be placed under walls and other buildings.</description>
+    <graphicData>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/coldWaterPipe_Atlas</texPath>
+      <color>(0,0,0,0)</color>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>280</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Rimatomics/Things/RimatomicsBuildings/coldWaterPipe_AtlasBP</texPath>
+      </blueprintGraphicData>
+      <ai_neverTrashThis>true</ai_neverTrashThis>
+      <isTargetable>false</isTargetable>
+      <expandHomeArea>false</expandHomeArea>
+      <canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+    </building>
+    <uiIconPath>Rimatomics/UI/WaterPipeH</uiIconPath>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
         <mode>ColdWater</mode>
@@ -247,6 +347,38 @@
   </ThingDef>
 
   <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
+    <defName>HighVoltageHidden</defName>
+    <label>high voltage (hidden)</label>
+    <description>Hidden cable for transporting high voltage power from turbines to transformers. Can be placed under walls and other buildings.</description>
+    <graphicData>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/HighVoltage_Atlas</texPath>
+      <color>(0,0,0,0)</color>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>280</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Rimatomics/Things/RimatomicsBuildings/HighVoltage_AtlasBP</texPath>
+      </blueprintGraphicData>
+      <ai_neverTrashThis>true</ai_neverTrashThis>
+      <isTargetable>false</isTargetable>
+      <expandHomeArea>false</expandHomeArea>
+      <canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+    </building>
+    <uiIconPath>Rimatomics/UI/HighVoltageH</uiIconPath>
+    <comps>
+      <li Class="Rimatomics.CompProperties_Pipe">
+        <mode>HighVoltage</mode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
     <defName>controllerLoom</defName>
     <label>Console Loom</label>
     <description>Wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.</description>
@@ -259,6 +391,38 @@
       </blueprintGraphicData>
     </building>
     <uiIconPath>Rimatomics/UI/Loom_Atlas</uiIconPath>
+    <comps>
+      <li Class="Rimatomics.CompProperties_Pipe">
+        <mode>Loom</mode>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="RimatomicsPipeBase"  Class="Rimatomics.RimatomicsThingDef">
+    <defName>controllerLoomHidden</defName>
+    <label>console loom (hidden)</label>
+    <description>Hidden wiring loom for transmitting signals between a core and a control console. Can be placed under walls and other buildings.</description>
+    <graphicData>
+      <texPath>Rimatomics/Things/RimatomicsBuildings/Loom_Atlas</texPath>
+      <color>(0,0,0,0)</color>
+      <shaderType>Transparent</shaderType>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <WorkToBuild>280</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>0</Beauty>
+    </statBases>
+    <building>
+      <blueprintGraphicData>
+        <texPath>Rimatomics/Things/RimatomicsBuildings/Loom_AtlasBP</texPath>
+      </blueprintGraphicData>
+      <ai_neverTrashThis>true</ai_neverTrashThis>
+      <isTargetable>false</isTargetable>
+      <expandHomeArea>false</expandHomeArea>
+      <canBeDamagedByAttacks>false</canBeDamagedByAttacks>
+    </building>
+    <uiIconPath>Rimatomics/UI/Loom_AtlasH</uiIconPath>
     <comps>
       <li Class="Rimatomics.CompProperties_Pipe">
         <mode>Loom</mode>

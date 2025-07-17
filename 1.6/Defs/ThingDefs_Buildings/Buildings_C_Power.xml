@@ -391,6 +391,7 @@
       <allowFlip>false</allowFlip>
       <color>(0.23, 0.23, 0.23, 1)</color>
     </graphicData>
+    <uiIconPath>Rimatomics/Things/RimatomicsBuildings/nukeRadiator</uiIconPath>
     <rotatable>false</rotatable>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -452,7 +453,7 @@
       <shaderType>CutoutComplex</shaderType>
       <drawSize>(5,6)</drawSize>
     </graphicData>
-    <uiIconScale>0.8</uiIconScale>
+    <uiIconScale>0.7</uiIconScale>
     <rotatable>true</rotatable>
     <altitudeLayer>Building</altitudeLayer>
     <passability>PassThroughOnly</passability>
@@ -494,6 +495,7 @@
     </placeWorkers>
     <drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
     <constructionSkillPrerequisite>6</constructionSkillPrerequisite>
+
   </ThingDef>
 
   <ThingDef ParentName="BasedPower"  Class="Rimatomics.RimatomicsThingDef">

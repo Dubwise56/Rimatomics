@@ -62,7 +62,6 @@
 		<hasInteractionCell>true</hasInteractionCell>
 		<terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
 		<surfaceType>Item</surfaceType>
-		<designationHotKey>Misc4</designationHotKey>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
@@ -140,7 +139,6 @@
 			</li>
 		</comps>
 		<constructEffect>ConstructMetal</constructEffect>
-		<designationHotKey>Misc7</designationHotKey>
 		<placeWorkers>
 			<li>PlaceWorker_ShowFacilitiesConnections</li>
 			<li>PlaceWorker_ReportWorkSpeedPenalties</li>

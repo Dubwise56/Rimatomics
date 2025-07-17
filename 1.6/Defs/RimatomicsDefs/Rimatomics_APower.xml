@@ -235,8 +235,10 @@
     <Unlocks>
       <li>waterValve</li>
       <li>waterPipe</li>
+      <li>waterPipeHidden</li>
       <li>steamValve</li>
       <li>steamPipe</li>
+      <li>steamPipeHidden</li>
     </Unlocks>
   </Def>
 
@@ -246,6 +248,7 @@
     <description>Connect the reactor core to the turbine generator by constructing a (Steam pipe), and (Cold water pipe) between them. Turbines are not dangerous, and can be built outside of shielded containment rooms, but must be indoors.</description>
     <Unlocks>
       <li>coolingPipe</li>
+      <li>coolingPipeHidden</li>
       <li>coolantValve</li>
       <li>CoolingTower</li>
       <li>CoolingWater</li>
@@ -259,7 +262,9 @@
     <description>Build one of the available cooling systems and connect it to a turbine using (Coolant pipe). There are three available cooling systems>: water cooling requires rivers or large bodies of water, cooling towers require a lot of power and space and must be placed outside, and radiators have the lowest cooling capacity, but are smaller and cheaper to build and can be placed indoors.</description>
     <Unlocks>
       <li>HighVoltage</li>
+      <li>HighVoltageHidden</li>
       <li>controllerLoom</li>
+      <li>controllerLoomHidden</li>
       <li>Transformer</li>
     </Unlocks>
   </Def>

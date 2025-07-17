@@ -6,26 +6,6 @@
   </Rimatomics.DefExtensions>
 
   <Rimatomics.DubsModOptions>
-    <defName>ReactorPipeVisibility</defName>
-    <label>Pipeline Visibility</label>
-    <tip></tip>
-    <options>
-      <li>
-        <label>Hidden</label>
-      </li>
-      <li>
-        <label>Hidden under floors</label>
-      </li>
-      <li>
-        <label>Always visible</label>
-      </li>
-      <li>
-        <label>Always visible pipe to ground</label>
-      </li>
-    </options>
-  </Rimatomics.DubsModOptions>
-
-  <Rimatomics.DubsModOptions>
     <defName>RimatomicsTraderCooldown</defName>
     <label>Rimatomics Trader Cooldown</label>
     <options>
