@@ -490,6 +490,7 @@
     </comps>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <placeWorkers>
+      <li>PlaceWorker_InvalidOverSubstructure</li>
       <li>Rimatomics.PlaceWorker_WaterStation</li>
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
     </placeWorkers>
@@ -556,6 +557,7 @@
       <allowAutoroof>false</allowAutoroof>
     </building>
     <placeWorkers>
+      <li>PlaceWorker_InvalidOverSubstructure</li>
       <li>Rimatomics.PlaceWorker_ResearchStage</li>
       <li>PlaceWorker_NotUnderRoof</li>
     </placeWorkers>
