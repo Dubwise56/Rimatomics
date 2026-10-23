@@ -38,6 +38,7 @@
     <description>Construct Uranium Fuel rods.</description>
     <jobString>Making nuclear fuel rods.</jobString>
     <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+    <workerCounterClass>Rimatomics.RecipeWorkerCounter_FuelRods</workerCounterClass>
     <effectWorking>ConstructMetal</effectWorking>
     <soundWorking>Recipe_Machining</soundWorking>
     <unfinishedThingDef>UnfinishedRimatomics</unfinishedThingDef>

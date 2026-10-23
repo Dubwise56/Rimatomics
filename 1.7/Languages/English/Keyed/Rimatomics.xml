@@ -17,8 +17,28 @@
   <AutothrotIDCount>Multiple cores set to {0}, each core must have a unique ID for auto-throttle to engage</AutothrotIDCount>
   <AutothrotOn>Auto-throttle engaged for {0}</AutothrotOn>
   <AutothrotOff>Auto-throttle disengaged for {0}</AutothrotOff>
-  <AutothrotRange>Power net excess must be within ±5000 W to engage.</AutothrotRange>
-  <AutothrotTip>Engage auto-throttle.\n\nAutomatically adjusts flux to match power demand. The connected power net must be within ±5000 W excess to engage.</AutothrotTip>
+  <AutothrotRange>Power net excess must be within 5000 W of the auto-throttle band ({0} to {1}) to engage.</AutothrotRange>
+  <AutothrotTip>Engage auto-throttle.\n\nAutomatically adjusts flux to keep the excess between {0} and {1} on every power net this reactor feeds through its transformers.</AutothrotTip>
+  <AutothrotLost>Auto-throttle disengaged for {0}: the console lost its reactor or the reactor stopped.</AutothrotLost>
+  <AutothrotStatusOff>Auto-throttle off.</AutothrotStatusOff>
+  <AutothrotStatus>Auto-throttle: {0}.\nExcess {1} on {2} power net(s), holding {3} to {4}.</AutothrotStatus>
+  <AutothrotState_Off>off</AutothrotState_Off>
+  <AutothrotState_Holding>holding</AutothrotState_Holding>
+  <AutothrotState_Raising>raising flux</AutothrotState_Raising>
+  <AutothrotState_Lowering>lowering flux</AutothrotState_Lowering>
+  <AutothrotState_Settling>waiting for the reactor to settle</AutothrotState_Settling>
+  <AutothrotState_WarmingUp>waiting for the core to warm up</AutothrotState_WarmingUp>
+  <AutothrotState_Overheating>core overheating, lowering flux</AutothrotState_Overheating>
+  <AutothrotState_TurbineLimit>turbines at full capacity</AutothrotState_TurbineLimit>
+  <AutothrotState_TransformerLimit>transformers at full capacity</AutothrotState_TransformerLimit>
+  <AutothrotBatteries>Batteries {0} full.</AutothrotBatteries>
+  <AutothrotCharging>Charging batteries ({0} full), holding above the band until they are full.</AutothrotCharging>
+  <AutothrotChargeOn>Charge batteries first</AutothrotChargeOn>
+  <AutothrotChargeOff>Stop charging batteries first</AutothrotChargeOff>
+  <AutothrotBand>{0}-{1}k</AutothrotBand>
+  <AutothrotBandTip>Auto-throttle band: {0} to {1} excess.\n\nAuto-throttle keeps the power net excess inside this band. A higher band leaves spare power to charge batteries. Click to change.</AutothrotBandTip>
+  <AutothrotBandOption>Hold {0} to {1} excess</AutothrotBandOption>
+  <AutothrotBandDefault>{0} (default)</AutothrotBandDefault>
   <CoreIdMismatch>Reactor and console IDs do not match. Each reactor needs its own console with a unique ID for auto-throttle.</CoreIdMismatch>
   <FuelLifeRange>{0} Fuel Life</FuelLifeRange>
   <PoolLoading>Loading</PoolLoading>

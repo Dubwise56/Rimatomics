@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ADSPain.label>popálení od ADS</ADSPain.label>
+  <ADSPain.description>Intenzivní pálivá bolest kůže způsobená paprskem ADS (systému aktivního odrazování). Nezpůsobuje skutečné zranění a během několika hodin odezní.</ADSPain.description>
+  <ADSPain.stages.0.label>mírné</ADSPain.stages.0.label>
+  <ADSPain.stages.1.label>střední</ADSPain.stages.1.label>
+  <ADSPain.stages.2.label>vážné</ADSPain.stages.2.label>
+  <ADSPain.stages.3.label>extrémní</ADSPain.stages.3.label>
+</LanguageData>

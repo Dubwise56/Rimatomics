@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ADSPain.label>ожог САС</ADSPain.label>
+  <ADSPain.description>Сильная жгучая боль в коже от луча системы активного сдерживания (САС). Реальных повреждений не наносит и проходит за несколько часов.</ADSPain.description>
+  <ADSPain.stages.0.label>незначительный</ADSPain.stages.0.label>
+  <ADSPain.stages.1.label>средний</ADSPain.stages.1.label>
+  <ADSPain.stages.2.label>серьёзный</ADSPain.stages.2.label>
+  <ADSPain.stages.3.label>экстремальный</ADSPain.stages.3.label>
+</LanguageData>

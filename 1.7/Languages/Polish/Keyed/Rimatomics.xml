@@ -7,8 +7,6 @@
   <AutothrotIDCount>Kilka rdzeni jest ustawionych na {0}, każdy rdzeń musi mieć unikalne ID, aby móc włączyć automatyczną przepustnicę.</AutothrotIDCount>
   <AutothrotOn>Automatyczna przepustnica włączona dla {0}.</AutothrotOn>
   <AutothrotOff>Automatyczna przepustnica wyłączona dla {0}.</AutothrotOff>
-  <AutothrotRange>Żeby włączyć, nadmiar energii musi mieścić się w zakresie +/- 5000w.</AutothrotRange>
-  <AutothrotTip>Włącz automatyczną przepustnicę\n\nKontroluje poziom strumienia w celu dopasowania się do obciążenia sieci, nadmiar energii w sieci elektrycznej do której ta konsola jest podłączona musi mieścić się w zakresie +/- 5000w, żeby włączyć</AutothrotTip>
   <CoreIdMismatch>Reaktor i ID konsoli nie pasują do siebie, każdy rdzeń wymaga swojej własnej konsoli z unikalnym ID, żeby móc włączyć automatyczną przepustnicę.</CoreIdMismatch>
   <FuelLifeRange>{0} Żywot paliwa</FuelLifeRange>
   <PoolLoading>Załadunek</PoolLoading>
@@ -295,4 +293,47 @@
   <ProjectTerminated>Projekt anulowany.</ProjectTerminated>
   <NoBenchAvailable>Stanowisko badawcze Rimatomics nie jest dostępne.</NoBenchAvailable>
   <ResearchPurchased>Badanie zakupione!</ResearchPurchased>
+
+  <!-- 2026-10-23 -->
+  <AutothrotBand>{0}-{1}k</AutothrotBand>
+  <AutothrotBandDefault>{0} (domyślnie)</AutothrotBandDefault>
+  <AutothrotBandOption>Utrzymuj nadmiar od {0} do {1}</AutothrotBandOption>
+  <AutothrotBandTip>Zakres automatycznej przepustnicy: nadmiar od {0} do {1}.\n\nAutomatyczna przepustnica utrzymuje nadmiar energii w sieci w tym zakresie. Wyższy zakres zostawia zapas energii na ładowanie akumulatorów. Kliknij, aby zmienić.</AutothrotBandTip>
+  <AutothrotBatteries>Akumulatory naładowane w {0}.</AutothrotBatteries>
+  <AutothrotChargeOff>Przestań najpierw ładować akumulatory</AutothrotChargeOff>
+  <AutothrotChargeOn>Najpierw ładuj akumulatory</AutothrotChargeOn>
+  <AutothrotCharging>Ładowanie akumulatorów (naładowane w {0}), utrzymywanie powyżej zakresu do pełnego naładowania.</AutothrotCharging>
+  <AutothrotLost>Automatyczna przepustnica wyłączona dla {0}: konsola straciła połączenie z reaktorem lub reaktor się zatrzymał.</AutothrotLost>
+  <AutothrotRange>Żeby włączyć, nadmiar energii w sieci musi mieścić się w granicach 5000 W od zakresu automatycznej przepustnicy ({0} do {1}).</AutothrotRange>
+  <AutothrotState_Holding>utrzymywanie</AutothrotState_Holding>
+  <AutothrotState_Lowering>obniżanie strumienia</AutothrotState_Lowering>
+  <AutothrotState_Off>wyłączona</AutothrotState_Off>
+  <AutothrotState_Overheating>przegrzanie rdzenia, obniżanie strumienia</AutothrotState_Overheating>
+  <AutothrotState_Raising>podnoszenie strumienia</AutothrotState_Raising>
+  <AutothrotState_Settling>oczekiwanie na ustabilizowanie reaktora</AutothrotState_Settling>
+  <AutothrotState_TransformerLimit>transformatory na pełnej mocy</AutothrotState_TransformerLimit>
+  <AutothrotState_TurbineLimit>turbiny na pełnej mocy</AutothrotState_TurbineLimit>
+  <AutothrotState_WarmingUp>oczekiwanie na nagrzanie rdzenia</AutothrotState_WarmingUp>
+  <AutothrotStatus>Automatyczna przepustnica: {0}.\nNadmiar {1} w sieciach elektrycznych: {2}, utrzymywanie od {3} do {4}.</AutothrotStatus>
+  <AutothrotStatusOff>Automatyczna przepustnica wyłączona.</AutothrotStatusOff>
+  <AutothrotTip>Włącz automatyczną przepustnicę.\n\nAutomatycznie dostosowuje strumień, aby utrzymać nadmiar energii od {0} do {1} w każdej sieci elektrycznej zasilanej przez ten reaktor poprzez jego transformatory.</AutothrotTip>
+  <BreederHotLoading>Ładowanie na gorąco</BreederHotLoading>
+  <BreederHotLoadingDesc>Pozwala na wymianę paliwa podczas pracy rdzenia</BreederHotLoadingDesc>
+  <ChooseWhereToStrike>Wybierz miejsce uderzenia</ChooseWhereToStrike>
+  <Mannedreactorconsole>Obsadzona konsola reaktora</Mannedreactorconsole>
+  <MannedreactorconsoleDesc>Wymagaj obsadzenia konsoli reaktora przez osadnika, aby otworzyć okno sterowania. Jeśli wyłączone, okno można otworzyć przyciskiem.</MannedreactorconsoleDesc>
+  <RimatomFree>Darmowe</RimatomFree>
+  <RimatomPrice>Cena</RimatomPrice>
+  <RimatomPurchase>Zakup</RimatomPurchase>
+  <RimatomUnlocks>Odblokowuje</RimatomUnlocks>
+  <Rimatomics.LowCoolingCapacity>Słabe chłodzenie reaktora</Rimatomics.LowCoolingCapacity>
+  <Rimatomics.LowCoolingCapacityDesc>Budynek chłodzenia reaktora działa ze zmniejszoną wydajnością\n\nWieże nie mogą być zadaszone, chłodnice wodne potrzebują wystarczającej ilości wody powierzchniowej, a jeśli używasz trybu połączenia z Bad Hygiene, upewnij się, że wieże chłodnicze są napełnione wodą</Rimatomics.LowCoolingCapacityDesc>
+  <Rimatomics.MissingFacility>Brakujący obiekt</Rimatomics.MissingFacility>
+  <Showresearchbutton>Pokaż przycisk badań</Showresearchbutton>
+  <ShowresearchbuttonDesc>Dodaje przycisk badań Rimatomics do głównych zakładek. Jeśli wyłączone, nadal można go otworzyć z zakładki stołu badawczego.</ShowresearchbuttonDesc>
+  <TowerInVacuum>Nieczynna: próżnia</TowerInVacuum>
+  <Weaponrankicons>Ikony rangi broni</Weaponrankicons>
+  <WeaponrankiconsDesc>Pokazuje ikony rangi weterana na broniach energetycznych przy przybliżeniu.</WeaponrankiconsDesc>
+  <nuclearFuelAllowNew>Zezwól na nowe paliwo</nuclearFuelAllowNew>
+  <nuclearFuelAllowUsed>Zezwól na zużyte paliwo</nuclearFuelAllowUsed>
 </LanguageData>

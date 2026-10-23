@@ -263,4 +263,75 @@
   <NoBenchAvailable>No hay banco de investigación Rimatomics disponible</NoBenchAvailable>
   <ResearchPurchased>Investigación comprada!</ResearchPurchased>
 
+  <!-- 2026-10-23 -->
+  <AutothrotBand>{0}-{1}k</AutothrotBand>
+  <AutothrotBandDefault>{0} (predeterminado)</AutothrotBandDefault>
+  <AutothrotBandOption>Mantener excedente de {0} a {1}</AutothrotBandOption>
+  <AutothrotBandTip>Banda de regulación automática: excedente de {0} a {1}.\n\nLa regulación automática mantiene el excedente de la red eléctrica dentro de esta banda. Una banda más alta deja energía sobrante para cargar baterías. Haz clic para cambiarla.</AutothrotBandTip>
+  <AutothrotBatteries>Baterías al {0}.</AutothrotBatteries>
+  <AutothrotChargeOff>Dejar de cargar baterías primero</AutothrotChargeOff>
+  <AutothrotChargeOn>Cargar baterías primero</AutothrotChargeOn>
+  <AutothrotCharging>Cargando baterías ({0}), manteniéndose por encima de la banda hasta que estén llenas.</AutothrotCharging>
+  <AutothrotIDCount>Varios núcleos tienen el ID {0}; cada núcleo debe tener un ID único para activar la regulación automática</AutothrotIDCount>
+  <AutothrotLost>Regulación automática desactivada para {0}: la consola perdió su reactor o el reactor se detuvo.</AutothrotLost>
+  <AutothrotOff>Regulación automática desactivada para {0}</AutothrotOff>
+  <AutothrotOn>Regulación automática activada para {0}</AutothrotOn>
+  <AutothrotRange>El excedente de la red eléctrica debe estar a menos de 5000 W de la banda de regulación automática ({0} a {1}) para activarla.</AutothrotRange>
+  <AutothrotState_Holding>manteniendo</AutothrotState_Holding>
+  <AutothrotState_Lowering>reduciendo el flujo</AutothrotState_Lowering>
+  <AutothrotState_Off>desactivada</AutothrotState_Off>
+  <AutothrotState_Overheating>núcleo sobrecalentado, reduciendo el flujo</AutothrotState_Overheating>
+  <AutothrotState_Raising>aumentando el flujo</AutothrotState_Raising>
+  <AutothrotState_Settling>esperando a que el reactor se estabilice</AutothrotState_Settling>
+  <AutothrotState_TransformerLimit>transformadores a plena capacidad</AutothrotState_TransformerLimit>
+  <AutothrotState_TurbineLimit>turbinas a plena capacidad</AutothrotState_TurbineLimit>
+  <AutothrotState_WarmingUp>esperando a que el núcleo se caliente</AutothrotState_WarmingUp>
+  <AutothrotStatus>Regulación automática: {0}.\nExcedente de {1} en {2} red(es) eléctrica(s), manteniendo de {3} a {4}.</AutothrotStatus>
+  <AutothrotStatusOff>Regulación automática desactivada.</AutothrotStatusOff>
+  <AutothrotTip>Activar la regulación automática.\n\nAjusta el flujo automáticamente para mantener el excedente entre {0} y {1} en cada red eléctrica que este reactor alimenta a través de sus transformadores.</AutothrotTip>
+  <BreederHotLoading>Carga en caliente</BreederHotLoading>
+  <BreederHotLoadingDesc>Permite cambiar el combustible con el núcleo en funcionamiento</BreederHotLoadingDesc>
+  <ChooseWhereToStrike>Elige dónde atacar</ChooseWhereToStrike>
+  <Clearalldesignations>Borrar todas las designaciones</Clearalldesignations>
+  <CoreIdMismatch>Los ID del reactor y de la consola no coinciden. Cada reactor necesita su propia consola con un ID único para la regulación automática.</CoreIdMismatch>
+  <Designateinstallall>Instalar combustible en todas las ranuras</Designateinstallall>
+  <Designateremoveall>Retirar todo el combustible</Designateremoveall>
+  <Designateremoveallprocessable>Retirar todo el combustible procesable</Designateremoveallprocessable>
+  <Designateremoveallspent>Retirar todo el combustible gastado</Designateremoveallspent>
+  <FlareScram>SCRAM por llamarada</FlareScram>
+  <FlareScramDesc>SCRAM del reactor durante las llamaradas solares</FlareScramDesc>
+  <FuelLifeRange>Vida del combustible: {0}</FuelLifeRange>
+  <HighYieldWarhead>Alto rendimiento</HighYieldWarhead>
+  <HighYieldWarheadDesc>Lanza ojivas de alto rendimiento que provocan una explosión catastrófica en un área enorme. Espera una destrucción generalizada: solo los búnkeres en lo profundo de las montañas ofrecerán una protección real.</HighYieldWarheadDesc>
+  <LongRangeStratLaunch>Lanzamiento estratégico</LongRangeStratLaunch>
+  <LongRangeStratLaunchDesc>Lanza un ataque con misil estratégico a cualquier punto de este planeta.</LongRangeStratLaunchDesc>
+  <LowYieldWarhead>Bajo rendimiento</LowYieldWarhead>
+  <LowYieldWarheadDesc>Lanza ojivas de bajo rendimiento para una explosión táctica más pequeña con menos daños colaterales.</LowYieldWarheadDesc>
+  <Mannedreactorconsole>Consola del reactor tripulada</Mannedreactorconsole>
+  <MannedreactorconsoleDesc>Requiere que un colono maneje las consolas del reactor para abrir la ventana de control. Si se desactiva, la ventana puede abrirse con un botón.</MannedreactorconsoleDesc>
+  <MissingPESUpgrades>Si Preemptive Strike está activo, debe completarse su investigación de detección de objetos aéreos antes de que ATOM pueda detectar cápsulas de caída entrantes. Los inhibidores seguirán funcionando con normalidad.</MissingPESUpgrades>
+  <NextResearchStep>Siguiente etapa:</NextResearchStep>
+  <PoolLoading>Cargando</PoolLoading>
+  <PoolUnloading>Descargando</PoolUnloading>
+  <ReactorAlert>¡Alerta del reactor!</ReactorAlert>
+  <RimatomLife>Vida</RimatomLife>
+  <Rimatomics.LowCoolingCapacity>Enfriamiento del reactor bajo</Rimatomics.LowCoolingCapacity>
+  <Rimatomics.LowCoolingCapacityDesc>Un edificio de enfriamiento del reactor funciona a baja capacidad\n\nLas torres deben estar sin techo, los enfriadores de agua necesitan suficiente agua superficial y, si usas el modo de enlace con Bad Hygiene, asegúrate de que las torres de enfriamiento estén llenas de agua</Rimatomics.LowCoolingCapacityDesc>
+  <Rimatomics.MissingFacility>Falta una instalación</Rimatomics.MissingFacility>
+  <RimatomicsValveLabel>Alternar válvula</RimatomicsValveLabel>
+  <RimatomicsValveLabelDesc>Abre o cierra la válvula</RimatomicsValveLabelDesc>
+  <ShortRangeStratLaunch>Lanzamiento táctico</ShortRangeStratLaunch>
+  <ShortRangeStratLaunchDesc>Lanza un ataque con misil táctico en este mapa.</ShortRangeStratLaunchDesc>
+  <Showresearchbutton>Mostrar botón de investigación</Showresearchbutton>
+  <ShowresearchbuttonDesc>Añade un botón de investigación de Rimatomics a las pestañas principales. Si se desactiva, puedes abrirla desde la pestaña del banco de investigación.</ShowresearchbuttonDesc>
+  <TargetAllShells>Apuntar a todos los proyectiles</TargetAllShells>
+  <TargetEnemyShells>Apuntar a proyectiles enemigos</TargetEnemyShells>
+  <ThreatDetection>Detección de amenazas</ThreatDetection>
+  <ThreatDetectionToggle>Detección de amenazas</ThreatDetectionToggle>
+  <ThreatDetectionToggleDesc>Activa o desactiva el modo de detección de amenazas.</ThreatDetectionToggleDesc>
+  <TowerInVacuum>Inoperativa: vacío</TowerInVacuum>
+  <Weaponrankicons>Iconos de rango de armas</Weaponrankicons>
+  <WeaponrankiconsDesc>Muestra los iconos de rango de veterano en las armas energéticas al acercar la vista.</WeaponrankiconsDesc>
+  <nuclearFuelAllowNew>Permitir combustible nuevo</nuclearFuelAllowNew>
+  <nuclearFuelAllowUsed>Permitir combustible usado</nuclearFuelAllowUsed>
 </LanguageData>

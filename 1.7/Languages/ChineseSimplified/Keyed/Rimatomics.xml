@@ -29,9 +29,7 @@
   <!-- EN: Auto-throttle disengaged for {0} -->
   <AutothrotOff>关闭自动调节：{0}</AutothrotOff>
   <!-- EN: Grid excess must be within +/- 5000w to engage -->
-  <AutothrotRange>电网剩余电量必须在+/-5000w范围内才能接入</AutothrotRange>
   <!-- EN: Engage Auto-throttle\n\ncontrol flux level to match power net load, the grid excess on the power net that this console is connected to must be within +/- 5000w to engage -->
-  <AutothrotTip>开启自动调节\n\n控制中子通量水平以匹配电网负载，此控制台所连接的电网上的剩余电量必须在+/-5000w范围内才能接入</AutothrotTip>
   <!-- EN: Reactor and console ID do not match, each core requires its own console with a unique ID for auto-throttle -->
   <CoreIdMismatch>反应堆和控制台ID不匹配，每个堆芯都需要连接一个与之唯一ID对应的反应堆控制台以开启自动调节</CoreIdMismatch>
   <!-- EN: {0} Fuel Life -->
@@ -578,4 +576,30 @@
   <NoBenchAvailable>没有可用的「边缘核能」研究台</NoBenchAvailable>
   <!-- EN: Research Purchased! -->
   <ResearchPurchased>研究项目已购买！</ResearchPurchased>
+
+  <!-- 2026-10-23 -->
+  <AutothrotBand>{0}-{1}k</AutothrotBand>
+  <AutothrotBandDefault>{0}（默认）</AutothrotBandDefault>
+  <AutothrotBandOption>保持剩余电量在{0}至{1}</AutothrotBandOption>
+  <AutothrotBandTip>自动调节区间：剩余电量{0}至{1}。\n\n自动调节会将电网剩余电量保持在此区间内。区间越高，留给电池充电的余量越多。点击以更改。</AutothrotBandTip>
+  <AutothrotBatteries>电池电量{0}。</AutothrotBatteries>
+  <AutothrotChargeOff>停止优先为电池充电</AutothrotChargeOff>
+  <AutothrotChargeOn>优先为电池充电</AutothrotChargeOn>
+  <AutothrotCharging>正在为电池充电（电量{0}），充满前将保持在区间上方。</AutothrotCharging>
+  <AutothrotLost>关闭自动调节：{0}：控制台失去了与反应堆的连接，或反应堆已停止。</AutothrotLost>
+  <AutothrotRange>电网剩余电量必须在自动调节区间（{0}至{1}）的5000W范围内才能接入。</AutothrotRange>
+  <AutothrotState_Holding>保持中</AutothrotState_Holding>
+  <AutothrotState_Lowering>正在降低中子通量</AutothrotState_Lowering>
+  <AutothrotState_Off>关闭</AutothrotState_Off>
+  <AutothrotState_Overheating>堆芯过热，正在降低中子通量</AutothrotState_Overheating>
+  <AutothrotState_Raising>正在提高中子通量</AutothrotState_Raising>
+  <AutothrotState_Settling>等待反应堆稳定</AutothrotState_Settling>
+  <AutothrotState_TransformerLimit>变压器已满负荷</AutothrotState_TransformerLimit>
+  <AutothrotState_TurbineLimit>涡轮机已满负荷</AutothrotState_TurbineLimit>
+  <AutothrotState_WarmingUp>等待堆芯升温</AutothrotState_WarmingUp>
+  <AutothrotStatus>自动调节：{0}。\n{2}个电网的剩余电量为{1}，保持在{3}至{4}。</AutothrotStatus>
+  <AutothrotStatusOff>自动调节已关闭。</AutothrotStatusOff>
+  <AutothrotTip>开启自动调节\n\n自动调整中子通量，使此反应堆经由变压器供电的每个电网的剩余电量保持在{0}至{1}之间。</AutothrotTip>
+  <ChooseWhereToStrike>选择打击位置</ChooseWhereToStrike>
+  <TowerInVacuum>无法运作：真空</TowerInVacuum>
 </LanguageData>

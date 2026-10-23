@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ADSPain.label>主动驱敌灼痛</ADSPain.label>
+  <ADSPain.description>主动驱敌系统光束造成的皮肤剧烈灼痛。不会造成实际伤害，几小时内便会消退。</ADSPain.description>
+  <ADSPain.stages.0.label>轻微</ADSPain.stages.0.label>
+  <ADSPain.stages.1.label>中等</ADSPain.stages.1.label>
+  <ADSPain.stages.2.label>严重</ADSPain.stages.2.label>
+  <ADSPain.stages.3.label>极端</ADSPain.stages.3.label>
+</LanguageData>

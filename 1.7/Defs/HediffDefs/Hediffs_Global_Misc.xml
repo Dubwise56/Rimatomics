@@ -393,4 +393,42 @@
       </li>
     </stages>
   </HediffDef>
+
+  <!-- active denial system: burning pain, no injury, fades in a few hours (#24) -->
+  <HediffDef>
+    <hediffClass>HediffWithComps</hediffClass>
+    <defName>ADSPain</defName>
+    <label>active denial burn</label>
+    <description>Intense burning pain in the skin from an active denial system beam. It causes no real injury and fades within a few hours.</description>
+    <isBad>true</isBad>
+    <maxSeverity>1</maxSeverity>
+    <initialSeverity>0.001</initialSeverity>
+    <stages>
+      <li>
+        <label>minor</label>
+        <painOffset>0.1</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.25</minSeverity>
+        <label>moderate</label>
+        <painOffset>0.3</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.5</minSeverity>
+        <label>serious</label>
+        <painOffset>0.55</painOffset>
+      </li>
+      <li>
+        <minSeverity>0.75</minSeverity>
+        <label>extreme</label>
+        <painOffset>0.85</painOffset>
+      </li>
+    </stages>
+    <comps>
+      <li Class="HediffCompProperties_SeverityPerDay">
+        <severityPerDay>-4</severityPerDay>
+      </li>
+    </comps>
+  </HediffDef>
+
 </Defs>

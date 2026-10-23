@@ -224,4 +224,128 @@
   <TradeShipArrival>Прибытие торгового корабля: {0}</TradeShipArrival>
   <rimatomicsProto> Прототип</rimatomicsProto>
 
+  <!-- 2026-10-23 -->
+  <ATOMattackGround>по земле</ATOMattackGround>
+  <ATOMattackPods>в десантных капсулах</ATOMattackPods>
+  <ATOMdetection>Обнаружена угроза!</ATOMdetection>
+  <ATOMdetectionDesc>TACS обнаружила возможную угрозу: по оценке, {0} атакует {1} примерно через {2}</ATOMdetectionDesc>
+  <Alert_ResearchFacility>Нет исследовательского объекта</Alert_ResearchFacility>
+  <AnUnknownForce>неизвестная сила</AnUnknownForce>
+  <AutothrotBand>{0}-{1}k</AutothrotBand>
+  <AutothrotBandDefault>{0} (по умолчанию)</AutothrotBandDefault>
+  <AutothrotBandOption>Держать избыток от {0} до {1}</AutothrotBandOption>
+  <AutothrotBandTip>Диапазон автоуправления: избыток от {0} до {1}.\n\nАвтоуправление удерживает избыток энергосети в этом диапазоне. Более высокий диапазон оставляет запас энергии для зарядки батарей. Нажмите, чтобы изменить.</AutothrotBandTip>
+  <AutothrotBatteries>Батареи заряжены на {0}.</AutothrotBatteries>
+  <AutothrotChargeOff>Не заряжать батареи в первую очередь</AutothrotChargeOff>
+  <AutothrotChargeOn>Сначала заряжать батареи</AutothrotChargeOn>
+  <AutothrotCharging>Зарядка батарей ({0}), избыток удерживается выше диапазона до полной зарядки.</AutothrotCharging>
+  <AutothrotIDCount>Несколько ядер имеют ID {0}; для работы автоуправления у каждого ядра должен быть уникальный ID</AutothrotIDCount>
+  <AutothrotLost>Автоуправление {0} отключено: консоль потеряла связь с реактором или реактор остановлен.</AutothrotLost>
+  <AutothrotOff>Автоуправление {0} отключено</AutothrotOff>
+  <AutothrotOn>Автоуправление {0} включено</AutothrotOn>
+  <AutothrotRange>Для включения избыток энергосети должен быть в пределах 5000 W от диапазона автоуправления ({0} - {1}).</AutothrotRange>
+  <AutothrotState_Holding>удержание</AutothrotState_Holding>
+  <AutothrotState_Lowering>снижение потока</AutothrotState_Lowering>
+  <AutothrotState_Off>выкл.</AutothrotState_Off>
+  <AutothrotState_Overheating>перегрев ядра, снижение потока</AutothrotState_Overheating>
+  <AutothrotState_Raising>повышение потока</AutothrotState_Raising>
+  <AutothrotState_Settling>ожидание стабилизации реактора</AutothrotState_Settling>
+  <AutothrotState_TransformerLimit>трансформаторы на полной мощности</AutothrotState_TransformerLimit>
+  <AutothrotState_TurbineLimit>турбины на полной мощности</AutothrotState_TurbineLimit>
+  <AutothrotState_WarmingUp>ожидание прогрева ядра</AutothrotState_WarmingUp>
+  <AutothrotStatus>Автоуправление: {0}.\nИзбыток {1} в энергосетях ({2}), удержание от {3} до {4}.</AutothrotStatus>
+  <AutothrotStatusOff>Автоуправление выключено.</AutothrotStatusOff>
+  <AutothrotTip>Включить автоуправление.\n\nАвтоматически регулирует поток, удерживая избыток от {0} до {1} в каждой энергосети, которую питает этот реактор через свои трансформаторы.</AutothrotTip>
+  <BlueprintUpgradeDesc>Это улучшение чертежа: новые постройки будут получать его сразу, а существующие здания нужно улучшить вручную с помощью изготовленного модуля</BlueprintUpgradeDesc>
+  <BreederHotLoading>Горячая загрузка</BreederHotLoading>
+  <BreederHotLoadingDesc>Разрешить замену топлива при работающем ядре</BreederHotLoadingDesc>
+  <CancelICBMLaunch>Прервать запуск</CancelICBMLaunch>
+  <CancelICBMLaunchDesc>Прервать запуск</CancelICBMLaunchDesc>
+  <ChooseWhereToStrike>Выберите место удара</ChooseWhereToStrike>
+  <Clearalldesignations>Снять все приказы</Clearalldesignations>
+  <ControlRod>Управляющие стержни</ControlRod>
+  <CoolingTip>Охлаждение\n\nИспользуемая мощность охлаждения. Если шкала стала красной, добавьте охлаждение или снизьте мощность.</CoolingTip>
+  <CoreIdMismatch>ID реактора и консоли не совпадают. Для автоуправления каждому реактору нужна своя консоль с уникальным ID.</CoreIdMismatch>
+  <CoreNotBuilt>Не построено</CoreNotBuilt>
+  <Designateinstallall>Загрузить топливо во все слоты</Designateinstallall>
+  <Designateremoveall>Извлечь всё топливо</Designateremoveall>
+  <Designateremoveallprocessable>Извлечь всё перерабатываемое топливо</Designateremoveallprocessable>
+  <Designateremoveallspent>Извлечь всё отработанное топливо</Designateremoveallspent>
+  <DesignatorRemoveRimatomicsPipes>Разобрать трубы</DesignatorRemoveRimatomicsPipes>
+  <DesignatorRemoveRimatomicsPipesDesc>Отметить трубы для разборки</DesignatorRemoveRimatomicsPipesDesc>
+  <Detonating>Детонация...</Detonating>
+  <Dragtoincreasefluxlevel>Перетащите, чтобы повысить нейтронный поток и выработку энергии</Dragtoincreasefluxlevel>
+  <EnergyWeaponNeedConsole>Требуется подключение к оружейной консоли</EnergyWeaponNeedConsole>
+  <EnergyWeaponNeedsMannedConsole>Требуется управляемая оружейная консоль</EnergyWeaponNeedsMannedConsole>
+  <FacilityNoPower>Нет питания</FacilityNoPower>
+  <FlareScram>СТОП при вспышке</FlareScram>
+  <FlareScramDesc>ОСТАНОВКА реактора во время солнечных вспышек</FlareScramDesc>
+  <FuelLifeRange>Ресурс топлива: {0}</FuelLifeRange>
+  <FuelTip>Топливо\n\nОбщее количество топлива в ядре. Соседние топливные стержни усиливают цепную реакцию и дают больше энергии.\nВыработка топлива со временем снижается, пока стержень не истощится.</FuelTip>
+  <HighYieldWarhead>Большая мощность</HighYieldWarhead>
+  <HighYieldWarheadDesc>Запускает боеголовки большой мощности, вызывающие катастрофический взрыв на огромной площади. Ожидайте масштабных разрушений: надёжную защиту дадут разве что глубокие горные бункеры.</HighYieldWarheadDesc>
+  <ICBMLaunchCancelled>Запуск ракеты прерван</ICBMLaunchCancelled>
+  <KillCounter>Убийств: {0}</KillCounter>
+  <LongRangeStratLaunch>Стратегический запуск</LongRangeStratLaunch>
+  <LongRangeStratLaunchDesc>Нанести стратегический ракетный удар по любой точке этой планеты.</LongRangeStratLaunchDesc>
+  <LowYieldWarhead>Малая мощность</LowYieldWarhead>
+  <LowYieldWarheadDesc>Запускает боеголовки малой мощности для небольшого тактического взрыва с меньшим сопутствующим ущербом.</LowYieldWarheadDesc>
+  <Mannedreactorconsole>Управляемая консоль реактора</Mannedreactorconsole>
+  <MannedreactorconsoleDesc>Для открытия окна управления за консолью реактора должна находиться пешка. Если отключено, окно можно открыть кнопкой.</MannedreactorconsoleDesc>
+  <MessageRailgunCantTargetMyMap>Нельзя выбрать целью свою карту.</MessageRailgunCantTargetMyMap>
+  <MissingPESUpgrades>Если активен Preemptive Strike, исследование обнаружения небесных объектов в нём должно быть завершено, прежде чем ATOM сможет обнаруживать десантные капсулы. Глушители продолжат работать как обычно.</MissingPESUpgrades>
+  <MissingPPC>Отсутствует импульсный контейнер энергии</MissingPPC>
+  <NextResearchStep>Следующий шаг:</NextResearchStep>
+  <NoActiveBenchWithProject>Нет активного стола с нужным проектом.</NoActiveBenchWithProject>
+  <NoBenchAvailable>Нет доступного исследовательского стола Rimatomics</NoBenchAvailable>
+  <NoSabotToExtract>Нет БПС снарядов для извлечения</NoSabotToExtract>
+  <NoStandableCell>Нет свободной соседней клетки</NoStandableCell>
+  <NonBlueprintUpgrade></NonBlueprintUpgrade>
+  <PodsScrambledDesc>TACS подавила системы наведения вражеских десантных капсул импульсом {0} кВт.</PodsScrambledDesc>
+  <PodsScrambledFail>Не удалось подавить вражеские десантные капсулы</PodsScrambledFail>
+  <PodsScrambledFailDesc>Для подавления этого налёта нужен импульс {0} кВт, но его не было в наличии.</PodsScrambledFailDesc>
+  <PodsScrambledOK>TACS подавила вражеские десантные капсулы</PodsScrambledOK>
+  <PoolLoading>Загрузка</PoolLoading>
+  <PoolUnloading>Выгрузка</PoolUnloading>
+  <PowerTip>Мощность\n\nВыходная мощность реактора. Не учитывает, сколько энергии фактически передаётся через турбины и трансформаторы.</PowerTip>
+  <ProjectInitiated>Проект начат</ProjectInitiated>
+  <ProjectTerminated>Проект прекращён</ProjectTerminated>
+  <PuCreated>Pu: {0}</PuCreated>
+  <PulseSize>Импульс: {0} Wd / Урон: {1}</PulseSize>
+  <RadiationTip>Радиация\n\nПовреждённое ядро излучает радиацию. Излучение растёт по мере снижения целостности ядра.</RadiationTip>
+  <ReactorAlert>Тревога реактора!</ReactorAlert>
+  <ReactorUptime>Время работы: {0}</ReactorUptime>
+  <RequiresFacility>Для текущего шага требуется: {0}</RequiresFacility>
+  <ResearchPurchased>Исследование приобретено!</ResearchPurchased>
+  <RimatomLife>Ресурс</RimatomLife>
+  <Rimatomics.LowCoolingCapacity>Слабое охлаждение реактора</Rimatomics.LowCoolingCapacity>
+  <Rimatomics.LowCoolingCapacityDesc>Система охлаждения реактора работает на пониженной мощности\n\nНад башнями не должно быть крыши, водяным охладителям нужно достаточно открытой воды, а при режиме связи с Bad Hygiene убедитесь, что градирни заполнены водой</Rimatomics.LowCoolingCapacityDesc>
+  <Rimatomics.MissingFacility>Нет объекта</Rimatomics.MissingFacility>
+  <RimatomicsValveLabel>Переключить клапан</RimatomicsValveLabel>
+  <RimatomicsValveLabelDesc>Открыть или закрыть клапан</RimatomicsValveLabelDesc>
+  <ScadLivesMatter>Прочность SCAD: {0}</ScadLivesMatter>
+  <ScrambleDropPods>Подавление капсул</ScrambleDropPods>
+  <ScrambleDropPodsDesc>Не даёт налётчикам высаживаться рядом с центром карты: мощный энергетический импульс от подключённых ИКЭ подавляет системы наведения приближающихся десантных капсул.</ScrambleDropPodsDesc>
+  <ShortRangeStratLaunch>Тактический запуск</ShortRangeStratLaunch>
+  <ShortRangeStratLaunchDesc>Нанести тактический ракетный удар по этой карте.</ShortRangeStratLaunchDesc>
+  <Showresearchbutton>Кнопка исследований</Showresearchbutton>
+  <ShowresearchbuttonDesc>Добавить кнопку исследований Rimatomics на главную панель вкладок. Если отключено, их можно открыть из вкладки исследовательского стола.</ShowresearchbuttonDesc>
+  <SiloMissingPart>Требуется деталь: {0}</SiloMissingPart>
+  <TargetAllShells>Цель: все снаряды</TargetAllShells>
+  <TargetEnemyShells>Цель: вражеские снаряды</TargetEnemyShells>
+  <TemperatureTip>Температура\n\nВысокая температура может повредить ядро и расколоть топливные стержни. Если прочность ядра упадёт до 0 при нормальной рабочей температуре или выше, оно взорвётся.</TemperatureTip>
+  <ThreatDetection>Обнаружение угроз</ThreatDetection>
+  <ThreatDetectionToggle>Обнаружение угроз</ThreatDetectionToggle>
+  <ThreatDetectionToggleDesc>Переключить режим обнаружения угроз.</ThreatDetectionToggleDesc>
+  <TowerInVacuum>Не работает: вакуум</TowerInVacuum>
+  <TurbineTip>Турбина\n\nИспользуемая мощность турбин. Если шкала стала красной, добавьте турбины или снизьте мощность.\n\nТурбинам также нужны трансформаторы для передачи энергии в обычные энергосети.</TurbineTip>
+  <UnsafeFacility>Небезопасный объект</UnsafeFacility>
+  <VeteranBonus>  Бонус: перезарядка -{0}%</VeteranBonus>
+  <Weaponrankicons>Значки рангов оружия</Weaponrankicons>
+  <WeaponrankiconsDesc>Показывать значки ветеранских рангов на энергетическом оружии при приближении.</WeaponrankiconsDesc>
+  <critControlRod>Управляющие стержни</critControlRod>
+  <critTargetRod>Стержни до</critTargetRod>
+  <fuelCracked>Трещина!</fuelCracked>
+  <nuclearFuelAllowNew>Разрешить новое топливо</nuclearFuelAllowNew>
+  <nuclearFuelAllowUsed>Разрешить использованное топливо</nuclearFuelAllowUsed>
 </LanguageData>

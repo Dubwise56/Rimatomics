@@ -263,4 +263,75 @@
   <NoBenchAvailable>Pas de banc de recherche Rimatomics disponible</NoBenchAvailable>
   <ResearchPurchased>Recherche achetée!</ResearchPurchased>
 
+  <!-- 2026-10-23 -->
+  <AutothrotBand>{0}-{1}k</AutothrotBand>
+  <AutothrotBandDefault>{0} (par défaut)</AutothrotBandDefault>
+  <AutothrotBandOption>Maintenir un surplus de {0} à {1}</AutothrotBandOption>
+  <AutothrotBandTip>Plage de régulation automatique : surplus de {0} à {1}.\n\nLa régulation automatique maintient le surplus du réseau électrique dans cette plage. Une plage plus haute laisse de l'énergie disponible pour charger les batteries. Cliquez pour modifier.</AutothrotBandTip>
+  <AutothrotBatteries>Batteries chargées à {0}.</AutothrotBatteries>
+  <AutothrotChargeOff>Ne plus charger les batteries en priorité</AutothrotChargeOff>
+  <AutothrotChargeOn>Charger les batteries en priorité</AutothrotChargeOn>
+  <AutothrotCharging>Charge des batteries ({0} chargées), maintien au-dessus de la plage jusqu'à charge complète.</AutothrotCharging>
+  <AutothrotIDCount>Plusieurs noyaux réglés sur {0}, chaque noyau doit avoir un ID unique pour activer la régulation automatique</AutothrotIDCount>
+  <AutothrotLost>Régulation automatique désactivée pour {0} : la console a perdu son réacteur ou le réacteur s'est arrêté.</AutothrotLost>
+  <AutothrotOff>Régulation automatique désactivée pour {0}</AutothrotOff>
+  <AutothrotOn>Régulation automatique activée pour {0}</AutothrotOn>
+  <AutothrotRange>Le surplus du réseau électrique doit être à moins de 5000 W de la plage de régulation automatique ({0} à {1}) pour l'activer.</AutothrotRange>
+  <AutothrotState_Holding>maintien</AutothrotState_Holding>
+  <AutothrotState_Lowering>baisse du flux</AutothrotState_Lowering>
+  <AutothrotState_Off>désactivée</AutothrotState_Off>
+  <AutothrotState_Overheating>surchauffe du noyau, baisse du flux</AutothrotState_Overheating>
+  <AutothrotState_Raising>hausse du flux</AutothrotState_Raising>
+  <AutothrotState_Settling>attente de stabilisation du réacteur</AutothrotState_Settling>
+  <AutothrotState_TransformerLimit>transformateurs à pleine capacité</AutothrotState_TransformerLimit>
+  <AutothrotState_TurbineLimit>turbines à pleine capacité</AutothrotState_TurbineLimit>
+  <AutothrotState_WarmingUp>attente de la montée en température du noyau</AutothrotState_WarmingUp>
+  <AutothrotStatus>Régulation automatique : {0}.\nSurplus de {1} sur {2} réseau(x) électrique(s), maintien de {3} à {4}.</AutothrotStatus>
+  <AutothrotStatusOff>Régulation automatique désactivée.</AutothrotStatusOff>
+  <AutothrotTip>Activer la régulation automatique.\n\nAjuste automatiquement le flux pour maintenir le surplus entre {0} et {1} sur chaque réseau électrique alimenté par ce réacteur via ses transformateurs.</AutothrotTip>
+  <BreederHotLoading>Chargement à chaud</BreederHotLoading>
+  <BreederHotLoadingDesc>Permet de changer le combustible pendant que le noyau fonctionne</BreederHotLoadingDesc>
+  <ChooseWhereToStrike>Choisir où frapper</ChooseWhereToStrike>
+  <Clearalldesignations>Annuler toutes les désignations</Clearalldesignations>
+  <CoreIdMismatch>Les ID du réacteur et de la console ne correspondent pas. Chaque réacteur a besoin de sa propre console avec un ID unique pour la régulation automatique.</CoreIdMismatch>
+  <Designateinstallall>Installer du combustible dans tous les emplacements</Designateinstallall>
+  <Designateremoveall>Retirer tout le combustible</Designateremoveall>
+  <Designateremoveallprocessable>Retirer tout le combustible retraitable</Designateremoveallprocessable>
+  <Designateremoveallspent>Retirer tout le combustible usé</Designateremoveallspent>
+  <FlareScram>SCRAM sur éruption</FlareScram>
+  <FlareScramDesc>SCRAM le réacteur pendant les éruptions solaires</FlareScramDesc>
+  <FuelLifeRange>Durée de vie du combustible : {0}</FuelLifeRange>
+  <HighYieldWarhead>Forte puissance</HighYieldWarhead>
+  <HighYieldWarheadDesc>Lance des ogives de forte puissance qui provoquent une explosion catastrophique sur une zone immense. Attendez-vous à des destructions généralisées : seuls les bunkers creusés profondément dans la montagne offriront probablement une réelle protection.</HighYieldWarheadDesc>
+  <LongRangeStratLaunch>Lancement stratégique</LongRangeStratLaunch>
+  <LongRangeStratLaunchDesc>Lancer une frappe de missile stratégique n'importe où sur cette planète.</LongRangeStratLaunchDesc>
+  <LowYieldWarhead>Faible puissance</LowYieldWarhead>
+  <LowYieldWarheadDesc>Lance des ogives de faible puissance pour une explosion tactique plus petite, avec moins de dégâts collatéraux.</LowYieldWarheadDesc>
+  <Mannedreactorconsole>Console du réacteur occupée</Mannedreactorconsole>
+  <MannedreactorconsoleDesc>Exige qu'un colon occupe la console du réacteur pour ouvrir la fenêtre de contrôle. Si désactivé, la fenêtre peut être ouverte via un bouton.</MannedreactorconsoleDesc>
+  <MissingPESUpgrades>Si Preemptive Strike est actif, sa recherche de détection d'objets aériens doit être terminée avant que l'ATOM puisse détecter les modules de largage entrants. Les brouilleurs fonctionneront toujours normalement.</MissingPESUpgrades>
+  <NextResearchStep>Étape suivante :</NextResearchStep>
+  <PoolLoading>Chargement</PoolLoading>
+  <PoolUnloading>Déchargement</PoolUnloading>
+  <ReactorAlert>Alerte réacteur !</ReactorAlert>
+  <RimatomLife>Durée de vie</RimatomLife>
+  <Rimatomics.LowCoolingCapacity>Refroidissement du réacteur faible</Rimatomics.LowCoolingCapacity>
+  <Rimatomics.LowCoolingCapacityDesc>Un bâtiment de refroidissement du réacteur fonctionne à capacité réduite\n\nLes tours doivent être à ciel ouvert, les refroidisseurs à eau ont besoin de suffisamment d'eau de surface, et si vous utilisez le mode de liaison avec Bad Hygiene, assurez-vous que les tours de refroidissement sont remplies d'eau</Rimatomics.LowCoolingCapacityDesc>
+  <Rimatomics.MissingFacility>Installation manquante</Rimatomics.MissingFacility>
+  <RimatomicsValveLabel>Basculer la valve</RimatomicsValveLabel>
+  <RimatomicsValveLabelDesc>Ouvrir ou fermer la valve</RimatomicsValveLabelDesc>
+  <ShortRangeStratLaunch>Lancement tactique</ShortRangeStratLaunch>
+  <ShortRangeStratLaunchDesc>Lancer une frappe de missile tactique sur cette carte.</ShortRangeStratLaunchDesc>
+  <Showresearchbutton>Afficher le bouton de recherche</Showresearchbutton>
+  <ShowresearchbuttonDesc>Ajoute un bouton de recherche Rimatomics aux onglets principaux. Si désactivé, vous pouvez toujours l'ouvrir depuis l'onglet du banc de recherche.</ShowresearchbuttonDesc>
+  <TargetAllShells>Cibler tous les obus</TargetAllShells>
+  <TargetEnemyShells>Cibler les obus ennemis</TargetEnemyShells>
+  <ThreatDetection>Détection des menaces</ThreatDetection>
+  <ThreatDetectionToggle>Détection des menaces</ThreatDetectionToggle>
+  <ThreatDetectionToggleDesc>Activer ou désactiver le mode de détection des menaces.</ThreatDetectionToggleDesc>
+  <TowerInVacuum>Inopérant : vide</TowerInVacuum>
+  <Weaponrankicons>Icônes de rang des armes</Weaponrankicons>
+  <WeaponrankiconsDesc>Afficher les icônes de rang de vétéran sur les armes à énergie en vue rapprochée.</WeaponrankiconsDesc>
+  <nuclearFuelAllowNew>Autoriser le combustible neuf</nuclearFuelAllowNew>
+  <nuclearFuelAllowUsed>Autoriser le combustible usé</nuclearFuelAllowUsed>
 </LanguageData>

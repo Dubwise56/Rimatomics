@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ADSPain.label>brûlure de l'ADS</ADSPain.label>
+  <ADSPain.description>Douleur de brûlure intense de la peau causée par le faisceau d'un système de déni actif (ADS). Elle ne cause aucune blessure réelle et s'estompe en quelques heures.</ADSPain.description>
+  <ADSPain.stages.0.label>mineure</ADSPain.stages.0.label>
+  <ADSPain.stages.1.label>modérée</ADSPain.stages.1.label>
+  <ADSPain.stages.2.label>sérieuse</ADSPain.stages.2.label>
+  <ADSPain.stages.3.label>extrême</ADSPain.stages.3.label>
+</LanguageData>

@@ -15,8 +15,6 @@
   <AutothrotIDCount>Více jader nastaveno na {0}, každé jádro musí mít unikátní ID pro aktivaci automatické regulace výkonu</AutothrotIDCount>
   <AutothrotOn>Automatická regulace výkonu zapnuta pro reaktor {0}</AutothrotOn>
   <AutothrotOff>Automatická regulace výkonu vypnuta pro reaktor {0}</AutothrotOff>
-  <AutothrotRange>Přebytek/nedostatek elektřiny v síti musí být +/- 5000w pro aktivaci</AutothrotRange>
-  <AutothrotTip>Zapne automatickou regulaci\n\nUpravuje tok neutronů pro řízení výkonu a tedy i produkce elektřiny na základě zatížení elektrické sítě. Přebytek či nedostatek elektřiny musí být na síti připojené k této konzoli nejvýše 5000 MW pro možnost aktivace</AutothrotTip>
   <CoreIdMismatch>ID reaktoru a konzole se liší, každé jádro pro automatickou regulaci výkonu potřebuje svou vlastní konzoli a unikátní ID.</CoreIdMismatch>
   <FuelLifeRange>Životnost paliva:{0}</FuelLifeRange>
   <PoolLoading>Vkládání</PoolLoading>
@@ -306,4 +304,30 @@
   <ProjectTerminated>Projekt ukončen</ProjectTerminated>
   <NoBenchAvailable>Není dostupné výzkumné stanoviště Rimatomics</NoBenchAvailable>
   <ResearchPurchased>Výzkum zakoupen!</ResearchPurchased>
+
+  <!-- 2026-10-23 -->
+  <AutothrotBand>{0}-{1}k</AutothrotBand>
+  <AutothrotBandDefault>{0} (výchozí)</AutothrotBandDefault>
+  <AutothrotBandOption>Držet přebytek {0} až {1}</AutothrotBandOption>
+  <AutothrotBandTip>Pásmo automatické regulace: přebytek {0} až {1}.\n\nAutomatická regulace výkonu udržuje přebytek elektřiny v síti v tomto pásmu. Vyšší pásmo ponechá volný výkon pro nabíjení baterií. Klikni pro změnu.</AutothrotBandTip>
+  <AutothrotBatteries>Baterie nabity na {0}.</AutothrotBatteries>
+  <AutothrotChargeOff>Přestat přednostně nabíjet baterie</AutothrotChargeOff>
+  <AutothrotChargeOn>Přednostně nabíjet baterie</AutothrotChargeOn>
+  <AutothrotCharging>Nabíjí baterie (nabity na {0}), drží výkon nad pásmem, dokud nebudou plné.</AutothrotCharging>
+  <AutothrotLost>Automatická regulace výkonu vypnuta pro {0}: konzole ztratila spojení s reaktorem nebo se reaktor zastavil.</AutothrotLost>
+  <AutothrotRange>Pro aktivaci musí být přebytek elektřiny v síti nejvýše 5000 W od pásma automatické regulace ({0} až {1}).</AutothrotRange>
+  <AutothrotState_Holding>drží</AutothrotState_Holding>
+  <AutothrotState_Lowering>snižuje tok neutronů</AutothrotState_Lowering>
+  <AutothrotState_Off>vypnuto</AutothrotState_Off>
+  <AutothrotState_Overheating>jádro se přehřívá, snižuje tok neutronů</AutothrotState_Overheating>
+  <AutothrotState_Raising>zvyšuje tok neutronů</AutothrotState_Raising>
+  <AutothrotState_Settling>čeká na ustálení reaktoru</AutothrotState_Settling>
+  <AutothrotState_TransformerLimit>transformátory na plné kapacitě</AutothrotState_TransformerLimit>
+  <AutothrotState_TurbineLimit>turbíny na plné kapacitě</AutothrotState_TurbineLimit>
+  <AutothrotState_WarmingUp>čeká na zahřátí jádra</AutothrotState_WarmingUp>
+  <AutothrotStatus>Automatická regulace výkonu: {0}.\nPřebytek {1} v {2} síti/sítích, drží {3} až {4}.</AutothrotStatus>
+  <AutothrotStatusOff>Automatická regulace výkonu vypnuta.</AutothrotStatusOff>
+  <AutothrotTip>Zapne automatickou regulaci výkonu.\n\nAutomaticky upravuje tok neutronů tak, aby přebytek elektřiny zůstal mezi {0} a {1} v každé síti, kterou tento reaktor napájí přes své transformátory.</AutothrotTip>
+  <ChooseWhereToStrike>Vyber místo úderu</ChooseWhereToStrike>
+  <TowerInVacuum>Mimo provoz: vakuum</TowerInVacuum>
 </LanguageData>

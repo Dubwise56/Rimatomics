@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ADSPain.label>oparzenie ADS</ADSPain.label>
+  <ADSPain.description>Intensywny, piekący ból skóry wywołany wiązką Aktywnego Systemu Odmowy (ADS). Nie powoduje faktycznych obrażeń i ustępuje w ciągu kilku godzin.</ADSPain.description>
+  <ADSPain.stages.0.label>niewielkie</ADSPain.stages.0.label>
+  <ADSPain.stages.1.label>umiarkowane</ADSPain.stages.1.label>
+  <ADSPain.stages.2.label>poważne</ADSPain.stages.2.label>
+  <ADSPain.stages.3.label>skrajne</ADSPain.stages.3.label>
+</LanguageData>

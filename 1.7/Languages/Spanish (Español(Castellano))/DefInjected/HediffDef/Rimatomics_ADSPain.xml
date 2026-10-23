@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <ADSPain.label>quemadura de ADS</ADSPain.label>
+  <ADSPain.description>Intenso dolor ardiente en la piel causado por el haz de un sistema de negación activa (ADS). No provoca heridas reales y desaparece en pocas horas.</ADSPain.description>
+  <ADSPain.stages.0.label>leve</ADSPain.stages.0.label>
+  <ADSPain.stages.1.label>moderada</ADSPain.stages.1.label>
+  <ADSPain.stages.2.label>grave</ADSPain.stages.2.label>
+  <ADSPain.stages.3.label>extrema</ADSPain.stages.3.label>
+</LanguageData>
